@@ -393,13 +393,13 @@ def main():
 
     print("providers written: %d (reused apis.io: %d, minimal from all/: %d, skipped: %d)"
           % (reused + minimal, reused, minimal, skipped))
-    write_tombstones()
+    write_tombstones(prune_loops=not (args.only or args.limit))
 
 
 RETIRED_YML = os.path.join(ROOT, "api-search", "network", "_data", "retired.yml")
 
 
-def write_tombstones():
+def write_tombstones(prune_loops=False):
     """Replace pages for retired slugs with a redirect stub.
 
     This build does NOT prune: a provider retired out of all/* keeps its page here forever,
@@ -415,6 +415,16 @@ def write_tombstones():
 
     Idempotent, and re-run on every build, so a retirement cannot decay back into a stale
     profile page.
+
+    A row merged into ITSELF is not a retirement of the company (roadmap#1088). retired.yml holds
+    thousands of them: autotombstone_drops.py writes one when a live provider's API pages move,
+    and its target is correct on apis.io, where /providers/<slug>/ is a separate real page. Here
+    that path IS this page, so the stub refreshed to itself forever and the profile never opened.
+    Such a row writes nothing, and the page dump() wrote stands. A delisted self-row stays gone:
+    main() prunes that page and nothing here writes it back.
+
+    A loop left by an earlier build, for a slug dump() did not rewrite, is removed on a full run,
+    because a 404 is honest and a page that never opens is not.
     """
     if not os.path.isfile(RETIRED_YML):
         print("tombstones:   skipped (no retired.yml at %s)" % RETIRED_YML)
@@ -429,11 +439,15 @@ def write_tombstones():
     written = 0
     restored = 0
     orphaned = []
+    self_rows = set()
     for entry in entries:
         if not isinstance(entry, dict):
             continue
         slug, survivor = entry.get("slug"), entry.get("merged_into")
         if not slug or not survivor:
+            continue
+        if slug == survivor:
+            self_rows.add(slug)
             continue
         # WRITTEN WHETHER OR NOT A PAGE IS THERE TO REPLACE (roadmap#216).
         #
@@ -473,6 +487,18 @@ def write_tombstones():
     # run. A nonzero count on a normal build means a same-cycle retirement was caught, which is
     # the case that used to 404 silently.
     print("tombstones:   %d retired slug(s) redirected (%d newly written)" % (written, restored))
+    loops = []
+    for slug in sorted(self_rows):
+        page = os.path.join(OUT, "%s.md" % slug)
+        if os.path.isfile(page):
+            with open(page, encoding="utf-8") as fh:
+                if "redirect_to: /providers/%s/\n" % slug in fh.read(300):
+                    loops.append(page)
+    if prune_loops:
+        for page in loops:
+            os.remove(page)
+    print("tombstones:   %d self-merged row(s) kept as live pages, %d looping stub(s) %s"
+          % (len(self_rows), len(loops), "removed" if prune_loops else "left (scoped run)"))
     if orphaned:
         print("tombstones:   %d skipped — survivor has no page: %s"
               % (len(orphaned), ", ".join(orphaned[:5]) + (" …" if len(orphaned) > 5 else "")))
