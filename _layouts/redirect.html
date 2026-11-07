@@ -1,17 +1,28 @@
 <!-- Tombstone layout for retired/merged pages. Plugin-free (github-pages
      ignores _plugins, and jekyll-redirect-from is not enabled), so this is a
      plain meta-refresh + canonical, which works on GitHub Pages and on the
-     S3/CloudFront sites alike. Set `redirect_to` in a page's front matter. -->
+     S3/CloudFront sites alike. Set `redirect_to` in a page's front matter.
+
+     `redirect_to` may be SITE-RELATIVE (/providers/x/) or ABSOLUTE
+     (https://apis.io/providers/x/). It has to take both: a provider that is live
+     but has no all/<slug>/apis.yml for this site to build from is served by
+     apis.io, and its record genuinely lives on another host. Prefixing site.url
+     onto an absolute URL produced
+     "https://providers.apievangelist.comhttps://apis.io/..." in the canonical and
+     in the visible link, so `target` below is resolved once and used everywhere
+     the full URL is needed. The meta-refresh takes redirect_to as given, which
+     works for both forms. -->
+{% if page.redirect_to contains "://" %}{% assign target = page.redirect_to %}{% else %}{% assign target = site.url | append: page.redirect_to %}{% endif %}
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
 <meta name="robots" content="noindex, follow">
-<link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
+<link rel="canonical" href="{{ target }}">
 <title>Redirecting to {{ page.redirect_to }}</title>
 </head>
 <body>
-<p>This page has moved to <a href="{{ page.redirect_to }}">{{ site.url }}{{ page.redirect_to }}</a>.</p>
+<p>This page has moved to <a href="{{ page.redirect_to }}">{{ target }}</a>.</p>
 </body>
 </html>
