@@ -446,6 +446,21 @@ def write_tombstones(prune_loops=False):
         slug, survivor = entry.get("slug"), entry.get("merged_into")
         if not slug or not survivor:
             continue
+        # YAML TYPES THE VALUE, NOT THE FIELD, and one row is `slug: 21` -- which parses as
+        # the int 21, not "21". So self_rows ended up a set of 3,591 strings with a single int
+        # in it, and `sorted(self_rows)` below raised
+        #   TypeError: '<' not supported between instances of 'int' and 'str'
+        # That crashed write_tombstones() on EVERY build since the prune shipped (roadmap#1088,
+        # 2026-11-02) -- after the redirects were written but before the prune ran -- which is
+        # the whole reason 3,591 self-redirect loops stayed live on the site for five weeks.
+        # The crash was invisible because the phase prints its "retired slug(s) redirected"
+        # line first and the traceback went to a log nobody read.
+        #
+        # COERCE BOTH, never just one: `str(slug) == survivor` is False for that row, so
+        # coercing only the slug would reclassify it as a real retirement and write it a
+        # tombstone pointing at /providers/21/ -- its own URL. That turns the bug into a new
+        # instance of the bug.
+        slug, survivor = str(slug), str(survivor)
         if slug == survivor:
             self_rows.add(slug)
             continue
