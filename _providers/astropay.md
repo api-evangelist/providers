@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 20
 apis:
 - description: Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported local payment methods. Backs merchant pay-in flo
@@ -250,10 +252,10 @@ overview: 'AstroPay is listed with 20 APIs on the [APIs.io](https://apis.io/) ne
   AstroPay''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, support, signup flow, and 22 more developer resources.'
 random_paper: 19
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 16.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -264,9 +266,9 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 66.7
+    developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 44.7
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -276,18 +278,19 @@ score:
     - colombia
     - mexico
     - peru
+    - uruguay
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 26.7
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API reference for AI API Pricing.
@@ -150,7 +165,7 @@ modified: '2026-10-29'
 name: slxd-app
 nav: Providers
 network: true
-overview: 'slxd-app is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning, Education, SaaS, and Platform.
+overview: 'slxd-app is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning, Education, Software-as-a-Service, and Platform.
 
 
   The slxd-app catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -177,42 +192,51 @@ scopes:
   slug: slxd-app-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 34.2
+  band: emerging
+  composite: 22.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 23
     catalog_earned: 37.8
     catalog_earned_first_party: 0.0
     catalog_gap: 77.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 10.7
-    developer_ergonomics: 35.7
-    discoverability: 56.7
-    operational_transparency: 36.8
+    developer_ergonomics: 17.9
+    discoverability: 60.0
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/slxd-app/slxd-app-2026-11-03T143333.png
 security:
 - kind: authentication
   name: Slxd App Authentication
@@ -227,7 +251,7 @@ tags:
 - Company
 - Learning
 - Education
-- SaaS
+- Software-as-a-Service
 - Platform
 - Collaboration
 website: https://slxd.app/

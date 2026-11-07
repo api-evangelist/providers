@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.3
-  scored_at: '2026-10-31'
+  score: 6.5
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Crexi Exchange API is Crexi's partner-facing REST API, documented in a Theneo-published portal at api-docs.crexi.com (password protected) and fronted by a Swagger UI gateway at exchange.crexi.com.
@@ -189,9 +190,9 @@ scopes:
   summary_line: 2 scopes · password/refresh_token/switch_user/single_use_token_exchange
 score:
   band: thin
-  composite: 34.3
+  composite: 34.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -203,8 +204,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 61.7
-    operational_transparency: 21.1
+    discoverability: 69.6
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -212,7 +213,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.3
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -222,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

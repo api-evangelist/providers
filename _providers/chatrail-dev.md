@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.9
-  scored_at: '2026-10-31'
+  score: 53.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 5
@@ -289,7 +302,7 @@ modified: '2026-10-30'
 name: chatrail-dev
 nav: Providers
 network: true
-overview: 'chatrail-dev publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Billing API, and 11 more. Tagged areas include WhatsApp, API, Messaging, AI, and Developers.
+overview: 'chatrail-dev publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Billing API, and 11 more. Tagged areas include WhatsApp, Messaging, Artificial Intelligence, and Developers.
 
 
   The chatrail-dev catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -320,34 +333,48 @@ scopes:
   slug: chatrail-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.9
+  band: developing
+  composite: 45.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    artifact_dirs: 26
+    catalog_earned: 45.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -13.7
   facets:
-    access_clarity: 47.4
-    contract_governance: 79.1
-    contract_quality: 46.4
-    developer_ergonomics: 70.7
-    discoverability: 65.0
-    operational_transparency: 74.2
+    access_clarity: 27.6
+    contract_governance: 22.0
+    contract_quality: 49.4
+    developer_ergonomics: 48.1
+    discoverability: 56.7
+    operational_transparency: 48.7
+  previous_composite: 59.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/chatrail-dev/chatrail-dev-2026-11-03T123916.png
 security:
 - kind: authentication
   name: Chatrail Dev Authentication
@@ -372,9 +399,8 @@ skills:
 slug: chatrail-dev
 tags:
 - WhatsApp
-- API
 - Messaging
-- AI
+- Artificial Intelligence
 - Developers
 website: https://chatrail.dev/
 ---

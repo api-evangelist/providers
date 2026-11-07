@@ -1,23 +1,39 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: unknown
-    idempotency: false
-    mcp_server: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
-    operation_distinctiveness: distinct
+    operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 66.1
-  scored_at: '2026-10-31'
+  score: 61.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -71,12 +87,67 @@ apis:
   description: Webhook subscription management
   name: pictify-io Webhooks API
   slug: pictify-io-webhooks-api
-artifact_total: 27
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The Gif API from pictify-io — 3 operation(s) for gif.
+  name: pictify-io Gif API
+  slug: pictify-io-gif-api
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The Image API from pictify-io — 3 operation(s) for image.
+  name: pictify-io Image API
+  slug: pictify-io-image-api
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The Pdf API from pictify-io — 3 operation(s) for pdf.
+  name: pictify-io PDF API
+  slug: pictify-io-pdf-api
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The R API from pictify-io — 1 operation(s) for r.
+  name: pictify-io R API
+  slug: pictify-io-r-api
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The Video API from pictify-io — 5 operation(s) for video.
+  name: pictify-io Video API
+  slug: pictify-io-video-api
+- baseURL: https://api.pictify.io
+  baseurl_source: declared
+  description: The Webhook Subscriptions API from pictify-io — 2 operation(s) for webhook subscriptions.
+  name: pictify-io Webhook Subscriptions API
+  slug: pictify-io-webhook-subscriptions-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Pictify Io Webhooks
   slug: pictify-io-webhooks
 common:
+- group: operate
+  href: https://artifacts.apis.io/pictify-io/rate-limits/pictify-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pictify-io-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/pictify-io/conventions/pictify-io-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/pictify-io-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/pictify-io/conventions/pictify-io-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/pictify-io-conventions.yml
+- group: build
+  href: https://artifacts.apis.io/pictify-io/packages/pictify-io-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/pictify-io-packages.yml
+- group: build
+  href: https://artifacts.apis.io/pictify-io/packages/pictify-io-packages.yml
+  title: ''
+  type: Packages
+  url: packages/pictify-io-packages.yml
 - group: agent
   href: https://artifacts.apis.io/pictify-io/agentic-access/pictify-io-agentic-access.yml
   title: ''
@@ -237,12 +308,51 @@ created: '2026-10-31'
 description: Pictify provides an API-first templated media platform that generates images, PDFs, GIFs, and videos from HTML templates. Users can supply data via code, spreadsheets, webhooks, or AI agents to produce personalized certificates, badges, reports, or videos. The service offers free tier access, SDKs for Node and Python, and integrations with Zapier, Make, n8n, plus an MCP server for AI agents. It supports batch rendering, per-row status tracking, and CDN-hosted outputs.
 image: https://pictify.io/og/v2/home.png
 json_schemas:
+- name: BatchRenderRequest
+  property_count: 6
+  slug: pictify-io-batch-render-request
+- name: BatchResponse
+  property_count: 4
+  slug: pictify-io-batch-response
+- name: BatchStatus
+  property_count: 10
+  slug: pictify-io-batch-status
+- name: Binding
+  property_count: 11
+  slug: pictify-io-binding
 - name: GetTemplatesResponse
   property_count: 2
   slug: pictify-io-get-templates-response
 - name: GetTemplatesUidRenderResponse
   property_count: 6
   slug: pictify-io-get-templates-uid-render-response
+- name: GifCaptureRequest
+  property_count: 5
+  slug: pictify-io-gif-capture-request
+- name: GifRequest
+  property_count: 6
+  slug: pictify-io-gif-request
+- name: GifResponse
+  property_count: 1
+  slug: pictify-io-gif-response
+- name: ImageRequest
+  property_count: 8
+  slug: pictify-io-image-request
+- name: ImageResponse
+  property_count: 4
+  slug: pictify-io-image-response
+- name: Pagination
+  property_count: 6
+  slug: pictify-io-pagination
+- name: PdfMultiPageRequest
+  property_count: 3
+  slug: pictify-io-pdf-multi-page-request
+- name: PdfRenderRequest
+  property_count: 3
+  slug: pictify-io-pdf-render-request
+- name: PdfResponse
+  property_count: 6
+  slug: pictify-io-pdf-response
 - name: PostGifCaptureRequest
   property_count: 5
   slug: pictify-io-post-gif-capture-request
@@ -255,6 +365,18 @@ json_schemas:
 - name: PostTemplatesResponse
   property_count: 2
   slug: pictify-io-post-templates-response
+- name: RenderResponse
+  property_count: 6
+  slug: pictify-io-render-response
+- name: Template
+  property_count: 20
+  slug: pictify-io-template
+- name: VariableDefinition
+  property_count: 6
+  slug: pictify-io-variable-definition
+- name: WebhookSubscription
+  property_count: 10
+  slug: pictify-io-webhook-subscription
 jsonld:
 - class_count: 18
   name: Pictify Io Context
@@ -265,13 +387,13 @@ modified: '2026-10-31'
 name: pictify-io
 nav: Providers
 network: true
-overview: 'pictify-io publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Bindings API, GIFs API, and 4 more. Tagged areas include Company, Media, API, Templating, and Automation.
+overview: 'pictify-io publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Bindings API, GIFs API, and 10 more. Tagged areas include Company, Media, Templating, and Automation.
 
 
   The pictify-io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  pictify-io''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 27 more developer resources.'
+  pictify-io''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Pictify Io Plans Pricing
   plan_count: 5
@@ -300,34 +422,48 @@ scopes:
   slug: pictify-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 69.2
+  band: developing
+  composite: 48.8
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 86.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 28.3
+    artifact_dirs: 35
+    catalog_earned: 77.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.4
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 58.1
-    developer_ergonomics: 58.8
-    discoverability: 66.1
-    operational_transparency: 71.6
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 47.9
+    developer_ergonomics: 41.1
+    discoverability: 57.1
+    operational_transparency: 55.3
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 56.3
+      total: 16
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/pictify-io/pictify-io-2026-11-03T141212.png
 security:
 - kind: authentication
   name: Pictify Io Authentication
@@ -353,7 +489,6 @@ slug: pictify-io
 tags:
 - Company
 - Media
-- API
 - Templating
 - Automation
 website: https://pictify.io/

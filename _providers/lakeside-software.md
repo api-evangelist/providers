@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The SysTrack API provides programmatic REST access to SysTrack data on a cloud tenant or on-premises installation — enumerating groups, listing the systems within a group, retrieving sensor data for a
@@ -181,9 +183,9 @@ overview: 'Lakeside Software is listed with 2 APIs on the [APIs.io](https://apis
 random_paper: 2
 score:
   band: developing
-  composite: 46.1
+  composite: 46.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -195,9 +197,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 31.6
-  previous_composite: 46.1
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -207,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

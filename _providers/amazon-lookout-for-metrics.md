@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -2569,7 +2573,7 @@ modified: '2026-09-16'
 name: Amazon Lookout for Metrics
 nav: Providers
 network: true
-overview: 'Amazon Lookout for Metrics publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including ActivateAnomalyDetector API, BackTestAnomalyDetector API, CreateAlert API, and 25 more. Tagged areas include Anomaly Detection, Business Intelligence, Machine Learning, Metrics, and Monitoring.
+overview: 'Amazon Lookout for Metrics publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including ActivateAnomalyDetector API, BackTestAnomalyDetector API, CreateAlert API, and 25 more. Tagged areas include Anomaly Detection, Amazon Web Services, Business Intelligence, Machine Learning, and Metrics.
 
 
   The Amazon Lookout for Metrics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2613,7 +2617,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 68.4
     catalog_earned_first_party: 0.0
     catalog_gap: 46.6
@@ -2642,13 +2646,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-lookout-for-metrics/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:
 - kind: authentication
@@ -2670,6 +2673,7 @@ security:
 slug: amazon-lookout-for-metrics
 tags:
 - Anomaly Detection
+- Amazon Web Services
 - Business Intelligence
 - Machine Learning
 - Metrics

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,9 +166,9 @@ rules:
   slug: manageprompt-rules
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 41.8
     catalog_earned_first_party: 0.0
     catalog_gap: 73.3
@@ -170,7 +182,7 @@ score:
     developer_ergonomics: 13.7
     discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,13 +199,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/manageprompt/manageprompt-2026-11-03T135307.png
 security:
 - kind: authentication
   name: Manageprompt Authentication

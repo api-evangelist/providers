@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Open access
   onboarding: open
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,9 +236,9 @@ rules:
   slug: bls-public-data-api-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 39.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 64.2
     catalog_earned_first_party: 0.0
     catalog_gap: 50.9
@@ -244,7 +249,7 @@ score:
     access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 62.4
-    developer_ergonomics: 35.7
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
@@ -252,7 +257,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -266,13 +271,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bls-gov/bls-gov-2026-06-20T173524.png
 security:
 - kind: authentication

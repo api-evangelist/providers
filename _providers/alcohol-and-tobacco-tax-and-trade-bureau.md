@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: TTB's open data surface is a set of static, anonymously downloadable files rather than a request/response API. Production and operations reports for beer, wine, distilled spirits and tobacco are publi
@@ -216,9 +220,9 @@ rate_limits:
   slug: alcohol-and-tobacco-tax-and-trade-bureau-rate-limits
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -230,14 +234,14 @@ score:
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 47.6
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.8
+  previous_composite: 23.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -247,8 +251,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

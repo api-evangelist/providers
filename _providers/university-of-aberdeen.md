@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 10
 apis:
 - description: The University's own Shibboleth Identity Provider, entityID https://shibserv.abdn.ac.uk/shibboleth, asserting shibmd:Scope abdn.ac.uk. Its entity descriptor is published as signed, machine-readable SA
@@ -201,7 +202,7 @@ score:
   band: emerging
   composite: 20.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -232,8 +233,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

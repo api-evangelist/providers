@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 67.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -33,9 +51,9 @@ agentic_access:
   operation_count: 17
   slug: cloro-dev-agentic-access
   summary_line: 17 operations · 12 acting
-api_count: 1
+api_count: 2
 apis:
-- description: 'Hosted Model Context Protocol server (Streamable HTTP) wrapping the sync monitor endpoints of api.cloro.dev as ten tools: scrape_chatgpt, scrape_gemini, scrape_copilot, scrape_perplexity, scrape_grok,'
+- description: 'Hosted Model Context Protocol server (Streamable HTTP) wrapping the sync monitor endpoints of api.cloro.dev as nine tools: scrape_chatgpt, scrape_gemini, scrape_copilot, scrape_perplexity, scrape_goog'
   name: cloro MCP server
   slug: cloro-mcp-server
 - baseURL: https://api.cloro.dev
@@ -63,12 +81,22 @@ apis:
   description: The States API from cloro — 1 operation(s) for states.
   name: cloro States API
   slug: cloro-dev-states-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Cloro Dev Webhooks
   slug: cloro-dev-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cloro-dev/finops/cloro-dev-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloro-dev-finops.yml
+- group: build
+  href: https://artifacts.apis.io/cloro-dev/integrations/cloro-dev-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/cloro-dev-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/cloro-dev/agentic-access/cloro-dev-agentic-access.yml
   title: ''
@@ -310,7 +338,7 @@ common:
   type: SDK
   url: https://github.com/cloro-dev/cloro-node
 created: '2026-10-07'
-description: 'cloro is one API for Google Search and AI answer engines: a REST surface at api.cloro.dev that submits a prompt to ChatGPT, Gemini, Perplexity, Microsoft Copilot, Grok, Google AI Mode, Google Search, Google AI Overview and Google News from a chosen country (and US state) and returns the engine''s answer as structured JSON with parsed text, markdown, cited sources, brand entities, shopping cards and ads. Sync monitor endpoints answer in-line; async tasks and batches of up to 500 run in the background with polling or signed webhooks. Credit-based subscription billing, a free tier of 500 monthly credits, a hosted MCP server at mcp.cloro.dev with OAuth, official Python and TypeScript SDKs, n8n, Zapier and LangChain integrations.'
+description: 'cloro is one API for Google Search and AI answer engines: a REST surface at api.cloro.dev that submits a prompt to ChatGPT, Gemini, Perplexity, Microsoft Copilot, Google AI Mode, Google Search, Google AI Overview and Google News from a chosen country (and US state) and returns the engine''s answer as structured JSON with parsed text, markdown, cited sources, brand entities, shopping cards and ads. Sync monitor endpoints answer in-line; async tasks and batches of up to 500 run in the background with polling or signed webhooks. Credit-based subscription billing, a free tier of 500 monthly credits, a hosted MCP server at mcp.cloro.dev with OAuth, official Python and TypeScript SDKs, n8n, Zapier and LangChain integrations.'
 finops:
 - has_sources: true
   method: derived
@@ -333,6 +361,9 @@ json_schemas:
 - name: GeminiMonitorResponse
   property_count: 2
   slug: cloro-dev-gemini-monitor-response
+- name: GoogleMonitorRequest
+  property_count: 10
+  slug: cloro-dev-google-monitor-request
 - name: GoogleMonitorResponse
   property_count: 2
   slug: cloro-dev-google-monitor-response
@@ -359,7 +390,7 @@ overview: 'cloro publishes 6 API contracts indexed on the [APIs.io](https://apis
   The cloro catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  cloro''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, engineering blog, and 45 more developer resources.'
+  cloro''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, engineering blog, and 47 more developer resources.'
 plans:
 - name: Cloro Dev Plans Pricing
   plan_count: 11
@@ -374,16 +405,16 @@ rate_limits:
   slug: cloro-dev-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 111
   extends:
   - spectral:oas
   name: cloro API Rules
-  rule_count: 18
+  rule_count: 70
   severity_counts:
-    error: 16
+    error: 65
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 3
   slug: cloro-dev-rules
 scopes:
 - name: Cloro Dev Scopes
@@ -391,31 +422,31 @@ scopes:
   slug: cloro-dev-scopes
   summary_line: 3 scopes
 score:
-  band: exemplar
-  composite: 76.6
+  band: strong
+  composite: 62.4
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 35
     catalog_earned: 85.8
     catalog_earned_first_party: 20.0
     catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -13.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 35.6
-    contract_quality: 74.9
-    developer_ergonomics: 75.6
-    discoverability: 73.3
-    operational_transparency: 84.2
-  previous_composite: 75.0
+    contract_quality: 76.9
+    developer_ergonomics: 47.0
+    discoverability: 75.8
+    operational_transparency: 57.9
+  previous_composite: 76.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 33.3
       total: 12
     mcp: first-party
     skills: derived
@@ -424,14 +455,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cloro-dev/cloro-dev-2026-10-11T103054.png
 security:
 - kind: authentication

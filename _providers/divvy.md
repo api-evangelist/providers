@@ -1,18 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   - sandbox
-  - '{''url'': ''https://getdivvy.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.bill.com/product/spend-and-expense — a different registrable domain (getdivvy.com -> bill.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -29,17 +32,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.1
-  scored_at: '2026-10-31'
+  score: 55.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 0
@@ -231,6 +235,16 @@ asyncapis:
   slug: divvy-spend-expense-webhooks
 common:
 - group: commercial
+  href: https://artifacts.apis.io/divvy/finops/divvy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/divvy-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/divvy/well-known/divvy-apis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/divvy-apis-security.txt
+- group: commercial
   href: https://artifacts.apis.io/divvy/plans/divvy-plans-pricing.yml
   title: ''
   type: Plans
@@ -275,16 +289,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/divvy-conformance.yml
-- group: other
-  href: https://artifacts.apis.io/divvy/a2a/divvy-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/divvy-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/divvy/well-known/divvy-apis-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/divvy-apis-security.txt
 - group: agent
   href: https://artifacts.apis.io/divvy/well-known/divvy-well-known.yml
   title: ''
@@ -506,36 +510,36 @@ rate_limits:
   slug: divvy-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 91
   extends:
   - spectral:oas
   name: Divvy API Rules
-  rule_count: 15
+  rule_count: 50
   severity_counts:
-    error: 9
+    error: 37
     hint: 0
     info: 1
-    warn: 5
+    warn: 12
   slug: divvy-rules
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 66.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 79.8
     catalog_earned_first_party: 24.0
     catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 5.7
   facets:
     access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 65.9
-    developer_ergonomics: 69.0
-    discoverability: 51.8
-    operational_transparency: 73.7
-  previous_composite: 57.0
+    contract_quality: 71.8
+    developer_ergonomics: 66.7
+    discoverability: 50.0
+    operational_transparency: 68.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -551,13 +555,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/divvy/divvy-2026-07-25T212135.png
 security:
 - kind: authentication

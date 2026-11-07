@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -218,10 +220,10 @@ rules:
     warn: 5
   slug: grpc-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 42.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
@@ -232,10 +234,13 @@ score:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 55.3
-    developer_ergonomics: 54.8
+    developer_ergonomics: 52.4
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 37.9
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.6
   provenance:
     contracts:
       callable: 0.0
@@ -248,13 +253,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/grpc/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
@@ -235,24 +236,24 @@ rate_limits:
   name: Hull Rate Limits
   slug: hull-rate-limits
 score:
-  band: strong
-  composite: 61.5
+  band: developing
+  composite: 52.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 61.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 71.4
-    discoverability: 66.1
-    operational_transparency: 84.2
-  previous_composite: 59.9
+    developer_ergonomics: 48.8
+    discoverability: 73.2
+    operational_transparency: 72.4
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -261,9 +262,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

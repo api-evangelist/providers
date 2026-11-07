@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -34,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-10-31'
+  score: 34.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.captivateiq.com/ciq/v1/
@@ -118,7 +123,7 @@ apis:
   description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
-artifact_total: 43
+artifact_total: 44
 collections:
 - collection_type: open
   name: CaptivateIQ Attribute Worksheets API
@@ -343,6 +348,9 @@ network: true
 overview: 'CaptivateIQ publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attribute Worksheets API, Audit Logs API, Commission Plans API, and 13 more. Tagged areas include Company, Cloud Saas, Sales Commissions, Incentive Compensation Management, and Sales Performance Management.
 
 
+  The CaptivateIQ catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 27 more developer resources.'
 plans:
 - name: Captivateiq Plans Pricing
@@ -353,6 +361,19 @@ rate_limits:
 - limit_count: 2
   name: Captivateiq Rate Limits
   slug: captivateiq-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: CaptivateIQ API Rules
+  rule_count: 57
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 4
+    warn: 10
+  slug: captivateiq-rules
 scopes:
 - name: Captivateiq Scopes
   scope_count: 1
@@ -360,23 +381,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 61.1
+  composite: 63.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 53.0
+    artifact_dirs: 29
+    catalog_earned: 57.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 7.4
   facets:
-    access_clarity: 81.6
-    contract_governance: 18.2
-    contract_quality: 43.4
+    access_clarity: 75.0
+    contract_governance: 31.8
+    contract_quality: 51.6
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 68.4
-  previous_composite: 56.9
+    discoverability: 73.2
+    operational_transparency: 65.8
+  previous_composite: 55.8
   provenance:
     conformance: first-party
     contracts:
@@ -398,13 +419,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/captivateiq/captivateiq-2026-07-25T204452.png
 security:
 - kind: authentication

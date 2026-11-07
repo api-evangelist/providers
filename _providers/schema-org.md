@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -478,9 +484,9 @@ rules:
   slug: schema-org-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 28.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 53.2
     catalog_earned_first_party: 0.0
     catalog_gap: 61.9
@@ -493,8 +499,11 @@ score:
     contract_quality: 13.9
     developer_ergonomics: 45.2
     discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 29.6
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 28.8
   provenance:
     conformance: first-party
   regulatory:
@@ -503,8 +512,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

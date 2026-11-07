@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,9 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -21,12 +27,13 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -36,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.4
-  scored_at: '2026-10-31'
+  score: 53.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 93
@@ -1090,7 +1097,7 @@ apis:
   description: The .well Known API from Drata — 4 operation(s) for .well known.
   name: Drata .well Known API
   slug: drata-well-known-api
-artifact_total: 71
+artifact_total: 72
 common:
 - group: other
   href: https://artifacts.apis.io/drata/capabilities/drata-capability-edges.yml
@@ -1308,6 +1315,9 @@ network: true
 overview: 'Drata publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Assets API, and 53 more. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Security.
 
 
+  The Drata catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Drata''s developer surface includes authentication, changelog, code examples, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Drata Plans Pricing
@@ -1318,37 +1328,50 @@ rate_limits:
 - limit_count: 1
   name: Drata Rate Limits
   slug: drata-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Drata API Rules
+  rule_count: 57
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 3
+    warn: 21
+  slug: drata-rules
 scopes:
 - name: Drata Scopes
   scope_count: 34
   slug: drata-scopes
   summary_line: 34 scopes
 score:
-  band: strong
-  composite: 62.7
+  band: exemplar
+  composite: 70.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 56.0
+    artifact_dirs: 30
+    catalog_earned: 60.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 81.6
-    contract_governance: 4.5
-    contract_quality: 54.7
+    contract_governance: 18.2
+    contract_quality: 58.6
     developer_ergonomics: 58.9
-    discoverability: 70.0
-    operational_transparency: 68.4
-  previous_composite: 62.9
+    discoverability: 73.3
+    operational_transparency: 65.8
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 92.9
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 7.1
       total: 56
     mcp: first-party
     skills: derived
@@ -1358,13 +1381,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/drata/drata-2026-06-20T180244.png
 security:
 - kind: authentication

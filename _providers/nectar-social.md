@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-31'
+  score: 50.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
@@ -184,9 +185,9 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.6
+  composite: 28.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -198,8 +199,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 14.3
-    discoverability: 65.0
-    operational_transparency: 18.4
+    discoverability: 75.0
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -207,7 +208,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.6
+  previous_composite: 28.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -217,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 33.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -250,6 +251,7 @@ tags:
 - Social Commerce
 - MCP
 - Agents
+- OAuth
 - Authentication
 website: https://www.nectarsocial.com
 ---

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Supported automation paths, hosted MCP API-key and OAuth authentication, and the exact routes exposed by the optional local HTTP gateway.
@@ -192,7 +203,7 @@ modified: '2026-10-29'
 name: contextstream-io
 nav: Providers
 network: true
-overview: 'contextstream-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Context-Management, Collaboration, Knowledge-Base, and Productivity.
+overview: 'contextstream-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Context Management, Collaboration, Knowledge Base, and Productivity.
 
 
   The contextstream-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,42 +225,51 @@ rules:
     warn: 0
   slug: contextstream-io-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 19
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 34.2
     contract_governance: 19.7
     contract_quality: 20.2
-    developer_ergonomics: 28.6
-    discoverability: 57.1
-    operational_transparency: 47.4
+    developer_ergonomics: 14.3
+    discoverability: 64.3
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 17
+      derived: 1
       marker_coverage: 100.0
-      total: 17
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/contextstream-io/contextstream-io-2026-11-03T125207.png
 security:
 - kind: domain-security
   name: Contextstream Io Domain Security
@@ -265,10 +285,10 @@ security:
   summary_line: SOC 2, HIPAA, FedRAMP, GDPR
 slug: contextstream-io
 tags:
-- AI
-- Context-Management
+- Artificial Intelligence
+- Context Management
 - Collaboration
-- Knowledge-Base
+- Knowledge Base
 - Productivity
 website: https://contextstream.io/
 ---

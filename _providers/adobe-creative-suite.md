@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -1405,10 +1406,10 @@ rules:
     warn: 7
   slug: adobe-creative-suite-spectral-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 51.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 63.5
     catalog_earned_first_party: 0.0
     catalog_gap: 51.5
@@ -1421,8 +1422,8 @@ score:
     contract_quality: 66.4
     developer_ergonomics: 65.5
     discoverability: 62.5
-    operational_transparency: 52.6
-  previous_composite: 54.6
+    operational_transparency: 26.3
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1436,13 +1437,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/adobe-creative-suite/adobe-creative-suite-2026-06-20T164857.png
 security:
 - kind: authentication

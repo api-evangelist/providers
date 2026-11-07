@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,7 +71,7 @@ apis:
   description: Notification logs
   name: Cesanta Logs API
   slug: cesanta-logs-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Cesanta mDash REST Data API
@@ -233,6 +238,9 @@ network: true
 overview: 'Cesanta publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data API, Devices API, Keys API, and 1 more. Tagged areas include Company, IoT, Embedded, Device Management, and Firmware.
 
 
+  The Cesanta catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Cesanta''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 22 more developer resources.'
 plans:
 - name: Cesanta Plans Pricing
@@ -242,25 +250,38 @@ plans:
   plan_count: 0
   slug: cesanta-price-estimates
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Cesanta API Rules
+  rule_count: 62
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 1
+  slug: cesanta-rules
 score:
   band: developing
-  composite: 50.2
+  composite: 49.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 49.3
+    access_clarity: 72.4
+    contract_governance: 18.2
+    contract_quality: 52.7
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 42.3
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,14 +297,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 22.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cesanta/cesanta-2026-07-25T205012.png
 security:
 - kind: authentication

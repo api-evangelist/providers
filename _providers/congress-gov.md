@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.3
-  scored_at: '2026-10-31'
+  score: 23.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -393,7 +397,7 @@ json_schemas:
   property_count: 5
   slug: congress-gov-committeehistory
 - name: CommitteeHouseCommunication
-  property_count: 0
+  property_count: 2
   slug: congress-gov-committeehousecommunication
 - name: CommitteeMeeting
   property_count: 0
@@ -444,7 +448,7 @@ json_schemas:
   property_count: 8
   slug: congress-gov-committees
 - name: CommitteeSenateCommunication
-  property_count: 0
+  property_count: 2
   slug: congress-gov-committeesenatecommunication
 - name: communicationType
   property_count: 2
@@ -513,10 +517,10 @@ json_schemas:
   property_count: 13
   slug: congress-gov-housevote
 - name: HouseVoteMembers
-  property_count: 0
+  property_count: 2
   slug: congress-gov-housevotemembers
 - name: HouseVoteNumber
-  property_count: 0
+  property_count: 2
   slug: congress-gov-housevotenumber
 - name: HouseVoteNumberBase
   property_count: 12
@@ -761,7 +765,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -789,13 +793,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/congress-gov/congress-gov-2026-06-20T174909.png
 security:
 - kind: authentication

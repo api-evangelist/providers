@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  gated: private
+  gated_source:
+  - apis
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Altus Group publishes no public API, OpenAPI or developer program for ARGUS Developer. Probed 2026-09-06: no spec on any Altus host, no developer or docs subdomain resolves, and cloud.altusplatform.co'
@@ -196,8 +202,8 @@ rate_limits:
   name: Argus Developer Rate Limits
   slug: argus-developer-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -211,9 +217,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 26.1
+    discoverability: 64.3
+    operational_transparency: 26.3
+  previous_composite: 26.5
   provenance:
     conformance: first-party
   regulatory:
@@ -222,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

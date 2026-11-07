@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-31'
+  score: 34.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://business.mamopay.com/manage_api/v1
@@ -100,7 +105,7 @@ apis:
   description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 46
+artifact_total: 47
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
@@ -338,7 +343,7 @@ network: true
 overview: 'Mamo publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Business Details API, Cards API, Expenses API, and 9 more. Tagged areas include Company, Payments, Fintech, Payment Links, and Subscription.
 
 
-  The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
@@ -347,24 +352,37 @@ plans:
   plan_count: 6
   slug: mamo-plans-pricing
 random_paper: 18
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Mamo API Rules
+  rule_count: 54
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 5
+  slug: mamo-rules
 score:
   band: exemplar
-  composite: 67.9
+  composite: 69.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 6.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 59.6
+    access_clarity: 93.4
+    contract_governance: 31.8
+    contract_quality: 63.0
     developer_ergonomics: 67.3
-    discoverability: 66.1
-    operational_transparency: 55.3
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -373,7 +391,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 60.0
+  previous_composite: 63.4
   provenance:
     conformance: first-party
     contracts:
@@ -389,13 +407,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/mamo/mamo-2026-07-25T230010.png
 security:
 - kind: authentication

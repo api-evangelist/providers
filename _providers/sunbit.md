@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -207,9 +208,9 @@ overview: 'Sunbit is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 13
 score:
   band: developing
-  composite: 46.2
+  composite: 44.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -220,10 +221,10 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 46.2
+    developer_ergonomics: 63.7
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 44.3
   provenance:
     conformance: derived
     skills: derived
@@ -237,8 +238,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

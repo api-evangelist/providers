@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 25.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Model Context Protocol (MCP) endpoint providing eight tools for API status checking.
@@ -173,7 +190,7 @@ modified: '2026-10-30'
 name: apistatuscheck-com
 nav: Providers
 network: true
-overview: 'apistatuscheck-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Monitoring, Outage Detection, Free Service, and Developer Tools.
+overview: 'apistatuscheck-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Monitoring, Outage Detection, and Developer Tools.
 
 
   The apistatuscheck-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -208,34 +225,46 @@ scopes:
   slug: apistatuscheck-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 55.7
+  band: thin
+  composite: 35.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 91.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 23.4
+    artifact_dirs: 28
+    catalog_earned: 76.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.2
   facets:
-    access_clarity: 60.0
-    contract_governance: 70.9
-    contract_quality: 53.7
-    developer_ergonomics: 47.6
-    discoverability: 56.7
-    operational_transparency: 28.4
+    access_clarity: 47.4
+    contract_governance: 19.7
+    contract_quality: 24.7
+    developer_ergonomics: 29.8
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 43.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/apistatuscheck-com/apistatuscheck-com-2026-11-03T121006.png
 security:
 - kind: authentication
   name: Apistatuscheck Com Authentication
@@ -250,7 +279,6 @@ tags:
 - Company
 - API Monitoring
 - Outage Detection
-- Free Service
 - Developer Tools
 website: https://apistatuscheck.com/
 ---

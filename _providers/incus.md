@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-31'
+  score: 24.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -306,10 +308,10 @@ rules:
     warn: 0
   slug: incus-rules
 score:
-  band: thin
-  composite: 31.2
+  band: developing
+  composite: 40.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -319,11 +321,14 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 44.8
+    contract_quality: 48.2
     developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 31.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +342,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/incus/incus-2026-06-20T183310.png
 security:
 - kind: domain-security

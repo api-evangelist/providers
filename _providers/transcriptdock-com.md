@@ -1,11 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-10-31'
+  score: 33.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -101,8 +117,13 @@ apis:
   description: The Webhooks API from transcriptdock-com — 1 operation(s) for webhooks.
   name: transcriptdock-com Webhooks API
   slug: transcriptdock-com-webhooks-api
-artifact_total: 33
+artifact_total: 39
 common:
+- group: auth
+  href: https://artifacts.apis.io/transcriptdock-com/well-known/transcriptdock-com-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/transcriptdock-com-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/transcriptdock-com/agentic-access/transcriptdock-com-agentic-access.yml
   title: ''
@@ -278,6 +299,9 @@ created: '2026-10-31'
 description: Transcript Dock provides a public Video Transcript API for YouTube and TikTok, allowing developers to extract video captions with precise segment timing. The API returns captions in JSON, SRT, VTT, or plain text formats, and offers 50 free credits per month for testing. It aims to simplify integration of video transcripts into applications.
 image: https://www.transcriptdock.com/og.jpg
 json_schemas:
+- name: GetV1CapabilitiesResponse
+  property_count: 16
+  slug: transcriptdock-com-get-v1-capabilities-response
 - name: GetV1JobsIdResponse
   property_count: 9
   slug: transcriptdock-com-get-v1-jobs-id-response
@@ -287,6 +311,15 @@ json_schemas:
 - name: GetV1TranscriptsIdResponse
   property_count: 12
   slug: transcriptdock-com-get-v1-transcripts-id-response
+- name: GetV1UsageResponse
+  property_count: 9
+  slug: transcriptdock-com-get-v1-usage-response
+- name: GetV1VideoDiscoveriesIdResponse
+  property_count: 11
+  slug: transcriptdock-com-get-v1-video-discoveries-id-response
+- name: PostV1BatchesRequest
+  property_count: 3
+  slug: transcriptdock-com-post-v1-batches-request
 - name: PostV1JobsIdCancelResponse
   property_count: 9
   slug: transcriptdock-com-post-v1-jobs-id-cancel-response
@@ -296,6 +329,9 @@ json_schemas:
 - name: PostV1VideoDiscoveriesRequest
   property_count: 8
   slug: transcriptdock-com-post-v1-video-discoveries-request
+- name: PostV1VideoDiscoveriesResponse
+  property_count: 11
+  slug: transcriptdock-com-post-v1-video-discoveries-response
 jsonld:
 - class_count: 27
   name: Transcriptdock Com Context
@@ -306,13 +342,13 @@ modified: '2026-10-31'
 name: transcriptdock-com
 nav: Providers
 network: true
-overview: 'transcriptdock-com is listed with 13 APIs on the [APIs.io](https://apis.io/) network, including App API, Batches API, Capabilities API, and 10 more. Tagged areas include Company, Video, Transcript, API, and YouTube.
+overview: 'transcriptdock-com is listed with 13 APIs on the [APIs.io](https://apis.io/) network, including App API, Batches API, Capabilities API, and 10 more. Tagged areas include Company, Video, Transcript, YouTube, and TikTok.
 
 
   The transcriptdock-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  transcriptdock-com''s developer surface includes changelog, authentication, API reference, getting-started guide, documentation, pricing, signup flow, and 30 more developer resources.'
+  transcriptdock-com''s developer surface includes changelog, authentication, API reference, getting-started guide, documentation, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Transcriptdock Com Plans Pricing
   plan_count: 4
@@ -336,34 +372,48 @@ rules:
     warn: 1
   slug: transcriptdock-com-rules
 score:
-  band: exemplar
-  composite: 69.5
+  band: developing
+  composite: 44.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 102.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 12.7
+    artifact_dirs: 27
+    catalog_earned: 89.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 53.3
-    developer_ergonomics: 63.6
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 25.4
+    developer_ergonomics: 44.5
     discoverability: 71.4
-    operational_transparency: 75.8
+    operational_transparency: 55.3
+  previous_composite: 56.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 93.8
+      derived: 14
+      marker_coverage: 87.5
+      total: 16
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/transcriptdock-com/transcriptdock-com-2026-11-03T145031.png
 security:
 - kind: authentication
   name: Transcriptdock Com Authentication
@@ -377,7 +427,7 @@ security:
   name: Transcriptdock Com Vulnerability Disclosure
   slug: transcriptdock-com-vulnerability-disclosure
   summary_line: security.txt · contact published
-skill_count: 6
+skill_count: 7
 skills:
 - name: create-batch
   slug: create-batch
@@ -391,12 +441,13 @@ skills:
   slug: get-job
 - name: get-transcript
   slug: get-transcript
+- name: get-capabilities
+  slug: transcriptdock-com-getCapabilities
 slug: transcriptdock-com
 tags:
 - Company
 - Video
 - Transcript
-- API
 - YouTube
 - TikTok
 website: https://transcriptdock.com/

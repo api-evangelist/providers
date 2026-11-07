@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,7 +167,7 @@ modified: '2026-10-30'
 name: nsgoods-org
 nav: Providers
 network: true
-overview: 'nsgoods-org publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API and Payable API. Tagged areas include AI, Finance, Blockchain, Data, and Services.
+overview: 'nsgoods-org publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API and Payable API. Tagged areas include Artificial Intelligence, Finance, Blockchain, Data, and Services.
 
 
   The nsgoods-org catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -178,21 +190,29 @@ rules:
   slug: nsgoods-org-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 30.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.7
   facets:
-    access_clarity: 28.9
+    access_clarity: 14.5
     contract_governance: 22.0
     contract_quality: 53.5
-    developer_ergonomics: 31.0
-    discoverability: 62.5
+    developer_ergonomics: 21.4
+    discoverability: 69.6
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,13 +227,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/nsgoods-org/nsgoods-org-2026-11-03T140407.png
 security:
 - kind: authentication
   name: Nsgoods Org Authentication
@@ -225,7 +246,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nsgoods-org
 tags:
-- AI
+- Artificial Intelligence
 - Finance
 - Blockchain
 - Data

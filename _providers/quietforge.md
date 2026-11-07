@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -6,7 +21,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: unknown
-    agentic_commerce: false
+    agentic_commerce: self
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.4
-  scored_at: '2026-10-31'
+  score: 46.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://qf-api.quietforge-studio.workers.dev
@@ -59,7 +75,7 @@ apis:
   description: Audits a CSV or JSON-array dataset (up to 5 MB, 50,000 rows, 200 columns) for duplicate rows, missing values, inferred types, class imbalance, IQR outliers and PII-pattern counts, combined into a heur
   name: Quietforge Dataset Audit API
   slug: dataset-audit-api
-artifact_total: 10
+artifact_total: 11
 common:
 - group: other
   href: https://artifacts.apis.io/quietforge/capabilities/quietforge-capability-edges.yml
@@ -160,36 +176,52 @@ network: true
 overview: 'Quietforge Studio publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Quietforge Document Conversion API, Quietforge x402 Service Index API, Quietforge Puzzle Generation API, and 3 more. Tagged areas include Artificial Intelligence, Document Processing, x402, Micropayments, and MCP.
 
 
+  The Quietforge Studio catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Quietforge Studio''s developer surface includes pricing, authentication, documentation, code examples, and 15 more developer resources.'
 plans:
 - name: Quietforge Plans Pricing
   plan_count: 16
   slug: quietforge-plans-pricing
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Quietforge Studio API Rules
+  rule_count: 53
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 2
+  slug: quietforge-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 33.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 47.0
+    artifact_dirs: 14
+    catalog_earned: 51.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
-    contract_quality: 49.4
-    developer_ergonomics: 31.0
-    discoverability: 71.7
+    access_clarity: 36.8
+    contract_governance: 13.6
+    contract_quality: 54.6
+    developer_ergonomics: 21.4
+    discoverability: 81.7
     operational_transparency: 0.0
-  previous_composite: 33.5
+  previous_composite: 35.4
   provenance:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 9
     mcp: first-party
   regulatory:
@@ -198,13 +230,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/quietforge/quietforge-2026-10-11T113050.png
 security:
 - kind: authentication
@@ -222,7 +253,7 @@ tags:
 - x402
 - Micropayments
 - MCP
-- pay-per-call
+- Pay-per-call
 - Cloudflare Workers
 - Software-as-a-Service
 - Business Automation

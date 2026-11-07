@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -184,9 +198,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.7
+  composite: 24.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -198,9 +212,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 56.7
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 24.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

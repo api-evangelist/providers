@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -337,9 +342,9 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 40.4
+  composite: 39.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 51.5
     catalog_earned_first_party: 0.0
     catalog_gap: 63.5
@@ -349,11 +354,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 55.2
+    contract_quality: 57.2
     developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 40.4
+    operational_transparency: 2.6
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -367,13 +372,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/moodys-corporation/moodys-corporation-2026-08-17T081109.png
 security:
 - kind: authentication

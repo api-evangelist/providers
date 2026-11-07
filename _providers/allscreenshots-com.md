@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 50.2
-  scored_at: '2026-10-31'
+  score: 43.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -199,7 +212,7 @@ modified: '2026-10-30'
 name: allscreenshots-com
 nav: Providers
 network: true
-overview: 'allscreenshots-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Screenshots API, and 1 more. Tagged areas include Company, ScreenshotAPI, Automation, Marketing, and Developers.
+overview: 'allscreenshots-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Screenshots API, and 1 more. Tagged areas include Company, Screenshots, Automation, Marketing, and Developers.
 
 
   The allscreenshots-com catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -225,34 +238,48 @@ rules:
     warn: 1
   slug: allscreenshots-com-rules
 score:
-  band: strong
-  composite: 56.8
+  band: developing
+  composite: 43.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 76.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    artifact_dirs: 26
+    catalog_earned: 62.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.6
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 58.7
-    developer_ergonomics: 47.6
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 61.7
+    developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 21.1
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/allscreenshots-com/allscreenshots-com-2026-11-03T120652.png
 security:
 - kind: authentication
   name: Allscreenshots Com Authentication
@@ -271,7 +298,7 @@ skills:
 slug: allscreenshots-com
 tags:
 - Company
-- ScreenshotAPI
+- Screenshots
 - Automation
 - Marketing
 - Developers

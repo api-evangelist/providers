@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.0
-  scored_at: '2026-10-31'
+  score: 52.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
@@ -227,23 +232,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 63.5
+  composite: 64.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 52.0
     developer_ergonomics: 44.6
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 71.1
-  previous_composite: 61.9
+  previous_composite: 64.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -254,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
   name: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity API
@@ -164,27 +166,43 @@ network: true
 overview: 'Trip.com publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including SearchAttractionAndActivity API, SearchCars API, SearchFlightTicket API, and 1 more. Tagged areas include Company, Travel, Hotels, Flights, and Car Rental.
 
 
+  The Trip.com catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Trip.com''s developer surface includes engineering blog, support, and 14 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Trip.com API Rules
+  rule_count: 41
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 1
+  slug: tripcom-rules
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
+    access_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 43.5
     developer_ergonomics: 18.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,14 +218,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tripcom/tripcom-2026-09-02T164241.png
 security:
 - kind: domain-security

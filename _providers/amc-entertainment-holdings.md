@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -362,10 +366,10 @@ rules:
     warn: 13
   slug: amc-theatres-rules
 score:
-  band: thin
-  composite: 31.3
+  band: developing
+  composite: 42.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -375,11 +379,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 16.3
+    contract_quality: 65.3
     developer_ergonomics: 38.1
     discoverability: 60.7
     operational_transparency: 21.1
-  previous_composite: 31.3
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -393,13 +397,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amc-entertainment-holdings/amc-entertainment-holdings-2026-06-20T171856.png
 security:
 - kind: authentication

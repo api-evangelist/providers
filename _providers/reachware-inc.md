@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-31'
+  score: 25.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.reachware.com
@@ -50,7 +51,7 @@ apis:
   description: Request payments, retrieve payment details, and refunds
   name: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: Reach Pay Cards API
@@ -180,25 +181,41 @@ network: true
 overview: 'Reachware publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Inc. Cards API and Inc. Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
 
 
+  The Reachware catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Reachware''s developer surface includes engineering blog, authentication, sandbox, documentation, API reference, getting-started guide, support, and 17 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Reachware API Rules
+  rule_count: 57
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 1
+  slug: reachware-inc-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 42.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
-    access_clarity: 42.1
-    contract_governance: 18.2
+    access_clarity: 25.0
+    contract_governance: 31.8
     contract_quality: 50.2
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -208,7 +225,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 45.1
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     contracts:
@@ -223,14 +240,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 33.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/reachware-inc/reachware-inc-2026-08-17T081449.png
 security:
 - kind: authentication

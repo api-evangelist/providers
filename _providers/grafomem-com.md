@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-31'
+  score: 33.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 2
@@ -352,7 +365,7 @@ modified: '2026-10-30'
 name: grafomem-com
 nav: Providers
 network: true
-overview: 'grafomem-com publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Orchestrator API, Artifact Registry API, Assurance API, and 32 more. Tagged areas include Company, Memory, Agents, Governance, and AI.
+overview: 'grafomem-com publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Orchestrator API, Artifact Registry API, Assurance API, and 32 more. Tagged areas include Company, Memory, Agents, Governance, and Artificial Intelligence.
 
 
   The grafomem-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -362,16 +375,16 @@ overview: 'grafomem-com publishes 35 API contracts indexed on the [APIs.io](http
 random_paper: 10
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: grafomem-com API Rules
-  rule_count: 10
+  rule_count: 43
   severity_counts:
-    error: 7
+    error: 35
     hint: 0
     info: 1
-    warn: 2
+    warn: 7
   slug: grafomem-com-rules
 scopes:
 - name: Grafomem Com Scopes
@@ -379,22 +392,30 @@ scopes:
   slug: grafomem-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 35.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 28
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 35.6
-    contract_quality: 52.2
-    developer_ergonomics: 58.8
-    discoverability: 66.1
-    operational_transparency: 5.3
+    contract_quality: 53.1
+    developer_ergonomics: 42.1
+    discoverability: 73.2
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,13 +431,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/grafomem-com/grafomem-com-2026-11-03T133012.png
 security:
 - kind: authentication
   name: Grafomem Com Authentication
@@ -436,7 +458,7 @@ tags:
 - Memory
 - Agents
 - Governance
-- AI
+- Artificial Intelligence
 - Runtime
 website: https://grafomem.com/
 ---

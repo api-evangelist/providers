@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-31'
+  score: 34.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -77,7 +81,7 @@ arazzos:
 - description: Authenticate, refund a previously captured payment, and confirm via events.
   name: Nopan — refund a captured payment
   slug: nopan-refund-payment
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Nopan Webhooks
@@ -249,11 +253,24 @@ network: true
 overview: 'Nopan publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication APIs API, Payment Processing APIs API, Reporting APIs API, and 2 more. Tagged areas include Payments, Payment Service Provider, Account-to-Account, Wallet Payments, and Open Banking.
 
 
-  The Nopan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Nopan catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Nopan''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 23 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Nopan API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: nopan-rules
 scopes:
 - name: Nopan Scopes
   scope_count: 2
@@ -261,28 +278,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.9
+  composite: 46.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 52.3
     developer_ergonomics: 70.8
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 44.9
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,13 +320,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nopan/nopan-2026-08-07T185510.png
 security:
 - kind: authentication

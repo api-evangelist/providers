@@ -1,10 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.7
-  scored_at: '2026-10-31'
+  score: 55.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 8
@@ -297,7 +315,7 @@ modified: '2026-10-30'
 name: anpheros-com
 nav: Providers
 network: true
-overview: 'anpheros-com publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access requests API, Admin API, Anpheros Search API, and 7 more. Tagged areas include Health, Digital-Health, FHIR, Medical-Records, and API.
+overview: 'anpheros-com publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access requests API, Admin API, Anpheros Search API, and 7 more. Tagged areas include Health, Digital Health, FHIR, and Medical Records.
 
 
   The anpheros-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -332,34 +350,48 @@ scopes:
   slug: anpheros-com-scopes
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 64.6
+  band: developing
+  composite: 50.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 32
+    catalog_earned: 81.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.1
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 56.2
-    developer_ergonomics: 75.5
-    discoverability: 65.0
-    operational_transparency: 33.7
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 59.3
+    developer_ergonomics: 54.0
+    discoverability: 56.7
+    operational_transparency: 34.2
+  previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 29.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/anpheros-com/anpheros-com-2026-11-03T120847.png
 security:
 - kind: authentication
   name: Anpheros Com Authentication
@@ -378,9 +410,8 @@ skills:
 slug: anpheros-com
 tags:
 - Health
-- Digital-Health
+- Digital Health
 - FHIR
-- Medical-Records
-- API
+- Medical Records
 website: https://anpheros.com/
 ---

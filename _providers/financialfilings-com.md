@@ -1,10 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -12,99 +29,28 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: verified
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: paginated
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.8
-  scored_at: '2026-10-31'
+  score: 43.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Your own API usage and spend. Free, never billed.
-  name: financialfilings-com Account API
-  slug: financialfilings-com-account-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: 'Lets an AI agent get its own API key: sign up, check status, ask the owner to confirm, add a card.'
-  name: financialfilings-com Agent Account API
-  slug: financialfilings-com-agent-account-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Company profiles, identifiers and financials.
-  name: financialfilings-com Companies API
-  slug: financialfilings-com-companies-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Supported countries.
-  name: financialfilings-com Countries API
-  slug: financialfilings-com-countries-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: The 11 filing categories (FRCF). Every filing type belongs to one.
-  name: financialfilings-com Filing Categories API
-  slug: financialfilings-com-filing-categories-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Every filing type we classify filings into.
-  name: financialfilings-com Filing Types API
-  slug: financialfilings-com-filing-types-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Find filings and read their documents and content.
-  name: financialfilings-com Filings API
-  slug: financialfilings-com-filings-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Standardized income statement, balance sheet and cash flow data, and the dictionary of line items.
-  name: financialfilings-com Financial Data API
-  slug: financialfilings-com-financial-data-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Browse the ISIC industry classification.
-  name: financialfilings-com ISIC Classifications API
-  slug: financialfilings-com-isic-classifications-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Look up the company behind an ISIN.
-  name: financialfilings-com ISINs API
-  slug: financialfilings-com-isins-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Supported filing languages.
-  name: financialfilings-com Languages API
-  slug: financialfilings-com-languages-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: 'Exchange listings per company: venue, ticker and FIGI.'
-  name: financialfilings-com Security Listings API
-  slug: financialfilings-com-security-listings-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: The original sources of filings.
-  name: financialfilings-com Sources API
-  slug: financialfilings-com-sources-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: The companies you follow. Filters and webhooks can use it.
-  name: financialfilings-com Watchlist API
-  slug: financialfilings-com-watchlist-api
-- baseURL: https://api.financialreports.eu
-  baseurl_source: declared
-  description: Create and manage webhook subscriptions, and inspect their deliveries.
-  name: financialfilings-com Webhooks (Management) API
-  slug: financialfilings-com-webhooks-management-api
-artifact_total: 23
+- description: Public company filing data API as described in the developer reference.
+  name: Financial Filings API
+  slug: financial-filings-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Financialfilings Com Webhooks
@@ -115,6 +61,21 @@ common:
   title: ''
   type: Plans
   url: plans/financialfilings-com-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/financialfilings-com/rules/financialfilings-com-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/financialfilings-com-rules.yml
+- group: design
+  href: https://artifacts.apis.io/financialfilings-com/json-ld/financialfilings-com-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/financialfilings-com-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/financialfilings-com/vocabulary/financialfilings-com-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/financialfilings-com-vocabulary.yml
 - group: design
   href: https://artifacts.apis.io/financialfilings-com/asyncapi/financialfilings-com-webhooks.yml
   title: ''
@@ -130,25 +91,16 @@ common:
   title: ''
   type: Security
   url: security/financialfilings-com-vulnerability-disclosure.yml
-- group: auth
-  href: https://artifacts.apis.io/financialfilings-com/authentication/financialfilings-com-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/financialfilings-com-authentication.yml
-- group: operate
-  title: ''
-  type: Deprecation
-  url: https://financialfilings.com/developers/deprecation-policy/
-- group: design
-  href: https://artifacts.apis.io/financialfilings-com/lifecycle/financialfilings-com-lifecycle.yml
-  title: ''
-  type: Lifecycle
-  url: lifecycle/financialfilings-com-lifecycle.yml
 - group: design
   href: https://artifacts.apis.io/financialfilings-com/errors/financialfilings-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/financialfilings-com-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/financialfilings-com/conformance/financialfilings-com-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/financialfilings-com-conformance.yml
 - group: agent
   href: https://artifacts.apis.io/financialfilings-com/llms/financialfilings-com-llms.txt
   title: ''
@@ -179,22 +131,10 @@ common:
   title: ''
   type: Vendors
   url: vendors/financialfilings-com-vendors.yml
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://financialfilings.com/terms/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://financialfilings.com/pricing/
 - group: start
   title: ''
   type: Login
   url: https://financialfilings.com/accounts/login/?next=%2Faccounts%2Fapi-dashboard%2F%3Fsource%3Dnavbar&source=navbar
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://financialfilings.com/developers/
 - group: operate
   title: ''
   type: ChangeLog
@@ -203,10 +143,6 @@ common:
   title: ''
   type: GettingStarted
   url: https://financialfilings.com/mcp/
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://api.financialreports.eu/redoc/
 - group: auth
   href: https://artifacts.apis.io/financialfilings-com/security/financialfilings-com-vulnerability-disclosure.yml
   title: ''
@@ -221,21 +157,59 @@ common:
   title: ''
   type: Website
   url: https://financialfilings.com/
-created: '2026-10-30'
-description: FinancialFilings provides a searchable index of public company filings across 60 markets, covering over 54 million filings from more than 93,000 companies. Users can access data via a Markdown‑first REST API, download datasets, and integrate with cloud platforms. The service offers free web search, paid enterprise plans, and supports developers with comprehensive documentation, SDKs, and MCP compliance.
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://financialfilings.com/developers/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://financialfilings.com/developers/reference/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://financialfilings.com/api-solutions/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://financialfilings.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://financialfilings.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://financialfilings.com/data-privacy/
+coverage:
+  detail: the company serves an API surface but requires credentials before any description of it can be read
+  evidence:
+  - status: 401
+    url: https://mcp.financialfilings.com/mcp
+  - status: 200
+    url: https://financialfilings.com/
+  reason: partner-login
+  state: gated
+created: '2026-10-31'
+description: FinancialFilings provides a comprehensive index of public-company filings worldwide, offering both a free web interface and a typed REST API. Users can search companies, explore filings across 60 markets, and access datasets via JSON, Markdown, or PDF. The platform aggregates data from over 113 sources, supporting analytics, research, and compliance use cases.
 image: https://financialfilings.com/og/general.png?title=Everything+public+companies+file%2C&subtitle=in+one+place.&v=2
+jsonld:
+- class_count: 88
+  name: Financialfilings Com Context
+  property_count: 224
+  slug: financialfilings-com-context
 layout: provider
-modified: '2026-10-30'
-name: financialfilings-com
+modified: '2026-10-31'
+name: FinancialFilings
 nav: Providers
 network: true
-overview: 'financialfilings-com publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent Account API, Companies API, and 12 more. Tagged areas include API, Financial Data, Public Company Filings, Analytics, and Research.
+overview: 'FinancialFilings publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Financial Filings API. Tagged areas include Company, Financial Data, Filings, Market Data, and Research.
 
 
-  The financialfilings-com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The FinancialFilings catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  financialfilings-com''s developer surface includes authentication, pricing, changelog, getting-started guide, API reference, and 19 more developer resources.'
+  FinancialFilings'' developer surface includes changelog, getting-started guide, documentation, API reference, pricing, and 22 more developer resources.'
 plans:
 - name: Financialfilings Com Plans Pricing
   plan_count: 1
@@ -245,6 +219,19 @@ rate_limits:
 - limit_count: 2
   name: Financialfilings Com Rate Limits
   slug: financialfilings-com-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: FinancialFilings API Rules
+  rule_count: 15
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 3
+  slug: financialfilings-com-rules
 scopes:
 - name: Financialfilings Com Scopes
   scope_count: 0
@@ -252,40 +239,46 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.7
+  composite: 42.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.2
-    catalog_earned_first_party: 8.0
-    catalog_gap: 62.8
+    artifact_dirs: 29
+    catalog_earned: 64.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.9
   facets:
-    access_clarity: 55.3
-    contract_governance: 0.0
-    contract_quality: 62.1
-    developer_ergonomics: 40.5
-    discoverability: 66.1
-    operational_transparency: 61.1
+    access_clarity: 43.4
+    contract_governance: 22.0
+    contract_quality: 51.0
+    developer_ergonomics: 19.0
+    discoverability: 57.1
+    operational_transparency: 47.4
+  previous_composite: 52.5
   provenance:
+    conformance: derived
     contracts:
       callable: 93.8
       derived: 0
       marker_coverage: 0.0
       total: 16
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 39.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/financialfilings-com/financialfilings-com-2026-11-03T132014.png
 security:
 - kind: authentication
   name: Financialfilings Com Authentication
@@ -305,10 +298,10 @@ skills:
   slug: financialfilings-com-companies-list
 slug: financialfilings-com
 tags:
-- API
+- Company
 - Financial Data
-- Public Company Filings
-- Analytics
+- Filings
+- Market Data
 - Research
 website: https://financialfilings.com/
 ---

@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -26,18 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-31'
+  score: 33.4
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://api.observepoint.com
@@ -365,7 +366,7 @@ apis:
   description: APIs for managing Web Journeys
   name: ObservePoint Web Journeys Management API
   slug: observepoint-web-journeys-management-api
-artifact_total: 78
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Observepoint Webhooks
@@ -567,7 +568,7 @@ network: true
 overview: 'ObservePoint publishes 65 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Account Triggered Alerts API, Account Usage Alerts API, and 62 more. Tagged areas include Company, web-governance, Tag Management, analytics-validation, and Privacy Compliance.
 
 
-  The ObservePoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ObservePoint catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ObservePoint''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
@@ -580,31 +581,44 @@ rate_limits:
 - limit_count: 3
   name: Observepoint Rate Limits
   slug: observepoint-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: ObservePoint API Rules
+  rule_count: 68
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 5
+    warn: 21
+  slug: observepoint-rules
 score:
   band: strong
-  composite: 54.8
+  composite: 56.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 52.6
-    contract_governance: 4.5
-    contract_quality: 59.8
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 67.8
     developer_ergonomics: 58.9
-    discoverability: 70.0
-    operational_transparency: 60.5
-  previous_composite: 54.8
+    discoverability: 78.6
+    operational_transparency: 57.9
+  previous_composite: 55.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 86.2
       total: 65
     mcp: derived
     skills: derived
@@ -613,14 +627,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/observepoint/observepoint-2026-09-02T150820.png
 security:
 - kind: authentication

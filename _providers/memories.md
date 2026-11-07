@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
-  trial: false
-  try_now: false
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -62,7 +67,7 @@ apis:
   description: The Understand API from Memories — 2 operation(s) for understand.
   name: Memories Understand API
   slug: memories-understand-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Memories Webhooks
@@ -232,7 +237,7 @@ network: true
 overview: 'Memories publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Serve API, Stream Understanding API, and Understand API. Tagged areas include Company, Video Intelligence, Video Understanding, Video Search, and Transcription.
 
 
-  The Memories catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Memories catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Memories'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, authentication, and 22 more developer resources.'
@@ -248,32 +253,45 @@ rate_limits:
 - limit_count: 4
   name: Memories Rate Limits
   slug: memories-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Memories API Rules
+  rule_count: 48
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 5
+  slug: memories-rules
 score:
   band: strong
-  composite: 57.8
+  composite: 58.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 28
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.6
   facets:
-    access_clarity: 78.9
-    contract_governance: 18.2
-    contract_quality: 55.0
-    developer_ergonomics: 66.7
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 56.2
+    access_clarity: 72.4
+    contract_governance: 31.8
+    contract_quality: 60.2
+    developer_ergonomics: 61.9
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
     mcp: derived
     skills: first-party
@@ -289,13 +307,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/memories/memories-2026-08-07T172506.png
 security:
 - kind: authentication

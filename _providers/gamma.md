@@ -1,16 +1,23 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +31,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +42,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-31'
+  score: 32.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -158,9 +166,9 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.2
+  composite: 42.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -172,9 +180,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 43.2
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -184,8 +192,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

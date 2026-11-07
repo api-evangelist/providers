@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.2
-  scored_at: '2026-10-31'
+  score: 15.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Payhawk spend management features including expenses, corporate cards, transactions, employees, custom fields, fund accounts, bank statements, and webhook subscr
@@ -157,9 +159,9 @@ rate_limits:
   slug: payhawk-rate-limits
 score:
   band: emerging
-  composite: 25.9
+  composite: 24.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -171,9 +173,9 @@ score:
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 28.6
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 25.9
+    discoverability: 68.3
+    operational_transparency: 26.3
+  previous_composite: 24.7
   provenance:
     mcp: first-party
   regulatory:
@@ -182,8 +184,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.1
-  scored_at: '2026-10-31'
+  score: 32.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -206,7 +210,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.1
+  composite: 38.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -220,9 +224,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 37.1
+  previous_composite: 38.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

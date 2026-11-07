@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Programmatic TypeScript / JavaScript API for building VS Code extensions. The Extension API exposes editor UI, language features, debugging adapters, themes, webviews, source control providers, tasks,
@@ -42,6 +44,49 @@ apis:
   slug: extension-api
 artifact_total: 2
 common:
+- group: build
+  href: https://artifacts.apis.io/visual-studio-code/cli/visual-studio-code-cli.yml
+  title: ''
+  type: CLI
+  url: cli/visual-studio-code-cli.yml
+- group: operate
+  href: https://artifacts.apis.io/visual-studio-code/changelog/visual-studio-code-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/visual-studio-code-changelog.yml
+- group: agent
+  href: https://artifacts.apis.io/visual-studio-code/llms/visual-studio-code-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/visual-studio-code-llms.txt
+- group: other
+  href: https://artifacts.apis.io/visual-studio-code/hosts/visual-studio-code-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/visual-studio-code-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/visual-studio-code/integrations/visual-studio-code-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/visual-studio-code-integration-edges.yml
+- group: build
+  href: https://artifacts.apis.io/visual-studio-code/packages/visual-studio-code-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/visual-studio-code-packages.yml
+- group: build
+  href: https://artifacts.apis.io/visual-studio-code/packages/visual-studio-code-packages.yml
+  title: ''
+  type: Packages
+  url: packages/visual-studio-code-packages.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://github.com/github-copilot/signup
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://code.visualstudio.com/docs/agents/quickstart
 - group: auth
   href: https://artifacts.apis.io/visual-studio-code/security/visual-studio-code-domain-security.yml
   title: ''
@@ -79,37 +124,56 @@ common:
   title: ''
   type: Blog
   url: https://code.visualstudio.com/blogs
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://code.visualstudio.com/updates
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://code.visualstudio.com/api/references/vscode-api
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://code.visualstudio.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-05-11'
 description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands of extensions. VS Code is not a SaaS REST API; instead, developers extend the editor through the Extension API, a TypeScript / JavaScript programmatic interface that exposes nearly every aspect of the editor for customization. This index points to the Extension API documentation and surrounding developer resources.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visual-studio-code.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-11-04'
 name: Visual Studio Code
 nav: Providers
 network: true
 overview: 'Visual Studio Code is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Editor, Developer Tools, IDE, Open Source, and Extension API.
 
 
-  Visual Studio Code''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
+  Visual Studio Code''s developer surface includes CLI, changelog, signup flow, getting-started guide, documentation, GitHub presence, engineering blog, and 14 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 11.9
+  composite: 19.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 45.2
     discoverability: 64.3
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 11.9
   regulatory:
     applies: true
@@ -117,9 +181,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

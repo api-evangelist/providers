@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-31'
+  score: 25.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +136,7 @@ apis:
   description: The Webhooks API from Chameleon — 2 operation(s) for webhooks.
   name: Chameleon Webhooks API
   slug: chameleon-webhooks-api
-artifact_total: 44
+artifact_total: 45
 collections:
 - collection_type: open
   name: Chameleon REST Alert Groups API
@@ -292,7 +293,7 @@ network: true
 overview: 'Chameleon publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Groups API, Companies API, Deliveries API, and 15 more. Tagged areas include Product, In-App Guidance, Onboarding, Surveys, and Analytics.
 
 
-  The Chameleon catalog on APIs.io includes 1 JSON-LD context.
+  The Chameleon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Chameleon''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
@@ -305,25 +306,38 @@ rate_limits:
 - limit_count: 1
   name: Chameleon Rate Limits
   slug: chameleon-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Chameleon API Rules
+  rule_count: 46
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 2
+  slug: chameleon-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 32.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 44.0
+    artifact_dirs: 19
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 50.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 11.9
     discoverability: 64.3
     operational_transparency: 26.3
-  previous_composite: 33.0
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +351,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/chameleon/chameleon-2026-06-20T174211.png
 security:
 - kind: authentication

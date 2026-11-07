@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -13,6 +16,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -293,9 +298,9 @@ rules:
   slug: finout-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 37.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
@@ -305,11 +310,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 63.0
+    contract_quality: 65.6
     developer_ergonomics: 25.0
-    discoverability: 63.3
-    operational_transparency: 13.2
-  previous_composite: 37.8
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -324,13 +329,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/finout/finout-2026-06-20T181223.png
 security:
 - kind: authentication

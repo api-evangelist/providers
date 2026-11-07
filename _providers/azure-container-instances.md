@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -503,7 +507,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.5
+  composite: 52.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 55.0
@@ -511,21 +515,21 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: 0.7
   facets:
     access_clarity: 44.7
     contract_governance: 27.3
-    contract_quality: 49.0
+    contract_quality: 52.1
     developer_ergonomics: 50.0
     discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 56.8
+    operational_transparency: 36.8
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 66.7
       total: 3
   regulatory:
     applies: true
@@ -533,13 +537,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: falling
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/azure-container-instances/azure-container-instances-2026-06-20T172844.png
 security:
 - kind: authentication

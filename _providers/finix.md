@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.6
-  scored_at: '2026-10-31'
+  score: 43.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -156,7 +157,7 @@ arazzos:
 - description: Convert a finix.js token into a Payment Instrument and create a Transfer (sale).
   name: Finix Tokenize and Charge
   slug: finix-tokenize-and-charge-workflow
-artifact_total: 75
+artifact_total: 76
 asyncapis:
 - description: Finix delivers real-time event notifications via webhooks (HTTP POST) when resources change. Subscribe with POST /webhooks. Each delivery carries an envelope { id, type, entity, occurred_at, system_ge
   name: Finix Webhook Events
@@ -525,7 +526,7 @@ network: true
 overview: 'Finix publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Balance Transfers API, Compliance Forms API, and 16 more. Tagged areas include Company, Fintech, Payments, Payment Processing, and Payment Facilitation.
 
 
-  The Finix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Finix catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
@@ -538,30 +539,43 @@ rate_limits:
 - limit_count: 2
   name: Finix Rate Limits
   slug: finix-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Finix API Rules
+  rule_count: 57
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 5
+  slug: finix-rules
 score:
   band: strong
-  composite: 63.6
+  composite: 63.5
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 45.0
+    artifact_dirs: 33
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
+    access_clarity: 53.9
+    contract_governance: 31.8
     contract_quality: 57.0
     developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 76.3
+    discoverability: 71.7
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 63.6
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -578,13 +592,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/finix/finix-2026-07-25T214523.png
 security:
 - kind: authentication

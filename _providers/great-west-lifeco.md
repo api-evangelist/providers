@@ -1,11 +1,11 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   gated: partner
   gated_source:
   - tag:Partner Gated
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -31,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -41,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Listed in the public API catalog of the Empower developer portal, operated by Great-West Lifeco's U.S. retirement subsidiary Empower. Marked "production" and categorized "financial", it returns partic
@@ -55,6 +56,25 @@ apis:
   slug: canada-life-api-gateway
 artifact_total: 7
 common:
+- group: operate
+  href: https://artifacts.apis.io/great-west-lifeco/lifecycle/great-west-lifeco-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/great-west-lifeco-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/great-west-lifeco/hosts/great-west-lifeco-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/great-west-lifeco-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/great-west-lifeco/vendors/great-west-lifeco-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/great-west-lifeco-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.greatwestlifeco.com/global/leadership/dhvani-d-shah.html
 - group: auth
   href: https://artifacts.apis.io/great-west-lifeco/security/great-west-lifeco-domain-security.yml
   title: ''
@@ -140,11 +160,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/great-west-lifeco-well-known.yml
-- group: other
-  href: https://artifacts.apis.io/great-west-lifeco/well-known/great-west-lifeco-openid-configuration.json
-  title: ''
-  type: OpenIDConnect
-  url: well-known/great-west-lifeco-openid-configuration.json
 - group: design
   href: https://artifacts.apis.io/great-west-lifeco/conventions/great-west-lifeco-conventions.yml
   title: ''
@@ -175,11 +190,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/great-west-lifeco-conformance.yml
-- group: agent
-  href: https://artifacts.apis.io/great-west-lifeco/llms/great-west-lifeco-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/great-west-lifeco-llms.txt
 created: '2026-07-25'
 description: 'Great-West Lifeco Inc. is a Winnipeg-headquartered international financial services holding company and a member of the Power Corporation group, and one of the largest life insurers in North America. It operates through Canada Life in Canada, the United Kingdom, the Isle of Man and Germany, through Irish Life in Ireland, and through Empower in the United States, spanning individual and group life, health and dental, disability and critical illness insurance, annuities and payout products, segregated funds and wealth management, employer-sponsored retirement recordkeeping, and life reinsurance. Its home market is Canada, where it is federally supervised by OSFI for prudential matters while market conduct is regulated province by province, and where no open-insurance mandate exists (Consumer-Driven Banking excludes insurance outright). Its API posture reflects that absence of a forcing function: the Great-West Lifeco corporate site and the Canadian consumer site canadalife.com
   publish no developer portal and no API documentation, and probes of developer/docs subdomains and /developers, /api, /developer, /partners and /integrations paths return no such surface. Two production API surfaces nevertheless exist inside the group, both partner-gated and unrelated to each other. Canada Life runs an Apigee gateway at api.canadalife.com that serves a real OpenID Connect discovery document anonymously - issuer, JWKS, token, revocation and userinfo endpoints, with the authorization endpoint deliberately published as "authorize-NOT-SUPPORTED" and an empty scopes_supported array - and whose error envelopes point to https://apimarketplace.canadalife.com, a digitalML-hosted API marketplace that does not resolve publicly. The U.S. retirement subsidiary Empower runs a genuine developer portal that lists two production APIs publicly while naming eight API products plus three coming soon on its marketing site, places every piece of reference documentation behind login, documents
@@ -193,7 +203,7 @@ network: true
 overview: 'Great-West Lifeco is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
 
 
-  Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
+  Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 23 more developer resources.'
 random_paper: 18
 scopes:
 - name: Great West Lifeco Scopes
@@ -202,22 +212,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.4
+  composite: 41.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 36.8
+    discoverability: 74.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -225,7 +235,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.4
+  previous_composite: 40.3
   provenance:
     conformance: first-party
   regulatory:
@@ -234,8 +244,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

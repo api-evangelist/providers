@@ -1,19 +1,23 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -25,18 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.5
-  scored_at: '2026-10-31'
+  score: 56.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,7 +71,7 @@ apis:
   description: The Workspace API from Sendspark — 2 operation(s) for workspace.
   name: Sendspark Workspace API
   slug: sendspark-workspace-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: Outbound webhook event surface derived from the Sendspark REST API webhook management operations and the documented WebhookVideoEventsSchema. Subscribers are registered per workspace via POST /v1/work
   name: Sendspark Webhooks
@@ -289,7 +294,7 @@ network: true
 overview: 'Sendspark publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including DVM Bundles API, Dynamics Campaign API, Webhook API, and 1 more. Tagged areas include Company, Video, Sales, Marketing, and Personalization.
 
 
-  The Sendspark catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Sendspark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
@@ -305,6 +310,19 @@ rate_limits:
 - limit_count: 6
   name: Sendspark Rate Limits
   slug: sendspark-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Sendspark API Rules
+  rule_count: 49
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 5
+  slug: sendspark-rules
 scopes:
 - name: Sendspark Scopes
   scope_count: 4
@@ -312,30 +330,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 62.8
+  composite: 64.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 53.5
+    contract_governance: 18.2
+    contract_quality: 58.6
     developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 60.5
-  previous_composite: 61.2
+    discoverability: 75.0
+    operational_transparency: 50.0
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: first-party
@@ -345,13 +363,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sendspark/sendspark-2026-08-17T081802.png
 security:
 - kind: authentication

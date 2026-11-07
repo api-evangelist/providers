@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -134,7 +147,7 @@ modified: '2026-10-21'
 name: Sweethawk
 nav: Providers
 network: true
-overview: 'Sweethawk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Zendesk apps, IT service management, HR service, Employee service desk, and Workflow automation.
+overview: 'Sweethawk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Zendesk apps, ITSM, HR service, Employee service desk, and Workflow Automation.
 
 
   Sweethawk''s developer surface includes authentication, support, pricing, documentation, engineering blog, getting-started guide, and 14 more developer resources.'
@@ -145,21 +158,29 @@ plans:
 random_paper: 19
 score:
   band: thin
-  composite: 36.7
+  composite: 28.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 12.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 44.6
-    operational_transparency: 15.8
+    developer_ergonomics: 26.2
+    discoverability: 51.8
+    operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.4
   provenance:
     conformance: first-party
   regulatory:
@@ -171,13 +192,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/sweethawk/sweethawk-2026-11-03T144153.png
 security:
 - kind: authentication
   name: Sweethawk Authentication
@@ -194,10 +217,10 @@ security:
 slug: sweethawk
 tags:
 - Zendesk apps
-- IT service management
+- ITSM
 - HR service
 - Employee service desk
-- Workflow automation
-- Change management
+- Workflow Automation
+- Change Management
 website: https://sweethawk.com/
 ---

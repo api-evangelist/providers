@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for creating and managing CloudShell environments — browser-based terminal sessions for AWS resource management.
@@ -190,7 +192,7 @@ modified: '2026-06-20'
 name: Amazon CloudShell
 nav: Providers
 network: true
-overview: 'Amazon CloudShell is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CloudShell, Terminal, CLI, and Browser-Based.
+overview: 'Amazon CloudShell is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Amazon Web Services, CloudShell, Terminal, CLI, and Browser-Based.
 
 
   The Amazon CloudShell catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -211,24 +213,24 @@ rules:
     warn: 6
   slug: amazon-cloudshell-spectral-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 36.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 39.8
+    catalog_earned: 44.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.3
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     contract_governance: 28.0
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 39.3
+    developer_ergonomics: 40.5
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 35.9
   provenance:
     conformance: derived
     mcp: derived
@@ -238,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -261,6 +263,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-cloudshell
 tags:
+- Amazon Web Services
 - CloudShell
 - Terminal
 - CLI

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -10,11 +22,12 @@ agent_readiness:
     consent_identity: false
     delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -22,10 +35,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 16.2
-  scored_at: '2026-10-31'
+  score: 17.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,6 +53,21 @@ apis:
   slug: screenshot-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://artifacts.apis.io/localscreenshot/finops/localscreenshot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/localscreenshot-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/localscreenshot/well-known/localscreenshot-kilo-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/localscreenshot-kilo-security.txt
+- group: build
+  href: https://artifacts.apis.io/localscreenshot/integrations/localscreenshot-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/localscreenshot-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/localscreenshot/agentic-access/localscreenshot-agentic-access.yml
   title: ''
@@ -95,11 +123,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/localscreenshot-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/localscreenshot/well-known/localscreenshot-cursor-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/localscreenshot-cursor-security.txt
 - group: auth
   href: https://artifacts.apis.io/localscreenshot/well-known/localscreenshot-ampcode-security.txt
   title: ''
@@ -207,7 +230,7 @@ overview: 'localscreenshot is listed with 1 API on the [APIs.io](https://apis.io
   The localscreenshot catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  localscreenshot''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, pricing, and 21 more developer resources.'
+  localscreenshot''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
 plans:
 - name: Localscreenshot Plans Pricing
   plan_count: 3
@@ -227,24 +250,24 @@ rules:
     warn: 1
   slug: localscreenshot-rules
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 32.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 46.5
     catalog_earned_first_party: 12.0
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 53.6
+    developer_ergonomics: 42.9
+    discoverability: 60.7
     operational_transparency: 34.2
-  previous_composite: 40.3
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,14 +277,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/localscreenshot/localscreenshot-2026-11-03T135022.png
 security:
 - kind: authentication
   name: Localscreenshot Authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -140,7 +151,7 @@ modified: '2026-10-26'
 name: KOOK
 nav: Providers
 network: true
-overview: 'KOOK publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including 将Bot连接到 KOOK 服务器 API, 事件通知介绍 API, Gateway接口 API, and 1 more. Tagged areas include Company, Voice Communication, Gaming, Community, and Real-time.
+overview: 'KOOK publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including 将Bot连接到 KOOK 服务器 API, 事件通知介绍 API, Gateway接口 API, and 1 more. Tagged areas include Company, Voice Communication, Gaming, Community, and Real-Time.
 
 
   The KOOK catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -163,21 +174,29 @@ rules:
   slug: kook-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 27.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
     contract_quality: 47.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,13 +211,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/kook/kook-2026-11-03T134522.png
 security:
 - kind: domain-security
   name: Kook Domain Security
@@ -210,6 +230,6 @@ tags:
 - Voice Communication
 - Gaming
 - Community
-- Real-time
+- Real-Time
 website: https://www.kookapp.cn/
 ---

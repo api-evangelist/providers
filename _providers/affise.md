@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium (free trial)
+  confidence: high
+  label: Enterprise
   onboarding: unknown
-  pricing: freemium
+  pricing: enterprise
   public: false
   source:
   - plans
-  trial: true
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 7
@@ -498,23 +503,23 @@ rules:
   slug: affise-rules
 score:
   band: exemplar
-  composite: 70.6
+  composite: 70.4
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.4
+  delta: -0.1
   facets:
     access_clarity: 92.1
     contract_governance: 35.6
-    contract_quality: 66.1
+    contract_quality: 66.7
     developer_ergonomics: 82.6
-    discoverability: 66.7
-    operational_transparency: 39.5
-  previous_composite: 65.2
+    discoverability: 72.5
+    operational_transparency: 21.1
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -531,13 +536,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/affise/affise-2026-06-20T165649.png
 security:
 - kind: authentication

@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -30,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.3
-  scored_at: '2026-10-31'
+  score: 51.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The other direction of the CI HUB platform. A DAM, MAM, PIM, CMS, stock or cloud-storage vendor writes an integration that translates its own proprietary API into CI HUB's handler format using defineI
@@ -65,7 +66,7 @@ apis:
   description: The System API from CI HUB — 1 operation(s) for system.
   name: CI HUB System API
   slug: ci-hub-system-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: CI HUB Access SDK API
@@ -216,6 +217,9 @@ network: true
 overview: 'CI HUB publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Auth API, System API, and 2 more. Tagged areas include Company, Digital Asset Management, Content Management, Product Information Management, and Integration.
 
 
+  The CI HUB catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   CI HUB''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 plans:
 - name: Ci Hub Plans Pricing
@@ -229,6 +233,19 @@ rate_limits:
 - limit_count: 2
   name: Ci Hub Rate Limits
   slug: ci-hub-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: CI HUB API Rules
+  rule_count: 68
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 4
+    warn: 1
+  slug: ci-hub-rules
 scopes:
 - name: Ci Hub Scopes
   scope_count: 1
@@ -236,22 +253,22 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 63.1
+  composite: 66.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 1.5
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 52.7
+    contract_governance: 31.8
+    contract_quality: 58.6
     developer_ergonomics: 80.4
-    discoverability: 65.0
-    operational_transparency: 42.1
+    discoverability: 75.0
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -260,7 +277,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 61.6
+  previous_composite: 64.7
   provenance:
     conformance: first-party
     contracts:
@@ -276,13 +293,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ci-hub/ci-hub-2026-08-17T080817.png
 security:
 - kind: authentication

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: Open-source command-line tool and engine that turns a Garden project configuration into a graph of Build, Deploy, Test, and Run actions and executes them locally or against remote Kubernetes clusters.
@@ -158,9 +160,9 @@ rate_limits:
   slug: garden-io-rate-limits
 score:
   band: emerging
-  composite: 14.2
+  composite: 21.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -174,15 +176,18 @@ score:
     developer_ergonomics: 9.5
     discoverability: 78.6
     operational_transparency: 36.8
-  previous_composite: 14.2
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 21.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Network-based verification that the mobile number a user declares is the number of the SIM the request is actually coming from, used to replace or reinforce SMS OTP. Singtel documents this as the CAMA
@@ -179,7 +180,7 @@ overview: 'Singtel is listed with 7 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: emerging
-  composite: 18.2
+  composite: 18.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -193,7 +194,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -202,7 +203,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 18.2
+  previous_composite: 18.6
   provenance:
     conformance: first-party
   regulatory:
@@ -210,9 +211,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 25.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

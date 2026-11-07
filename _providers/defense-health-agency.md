@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: No published plans — access by agreement
-  onboarding: approval
-  pricing: unknown
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
-  - plans
-  - https://health.mil/Military-Health-Topics/Technology/Support-Areas/MDR-M2-ICD-Functional-References-and-Specification-Documents
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. '
@@ -165,9 +167,9 @@ rate_limits:
   slug: defense-health-agency-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 19.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -179,14 +181,14 @@ score:
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 11.9
-    discoverability: 58.9
+    discoverability: 58.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.2
+  previous_composite: 19.1
   provenance:
     conformance: first-party
   regulatory:
@@ -195,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.0
-  scored_at: '2026-10-31'
+  score: 39.8
+  scored_at: '2026-11-06'
 api_count: 13
 apis:
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
@@ -218,7 +219,7 @@ apis:
   description: The Oauth API from Emotive — 2 operation(s) for oauth.
   name: Emotive OAUTH API
   slug: emotive-oauth-api
-artifact_total: 49
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Emotive Webhooks
@@ -403,7 +404,7 @@ network: true
 overview: 'Emotive publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Auth0 API, Authentication Source API, and 33 more. Tagged areas include Company, Marketing, SMS, Messaging, and E-Commerce.
 
 
-  The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 28 more developer resources.'
@@ -419,31 +420,44 @@ rate_limits:
 - limit_count: 0
   name: Emotive Rate Limits
   slug: emotive-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Emotive API Rules
+  rule_count: 54
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 3
+    warn: 16
+  slug: emotive-rules
 score:
   band: strong
-  composite: 57.5
+  composite: 59.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 55.0
+    artifact_dirs: 29
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 49.6
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 54.9
     developer_ergonomics: 64.3
-    discoverability: 70.0
+    discoverability: 80.0
     operational_transparency: 23.7
-  previous_composite: 49.6
+  previous_composite: 58.4
   provenance:
     conformance: first-party
     contracts:
       callable: 10.7
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 85.7
       total: 35
     mcp: first-party
     skills: first-party
@@ -453,13 +467,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/emotive/emotive-2026-07-25T213253.png
 security:
 - kind: authentication

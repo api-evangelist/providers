@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -26,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-31'
+  score: 54.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +62,7 @@ apis:
   description: The Training API from Prior Labs — 4 operation(s) for training.
   name: Prior Labs Training API
   slug: priorlabs-training-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: TabPFN Prediction API
@@ -231,31 +236,47 @@ network: true
 overview: 'Prior Labs publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
 
 
+  The Prior Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Prior Labs'' developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 24 more developer resources.'
 plans:
 - name: Priorlabs Plans Pricing
   plan_count: 7
   slug: priorlabs-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Prior Labs API Rules
+  rule_count: 57
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 5
+    warn: 2
+  slug: priorlabs-rules
 score:
   band: developing
-  composite: 53.9
+  composite: 51.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 29
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
+    access_clarity: 57.9
+    contract_governance: 18.2
     contract_quality: 55.7
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 53.9
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,13 +293,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/priorlabs/priorlabs-2026-08-17T081338.png
 security:
 - kind: authentication

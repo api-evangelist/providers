@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -144,9 +148,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -158,9 +162,9 @@ score:
     contract_governance: 31.8
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,8 +174,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,31 +1,37 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-31'
+  score: 42.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,7 +62,7 @@ apis:
   description: Operations on Google Slides presentations
   name: Google Slides Presentations API
   slug: google-slides-presentations-api
-artifact_total: 444
+artifact_total: 447
 collections:
 - collection_type: postman
   name: Google Slides Pages API
@@ -74,6 +80,104 @@ collections:
   name: Google Slides Pages Presentations API
   slug: open-google-slides-presentations-api
 common:
+- group: design
+  href: https://artifacts.apis.io/google-slides/rules/google-slides-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-slides-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/rules/google-slides-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-slides-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/rules/google-slides-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-slides-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/vocabulary/google-slides-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-slides-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/google-slides/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/data-model/google-slides-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/google-slides-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/conventions/google-slides-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/google-slides-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/lifecycle/google-slides-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-slides-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/errors/google-slides-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-slides-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/google-slides/conformance/google-slides-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/google-slides-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/google-slides/overlays/google-slides-pages-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/google-slides-pages-api-overlay.yaml
+- group: agent
+  href: https://artifacts.apis.io/google-slides/llms/google-slides-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/google-slides-llms.txt
+- group: build
+  href: https://artifacts.apis.io/google-slides/mcp/google-slides-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-slides-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/google-slides/mcp/google-slides-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/google-slides-mcp.yml
+- group: agent
+  href: https://artifacts.apis.io/google-slides/well-known/google-slides-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/google-slides-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/google-slides/hosts/google-slides-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-slides-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/google-slides/integrations/google-slides-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-slides-integration-edges.yml
+- group: build
+  href: https://artifacts.apis.io/google-slides/packages/google-slides-packages.yml
+  title: ''
+  type: Packages
+  url: packages/google-slides-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://play.google.com/console/about/
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1862456855:1793821621744122
 - group: commercial
   href: https://artifacts.apis.io/google-slides/plans/google-slides-plans-pricing.yml
   title: ''
@@ -1476,6 +1580,10 @@ jsonld:
   property_count: 0
   slug: google-slides-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at slidesmcp.googleapis.com requiring OAuth; 4 tools listed.
+  name: Google Slides MCP server
+  slug: google-slides-mcp-server
 modified: '2026-05-19'
 name: Google Slides
 nav: Providers
@@ -1483,10 +1591,10 @@ network: true
 overview: 'Google Slides publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Pages API and Presentations API. Tagged areas include Collaboration, Google Workspace, Presentations, Productivity, and Slides.
 
 
-  The Google Slides catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Google Slides catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Google Slides'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, release notes, engineering blog, and 22 more developer resources.'
+  Google Slides'' developer surface includes sandbox, authentication, developer portal, getting-started guide, documentation, support, release notes, and 42 more developer resources.'
 plans:
 - name: Google Slides Plans Pricing
   plan_count: 1
@@ -1509,6 +1617,18 @@ rules:
     warn: 3
   slug: google-slides-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Google Slides API Rules
+  rule_count: 70
+  severity_counts:
+    error: 67
+    hint: 0
+    info: 2
+    warn: 1
+  slug: google-slides-rules
+- authorship: generated
   effective_rule_count: 59
   extends:
   - spectral:oas
@@ -1527,48 +1647,53 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.6
+  composite: 63.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.9
+    artifact_dirs: 37
+    catalog_earned: 62.4
     catalog_earned_first_party: 8.0
-    catalog_gap: 57.1
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 5.9
   facets:
-    access_clarity: 52.6
-    contract_governance: 13.6
+    access_clarity: 65.8
+    contract_governance: 31.8
     contract_quality: 65.5
-    developer_ergonomics: 58.3
-    discoverability: 64.3
+    developer_ergonomics: 67.3
+    discoverability: 63.3
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 59.7
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-slides/google-slides-2026-08-17T083628.png
 security:
 - kind: authentication
@@ -1583,6 +1708,10 @@ security:
   name: Google Slides Vulnerability Disclosure
   slug: google-slides-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: google-slides-edit-presentation
+  slug: google-slides-edit-presentation
 slug: google-slides
 tags:
 - Collaboration

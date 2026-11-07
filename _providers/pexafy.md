@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -29,7 +32,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -39,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.3
-  scored_at: '2026-10-31'
+  score: 53.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,7 +79,7 @@ apis:
   description: Quota counters.
   name: Pexafy Usage API
   slug: pexafy-usage-api
-artifact_total: 18
+artifact_total: 19
 common:
 - group: commercial
   title: ''
@@ -245,6 +249,9 @@ network: true
 overview: 'Pexafy publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Facets API, Photos API, and 2 more. Tagged areas include Image, Photos, Stock Photos, Image Search, and Semantic Search.
 
 
+  The Pexafy catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Pexafy''s developer surface includes pricing, support, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
 plans:
 - name: Pexafy Plans Pricing
@@ -258,35 +265,48 @@ rate_limits:
 - limit_count: 7
   name: Pexafy Rate Limits
   slug: pexafy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Pexafy API Rules
+  rule_count: 62
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 3
+    warn: 4
+  slug: pexafy-rules
 scopes:
 - name: Pexafy Scopes
   scope_count: 2
   slug: pexafy-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 30
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 50.4
     developer_ergonomics: 73.2
-    discoverability: 71.7
-    operational_transparency: 76.3
+    discoverability: 81.7
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 64.8
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,13 +327,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pexafy/pexafy-2026-09-02T151126.png
 security:
 - kind: authentication

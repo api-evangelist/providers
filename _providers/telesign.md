@@ -1,13 +1,18 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -27,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -37,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -307,16 +313,15 @@ common:
   title: ''
   type: Overlay
   url: overlays/telesign-accounts-api-overlay.yaml
-- group: auth
-  href: https://artifacts.apis.io/telesign/well-known/telesign-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/telesign-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/telesign/well-known/telesign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/telesign-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developer.telesign.com/.well-known/api-catalog
 - group: other
   href: https://artifacts.apis.io/telesign/hosts/telesign-hosts.yml
   title: ''
@@ -332,6 +337,54 @@ common:
   title: ''
   type: SDKs
   url: packages/telesign-packages.yml
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/node_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/node_telesign_enterprise
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/python_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/python_telesign_enterprise
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/ruby_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/ruby_telesign_enterprise
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/java_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/java_telesign_enterprise
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/csharp_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/csharp_telesign_enterprise
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/php_telesign
+- group: build
+  title: ''
+  type: SDK
+  url: https://github.com/TeleSign/php_telesign_enterprise
 - group: build
   href: https://artifacts.apis.io/telesign/packages/telesign-packages.yml
   title: ''
@@ -429,6 +482,78 @@ common:
   title: ''
   type: Login
   url: https://my.telesign.com/login
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/app-verify-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/detect-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/email-intelligence-extended-response.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/engage-api-number-masking.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/engage-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/engage-api-voice.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/engage-callbacks.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/intelligence-cloud-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/legacy-phone-id-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/pricing-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/protect-platform-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/silent-verify-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/smart-verify-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/sms-verify-api-callbacks.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/sms-verify-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/verify-api-callbacks.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/verify-api.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developer.telesign.com/enterprise/openapi/voice-verify-api.json
 description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Verify, App Verify and the multi-channel Verify API; Messaging (SMS, WhatsApp, Viber, RCS, MMS, email), Voice, Number Masking and Bulk SMS; Phone ID, Intelligence Cloud and Email Intelligence risk signals; and Accounts, Deactivated Numbers, Flow Builder and Protect Platform management surfaces, plus an RFC 9727 API catalog and callback (webhook) payload contracts.
 examples:
 - key_count: 4
@@ -457,7 +582,7 @@ json_schemas:
   property_count: 2
   slug: telesign-account-details
 - name: Account
-  property_count: 0
+  property_count: 3
   slug: telesign-account
 - name: Action
   property_count: 2
@@ -529,13 +654,13 @@ json_schemas:
   property_count: 10
   slug: telesign-post-score-response
 - name: postSMSSuccessResponse
-  property_count: 0
+  property_count: 5
   slug: telesign-post-smssuccess-response
 - name: POST Verification request
   property_count: 7
   slug: telesign-post-verification-request
 - name: POST Verification Response
-  property_count: 0
+  property_count: 7
   slug: telesign-post-verification-response
 - name: putCompletionResponse
   property_count: 4
@@ -544,10 +669,10 @@ json_schemas:
   property_count: 4
   slug: telesign-recording
 - name: RecordingWithDetail
-  property_count: 0
+  property_count: 6
   slug: telesign-recording-with-detail
 - name: RestAPIKey
-  property_count: 0
+  property_count: 3
   slug: telesign-rest-apikey
 - name: ScoreNumbering
   property_count: 2
@@ -556,7 +681,7 @@ json_schemas:
   property_count: 2
   slug: telesign-score-phone-type
 - name: sendVoiceCodeResponse
-  property_count: 0
+  property_count: 6
   slug: telesign-send-voice-code-response
 - name: SharedResponseFields
   property_count: 2
@@ -597,7 +722,7 @@ overview: 'Telesign publishes 31 API contracts indexed on the [APIs.io](https://
   The Telesign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Telesign''s developer surface includes changelog, authentication, pricing, engineering blog, documentation, API reference, getting-started guide, and 41 more developer resources.'
+  Telesign''s developer surface includes changelog, SDKs, authentication, pricing, engineering blog, documentation, API reference, and 71 more developer resources.'
 plans:
 - name: Telesign Plans Pricing
   plan_count: 3
@@ -632,22 +757,22 @@ rules:
   slug: telesign-rules
 score:
   band: exemplar
-  composite: 72.2
+  composite: 76.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 36
     catalog_earned: 82.5
     catalog_earned_first_party: 24.0
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 4.9
   facets:
-    access_clarity: 92.1
+    access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 72.1
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 94.7
+    contract_quality: 77.5
+    developer_ergonomics: 75.6
+    discoverability: 84.2
+    operational_transparency: 92.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -660,8 +785,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 30
+      marker_coverage: 84.4
+      total: 32
     mcp: first-party
     skills: derived
   regulatory:
@@ -670,13 +795,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/telesign/telesign-2026-06-20T195043.png
 security:
 - kind: authentication

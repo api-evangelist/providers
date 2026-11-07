@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-31'
+  score: 20.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 4
@@ -431,10 +435,10 @@ rules:
     warn: 6
   slug: utrecht-rules
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 39.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 57.7
     catalog_earned_first_party: 0.0
     catalog_gap: 57.4
@@ -456,7 +460,10 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 38.0
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -471,13 +478,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/utrecht/utrecht-2026-06-20T200730.png
 security:
 - kind: authentication

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.3
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Screenshot API providing capture, visual diff, and AI analysis.
@@ -174,7 +190,7 @@ modified: '2026-10-31'
 name: snapshot-site-com
 nav: Providers
 network: true
-overview: 'snapshot-site-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Screenshot, API, AI, and Monitoring.
+overview: 'snapshot-site-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Screenshots, Artificial Intelligence, and Monitoring.
 
 
   The snapshot-site-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,34 +216,46 @@ rules:
     warn: 1
   slug: snapshot-site-com-rules
 score:
-  band: strong
-  composite: 56.8
+  band: thin
+  composite: 34.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 83.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 31.5
+    artifact_dirs: 22
+    catalog_earned: 64.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.3
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 55.2
-    developer_ergonomics: 59.5
-    discoverability: 57.1
-    operational_transparency: 21.1
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 26.0
+    developer_ergonomics: 42.9
+    discoverability: 48.2
+    operational_transparency: 10.5
+  previous_composite: 43.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/snapshot-site-com/snapshot-site-com-2026-11-03T143407.png
 security:
 - kind: authentication
   name: Snapshot Site Com Authentication
@@ -240,9 +268,8 @@ security:
 slug: snapshot-site-com
 tags:
 - Company
-- Screenshot
-- API
-- AI
+- Screenshots
+- Artificial Intelligence
 - Monitoring
 website: https://snapshot-site.com/
 ---

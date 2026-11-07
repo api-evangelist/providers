@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -40,7 +58,7 @@ apis:
   description: The flagship aggregation endpoint.
   name: Plumma CONNECT API
   slug: plumma-connect-api
-artifact_total: 15
+artifact_total: 16
 common:
 - group: other
   href: https://artifacts.apis.io/plumma/overlays/plumma-connect-api-overlay.yaml
@@ -229,6 +247,9 @@ network: true
 overview: 'Plumma publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: CONNECT API. Tagged areas include Telecommunications, Network APIs, Italy, Europe, and GSMA Open Gateway.
 
 
+  The Plumma catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Plumma''s developer surface includes sandbox, signup flow, authentication, documentation, API reference, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Plumma Plans Pricing
@@ -242,21 +263,34 @@ rate_limits:
 - limit_count: 3
   name: Plumma Rate Limits
   slug: plumma-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Plumma API Rules
+  rule_count: 59
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 2
+  slug: plumma-rules
 score:
   band: strong
-  composite: 58.3
+  composite: 59.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 66.7
+    artifact_dirs: 28
+    catalog_earned: 71.2
     catalog_earned_first_party: 20.0
-    catalog_gap: 48.4
+    catalog_gap: 43.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 2.9
   facets:
-    access_clarity: 71.1
-    contract_governance: 22.0
-    contract_quality: 62.1
+    access_clarity: 64.5
+    contract_governance: 35.6
+    contract_quality: 68.3
     developer_ergonomics: 54.2
     discoverability: 66.1
     operational_transparency: 47.4
@@ -268,14 +302,14 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 56.7
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
@@ -285,13 +319,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/plumma/plumma-2026-10-11T112634.png
 security:
 - kind: authentication

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.3
-  scored_at: '2026-10-31'
+  score: 23.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Programmatic trading and market-data API for global markets, options, futures, crypto and event contracts. Proprietary Protocol Buffers protocol spoken over TCP to a locally run OpenD gateway (default
@@ -134,9 +136,9 @@ overview: 'Futu is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 20
 score:
   band: emerging
-  composite: 15.9
+  composite: 22.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,11 +148,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 54.8
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 15.9
+    discoverability: 71.7
+    operational_transparency: 2.6
+  previous_composite: 22.2
   provenance:
     mcp: first-party
     skills: first-party
@@ -160,8 +162,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Ross Stores operates a sophisticated supply chain technology stack including AI-driven inventory allocation, distribution center automation, and merchandise analytics. The company is investing approxi
@@ -179,7 +181,7 @@ rules:
   slug: ross-stores-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 13.2
+  composite: 12.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 48.8
@@ -192,18 +194,18 @@ score:
     access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 6.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 4.8
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 13.2
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

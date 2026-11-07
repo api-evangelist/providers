@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: TDS Telecom provides high-speed broadband, video, and voice services to residential and business customers across more than 900 rural and suburban communities in 30 states. TDS Telecom delivers fiber-
@@ -144,9 +146,9 @@ rate_limits:
   slug: telephone-and-data-systems-rate-limits
 score:
   band: emerging
-  composite: 11.4
+  composite: 11.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -158,17 +160,17 @@ score:
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 14.3
-    discoverability: 67.9
+    discoverability: 67.0
     operational_transparency: 5.3
-  previous_composite: 11.4
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 9.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

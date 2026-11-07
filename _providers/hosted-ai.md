@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for the Hosted·ai neocloud platform, split into an Admin Panel API (GPUaaS infrastructure: GPU pools, nodes, GPU/NPU hardware discovery, high availability, floating IPs, regions) and a User P'
@@ -159,9 +161,9 @@ overview: 'Hosted·ai is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 6
 score:
   band: emerging
-  composite: 25.1
+  composite: 25.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,9 +175,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 25.1
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 25.5
   provenance:
     conformance: derived
     mcp: derived
@@ -186,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

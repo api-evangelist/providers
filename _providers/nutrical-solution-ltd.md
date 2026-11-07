@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -77,7 +78,7 @@ apis:
   description: Create, read, update, and delete recipes with nutrition analysis.
   name: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: NutriCal Food & Nutrition Entity API
@@ -232,25 +233,41 @@ network: true
 overview: 'Nutrical Solution publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ltd Entity API, Ltd Ingredients API, Ltd Meal Plans API, and 3 more. Tagged areas include Company, Food, Nutrition, Health, and Recipes.
 
 
+  The Nutrical Solution catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Nutrical Solution''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Nutrical Solution API Rules
+  rule_count: 61
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 5
+    warn: 4
+  slug: nutrical-solution-ltd-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 31.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 13.6
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 17.0
     developer_ergonomics: 54.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -258,7 +275,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 32.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,13 +292,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nutrical-solution-ltd/nutrical-solution-ltd-2026-08-07T185800.png
 security:
 - kind: authentication

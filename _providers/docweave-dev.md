@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.5
-  scored_at: '2026-10-31'
+  score: 23.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Docweave PDF generation and reading API (REST) as documented.
@@ -178,7 +193,7 @@ modified: '2026-10-30'
 name: docweave-dev
 nav: Providers
 network: true
-overview: 'docweave-dev is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, Generation, API, AI, and Developers.
+overview: 'docweave-dev is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, Generation, Artificial Intelligence, and Developers.
 
 
   The docweave-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -205,34 +220,46 @@ scopes:
   slug: docweave-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.0
+  band: emerging
+  composite: 22.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 69.7
+    artifact_dirs: 25
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.4
   facets:
-    access_clarity: 23.7
-    contract_governance: 79.1
-    contract_quality: 51.4
-    developer_ergonomics: 38.1
-    discoverability: 56.7
+    access_clarity: 11.8
+    contract_governance: 35.6
+    contract_quality: 22.6
+    developer_ergonomics: 22.6
+    discoverability: 48.3
     operational_transparency: 0.0
+  previous_composite: 28.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/docweave-dev/docweave-dev-2026-11-03T130908.png
 security:
 - kind: authentication
   name: Docweave Dev Authentication
@@ -246,8 +273,7 @@ slug: docweave-dev
 tags:
 - PDF
 - Generation
-- API
-- AI
+- Artificial Intelligence
 - Developers
 website: https://docweave.dev/
 ---

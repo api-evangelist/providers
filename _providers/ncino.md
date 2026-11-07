@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -23,12 +23,13 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.5
-  scored_at: '2026-10-31'
+  score: 60.4
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -470,7 +471,7 @@ apis:
   description: The Webhooks API from nCino — 6 operation(s) for webhooks.
   name: nCino Webhooks API
   slug: ncino-webhooks-api
-artifact_total: 181
+artifact_total: 182
 asyncapis:
 - description: ''
   name: Ncino Mortgage Webhooks
@@ -907,11 +908,24 @@ network: true
 overview: 'nCino publishes 86 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Assignment Webhooks API, Audit Logs API, Authentication API, and 83 more. Tagged areas include Company, Banking, Financial Services, Lending, and Mortgage.
 
 
-  The nCino catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The nCino catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   nCino''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: nCino API Rules
+  rule_count: 56
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 2
+    warn: 17
+  slug: ncino-rules
 scopes:
 - name: Ncino Scopes
   scope_count: 1
@@ -919,23 +933,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.4
+  composite: 47.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.7
   facets:
-    access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 57.7
-    developer_ergonomics: 70.8
-    discoverability: 70.0
-    operational_transparency: 28.9
-  previous_composite: 52.4
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 61.0
+    developer_ergonomics: 57.7
+    discoverability: 80.0
+    operational_transparency: 26.3
+  previous_composite: 37.0
   provenance:
     conformance: derived
     contracts:
@@ -954,14 +968,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 37.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 31.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ncino/ncino-2026-08-07T184748.png
 security:
 - kind: authentication

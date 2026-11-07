@@ -1,17 +1,23 @@
 ---
 access_model:
-  confidence: high
-  label: Unknown pricing · Registration request required
-  onboarding: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
   pricing: unknown
   public: false
   source:
-  - https://ehr.meditech.com/ehr-solutions/greenfield-workspace
-  - https://greenfield.meditech.com/explorer/topic/welcome
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +26,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-31'
+  score: 32.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -427,9 +434,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.5
+  composite: 43.6
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 53.7
     catalog_earned_first_party: 0.0
     catalog_gap: 61.4
@@ -440,10 +447,10 @@ score:
     access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 27.6
-    developer_ergonomics: 67.3
+    developer_ergonomics: 57.7
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 45.5
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -460,13 +467,13 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/meditech/meditech-2026-06-20T185121.png
 security:
 - kind: authentication

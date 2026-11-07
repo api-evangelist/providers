@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -161,6 +174,16 @@ apis:
   slug: granicus-votetypes-api
 artifact_total: 48
 common:
+- group: auth
+  href: https://artifacts.apis.io/granicus/well-known/granicus-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/granicus-status-security.txt
+- group: build
+  href: https://artifacts.apis.io/granicus/integrations/granicus-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/granicus-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/granicus/agentic-access/granicus-agentic-access.yml
   title: ''
@@ -220,11 +243,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/granicus-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/granicus/well-known/granicus-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/granicus-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/granicus/well-known/granicus-well-known.yml
   title: ''
@@ -374,7 +392,7 @@ overview: 'Granicus publishes 26 API contracts indexed on the [APIs.io](https://
   The Granicus catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Granicus'' developer surface includes authentication, documentation, getting-started guide, support, engineering blog, changelog, YouTube channel, and 32 more developer resources.'
+  Granicus'' developer surface includes authentication, documentation, getting-started guide, support, engineering blog, changelog, YouTube channel, and 33 more developer resources.'
 plans:
 - name: Granicus Plans Pricing
   plan_count: 0
@@ -386,16 +404,16 @@ rate_limits:
   slug: granicus-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: Granicus API Rules
-  rule_count: 10
+  rule_count: 46
   severity_counts:
-    error: 8
+    error: 40
     hint: 0
     info: 1
-    warn: 1
+    warn: 5
   slug: granicus-rules
 scopes:
 - name: Granicus Scopes
@@ -403,29 +421,37 @@ scopes:
   slug: granicus-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.1
+  band: developing
+  composite: 45.8
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 35
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.3
   facets:
-    access_clarity: 50.0
+    access_clarity: 28.9
     contract_governance: 35.6
-    contract_quality: 51.0
-    developer_ergonomics: 58.9
-    discoverability: 60.7
-    operational_transparency: 47.4
+    contract_quality: 55.1
+    developer_ergonomics: 44.6
+    discoverability: 66.1
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 23
     mcp: derived
     skills: derived
@@ -438,13 +464,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 47.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 40.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/granicus/granicus-2026-11-03T133014.png
 security:
 - kind: authentication
   name: Granicus Authentication

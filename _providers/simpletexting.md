@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Paid (free trial) · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
-  trial: true
+  - rate-limits
+  - security
+  trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
@@ -27,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -107,7 +113,7 @@ apis:
   description: 'Use webhooks to communicate between the SimpleTexting platform and your server. Webhooks can be used to forward messages as well as provide info about unsubscribes and message delivery. SimpleTexting '
   name: SimpleTexting Webhook Reports API
   slug: simpletexting-webhook-reports-api
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Simpletexting Webhooks
@@ -318,7 +324,7 @@ network: true
 overview: 'SimpleTexting publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contact Segments API, and 9 more. Tagged areas include SMS, MMS, Messaging, Marketing, and Text Messaging.
 
 
-  The SimpleTexting catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The SimpleTexting catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   SimpleTexting''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, signup flow, and 25 more developer resources.'
@@ -334,25 +340,38 @@ rate_limits:
 - limit_count: 4
   name: Simpletexting Rate Limits
   slug: simpletexting-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: SimpleTexting API Rules
+  rule_count: 62
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 1
+    warn: 8
+  slug: simpletexting-rules
 score:
   band: strong
-  composite: 57.8
+  composite: 57.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.7
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 55.4
-    developer_ergonomics: 48.2
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 41.1
     discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 54.1
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,13 +388,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/simpletexting/simpletexting-2026-06-20T193933.png
 security:
 - kind: authentication

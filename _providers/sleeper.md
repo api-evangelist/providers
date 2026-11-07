@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-31'
+  score: 20.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.sleeper.app/v1
@@ -78,7 +80,7 @@ apis:
   description: The Users API from Sleeper — 1 operation(s) for users.
   name: Sleeper Users API
   slug: sleeper-users-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Sleeper Drafts API
@@ -217,27 +219,43 @@ network: true
 overview: 'Sleeper publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Drafts API, Leagues API, Matchups API, and 5 more. Tagged areas include Company, Fantasy Sports, Sports, Fantasy Football, and Gaming.
 
 
+  The Sleeper catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Sleeper API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sleeper-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 30.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 12.3
     developer_ergonomics: 47.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 27.9
+  previous_composite: 30.2
   provenance:
     conformance: derived
     contracts:
@@ -253,13 +271,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/sleeper/sleeper-2026-09-02T155833.png
 security:
 - kind: authentication

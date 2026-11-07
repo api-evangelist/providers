@@ -1,10 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 65.9
-  scored_at: '2026-10-31'
+  score: 61.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -256,7 +269,7 @@ modified: '2026-10-30'
 name: doconda-com
 nav: Providers
 network: true
-overview: 'doconda-com publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboard API, Documents API, Editor API, and 2 more. Tagged areas include Document Generation, API, Conversion, Automation, and AI.
+overview: 'doconda-com publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboard API, Documents API, Editor API, and 2 more. Tagged areas include Document Generation, Conversion, Automation, and Artificial Intelligence.
 
 
   The doconda-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -270,16 +283,16 @@ rate_limits:
   slug: doconda-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 97
   extends:
   - spectral:oas
   name: doconda-com API Rules
-  rule_count: 14
+  rule_count: 56
   severity_counts:
-    error: 12
+    error: 51
     hint: 0
     info: 1
-    warn: 1
+    warn: 4
   slug: doconda-com-rules
 scopes:
 - name: Doconda Com Scopes
@@ -287,34 +300,48 @@ scopes:
   slug: doconda-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 58.9
+  band: developing
+  composite: 43.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 75.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    artifact_dirs: 30
+    catalog_earned: 56.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.5
   facets:
-    access_clarity: 44.7
-    contract_governance: 79.1
-    contract_quality: 49.8
-    developer_ergonomics: 58.8
-    discoverability: 65.0
-    operational_transparency: 55.8
+    access_clarity: 22.4
+    contract_governance: 35.6
+    contract_quality: 52.9
+    developer_ergonomics: 42.1
+    discoverability: 56.7
+    operational_transparency: 39.5
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/doconda-com/doconda-com-2026-11-03T130843.png
 security:
 - kind: authentication
   name: Doconda Com Authentication
@@ -331,9 +358,8 @@ skills:
 slug: doconda-com
 tags:
 - Document Generation
-- API
 - Conversion
 - Automation
-- AI
+- Artificial Intelligence
 website: https://doconda.com/
 ---

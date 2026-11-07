@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API documentation is delivered per-tenant (behind
@@ -129,10 +131,10 @@ overview: 'Poka is listed with 1 API on the [APIs.io](https://apis.io/) network.
   Poka''s developer surface includes getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
 random_paper: 19
 score:
-  band: thin
-  composite: 32.1
+  band: emerging
+  composite: 13.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -140,13 +142,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 32.1
+    developer_ergonomics: 4.8
+    discoverability: 64.3
+    operational_transparency: 15.8
+  previous_composite: 13.7
   provenance:
     conformance: first-party
   regulatory:
@@ -154,9 +156,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

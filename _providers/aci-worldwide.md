@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -207,9 +208,9 @@ overview: 'ACI Worldwide is listed with 5 APIs on the [APIs.io](https://apis.io/
 random_paper: 3
 score:
   band: developing
-  composite: 45.0
+  composite: 45.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -221,7 +222,7 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 70.0
+    discoverability: 76.7
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -230,7 +231,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.0
+  previous_composite: 45.7
   provenance:
     conformance: first-party
   regulatory:
@@ -243,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

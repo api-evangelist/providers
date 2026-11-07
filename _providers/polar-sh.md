@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -102,7 +104,7 @@ apis:
   description: Webhook endpoint management and deliveries.
   name: Polar Webhooks API
   slug: polar-sh-webhooks-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: Polar benefits API
@@ -219,6 +221,9 @@ network: true
 overview: 'Polar publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Benefits API, Checkouts API, Customer Portal API, and 8 more. Tagged areas include Billing, Payments, Merchant of Record, Monetization, and Subscription.
 
 
+  The Polar catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Polar''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Polar Sh Plans Pricing
@@ -229,25 +234,38 @@ rate_limits:
 - limit_count: 3
   name: Polar Sh Rate Limits
   slug: polar-sh-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Polar API Rules
+  rule_count: 62
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 3
+  slug: polar-sh-rules
 score:
   band: thin
-  composite: 26.2
+  composite: 28.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 43.0
+    artifact_dirs: 19
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 44.7
-    developer_ergonomics: 32.1
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 26.2
+    developer_ergonomics: 25.0
+    discoverability: 68.3
+    operational_transparency: 10.5
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +280,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/polar-sh/polar-sh-2026-09-02T151641.png
 security:
 - kind: authentication

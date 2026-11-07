@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -268,9 +273,9 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.2
+  composite: 28.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
@@ -281,10 +286,10 @@ score:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 46.5
-    developer_ergonomics: 23.8
+    developer_ergonomics: 17.9
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 30.2
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -298,13 +303,12 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/who/who-2026-06-20T201446.png
 security:
 - kind: authentication

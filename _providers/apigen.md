@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -302,9 +306,9 @@ rules:
   slug: apigen-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 34.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
@@ -314,11 +318,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 65.5
+    contract_quality: 68.9
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 34.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -332,13 +336,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/apigen/apigen-2026-06-20T172236.png
 security:
 - kind: authentication

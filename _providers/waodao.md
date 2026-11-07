@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -11,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +23,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-31'
+  score: 43.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,21 +48,15 @@ agentic_access:
   operation_count: 5
   slug: waodao-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 3
 apis:
-- baseURL: https://waodao.ai/api/v1/waodao
-  baseurl_source: declared
-  description: Traverse the daily Human + AI ArtChain.
+- description: Traverse the daily Human + AI ArtChain.
   name: WAODAO Art Chain API
   slug: waodao-artchain-api
-- baseURL: https://waodao.ai/api/v1/waodao
-  baseurl_source: declared
-  description: Discover official WAO token deployments and registered DEX pools.
+- description: Discover official WAO token deployments and registered DEX pools.
   name: WAODAO Liquidity Pools API
   slug: waodao-liquidity-pools-api
-- baseURL: https://waodao.ai/api/v1/waodao
-  baseurl_source: declared
-  description: Read WAODAO-specific field semantics and discovery links.
+- description: Read WAODAO-specific field semantics and discovery links.
   name: WAODAO Schema API
   slug: waodao-schema-api
 - baseURL: https://waodao.ai/api/v1/waodao
@@ -66,7 +64,22 @@ apis:
   description: Read agent-friendly metadata for a published WAODAO day.
   name: WAODAO Token Metadata API
   slug: waodao-token-metadata-api
-artifact_total: 28
+- baseURL: https://waodao.ai
+  baseurl_source: declared
+  description: Traverse the daily Human + AI ArtChain.
+  name: WAODAO Art Chain API
+  slug: waodao-artchain-api
+- baseURL: https://waodao.ai
+  baseurl_source: declared
+  description: Discover official WAO token deployments and registered DEX pools.
+  name: WAODAO Liquidity Pools API
+  slug: waodao-liquidity-pools-api
+- baseURL: https://waodao.ai
+  baseurl_source: declared
+  description: Read WAODAO-specific field semantics and discovery links.
+  name: WAODAO Schema API
+  slug: waodao-schema-api
+artifact_total: 31
 collections:
 - collection_type: postman
   name: WAODAO Agent API
@@ -84,6 +97,31 @@ collections:
   name: Waodao Token Metadata API
   slug: open-waodao-token-metadata-api
 common:
+- group: design
+  href: https://artifacts.apis.io/waodao/rules/waodao-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/waodao-rules.yml
+- group: design
+  href: https://artifacts.apis.io/waodao/json-ld/waodao-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/waodao-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/waodao/vocabulary/waodao-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/waodao-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/waodao/hosts/waodao-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/waodao-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/waodao/vendors/waodao-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/waodao-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -143,11 +181,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/waodao-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/waodao/authentication/waodao-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/waodao-authentication.yml
 - group: design
   href: https://artifacts.apis.io/waodao/conventions/waodao-conventions.yml
   title: ''
@@ -290,13 +323,13 @@ modified: '2026-08-09'
 name: WAODAO
 nav: Providers
 network: true
-overview: 'WAODAO publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Art Chain API, Liquidity Pools API, Schema API, and 1 more. Tagged areas include AI Agents, ArtChain, Human and AI, NFT Metadata, and On-chain Culture.
+overview: 'WAODAO publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Art Chain API, Liquidity Pools API, Schema API, and 4 more. Tagged areas include AI Agents, ArtChain, Human and AI, NFT Metadata, and On-chain Culture.
 
 
   The WAODAO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WAODAO''s developer surface includes documentation, support, authentication, code examples, and 29 more developer resources.'
+  WAODAO''s developer surface includes documentation, support, code examples, and 34 more developer resources.'
 random_paper: 11
 rules:
 - authorship: generated
@@ -313,30 +346,30 @@ rules:
   slug: waodao-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 43.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.5
+    artifact_dirs: 28
+    catalog_earned: 62.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.5
+    catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.9
+  delta: 1.4
   facets:
     access_clarity: 0.0
-    contract_governance: 31.8
-    contract_quality: 60.9
+    contract_governance: 35.6
+    contract_quality: 70.2
     developer_ergonomics: 61.3
-    discoverability: 83.9
+    discoverability: 89.3
     operational_transparency: 5.3
-  previous_composite: 37.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -346,13 +379,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/waodao/waodao-2026-09-02T170429.png
 security:
 - kind: authentication
@@ -365,9 +398,9 @@ security:
   summary_line: TLSv1.3
 skill_count: 2
 skills:
-- name: Traverse the WAODAO ArtChain
+- name: traverse-the-waodao-artchain
   slug: waodao-traverse-the-artchain
-- name: Verify WAO token deployments and liquidity pools
+- name: verify-wao-token-deployments-and-liquidity-pools
   slug: waodao-verify-wao-deployments-and-pools
 slug: waodao
 tags:

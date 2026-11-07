@@ -1,11 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,18 +26,26 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.8
-  scored_at: '2026-10-31'
+  score: 44.1
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 42
+  human_in_the_loop: 0
+  name: Bettermenu Agentic Access
+  operation_count: 82
+  slug: bettermenu-agentic-access
+  summary_line: 82 operations · 42 acting
 api_count: 1
 apis:
 - baseURL: https://api.bettermenu.live
@@ -49,8 +68,33 @@ apis:
   description: 'Recipe authoring: create and manage recipes, servings, ingredient resolution, nutrition computation and analysis, labels, and version history.'
   name: BetterMenu Studio API
   slug: bettermenu-studio-api
-artifact_total: 6
+artifact_total: 26
 common:
+- group: agent
+  href: https://artifacts.apis.io/bettermenu/agentic-access/bettermenu-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bettermenu-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/bettermenu/rules/bettermenu-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bettermenu-rules.yml
+- group: design
+  href: https://artifacts.apis.io/bettermenu/json-ld/bettermenu-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/bettermenu-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/bettermenu/vocabulary/bettermenu-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/bettermenu-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/bettermenu/conformance/bettermenu-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/bettermenu-conformance.yml
 - group: commercial
   href: https://artifacts.apis.io/bettermenu/plans/bettermenu-plans-pricing.yml
   title: ''
@@ -71,11 +115,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/bettermenu-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/bettermenu/well-known/bettermenu-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/bettermenu-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/bettermenu/well-known/bettermenu-well-known.yml
   title: ''
@@ -143,38 +182,121 @@ coverage:
 created: '2026-10-21'
 description: BetterMenu provides a cloud‑based recipe formulation platform for food manufacturers, enabling rapid product development with built‑in FDA‑compliant nutrition labeling. Users can input ingredient lists and instantly generate nutrition facts panels, streamline formulation, and accelerate time‑to‑market while ensuring regulatory compliance. The service offers a web‑based interface, pricing plans, and integrates FDA guidelines to help bring food products to market faster.
 image: https://bettermenu.live/images/og-image.png
+json_schemas:
+- name: CheckoutRequest
+  property_count: 3
+  slug: bettermenu-checkout-request
+- name: ComputeConversionsRequest
+  property_count: 3
+  slug: bettermenu-compute-conversions-request
+- name: CreateCustomIngredientRequest
+  property_count: 8
+  slug: bettermenu-create-custom-ingredient-request
+- name: CreateSearchTokenRequest
+  property_count: 1
+  slug: bettermenu-create-search-token-request
+- name: EntitlementStatusResponse
+  property_count: 12
+  slug: bettermenu-entitlement-status-response
+- name: GetIngredientResponse
+  property_count: 16
+  slug: bettermenu-get-ingredient-response
+- name: PatchAddedSugarsReportRowRequest
+  property_count: 5
+  slug: bettermenu-patch-added-sugars-report-row-request
+- name: PlansResponse
+  property_count: 1
+  slug: bettermenu-plans-response
+- name: PortalRequest
+  property_count: 1
+  slug: bettermenu-portal-request
+- name: PortalResponse
+  property_count: 1
+  slug: bettermenu-portal-response
+- name: RecordReferenceFoodViewRequest
+  property_count: 11
+  slug: bettermenu-record-reference-food-view-request
+- name: ReferenceFood
+  property_count: 12
+  slug: bettermenu-reference-food
+- name: ReferenceServingSize
+  property_count: 12
+  slug: bettermenu-reference-serving-size
+- name: SearchTokenResponse
+  property_count: 5
+  slug: bettermenu-search-token-response
+- name: UpdateOrgSettingsRequest
+  property_count: 2
+  slug: bettermenu-update-org-settings-request
+- name: UpdateOrgSettingsResponse
+  property_count: 2
+  slug: bettermenu-update-org-settings-response
+- name: UsageResponse
+  property_count: 8
+  slug: bettermenu-usage-response
+jsonld:
+- class_count: 120
+  name: Bettermenu Context
+  property_count: 293
+  slug: bettermenu-context
 layout: provider
 modified: '2026-10-21'
 name: BetterMenu
 nav: Providers
 network: true
-overview: 'BetterMenu publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversions API, Entitlements API, Org API, and 1 more. Tagged areas include FoodTech, RecipeFormulation, FDACompliance, SaaS, and Cloud.
+overview: 'BetterMenu publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversions API, Entitlements API, Org API, and 1 more. Tagged areas include Food Tech, RecipeFormulation, FDA Compliance, Software-as-a-Service, and Cloud.
 
 
-  BetterMenu''s developer surface includes changelog, documentation, API reference, pricing, support, engineering blog, and 12 more developer resources.'
+  The BetterMenu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  BetterMenu''s developer surface includes changelog, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Bettermenu Plans Pricing
   plan_count: 1
   slug: bettermenu-plans-pricing
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: BetterMenu API Rules
+  rule_count: 47
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 3
+    warn: 7
+  slug: bettermenu-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 37.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 45.0
+    artifact_dirs: 22
+    catalog_earned: 70.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.4
   facets:
-    access_clarity: 52.6
-    contract_governance: 0.0
-    contract_quality: 33.3
-    developer_ergonomics: 23.8
-    discoverability: 66.1
-    operational_transparency: 26.3
+    access_clarity: 36.8
+    contract_governance: 22.0
+    contract_quality: 47.8
+    developer_ergonomics: 11.9
+    discoverability: 73.2
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.9
   provenance:
+    agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 1
@@ -186,13 +308,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/bettermenu/bettermenu-2026-11-03T121700.png
 security:
 - kind: domain-security
   name: Bettermenu Domain Security
@@ -200,10 +323,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bettermenu
 tags:
-- FoodTech
+- Food Tech
 - RecipeFormulation
-- FDACompliance
-- SaaS
+- FDA Compliance
+- Software-as-a-Service
 - Cloud
 website: https://bettermenu.live/
 ---

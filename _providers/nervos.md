@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-31'
+  score: 37.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public JSON-RPC 2.0 interface to Nervos CKB nodes for querying chain state (blocks, transactions, cells), submitting signed transactions, and subscribing to new-tip events over WebSocket. Unauthentica
@@ -178,9 +181,9 @@ overview: 'Nervos is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 21
 score:
   band: thin
-  composite: 37.3
+  composite: 37.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -192,9 +195,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 69.0
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 37.3
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

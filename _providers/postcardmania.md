@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 11
 common:
@@ -129,7 +141,7 @@ modified: '2026-10-27'
 name: PostcardMania
 nav: Providers
 network: true
-overview: 'PostcardMania is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include DirectMail, Marketing, API, Automation, and SmallBusiness.
+overview: 'PostcardMania is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Direct Mail, Marketing, Automation, and Small Business.
 
 
   The PostcardMania catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -165,41 +177,44 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.8
+  composite: 17.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 35.8
+    artifact_dirs: 30
+    catalog_earned: 30.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.3
+    catalog_gap: 84.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.1
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 15.9
     contract_quality: 8.3
-    developer_ergonomics: 33.3
-    discoverability: 50.0
-    operational_transparency: 5.3
+    developer_ergonomics: 16.7
+    discoverability: 47.3
+    operational_transparency: 2.6
+  previous_composite: 25.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 1
       marker_coverage: 100.0
-      total: 4
+      total: 1
     mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/postcardmania/postcardmania-2026-11-03T141421.png
 security:
 - kind: authentication
   name: Postcardmania Authentication
@@ -215,10 +230,9 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: postcardmania
 tags:
-- DirectMail
+- Direct Mail
 - Marketing
-- API
 - Automation
-- SmallBusiness
+- Small Business
 website: https://postcardmania.com/
 ---

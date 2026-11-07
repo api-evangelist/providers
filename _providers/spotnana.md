@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +27,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-31'
+  score: 41.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 2
@@ -211,7 +214,7 @@ apis:
   description: APIs to onboard and manage users.
   name: Spotnana Users API
   slug: spotnana-users-api
-artifact_total: 76
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Spotnana Webhooks
@@ -477,37 +480,50 @@ network: true
 overview: 'Spotnana publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air API, Air Credits API, API User API, and 30 more. Tagged areas include Company, Travel, Corporate Travel, Travel Management, and Booking.
 
 
-  The Spotnana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Spotnana catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Spotnana''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 25 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Spotnana API Rules
+  rule_count: 56
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 4
+    warn: 15
+  slug: spotnana-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 50.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 57.7
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 61.0
     developer_ergonomics: 61.3
-    discoverability: 70.0
-    operational_transparency: 52.6
-  previous_composite: 45.3
+    discoverability: 80.0
+    operational_transparency: 50.0
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 51.5
       total: 33
     mcp: first-party
     skills: derived
@@ -516,14 +532,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 66.7
 screenshot: https://apis.io/screenshots/spotnana/spotnana-2026-08-17T082033.png
 security:
 - kind: authentication

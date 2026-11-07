@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -23,10 +37,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-31'
+  score: 49.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -146,6 +160,26 @@ apis:
   slug: observeinc-tag-values-api
 artifact_total: 37
 common:
+- group: commercial
+  href: https://artifacts.apis.io/observeinc/finops/observeinc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/observeinc-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/observeinc/well-known/observeinc-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/observeinc-www-security.txt
+- group: auth
+  href: https://artifacts.apis.io/observeinc/well-known/observeinc-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/observeinc-status-security.txt
+- group: build
+  href: https://artifacts.apis.io/observeinc/integrations/observeinc-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/observeinc-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/observeinc/capabilities/observeinc-capability-edges.yml
   title: ''
@@ -226,16 +260,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/observeinc-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/observeinc/well-known/observeinc-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/observeinc-www-security.txt
-- group: auth
-  href: https://artifacts.apis.io/observeinc/well-known/observeinc-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/observeinc-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/observeinc/well-known/observeinc-well-known.yml
   title: ''
@@ -377,7 +401,7 @@ overview: 'Observe publishes 22 API contracts indexed on the [APIs.io](https://a
   The Observe catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Observe''s developer surface includes CLI, changelog, getting-started guide, authentication, documentation, API reference, support, and 32 more developer resources.'
+  Observe''s developer surface includes CLI, changelog, getting-started guide, authentication, documentation, API reference, support, and 34 more developer resources.'
 plans:
 - name: Observeinc Plans Pricing
   plan_count: 4
@@ -389,36 +413,36 @@ rate_limits:
   slug: observeinc-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 106
   extends:
   - spectral:oas
   name: Observe API Rules
-  rule_count: 18
+  rule_count: 65
   severity_counts:
-    error: 11
+    error: 42
     hint: 0
-    info: 6
-    warn: 1
+    info: 8
+    warn: 15
   slug: observeinc-rules
 score:
-  band: exemplar
-  composite: 68.1
+  band: strong
+  composite: 62.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 30
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: -7.1
   facets:
-    access_clarity: 84.2
+    access_clarity: 78.9
     contract_governance: 22.0
-    contract_quality: 64.7
-    developer_ergonomics: 61.9
-    discoverability: 66.7
-    operational_transparency: 86.8
-  previous_composite: 61.8
+    contract_quality: 68.1
+    developer_ergonomics: 40.5
+    discoverability: 75.8
+    operational_transparency: 76.3
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -433,14 +457,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 27.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/observeinc/observeinc-2026-11-03T140414.png
 security:
 - kind: authentication
   name: Observeinc Authentication

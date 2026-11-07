@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Collaborate in real-time, share documents safely, work from any device, and keep your data yours with Proton Docs.
@@ -179,29 +195,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.3
+  composite: 28.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 60.7
-    operational_transparency: 36.8
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - switzerland
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - dach
-    - europe
+    developer_ergonomics: 15.5
+    discoverability: 66.1
+    operational_transparency: 18.4
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -216,13 +226,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/proton-me/proton-me-2026-11-03T141652.png
 security:
 - kind: authentication
   name: Proton Me Authentication

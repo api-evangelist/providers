@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -303,7 +320,7 @@ modified: '2026-10-30'
 name: kairossignal-com
 nav: Providers
 network: true
-overview: 'kairossignal-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brief API, Credits API, Export API, and 9 more. Tagged areas include Company, DePIN, DataAPI, Crypto, and Telemetry.
+overview: 'kairossignal-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brief API, Credits API, Export API, and 9 more. Tagged areas include Company, DePIN, Data API, Cryptocurrency, and Telemetry.
 
 
   The kairossignal-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -338,22 +355,30 @@ scopes:
   slug: kairossignal-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.4
+  band: developing
+  composite: 50.7
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 35
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
     contract_quality: 58.7
-    developer_ergonomics: 49.3
-    discoverability: 66.7
-    operational_transparency: 57.9
+    developer_ergonomics: 33.8
+    discoverability: 75.8
+    operational_transparency: 44.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,13 +394,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/kairossignal-com/kairossignal-com-2026-11-03T134305.png
 security:
 - kind: authentication
   name: Kairossignal Com Authentication
@@ -417,8 +443,8 @@ slug: kairossignal-com
 tags:
 - Company
 - DePIN
-- DataAPI
-- Crypto
+- Data API
+- Cryptocurrency
 - Telemetry
 - Analytics
 website: https://kairossignal.com/

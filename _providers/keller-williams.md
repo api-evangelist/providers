@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +64,7 @@ arazzos:
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
   slug: keller-williams-publish-listing
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Keller Williams Marketplace Webhooks
@@ -255,34 +256,47 @@ network: true
 overview: 'Keller Williams publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Search API, and 2 more. Tagged areas include Real Estate, United States, Residential Real Estate, Brokerage, and Franchise.
 
 
-  The Keller Williams catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Keller Williams catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 30 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Keller Williams API Rules
+  rule_count: 45
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 1
+  slug: keller-williams-rules
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
   slug: keller-williams-scopes
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
-  band: developing
-  composite: 49.3
+  band: thin
+  composite: 37.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 35.0
+    artifact_dirs: 29
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 58.5
-    developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 36.8
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 61.8
+    developer_ergonomics: 19.6
+    discoverability: 74.1
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -290,7 +304,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.3
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,14 +320,13 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/keller-williams/keller-williams-2026-08-07T171117.png
 security:
 - kind: authentication

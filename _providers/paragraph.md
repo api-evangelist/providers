@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-31'
+  score: 46.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -98,7 +99,7 @@ apis:
   description: Operations related to users and authors
   name: Paragraph Users API
   slug: paragraph-users-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Paragraph analytics API
@@ -322,6 +323,9 @@ network: true
 overview: 'Paragraph publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Coins API, and 7 more. Tagged areas include Company, Publishing, Newsletters, Web3, and Content.
 
 
+  The Paragraph catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Paragraph Plans Pricing
@@ -335,6 +339,19 @@ rate_limits:
 - limit_count: 0
   name: Paragraph Rate Limits
   slug: paragraph-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Paragraph API Rules
+  rule_count: 65
+  severity_counts:
+    error: 61
+    hint: 0
+    info: 1
+    warn: 3
+  slug: paragraph-rules
 scopes:
 - name: Paragraph Scopes
   scope_count: 2
@@ -342,23 +359,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 59.6
+  composite: 61.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 50.9
+    contract_governance: 31.8
+    contract_quality: 52.7
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 58.0
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,13 +392,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/paragraph/paragraph-2026-08-07T191412.png
 security:
 - kind: authentication

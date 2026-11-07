@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -188,10 +190,10 @@ rules:
     warn: 4
   slug: photonengine-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 28.4
+  band: emerging
+  composite: 25.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 47.5
     catalog_earned_first_party: 0.0
     catalog_gap: 67.5
@@ -202,10 +204,10 @@ score:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 50.7
-    developer_ergonomics: 16.7
+    developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 28.4
+    operational_transparency: 21.1
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -219,13 +221,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/photonengine/photonengine-2026-08-17T081233.png
 security:
 - kind: domain-security

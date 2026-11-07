@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: enterprise
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -1171,9 +1176,9 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.0
+  composite: 25.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
@@ -1183,11 +1188,11 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
-    contract_quality: 24.6
+    contract_quality: 27.0
     developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 22.0
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1201,13 +1206,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/lightspeed-pos/lightspeed-pos-2026-06-20T184525.png
 security:
 - kind: authentication

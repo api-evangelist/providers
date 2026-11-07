@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +24,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 27.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -235,9 +245,9 @@ rules:
   slug: baloise-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 24.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
@@ -247,10 +257,10 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 52.2
+    contract_quality: 57.0
     developer_ergonomics: 16.1
     discoverability: 62.5
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -259,14 +269,14 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 24.0
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 33.3
       total: 9
     mcp: derived
     skills: derived
@@ -276,13 +286,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 4.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/baloise/baloise-2026-10-11T101514.png
 skill_count: 4
 skills:

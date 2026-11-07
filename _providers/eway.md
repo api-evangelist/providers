@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The eWAY Rapid API is a versioned HTTP payments API (v47) for processing card transactions. It exposes transaction creation (Direct Connection), AccessCode-based flows (Transparent Redirect / Responsi
@@ -216,21 +218,21 @@ plans:
 random_paper: 6
 score:
   band: developing
-  composite: 48.2
+  composite: 49.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -239,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 40.3
+  previous_composite: 49.0
   provenance:
     conformance: first-party
   regulatory:
@@ -248,9 +250,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

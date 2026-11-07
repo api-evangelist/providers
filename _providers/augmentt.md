@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-31'
+  score: 31.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Augmentt Discover provides SaaS discovery and Shadow IT detection capabilities for MSPs, identifying all cloud applications used across managed client environments.
@@ -63,7 +64,7 @@ apis:
   description: MFA, security posture, threat and summary reporting for managed tenants.
   name: Augmentt Security Reports API
   slug: augmentt-security-reports-api
-artifact_total: 30
+artifact_total: 31
 common:
 - group: commercial
   href: https://artifacts.apis.io/augmentt/finops/augmentt-finops.yml
@@ -269,6 +270,9 @@ network: true
 overview: 'Augmentt publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customers API, Licensing API, Security Reports API, and 3 more. Tagged areas include MSP, Microsoft 365, SaaS Management, SaaS Security, and Shadow IT.
 
 
+  The Augmentt catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Augmentt''s developer surface includes engineering blog, pricing, documentation, API reference, getting-started guide, support, signup flow, and 31 more developer resources.'
 plans:
 - name: Augmentt Plans Pricing
@@ -282,30 +286,43 @@ rate_limits:
 - limit_count: 0
   name: Augmentt Rate Limits
   slug: augmentt-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Augmentt API Rules
+  rule_count: 56
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 1
+  slug: augmentt-rules
 score:
   band: developing
-  composite: 52.7
+  composite: 54.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 6.7
   facets:
     access_clarity: 100.0
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 15.0
     developer_ergonomics: 58.9
-    discoverability: 73.3
-    operational_transparency: 52.6
+    discoverability: 74.1
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 51.1
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -321,13 +338,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/augmentt/augmentt-2026-07-25T201708.png
 security:
 - kind: authentication

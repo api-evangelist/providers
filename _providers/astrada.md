@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -120,7 +126,7 @@ apis:
   description: Manage webhooks
   name: Astrada Webhooks API
   slug: astrada-webhooks-api
-artifact_total: 56
+artifact_total: 57
 asyncapis:
 - description: Webhook event surface for the Astrada API, generated from the documented Event Types and webhook delivery mechanics. Astrada delivers events via HTTP POST to registered HTTPS endpoints with at-least-o
   name: Astrada Webhook Events
@@ -397,11 +403,24 @@ network: true
 overview: 'Astrada publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Bank Links API, Bank Subscriptions API, and 12 more. Tagged areas include Company, Fintech, Payments, Card Data, and Transaction Data.
 
 
-  The Astrada catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Astrada catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 29 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Astrada API Rules
+  rule_count: 64
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 13
+  slug: astrada-rules
 scopes:
 - name: Astrada Scopes
   scope_count: 34
@@ -409,23 +428,23 @@ scopes:
   summary_line: 34 scopes · implicit
 score:
   band: strong
-  composite: 56.9
+  composite: 59.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 55.2
+    contract_governance: 31.8
+    contract_quality: 58.1
     developer_ergonomics: 67.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 50.0
-  previous_composite: 56.9
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -448,13 +467,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/astrada/astrada-2026-07-25T201455.png
 security:
 - kind: authentication

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://{tenant}.phosphorus.io
@@ -79,7 +80,7 @@ apis:
   description: The Vault API from Phosphorus — 2 operation(s) for vault.
   name: Phosphorus Vault API
   slug: phosphorus-vault-api
-artifact_total: 17
+artifact_total: 18
 common:
 - group: operate
   href: https://artifacts.apis.io/phosphorus/rate-limits/phosphorus-rate-limits.yml
@@ -196,6 +197,9 @@ network: true
 overview: 'Phosphorus publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Device API, Devices API, and 5 more. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
 
 
+  The Phosphorus catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Phosphorus'' developer surface includes support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Phosphorus Plans Pricing
@@ -206,25 +210,38 @@ rate_limits:
 - limit_count: 0
   name: Phosphorus Rate Limits
   slug: phosphorus-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Phosphorus API Rules
+  rule_count: 53
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 5
+    warn: 2
+  slug: phosphorus-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 34.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 41.7
+    contract_governance: 18.2
+    contract_quality: 44.3
     developer_ergonomics: 20.8
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 32.9
+    operational_transparency: 13.2
+  previous_composite: 34.2
   provenance:
     conformance: derived
     contracts:
@@ -240,13 +257,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/phosphorus/phosphorus-2026-09-02T151153.png
 security:
 - kind: authentication

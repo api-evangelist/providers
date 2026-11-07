@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Convert speech into text using AI-powered speech recognition and transcription. The service uses machine learning to combine knowledge of grammar, language structure, and audio signal composition to a
@@ -144,9 +146,9 @@ rate_limits:
   slug: ibm-watson-rate-limits
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -159,16 +161,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 62.5
-    operational_transparency: 23.7
-  previous_composite: 19.5
+    operational_transparency: 21.1
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -91,7 +92,7 @@ apis:
   description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
   name: WeFitter Token API
   slug: wefitter-token-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Wefitter Webhooks
@@ -283,37 +284,50 @@ network: true
 overview: 'WeFitter publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including App API, Challenge API, Connection API, and 6 more. Tagged areas include Company, Health, Fitness, Wearables, and Health Data.
 
 
-  The WeFitter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The WeFitter catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   WeFitter''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, changelog, signup flow, and 25 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: WeFitter API Rules
+  rule_count: 64
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 2
+    warn: 4
+  slug: wefitter-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 48.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 50.7
+    contract_governance: 18.2
+    contract_quality: 58.8
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 44.8
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 9
     mcp: derived
     skills: derived
@@ -327,13 +341,12 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/wefitter/wefitter-2026-08-17T082909.png
 security:
 - kind: authentication

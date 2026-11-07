@@ -1,18 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.9
-  scored_at: '2026-10-31'
+  score: 3.4
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -185,9 +187,9 @@ plans:
 random_paper: 15
 score:
   band: thin
-  composite: 37.1
+  composite: 37.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -199,9 +201,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 48.3
-    operational_transparency: 21.1
-  previous_composite: 37.1
+    discoverability: 55.4
+    operational_transparency: 18.4
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -216,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

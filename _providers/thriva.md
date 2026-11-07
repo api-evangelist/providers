@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -96,7 +102,7 @@ apis:
   description: The Users API API from Thriva — 3 operation(s) for users api.
   name: Thriva Users API
   slug: thriva-users-api-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Thriva Webhooks
@@ -283,28 +289,41 @@ network: true
 overview: 'Thriva publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Auth API, Biomarkers API, and 7 more. Tagged areas include Company, Healthcare, Diagnostics, Blood Testing, and At-Home Testing.
 
 
-  The Thriva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Thriva catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Thriva API Rules
+  rule_count: 45
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 4
+  slug: thriva-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 45.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 42.4
+    artifact_dirs: 27
+    catalog_earned: 46.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.6
+    catalog_gap: 68.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
+    access_clarity: 27.6
+    contract_governance: 31.8
     contract_quality: 54.5
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -314,7 +333,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.2
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,13 +350,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/thriva/thriva-2026-08-17T082348.png
 security:
 - kind: authentication

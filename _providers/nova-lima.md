@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-31'
+  score: 46.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -181,9 +185,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.3
+  composite: 35.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -194,9 +198,9 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 45.2
-    discoverability: 65.0
-    operational_transparency: 34.2
+    developer_ergonomics: 38.1
+    discoverability: 75.0
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,7 +208,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 36.3
+  previous_composite: 35.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

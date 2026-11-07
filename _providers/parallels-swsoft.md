@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for automating Parallels Remote Application Server (RAS) — infrastructure, sites, secure gateways, RD session hosts, cloud providers, publishing, policies and licensing. Served by the self-ho
@@ -161,7 +162,7 @@ overview: 'Parallels (SWSoft) is listed with 1 API on the [APIs.io](https://apis
 random_paper: 3
 score:
   band: thin
-  composite: 31.0
+  composite: 31.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -175,9 +176,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 31.0
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 31.4
   provenance:
     conformance: derived
     mcp: derived
@@ -187,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

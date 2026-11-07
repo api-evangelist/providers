@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   - '{''url'': ''https://exponential.fi'', ''status'': 308, ''note'': ''declared website redirects to https://yo.xyz/risk — a different registrable domain (exponential.fi -> yo.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -20,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-31'
+  score: 33.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,7 +80,7 @@ arazzos:
 - description: Read a vault's current snapshot, yield and TVL history, and a user's pending redemptions.
   name: YO vault snapshot and user position
   slug: exponential-vault-snapshot
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Yo Protocol Agent API
@@ -255,27 +257,43 @@ network: true
 overview: 'Exponential publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, History API, Performance API, and 2 more. Tagged areas include Company, DeFi, Decentralized Finance, Yield, and Yield Optimizer.
 
 
+  The Exponential catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Exponential API Rules
+  rule_count: 41
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 1
+  slug: exponential-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 39.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 38.6
     developer_ergonomics: 73.8
-    discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 37.5
+    discoverability: 71.7
+    operational_transparency: 13.2
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,13 +310,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/exponential/exponential-2026-07-25T213934.png
 security:
 - kind: authentication

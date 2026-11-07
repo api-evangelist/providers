@@ -1,12 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Enterprise
+  label: Paid
   onboarding: unknown
-  pricing: enterprise
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Mosaic is an AI-powered intelligent bidding application developed by Fluence (an AES and Siemens company) for optimizing energy market participation. Mosaic automates bidding strategies for battery en
@@ -237,7 +240,7 @@ rate_limits:
   slug: aes-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 20.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -251,9 +254,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 20.0
+  previous_composite: 20.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -263,8 +266,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

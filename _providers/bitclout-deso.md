@@ -7,10 +7,12 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The HTTP JSON API served by every DeSo node — data endpoints (profiles, posts, users, NFTs, creator/DAO coins, messages) plus transaction-construction endpoints. The public node is node.deso.org; tran
@@ -162,8 +165,8 @@ overview: 'BitClout (DeSo) is listed with 1 API on the [APIs.io](https://apis.io
   BitClout (DeSo)''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 15 more developer resources.'
 random_paper: 22
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -177,9 +180,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 65.0
-    operational_transparency: 26.3
-  previous_composite: 26.1
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

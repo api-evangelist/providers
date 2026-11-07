@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -77,7 +89,7 @@ modified: '2026-10-30'
 name: zekedoesai-com
 nav: Providers
 network: true
-overview: 'zekedoesai-com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Homelab, MCP, Networking, and Open-source.
+overview: 'zekedoesai-com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Homelab, MCP, Networking, and Open Source.
 
 
   zekedoesai-com''s developer surface includes documentation and 6 more developer resources.'
@@ -97,21 +109,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 7.3
+  composite: 6.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 48.2
-    operational_transparency: 5.3
+    developer_ergonomics: 4.8
+    discoverability: 55.4
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 8.0
   provenance:
     conformance: unknown
     mcp: derived
@@ -121,12 +141,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/zekedoesai-com/zekedoesai-com-2026-11-03T150435.png
 security:
 - kind: authentication
   name: Zekedoesai Com Authentication
@@ -138,10 +160,10 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: zekedoesai-com
 tags:
-- AI
+- Artificial Intelligence
 - Homelab
 - MCP
 - Networking
-- Open-source
+- Open Source
 website: https://zekedoesai.com/
 ---

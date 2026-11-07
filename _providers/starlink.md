@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -30,6 +31,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -40,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -124,7 +126,7 @@ apis:
   description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
   name: Starlink User Terminals API
   slug: starlink-user-terminals-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: 'Event surface for Starlink enterprise device telemetry. Starlink exposes it as a poll-based JSON-over-HTTP stream rather than a broker: the consumer makes continuous small-batch POST requests to /publ'
   name: Starlink Telemetry Stream and Device Alerts
@@ -383,7 +385,7 @@ network: true
 overview: 'Starlink publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 13 more. Tagged areas include Non-Terrestrial Network, Starlink, Telecommunications, United States, and Satellite.
 
 
-  The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 44 more developer resources.'
@@ -399,29 +401,42 @@ rate_limits:
 - limit_count: 3
   name: Starlink Rate Limits
   slug: starlink-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Starlink API Rules
+  rule_count: 48
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 7
+  slug: starlink-rules
 scopes:
 - name: Starlink Scopes
   scope_count: 5
   slug: starlink-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: strong
-  composite: 62.8
+  band: developing
+  composite: 51.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 55.0
+    artifact_dirs: 32
+    catalog_earned: 59.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 4.6
   facets:
-    access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 51.4
-    developer_ergonomics: 66.1
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 56.4
+    developer_ergonomics: 51.8
     discoverability: 64.3
-    operational_transparency: 86.8
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -429,14 +444,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 61.2
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 12
     mcp: derived
     skills: derived
@@ -445,14 +460,13 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 45.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 38.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/starlink/starlink-2026-08-17T082120.png
 security:
 - kind: authentication

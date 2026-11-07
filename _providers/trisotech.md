@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Open access
+  onboarding: open
+  pricing: enterprise
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Public API of the Digital Enterprise Suite — 129 operations across 30 resource groups covering modeling places and their content, model promotion change requests, execution environments and deploy
@@ -255,9 +273,9 @@ scopes:
   summary_line: 20 scopes · authorization_code/client_credentials
 score:
   band: strong
-  composite: 57.5
+  composite: 58.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -267,11 +285,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 39.0
+    contract_quality: 44.2
     developer_ergonomics: 66.1
     discoverability: 70.0
-    operational_transparency: 55.3
-  previous_composite: 57.5
+    operational_transparency: 52.6
+  previous_composite: 58.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -282,8 +300,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

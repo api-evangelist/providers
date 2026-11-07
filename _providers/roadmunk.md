@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Open access
   onboarding: open
   pricing: paid
   public: true
   source:
   - plans
+  - security
   - '{''url'': ''https://roadmunk.com'', ''status'': 308, ''note'': ''declared website redirects to https://www.tempo.io/products/roadmaps — a different registrable domain (roadmunk.com -> tempo.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.0
-  scored_at: '2026-10-31'
+  score: 22.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Roadmunk (Strategic Roadmaps) GraphQL API provides programmatic access to roadmaps, items, milestones, key dates, portfolios, feedback, ideas, customers, contacts, accounts, and user management. T
@@ -148,7 +153,7 @@ rate_limits:
   slug: roadmunk-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 29.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 53.0
@@ -162,9 +167,9 @@ score:
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 26.3
-  previous_composite: 29.5
+  previous_composite: 29.7
   provenance:
     mcp: first-party
   regulatory:
@@ -173,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

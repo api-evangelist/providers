@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -468,9 +469,9 @@ rules:
   slug: toolhouse-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 50.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
@@ -480,11 +481,11 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 27.3
-    contract_quality: 49.5
+    contract_quality: 51.7
     developer_ergonomics: 46.4
     discoverability: 71.7
     operational_transparency: 44.7
-  previous_composite: 48.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -498,13 +499,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/toolhouse/toolhouse-2026-08-17T082402.png
 security:
 - kind: authentication

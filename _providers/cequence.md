@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-31'
+  score: 33.6
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -223,9 +227,9 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.5
+  composite: 41.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -233,13 +237,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.2
-    discoverability: 70.0
-    operational_transparency: 47.4
-  previous_composite: 44.5
+    developer_ergonomics: 63.7
+    discoverability: 72.5
+    operational_transparency: 44.7
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -250,8 +254,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

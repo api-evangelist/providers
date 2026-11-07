@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,7 +68,7 @@ apis:
   description: List the voices available for audio and video production.
   name: Narakeet Voices API
   slug: narakeet-voices-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Narakeet Account API
@@ -159,6 +160,9 @@ network: true
 overview: 'Narakeet publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, Voice, Audio, Video, and Artificial Intelligence.
 
 
+  The Narakeet catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Narakeet''s developer surface includes pricing, authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Narakeet Plans Pricing
@@ -169,25 +173,38 @@ rate_limits:
 - limit_count: 7
   name: Narakeet Rate Limits
   slug: narakeet-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Narakeet API Rules
+  rule_count: 60
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 1
+  slug: narakeet-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 33.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 52.0
+    artifact_dirs: 16
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
+    access_clarity: 36.8
+    contract_governance: 13.6
     contract_quality: 50.5
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.1
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -201,13 +218,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/narakeet/narakeet-2026-08-07T184630.png
 security:
 - kind: authentication

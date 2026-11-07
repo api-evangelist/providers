@@ -1,13 +1,18 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
-  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,23 +25,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-31'
+  score: 35.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -312,10 +318,10 @@ scopes:
   slug: ifs-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode/authorizationCode+PKCE/password
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 47.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
@@ -325,10 +331,10 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 28.0
-    contract_quality: 65.6
-    developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 31.6
+    contract_quality: 68.3
+    developer_ergonomics: 26.2
+    discoverability: 73.2
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -337,7 +343,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 55.1
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -352,13 +358,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 42.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/ifs/ifs-2026-06-20T183215.png
 security:
 - kind: authentication

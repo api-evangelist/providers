@@ -1,6 +1,6 @@
 {
- "total": 26,
- "shown": 26,
+ "total": 29,
+ "shown": 29,
  "limit": 1000,
  "bands": [
   {
@@ -16,19 +16,19 @@
      "slug": "university-of-helsinki",
      "description": "The University of Helsinki is Finland's oldest and largest multidisciplinary research university, founded in 1640, and it is one of the very few institutions in this cohort that operates a real, first-party API program rather than only renting vendor platforms. It runs its own Gravitee API gateway at gw.api.helsinki.fi behind a public developer portal at api.helsinki.fi, listing fifteen public APIs — organisations, buildings and spaces, employee and group directories, service management, the application-portfolio register, network registry, and the CMS behind helsinki.fi and the course pages — twelve of which publish a readable OpenAPI. Alongside that sit genuinely institution-operated scholarly and identity infrastructure: Helda (DSpace 7.6.2) and the newer HY Data Catalogue (DSpace 9.0), three live OAI-PMH endpoints, the Editori open-publishing service, the Shibboleth/OIDC identity provider at login.helsinki.fi with sixteen entities registered in the Haka federation, and the Finnish Biodiversity Information Facility (api.laji.fi, 177 paths), which is run by Luomus, a University institute. What the University does NOT author is equally important and is recorded here as tenancy rather than as its own work: Sisu/Kori is Funidata's, the research portal is Elsevier Pure, and Helka is Ex Libris Primo. The gateway is affiliation-gated — keyless access is disabled and portal self-registration is off — so the catalogue and every specification are readable by anyone, while a credential requires a university or Haka identity.",
      "screenshot": "https://artifacts.apis.io/university-of-helsinki/screenshots/university-of-helsinki-2026-06-20T200155.png",
-     "score": 49.8,
+     "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 61.4,
+      "discoverability": 74.1,
+      "contract_quality": 63.3,
       "contract_governance": 29.5,
-      "operational_transparency": 23.7,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -36,12 +36,12 @@
       "score": 44.1,
       "matched_via": "tags"
      },
-     "agent_score": 24.1,
+     "agent_score": 25.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -59,28 +59,82 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 1
+    },
+    {
+     "name": "IQM Quantum Computers",
+     "slug": "iqm-quantum-computers",
+     "description": "IQM Quantum Computers (IQM Finland Oy) builds superconducting quantum computers and sells access to them, both as on-premises systems and as a cloud service. Its developer surface is IQM Resonance, a quantum cloud platform at resonance.iqm.tech whose REST API accepts circuits, queues them against a named QPU, and returns measurement results — billed in QPU seconds rather than API calls. Access is through a bearer API token generated from the Resonance dashboard, and the practical client contract is IQM's Apache-2.0 Python stack (iqm-client, with Qiskit, Cirq and Qrisp adapters) rather than a published OpenAPI, which IQM does not ship. IQM does publish 14 first-party Protobuf message contracts defining the Station Control wire format, a dated changelog with explicit breaking-change notices, and a free Starter tier with a monthly credit allowance.",
+     "screenshot": "https://artifacts.apis.io/iqm-quantum-computers/screenshots/iqm-quantum-computers-2026-09-02T145920.png",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 24.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 71.4,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 18.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 2
     },
     {
      "name": "TietoEVRY",
      "slug": "tietoevry",
      "description": "TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to \"Tieto\" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is published by the banking business (Tieto Banktech / Tietoevry Banking) through the Tietoevry Banking API Hub at api.tietoevry.com, which fronts three developer portals: an Open Banking PSD2/XS2A platform built on the Berlin Group NextGenPSD2 framework with a free self-service sandbox, a Financial API Aggregation service offering one integration to Nordic and Baltic banks, and a Credit Cloud platform for loan origination and loan life-cycle management. 24 machine-readable Swagger 2.0 / OpenAPI 3.0 contracts covering 211 operations are published unauthenticated from the Open Banking and Aggregation portals, including account information, payment initiation, confirmation of funds, bulk and periodic payments, payment recall, request-to-pay, signing baskets, virtual account management, card account information and a SEPA Direct Debits gateway with a webhook event-notification surface.",
      "screenshot": "https://artifacts.apis.io/tietoevry/screenshots/tietoevry-2026-10-11T130940.png",
-     "score": 49.5,
+     "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 53.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 34.2
+      "discoverability": 69.6,
+      "contract_quality": 54.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -88,12 +142,12 @@
       "score": 28.3,
       "matched_via": "tags"
      },
-     "agent_score": 29.8,
+     "agent_score": 31.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -111,59 +165,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": false
-     },
-     "rank": 2
-    },
-    {
-     "name": "Enable Banking",
-     "slug": "enable-banking",
-     "description": "Enable Banking is a Finland-based Open Banking connectivity engine and licensed PSD2 Account Information Service Provider (AISP) regulated by the Finnish Financial Supervisory Authority (FIN-FSA). Headquartered in Espoo, Enable Banking provides a single harmonized API across 2,700+ banks (ASPSPs) in 30 European countries, exposing Account Information Services (AIS) and Payment Initiation Services (PIS), TPP Infrastructure-as-a-Service for licensed Third Party Providers, and an eIDAS-backed JWT authentication model. The platform processes 25M+ API requests monthly across the EEA and maintains 1,000+ ASPSP integrations, serving accounting and ERP platforms, credit risk and KYC providers, wealth managers, and payment service providers including Qred Bank, Fimento, CapitalBox, and iDenfy. Enable Banking is GDPR and DORA compliant with an active PSD3 / FIDA roadmap.",
-     "screenshot": "https://artifacts.apis.io/enable-banking/screenshots/enable-banking-2026-06-20T180647.png",
-     "score": 48.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 65.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 81.0,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": false,
+      "mcp_tool_quality": "na"
      },
      "rank": 3
     },
@@ -176,15 +179,15 @@
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 50.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 58.9,
-      "access_clarity": 44.7
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -222,7 +225,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 4
     },
@@ -231,19 +235,19 @@
      "slug": "aibidia",
      "description": "Aibidia is a Helsinki-based transfer pricing technology company whose cloud platform lets multinational enterprises manage transfer pricing policy, intercompany transaction data, documentation and country-by-country reporting in one place. The platform is delivered as a set of solution modules — TPDoc (documentation), CbCR, OTP Management, Strategic TP Management, Value Chain Analysis, Data Studio, Horizon and TP AI — behind a single Azure AD B2C sign-in at platform.aibidia.com, each backed by its own first-party API service on an aibidia.com subdomain. Aibidia publishes a small deliberately-public integration surface: the Public OTP Management API, which accepts automated multi-level segmentation data injections from a customer's ERP or finance stack using an X-DATAINGESTION-API-KEY header. There is no open developer portal, no public API reference and no self-serve signup; the platform is sold to enterprise tax teams and the help centre and release notes sit behind client-rendered portals.",
      "screenshot": "https://artifacts.apis.io/aibidia/screenshots/aibidia-2026-10-11T093232.png",
-     "score": 43.2,
+     "score": 44.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 42.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
+      "discoverability": 78.6,
+      "contract_quality": 45.3,
+      "contract_governance": 31.8,
+      "operational_transparency": 39.5,
       "developer_ergonomics": 37.5,
-      "access_clarity": 42.1
+      "access_clarity": 35.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -258,13 +262,13 @@
        }
       ]
      },
-     "agent_score": 29.5,
+     "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -281,109 +285,47 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 5
     },
     {
-     "name": "IQM Quantum Computers",
-     "slug": "iqm-quantum-computers",
-     "description": "IQM Quantum Computers (IQM Finland Oy) builds superconducting quantum computers and sells access to them, both as on-premises systems and as a cloud service. Its developer surface is IQM Resonance, a quantum cloud platform at resonance.iqm.tech whose REST API accepts circuits, queues them against a named QPU, and returns measurement results — billed in QPU seconds rather than API calls. Access is through a bearer API token generated from the Resonance dashboard, and the practical client contract is IQM's Apache-2.0 Python stack (iqm-client, with Qiskit, Cirq and Qrisp adapters) rather than a published OpenAPI, which IQM does not ship. IQM does publish 14 first-party Protobuf message contracts defining the Station Control wire format, a dated changelog with explicit breaking-change notices, and a free Starter tier with a monthly credit allowance.",
-     "screenshot": "https://artifacts.apis.io/iqm-quantum-computers/screenshots/iqm-quantum-computers-2026-09-02T145920.png",
-     "score": 40.4,
+     "name": "Enable Banking",
+     "slug": "enable-banking",
+     "description": "Enable Banking is a Finland-based Open Banking connectivity engine and licensed PSD2 Account Information Service Provider (AISP) regulated by the Finnish Financial Supervisory Authority (FIN-FSA). Headquartered in Espoo, Enable Banking provides a single harmonized API across 2,700+ banks (ASPSPs) in 30 European countries, exposing Account Information Services (AIS) and Payment Initiation Services (PIS), TPP Infrastructure-as-a-Service for licensed Third Party Providers, and an eIDAS-backed JWT authentication model. The platform processes 25M+ API requests monthly across the EEA and maintains 1,000+ ASPSP integrations, serving accounting and ERP platforms, credit risk and KYC providers, wealth managers, and payment service providers including Qred Bank, Fimento, CapitalBox, and iDenfy. Enable Banking is GDPR and DORA compliant with an active PSD3 / FIDA roadmap.",
+     "screenshot": "https://artifacts.apis.io/enable-banking/screenshots/enable-banking-2026-06-20T180647.png",
+     "score": 39.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 66.1,
-      "contract_quality": 0.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 71.4,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 5.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
-     "name": "Aalto University",
-     "slug": "aalto",
-     "description": "Aalto University is a multidisciplinary public research university in Espoo, Finland, formed in 2010 from the merger of the Helsinki University of Technology, the Helsinki School of Economics and the University of Art and Design Helsinki. Unusually for this cohort, Aalto operates a real institution-owned API program rather than only a set of vendor tenancies: the Aalto API Gateway (Red Hat 3scale, at 3scale.apps.ocp4.aalto.fi) publishes five documented API products — facilities and room reservations, SISU course data, Acris research publications, projects and cost centres, and a deprecated Oodi-sourced course API — and its ActiveDocs index is publicly readable, exposing forty-four Aalto-authored Swagger/OpenAPI documents whose servers all sit under *.api.aalto.fi. Every one of those endpoints is API-key gated and returns 403 to an anonymous caller, so the contracts are public while the data is not. The genuinely anonymous surfaces are elsewhere: the Aaltodoc institutional repository (Aalto-hosted DSpace 9.2) serves a live OAI-PMH 2.0 endpoint with sixteen metadata formats and an open REST API, and the Linked Open Aalto Data SPARQL endpoint answers real queries — but only over POST, since GET times out. Aalto also runs its own Shibboleth SAML 2.0 identity provider and is registered in the Haka federation with forty-one entities, which is machine-readable institutional infrastructure that almost no university in this cohort catalogues. Its library discovery, research information system and research portal are vendor tenancies (Ex Libris, Elsevier Pure) and are recorded as relationships, not as Aalto's engineering.",
-     "screenshot": "https://artifacts.apis.io/aalto/screenshots/aalto-2026-06-20T162945.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 53.6,
-      "contract_quality": 54.0,
-      "contract_governance": 0.0,
+      "contract_quality": 65.7,
+      "contract_governance": 27.3,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 40.5,
-      "access_clarity": 28.9
+      "developer_ergonomics": 61.9,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.6,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.4,
       "matched_via": "tags"
      },
-     "agent_score": 25.1,
+     "agent_score": 26.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "openapi_examples": "documented",
       "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
@@ -395,8 +337,73 @@
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
+    {
+     "name": "Aalto University",
+     "slug": "aalto",
+     "description": "Aalto University is a multidisciplinary public research university in Espoo, Finland, formed in 2010 from the merger of the Helsinki University of Technology, the Helsinki School of Economics and the University of Art and Design Helsinki. Unusually for this cohort, Aalto operates a real institution-owned API program rather than only a set of vendor tenancies: the Aalto API Gateway (Red Hat 3scale, at 3scale.apps.ocp4.aalto.fi) publishes five documented API products — facilities and room reservations, SISU course data, Acris research publications, projects and cost centres, and a deprecated Oodi-sourced course API — and its ActiveDocs index is publicly readable, exposing forty-four Aalto-authored Swagger/OpenAPI documents whose servers all sit under *.api.aalto.fi. Every one of those endpoints is API-key gated and returns 403 to an anonymous caller, so the contracts are public while the data is not. The genuinely anonymous surfaces are elsewhere: the Aaltodoc institutional repository (Aalto-hosted DSpace 9.2) serves a live OAI-PMH 2.0 endpoint with sixteen metadata formats and an open REST API, and the Linked Open Aalto Data SPARQL endpoint answers real queries — but only over POST, since GET times out. Aalto also runs its own Shibboleth SAML 2.0 identity provider and is registered in the Haka federation with forty-one entities, which is machine-readable institutional infrastructure that almost no university in this cohort catalogues. Its library discovery, research information system and research portal are vendor tenancies (Ex Libris, Elsevier Pure) and are recorded as relationships, not as Aalto's engineering.",
+     "screenshot": "https://artifacts.apis.io/aalto/screenshots/aalto-2026-06-20T162945.png",
+     "score": 35.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 53.6,
+      "contract_quality": 54.4,
+      "contract_governance": 13.6,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 40.5,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 7
     },
@@ -405,19 +412,19 @@
      "slug": "datacrunch",
      "description": "DataCrunch is a European (Finland-based) GPU cloud offering on-demand and reserved NVIDIA GPU instances (H200, H100, B200, A100, L40S, V100) plus a serverless inference and container deployment platform. Its REST API at https://api.datacrunch.io/v1 uses OAuth2 client-credentials to issue Bearer tokens and exposes instances, instance types, availability, images, SSH keys, startup scripts, volumes, balance, and serverless containers, with an OpenAI-compatible inference endpoint for deployed models.",
      "screenshot": "https://artifacts.apis.io/datacrunch/screenshots/datacrunch-2026-07-25T211313.png",
-     "score": 29.7,
+     "score": 31.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.1,
-      "contract_quality": 47.4,
-      "contract_governance": 0.0,
-      "operational_transparency": 23.7,
+      "contract_quality": 53.2,
+      "contract_governance": 13.6,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 32.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -448,9 +455,62 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 8
+    },
+    {
+     "name": "Digitaltableteur",
+     "slug": "digitaltableteur-com",
+     "description": "Digitaltableteur is a Helsinki, Finland design consultancy (legal business name 'digitaltableteur', a sole trader, Business ID 2264455-2) focused on design systems, AI-powered design workflows, DesignOps, accessibility and product craft. It builds and rescues component libraries and design tokens, publishes a Design System Contract specification, and offers engagements such as Design System Audit, UX Sprint, AI-Ready Ops and Design System MCP. Its site advertises agent-facing surfaces including an llms.txt index, an A2A agent card, an MCP server card and a Streamable HTTP MCP endpoint.",
+     "score": 30.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 14.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 12.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 9
     }
    ],
    "open": true
@@ -468,19 +528,19 @@
      "slug": "knl",
      "description": "KNL (KNL Networks Oy) is a Finnish defence-technology company founded in 2011 and headquartered in Oulu, Finland, that builds long-range, GNSS-independent HF radio communication systems for military, naval, and critical-communications operators. Its Cognitive Networked HF (CNHF) platform is a family of software-defined radios — CNHF Manpack, CNHF1 Radio, CNHF Vehicular, and CNHF Evolve — that perform continuous spectrum estimation and automatically switch to the next best channel to sustain IP data links over thousands of kilometres in jammed, contested, or infrastructure-denied environments. Radios are operated through a web-based CNHF User Interface providing role-based access, webmail, XMPP-interoperable instant messaging, mapping, and spectrum analysis. KNL was acquired by Telenor Maritime at the end of 2020 and now operates as Telenor's dedicated defence and security connectivity business. The company holds ISO 9001, AQAP 2110 (NATO), and ISO/IEC 27001 certifications and publishes no public developer API surface.",
      "screenshot": "https://artifacts.apis.io/knl/screenshots/knl-2026-07-25T224001.png",
-     "score": 16.2,
+     "score": 16.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -511,27 +571,81 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "Äkkilähdöt",
+     "slug": "akkilahdot-fi",
+     "description": "Äkkilähdöt.fi on Suomen suurin lomamatkojen hakukone ja turvallisin paikka löytää äkkilähdöt ja muut pakettimatkat. Teemme yhteistyötä kaikkien suurimpien matkanjärjestäjien ja matkatoimistojen kanssa, ja yhdistämme samaan hakutulokseen suuren määrän matkoja yhdellä kertaa. Matkustitpa sitten yksin, perheen kanssa tai isommassa, enintään yhdeksän hengen porukassa, löydät parhaat matkatarjoukset täältä.",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 8.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 11
     },
     {
      "name": "Cactosaa16",
      "slug": "cactosaa16",
      "description": "Cactosaa16, operating as Cactos, is a Finnish startup delivering smart battery energy storage systems for commercial and grid‑scale applications. Their platform optimises energy use, shifts consumption to low‑price periods, and enables participation in electricity markets, helping customers reduce costs and increase resilience.",
-     "score": 13.6,
+     "screenshot": "https://artifacts.apis.io/cactosaa16/screenshots/cactosaa16-2026-11-03T122922.png",
+     "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 4.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -539,13 +653,13 @@
       "score": 8.2,
       "matched_via": "tags"
      },
-     "agent_score": 3.1,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -562,60 +676,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 10
-    },
-    {
-     "name": "Fingrid",
-     "slug": "fingrid",
-     "description": "Fingrid is Finland’s national electricity transmission system operator, responsible for ensuring a reliable and secure electricity supply across the country. It plans, builds, operates and maintains the high‑voltage transmission grid, balancing supply and demand, and facilitates the integration of renewable energy sources. Fingrid also provides market participants with data and services related to grid operations, system balancing, and electricity market information, supporting the transition to a sustainable energy future.",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 22.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.9,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 11
+     "rank": 12
     }
    ]
   },
@@ -624,27 +688,27 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 15,
-   "shown": 15,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Playsome",
      "slug": "playsome",
      "description": "Playsome (Playsome Ltd. / Playsome Oy) is a Helsinki, Finland mobile game studio that builds free-to-play games combining deep gameplay with polished visuals under the philosophy of making \"big games with a small team\". Its flagship title is Friends & Dragons, a cooperative multiplayer puzzle-RPG for iOS and Android featuring 150+ collectible heroes and 700+ puzzles and dungeons. The company is backed by gaming-focused venture firms Play Ventures and EQT. Playsome does not publish a traditional developer API, but its Wix-hosted website exposes a live Wix Site MCP endpoint for agentic AI access, letting agents retrieve business details, search the site, and start bookings/purchases without scraping.",
      "screenshot": "https://artifacts.apis.io/playsome/screenshots/playsome-2026-09-02T151504.png",
-     "score": 9.8,
+     "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.3,
+      "discoverability": 58.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -675,9 +739,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Rovio Entertainment",
@@ -695,8 +760,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -727,9 +792,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Avoindata.fi",
@@ -747,8 +813,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -779,9 +845,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 14
+     "rank": 15
+    },
+    {
+     "name": "Fingrid",
+     "slug": "fingrid",
+     "description": "Fingrid is Finland’s national electricity transmission system operator, responsible for ensuring a reliable and secure electricity supply across the country. It plans, builds, operates and maintains the high‑voltage transmission grid, balancing supply and demand, and facilitates the integration of renewable energy sources. Fingrid also provides market participants with data and services related to grid operations, system balancing, and electricity market information, supporting the transition to a sustainable energy future.",
+     "screenshot": "https://artifacts.apis.io/fingrid/screenshots/fingrid-2026-11-03T132041.png",
+     "score": 9.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 56.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 20.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 16
     },
     {
      "name": "Futureplay",
@@ -799,8 +919,8 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -831,9 +951,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "BIT ODD",
@@ -851,8 +972,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -883,15 +1004,17 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Finnish Meteorological Institute",
      "slug": "finnish-meteorological-institute",
      "description": "The Finnish Meteorological Institute (FMI) provides observations, research and services on the atmosphere, near‑space and seas. It offers public‑safety weather forecasts, climate data, marine information and scientific research for citizens, businesses and authorities in Finland and worldwide.",
-     "score": 7.1,
+     "screenshot": "https://artifacts.apis.io/finnish-meteorological-institute/screenshots/finnish-meteorological-institute-2026-11-03T132034.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -899,11 +1022,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -934,9 +1057,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Huuva",
@@ -954,8 +1078,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -986,14 +1110,16 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "City of Helsinki",
      "slug": "city-of-helsinki",
      "description": "City of Helsinki is the municipal government of Finland's capital, providing a wide range of public services, data, and digital platforms to residents, businesses, and visitors. The city maintains open data portals, transportation APIs, event listings, and various civic services, fostering transparency and innovation. This profile captures its publicly available APIs and documentation for developers.",
+     "screenshot": "https://artifacts.apis.io/city-of-helsinki/screenshots/city-of-helsinki-2026-11-03T124232.png",
      "score": 5.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1005,8 +1131,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1014,13 +1140,13 @@
       "score": 11.8,
       "matched_via": "tags"
      },
-     "agent_score": 3.1,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -1037,9 +1163,62 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 19
+     "rank": 21
+    },
+    {
+     "name": "ArcticRex",
+     "slug": "arcticrex-com",
+     "description": "ArcticRex is a Finnish AI advisory firm specializing in cybersecurity and critical infrastructure environments. The company provides hands‑on strategic advice, organizational upskilling, and training programs to help leaders and engineers integrate AI safely and securely. Their services focus on developing secure AI strategies, risk mitigation, and compliance with industry regulations, leveraging deep expertise in both artificial intelligence and cyber defense. ArcticRex works with enterprises to design AI roadmaps, conduct threat modeling, and implement governance frameworks. Their team of seasoned AI practitioners and security experts delivers customized workshops and continuous support to ensure resilient AI deployments across critical sectors.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 1.2,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 7.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 22
     },
     {
      "name": "Curious Ai",
@@ -1081,7 +1260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 23
     },
     {
      "name": "Kuva Space",
@@ -1092,15 +1271,15 @@
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1131,27 +1310,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 21
+     "rank": 24
     },
     {
      "name": "Broadbitbatteries",
      "slug": "broadbitbatteries",
      "description": "Broadbit Batteries is a Finnish technology company developing revolutionary sodium‑based batteries using abundant, low‑cost materials such as table salt. Their batteries aim to power electric vehicles, portable electronics, starters and grid storage with higher energy, lower cost, improved safety and scalability. The company commercialises lab samples and pursues mass production, positioning itself as an eco‑friendly alternative to traditional lithium‑ion technology.",
-     "score": 3.8,
+     "screenshot": "https://artifacts.apis.io/broadbitbatteries/screenshots/broadbitbatteries-2026-11-03T122652.png",
+     "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1182,9 +1363,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 22
+     "rank": 25
     },
     {
      "name": "Cencorp",
@@ -1202,8 +1384,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1234,9 +1416,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 23
+     "rank": 26
     },
     {
      "name": "Avida Holding",
@@ -1254,60 +1437,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 3.1,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 24
-    },
-    {
-     "name": "Small Giant Games",
-     "slug": "small-giant-games",
-     "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
-     "screenshot": "https://artifacts.apis.io/small-giant-games/screenshots/small-giant-games-2026-09-02T155859.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1338,9 +1469,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 25
+     "rank": 27
+    },
+    {
+     "name": "Small Giant Games",
+     "slug": "small-giant-games",
+     "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
+     "screenshot": "https://artifacts.apis.io/small-giant-games/screenshots/small-giant-games-2026-09-02T155859.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 28
     },
     {
      "name": "Kodit.io",
@@ -1357,8 +1542,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1389,9 +1574,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 26
+     "rank": 29
     }
    ]
   }

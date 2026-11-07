@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hasura-powered GraphQL interface to the complete PokéAPI dataset, providing flexible queries over Pokémon species, moves, abilities, items, evolutions, encounters, and game version data via a single e
@@ -124,8 +126,8 @@ overview: 'PokéAPI GraphQL is listed with 1 API on the [APIs.io](https://apis.i
   PokéAPI GraphQL''s developer surface includes documentation and 14 more developer resources.'
 random_paper: 21
 score:
-  band: emerging
-  composite: 19.4
+  band: thin
+  composite: 27.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -140,16 +142,19 @@ score:
     contract_quality: 35.1
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 19.4
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

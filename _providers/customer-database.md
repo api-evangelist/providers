@@ -24,6 +24,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 11
 common:
@@ -225,7 +226,7 @@ rules:
   slug: customer-database-jsonschema-spectral-rules
 score:
   band: minimal
-  composite: 10.0
+  composite: 10.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 41.8
@@ -239,17 +240,23 @@ score:
     contract_governance: 11.4
     contract_quality: 21.2
     developer_ergonomics: 0.0
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 0.0
-  previous_composite: 10.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

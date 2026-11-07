@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -260,13 +272,13 @@ json_schemas:
   property_count: 8
   slug: ydb-qdrant-tech-oauth-protected-resource-metadata
 - name: OpenIdConfiguration
-  property_count: 0
+  property_count: 14
   slug: ydb-qdrant-tech-open-id-configuration
 - name: PetsResponse
   property_count: 3
   slug: ydb-qdrant-tech-pets-response
 - name: QueryPointsEnvelope
-  property_count: 0
+  property_count: 4
   slug: ydb-qdrant-tech-query-points-envelope
 - name: QueryPointsRequest
   property_count: 9
@@ -300,7 +312,7 @@ modified: '2026-10-30'
 name: ydb-qdrant-tech
 nav: Providers
 network: true
-overview: 'ydb-qdrant-tech publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Collections API, Discovery API, and 7 more. Tagged areas include Company, Vector Search, Database, API, and YDB.
+overview: 'ydb-qdrant-tech publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Collections API, Discovery API, and 7 more. Tagged areas include Company, Vector Search, Database, YDB, and Qdrant.
 
 
   The ydb-qdrant-tech catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -336,21 +348,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.5
+  composite: 42.1
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 31
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 61.2
-    developer_ergonomics: 56.4
-    discoverability: 70.0
-    operational_transparency: 28.9
+    developer_ergonomics: 41.0
+    discoverability: 80.0
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,13 +386,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/ydb-qdrant-tech/ydb-qdrant-tech-2026-11-03T150332.png
 security:
 - kind: authentication
   name: Ydb Qdrant Tech Authentication
@@ -391,7 +412,6 @@ tags:
 - Company
 - Vector Search
 - Database
-- API
 - YDB
 - Qdrant
 website: https://ydb-qdrant.tech/

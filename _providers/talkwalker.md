@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - baseURL: https://api.talkwalker.com
@@ -98,7 +103,7 @@ apis:
   description: The Topic API API from Talkwalker — 4 operation(s) for topic api.
   name: Talkwalker Topic API
   slug: talkwalker-topic-api-api
-artifact_total: 21
+artifact_total: 22
 common:
 - group: other
   href: https://artifacts.apis.io/talkwalker/capabilities/talkwalker-capability-edges.yml
@@ -305,6 +310,9 @@ network: true
 overview: 'Talkwalker publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Image API, Modify documents API, Resources API, and 9 more. Tagged areas include Social Media Analytics, Social Listening, Brand Monitoring, Sentiment Analysis, and Media Monitoring.
 
 
+  The Talkwalker catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Talkwalker''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Talkwalker Plans Pricing
@@ -315,25 +323,38 @@ rate_limits:
 - limit_count: 9
   name: Talkwalker Rate Limits
   slug: talkwalker-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Talkwalker API Rules
+  rule_count: 56
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 9
+  slug: talkwalker-rules
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 27
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 63.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 43.5
     developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 52.7
+    operational_transparency: 44.7
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -349,13 +370,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/talkwalker/talkwalker-2026-06-20T194908.png
 security:
 - kind: authentication

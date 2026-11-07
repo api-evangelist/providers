@@ -1,15 +1,21 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -322,7 +329,7 @@ apis:
     question: How do I delete a personal cost view I no longer use?
   phrasing_ops: 4
   slug: microsoft-azure-cost-management-views-api
-artifact_total: 190
+artifact_total: 222
 collections:
 - collection_type: open
   name: Azure Cost Management REST Exports API
@@ -334,6 +341,35 @@ collections:
   name: Azure Cost Management REST API
   slug: open-microsoft-azure-cost-management
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-cost-management/rules/microsoft-azure-cost-management-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-azure-cost-management-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-cost-management/json-ld/microsoft-azure-cost-management-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-azure-cost-management-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-cost-management/vocabulary/microsoft-azure-cost-management-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-azure-cost-management-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-azure-cost-management/hosts/microsoft-azure-cost-management-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-azure-cost-management-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-azure-cost-management/vendors/microsoft-azure-cost-management-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-azure-cost-management-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
 - group: other
   href: https://artifacts.apis.io/microsoft-azure-cost-management/capabilities/microsoft-azure-cost-management-capability-edges.yml
   title: ''
@@ -1021,6 +1057,102 @@ finops:
   slug: microsoft-azure-cost-management-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-cost-management.png
+json_schemas:
+- name: Alert
+  property_count: 2
+  slug: microsoft-azure-cost-management-alert
+- name: AlertsResult
+  property_count: 2
+  slug: microsoft-azure-cost-management-alerts-result
+- name: BenefitUtilizationSummariesOperationStatus
+  property_count: 3
+  slug: microsoft-azure-cost-management-benefit-utilization-summaries-operation-status
+- name: BenefitUtilizationSummariesRequest
+  property_count: 8
+  slug: microsoft-azure-cost-management-benefit-utilization-summaries-request
+- name: Budget
+  property_count: 2
+  slug: microsoft-azure-cost-management-budget
+- name: BudgetsListResult
+  property_count: 2
+  slug: microsoft-azure-cost-management-budgets-list-result
+- name: CostAllocationRuleDefinition
+  property_count: 1
+  slug: microsoft-azure-cost-management-cost-allocation-rule-definition
+- name: CostAllocationRuleList
+  property_count: 2
+  slug: microsoft-azure-cost-management-cost-allocation-rule-list
+- name: CostDetailsOperationResults
+  property_count: 7
+  slug: microsoft-azure-cost-management-cost-details-operation-results
+- name: DismissAlertPayload
+  property_count: 1
+  slug: microsoft-azure-cost-management-dismiss-alert-payload
+- name: ExportExecutionListResult
+  property_count: 1
+  slug: microsoft-azure-cost-management-export-execution-list-result
+- name: ExportListResult
+  property_count: 1
+  slug: microsoft-azure-cost-management-export-list-result
+- name: ExportRunRequest
+  property_count: 1
+  slug: microsoft-azure-cost-management-export-run-request
+- name: Export
+  property_count: 4
+  slug: microsoft-azure-cost-management-export
+- name: ForecastDefinition
+  property_count: 6
+  slug: microsoft-azure-cost-management-forecast-definition
+- name: GenerateCostDetailsReportRequestDefinition
+  property_count: 4
+  slug: microsoft-azure-cost-management-generate-cost-details-report-request-definition
+- name: GenerateDetailedCostReportDefinition
+  property_count: 5
+  slug: microsoft-azure-cost-management-generate-detailed-cost-report-definition
+- name: GenerateDetailedCostReportOperationResult
+  property_count: 1
+  slug: microsoft-azure-cost-management-generate-detailed-cost-report-operation-result
+- name: GenerateDetailedCostReportOperationStatuses
+  property_count: 5
+  slug: microsoft-azure-cost-management-generate-detailed-cost-report-operation-statuses
+- name: MarkupRulePagedResponse
+  property_count: 2
+  slug: microsoft-azure-cost-management-markup-rule-paged-response
+- name: MarkupRule
+  property_count: 1
+  slug: microsoft-azure-cost-management-markup-rule
+- name: OperationListResult
+  property_count: 2
+  slug: microsoft-azure-cost-management-operation-list-result
+- name: ResourceList
+  property_count: 2
+  slug: microsoft-azure-cost-management-resource-list
+- name: Resource
+  property_count: 6
+  slug: microsoft-azure-cost-management-resource
+- name: ScheduledActionListResult
+  property_count: 2
+  slug: microsoft-azure-cost-management-scheduled-action-list-result
+- name: ScheduledAction
+  property_count: 3
+  slug: microsoft-azure-cost-management-scheduled-action
+- name: Setting
+  property_count: 1
+  slug: microsoft-azure-cost-management-setting
+- name: SettingsListResult
+  property_count: 1
+  slug: microsoft-azure-cost-management-settings-list-result
+- name: ViewListResult
+  property_count: 2
+  slug: microsoft-azure-cost-management-view-list-result
+- name: View
+  property_count: 2
+  slug: microsoft-azure-cost-management-view
+jsonld:
+- class_count: 120
+  name: Microsoft Azure Cost Management Context
+  property_count: 143
+  slug: microsoft-azure-cost-management-context
 layout: provider
 modified: '2026-09-17'
 name: Azure Cost Management
@@ -1029,7 +1161,10 @@ network: true
 overview: 'Azure Cost Management publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exports API, Operations API, Alerts API, and 12 more. Tagged areas include Cost Management, FinOps, Cloud Cost, Billing, and Budgets.
 
 
-  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, documentation, API reference, getting-started guide, and 35 more developer resources.'
+  The Azure Cost Management catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, documentation, API reference, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Microsoft Azure Cost Management Plans Pricing
   plan_count: 1
@@ -1039,30 +1174,43 @@ rate_limits:
 - limit_count: 3
   name: Microsoft Azure Cost Management Rate Limits
   slug: microsoft-azure-cost-management-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Azure Cost Management API Rules
+  rule_count: 53
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 11
+  slug: microsoft-azure-cost-management-rules
 scopes:
 - name: Microsoft Azure Cost Management Scopes
   scope_count: 1
   slug: microsoft-azure-cost-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 73.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 36
+    catalog_earned: 82.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 81.6
-    contract_governance: 0.0
-    contract_quality: 46.1
+    contract_governance: 22.0
+    contract_quality: 59.7
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 92.1
-  previous_composite: 65.6
+    discoverability: 75.0
+    operational_transparency: 89.5
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1079,13 +1227,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-cost-management/microsoft-azure-cost-management-2026-06-20T185407.png
 security:
 - kind: authentication

@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-31'
+  score: 34.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 6
@@ -155,7 +159,7 @@ apis:
   description: Webhook Endpoints
   name: NinjaOne Webhooks API
   slug: ninjaone-webhooks-api
-artifact_total: 57
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Ninjaone Webhooks
@@ -378,7 +382,7 @@ network: true
 overview: 'NinjaOne publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Tags API, Backup API, Checklist Templates API, and 19 more. Tagged areas include Company, Developer Tools, IT Management, RMM, and Endpoint Management.
 
 
-  The NinjaOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The NinjaOne catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 23 more developer resources.'
@@ -390,6 +394,19 @@ plans:
   plan_count: 0
   slug: ninjaone-price-estimates
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: NinjaOne API Rules
+  rule_count: 53
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 5
+    warn: 11
+  slug: ninjaone-rules
 scopes:
 - name: Ninjaone Scopes
   scope_count: 4
@@ -397,23 +414,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.1
+  composite: 57.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 48.0
+    artifact_dirs: 29
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 48.9
-    developer_ergonomics: 58.9
-    discoverability: 66.1
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 56.5
+    discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 50.3
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,13 +447,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ninjaone/ninjaone-2026-08-07T185326.png
 security:
 - kind: authentication

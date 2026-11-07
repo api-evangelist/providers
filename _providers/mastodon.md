@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: na
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-31'
+  score: 22.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -149,9 +151,9 @@ rules:
   slug: mastodon-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 26.2
+  composite: 26.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 36.8
     catalog_earned_first_party: 0.0
     catalog_gap: 78.3
@@ -161,11 +163,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 36.5
+    contract_quality: 39.2
     developer_ergonomics: 40.5
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 26.2
+    operational_transparency: 10.5
+  previous_composite: 26.5
   provenance:
     contracts:
       callable: 0.0
@@ -178,8 +180,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

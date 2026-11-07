@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -360,9 +366,9 @@ rules:
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.3
+  composite: 19.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
@@ -374,14 +380,14 @@ score:
     contract_governance: 23.5
     contract_quality: 13.2
     developer_ergonomics: 16.7
-    discoverability: 64.3
-    operational_transparency: 15.8
+    discoverability: 63.4
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.3
+  previous_composite: 19.9
   provenance:
     conformance: first-party
   regulatory:
@@ -390,8 +396,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

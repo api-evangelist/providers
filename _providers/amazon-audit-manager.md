@@ -26,7 +26,8 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-31'
+  score: 27.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -770,7 +771,7 @@ modified: '2026-09-16'
 name: Amazon Audit Manager
 nav: Providers
 network: true
-overview: 'Amazon Audit Manager publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessments API, Controls API, Evidence API, and 9 more. Tagged areas include Amazon Audit Manager, Compliance, Audit, and Risk Management.
+overview: 'Amazon Audit Manager publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessments API, Controls API, Evidence API, and 9 more. Tagged areas include Amazon Audit Manager, Compliance, Audit, Risk Management, and Amazon Web Services.
 
 
   The Amazon Audit Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -804,23 +805,23 @@ rules:
   slug: amazon-audit-manager-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 33.7
   coverage:
     artifact_dirs: 24
-    catalog_earned: 53.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.6
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
-    contract_quality: 68.2
+    contract_quality: 72.8
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 31.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -836,13 +837,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-audit-manager/amazon-audit-manager-2026-07-25T195931.png
 security:
 - kind: authentication
@@ -863,6 +863,7 @@ tags:
 - Compliance
 - Audit
 - Risk Management
+- Amazon Web Services
 use_cases:
 - Automate SOC 2 compliance evidence collection
 - Prepare for PCI DSS and HIPAA audits with continuous monitoring

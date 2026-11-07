@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +137,7 @@ modified: '2026-10-28'
 name: Docketwise
 nav: Providers
 network: true
-overview: 'Docketwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Law, SaaS, and Software.
+overview: 'Docketwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Law, Software-as-a-Service, and Software.
 
 
   Docketwise''s developer surface includes support, getting-started guide, documentation, pricing, engineering blog, and 13 more developer resources.'
@@ -135,22 +147,30 @@ plans:
   slug: docketwise-plans-pricing
 random_paper: 18
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 18.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.3
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 48.2
-    operational_transparency: 10.5
+    developer_ergonomics: 19.0
+    discoverability: 55.4
+    operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 27.0
   provenance:
     mcp: unknown
   regulatory:
@@ -158,13 +178,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/docketwise/docketwise-2026-11-03T130839.png
 security:
 - kind: domain-security
   name: Docketwise Domain Security
@@ -175,7 +197,7 @@ tags:
 - Company
 - Immigration
 - Law
-- SaaS
+- Software-as-a-Service
 - Software
 - Management
 website: https://docketwise.com/

@@ -1,6 +1,20 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -9,23 +23,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-10-31'
+  score: 32.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +251,7 @@ modified: '2026-10-30'
 name: printmoneylab-com
 nav: Providers
 network: true
-overview: 'printmoneylab-com publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Arbitrage Scanner API, Exchange Alerts API, Fx Rate API, and 19 more. Tagged areas include AI, Automation, Crypto, Bots, and Agents.
+overview: 'printmoneylab-com publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Arbitrage Scanner API, Exchange Alerts API, Fx Rate API, and 19 more. Tagged areas include Artificial Intelligence, Automation, Cryptocurrency, Bots, and Agents.
 
 
   The printmoneylab-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -272,21 +287,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.8
+  composite: 23.7
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 31
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.8
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 40.4
-    developer_ergonomics: 20.7
-    discoverability: 66.1
-    operational_transparency: 5.3
+    developer_ergonomics: 13.6
+    discoverability: 73.2
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,12 +326,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/printmoneylab-com/printmoneylab-com-2026-11-03T141506.png
 security:
 - kind: authentication
   name: Printmoneylab Com Authentication
@@ -324,9 +349,9 @@ skills:
   slug: printmoneylab-com-get-kr-sentiment
 slug: printmoneylab-com
 tags:
-- AI
+- Artificial Intelligence
 - Automation
-- Crypto
+- Cryptocurrency
 - Bots
 - Agents
 website: https://printmoneylab.com/

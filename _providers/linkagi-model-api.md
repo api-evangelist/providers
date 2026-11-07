@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.linktoagi.com
@@ -64,7 +65,7 @@ apis:
   description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: LinkAGI Anthropic-style route API
@@ -213,25 +214,41 @@ network: true
 overview: 'LinkAGI Model API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anthropic-style route API, Discovery API, Gemini-style route API, and 2 more. Tagged areas include Artificial Intelligence, LLM, AI API Gateway, Relay, and OpenAI-Compatible.
 
 
+  The LinkAGI Model API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 20 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: LinkAGI Model API API Rules
+  rule_count: 70
+  severity_counts:
+    error: 67
+    hint: 0
+    info: 1
+    warn: 2
+  slug: linkagi-model-api-rules
 score:
-  band: developing
-  composite: 46.4
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 52.5
-    developer_ergonomics: 56.5
-    discoverability: 66.1
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 44.6
+    discoverability: 73.2
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -240,13 +257,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 46.4
+  previous_composite: 35.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -255,14 +272,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/linkagi-model-api/linkagi-model-api-2026-08-17T081030.png
 security:
 - kind: authentication

@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.1
-  scored_at: '2026-10-31'
+  score: 53.2
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Server-side ad request API. A GET against the versioned endpoint with a placement key, user id, IP and user agent returns a JSON `ad` object (creative id, campaign id, window URL and dimensions, curre
@@ -241,9 +242,9 @@ rate_limits:
   slug: truex-media-rate-limits
 score:
   band: developing
-  composite: 46.2
+  composite: 46.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -255,9 +256,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 70.0
-    operational_transparency: 36.8
-  previous_composite: 46.2
+    discoverability: 80.0
+    operational_transparency: 34.2
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -267,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

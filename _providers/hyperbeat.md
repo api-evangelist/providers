@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,7 +53,7 @@ apis:
   description: The Hyperliquid API from Hyperbeat — 6 operation(s) for hyperliquid.
   name: Hyperbeat Hyperliquid API
   slug: hyperbeat-hyperliquid-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: Hyperbeat Staking Hyperliquid API
@@ -183,27 +184,43 @@ network: true
 overview: 'Hyperbeat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Hyperliquid API. Tagged areas include Company, DeFi, Staking, Liquid Staking, and Hyperliquid.
 
 
+  The Hyperbeat catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Hyperbeat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Hyperbeat API Rules
+  rule_count: 58
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 1
+  slug: hyperbeat-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 43.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 49.6
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 41.7
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,13 +237,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hyperbeat/hyperbeat-2026-07-25T221845.png
 security:
 - kind: authentication

@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -8,78 +8,27 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
-    {
-     "name": "twmarketdata-com",
-     "slug": "twmarketdata-com",
-     "description": "TW Market Data (TWMD) provides comprehensive Taiwan stock market data APIs designed for AI agents and developers. It offers real‑time and historical data on equities, ETFs, indices, and financial metrics, sourced from official exchanges such as TWSE and TPEx. The platform includes free 30‑day trial access, detailed documentation, and tools for data integration, supporting quantitative analysis and automated workflows.",
-     "score": 59.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 63.2,
-      "contract_governance": 79.1,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 63.6,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 38.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "unknown",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "unknown",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "flavored",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "paginated",
-      "operation_distinctiveness": "distinct"
-     },
-     "rank": 1
-    },
     {
      "name": "MaiCoin",
      "slug": "maicoin",
      "description": "MaiCoin is a Taiwan-based digital asset group that operates MAX (MaiCoin Assets eXchange), a regulated cryptocurrency exchange offering spot trading, margin borrowing (m-wallet), staking, and fiat TWD on/off-ramps. MAX publishes a public V3 RESTful trading API with 54 operations spanning public market data (markets, tickers, order book depth, k-line, public trades), order management, trade history, wallet and account balances, deposits and withdrawals, internal transfers, currency conversion, and margin loan/repayment/liquidation. A companion WebSocket streaming service delivers real-time order book, ticker, k-line, trade, market status and private order/trade/account events. Authentication uses HMAC-SHA256 request signing over a base64 payload with X-MAX-ACCESSKEY, X-MAX-PAYLOAD and X-MAX-SIGNATURE headers.",
      "screenshot": "https://artifacts.apis.io/maicoin/screenshots/maicoin-2026-09-02T150513.png",
-     "score": 58.6,
+     "score": 59.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 51.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 68.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -87,12 +36,12 @@
       "score": 28.7,
       "matched_via": "tags"
      },
-     "agent_score": 31.1,
+     "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "verified",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "documented",
@@ -110,28 +59,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
-     "rank": 2
+     "rank": 1
     },
     {
      "name": "Crescendo Lab",
      "slug": "crescendo-lab",
      "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://artifacts.apis.io/crescendo-lab/screenshots/crescendo-lab-2026-07-25T210727.png",
-     "score": 57.2,
+     "score": 59.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 50.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
+      "discoverability": 71.7,
+      "contract_quality": 54.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
       "developer_ergonomics": 80.4,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -162,9 +112,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "paginated",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
-     "rank": 3
+     "rank": 2
     }
    ],
    "open": true
@@ -174,35 +125,35 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "CanFly",
      "slug": "canfly-ai",
      "description": "CanFly (CanFly.ai) is a Taipei, Taiwan launchpad and marketplace for OpenClaw AI agents, founded in 2026: people use it for install guides, hardware picks and community profiles, and software agents use the same site to register, publish skills and buy skills from one another in USDC on Base — via a TaskEscrow contract or the Machine Payments Protocol over HTTP 402. The public surface is agent-native by design: a 62-operation OpenAPI 3.1.0 REST contract at https://canfly.ai/api/openapi.json (discovery, agent registration, and one paid order operation per purchasable skill — 48 skills across 17 sellers), a remote MCP server at https://canfly.ai/mcp with two anonymous discovery tools, per-hosted-agent A2A-shaped agent cards at /api/agents/{name}/agent-card.json, llms.txt, an ai-plugin.json and MCP manifest under /.well-known/, and a Node CLI in the public product repo. Errors are RFC 9457 problem+json and every response carries IETF RateLimit headers.",
      "screenshot": "https://artifacts.apis.io/canfly-ai/screenshots/canfly-ai-2026-10-11T102703.png",
-     "score": 53.0,
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
-      "contract_quality": 49.0,
-      "contract_governance": 18.2,
+      "discoverability": 75.0,
+      "contract_quality": 51.0,
+      "contract_governance": 31.8,
       "operational_transparency": 60.5,
-      "developer_ergonomics": 71.4,
-      "access_clarity": 42.1
+      "developer_ergonomics": 48.8,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 20.6,
+      "score": 18.6,
       "matched_via": "fallback"
      },
-     "agent_score": 32.6,
+     "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -225,7 +176,61 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "half"
+     },
+     "rank": 3
+    },
+    {
+     "name": "twmarketdata-com",
+     "slug": "twmarketdata-com",
+     "description": "TW Market Data (TWMD) provides comprehensive Taiwan stock market data APIs designed for AI agents and developers. It offers real‑time and historical data on equities, ETFs, indices, and financial metrics, sourced from official exchanges such as TWSE and TPEx. The platform includes free 30‑day trial access, detailed documentation, and tools for data integration, supporting quantitative analysis and automated workflows.",
+     "screenshot": "https://artifacts.apis.io/twmarketdata-com/screenshots/twmarketdata-com-2026-11-03T145326.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 56.7,
+      "contract_quality": 66.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 41.0,
+      "access_clarity": 22.4
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 34.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "unknown",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "paginated",
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 4
     },
@@ -233,32 +238,33 @@
      "name": "Evergreen Marine Corp.",
      "slug": "evergreen-marine",
      "description": "Evergreen Marine Corp. (Taiwan) Ltd. (TWSE: 2603) is a worldwide container shipping company founded by Dr. Yung-Fa Chang in 1968; since 2007 its group carriers have operated under the Evergreen Line brand. Through its ShipmentLink e-commerce platform it offers online cargo tracking, vessel schedules, booking, e-B/L, VGM submission, EDI services and an API Developer Portal with a catalogue of APIs such as shipment Track & Trace, available to customers after an application and registration process.",
-     "score": 48.1,
+     "screenshot": "https://artifacts.apis.io/evergreen-marine/screenshots/evergreen-marine-2026-11-03T131658.png",
+     "score": 41.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.3,
+      "discoverability": 63.4,
       "contract_quality": 54.2,
       "contract_governance": 35.6,
       "operational_transparency": 7.9,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 55.3
+      "developer_ergonomics": 32.7,
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 34.3,
+      "score": 30.4,
       "matched_via": "fallback"
      },
-     "agent_score": 33.5,
+     "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -276,7 +282,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 5
     }
@@ -292,11 +299,64 @@
    "shown": 4,
    "providers": [
     {
+     "name": "Autopass",
+     "slug": "autopass",
+     "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
+     "screenshot": "https://artifacts.apis.io/autopass/screenshots/autopass-2026-07-25T201842.png",
+     "score": 37.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 56.4,
+      "contract_governance": 13.6,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 6
+    },
+    {
      "name": "National Tsing Hua University",
      "slug": "nthu",
      "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, founded in Beijing in 1911 and re-established in Taiwan in 1956. It has no central developer portal, no API catalog and no institution-wide API program, and this profile is deliberately small because the honest footprint is small. It does, however, hold something most of this cohort does not: one genuinely institution-operated, institution-governed API. NTHU's Computer and Communication Center runs an OAuth 2.0 authorization and identity service at oauth.ccxp.nthu.edu.tw, fronting the Academic Information System (CCXP), documented by the university in its own interface manual, governed by a regulation passed by the Computer and Communication Committee in December 2020, and carrying a published scheduled repeal date of 2027-07-31. It is not self-service — a request needs a unit head's signature, Computer and Communication Center review, and sign-off from every unit that owns a requested data field — but it is NTHU's own engineering on NTHU's own host. Everything else programmable that carries NTHU's name is operated by someone else. The widely cited NTHU Data API, a live FastAPI service with an OpenAPI 3.1.0 description and 22 keyless public paths over campus announcements, buses, courses, departments, dining, energy, library spaces, locations and newsletters, is built and hosted by the NTHU Student Association on nthusa.tw, not by the university on nthu.edu.tw. The research portal at scholars.nthu.edu.tw is an Ex Libris Esploro tenant, and the library discovery service is an Ex Libris Primo VE tenant shared through the University System of Taiwan consortium. Those are real institutional facts and they are recorded as tenant relationships, but they are not NTHU's contracts and are not scored as such.",
      "screenshot": "https://artifacts.apis.io/nthu/screenshots/nthu-2026-06-20T190502.png",
-     "score": 36.7,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -304,11 +364,11 @@
       "contract_quality": 55.5,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 33.3,
+      "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -339,59 +399,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
-     },
-     "rank": 6
-    },
-    {
-     "name": "Autopass",
-     "slug": "autopass",
-     "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
-     "screenshot": "https://artifacts.apis.io/autopass/screenshots/autopass-2026-07-25T201842.png",
-     "score": 35.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 56.4,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 7
     },
@@ -400,19 +409,19 @@
      "slug": "nycu",
      "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Hsinchu and Taipei, Taiwan, formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University. Its programmable footprint is small but genuinely its own in one place: the NYCU OAuth service at id.nycu.edu.tw, an OAuth 2.0 (RFC 6749) authorization server run by the university's Information Technology Service Center that lets approved applications authenticate NYCU single sign-on users and read three consented identity attributes. It is documented publicly, in Chinese and English, with its own terms of service and issue tracker, and it is the only contract in this repo NYCU actually engineered. Everything else is a relationship rather than an interface the university wrote. NYCU self-hosts a Dataverse research-data repository and a DSpace institutional repository on its own network, and both expose an anonymous OAI-PMH 2.0 harvesting endpoint that is institution-operated — but the REST contracts underneath them belong to the Dataverse Project and DSpace, not to NYCU. Library discovery is an Ex Libris Primo tenancy. NYCU is a DataCite direct member in its own name, minting DOIs on prefix 10.57770 through its \"NYCU Research Data Service\" repository, and is registered in ROR. There is no central developer portal, no open-data portal, no course or timetable API, no OpenID Connect discovery document, and no publicly discoverable Shibboleth or SAML identity provider. The course registration and timetable systems are human web applications behind institutional login.",
      "screenshot": "https://artifacts.apis.io/nycu/screenshots/nycu-2026-06-20T190547.png",
-     "score": 29.8,
+     "score": 28.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.1,
       "contract_quality": 19.1,
       "contract_governance": 7.6,
-      "operational_transparency": 10.5,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 42.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -443,7 +452,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 8
     },
@@ -452,19 +462,19 @@
      "slug": "tg3d-studio",
      "description": "TG3D Studio Inc. is a 3D fashion technology company (founded 2016, headquartered in Taiwan) whose Scanatic platform digitizes the body, materials, and clothing for made-to-measure and custom fashion. Its products include the Scanatic 360 Body Scanner (roughly 250 body measurements captured in seconds), Scanatic Studio 3D product-visualization and digital-sampling software, the Cloudzet mobile body-scan app, and the BESPOKE-N virtual try-on app. For developers and partners, TG3D exposes two RESTful API libraries: ScanAPI — offered free to partners for integrating Cloudzet scan-user registration and building custom UI that controls the Scanatic 360 Body Scanner — and APIConnect, which manipulates data across the Scanatic Body, Nuno3D, and StyleBook services. API access is key-based and issued from the Scanatic for Fashion Developer Console; all HTTPS traffic is 256-bit encrypted and each Scanatic Body Service includes up to 1,500 free API requests per month.",
      "screenshot": "https://artifacts.apis.io/tg3d-studio/screenshots/tg3d-studio-2026-09-02T163310.png",
-     "score": 28.9,
+     "score": 28.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 45.2,
-      "access_clarity": 65.8
+      "access_clarity": 59.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -495,7 +505,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 9
     }
@@ -510,23 +521,128 @@
    "shown": 8,
    "providers": [
     {
+     "name": "HowBridge Logistics",
+     "slug": "0523-tw",
+     "description": "好運器台灣集運報關平台：淘寶、拼多多、1688、抖音等大陸電商購物集運寄台灣，海雜櫃每公斤 NT$25 起或每材積 NT$150 起（依商品詢問客服報價）、海快 NT$50/單位、空運 NT$100/kg，普特貨同價、合包免費、366 天免費倉儲。AEO 認證合作報關行、EZWay 實名認證與申報確認協助、TFDA/BSMI 商品檢驗輔助，報關清關一站搞定，14 語言客服。",
+     "score": 22.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 58.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 22.4
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 21.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 10
+    },
+    {
+     "name": "hotcake 夯客",
+     "slug": "hotcake",
+     "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
+     "screenshot": "https://artifacts.apis.io/hotcake/screenshots/hotcake-2026-07-25T221501.png",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 11
+    },
+    {
      "name": "aetherAI",
      "slug": "aetherai",
      "description": "aetherAI (雲象科技, aetherAI Co., Ltd.) is a Taipei-based medical-imaging AI company and one of Asia's leading digital-pathology vendors. It builds regulated diagnostic software for hospitals, reference laboratories and pharmaceutical R&D: aetherSlide, an FDA-cleared (K233126), CE-marked and TFDA-approved whole-slide image management and viewing system; aetherWeb, a cloud digital pathology education platform; aetherAI Hema for bone-marrow smear differential counting; aetherAI Endo for real-time computer-aided polyp detection in colonoscopy; and aetherAI Ortho for whole-spine radiograph measurement. The company was founded in Taiwan, raised NT$765 million in Series B funding led by CDIB Capital, Quanta Computer, Taiwan Business Bank VC and Cathay Venture, listed on Taiwan's Emerging Stock Board in November 2024, holds ISO/IEC 27001 certification, and has filed for the Taiwan Innovation Board. aetherAI publishes no public developer API, no OpenAPI or other machine-readable contract, and no developer portal; its clinical software is sold and deployed through a direct enterprise motion and its application sits behind a customer login. The single publicly callable surface is a Wix-provided Site MCP endpoint on its own domain, which serves website content rather than any clinical product.",
      "screenshot": "https://artifacts.apis.io/aetherai/screenshots/aetherai-2026-10-11T093004.png",
-     "score": 21.2,
+     "score": 19.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 75.0,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 19.0,
-      "access_clarity": 31.6
+      "access_clarity": 25.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -557,84 +673,34 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 10
-    },
-    {
-     "name": "hotcake 夯客",
-     "slug": "hotcake",
-     "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
-     "screenshot": "https://artifacts.apis.io/hotcake/screenshots/hotcake-2026-07-25T221501.png",
-     "score": 20.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "penguindriver-com",
      "slug": "penguindriver-com",
      "description": "PenguinDriver (企鵝司機) is a Taiwanese AI‑agent portal that aggregates 21 free public websites into a single entry point, offering price comparison, movie showtimes, daily meals, fuel receipts, holiday calendars, sports scores, game releases, US‑Taiwan stock topics and health information. The service provides a searchable interface and APIs that let developers query these data sources programmatically.",
-     "score": 17.5,
+     "screenshot": "https://artifacts.apis.io/penguindriver-com/screenshots/penguindriver-com-2026-11-03T141101.png",
+     "score": 15.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 80.0,
       "contract_quality": 0.0,
       "contract_governance": 22.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 23.1,
-      "access_clarity": 10.5
+      "developer_ergonomics": 14.8,
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 22.7,
+      "score": 20.9,
       "matched_via": "fallback"
      },
      "agent_score": 9.1,
@@ -660,59 +726,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 12
-    },
-    {
-     "name": "National Cheng Kung University",
-     "slug": "ncku",
-     "description": "National Cheng Kung University (NCKU, 國立成功大學) is a public research university in Tainan, Taiwan, founded in 1931 and the second-largest comprehensive university in the country. Its programmable footprint is narrow and almost entirely accounted for by one surface: the NCKU Open Data Platform at data.ncku.edu.tw, a CKAN 2.0 deployment NCKU runs on its own host and its own domain, carrying 108 datasets and two NCKU-authored CKAN extensions (nckumetadata, nckutemplatehelper), released under Taiwan's Open Government Data License v1. Its Action API answers anonymous callers with valid JSON and is the only endpoint in this profile that returns machine-readable institutional data without credentials. Everything else is either a vendor tenancy or barely reachable. Library discovery is Ex Libris Primo VE under an NCKU tenant view (886NCKU_INST) and is recorded as a relationship, not as NCKU's engineering — no Ex Libris contract is saved here. The NCKU institutional repository (NCKUR) at nckur.lib.ncku.edu.tw is NCKU's own DSpace, confirmed live and self-identifying as \"Powered By DSPACE, MIT\" Version 7.0 during one of only three responsive windows in roughly thirty probes on 2026-09-01 — the host refuses TCP the rest of the time. No OAI-PMH or REST interface survived probing: /oai/request?verb=Identify returns a genuine 404 and every other candidate path fell inside a refusal window, so the 2026-06 profile's DSpace REST and OAI-PMH claims stay unverified. NCKU's Shibboleth identity provider resolves in DNS at idp.ncku.edu.tw but its ports do not answer from outside Taiwan, and Taiwan has no federation in eduGAIN, so the IdP is named as an unverified lead rather than credited as a surface. NCKU registers no DOI prefix with either DataCite or Crossref. There is no central developer portal, no API key program and no institution-authored OpenAPI anywhere on the ncku.edu.tw estate.",
-     "screenshot": "https://artifacts.apis.io/ncku/screenshots/ncku-2026-06-20T190150.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 14.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 14.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 13
     },
@@ -732,8 +747,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -764,32 +779,202 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 14
     },
     {
-     "name": "ECPay",
-     "slug": "ecpay",
-     "description": "ECPay (綠界科技) is a Taiwan‑based payment service provider offering a comprehensive suite of financial solutions, including credit‑card processing, ATM transfers, convenience‑store payments, electronic invoicing, logistics integration, and digital gift‑ticket services. It serves e‑commerce merchants, NGOs, and enterprises with APIs, SDKs, and AI‑enhanced tools to streamline checkout, recurring billing, and donation flows across multiple channels.",
-     "score": 14.5,
+     "name": "National Cheng Kung University",
+     "slug": "ncku",
+     "description": "National Cheng Kung University (NCKU, 國立成功大學) is a public research university in Tainan, Taiwan, founded in 1931 and the second-largest comprehensive university in the country. Its programmable footprint is narrow and almost entirely accounted for by one surface: the NCKU Open Data Platform at data.ncku.edu.tw, a CKAN 2.0 deployment NCKU runs on its own host and its own domain, carrying 108 datasets and two NCKU-authored CKAN extensions (nckumetadata, nckutemplatehelper), released under Taiwan's Open Government Data License v1. Its Action API answers anonymous callers with valid JSON and is the only endpoint in this profile that returns machine-readable institutional data without credentials. Everything else is either a vendor tenancy or barely reachable. Library discovery is Ex Libris Primo VE under an NCKU tenant view (886NCKU_INST) and is recorded as a relationship, not as NCKU's engineering — no Ex Libris contract is saved here. The NCKU institutional repository (NCKUR) at nckur.lib.ncku.edu.tw is NCKU's own DSpace, confirmed live and self-identifying as \"Powered By DSPACE, MIT\" Version 7.0 during one of only three responsive windows in roughly thirty probes on 2026-09-01 — the host refuses TCP the rest of the time. No OAI-PMH or REST interface survived probing: /oai/request?verb=Identify returns a genuine 404 and every other candidate path fell inside a refusal window, so the 2026-06 profile's DSpace REST and OAI-PMH claims stay unverified. NCKU's Shibboleth identity provider resolves in DNS at idp.ncku.edu.tw but its ports do not answer from outside Taiwan, and Taiwan has no federation in eduGAIN, so the IdP is named as an unverified lead rather than credited as a surface. NCKU registers no DOI prefix with either DataCite or Crossref. There is no central developer portal, no API key program and no institution-authored OpenAPI anywhere on the ncku.edu.tw estate.",
+     "screenshot": "https://artifacts.apis.io/ncku/screenshots/ncku-2026-06-20T190150.png",
+     "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 58.9,
+      "discoverability": 62.5,
+      "contract_quality": 14.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 12.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 15
+    },
+    {
+     "name": "Sciket",
+     "slug": "sciket",
+     "description": "Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized online marketplace for scientific research and technology procurement. The platform integrates thousands of global suppliers and millions of products — laboratory consumables and glassware, instruments and equipment, chemical reagents and materials, and industrial tools and hardware — into a single digitized purchasing, sourcing, and fast-shipment service for research labs, academic institutions, quality-control teams, and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system integration, monthly invoicing, and laboratory-construction services. Sciket runs an internal storefront/API host (api.sciket.com) but does not publish a public developer API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio company and enriched with verified identity and domain-security data.",
+     "screenshot": "https://artifacts.apis.io/sciket/screenshots/sciket-2026-09-02T154544.png",
+     "score": 12.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 23.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 16
+    },
+    {
+     "name": "ECPRO",
+     "slug": "ecpro-tw",
+     "description": "ECPRO 電商博士, founded by 林克威, provides Taiwan website real‑price registration and the nation’s first e‑commerce media platform. It aggregates public website data, offering transparent insights into e‑commerce platforms, payment systems, advertising pixels, traffic, and company registration details. Users can query site technology stacks, compare competitors, and access free tools, reports, and AI‑assisted analysis, all aimed at making Taiwan’s e‑commerce landscape openly understandable.",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 3.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 19,
+   "shown": 19,
+   "providers": [
+    {
+     "name": "ECPay",
+     "slug": "ecpay",
+     "description": "ECPay (綠界科技) is a Taiwan‑based payment service provider offering a comprehensive suite of financial solutions, including credit‑card processing, ATM transfers, convenience‑store payments, electronic invoicing, logistics integration, and digital gift‑ticket services. It serves e‑commerce merchants, NGOs, and enterprises with APIs, SDKs, and AI‑enhanced tools to streamline checkout, recurring billing, and donation flows across multiple channels.",
+     "screenshot": "https://artifacts.apis.io/ecpay/screenshots/ecpay-2026-11-03T131312.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 58.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 15.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 12.5,
+      "score": 8.9,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -815,84 +1000,34 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 15
-    },
-    {
-     "name": "Sciket",
-     "slug": "sciket",
-     "description": "Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized online marketplace for scientific research and technology procurement. The platform integrates thousands of global suppliers and millions of products — laboratory consumables and glassware, instruments and equipment, chemical reagents and materials, and industrial tools and hardware — into a single digitized purchasing, sourcing, and fast-shipment service for research labs, academic institutions, quality-control teams, and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system integration, monthly invoicing, and laboratory-construction services. Sciket runs an internal storefront/API host (api.sciket.com) but does not publish a public developer API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio company and enriched with verified identity and domain-security data.",
-     "screenshot": "https://artifacts.apis.io/sciket/screenshots/sciket-2026-09-02T154544.png",
-     "score": 12.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Citiesocial",
      "slug": "citiesocial",
      "description": "Citiesocial is a Taiwan‑based curated e‑commerce marketplace that connects consumers with premium global brands. Founded in 2011, it offers cross‑border logistics, brand localization, and omni‑channel sales, serving over 600,000 customers across Taiwan, Singapore, Malaysia and Japan. The platform showcases a wide range of lifestyle, tech, fashion and home products, emphasizing quality and curated selections for modern living.",
-     "score": 11.6,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "screenshot": "https://artifacts.apis.io/citiesocial/screenshots/citiesocial-2026-11-03T124236.png",
+     "score": 8.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 56.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 21.1
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 8.3,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 13.7,
+      "score": 9.8,
       "matched_via": "fallback"
      },
      "agent_score": 4.5,
@@ -918,20 +1053,64 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform",
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 17
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
+     "rank": 19
+    },
+    {
+     "name": "TutorABC",
+     "slug": "tutorabc",
+     "description": "TutorABC (formerly iTutorGroup) is a Taiwan-headquartered online language-learning platform offering live one-on-one and small-group English and Chinese instruction to learners worldwide. Courses span conversational and business English, Mandarin Chinese, certification-exam prep, and study-abroad advising, delivered through a proprietary web and mobile classroom with matched tutors and partnerships with institutions such as Oxford and Cambridge. The company runs consumer learning sites alongside separate portals for tutor recruitment, learning consultants, and interviewer/onboarding workflows. TutorABC is a portfolio company of Qiming Venture Partners. It publishes no public developer API; this profile captures the company identity, its agent-facing llms.txt, and its domain-security posture surfaced by the enrichment pipeline.",
+     "screenshot": "https://artifacts.apis.io/tutorabc/screenshots/tutorabc-2026-10-11T131306.png",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 5.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 20
+    },
     {
      "name": "ProLogium Technology",
      "slug": "prologium",
@@ -948,8 +1127,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -980,80 +1159,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 18
-    },
-    {
-     "name": "TutorABC",
-     "slug": "tutorabc",
-     "description": "TutorABC (formerly iTutorGroup) is a Taiwan-headquartered online language-learning platform offering live one-on-one and small-group English and Chinese instruction to learners worldwide. Courses span conversational and business English, Mandarin Chinese, certification-exam prep, and study-abroad advising, delivered through a proprietary web and mobile classroom with matched tutors and partnerships with institutions such as Oxford and Cambridge. The company runs consumer learning sites alongside separate portals for tutor recruitment, learning consultants, and interviewer/onboarding workflows. TutorABC is a portfolio company of Qiming Venture Partners. It publishes no public developer API; this profile captures the company identity, its agent-facing llms.txt, and its domain-security posture surfaced by the enrichment pipeline.",
-     "screenshot": "https://artifacts.apis.io/tutorabc/screenshots/tutorabc-2026-10-11T131306.png",
-     "score": 7.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 5.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "500net",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "screenshot": "https://artifacts.apis.io/500nettechnologycoltd/screenshots/500nettechnologycoltd-2026-10-11T092134.png",
-     "score": 4.7,
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 56.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1084,28 +1212,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "XING Mobility",
      "slug": "xing-mobility",
      "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
      "screenshot": "https://artifacts.apis.io/xing-mobility/screenshots/xing-mobility-2026-09-02T171152.png",
-     "score": 4.7,
+     "score": 5.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1136,9 +1265,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "PopChill",
@@ -1156,8 +1286,8 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1188,61 +1318,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 22
-    },
-    {
-     "name": "Elixiron Immunotherapeutics",
-     "slug": "elixiron-immunotherapeutics",
-     "description": "Elixiron Immunotherapeutics (Cayman) Limited is a clinical-stage biopharmaceutical company founded in 2017, with offices in Taipei, Taiwan and Cambridge, Massachusetts, developing precision immunotherapies for neuroinflammation, autoimmune disease and cancer. Its clinical pipeline is led by enrupatinib (EI-1071), a small-molecule CSF-1R inhibitor in development for Alzheimer's disease and other neurodegenerative indications, and EI-001, a fully human anti-interferon-gamma monoclonal antibody in Phase 2 for vitiligo, alongside preclinical EI-012 (anti-CD36) and EI-220 (mRNA) oncology programs. The company publishes a corporate and investor-relations website only: there is no developer portal, public API, SDK, webhook surface or machine-readable specification of any kind on its own hosts.",
-     "screenshot": "https://artifacts.apis.io/elixiron-immunotherapeutics/screenshots/elixiron-immunotherapeutics-2026-09-02T145344.png",
-     "score": 3.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 4.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Fox-Tech",
@@ -1260,8 +1339,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1292,28 +1371,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 24
+     "rank": 25
     },
     {
-     "name": "Apollomedicaloptics",
-     "slug": "apollomedicaloptics",
-     "description": "Apollomedicaloptics is a Taiwanese company specializing in non‑invasive visualization technology for medical applications. It develops advanced optical imaging systems used in ophthalmology and other clinical fields, aiming to improve diagnostic capabilities through innovative hardware and software solutions. The firm is headquartered in Taipei, Taiwan, and focuses on delivering high‑resolution, real‑time imaging to healthcare providers worldwide.",
-     "screenshot": "https://artifacts.apis.io/apollomedicaloptics/screenshots/apollomedicaloptics-2026-10-11T095945.png",
-     "score": 3.4,
+     "name": "Elixiron Immunotherapeutics",
+     "slug": "elixiron-immunotherapeutics",
+     "description": "Elixiron Immunotherapeutics (Cayman) Limited is a clinical-stage biopharmaceutical company founded in 2017, with offices in Taipei, Taiwan and Cambridge, Massachusetts, developing precision immunotherapies for neuroinflammation, autoimmune disease and cancer. Its clinical pipeline is led by enrupatinib (EI-1071), a small-molecule CSF-1R inhibitor in development for Alzheimer's disease and other neurodegenerative indications, and EI-001, a fully human anti-interferon-gamma monoclonal antibody in Phase 2 for vitiligo, alongside preclinical EI-012 (anti-CD36) and EI-220 (mRNA) oncology programs. The company publishes a corporate and investor-relations website only: there is no developer portal, public API, SDK, webhook surface or machine-readable specification of any kind on its own hosts.",
+     "screenshot": "https://artifacts.apis.io/elixiron-immunotherapeutics/screenshots/elixiron-immunotherapeutics-2026-09-02T145344.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.6,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1344,9 +1424,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 25
+     "rank": 26
+    },
+    {
+     "name": "Apollomedicaloptics",
+     "slug": "apollomedicaloptics",
+     "description": "Apollomedicaloptics is a Taiwanese company specializing in non‑invasive visualization technology for medical applications. It develops advanced optical imaging systems used in ophthalmology and other clinical fields, aiming to improve diagnostic capabilities through innovative hardware and software solutions. The firm is headquartered in Taipei, Taiwan, and focuses on delivering high‑resolution, real‑time imaging to healthcare providers worldwide.",
+     "screenshot": "https://artifacts.apis.io/apollomedicaloptics/screenshots/apollomedicaloptics-2026-10-11T095945.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 4.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 27
     },
     {
      "name": "Bounty Hunter",
@@ -1364,8 +1498,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1396,14 +1530,16 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "NCDR (Taiwan)",
      "slug": "ncdr",
      "description": "The National Center for Disaster Reduction (NCDR) in Taiwan is a government-affiliated organization that focuses on research, technology development, and coordination for disaster prevention, mitigation, response, and recovery. It provides data, tools, and services to support emergency management, public safety, and resilience across the nation, collaborating with agencies, academia, and industry to improve disaster preparedness and reduce risk.",
+     "screenshot": "https://artifacts.apis.io/ncdr/screenshots/ncdr-2026-11-03T140056.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1415,8 +1551,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1447,9 +1583,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "WeGrow asia",
@@ -1467,8 +1604,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1499,9 +1636,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "ypxfood",
@@ -1519,8 +1657,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1551,9 +1689,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Tripplus",
@@ -1571,8 +1710,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1603,9 +1742,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Mutto Optronics",
@@ -1623,8 +1763,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1655,9 +1795,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "National Taiwan University",
@@ -1675,8 +1816,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1707,9 +1848,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Additive Intelligence",
@@ -1726,8 +1868,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1758,9 +1900,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "TryTry (穿穿)",
@@ -1778,8 +1921,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1810,9 +1953,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 34
+     "rank": 36
     }
    ]
   }

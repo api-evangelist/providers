@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: GraphQL API exposed by a running Mina daemon (node) for querying node, account, and chain state and submitting payments, delegations, and zkApp transactions. Bound to localhost:3085 by default. 41 que
@@ -178,7 +181,7 @@ overview: 'Mina is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 13
 score:
   band: thin
-  composite: 33.0
+  composite: 33.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -192,9 +195,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 33.0
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 33.3
   provenance:
     conformance: derived
     mcp: derived
@@ -205,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

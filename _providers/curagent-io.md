@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-31'
+  score: 15.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Title Risk Analysis API
@@ -119,7 +135,7 @@ modified: '2026-10-30'
 name: curagent-io
 nav: Providers
 network: true
-overview: 'curagent-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Title, Risk Analysis, API, and Document Processing.
+overview: 'curagent-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Title, Risk Analysis, Document Processing, and Company.
 
 
   The curagent-io catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -150,34 +166,46 @@ scopes:
   slug: curagent-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.9
+  band: thin
+  composite: 29.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 63.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    artifact_dirs: 23
+    catalog_earned: 49.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.7
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 38.0
-    developer_ergonomics: 33.3
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 10.5
+    developer_ergonomics: 25.0
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 35.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/curagent-io/curagent-io-2026-11-03T125816.png
 security:
 - kind: authentication
   name: Curagent Io Authentication
@@ -192,7 +220,6 @@ tags:
 - Real Estate
 - Title
 - Risk Analysis
-- API
 - Document Processing
 - Company
 website: https://curagent.io/

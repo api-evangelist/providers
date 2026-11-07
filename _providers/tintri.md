@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -169,10 +171,10 @@ overview: 'Tintri is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 19 more developer resources.'
 random_paper: 18
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 23.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,10 +185,13 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 26.7
+    developer_ergonomics: 61.3
+    discoverability: 73.2
+    operational_transparency: 2.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 23.6
   provenance:
     conformance: derived
     mcp: derived
@@ -197,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

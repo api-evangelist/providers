@@ -1,0 +1,169 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.5
+  scored_at: '2026-11-06'
+api_count: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://crosswirepay.com/trust
+- group: agent
+  href: https://artifacts.apis.io/crosswirepay-com/llms/crosswirepay-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/crosswirepay-com-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/crosswirepay-com/mcp/crosswirepay-com-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/crosswirepay-com-mcp.yml
+- group: other
+  href: https://artifacts.apis.io/crosswirepay-com/hosts/crosswirepay-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/crosswirepay-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/crosswirepay-com/vendors/crosswirepay-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/crosswirepay-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://crosswirepay.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://crosswirepay.com/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://crosswirepay.com/pricing
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://crosswirepay.com/developers
+- group: auth
+  href: https://artifacts.apis.io/crosswirepay-com/security/crosswirepay-com-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/crosswirepay-com-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/crosswirepay-com/security/crosswirepay-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/crosswirepay-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://crosswirepay.com/
+coverage:
+  checked: '2026-11-04'
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on the provider's API host.
+  evidence:
+  - status: not-found
+    url: https://api.crosswirepay.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-11-04'
+description: Crosswire provides a financial infrastructure orchestration platform offering modular banking, cross‑border payments, digital assets, acquiring, KYC, and technology APIs. It targets complex, high‑risk businesses such as crypto exchanges, iGaming, forex brokers, marketplaces and adult services, delivering embedded finance stacks with real‑time settlement, virtual IBANs, and compliance automation. The platform enables companies to build and price custom stacks, integrate with multiple rails, and manage identity verification, all via unified APIs.
+image: https://crosswirepay.com/__l5e/assets-v1/a7faf91e-0a80-47e9-92c4-0698eff0978c/og-image-v2-20260704.png
+layout: provider
+mcp_servers:
+- description: Remote MCP server at crosswirepay.com.
+  name: Crosswire MCP Server
+  slug: crosswirepay-com-mcp-yml
+modified: '2026-11-04'
+name: Crosswire
+nav: Providers
+network: true
+overview: 'Crosswire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, and Payments.
+
+
+  Crosswire''s developer surface includes pricing and 11 more developer resources.'
+random_paper: 7
+score:
+  band: emerging
+  composite: 14.6
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 22.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 93.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 40.0
+    operational_transparency: 0.0
+  provenance:
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 15.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Crosswirepay Com Domain Security
+  slug: crosswirepay-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Crosswirepay Com Trust Center
+  slug: crosswirepay-com-trust-center
+  summary_line: GDPR
+slug: crosswirepay-com
+tags:
+- Company
+- Fintech
+- Banking
+- Payments
+website: https://crosswirepay.com/
+---

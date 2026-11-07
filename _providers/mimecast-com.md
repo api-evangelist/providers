@@ -1,31 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 28.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API documentation for ProjectDiscovery's platform
@@ -42,6 +58,10 @@ asyncapis:
   name: Mimecast Com Webhooks
   slug: mimecast-com-webhooks
 common:
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://projectdiscovery.io/news/neo-triage-press-release
 - group: auth
   href: https://artifacts.apis.io/mimecast-com/well-known/mimecast-com-www-security.txt
   title: ''
@@ -202,7 +222,7 @@ overview: 'ProjectDiscovery is listed with 2 APIs on the [APIs.io](https://apis.
   The ProjectDiscovery catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  ProjectDiscovery''s developer surface includes authentication, pricing, documentation, engineering blog, getting-started guide, API reference, and 24 more developer resources.'
+  ProjectDiscovery''s developer surface includes authentication, pricing, documentation, engineering blog, getting-started guide, API reference, and 25 more developer resources.'
 plans:
 - name: Mimecast Com Plans Pricing
   plan_count: 3
@@ -210,41 +230,49 @@ plans:
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: ProjectDiscovery API Rules
-  rule_count: 12
+  rule_count: 33
   severity_counts:
-    error: 10
+    error: 31
     hint: 0
     info: 1
     warn: 1
   slug: mimecast-com-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 43.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 50.2
     catalog_earned_first_party: 12.0
     catalog_gap: 64.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.8
   facets:
-    access_clarity: 78.9
+    access_clarity: 75.0
     contract_governance: 35.6
     contract_quality: 26.8
-    developer_ergonomics: 52.4
-    discoverability: 39.3
-    operational_transparency: 39.5
+    developer_ergonomics: 33.3
+    discoverability: 48.2
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -255,13 +283,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/mimecast-com/mimecast-com-2026-11-03T135606.png
 security:
 - kind: authentication
   name: Mimecast Com Authentication

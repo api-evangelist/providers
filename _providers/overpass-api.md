@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Read-only API for querying OpenStreetMap data. Supports retrieval of nodes, ways, relations, and areas using the Overpass Query Language (QL) or XML syntax, with output in JSON, XML, CSV, or custom fo
@@ -134,7 +136,7 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 47.0
@@ -149,16 +151,19 @@ score:
     contract_quality: 6.7
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 16.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

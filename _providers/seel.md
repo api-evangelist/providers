@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 26.9
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - baseURL: https://api-test.seel.com/v1
@@ -85,7 +86,7 @@ apis:
   description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: Seel delivers webhook notifications to a merchant-configured HTTPS endpoint when protection contract and claim lifecycle events occur. Each notification is a Notification object with id, created_ts, t
   name: Seel Webhooks
@@ -196,30 +197,43 @@ network: true
 overview: 'Seel is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Bill API, Claim API, Contract API, and 6 more. Tagged areas include Company, E-Commerce, Insurance, Post-Purchase, and Returns.
 
 
-  The Seel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Seel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 11 more developer resources.'
 random_paper: 17
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Seel API Rules
+  rule_count: 52
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 1
+  slug: seel-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 28.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 8.1
-    developer_ergonomics: 66.1
-    discoverability: 71.4
+    contract_governance: 18.2
+    contract_quality: 9.3
+    developer_ergonomics: 53.0
+    discoverability: 78.6
     operational_transparency: 7.9
-  previous_composite: 29.0
+  previous_composite: 27.1
   provenance:
     conformance: derived
     contracts:
@@ -235,13 +249,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/seel/seel-2026-09-02T154753.png
 security:
 - kind: authentication

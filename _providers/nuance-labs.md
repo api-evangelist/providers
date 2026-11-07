@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,10 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/nuance-labs/hosts/nuance-labs-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/nuance-labs-hosts.yml
 - group: auth
   href: https://artifacts.apis.io/nuance-labs/security/nuance-labs-domain-security.yml
   title: ''
@@ -71,11 +78,25 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/nuance_ai
+coverage:
+  checked: '2026-11-05'
+  detail: 'Nuance Labs is pre-product: www.nuancelabs.ai is a marketing site with a Get Demo call to action, app.nuancelabs.ai and api.nuancelabs.ai answer 404 at their roots, and no docs, llms.txt, spec or package was found.'
+  evidence:
+  - status: 200
+    url: https://www.nuancelabs.ai/
+  - status: 404
+    url: https://api.nuancelabs.ai/
+  - status: 404
+    url: https://app.nuancelabs.ai/
+  - status: 404
+    url: https://www.nuancelabs.ai/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: 'Nuance Labs is an early-stage AI research company based in Seattle, Washington, building a human foundation model with emotional intelligence. It is developing a real-time, full-duplex audiovisual system that sees, hears, reasons, speaks, and expresses simultaneously, reading tone, facial expression, and hesitation to enable face-to-face AI interaction that feels human. Backed by Accel and Lightspeed Venture Partners, the company is pre-product: as of this enrichment pass it publishes only a marketing site (About, Press, Contact, Careers) with a "Get Demo" / early-access call to action, and exposes no public API, developer portal, documentation, SDKs, or other developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuance-labs.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-11-05'
 name: Nuance Labs
 nav: Providers
 network: true
@@ -83,9 +104,9 @@ overview: Nuance Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 17
 score:
   band: minimal
-  composite: 3.9
+  composite: 3.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -97,7 +118,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.1
+    discoverability: 56.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -106,15 +127,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 3.9
+  previous_composite: 3.8
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

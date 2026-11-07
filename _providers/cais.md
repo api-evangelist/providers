@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 30.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -182,10 +183,10 @@ scopes:
   slug: cais-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 26.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,7 +198,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 66.7
+    discoverability: 75.8
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -206,7 +207,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.8
+  previous_composite: 26.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -216,8 +217,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

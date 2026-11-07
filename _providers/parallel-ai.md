@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.0
-  scored_at: '2026-10-31'
+  score: 66.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -88,7 +89,7 @@ apis:
   description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Tasks API
   slug: parallel-ai-tasks-api
-artifact_total: 34
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Parallel Webhooks
@@ -371,7 +372,7 @@ network: true
 overview: 'Parallel publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API (Beta) API, Extract API, Find All API, and 5 more. Tagged areas include Company, Artificial Intelligence, Web Search, Agents, and Deep Research.
 
 
-  The Parallel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Parallel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 40 more developer resources.'
@@ -387,6 +388,19 @@ rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits
   slug: parallel-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Parallel API Rules
+  rule_count: 66
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 2
+    warn: 10
+  slug: parallel-ai-rules
 scopes:
 - name: Parallel Scopes
   scope_count: 1
@@ -394,30 +408,30 @@ scopes:
   summary_line: 1 scope
 score:
   band: exemplar
-  composite: 71.3
+  composite: 69.5
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 55.0
+    artifact_dirs: 35
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -3.7
   facets:
-    access_clarity: 68.4
-    contract_governance: 18.2
-    contract_quality: 65.0
-    developer_ergonomics: 90.0
-    discoverability: 70.0
-    operational_transparency: 84.2
-  previous_composite: 72.9
+    access_clarity: 55.3
+    contract_governance: 31.8
+    contract_quality: 71.3
+    developer_ergonomics: 78.3
+    discoverability: 80.0
+    operational_transparency: 81.6
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: first-party
@@ -427,13 +441,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/parallel-ai/parallel-2026-08-17T124455.png
 security:
 - kind: authentication

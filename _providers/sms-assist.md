@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -189,7 +192,7 @@ overview: 'SMS Assist is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 15
 score:
   band: developing
-  composite: 45.2
+  composite: 44.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -203,9 +206,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 47.4
-  previous_composite: 45.2
+    discoverability: 73.2
+    operational_transparency: 39.5
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -216,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

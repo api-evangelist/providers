@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -1397,7 +1401,7 @@ modified: '2026-09-16'
 name: Amazon Lookout for Vision
 nav: Providers
 network: true
-overview: 'Amazon Lookout for Vision publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Projects API and Tags API. Tagged areas include Computer Vision, Machine Learning, Manufacturing, Quality Inspection, and Anomaly Detection.
+overview: 'Amazon Lookout for Vision publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Projects API and Tags API. Tagged areas include Amazon Web Services, Computer Vision, Machine Learning, Manufacturing, and Quality Inspection.
 
 
   The Amazon Lookout for Vision catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1441,7 +1445,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -1470,13 +1474,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-lookout-for-vision/amazon-lookout-for-vision-2026-06-20T171731.png
 security:
 - kind: authentication
@@ -1497,6 +1500,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-lookout-for-vision
 tags:
+- Amazon Web Services
 - Computer Vision
 - Machine Learning
 - Manufacturing

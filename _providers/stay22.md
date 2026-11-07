@@ -1,6 +1,19 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -9,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-31'
+  score: 32.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Stay22 provides an affiliate link API, interactive maps, and a reporting API for transaction data.
@@ -42,6 +56,20 @@ asyncapis:
   name: Stay22 Webhooks
   slug: stay22-webhooks
 common:
+- group: design
+  href: https://artifacts.apis.io/stay22/asyncapi/stay22-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/stay22-webhooks.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://stay22.com/bugbounty
+- group: auth
+  href: https://artifacts.apis.io/stay22/well-known/stay22-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/stay22-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/stay22/well-known/stay22-www-security.txt
   title: ''
@@ -83,10 +111,6 @@ common:
   type: Sandbox
   url: sandbox/stay22-sandbox.yml
 - group: auth
-  title: ''
-  type: Security
-  url: https://stay22.com/bugbounty
-- group: auth
   href: https://artifacts.apis.io/stay22/authentication/stay22-authentication.yml
   title: ''
   type: Authentication
@@ -111,11 +135,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/stay22-stay22-security.txt
-- group: auth
-  href: https://artifacts.apis.io/stay22/well-known/stay22-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/stay22-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/stay22/well-known/stay22-security.txt
   title: ''
@@ -234,13 +253,13 @@ modified: '2026-10-28'
 name: Stay22
 nav: Providers
 network: true
-overview: 'Stay22 is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include TravelTech, AffiliateMarketing, SaaS, Events, and Maps.
+overview: 'Stay22 is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include TravelTech, Affiliate Marketing, Software-as-a-Service, Event, and Maps.
 
 
   The Stay22 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stay22''s developer surface includes sandbox, authentication, signup flow, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  Stay22''s developer surface includes sandbox, authentication, signup flow, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 plans:
 - name: Stay22 Plans Pricing
   plan_count: 0
@@ -252,13 +271,13 @@ rate_limits:
   slug: stay22-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: Stay22 API Rules
-  rule_count: 13
+  rule_count: 41
   severity_counts:
-    error: 11
+    error: 39
     hint: 0
     info: 1
     warn: 1
@@ -270,41 +289,45 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
+  composite: 40.2
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 33
     catalog_earned: 71.8
     catalog_earned_first_party: 12.0
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
     contract_quality: 31.9
-    developer_ergonomics: 64.3
-    discoverability: 67.9
-    operational_transparency: 63.2
+    developer_ergonomics: 41.7
+    discoverability: 74.1
+    operational_transparency: 55.3
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/stay22/stay22-2026-11-03T143758.png
 security:
 - kind: authentication
   name: Stay22 Authentication
@@ -321,9 +344,9 @@ security:
 slug: stay22
 tags:
 - TravelTech
-- AffiliateMarketing
-- SaaS
-- Events
+- Affiliate Marketing
+- Software-as-a-Service
+- Event
 - Maps
 website: https://stay22.com/
 ---

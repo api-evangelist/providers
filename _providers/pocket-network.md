@@ -1,16 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -457,6 +461,10 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/pocket-network-vocabulary.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.pocket.network/
 created: '2026-05-25'
 description: Pocket Network is the decentralized RPC layer of Web3 — a permissionless, fully open data delivery protocol built on Cosmos SDK and CometBFT (the Shannon upgrade, June 2025). 5,000+ independent supplier nodes serve relays across 60-69+ blockchains, metered in compute units at $1/billion and settled on-chain in POKT under deflationary tokenomics (PIP-41, 97.5% mint ratio). Grove (grove.city) is the for-profit infrastructure company that operates the largest gateway on the network — rpc.grove.city — and maintains PATH, the open-source Go gateway any operator can run to expose Pocket Network as a single HTTP endpoint. Grove offers free no-API-key per-IP public endpoints per chain (eth.rpc.grove.city, solana.rpc.grove.city, etc.) plus paid portal applications with relay analytics and SLAs. Together they form the canonical decentralized alternative to Alchemy / Infura / QuickNode for serving JSON-RPC, REST, and WebSocket traffic to any public blockchain.
 examples:
@@ -521,7 +529,7 @@ overview: 'Pocket Network publishes 16 API contracts indexed on the [APIs.io](ht
   The Pocket Network catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 48 more developer resources.'
+  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 49 more developer resources.'
 plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
@@ -558,9 +566,9 @@ rules:
   slug: pocket-network-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 49.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -574,7 +582,10 @@ score:
     developer_ergonomics: 67.9
     discoverability: 62.5
     operational_transparency: 44.7
-  previous_composite: 52.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -588,13 +599,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pocket-network/pocket-network-2026-06-20T191825.png
 security:
 - kind: authentication
@@ -617,5 +627,9 @@ tags:
 - Shannon
 - Cosmos
 - POKT
+- Decentralized
+- Ethereum
+- EVM
+- Infrastructure
 website: https://pocket.network
 ---

@@ -1,8 +1,9 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  gated_conflict: 'x-api-posture: private but 3 published API entries'
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol server served from the Feastables origin. Answers initialize and tools/list with no credential (probed 2026-08-01, HTTP 200) and returns five tools with full JSON Sche
@@ -177,7 +179,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -191,9 +193,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 61.7
-    operational_transparency: 5.3
-  previous_composite: 22.8
+    discoverability: 71.7
+    operational_transparency: 2.6
+  previous_composite: 23.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -204,8 +206,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

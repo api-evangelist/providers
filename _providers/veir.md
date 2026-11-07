@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The single HTTP endpoint VEIR declares in its own RFC 9727 API catalog. It returns veir.com page content as text/markdown for agent consumption. Probed 2026-08-05: it returns HTTP 200 with content-typ'
@@ -154,7 +155,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 20.3
+  composite: 21.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -168,14 +169,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 20.3
+  previous_composite: 21.0
   provenance:
     conformance: derived
   regulatory:
@@ -184,8 +185,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

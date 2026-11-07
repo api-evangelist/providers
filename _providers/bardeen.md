@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Bardeen is an AI-powered automation platform for automating repetitive tasks across web applications.
@@ -189,9 +193,9 @@ rate_limits:
   slug: bardeen-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 34.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -203,9 +207,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 34.0
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 34.4
   provenance:
     conformance: first-party
   regulatory:
@@ -214,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

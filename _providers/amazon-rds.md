@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-31'
+  score: 31.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -783,7 +787,7 @@ modified: '2026-09-16'
 name: Amazon RDS
 nav: Providers
 network: true
-overview: 'Amazon RDS publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 24 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Database, and Relational Databases.
+overview: 'Amazon RDS publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 24 more. Tagged areas include Amazon Web Services, Cloud Databases, Database Service, Database-as-a-Service, and Managed Database.
 
 
   The Amazon RDS catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -825,28 +829,28 @@ rules:
   slug: amazon-rds-spectral-rules
 score:
   band: exemplar
-  composite: 68.4
+  composite: 67.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 80.4
     catalog_earned_first_party: 12.0
     catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: 1.3
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 27.3
-    contract_quality: 68.9
+    contract_quality: 74.0
     developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 66.7
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     contracts:
@@ -860,13 +864,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-rds/amazon-rds-2026-06-20T171805.png
 security:
 - kind: authentication
@@ -887,6 +890,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-rds
 tags:
+- Amazon Web Services
 - Cloud Databases
 - Database Service
 - Database-as-a-Service

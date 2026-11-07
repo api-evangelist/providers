@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -152,7 +163,7 @@ modified: '2026-10-26'
 name: FOMO
 nav: Providers
 network: true
-overview: 'FOMO publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Applications API. Tagged areas include Company, SocialProof, Marketing, SaaS, and ECommerce.
+overview: 'FOMO publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Applications API. Tagged areas include Company, Social Proof, Marketing, Software-as-a-Service, and E-Commerce.
 
 
   The FOMO catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -175,21 +186,23 @@ rules:
   slug: usefomo-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 33.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 31.5
     catalog_earned_first_party: 0.0
     catalog_gap: 83.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 18.2
-    contract_quality: 49.0
-    developer_ergonomics: 42.9
-    discoverability: 48.2
-    operational_transparency: 31.6
+    contract_quality: 54.4
+    developer_ergonomics: 25.0
+    discoverability: 55.4
+    operational_transparency: 15.8
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,13 +217,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/usefomo/usefomo-2026-11-03T145524.png
 security:
 - kind: domain-security
   name: Usefomo Domain Security
@@ -219,9 +233,9 @@ security:
 slug: usefomo
 tags:
 - Company
-- SocialProof
+- Social Proof
 - Marketing
-- SaaS
-- ECommerce
+- Software-as-a-Service
+- E-Commerce
 website: https://usefomo.com/
 ---

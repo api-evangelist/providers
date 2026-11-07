@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Runtime Authorization (PDP permit/deny, policy resolution, user access token, cache invalidation), Management (policy/asset/application/mapper/identity CRUD, orchestration, SaaS vendors), and Administ
@@ -138,9 +140,9 @@ overview: 'PlainID is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 17
 score:
   band: thin
-  composite: 27.9
+  composite: 28.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -152,9 +154,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 27.9
+  previous_composite: 28.6
   provenance:
     conformance: first-party
   regulatory:
@@ -163,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

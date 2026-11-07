@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: JSON/REST API for hotels and PMS/channel-manager systems to push availability, rates and inventory (ARI), manage property, room, rate-plan and channel configuration, and exchange reservations across 5
@@ -159,9 +163,9 @@ rate_limits:
   slug: derbysoft-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 34.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -173,9 +177,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 36.8
-  previous_composite: 34.0
+  previous_composite: 34.7
   provenance:
     conformance: first-party
   regulatory:
@@ -188,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

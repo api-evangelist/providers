@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
@@ -179,9 +180,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,9 +194,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 66.7
-    operational_transparency: 5.3
-  previous_composite: 23.8
+    discoverability: 75.8
+    operational_transparency: 2.6
+  previous_composite: 24.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -206,8 +207,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

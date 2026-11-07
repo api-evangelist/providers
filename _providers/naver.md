@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -217,9 +219,9 @@ rate_limits:
   slug: naver-rate-limits
 score:
   band: emerging
-  composite: 11.7
+  composite: 11.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -231,7 +233,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 73.2
+    discoverability: 72.3
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -240,15 +242,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 11.7
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -268,9 +270,10 @@ tags:
 - Cloud Platform
 - Artificial Intelligence
 - South Korea
-- Authentication
+- OAuth
 - SMS
 - OCR
 - Webtoon
+- Authentication
 website: https://www.navercorp.com/
 ---

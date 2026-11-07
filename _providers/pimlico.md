@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise
-  onboarding: unknown
-  pricing: enterprise
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -12,7 +15,7 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Unified ERC-4337 JSON-RPC endpoint exposing both the Pimlico bundler (eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationReceipt, pimlico_getUserOperationGasPrice, pimlico_getUse
@@ -266,9 +270,9 @@ rate_limits:
   slug: pimlico-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 43.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -276,13 +280,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 81.6
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 49.0
+    developer_ergonomics: 61.3
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -293,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

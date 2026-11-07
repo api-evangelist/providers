@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: true
@@ -27,18 +31,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-31'
+  score: 48.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -995,7 +1000,7 @@ json_schemas:
   property_count: 33
   slug: sendcloud-return
 - name: Service Point Search Result
-  property_count: 0
+  property_count: 1
   slug: sendcloud-servicepoint
 - name: Service Point Address
   property_count: 5
@@ -1073,23 +1078,23 @@ scopes:
   slug: sendcloud-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 62.7
+  band: exemplar
+  composite: 68.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 96.0
     catalog_earned_first_party: 24.0
     catalog_gap: 19.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.6
   facets:
     access_clarity: 57.9
     contract_governance: 27.3
-    contract_quality: 70.2
+    contract_quality: 74.1
     developer_ergonomics: 69.0
-    discoverability: 78.6
-    operational_transparency: 52.6
+    discoverability: 80.0
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1098,13 +1103,13 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 61.1
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 96.2
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 38.5
       total: 26
     mcp: first-party
   regulatory:
@@ -1113,13 +1118,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/sendcloud/sendcloud-2026-06-20T193651.png
 security:
 - kind: authentication

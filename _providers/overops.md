@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -126,7 +127,7 @@ apis:
   description: Fetch and manipulate grouping of events (i.e. Views) according to attribute sets (e.g. "uncaught exceptions", "errors from package com.acme")
   name: Overops Views API
   slug: overops-views-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: open
   name: Services Alerts API
@@ -309,27 +310,43 @@ network: true
 overview: 'Overops publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Code Redaction API, and 13 more. Tagged areas include Company, Observability, Reliability, Error Monitoring, and Application Performance.
 
 
+  The Overops catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 21 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Overops API Rules
+  rule_count: 58
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 12
+  slug: overops-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 33.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 2.6
   facets:
-    access_clarity: 13.2
-    contract_governance: 4.5
+    access_clarity: 6.6
+    contract_governance: 18.2
     contract_quality: 46.1
-    developer_ergonomics: 51.8
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 35.3
+    developer_ergonomics: 47.0
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,13 +363,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/overops/overops-2026-08-07T191135.png
 security:
 - kind: authentication

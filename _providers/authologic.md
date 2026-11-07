@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-31'
+  score: 48.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -95,7 +100,7 @@ apis:
   description: '5. Advanced: Metadata'
   name: Authologic Metadata API
   slug: authologic-metadata-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Authologic Callbacks Webhooks
@@ -319,7 +324,7 @@ network: true
 overview: 'Authologic publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advanced API, Affordability assessment API, AML API, and 8 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
 
 
-  The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Authologic''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 32 more developer resources.'
@@ -332,37 +337,50 @@ rate_limits:
 - limit_count: 0
   name: Authologic Rate Limits
   slug: authologic-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: Authologic API Rules
+  rule_count: 68
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 7
+  slug: authologic-rules
 scopes:
 - name: Authologic Scopes
   scope_count: 0
   slug: authologic-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 37.0
+    artifact_dirs: 32
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 63.1
+    access_clarity: 36.8
+    contract_governance: 31.8
+    contract_quality: 68.9
     developer_ergonomics: 73.2
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 54.1
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: derived
     skills: derived
@@ -372,13 +390,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 37.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/authologic/authologic-2026-06-20T172610.png
 security:
 - kind: authentication

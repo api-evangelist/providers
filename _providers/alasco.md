@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.6
-  scored_at: '2026-10-31'
+  score: 51.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -247,7 +249,7 @@ apis:
   description: A **Utility Meter** measures consumption (electricity, gas, water, heating or cooling) for a **Building**. Meters are created and updated through the API, identified by your `external_id`, and own the
   name: Alasco Utility Meters API
   slug: alasco-utility-meters-api
-artifact_total: 92
+artifact_total: 93
 collections:
 - collection_type: open
   name: CAPEX Annual Consumption API
@@ -548,29 +550,45 @@ network: true
 overview: 'Alasco publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real Estate, Construction, and PropTech.
 
 
+  The Alasco catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Alasco Plans Pricing
   plan_count: 3
   slug: alasco-plans-pricing
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Alasco API Rules
+  rule_count: 55
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 3
+    warn: 11
+  slug: alasco-rules
 score:
   band: strong
-  composite: 55.9
+  composite: 63.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 46.9
+    contract_governance: 18.2
+    contract_quality: 47.4
     developer_ergonomics: 58.9
-    discoverability: 70.0
+    discoverability: 80.0
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -580,7 +598,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 49.6
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -597,13 +615,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/alasco/alasco-2026-07-25T195534.png
 security:
 - kind: authentication

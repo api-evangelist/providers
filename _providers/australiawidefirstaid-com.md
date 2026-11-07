@@ -1,6 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
@@ -9,23 +24,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-31'
+  score: 39.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Read‑only JSON API for AI agents to find first aid courses, venues, sessions and FAQs. No authentication required.
@@ -141,7 +157,7 @@ modified: '2026-10-30'
 name: australiawidefirstaid-com
 nav: Providers
 network: true
-overview: 'australiawidefirstaid-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Australia Wide First Aid Agent API. Tagged areas include Company, FirstAid, Training, Australia, and Health.
+overview: 'australiawidefirstaid-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Australia Wide First Aid Agent API. Tagged areas include Company, First Aid, Training, Australia, and Health.
 
 
   The australiawidefirstaid-com catalog on APIs.io includes 1 JSON-LD context.
@@ -159,22 +175,37 @@ scopes:
   slug: australiawidefirstaid-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.7
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 58.3
     catalog_earned_first_party: 12.0
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.9
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 8.3
     contract_quality: 54.4
-    developer_ergonomics: 42.9
-    discoverability: 65.0
+    developer_ergonomics: 21.4
+    discoverability: 75.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -189,13 +220,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/australiawidefirstaid-com/australiawidefirstaid-com-2026-11-03T121351.png
 security:
 - kind: authentication
   name: Australiawidefirstaid Com Authentication
@@ -222,7 +255,7 @@ skills:
 slug: australiawidefirstaid-com
 tags:
 - Company
-- FirstAid
+- First Aid
 - Training
 - Australia
 - Health

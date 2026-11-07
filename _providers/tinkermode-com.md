@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-31'
+  score: 22.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The MODE Platform API provides endpoints for managing users, devices, and data.
@@ -38,6 +51,11 @@ apis:
   slug: tinkermode-com-api
 artifact_total: 6
 common:
+- group: auth
+  href: https://artifacts.apis.io/tinkermode-com/well-known/tinkermode-com-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/tinkermode-com-status-security.txt
 - group: operate
   href: https://artifacts.apis.io/tinkermode-com/rate-limits/tinkermode-com-rate-limits.yml
   title: ''
@@ -63,11 +81,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/tinkermode-com-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/tinkermode-com/well-known/tinkermode-com-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/tinkermode-com-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/tinkermode-com/well-known/tinkermode-com-well-known.yml
   title: ''
@@ -124,7 +137,7 @@ modified: '2026-10-29'
 name: Mode
 nav: Providers
 network: true
-overview: 'Mode is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Data-Platform, Industrial, Construction, and Operations.
+overview: 'Mode is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Data Platform, Industrial, Construction, and Company.
 
 
   The Mode catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -138,41 +151,49 @@ rate_limits:
   slug: tinkermode-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 76
   extends:
   - spectral:oas
   name: Mode API Rules
-  rule_count: 10
+  rule_count: 35
   severity_counts:
-    error: 8
+    error: 33
     hint: 0
     info: 1
     warn: 1
   slug: tinkermode-com-rules
 score:
   band: emerging
-  composite: 24.8
+  composite: 24.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.8
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 8.9
-    developer_ergonomics: 35.7
+    contract_quality: 11.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 47.4
+    operational_transparency: 44.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 27.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 1
       marker_coverage: 100.0
-      total: 8
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -180,12 +201,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/tinkermode-com/tinkermode-com-2026-11-03T144804.png
 security:
 - kind: authentication
   name: Tinkermode Com Authentication
@@ -197,11 +219,10 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: tinkermode-com
 tags:
-- AI
-- Data-Platform
+- Artificial Intelligence
+- Data Platform
 - Industrial
 - Construction
-- Operations
 - Company
 website: https://tinkermode.com
 ---

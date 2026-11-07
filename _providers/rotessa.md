@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,7 +64,7 @@ apis:
   description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Rotessa API
@@ -235,6 +237,9 @@ network: true
 overview: 'Rotessa publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Customers API, Transaction Report API, and Transaction Schedules API. Tagged areas include Payments, Canada, Pre-Authorized Debit, ACH, and Account-to-Account.
 
 
+  The Rotessa catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Rotessa Plans Pricing
@@ -244,24 +249,37 @@ plans:
   plan_count: 0
   slug: rotessa-price-estimates
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Rotessa API Rules
+  rule_count: 66
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 2
+  slug: rotessa-rules
 score:
-  band: developing
-  composite: 49.1
+  band: thin
+  composite: 36.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 51.4
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 5.3
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 53.1
+    developer_ergonomics: 37.5
+    discoverability: 73.2
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -269,7 +287,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.1
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,14 +303,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 13.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rotessa/rotessa-2026-08-17T081633.png
 security:
 - kind: authentication

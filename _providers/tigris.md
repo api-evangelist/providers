@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: derived
@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-31'
+  score: 29.7
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 6
 common:
@@ -70,7 +71,7 @@ overview: Tigris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 10
 score:
   band: minimal
-  composite: 4.8
+  composite: 5.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 20.0
@@ -84,9 +85,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 1.8
-    discoverability: 36.7
+    discoverability: 46.7
     operational_transparency: 0.0
-  previous_composite: 4.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 5.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -97,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

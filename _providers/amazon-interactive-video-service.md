@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -1460,7 +1464,7 @@ modified: '2026-05-19'
 name: Amazon Interactive Video Service
 nav: Providers
 network: true
-overview: 'Amazon Interactive Video Service publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including BatchGetChannel API, BatchGetStreamKey API, BatchStartViewerSessionRevocation API, and 26 more. Tagged areas include Live Streaming, Media, Video, and Real-Time.
+overview: 'Amazon Interactive Video Service publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including BatchGetChannel API, BatchGetStreamKey API, BatchStartViewerSessionRevocation API, and 26 more. Tagged areas include Amazon Web Services, Live Streaming, Media, Video, and Real-Time.
 
 
   The Amazon Interactive Video Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1502,23 +1506,23 @@ rules:
   slug: amazon-interactive-video-service-spectral-rules
 score:
   band: strong
-  composite: 62.1
+  composite: 60.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 70.0
+    artifact_dirs: 22
+    catalog_earned: 75.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.9
   facets:
-    access_clarity: 92.1
+    access_clarity: 85.5
     contract_governance: 27.3
-    contract_quality: 59.5
+    contract_quality: 59.4
     developer_ergonomics: 58.3
-    discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 60.5
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1532,13 +1536,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-interactive-video-service/amazon-interactive-video-service-2026-06-20T171714.png
 security:
 - kind: authentication
@@ -1559,6 +1562,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-interactive-video-service
 tags:
+- Amazon Web Services
 - Live Streaming
 - Media
 - Video

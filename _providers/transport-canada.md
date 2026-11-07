@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Transport Canada's only first-party public REST API. Returns safety-related recall records for vehicles, tires and child restraints recorded by the Defect Investigations and Recalls Division. The serv
@@ -188,9 +192,9 @@ overview: 'Transport Canada is listed with 3 APIs on the [APIs.io](https://apis.
 random_paper: 18
 score:
   band: emerging
-  composite: 21.1
+  composite: 22.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -200,10 +204,10 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 5.3
     developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 5.3
+    discoverability: 72.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -211,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.1
+  previous_composite: 22.0
   provenance:
     conformance: derived
   regulatory:
@@ -220,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -81,7 +82,7 @@ apis:
   description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
   name: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: The Sensor Bridge sends JSON data via HTTP POST to configured target URLs whenever a switch is actuated, a switch or actor sends a wake-up message, or expected wake-up messages are not received (wake-
   name: steute nexy Sensor Bridge HTTP(S) Notifications
@@ -226,37 +227,50 @@ network: true
 overview: 'steute Technologies publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including GmbH & Co. KG Access Point API, GmbH & Co. KG Auth API, GmbH & Co. KG History API, and 4 more. Tagged areas include Company, Industrial, Manufacturing, Industrial IoT, and Wireless.
 
 
-  The steute Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The steute Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   steute Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: steute Technologies API Rules
+  rule_count: 54
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 5
+    warn: 5
+  slug: steute-technologies-gmbh-and-co-kg-rules
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 39.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 10.5
-    contract_governance: 4.5
-    contract_quality: 50.2
+    contract_governance: 18.2
+    contract_quality: 58.3
     developer_ergonomics: 49.4
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
@@ -266,13 +280,12 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/steute-technologies-gmbh-and-co-kg/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
 security:
 - kind: authentication

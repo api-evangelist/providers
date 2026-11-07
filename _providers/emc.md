@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   - '{''url'': ''https://www.delltechnologies.com/en-us/index.htm'', ''status'': 301, ''note'': ''declared website redirects to https://www.dell.com/en-us — a different registrable domain (delltechnologies.com -> dell.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The ECS Management REST API provides programmatic access to manage Dell EMC Elastic Cloud Storage (ECS) object storage platform. It supports namespace management, user management, storage pool configu
@@ -47,6 +55,16 @@ apis:
   slug: unisphere-api
 artifact_total: 28
 common:
+- group: other
+  href: https://artifacts.apis.io/emc/hosts/emc-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/emc-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/emc/vendors/emc-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/emc-vendors.yml
 - group: commercial
   title: ''
   type: License
@@ -100,11 +118,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/emc-well-known.yml
-- group: auth
-  href: https://artifacts.apis.io/emc/well-known/emc-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/emc-security.txt
 - group: auth
   href: https://artifacts.apis.io/emc/security/emc-vulnerability-disclosure.yml
   title: ''
@@ -165,11 +178,6 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/emc-sandbox.yml
-- group: agent
-  href: https://artifacts.apis.io/emc/llms/emc-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/emc-llms.txt
 - group: design
   href: https://artifacts.apis.io/emc/vocabulary/emc-vocabulary.yml
   title: ''
@@ -281,10 +289,10 @@ rate_limits:
   name: Emc Rate Limits
   slug: emc-rate-limits
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 30.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 26
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -292,13 +300,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 15.8
     contract_governance: 31.8
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 39.5
+    developer_ergonomics: 52.4
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -307,9 +315,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

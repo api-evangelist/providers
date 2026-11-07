@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: OData-based REST API for querying SAP BW data, executing BEx queries, and accessing InfoProviders. Supports analytical queries with filtering, aggregation, and hierarchical navigation.
@@ -252,9 +256,9 @@ rate_limits:
   slug: sap-bw-rate-limits
 score:
   band: thin
-  composite: 38.9
+  composite: 36.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -264,11 +268,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 64.3
+    contract_quality: 5.3
+    developer_ergonomics: 47.6
     discoverability: 62.5
-    operational_transparency: 55.3
-  previous_composite: 38.9
+    operational_transparency: 52.6
+  previous_composite: 36.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -278,8 +282,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

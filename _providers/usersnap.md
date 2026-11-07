@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -27,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-31'
+  score: 51.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,7 +70,7 @@ apis:
   description: Submit feedback
   name: Usersnap Submit API
   slug: usersnap-submit-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Usersnap Webhooks
@@ -317,7 +319,7 @@ network: true
 overview: 'Usersnap publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Feedback API, Pre Submit API, Project API, and 1 more. Tagged areas include Company, Feedback, Bug Tracking, Customer Experience, and Product Management.
 
 
-  The Usersnap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Usersnap catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Usersnap''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 36 more developer resources.'
@@ -329,6 +331,19 @@ plans:
   plan_count: 0
   slug: usersnap-price-estimates
 random_paper: 17
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Usersnap API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: usersnap-rules
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
@@ -336,28 +351,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.5
+  composite: 67.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 52.0
+    artifact_dirs: 32
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 2.8
   facets:
     access_clarity: 100.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 57.1
     developer_ergonomics: 67.3
-    discoverability: 65.0
-    operational_transparency: 55.3
+    discoverability: 75.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - austria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 58.6
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -374,13 +389,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/usersnap/usersnap-2026-08-17T082655.png
 security:
 - kind: authentication

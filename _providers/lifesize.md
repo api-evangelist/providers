@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The automation and control interface built into Lifesize Icon video systems (models 300, 400, 450, 500, 600, 700, 800). It exposes a REST method for accessing a set of resources through a fixed set of
@@ -160,7 +161,7 @@ overview: 'Lifesize is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 19
 score:
   band: thin
-  composite: 33.5
+  composite: 32.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -170,13 +171,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 31.6
-  previous_composite: 33.5
+  previous_composite: 32.9
   provenance:
     conformance: first-party
   regulatory:
@@ -185,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

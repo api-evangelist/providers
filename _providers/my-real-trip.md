@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.3
-  scored_at: '2026-10-31'
+  score: 20.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Marketing-partner REST API for MyRealTrip. Search flights (domestic and international, lowest-fare calendars), accommodations, and tours/tickets; generate trackable MyLink short URLs; and retrieve rev
@@ -164,9 +165,9 @@ rate_limits:
   slug: my-real-trip-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 27.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -174,12 +175,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 65.0
-    operational_transparency: 36.8
+    developer_ergonomics: 45.8
+    discoverability: 75.0
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,7 +188,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 31.4
+  previous_composite: 27.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -198,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

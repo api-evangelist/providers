@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The OpenBao HTTP API gives full access to every OpenBao capability over REST-like HTTP verbs. All routes are prefixed with /v1/ and the API is versioned only at that prefix. Authentication is by clien
@@ -218,9 +219,9 @@ rate_limits:
   slug: openbao-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 51.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -232,9 +233,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 85.7
-    discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 51.3
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,8 +246,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

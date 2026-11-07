@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 6
 common:
@@ -142,7 +155,7 @@ modified: '2026-10-30'
 name: happenings-social
 nav: Providers
 network: true
-overview: 'happenings-social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Events, Platform, and Community.
+overview: 'happenings-social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Event, Platform, and Community.
 
 
   happenings-social''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -161,22 +174,30 @@ scopes:
   slug: happenings-social-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.3
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 22
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 48.2
-    operational_transparency: 31.6
+    developer_ergonomics: 22.6
+    discoverability: 55.4
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.0
   provenance:
     conformance: unknown
     mcp: derived
@@ -185,13 +206,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/happenings-social/happenings-social-2026-11-03T133152.png
 security:
 - kind: authentication
   name: Happenings Social Authentication
@@ -209,7 +232,7 @@ slug: happenings-social
 tags:
 - Company
 - Social
-- Events
+- Event
 - Platform
 - Community
 website: https://happenings.social/

@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.3
-  scored_at: '2026-10-31'
+  score: 60.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -161,7 +162,7 @@ apis:
   description: Create and manage watchlists.
   name: Clear Street Watchlist API
   slug: clear-street-watchlist-api
-artifact_total: 57
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Clear Street Studio Events
@@ -426,11 +427,24 @@ network: true
 overview: 'Clear Street publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 20 more. Tagged areas include Company, Financial Services, Capital Markets, Prime Brokerage, and Trading.
 
 
-  The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 32 more developer resources.'
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Clear Street API Rules
+  rule_count: 63
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 4
+    warn: 13
+  slug: clear-street-rules
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -438,35 +452,35 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.5
+  composite: 62.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 58.9
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 60.4
     developer_ergonomics: 85.7
-    discoverability: 70.0
-    operational_transparency: 47.4
+    discoverability: 80.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 60.5
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 4.8
       total: 21
     mcp: first-party
     skills: first-party
@@ -476,13 +490,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 42.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/clear-street/clear-street-2026-08-07T163444.png
 security:
 - kind: authentication

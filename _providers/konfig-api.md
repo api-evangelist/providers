@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: private
+  gated_source:
+  - apis
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Capability area (endpointsModeled - no documented public REST endpoint). Generates idiomatic client-library SDKs from an OpenAPI Specification or Postman Collection in TypeScript/JavaScript, Python, J
@@ -130,9 +134,9 @@ rate_limits:
   slug: konfig-api-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 12.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -143,18 +147,18 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 31.0
+    developer_ergonomics: 20.2
     discoverability: 62.5
-    operational_transparency: 13.2
-  previous_composite: 14.6
+    operational_transparency: 10.5
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

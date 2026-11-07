@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -140,7 +145,7 @@ apis:
   description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
   name: Sikoia Webhooks API
   slug: sikoia-webhooks-api
-artifact_total: 49
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Sikoia Webhooks
@@ -385,7 +390,7 @@ network: true
 overview: 'Sikoia publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adverse Media API, Affordability Insights API, Authentication API, and 16 more. Tagged areas include Company, Financial Services, Identity Verification, KYC, and KYB.
 
 
-  The Sikoia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Sikoia catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Sikoia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
@@ -398,30 +403,43 @@ rate_limits:
 - limit_count: 1
   name: Sikoia Rate Limits
   slug: sikoia-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Sikoia API Rules
+  rule_count: 59
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 14
+  slug: sikoia-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 60.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 53.0
+    artifact_dirs: 29
+    catalog_earned: 57.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 1.2
   facets:
     access_clarity: 73.7
-    contract_governance: 18.2
-    contract_quality: 58.9
-    developer_ergonomics: 66.1
-    discoverability: 66.1
+    contract_governance: 31.8
+    contract_quality: 60.0
+    developer_ergonomics: 53.0
+    discoverability: 73.2
     operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,13 +456,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sikoia/sikoia-2026-08-17T081855.png
 security:
 - kind: authentication

@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -78,7 +79,7 @@ apis:
   description: The Chat Completions API from Infer by Flow7 — 1 operation(s) for chat completions.
   name: Infer by Flow7 Chat Completions API
   slug: infer-by-flow7-chat-completions-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Infer by Flow7 Public API
@@ -229,6 +230,9 @@ network: true
 overview: 'Infer by Flow7 publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Inference API, Status API, and 4 more. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
+  The Infer by Flow7 catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
 plans:
 - name: Infer By Flow7 Plans Pricing
@@ -239,36 +243,49 @@ rate_limits:
 - limit_count: 0
   name: Infer By Flow7 Rate Limits
   slug: infer-by-flow7-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: Infer by Flow7 API Rules
+  rule_count: 72
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 5
+    warn: 4
+  slug: infer-by-flow7-rules
 scopes:
 - name: Infer By Flow7 Scopes
   scope_count: 1
   slug: infer-by-flow7-scopes
   summary_line: 1 scope · bearer token (not OAuth)
 score:
-  band: strong
-  composite: 63.8
+  band: exemplar
+  composite: 68.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 46.0
+    artifact_dirs: 28
+    catalog_earned: 50.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 69.0
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 52.5
+    contract_governance: 31.8
+    contract_quality: 56.4
     developer_ergonomics: 69.0
     discoverability: 78.6
     operational_transparency: 42.1
-  previous_composite: 63.7
+  previous_composite: 67.5
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 8.3
+      marker_coverage: 66.7
       total: 12
     mcp: derived
     skills: first-party
@@ -278,13 +295,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/infer-by-flow7/infer-by-flow7-2026-08-17T080956.png
 security:
 - kind: authentication

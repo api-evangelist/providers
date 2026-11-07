@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -283,10 +287,10 @@ rules:
     warn: 4
   slug: smartcar-rules
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -297,10 +301,10 @@ score:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 56.1
-    developer_ergonomics: 45.2
+    developer_ergonomics: 42.9
     discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 40.0
+    operational_transparency: 10.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -314,13 +318,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/smartcar/smartcar-2026-06-20T194039.png
 security:
 - kind: authentication

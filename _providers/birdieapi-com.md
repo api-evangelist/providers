@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-31'
+  score: 24.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,34 +216,48 @@ rules:
     warn: 1
   slug: birdieapi-com-rules
 score:
-  band: strong
-  composite: 57.9
+  band: developing
+  composite: 41.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 68.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    artifact_dirs: 18
+    catalog_earned: 54.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 48.4
-    developer_ergonomics: 56.4
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 51.4
+    developer_ergonomics: 32.7
     discoverability: 66.1
-    operational_transparency: 15.8
+    operational_transparency: 7.9
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/birdieapi-com/birdieapi-com-2026-11-03T121743.png
 security:
 - kind: authentication
   name: Birdieapi Com Authentication

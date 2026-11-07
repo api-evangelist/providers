@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-31'
+  score: 15.1
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,11 +102,11 @@ modified: '2026-10-23'
 name: Evy
 nav: Providers
 network: true
-overview: Evy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Product Protection, FinTech, SaaS, Security, and Insurance.
+overview: Evy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Product Protection, Fintech, Software-as-a-Service, Security, and Insurance.
 random_paper: 4
 score:
-  band: emerging
-  composite: 12.1
+  band: minimal
+  composite: 8.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 20.0
@@ -103,13 +114,21 @@ score:
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 35.7
-    operational_transparency: 26.3
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 12.1
   provenance:
     mcp: unknown
   regulatory:
@@ -117,9 +136,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 22.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -136,8 +156,8 @@ security:
 slug: evy
 tags:
 - Product Protection
-- FinTech
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Security
 - Insurance
 website: https://evy.eu

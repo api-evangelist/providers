@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 157
   human_in_the_loop: 0
@@ -596,9 +597,9 @@ rules:
   slug: siemens-plm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 44.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 63.3
     catalog_earned_first_party: 12.0
     catalog_gap: 51.8
@@ -608,11 +609,11 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 9.8
-    contract_quality: 48.4
+    contract_quality: 49.8
     developer_ergonomics: 50.0
     discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 45.1
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -626,13 +627,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/siemens-plm/siemens-plm-2026-08-17T125316.png
 security:
 - kind: authentication

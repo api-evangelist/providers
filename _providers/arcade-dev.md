@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -500,9 +504,9 @@ rules:
   slug: arcade-dev-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 58.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 79.0
     catalog_earned_first_party: 12.0
     catalog_gap: 36.0
@@ -512,11 +516,11 @@ score:
   facets:
     access_clarity: 63.2
     contract_governance: 27.3
-    contract_quality: 68.4
+    contract_quality: 71.8
     developer_ergonomics: 67.9
     discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 55.6
+    operational_transparency: 5.3
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -530,13 +534,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/arcade-dev/arcade-dev-2026-06-20T172356.png
 security:
 - kind: authentication

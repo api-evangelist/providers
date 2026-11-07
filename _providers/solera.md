@@ -1,6 +1,10 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_conflict: 'x-api-posture: private but 11 published API entries'
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -102,7 +107,7 @@ apis:
   description: The Version API from Solera — 2 operation(s) for version.
   name: Solera Version API
   slug: solera-version-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: 'Audatex Integrations (EAPI) pushes claim lifecycle events to a CLIENT-hosted HTTPS endpoint. The client registers its callback endpoints and the credentials Audatex should use, per assignment, in the '
   name: Solera / Audatex EAPI Event Callbacks
@@ -388,11 +393,24 @@ network: true
 overview: 'Solera publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assignment API, Estimate Return API, Get Claim Image Response API, and 8 more. Tagged areas include Insurance, United States, Property and Casualty, Claims, and Claims Technology.
 
 
-  The Solera catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Solera catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 44 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Solera API Rules
+  rule_count: 51
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 5
+    warn: 6
+  slug: solera-rules
 scopes:
 - name: Solera Scopes
   scope_count: 4
@@ -400,21 +418,21 @@ scopes:
   summary_line: 4 scopes · password
 score:
   band: developing
-  composite: 42.4
+  composite: 43.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 45.0
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 72.3
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -423,7 +441,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -440,13 +458,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/solera/solera-2026-08-17T081956.png
 security:
 - kind: authentication

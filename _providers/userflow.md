@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-31'
+  score: 25.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Userflow REST API allows back-end applications to synchronize user data, track events, and manage groups or companies within the Userflow platform. It provides endpoints for creating, updating, an
@@ -138,9 +140,9 @@ rate_limits:
   slug: userflow-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 23.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -152,9 +154,9 @@ score:
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 24.1
+    discoverability: 68.3
+    operational_transparency: 18.4
+  previous_composite: 23.3
   provenance:
     mcp: first-party
   regulatory:
@@ -163,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

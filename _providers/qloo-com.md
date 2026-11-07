@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-31'
+  score: 28.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -210,22 +222,24 @@ rules:
     warn: 3
   slug: qloo-com-rules
 score:
-  band: developing
-  composite: 40.9
+  band: thin
+  composite: 33.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 35.8
     catalog_earned_first_party: 0.0
     catalog_gap: 79.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.4
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 51.0
-    developer_ergonomics: 59.5
-    discoverability: 55.4
-    operational_transparency: 21.1
+    contract_quality: 56.7
+    developer_ergonomics: 35.7
+    discoverability: 54.5
+    operational_transparency: 10.5
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,13 +254,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/qloo-com/qloo-com-2026-11-03T141750.png
 security:
 - kind: authentication
   name: Qloo Com Authentication

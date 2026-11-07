@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: three_quarters
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -39,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-31'
+  score: 49.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -454,9 +455,9 @@ scopes:
   summary_line: 10 scopes · client_credentials
 score:
   band: developing
-  composite: 48.1
+  composite: 48.9
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
@@ -466,11 +467,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 61.3
+    contract_quality: 64.7
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 48.1
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -487,13 +488,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/green-check-verified/green-check-verified-2026-09-02T145630.png
 security:
 - kind: authentication

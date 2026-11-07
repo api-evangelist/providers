@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Industry-standard finite element analysis suite covering Abaqus/Standard, Abaqus/Explicit, Abaqus/CAE, Abaqus Multiphysics, CAD Associative Interface, Composites Modeler, and Czone. Automation and int
@@ -150,8 +152,8 @@ rate_limits:
   name: Simulia Rate Limits
   slug: simulia-rate-limits
 score:
-  band: emerging
-  composite: 13.2
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.0
@@ -164,18 +166,18 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 4.8
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 13.2
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

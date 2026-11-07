@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -242,9 +246,9 @@ rules:
   slug: consul-connect-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 33.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 57.4
     catalog_earned_first_party: 0.0
     catalog_gap: 57.6
@@ -257,8 +261,8 @@ score:
     contract_quality: 46.3
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 32.3
+    operational_transparency: 26.3
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +276,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/consul-connect/consul-connect-2026-06-20T174917.png
 security:
 - kind: authentication

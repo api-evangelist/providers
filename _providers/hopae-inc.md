@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-31'
+  score: 35.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -93,7 +94,7 @@ apis:
   description: Workspace information
   name: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: Outgoing webhook deliveries from Hopae Connect for the identity verification lifecycle. Every delivery is signed with an HMAC-SHA256 signature in the X-Hopae-Signature header (format `t=<unix-ts>,v1=<
   name: Hopae hConnect Webhooks
@@ -300,11 +301,24 @@ network: true
 overview: 'Hopae publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Hopae, Inc. Console - API Keys API, Hopae, Inc. Providers API, Hopae, Inc. Token API, and 6 more. Tagged areas include Company, Identity, Identity Verification, Digital Identity, and eID.
 
 
-  The Hopae catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Hopae catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Hopae''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Hopae API Rules
+  rule_count: 65
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 2
+    warn: 12
+  slug: hopae-inc-rules
 scopes:
 - name: Hopae Inc Scopes
   scope_count: 7
@@ -312,30 +326,30 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 52.7
+  composite: 51.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 39.5
-    contract_governance: 18.2
-    contract_quality: 58.2
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 52.7
+    access_clarity: 26.3
+    contract_governance: 31.8
+    contract_quality: 65.5
+    developer_ergonomics: 63.7
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 9
     mcp: derived
     skills: derived
@@ -349,13 +363,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hopae-inc/hopae-inc-2026-07-25T221528.png
 security:
 - kind: authentication

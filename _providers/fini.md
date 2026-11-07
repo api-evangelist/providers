@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: The Tags API from Fini — 5 operation(s) for tags.
   name: Fini Tags API
   slug: fini-tags-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Fini AI Agents API
@@ -271,31 +273,47 @@ network: true
 overview: 'Fini publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Articles API, Conversations API, and 6 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Service, and Customer Experience.
 
 
+  The Fini catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Fini Plans Pricing
   plan_count: 3
   slug: fini-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: Fini API Rules
+  rule_count: 68
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 1
+    warn: 2
+  slug: fini-rules
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 56.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.8
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 51.4
-    developer_ergonomics: 42.3
-    discoverability: 66.1
+    contract_governance: 31.8
+    contract_quality: 54.0
+    developer_ergonomics: 35.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 52.1
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,13 +330,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/fini/fini-2026-07-25T214529.png
 security:
 - kind: authentication

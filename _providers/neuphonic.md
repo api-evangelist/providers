@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -237,9 +241,9 @@ rules:
   slug: neuphonic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 35.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 53.3
@@ -249,11 +253,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
-    contract_quality: 63.4
-    developer_ergonomics: 31.0
+    contract_quality: 66.8
+    developer_ergonomics: 27.4
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 36.5
+    operational_transparency: 26.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -267,13 +271,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/neuphonic/neuphonic-2026-06-20T190223.png
 security:
 - kind: authentication

@@ -1,6 +1,23 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -9,23 +26,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-31'
+  score: 32.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +63,7 @@ apis:
   description: Operations about namespaces (Development or Preview)
   name: Okteto Namespaces API
   slug: okteto-namespaces-api
-artifact_total: 14
+artifact_total: 18
 common:
 - group: agent
   href: https://artifacts.apis.io/okteto/agentic-access/okteto-agentic-access.yml
@@ -261,7 +279,7 @@ modified: '2026-10-18'
 name: Okteto
 nav: Providers
 network: true
-overview: 'Okteto publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Applications API and Namespaces API. Tagged areas include Company, Kubernetes, Development Environments, Cloud Native, and Developer Tools.
+overview: 'Okteto publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Applications API and Namespaces API. Tagged areas include Company, Kubernetes, Developer Environments, Cloud-Native, and Developer Tools.
 
 
   The Okteto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -297,21 +315,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.0
+  composite: 54.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 71.8
     catalog_earned_first_party: 12.0
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 35.6
     contract_quality: 58.7
-    developer_ergonomics: 76.2
-    discoverability: 66.1
-    operational_transparency: 39.5
+    developer_ergonomics: 58.3
+    discoverability: 73.2
+    operational_transparency: 19.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,13 +353,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/okteto/okteto-2026-11-03T140509.png
 security:
 - kind: authentication
   name: Okteto Authentication
@@ -347,16 +375,24 @@ security:
   name: Okteto Vulnerability Disclosure
   slug: okteto-vulnerability-disclosure
   summary_line: security.txt · contact published
-skill_count: 1
+skill_count: 5
 skills:
-- name: okteto-inventory-namespaces-and-applications
-  slug: okteto-inventory-namespaces-and-applications
+- name: okteto-debugging
+  slug: okteto-debugging
+- name: okteto-manifest-optimizer
+  slug: okteto-manifest-optimizer
+- name: okteto-onboarding
+  slug: okteto-onboarding
+- name: okteto-preview
+  slug: okteto-preview
+- name: okteto
+  slug: okteto
 slug: okteto
 tags:
 - Company
 - Kubernetes
-- Development Environments
-- Cloud Native
+- Developer Environments
+- Cloud-Native
 - Developer Tools
 - Preview Environments
 - AI Agents

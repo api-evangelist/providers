@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.qentaz.com
@@ -175,9 +176,9 @@ overview: 'Qentaz is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 11
 score:
   band: developing
-  composite: 41.7
+  composite: 41.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -189,8 +190,8 @@ score:
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 28.9
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -198,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 41.7
+  previous_composite: 41.1
   provenance:
     conformance: derived
   regulatory:
@@ -207,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

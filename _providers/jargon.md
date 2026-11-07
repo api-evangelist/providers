@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 10.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Jargon's collaborative modelling platform for designing, governing, and scaling domain models with generation of OpenAPI, JSON Schema, and JSON-LD artifacts. A public REST API is not currently publish
@@ -118,9 +120,9 @@ rate_limits:
   slug: jargon-rate-limits
 score:
   band: minimal
-  composite: 10.0
+  composite: 9.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -132,9 +134,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 10.0
+    discoverability: 60.0
+    operational_transparency: 10.5
+  previous_composite: 9.9
   provenance:
     mcp: first-party
   regulatory:
@@ -143,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

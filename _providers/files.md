@@ -1,20 +1,31 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -22,10 +33,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 21.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Files.com provides a REST API for file orchestration and automation.
@@ -33,6 +44,11 @@ apis:
   slug: files-com-api
 artifact_total: 3
 common:
+- group: auth
+  href: https://artifacts.apis.io/files/well-known/files-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/files-status-security.txt
 - group: auth
   title: ''
   type: Compliance
@@ -42,11 +58,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/files-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/files/well-known/files-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/files-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/files/well-known/files-well-known.yml
   title: ''
@@ -146,22 +157,30 @@ overview: 'Files.com is listed with 1 API on the [APIs.io](https://apis.io/) net
   Files.com''s developer surface includes support, changelog, getting-started guide, documentation, pricing, engineering blog, signup flow, and 14 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 31.3
+  band: emerging
+  composite: 19.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 58.9
-    operational_transparency: 47.4
+    developer_ergonomics: 14.3
+    discoverability: 65.2
+    operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 32.0
   provenance:
     mcp: unknown
   regulatory:
@@ -169,13 +188,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/files/files-2026-11-03T132003.png
 security:
 - kind: domain-security
   name: Files Domain Security

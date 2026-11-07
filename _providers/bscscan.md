@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,9 +247,9 @@ rules:
   slug: bscscan-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 37.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
@@ -258,7 +263,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 37.7
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +277,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Bscscan Authentication

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: paginated
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.4
-  scored_at: '2026-10-31'
+  score: 55.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.syftdata.com/api
@@ -54,7 +59,7 @@ apis:
   description: The ingest endpoint the Syft browser tracking tag, SDK and server-side callers post behavioural and custom events to. Documented only inside the developer guide — no reference page, no published paylo
   name: Syft Data Event Collection API
   slug: syft-data-events-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Syft Data Webhooks
@@ -258,7 +263,7 @@ network: true
 overview: 'Syft Data publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Export API, Lookup API, and Event Collection API. Tagged areas include Company, Lead Intelligence, Intent Data, Website Visitor Identification, and Sales Intelligence.
 
 
-  The Syft Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Syft Data catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -274,6 +279,19 @@ rate_limits:
 - limit_count: 0
   name: Syft Data Rate Limits
   slug: syft-data-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Syft Data API Rules
+  rule_count: 56
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 1
+  slug: syft-data-rules
 scopes:
 - name: Syft Data Scopes
   scope_count: 4
@@ -281,23 +299,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 65.6
+  composite: 65.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 61.0
+    artifact_dirs: 33
+    catalog_earned: 65.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 64.4
-    developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 23.7
-  previous_composite: 64.0
+    developer_ergonomics: 64.9
+    discoverability: 75.0
+    operational_transparency: 21.1
+  previous_composite: 65.3
   provenance:
     conformance: derived
     contracts:
@@ -319,13 +337,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/syft-data/syft-data-2026-08-17T082227.png
 security:
 - kind: authentication

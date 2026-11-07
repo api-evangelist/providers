@@ -7,6 +7,9 @@ access_model:
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -216,10 +220,10 @@ rate_limits:
   name: Mgid Rate Limits
   slug: mgid-rate-limits
 score:
-  band: developing
-  composite: 45.0
+  band: thin
+  composite: 37.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 72.0
     catalog_earned_first_party: 24.0
     catalog_gap: 43.0
@@ -227,13 +231,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 48.7
     contract_governance: 18.2
     contract_quality: 10.7
-    developer_ergonomics: 47.6
-    discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 45.0
+    developer_ergonomics: 40.5
+    discoverability: 78.6
+    operational_transparency: 50.0
+  previous_composite: 37.3
   provenance:
     conformance: first-party
   regulatory:
@@ -241,9 +245,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 16.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

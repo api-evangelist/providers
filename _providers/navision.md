@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,10 +11,13 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,17 +32,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.0
-  scored_at: '2026-10-31'
+  score: 38.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -52,192 +59,192 @@ apis:
 - description: RESTful web services layer for Business Central that provides the preferred integration method. Includes built-in APIs, custom API pages and queries, and supports both on-premises and cloud deployment
   name: Business Central REST API Web Services
   slug: business-central-rest-api-web-services
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage general ledger accounts
   name: Microsoft Dynamics NAV Accounts API
   slug: navision-accounts-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage installed applications
   name: Microsoft Dynamics NAV App Management API
   slug: navision-app-management-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Query available application versions and countries
   name: Microsoft Dynamics NAV Available Applications API
   slug: navision-available-applications-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage automation companies
   name: Microsoft Dynamics NAV Companies API
   slug: navision-companies-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage RapidStart configuration packages
   name: Microsoft Dynamics NAV Configuration Packages API
   slug: navision-configuration-packages-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage country and region codes
   name: Microsoft Dynamics NAV Countries/Regions API
   slug: navision-countries-regions-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage currencies and exchange rates
   name: Microsoft Dynamics NAV Currency API
   slug: navision-currency-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage customer payment journals
   name: Microsoft Dynamics NAV Customer Payments API
   slug: navision-customer-payments-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage customer records
   name: Microsoft Dynamics NAV Customers API
   slug: navision-customers-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage dimensions and dimension values
   name: Microsoft Dynamics NAV Dimensions API
   slug: navision-dimensions-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage employee records
   name: Microsoft Dynamics NAV Employees API
   slug: navision-employees-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: View and track environment operations
   name: Microsoft Dynamics NAV Environment Operations API
   slug: navision-environment-operations-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage environment settings and configuration
   name: Microsoft Dynamics NAV Environment Settings API
   slug: navision-environment-settings-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage Business Central environments
   name: Microsoft Dynamics NAV Environments API
   slug: navision-environments-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Monitor extension installation progress
   name: Microsoft Dynamics NAV Extension Deployment Status API
   slug: navision-extension-deployment-status-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Upload and install per-tenant extensions
   name: Microsoft Dynamics NAV Extension Upload API
   slug: navision-extension-upload-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage installed extensions
   name: Microsoft Dynamics NAV Extensions API
   slug: navision-extensions-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage feature flags
   name: Microsoft Dynamics NAV Features API
   slug: navision-features-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage item categories
   name: Microsoft Dynamics NAV Item Categories API
   slug: navision-item-categories-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage inventory items
   name: Microsoft Dynamics NAV Items API
   slug: navision-items-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage general journals and journal lines
   name: Microsoft Dynamics NAV Journals API
   slug: navision-journals-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage administrative notifications
   name: Microsoft Dynamics NAV Notifications API
   slug: navision-notifications-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage payment methods
   name: Microsoft Dynamics NAV Payment Methods API
   slug: navision-payment-methods-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage payment terms
   name: Microsoft Dynamics NAV Payment Terms API
   slug: navision-payment-terms-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage permission sets and user permissions
   name: Microsoft Dynamics NAV Permission Sets API
   slug: navision-permission-sets-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage user profiles
   name: Microsoft Dynamics NAV Profiles API
   slug: navision-profiles-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage purchase invoices and lines
   name: Microsoft Dynamics NAV Purchase Invoices API
   slug: navision-purchase-invoices-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage purchase orders and lines
   name: Microsoft Dynamics NAV Purchase Orders API
   slug: navision-purchase-orders-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage sales invoices and lines
   name: Microsoft Dynamics NAV Sales Invoices API
   slug: navision-sales-invoices-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage sales orders and lines
   name: Microsoft Dynamics NAV Sales Orders API
   slug: navision-sales-orders-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: View scheduled background jobs
   name: Microsoft Dynamics NAV Scheduled Jobs API
   slug: navision-scheduled-jobs-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage security groups
   name: Microsoft Dynamics NAV Security Groups API
   slug: navision-security-groups-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: View storage usage and quotas
   name: Microsoft Dynamics NAV Storage API
   slug: navision-storage-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage support settings
   name: Microsoft Dynamics NAV Support Settings API
   slug: navision-support-settings-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/admin/v2.28
   baseurl_source: declared
   description: Manage environment updates
   name: Microsoft Dynamics NAV Update Management API
   slug: navision-update-management-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/microsoft/automation/v2.0
   baseurl_source: declared
   description: Manage Business Central users
   name: Microsoft Dynamics NAV Users API
   slug: navision-users-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage vendor payment journals
   name: Microsoft Dynamics NAV Vendor Payments API
   slug: navision-vendor-payments-api
-- baseURL: https://{server}:{port}/{instance}/api/{version}
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
   description: Manage vendor records
   name: Microsoft Dynamics NAV Vendors API
@@ -267,7 +274,7 @@ arazzos:
 - description: Find an item by number and update it if it exists, otherwise create it.
   name: Business Central Upsert an Item
   slug: navision-upsert-item-workflow
-artifact_total: 502
+artifact_total: 558
 collections:
 - collection_type: postman
   name: Business Central Administration Center API
@@ -402,6 +409,121 @@ collections:
   name: Business Central Administration Center Accounts Vendors API
   slug: open-navision-vendors-api
 common:
+- group: operate
+  href: https://artifacts.apis.io/navision/changelog/navision-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/navision-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/navision/conventions/navision-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/navision-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1
+- group: design
+  href: https://artifacts.apis.io/navision/lifecycle/navision-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/navision-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/navision/errors/navision-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/navision-error-codes.yml
+- group: build
+  href: https://artifacts.apis.io/navision/packages/navision-packages.yml
+  title: ''
+  type: Packages
+  url: packages/navision-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/en-us
+- group: design
+  href: https://artifacts.apis.io/navision/rules/navision-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/navision-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/navision/rules/navision-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/navision-rules.yml
+- group: design
+  href: https://artifacts.apis.io/navision/rules/navision-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/navision-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/navision/json-ld/navision-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/navision-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/navision/vocabulary/navision-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/navision-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/navision/data-model/navision-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/navision-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/navision/errors/navision-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/navision-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/navision/conformance/navision-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/navision-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/navision/llms/navision-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/navision-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/navision/well-known/navision-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/navision-security.txt
+- group: agent
+  href: https://artifacts.apis.io/navision/well-known/navision-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/navision-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/navision/hosts/navision-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/navision-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/navision/vendors/navision-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/navision-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: auth
+  href: https://artifacts.apis.io/navision/security/navision-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/navision-trust-center.yml
 - group: commercial
   href: https://artifacts.apis.io/navision/finops/navision-finops.yml
   title: ''
@@ -503,10 +625,6 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/navision-upsert-item-workflow.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/showcase/microsoft-dynamics-navision
 - group: start
   title: ''
   type: Portal
@@ -531,10 +649,6 @@ common:
   title: ''
   type: ChangeLog
   url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/overview
-- group: operate
-  title: ''
-  type: Support
-  url: https://support.microsoft.com/dynamics
 - group: start
   title: ''
   type: Signup
@@ -568,17 +682,9 @@ common:
   type: RateLimits
   url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-rate-limits
 - group: build
-  title: Laravel SDK
-  type: SDKs
-  url: https://github.com/niclas-timm/laravel-dynamics-365-business-central
-- group: build
   title: Go REST Client
   type: SDKs
   url: https://github.com/AgoraIO/agora-rest-client-go
-- group: build
-  title: AL Language CLI
-  type: CLI
-  url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-command-line-tools
 - group: docs
   href: https://artifacts.apis.io/navision/json-schema/customer.json
   title: Customer Schema
@@ -1436,6 +1542,15 @@ json_schemas:
   slug: navision-account
 - name: AppInfo
   property_count: 7
+  slug: navision-app-info
+- name: AppInstallRequest
+  property_count: 4
+  slug: navision-app-install-request
+- name: AppUpdateRequest
+  property_count: 4
+  slug: navision-app-update-request
+- name: AppInfo
+  property_count: 7
   slug: navision-appinfo
 - name: AppInstallRequest
   property_count: 4
@@ -1443,6 +1558,15 @@ json_schemas:
 - name: AppUpdateRequest
   property_count: 4
   slug: navision-appupdaterequest
+- name: AutomationCompanyCreate
+  property_count: 3
+  slug: navision-automation-company-create
+- name: AutomationCompany
+  property_count: 5
+  slug: navision-automation-company
+- name: AutomationCompanyUpdate
+  property_count: 2
+  slug: navision-automation-company-update
 - name: AutomationCompany
   property_count: 5
   slug: navision-automationcompany
@@ -1457,22 +1581,43 @@ json_schemas:
   slug: navision-company
 - name: ConfigurationPackage
   property_count: 12
+  slug: navision-configuration-package
+- name: ConfigurationPackage
+  property_count: 12
   slug: navision-configurationpackage
+- name: CopyEnvironmentRequest
+  property_count: 2
+  slug: navision-copy-environment-request
 - name: CopyEnvironmentRequest
   property_count: 2
   slug: navision-copyenvironmentrequest
 - name: CountryRegion
   property_count: 5
+  slug: navision-country-region
+- name: CountryRegion
+  property_count: 5
   slug: navision-countryregion
+- name: CreateEnvironmentRequest
+  property_count: 4
+  slug: navision-create-environment-request
 - name: CreateEnvironmentRequest
   property_count: 4
   slug: navision-createenvironmentrequest
 - name: Currency
   property_count: 7
   slug: navision-currency
+- name: CustomerCreate
+  property_count: 16
+  slug: navision-customer-create
+- name: CustomerPaymentJournal
+  property_count: 6
+  slug: navision-customer-payment-journal
 - name: Customer
   property_count: 28
   slug: navision-customer
+- name: CustomerUpdate
+  property_count: 14
+  slug: navision-customer-update
 - name: CustomerCreate
   property_count: 16
   slug: navision-customercreate
@@ -1488,9 +1633,15 @@ json_schemas:
 - name: Employee
   property_count: 23
   slug: navision-employee
+- name: EnvironmentOperation
+  property_count: 13
+  slug: navision-environment-operation
 - name: Environment
   property_count: 18
   slug: navision-environment
+- name: EnvironmentSettings
+  property_count: 3
+  slug: navision-environment-settings
 - name: EnvironmentOperation
   property_count: 13
   slug: navision-environmentoperation
@@ -1500,9 +1651,18 @@ json_schemas:
 - name: ErrorResponse
   property_count: 5
   slug: navision-errorresponse
+- name: ExtensionDeploymentStatus
+  property_count: 7
+  slug: navision-extension-deployment-status
 - name: Extension
   property_count: 10
   slug: navision-extension
+- name: ExtensionUploadCreate
+  property_count: 2
+  slug: navision-extension-upload-create
+- name: ExtensionUpload
+  property_count: 4
+  slug: navision-extension-upload
 - name: ExtensionDeploymentStatus
   property_count: 7
   slug: navision-extensiondeploymentstatus
@@ -1517,10 +1677,22 @@ json_schemas:
   slug: navision-feature
 - name: GeneralLedgerEntry
   property_count: 11
+  slug: navision-general-ledger-entry
+- name: GeneralLedgerEntry
+  property_count: 11
   slug: navision-generalledgerentry
+- name: ItemCategory
+  property_count: 4
+  slug: navision-item-category
+- name: ItemCreate
+  property_count: 10
+  slug: navision-item-create
 - name: Item
   property_count: 23
   slug: navision-item
+- name: ItemUpdate
+  property_count: 9
+  slug: navision-item-update
 - name: ItemCategory
   property_count: 4
   slug: navision-itemcategory
@@ -1530,6 +1702,12 @@ json_schemas:
 - name: ItemUpdate
   property_count: 9
   slug: navision-itemupdate
+- name: JournalCreate
+  property_count: 3
+  slug: navision-journal-create
+- name: JournalLine
+  property_count: 17
+  slug: navision-journal-line
 - name: Journal
   property_count: 7
   slug: navision-journal
@@ -1541,7 +1719,16 @@ json_schemas:
   slug: navision-journalline
 - name: NotificationRecipient
   property_count: 3
+  slug: navision-notification-recipient
+- name: NotificationRecipient
+  property_count: 3
   slug: navision-notificationrecipient
+- name: PaymentMethod
+  property_count: 4
+  slug: navision-payment-method
+- name: PaymentTerm
+  property_count: 8
+  slug: navision-payment-term
 - name: PaymentMethod
   property_count: 4
   slug: navision-paymentmethod
@@ -1550,10 +1737,31 @@ json_schemas:
   slug: navision-paymentterm
 - name: PermissionSet
   property_count: 6
+  slug: navision-permission-set
+- name: PermissionSet
+  property_count: 6
   slug: navision-permissionset
 - name: Profile
   property_count: 6
   slug: navision-profile
+- name: PurchaseInvoiceCreate
+  property_count: 5
+  slug: navision-purchase-invoice-create
+- name: PurchaseInvoice
+  property_count: 15
+  slug: navision-purchase-invoice
+- name: PurchaseOrderCreate
+  property_count: 6
+  slug: navision-purchase-order-create
+- name: PurchaseOrderLine
+  property_count: 27
+  slug: navision-purchase-order-line
+- name: PurchaseOrder
+  property_count: 35
+  slug: navision-purchase-order
+- name: PurchaseOrderUpdate
+  property_count: 6
+  slug: navision-purchase-order-update
 - name: PurchaseInvoice
   property_count: 15
   slug: navision-purchaseinvoice
@@ -1577,10 +1785,34 @@ json_schemas:
   slug: navision-quotas
 - name: RestoreEnvironmentRequest
   property_count: 6
+  slug: navision-restore-environment-request
+- name: RestorePeriod
+  property_count: 3
+  slug: navision-restore-period
+- name: RestoreEnvironmentRequest
+  property_count: 6
   slug: navision-restoreenvironmentrequest
 - name: RestorePeriod
   property_count: 3
   slug: navision-restoreperiod
+- name: SalesInvoiceCreate
+  property_count: 6
+  slug: navision-sales-invoice-create
+- name: SalesInvoice
+  property_count: 16
+  slug: navision-sales-invoice
+- name: SalesOrderCreate
+  property_count: 7
+  slug: navision-sales-order-create
+- name: SalesOrderLine
+  property_count: 30
+  slug: navision-sales-order-line
+- name: SalesOrder
+  property_count: 38
+  slug: navision-sales-order
+- name: SalesOrderUpdate
+  property_count: 7
+  slug: navision-sales-order-update
 - name: SalesInvoice
   property_count: 16
   slug: navision-salesinvoice
@@ -1601,34 +1833,67 @@ json_schemas:
   slug: navision-salesorderupdate
 - name: ScheduledJob
   property_count: 7
+  slug: navision-scheduled-job
+- name: ScheduledUpgrade
+  property_count: 7
+  slug: navision-scheduled-upgrade
+- name: ScheduledJob
+  property_count: 7
   slug: navision-scheduledjob
 - name: ScheduledUpgrade
   property_count: 7
   slug: navision-scheduledupgrade
 - name: SecurityGroup
   property_count: 4
+  slug: navision-security-group
+- name: SecurityGroup
+  property_count: 4
   slug: navision-securitygroup
+- name: SupportSettings
+  property_count: 4
+  slug: navision-support-settings
 - name: SupportSettings
   property_count: 4
   slug: navision-supportsettings
 - name: UpdateSettings
   property_count: 2
+  slug: navision-update-settings
+- name: UpdateSettings
+  property_count: 2
   slug: navision-updatesettings
 - name: UsedStorage
   property_count: 4
+  slug: navision-used-storage
+- name: UsedStorage
+  property_count: 4
   slug: navision-usedstorage
+- name: UserPermission
+  property_count: 6
+  slug: navision-user-permission
 - name: User
   property_count: 5
   slug: navision-user
+- name: UserUpdate
+  property_count: 2
+  slug: navision-user-update
 - name: UserPermission
   property_count: 6
   slug: navision-userpermission
 - name: UserUpdate
   property_count: 2
   slug: navision-userupdate
+- name: VendorCreate
+  property_count: 15
+  slug: navision-vendor-create
+- name: VendorPaymentJournal
+  property_count: 6
+  slug: navision-vendor-payment-journal
 - name: Vendor
   property_count: 22
   slug: navision-vendor
+- name: VendorUpdate
+  property_count: 12
+  slug: navision-vendor-update
 - name: VendorCreate
   property_count: 15
   slug: navision-vendorcreate
@@ -1884,6 +2149,10 @@ jsonld:
   name: context Context
   property_count: 9
   slug: context
+- class_count: 71
+  name: Navision Context
+  property_count: 260
+  slug: navision-context
 layout: provider
 modified: '2026-05-19'
 name: Microsoft Dynamics NAV
@@ -1892,10 +2161,10 @@ network: true
 overview: 'Microsoft Dynamics NAV publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, App Management API, Available Applications API, and 37 more. Tagged areas include Business Management, Dynamics NAV, ERP, Finance, and Inventory.
 
 
-  The Microsoft Dynamics NAV catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Microsoft Dynamics NAV catalog on APIs.io includes 5 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 54 more developer resources.'
+  Microsoft Dynamics NAV''s developer surface includes changelog, support, authentication, developer portal, documentation, getting-started guide, engineering blog, and 74 more developer resources.'
 plans:
 - name: Navision Plans Pricing
   plan_count: 6
@@ -1921,6 +2190,18 @@ rules:
     warn: 3
   slug: navision-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Microsoft Dynamics NAV API Rules
+  rule_count: 70
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 2
+    warn: 8
+  slug: navision-rules
+- authorship: generated
   effective_rule_count: 57
   extends:
   - spectral:oas
@@ -1939,43 +2220,44 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.5
+  composite: 73.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 77.0
+    artifact_dirs: 36
+    catalog_earned: 92.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 38.0
+    catalog_gap: 23.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 8.2
   facets:
-    access_clarity: 84.2
-    contract_governance: 27.3
-    contract_quality: 57.4
-    developer_ergonomics: 72.6
-    discoverability: 78.6
-    operational_transparency: 68.4
-  previous_composite: 67.9
+    access_clarity: 100.0
+    contract_governance: 31.8
+    contract_quality: 70.3
+    developer_ergonomics: 60.7
+    discoverability: 80.4
+    operational_transparency: 65.8
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 38
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/navision/navision-2026-06-20T190101.png
 security:
 - kind: authentication
@@ -1990,6 +2272,10 @@ security:
   name: Navision Vulnerability Disclosure
   slug: navision-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Navision Trust Center
+  slug: navision-trust-center
+  summary_line: GDPR
 slug: navision
 tags:
 - Business Management

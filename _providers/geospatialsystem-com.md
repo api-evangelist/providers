@@ -1,10 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-31'
+  score: 25.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -164,7 +176,7 @@ modified: '2026-10-30'
 name: geospatialsystem-com
 nav: Providers
 network: true
-overview: 'geospatialsystem-com publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalogue API, Level 1 — Pixel API, Level 2 — Neighbourhood API, and 1 more. Tagged areas include Company, Geospatial, Terrain, API, and AI.
+overview: 'geospatialsystem-com publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalogue API, Level 1 — Pixel API, Level 2 — Neighbourhood API, and 1 more. Tagged areas include Company, Geospatial, Terrain, Artificial Intelligence, and Location.
 
 
   The geospatialsystem-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -186,34 +198,48 @@ rules:
     warn: 1
   slug: geospatialsystem-com-rules
 score:
-  band: developing
-  composite: 42.4
+  band: thin
+  composite: 29.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 75.7
+    artifact_dirs: 19
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.7
   facets:
-    access_clarity: 31.6
-    contract_governance: 79.1
+    access_clarity: 15.8
+    contract_governance: 22.0
     contract_quality: 54.3
-    developer_ergonomics: 27.9
+    developer_ergonomics: 18.5
     discoverability: 62.5
     operational_transparency: 0.0
+  previous_composite: 34.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/geospatialsystem-com/geospatialsystem-com-2026-11-03T132633.png
 security:
 - kind: authentication
   name: Geospatialsystem Com Authentication
@@ -236,8 +262,7 @@ tags:
 - Company
 - Geospatial
 - Terrain
-- API
-- AI
+- Artificial Intelligence
 - Location
 website: https://geospatialsystem.com/
 ---

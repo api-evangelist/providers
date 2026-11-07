@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-31'
+  score: 57.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,7 +56,7 @@ apis:
   description: Facts the Equals AI analyst remembers about a workspace.
   name: Equals Memories API
   slug: equals-memories-api
-artifact_total: 12
+artifact_total: 13
 common:
 - group: agent
   href: https://artifacts.apis.io/equals/agentic-access/equals-agentic-access.yml
@@ -244,6 +245,9 @@ network: true
 overview: 'Equals publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Memories API, and 1 more. Tagged areas include Company, Analytics, Spreadsheets, Business Intelligence, and Dashboards.
 
 
+  The Equals catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Equals'' developer surface includes documentation, getting-started guide, support, pricing, signup flow, API reference, authentication, and 29 more developer resources.'
 plans:
 - name: Equals Plans Pricing
@@ -257,25 +261,38 @@ rate_limits:
 - limit_count: 0
   name: Equals Rate Limits
   slug: equals-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Equals API Rules
+  rule_count: 56
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 1
+  slug: equals-rules
 score:
   band: developing
-  composite: 50.1
+  composite: 52.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 14.7
+    contract_governance: 31.8
+    contract_quality: 18.1
     developer_ergonomics: 61.9
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 48.5
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,13 +309,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/equals/equals-2026-07-25T213540.png
 security:
 - kind: authentication

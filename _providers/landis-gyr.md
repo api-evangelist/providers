@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -199,9 +200,9 @@ overview: 'Landis+Gyr is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 10
 score:
   band: emerging
-  composite: 23.9
+  composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -213,7 +214,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 50.0
+    discoverability: 56.3
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -222,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.9
+  previous_composite: 24.5
   provenance:
     conformance: first-party
   regulatory:
@@ -231,8 +232,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

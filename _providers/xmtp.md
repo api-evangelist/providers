@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -172,9 +174,9 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 27.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -185,18 +187,18 @@ score:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 26.2
     discoverability: 78.6
     operational_transparency: 26.3
-  previous_composite: 27.7
+  previous_composite: 27.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

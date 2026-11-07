@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Shopify-native Universal Commerce Protocol (UCP) surface for the Mophones storefront — a published UCP merchant profile plus a UCP-over-MCP shopping endpoint that agents use to search the catalog,
@@ -89,8 +91,8 @@ network: true
 overview: Mophones is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Commerce, Agentic Commerce, and Universal Commerce Protocol.
 random_paper: 9
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 11.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -104,14 +106,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 56.7
+    discoverability: 66.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 10.6
+  previous_composite: 11.6
   provenance:
     mcp: platform-generated
   regulatory:
@@ -120,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

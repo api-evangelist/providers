@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 28.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +73,7 @@ apis:
   description: Application settings exposed to the client.
   name: Australian Energy Market Commission Settings API
   slug: aemc-settings-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: AEMC Energy Rules API
@@ -241,29 +242,45 @@ network: true
 overview: 'Australian Energy Market Commission publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Glossary API, Rule Content API, Rule Versions API, and 2 more. Tagged areas include Energy, Australia, Energy Markets, Electricity, and Gas.
 
 
+  The Australian Energy Market Commission catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
 random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits
   slug: aemc-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Australian Energy Market Commission API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: aemc-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 29.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 15.7
     developer_ergonomics: 39.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -272,7 +289,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 27.4
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,13 +306,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Aemc Authentication

@@ -1,12 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -208,7 +215,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -237,8 +244,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

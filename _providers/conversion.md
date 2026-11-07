@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 61.9
-  scored_at: '2026-10-31'
+  score: 56.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -295,7 +308,7 @@ modified: '2026-10-29'
 name: Conversion
 nav: Providers
 network: true
-overview: 'Conversion publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Contacts API, and 7 more. Tagged areas include Marketing, Automation, AI, B2B, and SaaS.
+overview: 'Conversion publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Contacts API, and 7 more. Tagged areas include Marketing, Automation, Artificial Intelligence, B2B, and Software-as-a-Service.
 
 
   The Conversion catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -305,34 +318,42 @@ overview: 'Conversion publishes 10 API contracts indexed on the [APIs.io](https:
 random_paper: 14
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 100
   extends:
   - spectral:oas
   name: Conversion API Rules
-  rule_count: 16
+  rule_count: 59
   severity_counts:
-    error: 15
+    error: 51
     hint: 0
-    info: 1
-    warn: 0
+    info: 3
+    warn: 5
   slug: conversion-rules
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 47.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 62.0
+    artifact_dirs: 28
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.7
   facets:
-    access_clarity: 50.0
-    contract_governance: 19.7
+    access_clarity: 28.9
+    contract_governance: 22.0
     contract_quality: 62.5
-    developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 50.0
+    developer_ergonomics: 45.8
+    discoverability: 75.0
+    operational_transparency: 25.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,13 +369,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/conversion/conversion-2026-11-03T125233.png
 security:
 - kind: authentication
   name: Conversion Authentication
@@ -376,9 +398,9 @@ slug: conversion
 tags:
 - Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - B2B
-- SaaS
+- Software-as-a-Service
 - Platform
 website: https://conversion.ai
 ---

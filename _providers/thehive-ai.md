@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,6 +55,20 @@ apis:
   slug: thehive-ai-task-api
 artifact_total: 7
 common:
+- group: design
+  href: https://artifacts.apis.io/thehive-ai/vocabulary/thehive-ai-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/thehive-ai-vocabulary.yml
+- group: auth
+  href: https://artifacts.apis.io/thehive-ai/well-known/thehive-ai-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/thehive-ai-status-security.txt
+- group: start
+  title: ''
+  type: Login
+  url: https://thehive.ai/login
 - group: agent
   href: https://artifacts.apis.io/thehive-ai/agentic-access/thehive-ai-agentic-access.yml
   title: ''
@@ -77,11 +104,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/thehive-ai-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/thehive-ai/well-known/thehive-ai-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/thehive-ai-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/thehive-ai/well-known/thehive-ai-well-known.yml
   title: ''
@@ -142,13 +164,13 @@ modified: '2026-10-25'
 name: Hive
 nav: Providers
 network: true
-overview: 'Hive publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Task API. Tagged areas include Company, AI, Machine Learning, Data Labeling, and Enterprise.
+overview: 'Hive publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Task API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data Labeling, and Enterprise.
 
 
   The Hive catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Hive''s developer surface includes authentication, pricing, engineering blog, getting-started guide, documentation, and 15 more developer resources.'
+  Hive''s developer surface includes authentication, pricing, engineering blog, getting-started guide, documentation, and 17 more developer resources.'
 plans:
 - name: Thehive Ai Plans Pricing
   plan_count: 2
@@ -160,34 +182,42 @@ rate_limits:
   slug: thehive-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: Hive API Rules
-  rule_count: 13
+  rule_count: 43
   severity_counts:
-    error: 11
+    error: 41
     hint: 0
     info: 1
     warn: 1
   slug: thehive-ai-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 39.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 44.5
+    artifact_dirs: 22
+    catalog_earned: 45.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.5
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.7
   facets:
-    access_clarity: 52.6
-    contract_governance: 18.2
-    contract_quality: 47.8
-    developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 26.3
+    access_clarity: 50.0
+    contract_governance: 22.0
+    contract_quality: 53.1
+    developer_ergonomics: 23.8
+    discoverability: 64.3
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,13 +232,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/thehive-ai/thehive-ai-2026-11-03T144621.png
 security:
 - kind: authentication
   name: Thehive Ai Authentication
@@ -221,7 +252,7 @@ security:
 slug: thehive-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Data Labeling
 - Enterprise

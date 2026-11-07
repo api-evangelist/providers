@@ -1,17 +1,21 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-31'
+  score: 28.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -159,6 +164,11 @@ collections:
   name: OpenStreetMap API v0.6 Capabilities Ways API
   slug: open-openstreetmap-ways-api
 common:
+- group: other
+  href: https://artifacts.apis.io/openstreetmap/capabilities/openstreetmap-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openstreetmap-capability-edges.yml
 - group: commercial
   href: https://artifacts.apis.io/openstreetmap/plans/openstreetmap-plans-pricing.yml
   title: ''
@@ -354,7 +364,7 @@ overview: 'OpenStreetMap publishes 11 API contracts indexed on the [APIs.io](htt
   The OpenStreetMap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 23 more developer resources.'
+  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
@@ -383,9 +393,9 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 44.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 62.7
     catalog_earned_first_party: 0.0
     catalog_gap: 52.4
@@ -399,7 +409,7 @@ score:
     developer_ergonomics: 46.4
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -413,13 +423,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/openstreetmap/openstreetmap-2026-06-20T191043.png
 security:
 - kind: authentication

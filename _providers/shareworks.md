@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -526,9 +527,9 @@ rules:
   slug: shareworks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 35.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -539,10 +540,10 @@ score:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.7
-    developer_ergonomics: 40.5
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 37.4
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -556,13 +557,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/shareworks/shareworks-2026-06-20T193746.png
 security:
 - kind: authentication

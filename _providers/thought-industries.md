@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -290,10 +294,10 @@ rules:
     warn: 5
   slug: thought-industries-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
@@ -303,11 +307,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 59.5
-    developer_ergonomics: 51.2
+    contract_quality: 62.9
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 39.7
+    operational_transparency: 18.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -321,13 +325,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/thought-industries/thought-industries-2026-06-20T195312.png
 security:
 - kind: authentication

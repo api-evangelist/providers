@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-31'
+  score: 22.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: A profanity and toxicity detection API that serves as a drop‑in replacement for Google’s Perspective API.
@@ -229,7 +244,7 @@ modified: '2026-10-31'
 name: unprofane-com
 nav: Providers
 network: true
-overview: 'unprofane-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Unprofane API API, and 1 more. Tagged areas include Company, Profanity Filtering, Content Moderation, API, and Machine Learning.
+overview: 'unprofane-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Unprofane API API, and 1 more. Tagged areas include Company, Profanity Filtering, Content Moderation, Machine Learning, and Safety.
 
 
   The unprofane-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -264,34 +279,42 @@ scopes:
   slug: unprofane-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.6
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 77.7
+    artifact_dirs: 32
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.3
   facets:
-    access_clarity: 44.7
-    contract_governance: 79.1
+    access_clarity: 22.4
+    contract_governance: 22.0
     contract_quality: 50.7
-    developer_ergonomics: 51.7
+    developer_ergonomics: 32.6
     discoverability: 65.0
-    operational_transparency: 47.4
+    operational_transparency: 28.9
+  previous_composite: 49.8
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/unprofane-com/unprofane-com-2026-11-03T145452.png
 security:
 - kind: authentication
   name: Unprofane Com Authentication
@@ -310,7 +333,6 @@ tags:
 - Company
 - Profanity Filtering
 - Content Moderation
-- API
 - Machine Learning
 - Safety
 website: https://unprofane.com/

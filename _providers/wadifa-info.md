@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +21,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.4
-  scored_at: '2026-10-31'
+  score: 21.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,37 +219,39 @@ rules:
   slug: wadifa-info-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 34.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 73.8
     catalog_earned_first_party: 16.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 42.1
+    access_clarity: 31.6
     contract_governance: 22.0
-    contract_quality: 54.6
-    developer_ergonomics: 19.0
-    discoverability: 58.9
+    contract_quality: 59.2
+    developer_ergonomics: 9.5
+    discoverability: 65.2
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - morocco
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
     - mena
     - north-africa
-  previous_composite: 37.4
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: derived
   regulatory:
@@ -244,14 +259,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/wadifa-info/wadifa-info-2026-10-11T133230.png
 security:
 - kind: domain-security

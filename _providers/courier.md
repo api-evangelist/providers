@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -337,9 +338,9 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.4
+  composite: 33.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 40.5
     catalog_earned_first_party: 0.0
     catalog_gap: 74.5
@@ -349,11 +350,11 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 61.0
+    contract_quality: 63.7
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 30.4
+    operational_transparency: 7.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -367,13 +368,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/courier/courier-2026-06-20T175109.png
 security:
 - kind: authentication

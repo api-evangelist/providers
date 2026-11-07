@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,6 +61,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/cron-systems-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://cronai.ai/
 created: '2026-07-17'
 description: Cron Systems (now operating as Cron AI) builds deep-learning perception software for 3D sensor and LiDAR data. Its flagship platform, senseEDGE, performs real-time 3D object detection, classification, and tracking from point-cloud data at the edge, with multi-sensor fusion and adverse-weather resilience. The technology serves intelligent transportation systems, smart infrastructure, autonomous mobility, smart cities, and security and surveillance — powering use cases such as traffic management, autonomous tolling, crowd and queue management, smart parking, vehicle counting, and airport and aircraft-movement monitoring. Object output is emitted as JSON and Flatbuffers binary over WebSocket, with a web-based configuration and visualizer utility, VPN and PTP time-synchronization support, and a privacy-preserving, GDPR-compliant design. Cron AI was surfaced as a Techstars portfolio company and added to the API Evangelist network; the company currently publishes no public developer
   API, documentation, or SDK surface.
@@ -71,7 +77,7 @@ network: true
 overview: 'Cron Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, LiDAR, 3D Perception, Computer Vision, and Deep Learning.
 
 
-  Cron Systems'' developer surface includes support, engineering blog, and 3 more developer resources.'
+  Cron Systems'' developer surface includes support, engineering blog, and 4 more developer resources.'
 random_paper: 23
 score:
   band: minimal
@@ -98,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -123,5 +129,8 @@ tags:
 - Smart Cities
 - Autonomous Vehicles
 - Sensor Fusion
+- Artificial Intelligence
+- Autonomous Systems
+- Techstars
 website: https://www.cronai.ai/
 ---

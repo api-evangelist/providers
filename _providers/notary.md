@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -212,10 +214,10 @@ rules:
     warn: 4
   slug: notary-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 32.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 64.3
     catalog_earned_first_party: 0.0
     catalog_gap: 50.8
@@ -228,16 +230,19 @@ score:
     contract_quality: 26.7
     developer_ergonomics: 31.0
     discoverability: 69.6
-    operational_transparency: 28.9
-  previous_composite: 25.7
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 32.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

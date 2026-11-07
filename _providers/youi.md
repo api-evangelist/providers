@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -146,9 +147,9 @@ overview: 'Youi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 22
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -160,7 +161,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.9
+    discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -169,7 +170,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 20.7
+  previous_composite: 21.5
   provenance:
     conformance: first-party
   regulatory:
@@ -178,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

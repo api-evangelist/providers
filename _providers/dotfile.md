@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -179,7 +180,7 @@ apis:
   description: The Webhooks API from Dotfile — 3 operation(s) for webhooks.
   name: Dotfile Webhooks API
   slug: dotfile-webhooks-api
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Dotfile Webhooks
@@ -360,7 +361,7 @@ network: true
 overview: 'Dotfile publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, AML check API, Cases API, and 23 more. Tagged areas include KYB, KYC, AML, Business Verification, and Identity Verification.
 
 
-  The Dotfile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Dotfile catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Dotfile''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
@@ -373,24 +374,37 @@ rate_limits:
 - limit_count: 2
   name: Dotfile Rate Limits
   slug: dotfile-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Dotfile API Rules
+  rule_count: 60
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 10
+  slug: dotfile-rules
 score:
   band: strong
-  composite: 55.5
+  composite: 57.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 30
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 57.3
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 65.8
     developer_ergonomics: 58.9
-    discoverability: 71.4
-    operational_transparency: 73.7
+    discoverability: 78.6
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -399,14 +413,14 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 55.5
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 26
     mcp: derived
     skills: derived
@@ -419,14 +433,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/dotfile/dotfile-2026-09-02T145309.png
 security:
 - kind: authentication

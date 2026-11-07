@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Requires approval
-  onboarding: approval
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
-  - plans
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,7 +73,7 @@ apis:
   description: The asset_studio API from Databook — 6 operation(s) for asset_studio.
   name: Databook Asset Studio API
   slug: databook-asset-studio-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -195,6 +197,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/databook-openapi-overlay.yaml
+- group: company
+  title: ''
+  type: Blog
+  url: https://trydatabook.com/blog/
 created: '2026-07-17'
 description: 'Databook is an AI-powered decision system for enterprise sales teams, combining verified market intelligence with structured reasoning to give sellers visibility into their largest deals. The platform pairs an "Outside-In Radar" of signals beyond the CRM with an advanced reasoning engine, a dynamic Customer Context Graph modeling every buying group, guided sales agents tuned to specific KPIs, a CRO dashboard for leadership, and a Value Coach for executive narratives. It serves enterprise revenue organizations across cloud, cybersecurity, managed services, and software. Databook is a portfolio company of Bessemer Venture Partners and Threshold Ventures. It publishes a machine-readable REST API — the DatabookAI REST API, OpenAPI 3.1.0 at https://api.databook.com/openapi.json — exposing a catalog of 66 account-research insights, asynchronous CSV batch jobs that run those insights across many target accounts, a threaded chat endpoint, and a deep-reasoning endpoint that returns
   cited, structured analysis. Access is not self-serve: bearer tokens are provisioned by Databook support.'
@@ -207,7 +213,10 @@ network: true
 overview: 'Databook publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including batch - create API, batch - query API, Chat API, and 2 more. Tagged areas include Company, Vertical Software, Sales Intelligence, Account Intelligence, and Sales Enablement.
 
 
-  Databook''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 21 more developer resources.'
+  The Databook catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Databook''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: Databook Plans Pricing
   plan_count: 0
@@ -217,32 +226,45 @@ rate_limits:
 - limit_count: 0
   name: Databook Rate Limits
   slug: databook-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Databook API Rules
+  rule_count: 56
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 4
+  slug: databook-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 48.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 10.4
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 49.3
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 52.4
     developer_ergonomics: 58.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 46.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 55.6
       total: 9
     mcp: derived
     skills: derived
@@ -258,13 +280,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/databook/databook-2026-07-25T211258.png
 security:
 - kind: authentication
@@ -305,5 +326,7 @@ tags:
 - Agents
 - Reasoning
 - Company Data
+- Data Platform
+- Business Intelligence
 website: https://databook.com/
 ---

@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://farmer.vuestorefront.cloud
@@ -129,7 +131,7 @@ apis:
   description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: farmer cdn API
@@ -341,31 +343,47 @@ network: true
 overview: 'Alokai (formerly Vue Storefront) publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, Flush Cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
+  The Alokai (formerly Vue Storefront) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
 plans:
 - name: Alokai Formerly Vue Storefront Plans Pricing
   plan_count: 1
   slug: alokai-formerly-vue-storefront-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: Alokai (formerly Vue Storefront) API Rules
+  rule_count: 33
+  severity_counts:
+    error: 27
+    hint: 0
+    info: 1
+    warn: 5
+  slug: alokai-formerly-vue-storefront-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 52.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
-    contract_governance: 4.5
-    contract_quality: 36.5
+    contract_governance: 18.2
+    contract_quality: 39.9
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 46.0
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -381,13 +399,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/alokai-formerly-vue-storefront/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:
 - kind: authentication

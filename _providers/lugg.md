@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Lugg''s partner/developer REST API for embedding on-demand moving and delivery: OAuth2 authentication, quotes, bookings, multi-stop booking flows, schedules, and webhook endpoints, with a documented sa'
@@ -120,9 +126,9 @@ overview: 'Lugg is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 23
 score:
   band: thin
-  composite: 26.4
+  composite: 27.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -134,17 +140,17 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 47.6
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 26.4
+  previous_composite: 27.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

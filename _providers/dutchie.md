@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: GraphQL queries for the dispensaries/retailers connected to your Dutchie Plus account - retailer metadata, address, hours, accepted order types (pickup/delivery), and pricing types (recreational/medic
@@ -136,9 +138,9 @@ rate_limits:
   slug: dutchie-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 18.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -149,18 +151,18 @@ score:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 35.1
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 20.8
+    operational_transparency: 18.4
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Enterprise · Requires approval
   onboarding: approval
   pricing: enterprise
@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,23 +21,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-10-31'
+  score: 26.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -338,9 +340,9 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.3
+  composite: 31.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 66.0
     catalog_earned_first_party: 0.0
     catalog_gap: 49.0
@@ -351,10 +353,10 @@ score:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 11.6
-    developer_ergonomics: 64.3
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 37.3
+    operational_transparency: 18.4
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -368,13 +370,13 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/roivant-sciences/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication

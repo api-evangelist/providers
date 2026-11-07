@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server that fronts the SiFive Cloud Services (SCS) portal at scs.sifive.com, where SiFive Core Designer and the rest of the SiFive development tooling are delivered. It pub
@@ -206,9 +207,9 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.2
+  composite: 33.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -219,10 +220,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
+    developer_ergonomics: 61.9
     discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 34.2
+    operational_transparency: 13.2
+  previous_composite: 33.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -264,6 +265,7 @@ tags:
 - Hardware
 - Developer Tools
 - Electronic Design Automation
+- OAuth
 - Authentication
 website: https://www.sifive.com/
 ---

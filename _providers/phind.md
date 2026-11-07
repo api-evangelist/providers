@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Conceptual (modeled) surface for Phind's AI answer engine - the developer-focused conversational search that powered phind.com and the VS Code extension. Phind never published an official public or pa
@@ -109,8 +113,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

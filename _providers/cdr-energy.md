@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - baseURL: https://api.cdr.gov.au/cdr-register/v1
@@ -127,7 +128,7 @@ apis:
   description: Register Operations endpoints
   name: Consumer Data Right (Energy) Register Operations API
   slug: cdr-energy-register-operations-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Cdr Energy Webhooks
@@ -407,7 +408,7 @@ network: true
 overview: 'Consumer Data Right (Energy) publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Holder Admin API, Data Holder Client Registration API, Data Holder Customers API, and 14 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Consumer Data Right.
 
 
-  The Consumer Data Right (Energy) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Consumer Data Right (Energy) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 43 more developer resources.'
@@ -416,6 +417,19 @@ rate_limits:
 - limit_count: 6
   name: Cdr Energy Rate Limits
   slug: cdr-energy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Consumer Data Right (Energy) API Rules
+  rule_count: 71
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 13
+  slug: cdr-energy-rules
 scopes:
 - name: Cdr Energy Scopes
   scope_count: 15
@@ -423,22 +437,22 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.6
+  composite: 59.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 7.9
-    contract_governance: 18.2
-    contract_quality: 55.7
-    developer_ergonomics: 85.1
+    contract_governance: 31.8
+    contract_quality: 57.9
+    developer_ergonomics: 82.7
     discoverability: 71.4
-    operational_transparency: 100.0
+    operational_transparency: 97.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -446,13 +460,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 58.6
+  previous_composite: 58.7
   provenance:
     conformance: first-party
     contracts:
       callable: 17.6
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 23.5
       total: 17
     mcp: derived
     skills: derived
@@ -461,14 +475,13 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 38.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cdr-energy/cdr-energy-2026-08-07T163251.png
 security:
 - kind: authentication

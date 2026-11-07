@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 26.8
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - baseURL: https://api.swan.io/live-partner/graphql
@@ -160,9 +165,9 @@ rate_limits:
   slug: swan-io-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 23.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -174,8 +179,8 @@ score:
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 35.2
-    discoverability: 71.4
-    operational_transparency: 10.5
+    discoverability: 73.3
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -184,7 +189,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 24.1
+  previous_composite: 23.9
   provenance:
     mcp: first-party
   regulatory:
@@ -193,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

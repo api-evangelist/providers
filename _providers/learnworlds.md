@@ -1,15 +1,16 @@
 ---
 access_model:
-  confidence: high
-  label: Paid (free trial) · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
-  trial: true
-  try_now: true
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -81,7 +83,7 @@ apis:
   description: Manage webhook subscriptions for school events.
   name: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: LearnWorlds Courses API
@@ -191,6 +193,9 @@ network: true
 overview: 'LearnWorlds publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Payments API, and 4 more. Tagged areas include Online Courses, LMS, E-Learning, Education, and Course Platform.
 
 
+  The LearnWorlds catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   LearnWorlds'' developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Learnworlds Plans Pricing
@@ -201,6 +206,19 @@ rate_limits:
 - limit_count: 2
   name: Learnworlds Rate Limits
   slug: learnworlds-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: LearnWorlds API Rules
+  rule_count: 64
+  severity_counts:
+    error: 61
+    hint: 0
+    info: 1
+    warn: 2
+  slug: learnworlds-rules
 scopes:
 - name: Learnworlds Scopes
   scope_count: 0
@@ -208,23 +226,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.5
+  composite: 31.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 51.0
+    artifact_dirs: 18
+    catalog_earned: 55.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 64.0
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
+    access_clarity: 36.8
+    contract_governance: 13.6
     contract_quality: 48.5
-    developer_ergonomics: 31.0
+    developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 34.5
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -238,13 +256,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/learnworlds/learnworlds-2026-07-25T224802.png
 security:
 - kind: authentication

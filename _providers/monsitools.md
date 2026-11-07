@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-31'
+  score: 38.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -249,31 +263,31 @@ rules:
     warn: 1
   slug: monsitools-rules
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 50.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 85.8
     catalog_earned_first_party: 20.0
     catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: -7.9
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 22.0
-    contract_quality: 61.0
-    developer_ergonomics: 42.9
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 48.1
+    contract_quality: 66.2
+    developer_ergonomics: 27.4
+    discoverability: 75.0
+    operational_transparency: 28.9
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
     mcp: first-party
   regulatory:
@@ -281,14 +295,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/monsitools/monsitools-2026-10-11T111246.png
 security:
 - kind: authentication

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -316,9 +317,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.8
+  composite: 29.5
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 43.3
     catalog_earned_first_party: 0.0
     catalog_gap: 71.8
@@ -330,9 +331,9 @@ score:
     contract_governance: 28.0
     contract_quality: 10.7
     developer_ergonomics: 38.1
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 28.8
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -342,8 +343,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

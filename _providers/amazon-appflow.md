@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-31'
+  score: 37.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -825,7 +827,7 @@ modified: '2026-09-16'
 name: Amazon AppFlow
 nav: Providers
 network: true
-overview: 'Amazon AppFlow is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Connectors, Dataflows, Data Integration, ETL, and Integration.
+overview: 'Amazon AppFlow is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Amazon Web Services, Connectors, Dataflows, Data Integration, and ETL.
 
 
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -863,23 +865,23 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 55.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 80.0
     catalog_earned_first_party: 8.0
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 31.8
     contract_quality: 31.6
     developer_ergonomics: 65.5
-    discoverability: 71.4
-    operational_transparency: 31.6
-  previous_composite: 49.6
+    discoverability: 78.6
+    operational_transparency: 28.9
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -895,13 +897,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-appflow/amazon-appflow-2026-07-25T195916.png
 security:
 - kind: authentication
@@ -918,6 +919,7 @@ security:
   summary_line: security.txt · contact published
 slug: amazon-appflow
 tags:
+- Amazon Web Services
 - Connectors
 - Dataflows
 - Data Integration

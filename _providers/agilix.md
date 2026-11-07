@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Buzz API is the programmable surface of the Agilix Learning Suite. It is a command-style HTTP API rather than a path-and-method REST API: every one of its 291 documented operations is issued as PO'
@@ -198,9 +213,9 @@ rate_limits:
   slug: agilix-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 48.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -212,9 +227,9 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 67.9
-    operational_transparency: 78.9
-  previous_composite: 48.3
+    discoverability: 74.1
+    operational_transparency: 76.3
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -225,8 +240,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

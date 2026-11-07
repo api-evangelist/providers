@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-31'
+  score: 35.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
@@ -114,7 +118,7 @@ apis:
   description: The Verify API from imgauth — API di attestazione opere digitali — 1 operation(s) for verify.
   name: imgauth — API di attestazione opere digitali Verify API
   slug: imgauth-api-di-attestazione-opere-digitali-verify-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: imgauth — API di attestazione opere digitali
@@ -330,6 +334,9 @@ network: true
 overview: 'imgauth — API di attestazione opere digitali publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 12 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, Content Authenticity, and Provenance.
 
 
+  The imgauth — API di attestazione opere digitali catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   imgauth — API di attestazione opere digitali''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 34 more developer resources.'
 plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
@@ -343,31 +350,44 @@ rate_limits:
 - limit_count: 3
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: imgauth — API di attestazione opere digitali API Rules
+  rule_count: 58
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 3
+  slug: imgauth-api-di-attestazione-opere-digitali-rules
 score:
   band: exemplar
-  composite: 68.6
+  composite: 70.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 30
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 47.9
+    contract_governance: 31.8
+    contract_quality: 53.2
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 78.9
-  previous_composite: 67.0
+    discoverability: 68.3
+    operational_transparency: 76.3
+  previous_composite: 69.5
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 14
     mcp: first-party
     skills: derived
@@ -381,13 +401,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/imgauth-api-di-attestazione-opere-digitali/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
 - kind: authentication

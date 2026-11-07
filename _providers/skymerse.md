@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -28,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.notamify.com/api/v2
@@ -46,7 +48,7 @@ apis:
   description: The Notams API from Skymerse — 9 operation(s) for notams.
   name: Skymerse Notams API
   slug: skymerse-notams-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Skymerse Watcher Webhooks
@@ -214,7 +216,7 @@ network: true
 overview: 'Skymerse publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Notams API. Tagged areas include Company, Aviation, NOTAM, Flight Operations, and Aeronautical.
 
 
-  The Skymerse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Skymerse catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Skymerse''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
@@ -230,25 +232,38 @@ rate_limits:
 - limit_count: 2
   name: Skymerse Rate Limits
   slug: skymerse-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Skymerse API Rules
+  rule_count: 62
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 2
+    warn: 3
+  slug: skymerse-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 58.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 73.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 54.6
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 50.0
-  previous_composite: 55.6
+    discoverability: 71.7
+    operational_transparency: 47.4
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -264,13 +279,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/skymerse/skymerse-2026-08-17T081918.png
 security:
 - kind: authentication

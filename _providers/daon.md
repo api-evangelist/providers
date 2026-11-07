@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 0
@@ -207,6 +221,11 @@ apis:
   slug: daon-watchlist-v2-api
 artifact_total: 58
 common:
+- group: auth
+  href: https://artifacts.apis.io/daon/well-known/daon-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/daon-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/daon/agentic-access/daon-agentic-access.yml
   title: ''
@@ -296,11 +315,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/daon-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/daon/well-known/daon-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/daon-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/daon/well-known/daon-well-known.yml
   title: ''
@@ -448,16 +462,16 @@ rate_limits:
   slug: daon-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 115
   extends:
   - spectral:oas
   name: Daon API Rules
-  rule_count: 18
+  rule_count: 74
   severity_counts:
-    error: 11
+    error: 55
     hint: 0
     info: 4
-    warn: 3
+    warn: 15
   slug: daon-rules
 scopes:
 - name: Daon Scopes
@@ -466,21 +480,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.7
+  composite: 56.1
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 34
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 67.8
-    developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 76.3
+    contract_quality: 71.2
+    developer_ergonomics: 44.6
+    discoverability: 73.2
+    operational_transparency: 57.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -496,13 +518,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 37.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
+screenshot: https://apis.io/screenshots/daon/daon-2026-11-03T130048.png
 security:
 - kind: authentication
   name: Daon Authentication

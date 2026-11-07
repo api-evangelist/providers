@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Asynchronously add or update media and metadata for audio and text-based contacts in a CallMiner Eureka tenant. Hosted on the regional CallMiner API host and protected by OAuth 2.0 client credentials '
@@ -196,9 +197,9 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 25.2
+  composite: 25.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,9 +211,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 25.2
+  previous_composite: 25.9
   provenance:
     conformance: first-party
   regulatory:
@@ -221,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

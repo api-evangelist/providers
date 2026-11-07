@@ -30,7 +30,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.2
-  scored_at: '2026-10-31'
+  score: 54.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -2078,9 +2079,9 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 68.1
+  composite: 67.2
   coverage:
-    artifact_dirs: 38
+    artifact_dirs: 39
     catalog_earned: 75.0
     catalog_earned_first_party: 12.0
     catalog_gap: 40.0
@@ -2090,16 +2091,16 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 31.8
-    contract_quality: 65.9
-    developer_ergonomics: 86.9
-    discoverability: 70.0
-    operational_transparency: 86.8
+    contract_quality: 68.9
+    developer_ergonomics: 74.4
+    discoverability: 80.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 68.1
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2116,13 +2117,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/adobe-experience-cloud/adobe-experience-cloud-2026-06-20T164907.png
 security:
 - kind: authentication

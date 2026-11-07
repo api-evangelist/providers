@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Branch Metrics API provides deep linking and attribution endpoints as documented in the API Reference.
@@ -235,23 +246,23 @@ rules:
     warn: 2
   slug: branch-metrics-rules
 score:
-  band: thin
-  composite: 34.9
+  band: emerging
+  composite: 25.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 55.8
     catalog_earned_first_party: 0.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 30.2
-    developer_ergonomics: 50.0
-    discoverability: 62.5
-    operational_transparency: 34.2
+    developer_ergonomics: 25.0
+    discoverability: 67.9
+    operational_transparency: 21.1
   previous_composite: 34.9
   provenance:
     conformance: derived
@@ -266,14 +277,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 11.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/branch-metrics/branch-metrics-2026-11-03T122456.png
 security:
 - kind: domain-security
   name: Branch Metrics Domain Security

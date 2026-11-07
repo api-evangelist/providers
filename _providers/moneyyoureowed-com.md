@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-31'
+  score: 21.4
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Free public remote Model Context Protocol server (Streamable HTTP, protocol 2025-06-18, stateless, no authentication) exposing one read-only tool, answer_money_question, which takes a plain-language c
@@ -166,7 +183,7 @@ rate_limits:
   slug: moneyyoureowed-com-rate-limits
 score:
   band: emerging
-  composite: 19.6
+  composite: 16.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -174,15 +191,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.2
-    discoverability: 65.0
+    developer_ergonomics: 18.5
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 20.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,9 +209,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

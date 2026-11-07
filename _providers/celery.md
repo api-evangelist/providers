@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Core API for defining and executing distributed tasks in Celery. Supports task decorators, retries, timeouts, rate limiting, and custom task classes.
@@ -252,9 +260,9 @@ rate_limits:
   slug: celery-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 37.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -265,10 +273,10 @@ score:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 66.7
+    developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 44.7
-  previous_composite: 38.4
+    operational_transparency: 42.1
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -278,8 +286,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

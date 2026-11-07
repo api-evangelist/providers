@@ -1,9 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.4
-  scored_at: '2026-10-31'
+  score: 41.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API for ZeroRank data access.
@@ -231,7 +245,7 @@ modified: '2026-10-29'
 name: ZeroRank
 nav: Providers
 network: true
-overview: 'ZeroRank is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, SearchVisibility, Analytics, Platform, and Company.
+overview: 'ZeroRank is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, SearchVisibility, Analytics, Platform, and Company.
 
 
   The ZeroRank catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -249,16 +263,16 @@ rate_limits:
   slug: zerorank-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 85
   extends:
   - spectral:oas
   name: ZeroRank API Rules
-  rule_count: 12
+  rule_count: 44
   severity_counts:
-    error: 10
+    error: 40
     hint: 0
     info: 1
-    warn: 1
+    warn: 3
   slug: zerorank-ai-rules
 scopes:
 - name: Zerorank Ai Scopes
@@ -266,42 +280,45 @@ scopes:
   slug: zerorank-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.4
+  band: thin
+  composite: 33.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 30
     catalog_earned: 67.8
     catalog_earned_first_party: 8.0
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 23.5
-    developer_ergonomics: 57.1
-    discoverability: 65.0
-    operational_transparency: 57.9
+    developer_ergonomics: 34.5
+    discoverability: 75.0
+    operational_transparency: 39.5
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 1
       marker_coverage: 100.0
-      total: 7
+      total: 1
     mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/zerorank-ai/zerorank-ai-2026-11-03T150516.png
 security:
 - kind: authentication
   name: Zerorank Ai Authentication
@@ -313,7 +330,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: zerorank-ai
 tags:
-- AI
+- Artificial Intelligence
 - SearchVisibility
 - Analytics
 - Platform

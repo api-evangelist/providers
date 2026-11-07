@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'A modern REST API delivering enriched, actionable producer and adjuster data from the NIPR (200+ data points: licensing, carrier appointments, adjuster licensing) into your existing tech stack. OAuth '
@@ -156,9 +162,9 @@ overview: 'Agentsync is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 12
 score:
   band: thin
-  composite: 38.0
+  composite: 38.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -170,9 +176,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 38.0
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 38.3
   provenance:
     conformance: first-party
   regulatory:
@@ -181,8 +187,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -212,6 +218,7 @@ tags:
 - Licensing
 - NIPR
 - REST
+- OAuth
 - Authentication
 website: https://agentsync.io
 ---

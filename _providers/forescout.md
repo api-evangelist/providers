@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -144,9 +145,9 @@ overview: 'Forescout is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 2
 score:
   band: emerging
-  composite: 24.7
+  composite: 23.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -157,10 +158,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 24.7
+    developer_ergonomics: 38.1
+    discoverability: 78.6
+    operational_transparency: 2.6
+  previous_composite: 23.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -170,8 +171,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

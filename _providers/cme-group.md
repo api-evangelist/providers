@@ -1,13 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -267,9 +274,9 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 40.8
+  composite: 40.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -282,8 +289,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 62.5
-    operational_transparency: 39.5
-  previous_composite: 40.8
+    operational_transparency: 36.8
+  previous_composite: 40.5
   provenance:
     conformance: first-party
   regulatory:
@@ -292,8 +299,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

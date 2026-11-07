@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -26,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 49.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -119,12 +136,37 @@ apis:
   description: The Ws Token API from Live Tennis API — 1 operation(s) for ws token.
   name: Live Tennis API Ws Token API
   slug: livetennisapi-com-ws-token-api
-artifact_total: 36
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Livetennisapi Com Webhooks
   slug: livetennisapi-com-webhooks
 common:
+- group: operate
+  href: https://artifacts.apis.io/livetennisapi-com/rate-limits/livetennisapi-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/livetennisapi-com-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/livetennisapi-com/conventions/livetennisapi-com-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/livetennisapi-com-conventions.yml
+- group: other
+  href: https://artifacts.apis.io/livetennisapi-com/overlays/livetennisapi-com-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/livetennisapi-com-openapi-overlay.yaml
+- group: build
+  href: https://artifacts.apis.io/livetennisapi-com/packages/livetennisapi-com-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/livetennisapi-com-packages.yml
+- group: build
+  href: https://artifacts.apis.io/livetennisapi-com/packages/livetennisapi-com-packages.yml
+  title: ''
+  type: Packages
+  url: packages/livetennisapi-com-packages.yml
 - group: other
   href: https://artifacts.apis.io/livetennisapi-com/capabilities/livetennisapi-com-capability-edges.yml
   title: ''
@@ -312,24 +354,90 @@ created: '2026-10-28'
 description: Live Tennis API provides real-time tennis scores, match statistics, player rankings, and betting odds through a REST and WebSocket API. It covers ATP, WTA, Challenger and ITF events, offering point‑by‑point data, win‑probability models, and market price ticks for developers building dashboards, analytics, or broadcast graphics. Free tier includes 100 requests per day, with paid plans for higher volume and additional data such as historical results and live odds.
 image: https://livetennisapi.com/og.jpg?v=2
 json_schemas:
+- name: Analysis
+  property_count: 2
+  slug: livetennisapi-com-analysis
 - name: ArchiveTape
   property_count: 5
   slug: livetennisapi-com-archive-tape
+- name: BroadcastObject
+  property_count: 54
+  slug: livetennisapi-com-broadcast-object
+- name: Event
+  property_count: 10
+  slug: livetennisapi-com-event
+- name: Fixture
+  property_count: 13
+  slug: livetennisapi-com-fixture
+- name: HeadToHead
+  property_count: 5
+  slug: livetennisapi-com-head-to-head
+- name: HistoryMatch
+  property_count: 29
+  slug: livetennisapi-com-history-match
 - name: HistoryPackage
   property_count: 8
   slug: livetennisapi-com-history-package
 - name: HistoryTape
   property_count: 5
   slug: livetennisapi-com-history-tape
+- name: ListMeta
+  property_count: 7
+  slug: livetennisapi-com-list-meta
+- name: Market
+  property_count: 7
+  slug: livetennisapi-com-market
+- name: MatchPoints
+  property_count: 12
+  slug: livetennisapi-com-match-points
 - name: Match
   property_count: 28
   slug: livetennisapi-com-match
 - name: Player
   property_count: 22
   slug: livetennisapi-com-player
+- name: PlayerStats
+  property_count: 6
+  slug: livetennisapi-com-player-stats
+- name: PlayerStoppage
+  property_count: 11
+  slug: livetennisapi-com-player-stoppage
+- name: PlayerStoppagesMeta
+  property_count: 12
+  slug: livetennisapi-com-player-stoppages-meta
+- name: PointPrice
+  property_count: 9
+  slug: livetennisapi-com-point-price
+- name: RallyMatch
+  property_count: 12
+  slug: livetennisapi-com-rally-match
+- name: RallyPoint
+  property_count: 23
+  slug: livetennisapi-com-rally-point
+- name: RankingListMeta
+  property_count: 8
+  slug: livetennisapi-com-ranking-list-meta
+- name: RankingRecord
+  property_count: 13
+  slug: livetennisapi-com-ranking-record
 - name: Score
   property_count: 21
   slug: livetennisapi-com-score
+- name: SlateEvent
+  property_count: 12
+  slug: livetennisapi-com-slate-event
+- name: StatusChange
+  property_count: 6
+  slug: livetennisapi-com-status-change
+- name: Tournament
+  property_count: 10
+  slug: livetennisapi-com-tournament
+- name: Usage
+  property_count: 9
+  slug: livetennisapi-com-usage
+- name: Webhook
+  property_count: 10
+  slug: livetennisapi-com-webhook
 jsonld:
 - class_count: 62
   name: Livetennisapi Com Context
@@ -340,13 +448,13 @@ modified: '2026-10-28'
 name: Live Tennis API
 nav: Providers
 network: true
-overview: 'Live Tennis API publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Broadcast API, Charting API, Events API, and 14 more. Tagged areas include Company, Sports, Data, Real-time, and API.
+overview: 'Live Tennis API publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Broadcast API, Charting API, Events API, and 14 more. Tagged areas include Company, Sports, Data, Real-Time, and Tennis.
 
 
   The Live Tennis API catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Live Tennis API''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
+  Live Tennis API''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
 plans:
 - name: Livetennisapi Com Plans Pricing
   plan_count: 4
@@ -358,16 +466,16 @@ rate_limits:
   slug: livetennisapi-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 108
   extends:
   - spectral:oas
   name: Live Tennis API API Rules
-  rule_count: 17
+  rule_count: 67
   severity_counts:
-    error: 12
+    error: 49
     hint: 0
-    info: 1
-    warn: 4
+    info: 4
+    warn: 14
   slug: livetennisapi-com-rules
 scopes:
 - name: Livetennisapi Com Scopes
@@ -376,21 +484,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.3
+  composite: 57.3
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 73.8
+    artifact_dirs: 37
+    catalog_earned: 82.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 41.3
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
-    contract_quality: 61.4
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 68.4
+    contract_quality: 67.4
+    developer_ergonomics: 43.5
+    discoverability: 73.2
+    operational_transparency: 65.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,13 +522,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/livetennisapi-com/livetennisapi-com-2026-11-03T134941.png
 security:
 - kind: authentication
   name: Livetennisapi Com Authentication
@@ -439,8 +556,7 @@ tags:
 - Company
 - Sports
 - Data
-- Real-time
-- API
+- Real-Time
 - Tennis
 website: https://livetennisapi.com
 ---

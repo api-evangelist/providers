@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -162,16 +174,16 @@ created: '2026-10-13'
 description: Esendex provides global business SMS and multichannel messaging services, offering APIs for SMS, WhatsApp, RCS, Email, Voice and more. It serves enterprises across multiple countries, enabling messaging, notifications, two‑factor authentication, digital letters and chatbot integration through a unified platform.
 json_schemas:
 - name: ApiResponseOfCreateCredentialResponse
-  property_count: 0
+  property_count: 2
   slug: esendex-api-response-of-create-credential-response
 - name: ApiResponseOfGetCredentialsResponse
-  property_count: 0
+  property_count: 2
   slug: esendex-api-response-of-get-credentials-response
 - name: ApiResponseOfGetSessionsResponse
-  property_count: 0
+  property_count: 2
   slug: esendex-api-response-of-get-sessions-response
 - name: ApiResponseOfUserCredential
-  property_count: 0
+  property_count: 2
   slug: esendex-api-response-of-user-credential
 - name: CreateCredentialRequest
   property_count: 8
@@ -212,23 +224,23 @@ rules:
   slug: esendex-rules
 score:
   band: thin
-  composite: 38.6
+  composite: 32.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 55.8
     catalog_earned_first_party: 0.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.6
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 22.0
-    contract_quality: 56.5
-    developer_ergonomics: 66.1
+    contract_quality: 59.9
+    developer_ergonomics: 43.5
     discoverability: 53.6
-    operational_transparency: 15.8
-  previous_composite: 38.6
+    operational_transparency: 7.9
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,13 +257,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/esendex/esendex-2026-11-03T131615.png
 security:
 - kind: authentication
   name: Esendex Authentication

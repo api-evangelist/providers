@@ -1,8 +1,19 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -15,47 +26,54 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
-    operation_distinctiveness: distinct
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-31'
-api_count: 2
+  score: 7.9
+  scored_at: '2026-11-06'
+api_count: 1
 apis:
-- description: Arcwise provides an AI‑powered analytics platform that detects metric shifts early and explains them with hallucination‑free, traceable insights linked to your data and documentation.
-  name: Arcwise API
+- description: Arcwise's audit logs can be accessed via API with an administrator-created personal access token (Bearer); a GET to /api/event_history returns a JSON list of logged events (warehouse connection, API i
+  name: Arcwise Audit Log API
   slug: arcwise-api-2
-- description: 'Arcwise API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider''s own document.'
-  name: Arcwise API
-  slug: arcwise-api
-artifact_total: 14
+artifact_total: 15
 common:
+- group: design
+  href: https://artifacts.apis.io/arcwise/conventions/arcwise-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/arcwise-conventions.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://arcwise.app/security
+- group: auth
+  href: https://artifacts.apis.io/arcwise/security/arcwise-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/arcwise-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/arcwise/authentication/arcwise-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/arcwise-authentication.yml
+- group: build
+  href: https://artifacts.apis.io/arcwise/integrations/arcwise-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/arcwise-integration-edges.yml
 - group: design
   href: https://artifacts.apis.io/arcwise/rules/arcwise-rules.yml
   title: ''
   type: Spectral
   url: rules/arcwise-rules.yml
-- group: design
-  href: https://artifacts.apis.io/arcwise/json-ld/arcwise-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/arcwise-context.jsonld
-- group: design
-  href: https://artifacts.apis.io/arcwise/vocabulary/arcwise-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/arcwise-vocabulary.yml
-- group: design
-  href: https://artifacts.apis.io/arcwise/data-model/arcwise-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/arcwise-data-model.yml
 - group: operate
   href: https://artifacts.apis.io/arcwise/changelog/arcwise-changelog.yml
   title: ''
@@ -71,21 +89,11 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/arcwise-llms.txt
-- group: other
-  href: https://artifacts.apis.io/arcwise/a2a/arcwise-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/arcwise-a2a.yml
 - group: agent
   href: https://artifacts.apis.io/arcwise/well-known/arcwise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arcwise-well-known.yml
-- group: other
-  href: https://artifacts.apis.io/arcwise/hosts/arcwise-hosts.yml
-  title: ''
-  type: Hosts
-  url: hosts/arcwise-hosts.yml
 - group: other
   href: https://artifacts.apis.io/arcwise/vendors/arcwise-vendors.yml
   title: ''
@@ -122,14 +130,28 @@ common:
   url: https://arcwise.app/privacy-policy
 - group: start
   title: ''
-  type: DeveloperPortal
+  type: Login
   url: https://sql.arcwise.app/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://arcwise.app/terms-paid
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/arcwisedata/
 coverage:
-  checked: '2026-10-29'
-  detail: Public documentation exists but no machine‑readable OpenAPI/GraphQL/AsyncAPI spec was found.
+  checked: '2026-11-04'
+  detail: Arcwise documents a single REST endpoint (GET https://backend.arcwise.app/api/event_history, Bearer personal access token) only in prose on its GitBook audit-logging page, and backend.arcwise.app serves no OpenAPI/Swagger/AsyncAPI document at any standard path.
   evidence:
+  - status: 200
+    url: https://docs.arcwise.app/arcwise-setup/audit-logging.md
   - status: 404
-    url: https://api.arcwise.app/openapi.json
+    url: https://backend.arcwise.app/openapi.json
+  - status: 404
+    url: https://backend.arcwise.app/docs
+  - status: 404
+    url: https://backend.arcwise.app/api/event_history
   reason: no-machine-readable-spec
   state: unreadable
 created: '2026-10-28'
@@ -160,17 +182,21 @@ jsonld:
   property_count: 25
   slug: arcwise-context
 layout: provider
-modified: '2026-10-28'
+modified: '2026-11-04'
 name: Arcwise
 nav: Providers
 network: true
-overview: 'Arcwise is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Metrics, Analytics, and Decision-Making.
+overview: 'Arcwise is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Metrics, Analytics, and Decision-Making.
 
 
   The Arcwise catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arcwise''s developer surface includes changelog, getting-started guide, documentation, and 16 more developer resources.'
+  Arcwise''s developer surface includes authentication, changelog, getting-started guide, documentation, and 17 more developer resources.'
+plans:
+- name: Arcwise Plans Pricing
+  plan_count: 0
+  slug: arcwise-plans-pricing
 random_paper: 6
 rate_limits:
 - limit_count: 0
@@ -178,16 +204,16 @@ rate_limits:
   slug: arcwise-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: Arcwise API Rules
-  rule_count: 10
+  rule_count: 43
   severity_counts:
-    error: 9
+    error: 41
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: arcwise-rules
 scopes:
 - name: Arcwise Scopes
@@ -196,56 +222,71 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.8
+  composite: 27.8
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 29
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 19.7
-    contract_quality: 24.9
-    developer_ergonomics: 31.0
-    discoverability: 57.1
-    operational_transparency: 26.3
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 14.7
+    developer_ergonomics: 22.6
+    discoverability: 73.2
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 29.8
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 4
+      derived: 1
       marker_coverage: 100.0
-      total: 4
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/arcwise/arcwise-2026-11-03T121116.png
 security:
 - kind: authentication
   name: Arcwise Authentication
   slug: arcwise-authentication
-  summary_line: 0 schemes
+  summary_line: 1 scheme
 - kind: domain-security
   name: Arcwise Domain Security
   slug: arcwise-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Arcwise Trust Center
+  slug: arcwise-trust-center
+  summary_line: SOC 2 Type II
 slug: arcwise
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Metrics
 - Analytics
 - Decision-Making
+- Business Intelligence
+- Root Cause Analysis
 website: https://arcwise.app
 ---

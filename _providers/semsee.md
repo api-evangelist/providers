@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-31'
+  score: 25.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Partner-gated Upload/Download integration that pushes ACORD-based application and submission data from an agency management system (AMS) into the Semsee platform for multi-carrier quoting. No public, '
@@ -137,9 +139,9 @@ rate_limits:
   slug: semsee-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 22.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -151,9 +153,9 @@ score:
     contract_governance: 0.0
     contract_quality: 29.7
     developer_ergonomics: 16.2
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 15.8
-  previous_composite: 22.2
+  previous_composite: 22.5
   provenance:
     mcp: first-party
   regulatory:
@@ -162,13 +164,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/semsee/semsee-2026-09-02T154832.png
 security:
 - kind: domain-security

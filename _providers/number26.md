@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://xs2a.tech26.de/v1/berlin-group/v1
@@ -44,7 +45,7 @@ apis:
   description: The default API from Number26 — 9 operation(s) for default.
   name: Number26 Default API
   slug: number26-default-api
-artifact_total: 4
+artifact_total: 5
 collections:
 - collection_type: open
   name: XS2A_N26 default API
@@ -152,26 +153,42 @@ network: true
 overview: 'Number26 publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Default API. Tagged areas include Company, Fintech, Banking, Neobank, and Mobile Banking.
 
 
+  The Number26 catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Number26''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 15 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Number26 API Rules
+  rule_count: 39
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 1
+  slug: number26-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 35.6
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
+    artifact_dirs: 19
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 46.3
     developer_ergonomics: 40.5
-    discoverability: 66.1
-    operational_transparency: 13.2
+    discoverability: 73.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +197,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.3
+  previous_composite: 35.6
   provenance:
     conformance: first-party
     contracts:
@@ -199,13 +216,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/number26/number26-2026-08-07T185726.png
 security:
 - kind: authentication

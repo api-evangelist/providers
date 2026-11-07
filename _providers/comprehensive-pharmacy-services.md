@@ -1,11 +1,15 @@
 ---
 access_model:
   confidence: low
+  gated: private
+  gated_source:
+  - x-api-posture
   label: Unknown
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,6 +80,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/comprehensive-pharmacy-services-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cps.com/our-solutions
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cps.com/our-solutions
 created: '2026-07-17'
 description: Comprehensive Pharmacy Services, now operating as CPS Solutions, LLC, is a healthcare company with more than 50 years of experience providing pharmacy and hospital solutions across the care continuum. It serves independent hospitals, health systems, integrated delivery networks (IDNs), and specialized health facilities with specialty pharmacy, pharmacy management, telepharmacy (24/7/365 support), 340B program compliance, supply chain management, rehabilitation services, and consulting. The company operates two proprietary SaaS platforms — CPS Optimizer for pharmacy management and TherigySTM for specialty pharmacy management — supported by 2,500+ healthcare professionals serving 800+ customers across the United States and Puerto Rico. No public API or developer program is currently published; this profile captures the company identity and public web surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comprehensive-pharmacy-services.png
@@ -86,35 +99,35 @@ network: true
 overview: 'Comprehensive Pharmacy Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Pharmacy, Healthcare, and Specialty Pharmacy.
 
 
-  Comprehensive Pharmacy Services'' developer surface includes engineering blog, support, and 7 more developer resources.'
+  Comprehensive Pharmacy Services'' developer surface includes engineering blog, support, documentation, API reference, and 7 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 15.5
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 12.9
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

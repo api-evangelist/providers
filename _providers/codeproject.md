@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-31'
+  score: 27.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -321,10 +326,10 @@ scopes:
   slug: codeproject-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
@@ -338,7 +343,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 39.8
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -352,13 +357,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 30.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/codeproject/codeproject-2026-06-20T174804.png
 security:
 - kind: authentication

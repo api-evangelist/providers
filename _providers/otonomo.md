@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -55,7 +62,7 @@ apis:
   description: The US API from Otonomo — 2 operation(s) for us.
   name: Otonomo US API
   slug: otonomo-us-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Otonomo Events Webhooks
@@ -148,7 +155,7 @@ network: true
 overview: 'Otonomo publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: EU API and US API. Tagged areas include Company, Connected Vehicles, Automotive, Fleet Management, and Telematics.
 
 
-  The Otonomo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Otonomo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 11 more developer resources.'
@@ -157,6 +164,19 @@ rate_limits:
 - limit_count: 0
   name: Otonomo Rate Limits
   slug: otonomo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Otonomo API Rules
+  rule_count: 52
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 2
+    warn: 1
+  slug: otonomo-rules
 scopes:
 - name: Otonomo Scopes
   scope_count: 0
@@ -164,23 +184,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.8
+  composite: 31.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 56.4
-    developer_ergonomics: 58.9
-    discoverability: 66.1
+    developer_ergonomics: 28.0
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 35.8
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,13 +217,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/otonomo/otonomo-2026-10-11T192059.png
 security:
 - kind: authentication

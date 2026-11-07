@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: false
     pagination_ratio: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -297,7 +299,7 @@ rules:
   slug: bored-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 29.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 55.0
@@ -309,15 +311,15 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
-    contract_quality: 54.4
+    contract_quality: 56.8
     developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 29.3
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
-      callable: 20.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -327,13 +329,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bored/bored-2026-06-20T173607.png
 security:
 - kind: domain-security

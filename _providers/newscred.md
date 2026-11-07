@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.cmp.optimizely.com/v3
@@ -137,7 +141,7 @@ apis:
   description: The Workflows API from Newscred — 2 operation(s) for workflows.
   name: Newscred Workflows API
   slug: newscred-workflows-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Newscred Cmp Webhooks
@@ -334,7 +338,7 @@ network: true
 overview: 'Newscred publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Brand Compliance API, Campaigns API, and 16 more. Tagged areas include Company, Content Marketing, Content Management, Digital Asset Management, and Marketing.
 
 
-  The Newscred catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Newscred catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Newscred''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 30 more developer resources.'
@@ -347,6 +351,19 @@ rate_limits:
 - limit_count: 2
   name: Newscred Rate Limits
   slug: newscred-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Newscred API Rules
+  rule_count: 60
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 5
+    warn: 12
+  slug: newscred-rules
 scopes:
 - name: Newscred Scopes
   scope_count: 3
@@ -354,28 +371,28 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 64.1
+  composite: 63.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 58.3
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 84.2
+    access_clarity: 53.9
+    contract_governance: 31.8
+    contract_quality: 59.1
+    developer_ergonomics: 37.5
+    discoverability: 73.2
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 64.1
+  previous_composite: 66.5
   provenance:
     conformance: first-party
     contracts:
@@ -391,13 +408,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/newscred/newscred-2026-09-02T150743.png
 security:
 - kind: authentication

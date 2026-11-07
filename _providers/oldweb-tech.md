@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -63,7 +75,7 @@ modified: '2026-10-29'
 name: oldweb-tech
 nav: Providers
 network: true
-overview: oldweb-tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Network, Utilities, Offline, Privacy, and Tools.
+overview: oldweb-tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Networks, Utilities, Offline, Privacy, and Tools.
 random_paper: 22
 rate_limits:
 - limit_count: 0
@@ -76,21 +88,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 8.3
+  composite: 7.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.3
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 8.3
   provenance:
     conformance: unknown
     mcp: derived
@@ -99,13 +119,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/oldweb-tech/oldweb-tech-2026-11-03T140514.png
 security:
 - kind: authentication
   name: Oldweb Tech Authentication
@@ -117,7 +139,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: oldweb-tech
 tags:
-- Network
+- Networks
 - Utilities
 - Offline
 - Privacy

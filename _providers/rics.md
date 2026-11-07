@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -82,7 +83,7 @@ apis:
   description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
   name: RICS (Royal Institution of Chartered Surveyors) Token API
   slug: rics-token-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -339,8 +340,24 @@ network: true
 overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Azure Storage API, Ola Merchant Post API, Payment API, and 4 more. Tagged areas include Real Estate, United Kingdom, Industry Body, Valuation, and Standards.
 
 
+  The RICS (Royal Institution of Chartered Surveyors) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 43 more developer resources.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: RICS (Royal Institution of Chartered Surveyors) API Rules
+  rule_count: 44
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 1
+  slug: rics-rules
 scopes:
 - name: Rics Scopes
   scope_count: 1
@@ -348,22 +365,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.6
+  composite: 38.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 35.0
+    artifact_dirs: 24
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 42.7
+    contract_governance: 18.2
+    contract_quality: 47.1
     developer_ergonomics: 28.0
     discoverability: 62.5
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -372,14 +389,17 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
@@ -389,13 +409,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rics/rics-2026-09-02T153806.png
 security:
 - kind: authentication

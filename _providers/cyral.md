@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   - '{''url'': ''https://www.cyral.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.varonis.com/platform/database-activity-monitoring — a different registrable domain (cyral.com -> varonis.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,9 +109,9 @@ overview: 'Cyral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 11
 score:
   band: emerging
-  composite: 15.7
+  composite: 14.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -120,10 +122,10 @@ score:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 48.2
-    operational_transparency: 21.1
-  previous_composite: 15.7
+    developer_ergonomics: 19.0
+    discoverability: 55.4
+    operational_transparency: 18.4
+  previous_composite: 14.2
   provenance:
     conformance: first-party
   regulatory:
@@ -132,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -159,6 +161,7 @@ tags:
 - Access Control
 - Terraform
 - SCIM
+- OAuth
 - Authentication
 website: https://www.cyral.com/
 ---

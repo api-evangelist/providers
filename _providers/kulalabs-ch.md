@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.9
-  scored_at: '2026-10-31'
+  score: 49.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://jobflow.kulalabs.ch
@@ -179,7 +190,7 @@ modified: '2026-10-30'
 name: kulalabs-ch
 nav: Providers
 network: true
-overview: 'kulalabs-ch publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Jobflow API, PazAIr API, and Agents API. Tagged areas include Software, AI, Water, Switzerland, and Automation.
+overview: 'kulalabs-ch publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Jobflow API, PazAIr API, and Agents API. Tagged areas include Software, Artificial Intelligence, Water, Switzerland, and Automation.
 
 
   The kulalabs-ch catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -201,29 +212,40 @@ rules:
     warn: 1
   slug: kulalabs-ch-rules
 score:
-  band: thin
-  composite: 28.5
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.9
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 18.2
-    contract_quality: 30.0
-    developer_ergonomics: 39.8
-    discoverability: 65.0
+    contract_quality: 24.5
+    developer_ergonomics: 23.1
+    discoverability: 75.0
     operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 31.7
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 45
     mcp: first-party
     skills: unknown
   regulatory:
@@ -232,12 +254,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/kulalabs-ch/kulalabs-ch-2026-11-03T134548.png
 security:
 - kind: domain-security
   name: Kulalabs Ch Domain Security
@@ -254,7 +277,7 @@ skills:
 slug: kulalabs-ch
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Water
 - Switzerland
 - Automation

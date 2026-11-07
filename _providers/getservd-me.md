@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-31'
+  score: 18.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Servd MCP (Machine Control Protocol) API for managing venues and AI ordering.
@@ -133,28 +144,30 @@ modified: '2026-10-30'
 name: getservd-me
 nav: Providers
 network: true
-overview: 'getservd-me is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FoodTech, Commerce, SaaS, and Restaurants.
+overview: 'getservd-me is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Commerce, Software-as-a-Service, and Restaurant.
 
 
   getservd-me''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 12 more developer resources.'
 random_paper: 19
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 19.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 57.1
-    operational_transparency: 15.8
+    developer_ergonomics: 29.8
+    discoverability: 64.3
+    operational_transparency: 7.9
+  previous_composite: 29.4
   provenance:
     conformance: first-party
     mcp: unknown
@@ -163,13 +176,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/getservd-me/getservd-me-2026-11-03T132756.png
 security:
 - kind: domain-security
   name: Getservd Me Domain Security
@@ -178,9 +193,9 @@ security:
 slug: getservd-me
 tags:
 - Company
-- FoodTech
+- Food Tech
 - Commerce
-- SaaS
-- Restaurants
+- Software-as-a-Service
+- Restaurant
 website: https://getservd.me/
 ---

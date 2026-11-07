@@ -1,11 +1,18 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'An undocumented Model Context Protocol server operated by Apollo Global Management on its own API host. Its existence is established by two first-party discovery documents fetched on 2026-09-04: RFC 8'
@@ -139,9 +147,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 19.6
+  composite: 20.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -153,9 +161,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 20.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -165,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

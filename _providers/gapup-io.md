@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API for Gapup platform (no machine-readable contract discovered)
@@ -184,7 +196,7 @@ modified: '2026-10-30'
 name: gapup-io
 nav: Providers
 network: true
-overview: 'gapup-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Finance, Operations, Compliance, and Enterprise.
+overview: 'gapup-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Finance, Compliance, and Enterprise.
 
 
   The gapup-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -210,29 +222,31 @@ rules:
     warn: 1
   slug: gapup-io-rules
 score:
-  band: developing
-  composite: 42.5
+  band: thin
+  composite: 31.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 60.2
+    artifact_dirs: 20
+    catalog_earned: 55.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.9
+    catalog_gap: 59.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 35.6
     contract_quality: 17.4
-    developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 26.3
+    developer_ergonomics: 17.9
+    discoverability: 55.4
+    operational_transparency: 13.2
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 1
       marker_coverage: 100.0
-      total: 2
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -245,13 +259,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/gapup-io/gapup-io-2026-11-03T132522.png
 security:
 - kind: domain-security
   name: Gapup Io Domain Security
@@ -267,9 +282,8 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
 slug: gapup-io
 tags:
-- AI
+- Artificial Intelligence
 - Finance
-- Operations
 - Compliance
 - Enterprise
 website: https://www.gapup.io/

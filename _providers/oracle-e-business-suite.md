@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1612,9 +1613,9 @@ rules:
   slug: oracle-e-business-suite-spectral-rules
 score:
   band: strong
-  composite: 59.4
+  composite: 58.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
@@ -1627,8 +1628,8 @@ score:
     contract_quality: 65.9
     developer_ergonomics: 82.1
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 59.4
+    operational_transparency: 42.1
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1642,13 +1643,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/oracle-e-business-suite/oracle-e-business-suite-2026-06-20T191127.png
 security:
 - kind: authentication

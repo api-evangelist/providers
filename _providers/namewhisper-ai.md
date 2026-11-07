@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.6
-  scored_at: '2026-10-31'
+  score: 43.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 18
@@ -245,9 +260,9 @@ scopes:
   summary_line: 2 scopes · erc8128_signed_request
 score:
   band: developing
-  composite: 40.8
+  composite: 41.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -259,9 +274,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 70.0
-    operational_transparency: 52.6
-  previous_composite: 40.8
+    discoverability: 80.0
+    operational_transparency: 50.0
+  previous_composite: 41.4
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -273,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

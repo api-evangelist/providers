@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 12.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The unified REST entry point for all crosschain operations on Across — request swap/bridge quotes and approval data, execute embedded crosschain actions on the destination chain, run gasless flows, en
@@ -141,9 +142,9 @@ overview: 'Across is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 3
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -155,9 +156,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 22.9
+    discoverability: 75.0
+    operational_transparency: 13.2
+  previous_composite: 23.6
   provenance:
     mcp: first-party
   regulatory:
@@ -166,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

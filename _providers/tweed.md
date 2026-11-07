@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -98,7 +99,7 @@ apis:
   description: The tickets API from Tweed — 1 operation(s) for tickets.
   name: Tweed Tickets API
   slug: tweed-tickets-api
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Tweed Webhooks
@@ -257,30 +258,43 @@ network: true
 overview: 'Tweed publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Audit Event Mappings API, Auth API, and 9 more. Tagged areas include Company, Payments, Cryptocurrency, Wallets, and NFT.
 
 
-  The Tweed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tweed catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tweed''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, sandbox, and 17 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Tweed API Rules
+  rule_count: 49
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 6
+    warn: 4
+  slug: tweed-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 38.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 4.5
-    contract_quality: 45.5
+    contract_governance: 18.2
+    contract_quality: 46.4
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -296,13 +310,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tweed/tweed-2026-09-02T164612.png
 security:
 - kind: authentication

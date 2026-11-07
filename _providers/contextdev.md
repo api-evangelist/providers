@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -24,18 +31,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.0
-  scored_at: '2026-10-31'
+  score: 59.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -186,7 +194,7 @@ apis:
   description: Inspect and retry batch and monitor webhook deliveries.
   name: Context.dev Webhooks API
   slug: contextdev-webhooks-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Contextdev Webhooks
@@ -446,7 +454,7 @@ network: true
 overview: 'Context.dev publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brand Intelligence API, Monitors API, Parsing API, and 12 more. Tagged areas include Web Scraping, Brand Intelligence, Data Enrichment, AI Agents, and Web Data.
 
 
-  The Context.dev catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Context.dev catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Context.dev''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 38 more developer resources.'
@@ -462,6 +470,19 @@ rate_limits:
 - limit_count: 8
   name: Contextdev Rate Limits
   slug: contextdev-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Context.dev API Rules
+  rule_count: 62
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 2
+    warn: 9
+  slug: contextdev-rules
 scopes:
 - name: Contextdev Scopes
   scope_count: 2
@@ -469,30 +490,30 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 70.2
+  composite: 72.9
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 64.0
+    artifact_dirs: 34
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.9
   facets:
     access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 59.6
+    contract_governance: 31.8
+    contract_quality: 63.9
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 68.6
+    discoverability: 75.0
+    operational_transparency: 65.8
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 62.5
       total: 24
     mcp: first-party
     skills: first-party
@@ -502,13 +523,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/contextdev/contextdev-2026-07-25T210330.png
 security:
 - kind: authentication

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-10-31'
+  score: 60.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 185
   human_in_the_loop: 6
@@ -337,6 +350,14 @@ asyncapis:
   name: Orq Webhooks
   slug: orq-webhooks
 common:
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://orq.ai/legal/terms-of-service
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/orq-ai
 - group: agent
   href: https://artifacts.apis.io/orq/agentic-access/orq-agentic-access.yml
   title: ''
@@ -412,11 +433,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/orq-security.txt
-- group: auth
-  href: https://artifacts.apis.io/orq/well-known/orq-docs-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/orq-docs-security.txt
 - group: agent
   href: https://artifacts.apis.io/orq/well-known/orq-well-known.yml
   title: ''
@@ -450,10 +466,6 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://orq.ai/
-- group: start
-  title: ''
-  type: DeveloperPortal
   url: https://orq.ai/
 - group: docs
   title: ''
@@ -523,7 +535,7 @@ modified: '2026-10-21'
 name: Orq.ai
 nav: Providers
 network: true
-overview: 'Orq.ai publishes 59 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Feedback API, Agent Schedules API, Agents API, and 56 more. Tagged areas include AI, Platform, Enterprise, Governance, and SoftwareFactory.
+overview: 'Orq.ai publishes 59 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Feedback API, Agent Schedules API, Agents API, and 56 more. Tagged areas include Artificial Intelligence, Platform, Enterprise, Governance, and SoftwareFactory.
 
 
   The Orq.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -537,34 +549,42 @@ plans:
 random_paper: 2
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 99
   extends:
   - spectral:oas
   name: Orq.ai API Rules
-  rule_count: 16
+  rule_count: 58
   severity_counts:
-    error: 6
+    error: 37
     hint: 0
     info: 2
-    warn: 8
+    warn: 19
   slug: orq-rules
 score:
   band: strong
-  composite: 58.5
+  composite: 55.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 26
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 55.3
+    access_clarity: 48.7
     contract_governance: 35.6
-    contract_quality: 71.7
-    developer_ergonomics: 63.7
-    discoverability: 66.1
-    operational_transparency: 34.2
+    contract_quality: 75.1
+    developer_ergonomics: 33.9
+    discoverability: 73.2
+    operational_transparency: 39.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -586,13 +606,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/orq/orq-2026-11-03T140733.png
 security:
 - kind: authentication
   name: Orq Authentication
@@ -614,7 +635,7 @@ skills:
   slug: orq-manage-identities
 slug: orq
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 - Governance

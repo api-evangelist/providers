@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,6 +65,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://arenaphysica.com/privacy-policy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.arenaphysica.com/
 created: '2026-07-17'
 description: Arena AI (now operating as Arena Physica) is a New York-headquartered applied-research company building what it calls "electromagnetic superintelligence." Its flagship product, Atlas, is an AI-powered hardware-engineering platform that pairs general intelligence with deterministic physics models to accelerate the design, verification, and debugging of electronic and RF hardware. Atlas ingests telemetry, schematics, CAD files, and firmware, then connects via API or MCP (Model Context Protocol) to engineering toolchains such as Jira, GitHub, Altium, Cadence, and SPICE simulators, and to test equipment from vendors like Keysight and Tektronix. Atlas RF Studio, the company's RF design tool, is currently in beta. The company operates from New York City (HQ), San Francisco, and Los Angeles.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arena-ai.png
@@ -74,13 +80,13 @@ network: true
 overview: 'Arena AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Artificial Intelligence, Hardware Engineering, and Radio Frequency.
 
 
-  Arena AI''s developer surface includes engineering blog and 5 more developer resources.'
+  Arena AI''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 22
 score:
   band: minimal
   composite: 9.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,8 +114,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -132,5 +138,8 @@ tags:
 - MCP
 - Applied Research
 - Semiconductors
+- Enterprise
+- Data
+- Analytics
 website: https://arenaphysica.com/
 ---

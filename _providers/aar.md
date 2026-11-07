@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -213,7 +217,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.0
     catalog_earned_first_party: 16.0
     catalog_gap: 64.0
@@ -236,8 +240,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

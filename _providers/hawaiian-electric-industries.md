@@ -5,7 +5,10 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
@@ -154,7 +158,7 @@ rate_limits:
   slug: hawaiian-electric-industries-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 25.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -168,9 +172,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 67.9
+    discoverability: 74.1
     operational_transparency: 31.6
-  previous_composite: 24.6
+  previous_composite: 25.2
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +183,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

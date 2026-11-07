@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -22,21 +23,22 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 27.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -164,7 +166,7 @@ arazzos:
 - description: Read a workspace, branch on provisioning state, list its keys, and list provider offerings.
   name: Azure Quantum Workspace Bootstrap
   slug: microsoft-quantum-workspace-bootstrap-workflow
-artifact_total: 54
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Azure Quantum Workspace Services
@@ -194,6 +196,97 @@ collections:
   name: Azure Quantum Workspace Services Offerings Workspaces API
   slug: open-microsoft-quantum-workspaces-api
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/rules/microsoft-quantum-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-quantum-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/rules/microsoft-quantum-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-quantum-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/vocabulary/microsoft-quantum-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-quantum-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/data-model/microsoft-quantum-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-quantum-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/microsoft-quantum/changelog/microsoft-quantum-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/microsoft-quantum-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/errors/microsoft-quantum-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-quantum-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-quantum/conformance/microsoft-quantum-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-quantum-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-quantum/overlays/microsoft-quantum-offerings-api-phrasing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-quantum-offerings-api-phrasing-overlay.yaml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-quantum/llms/microsoft-quantum-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-quantum-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/microsoft-quantum/well-known/microsoft-quantum-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-quantum-security.txt
+- group: agent
+  href: https://artifacts.apis.io/microsoft-quantum/well-known/microsoft-quantum-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-quantum-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-quantum/hosts/microsoft-quantum-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-quantum-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-quantum/vendors/microsoft-quantum-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-quantum-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-quantum/packages/microsoft-quantum-packages.yml
+  title: ''
+  type: Packages
+  url: packages/microsoft-quantum-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/en-us
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: auth
+  href: https://artifacts.apis.io/microsoft-quantum/security/microsoft-quantum-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-quantum-trust-center.yml
 - group: company
   title: ''
   type: Website
@@ -562,10 +655,10 @@ network: true
 overview: 'Microsoft Azure Quantum publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Offerings API, Operations API, Subscriptions API, and 5 more. Tagged areas include Quantum, Quantum Computing, Microsoft Azure, Microsoft, and Q#.
 
 
-  The Microsoft Azure Quantum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Microsoft Azure Quantum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Azure Quantum''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, signup flow, and 67 more developer resources.'
+  Microsoft Azure Quantum''s developer surface includes changelog, support, authentication, developer portal, documentation, getting-started guide, pricing, and 86 more developer resources.'
 plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 10
@@ -590,50 +683,63 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-quantum-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Microsoft Azure Quantum API Rules
+  rule_count: 59
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 3
+    warn: 8
+  slug: microsoft-quantum-rules
 scopes:
 - name: Microsoft Quantum Scopes
   scope_count: 2
   slug: microsoft-quantum-scopes
-  summary_line: 2 scopes · clientCredentials/implicit
+  summary_line: 2 scopes · implicit/clientCredentials
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 70.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 67.3
+    artifact_dirs: 34
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 47.8
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.3
   facets:
-    access_clarity: 92.1
-    contract_governance: 9.8
+    access_clarity: 100.0
+    contract_governance: 22.0
     contract_quality: 54.5
     developer_ergonomics: 67.9
-    discoverability: 64.3
+    discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 63.3
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 80.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/microsoft-quantum/microsoft-quantum-2026-06-20T185529.png
 security:
 - kind: authentication
@@ -648,6 +754,10 @@ security:
   name: Microsoft Quantum Vulnerability Disclosure
   slug: microsoft-quantum-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Quantum Trust Center
+  slug: microsoft-quantum-trust-center
+  summary_line: GDPR
 slug: microsoft-quantum
 tags:
 - Quantum

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -15,7 +18,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,18 +32,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-31'
+  score: 49.8
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -304,7 +308,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 59.5
+  composite: 66.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -316,11 +320,11 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 80.4
-    discoverability: 70.0
-    operational_transparency: 86.8
-  previous_composite: 59.5
+    discoverability: 80.0
+    operational_transparency: 84.2
+  previous_composite: 66.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -331,8 +335,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

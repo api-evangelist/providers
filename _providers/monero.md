@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -256,10 +258,10 @@ rules:
     warn: 5
   slug: monero-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -273,7 +275,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 57.1
     operational_transparency: 21.1
-  previous_composite: 26.5
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +289,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/monero/monero-2026-06-20T185722.png
 security:
 - kind: domain-security

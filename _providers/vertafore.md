@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   gated: partner
   gated_source:
   - tag:Partner Gated
@@ -10,6 +10,7 @@ access_model:
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -28,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: The newest and preferred REST API for AMS360, the flagship property and casualty agency management system. It exposes agency data as REST resources - Customers, Policies, Service Agreements, Invoices,
@@ -152,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 21.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -115,7 +116,7 @@ apis:
   description: The Risk API from Galileo Financial Technologies — 1 operation(s) for risk.
   name: Galileo Financial Technologies Risk API
   slug: galileo-fs-risk-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Galileo Financial Technologies Pro Config API
@@ -211,6 +212,9 @@ network: true
 overview: 'Galileo Financial Technologies publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 14 more. Tagged areas include Fintech, Banking as a Service, Card Issuing, Banking, and Payments.
 
 
+  The Galileo Financial Technologies catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Galileo Financial Technologies'' developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Galileo Fs Plans Pricing
@@ -221,25 +225,38 @@ rate_limits:
 - limit_count: 2
   name: Galileo Fs Rate Limits
   slug: galileo-fs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Galileo Financial Technologies API Rules
+  rule_count: 48
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 1
+  slug: galileo-fs-rules
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 45.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 16.7
     discoverability: 73.2
     operational_transparency: 5.3
-  previous_composite: 23.4
+  previous_composite: 23.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,13 +270,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/galileo-fs/galileo-fs-2026-06-20T181643.png
 security:
 - kind: authentication

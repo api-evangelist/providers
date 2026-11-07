@@ -1,17 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-31'
+  score: 42.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,7 +64,7 @@ apis:
   description: The Polygon API from Allium — 1 operation(s) for polygon.
   name: Allium Polygon API
   slug: allium-polygon-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Allium Webhooks
@@ -255,7 +258,7 @@ network: true
 overview: 'Allium publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Explorer API, Ping API, and Polygon API. Tagged areas include Company, Data Analytics, Blockchain, Cryptocurrency, and Web3.
 
 
-  The Allium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Allium catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 27 more developer resources.'
@@ -264,25 +267,38 @@ plans:
   plan_count: 8
   slug: allium-plans-pricing
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Allium API Rules
+  rule_count: 48
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 4
+    warn: 1
+  slug: allium-rules
 score:
   band: strong
-  composite: 60.6
+  composite: 62.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 51.5
     developer_ergonomics: 64.3
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 39.5
-  previous_composite: 52.7
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,13 +315,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/allium/allium-2026-07-25T195712.png
 security:
 - kind: authentication

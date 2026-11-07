@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
   - '{''url'': ''https://www.fermyon.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.akamai.com/products/akamai-functions — a different registrable domain (fermyon.com -> akamai.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
@@ -28,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -38,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -121,7 +126,7 @@ apis:
   description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
   name: Fermyon Variable Pairs API
   slug: fermyon-variable-pairs-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: Fermyon Cloud accounts API
@@ -367,6 +372,9 @@ network: true
 overview: 'Fermyon publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Auth Tokens API, and 12 more. Tagged areas include Compute, Functions, WebAssembly, Serverless, and Edge Computing.
 
 
+  The Fermyon catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Fermyon''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, CLI, changelog, and 32 more developer resources.'
 plans:
 - name: Fermyon Plans Pricing
@@ -380,32 +388,45 @@ rate_limits:
 - limit_count: 15
   name: Fermyon Rate Limits
   slug: fermyon-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Fermyon API Rules
+  rule_count: 45
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 4
+  slug: fermyon-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 60.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 59.0
+    artifact_dirs: 29
+    catalog_earned: 63.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 4.6
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 40.3
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 46.4
     developer_ergonomics: 74.4
-    discoverability: 57.1
-    operational_transparency: 63.2
-  previous_composite: 57.5
+    discoverability: 64.3
+    operational_transparency: 60.5
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 14
     mcp: derived
     skills: derived
@@ -415,13 +436,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fermyon/fermyon-2026-06-20T181140.png
 security:
 - kind: authentication

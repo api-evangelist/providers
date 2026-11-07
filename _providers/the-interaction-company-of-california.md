@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://poke.com
@@ -44,7 +45,7 @@ apis:
   description: Send messages to Poke programmatically.
   name: The Interaction Company Of California Messaging API
   slug: the-interaction-company-of-california-messaging-api
-artifact_total: 5
+artifact_total: 6
 collections:
 - collection_type: open
   name: Poke Messaging API
@@ -177,27 +178,43 @@ network: true
 overview: 'The Interaction Company Of California publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Messaging API. Tagged areas include Company, AI Assistant, Artificial Intelligence, Agents, and Messaging.
 
 
+  The The Interaction Company Of California catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: The Interaction Company Of California API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: the-interaction-company-of-california-rules
 score:
   band: developing
-  composite: 39.5
+  composite: 39.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 32.0
+    artifact_dirs: 20
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
+    access_clarity: 38.2
+    contract_governance: 18.2
     contract_quality: 14.6
     developer_ergonomics: 70.8
-    discoverability: 57.1
-    operational_transparency: 44.7
-  previous_composite: 39.5
+    discoverability: 64.3
+    operational_transparency: 42.1
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -212,13 +229,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/the-interaction-company-of-california/the-interaction-company-of-california-2026-09-02T163455.png
 security:
 - kind: authentication

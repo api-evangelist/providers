@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The HTTP backend behind Voodoo's Publishing Platform (Publidash), the dashboard partner studios use to submit prototypes, run tests, and read analytics, monetization and IAP figures. The host is named
@@ -147,9 +160,9 @@ rate_limits:
   slug: voodoo-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,7 +175,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -171,7 +184,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 25.1
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -181,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

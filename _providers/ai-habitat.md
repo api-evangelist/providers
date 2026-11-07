@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -366,7 +373,7 @@ rules:
   slug: ai-habitat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 32.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 50.8
@@ -380,9 +387,9 @@ score:
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 73.8
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 39.5
-  previous_composite: 32.2
+  previous_composite: 32.9
   provenance:
     conformance: first-party
   regulatory:
@@ -391,8 +398,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

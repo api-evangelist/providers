@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://backend.openenvoy.io/public/api/v1
@@ -46,7 +47,7 @@ apis:
   description: Jobs in the system
   name: OpenEnvoy Job API
   slug: openenvoy-job-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: operate
   href: https://artifacts.apis.io/openenvoy/rate-limits/openenvoy-rate-limits.yml
@@ -154,6 +155,9 @@ network: true
 overview: 'OpenEnvoy publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Job API. Tagged areas include Accounts Payable, Accounts Receivable, Invoice Processing, Finance Automation, and Accounting.
 
 
+  The OpenEnvoy catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   OpenEnvoy''s developer surface includes documentation, API reference, support, engineering blog, pricing, getting-started guide, changelog, and 13 more developer resources.'
 plans:
 - name: Openenvoy Plans Pricing
@@ -164,25 +168,38 @@ rate_limits:
 - limit_count: 0
   name: Openenvoy Rate Limits
   slug: openenvoy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: OpenEnvoy API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: openenvoy-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 49.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 63.2
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 50.2
     developer_ergonomics: 53.7
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 48.5
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -198,13 +215,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/openenvoy/openenvoy-2026-09-02T150855.png
 security:
 - kind: authentication

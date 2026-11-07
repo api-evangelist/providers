@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-31'
+  score: 38.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -544,16 +545,16 @@ json_schemas:
   property_count: 4
   slug: checkout-api-cardconfiguration
 - name: CardMode3DS
-  property_count: 0
+  property_count: 2
   slug: checkout-api-cardmode3ds
 - name: CardMode3DSPayment
-  property_count: 0
+  property_count: 13
   slug: checkout-api-cardmode3dspayment
 - name: CardModeCapture
   property_count: 0
   slug: checkout-api-cardmodecapture
 - name: CardModePayment
-  property_count: 0
+  property_count: 13
   slug: checkout-api-cardmodepayment
 - name: CreateTemplateRequest
   property_count: 5
@@ -991,10 +992,10 @@ json_schemas:
   property_count: 16
   slug: ecommerce-api-unmatchedrefundbaserequest
 - name: Using Encrypted Card
-  property_count: 0
+  property_count: 5
   slug: ecommerce-api-unmatchedrefundencryptedcardrequest
 - name: Using Reuse Token
-  property_count: 0
+  property_count: 7
   slug: ecommerce-api-unmatchedrefundtokenrequest
 - name: VerificationAdvice
   property_count: 3
@@ -1045,7 +1046,7 @@ json_schemas:
   property_count: 1
   slug: order-service-api-baseregionalparameters
 - name: BatchDetails
-  property_count: 0
+  property_count: 8
   slug: order-service-api-batchdetails
 - name: BatchDetailsUpdatable
   property_count: 3
@@ -1129,7 +1130,7 @@ json_schemas:
   property_count: 0
   slug: order-service-api-documentstatusenum
 - name: Domestic Bank Account
-  property_count: 0
+  property_count: 6
   slug: order-service-api-domesticaccount
 - name: DomesticSettlementAccount
   property_count: 0
@@ -1162,40 +1163,40 @@ json_schemas:
   property_count: 12
   slug: order-service-api-hardwaremerchant
 - name: HardwareOrder
-  property_count: 0
+  property_count: 2
   slug: order-service-api-hardwareorder
 - name: HardwareOrderData
   property_count: 7
   slug: order-service-api-hardwareorderdata
 - name: HardwareOrderResponse
-  property_count: 0
+  property_count: 10
   slug: order-service-api-hardwareorderresponse
 - name: Point of Interaction
   property_count: 2
   slug: order-service-api-hardwarepoitype
 - name: HTTP 400 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror400
 - name: HTTP 401 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror401
 - name: HTTP 403 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror403
 - name: HTTP 404 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror404
 - name: HTTP 429 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror429
 - name: HTTP 500 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror500
 - name: HTTP 503 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror503
 - name: HTTP 504 Error
-  property_count: 0
+  property_count: 6
   slug: order-service-api-httperror504
 - name: IBAN
   property_count: 0
@@ -1207,7 +1208,7 @@ json_schemas:
   property_count: 15
   slug: order-service-api-internalallocatedinformation
 - name: InternalAllocatedInformationNewCompanyAndSite
-  property_count: 0
+  property_count: 1
   slug: order-service-api-internalallocatedinformationnewcompanyandsite
 - name: IpAddressv4v6
   property_count: 0
@@ -1225,7 +1226,7 @@ json_schemas:
   property_count: 10
   slug: order-service-api-merchantcontract
 - name: MerchantDocument
-  property_count: 0
+  property_count: 2
   slug: order-service-api-merchantdocument
 - name: MerchantName
   property_count: 0
@@ -1234,10 +1235,10 @@ json_schemas:
   property_count: 1
   slug: order-service-api-merchantnamewrapper
 - name: MerchantOrder
-  property_count: 0
+  property_count: 3
   slug: order-service-api-merchantorder
 - name: MerchantOrderResponse
-  property_count: 0
+  property_count: 13
   slug: order-service-api-merchantorderresponse
 - name: Name Details
   property_count: 6
@@ -1312,10 +1313,10 @@ json_schemas:
   property_count: 9
   slug: order-service-api-poinetworkconfig
 - name: PoiOrder
-  property_count: 0
+  property_count: 8
   slug: order-service-api-poiorder
 - name: PoiOrderResponse
-  property_count: 0
+  property_count: 13
   slug: order-service-api-poiorderresponse
 - name: PoiStatusEnum
   property_count: 0
@@ -1348,7 +1349,7 @@ json_schemas:
   property_count: 7
   slug: order-service-api-requireddocument
 - name: SEPA Bank Account
-  property_count: 0
+  property_count: 4
   slug: order-service-api-sepaaccount
 - name: SerialNumber
   property_count: 0
@@ -1825,7 +1826,7 @@ json_schemas:
   property_count: 19
   slug: reporting-api-reportparameters
 - name: ReportRecord
-  property_count: 0
+  property_count: 4
   slug: reporting-api-reportrecord
 - name: ReportsResponse
   property_count: 2
@@ -1879,9 +1880,9 @@ rules:
   slug: verifone-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 35.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -1891,11 +1892,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 53.2
-    developer_ergonomics: 59.5
+    contract_quality: 53.6
+    developer_ergonomics: 50.0
     discoverability: 71.4
     operational_transparency: 15.8
-  previous_composite: 36.5
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1909,13 +1910,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/verifone/verifone-2026-06-20T200926.png
 security:
 - kind: authentication

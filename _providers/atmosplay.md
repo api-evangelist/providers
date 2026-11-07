@@ -1,11 +1,14 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Open access
+  onboarding: open
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - sandbox
   trial: false
   try_now: false
 api_count: 0

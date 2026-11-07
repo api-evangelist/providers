@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -231,7 +232,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 41.3
     catalog_earned_first_party: 0.0
     catalog_gap: 73.8
@@ -263,8 +264,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

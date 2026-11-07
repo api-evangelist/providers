@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,7 +70,7 @@ apis:
   description: Order APIs enable a user to view all their active orders / sales as well as details for a single order.
   name: StockX Order API
   slug: stockx-order-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: StockX Public Batch API
@@ -226,12 +230,28 @@ network: true
 overview: 'StockX publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Catalog API, Listings API, and 1 more. Tagged areas include Company, Marketplace, E-Commerce, Sneakers, and Streetwear.
 
 
+  The StockX catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 22 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Stockx Rate Limits
   slug: stockx-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: StockX API Rules
+  rule_count: 62
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 2
+    warn: 6
+  slug: stockx-rules
 scopes:
 - name: Stockx Scopes
   scope_count: 2
@@ -239,30 +259,30 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
+  composite: 51.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 34.2
-    contract_governance: 18.2
-    contract_quality: 51.7
+    contract_governance: 31.8
+    contract_quality: 59.5
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 48.7
+    discoverability: 73.2
+    operational_transparency: 39.5
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -272,13 +292,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/stockx/stockx-2026-08-17T082124.png
 security:
 - kind: authentication

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 39
@@ -215,7 +216,7 @@ apis:
   description: The zoho-webhook-controller API from Netomi — 2 operation(s) for zoho-webhook-controller.
   name: Netomi Zoho Webhook Controller API
   slug: netomi-zoho-webhook-controller-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Netomi Events
@@ -403,37 +404,50 @@ network: true
 overview: 'Netomi publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Desk Rest API Controller API, Agent Desk Webhook Controller API, Asset Tracker Controller API, and 31 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Experience, and Customer Service.
 
 
-  The Netomi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Netomi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 29 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Netomi API Rules
+  rule_count: 48
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 8
+  slug: netomi-rules
 score:
   band: developing
-  composite: 53.2
+  composite: 52.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 47.8
-    developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 53.2
+    access_clarity: 35.5
+    contract_governance: 31.8
+    contract_quality: 52.5
+    developer_ergonomics: 61.3
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 33
     mcp: derived
     skills: derived
@@ -442,14 +456,13 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/netomi/netomi-2026-08-07T185015.png
 security:
 - kind: authentication

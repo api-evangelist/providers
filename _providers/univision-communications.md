@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: ViX is the world's largest Spanish-language streaming service offering over 65,000 hours of content across free (ad-supported) and premium subscription tiers. ViX provides programmatic advertising acc
@@ -154,7 +156,7 @@ score:
   band: emerging
   composite: 15.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
@@ -175,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

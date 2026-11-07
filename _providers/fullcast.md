@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-31'
+  score: 54.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Fullcast''s remote Model Context Protocol server, exposing go-to-market planning, territory and team hierarchy, coverage, targets, reporting, commissions and document operations to external AI clients '
@@ -66,7 +67,7 @@ apis:
   description: The oauth API from Fullcast — 5 operation(s) for oauth.
   name: Fullcast OAUTH API
   slug: fullcast-oauth-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Fullcast Copy Ai Webhooks
@@ -265,7 +266,7 @@ network: true
 overview: 'Fullcast publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, .well Known API, and 3 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
 
 
-  The Fullcast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Fullcast catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Fullcast''s developer surface includes authentication, documentation, support, getting-started guide, engineering blog, pricing, changelog, and 30 more developer resources.'
@@ -278,36 +279,49 @@ rate_limits:
 - limit_count: 0
   name: Fullcast Rate Limits
   slug: fullcast-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Fullcast API Rules
+  rule_count: 50
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 3
+    warn: 5
+  slug: fullcast-rules
 scopes:
 - name: Fullcast Scopes
   scope_count: 7
   slug: fullcast-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.2
+  band: developing
+  composite: 53.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 30
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 49.9
-    developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 44.7
-  previous_composite: 62.2
+    access_clarity: 46.1
+    contract_governance: 31.8
+    contract_quality: 56.0
+    developer_ergonomics: 63.7
+    discoverability: 75.0
+    operational_transparency: 42.1
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
@@ -320,14 +334,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fullcast/fullcast-2026-07-25T215257.png
 security:
 - kind: authentication

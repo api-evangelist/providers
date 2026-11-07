@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Server-side Memberstack Admin REST API for managing members, verifying tokens, and other administrative tasks.
@@ -209,7 +223,7 @@ modified: '2026-10-28'
 name: Memberstack
 nav: Providers
 network: true
-overview: 'Memberstack is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Membership, Webflow, SaaS, Authentication, and Payments.
+overview: 'Memberstack is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Membership, Webflow, Software-as-a-Service, Authentication, and Payments.
 
 
   The Memberstack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -244,29 +258,31 @@ scopes:
   slug: memberstack-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 43.3
+  band: thin
+  composite: 35.8
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 30
     catalog_earned: 78.8
     catalog_earned_first_party: 16.0
     catalog_gap: 36.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 32.9
     contract_governance: 22.0
-    contract_quality: 25.8
-    developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 50.0
+    contract_quality: 28.3
+    developer_ergonomics: 38.1
+    discoverability: 73.2
+    operational_transparency: 35.5
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 6
+      derived: 1
       marker_coverage: 100.0
-      total: 6
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -274,12 +290,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/memberstack/memberstack-2026-11-03T135442.png
 security:
 - kind: authentication
   name: Memberstack Authentication
@@ -293,7 +310,7 @@ slug: memberstack
 tags:
 - Membership
 - Webflow
-- SaaS
+- Software-as-a-Service
 - Authentication
 - Payments
 website: https://memberstack.com/

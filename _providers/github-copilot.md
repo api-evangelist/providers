@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,8 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,7 +31,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-31'
+  score: 49.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -117,7 +123,7 @@ arazzos:
 - description: Pull organization-wide Copilot metrics, then drill into a specific team's aggregated metrics.
   name: GitHub Copilot Team Metrics Report
   slug: github-copilot-team-metrics-report-workflow
-artifact_total: 192
+artifact_total: 193
 collections:
 - collection_type: postman
   name: GitHub Copilot REST API
@@ -144,6 +150,54 @@ collections:
   name: GitHub Copilot REST API
   slug: open-github-copilot
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://github.com/features/copilot
+- group: operate
+  href: https://artifacts.apis.io/github-copilot/rate-limits/github-copilot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/github-copilot-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/github-copilot/rules/github-copilot-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-copilot-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-copilot/rules/github-copilot-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-copilot-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-copilot/rules/github-copilot-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-copilot-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-copilot/vocabulary/github-copilot-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/github-copilot-vocabulary.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.github.com/en/rest/overview/breaking-changes
+- group: other
+  href: https://artifacts.apis.io/github-copilot/hosts/github-copilot-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/github-copilot-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/github-copilot/integrations/github-copilot-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/github-copilot-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/github-copilot/vendors/github-copilot-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/github-copilot-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/github-copilot/finops/github-copilot-finops.yml
   title: ''
@@ -198,11 +252,6 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/github-copilot-scopes.yml
-- group: build
-  href: https://artifacts.apis.io/github-copilot/packages/github-copilot-packages.yml
-  title: ''
-  type: Packages
-  url: packages/github-copilot-packages.yml
 - group: agent
   href: https://artifacts.apis.io/github-copilot/well-known/github-copilot-well-known.yml
   title: ''
@@ -218,11 +267,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/github-copilot-mcp.yml
-- group: agent
-  href: https://artifacts.apis.io/github-copilot/llms/github-copilot-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/github-copilot-llms.txt
 - group: other
   href: https://artifacts.apis.io/github-copilot/overlays/github-copilot-openapi-overlay.yaml
   title: ''
@@ -848,10 +892,10 @@ network: true
 overview: 'GitHub Copilot publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Content Exclusion API, Metrics API, and 9 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
 
 
-  The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 47 more developer resources.'
+  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 55 more developer resources.'
 plans:
 - name: Github Copilot Plans Pricing
   plan_count: 4
@@ -877,6 +921,18 @@ rules:
     warn: 5
   slug: github-copilot-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 110
+  extends:
+  - spectral:oas
+  name: GitHub Copilot API Rules
+  rule_count: 69
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 5
+  slug: github-copilot-rules
+- authorship: generated
   effective_rule_count: 61
   extends:
   - spectral:oas
@@ -895,23 +951,26 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.1
+  composite: 72.5
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 63.5
+    artifact_dirs: 38
+    catalog_earned: 68.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.5
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 2.4
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 67.0
     developer_ergonomics: 65.5
-    discoverability: 55.0
-    operational_transparency: 55.3
-  previous_composite: 65.6
+    discoverability: 58.3
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -927,13 +986,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/github-copilot/github-copilot-2026-06-20T181939.png
 security:
 - kind: authentication

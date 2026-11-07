@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
-  - finops
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -524,23 +532,26 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: strong
-  composite: 57.7
+  composite: 62.5
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 83.4
     catalog_earned_first_party: 20.0
     catalog_gap: 31.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 26.0
     developer_ergonomics: 70.8
-    discoverability: 62.5
-    operational_transparency: 60.5
-  previous_composite: 49.8
+    discoverability: 69.6
+    operational_transparency: 57.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -557,13 +568,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/academy-software-foundation/academy-software-foundation-2026-06-20T163501.png
 security:
 - kind: authentication

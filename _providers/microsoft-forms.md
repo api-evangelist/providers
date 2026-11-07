@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Microsoft Graph Forms API provides programmatic access to Microsoft Forms for creating and managing forms, surveys, and quizzes. Developers can retrieve form definitions, access response data, and
@@ -125,8 +127,8 @@ rate_limits:
   name: Microsoft Forms Rate Limits
   slug: microsoft-forms-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 43.0
@@ -139,18 +141,18 @@ score:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 45.2
     discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 26.5
+    operational_transparency: 10.5
+  previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

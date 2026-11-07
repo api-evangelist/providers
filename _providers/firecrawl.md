@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -13,6 +16,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,18 +30,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-31'
+  score: 40.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -97,7 +102,7 @@ apis:
   description: The Search API from Firecrawl — 1 operation(s) for search.
   name: Firecrawl Search API
   slug: firecrawl-search-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: Firecrawl Account API
@@ -255,6 +260,9 @@ network: true
 overview: 'Firecrawl publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent API, Billing API, and 7 more. Tagged areas include Crawling, Data Extraction, Web Scraping, URLs, and Artificial Intelligence.
 
 
+  The Firecrawl catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Firecrawl''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Firecrawl Plans Pricing
@@ -268,25 +276,38 @@ rate_limits:
 - limit_count: 5
   name: Firecrawl Rate Limits
   slug: firecrawl-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Firecrawl API Rules
+  rule_count: 59
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 1
+  slug: firecrawl-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 49.5
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 55.0
+    artifact_dirs: 18
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 48.7
-    developer_ergonomics: 50.0
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 47.8
+    developer_ergonomics: 46.4
+    discoverability: 68.3
+    operational_transparency: 36.8
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -301,13 +322,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/firecrawl/firecrawl-2026-06-20T181259.png
 security:
 - kind: authentication

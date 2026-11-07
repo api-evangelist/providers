@@ -1,0 +1,171 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: API reference for Appraisily services
+  name: Appraisily API
+  slug: appraisily-api
+artifact_total: 2
+common:
+- group: agent
+  href: https://artifacts.apis.io/appraisily-com/llms/appraisily-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/appraisily-com-llms.txt
+- group: other
+  href: https://artifacts.apis.io/appraisily-com/hosts/appraisily-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/appraisily-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/appraisily-com/vendors/appraisily-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/appraisily-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://appraisily.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://appraisily.com/privacy
+- group: other
+  title: ''
+  type: Leadership
+  url: https://appraisily.com/team
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Appraisily
+- group: auth
+  href: https://artifacts.apis.io/appraisily-com/security/appraisily-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/appraisily-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://appraisily.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://appraisily.com/how-it-works
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://appraisily.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://appraisily.com/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://appraisily.com/articles/
+coverage:
+  checked: '2026-11-01'
+  detail: API reference page exists but no OpenAPI, AsyncAPI, GraphQL, or other machine-readable contract was found.
+  evidence:
+  - status: 200
+    url: https://appraisily.com/api
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-11-01'
+description: Appraisily provides online art and antique appraisal services, offering signed appraisal reports for items such as artwork, antiques, jewelry, watches, furniture, and collectibles. Users can upload photos, receive professional valuations, and obtain documentation for insurance, tax, donation, or resale purposes. The platform combines expert appraisers with AI tools to deliver accurate market research and valuation reports.
+image: https://assets.appraisily.com/assets/static/homepage-20260423/hero/studio-authority-home-og-1200x630.jpg
+layout: provider
+modified: '2026-11-01'
+name: Appraisily
+nav: Providers
+network: true
+overview: 'Appraisily is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Antiques, Appraisal, Valuation, and E-Commerce.
+
+
+  Appraisily''s developer surface includes documentation, pricing, support, engineering blog, and 9 more developer resources.'
+random_paper: 10
+score:
+  band: minimal
+  composite: 10.2
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.8
+  facets:
+    access_clarity: 15.8
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.3
+    discoverability: 58.0
+    operational_transparency: 2.6
+  previous_composite: 16.0
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Appraisily Com Domain Security
+  slug: appraisily-com-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: appraisily-com
+tags:
+- Art
+- Antiques
+- Appraisal
+- Valuation
+- E-Commerce
+website: https://appraisily.com/
+---

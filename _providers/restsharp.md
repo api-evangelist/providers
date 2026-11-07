@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RestSharp is a simple REST and HTTP API client library for .NET, wrapping HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response
@@ -166,9 +168,9 @@ rules:
   slug: restsharp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -181,16 +183,16 @@ score:
     contract_quality: 10.7
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 20.0
+    operational_transparency: 26.3
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

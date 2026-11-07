@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -71,7 +73,7 @@ apis:
   description: The Development API - Layouts API from Tapcart — 1 operation(s) for development api - layouts.
   name: Tapcart Development API - Layouts API
   slug: tapcart-development-api-layouts-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Tapcart Webhooks
@@ -295,7 +297,7 @@ network: true
 overview: 'Tapcart publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 4 more. Tagged areas include Company, Mobile, Commerce, Shopify, and E-Commerce.
 
 
-  The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -307,25 +309,38 @@ plans:
   plan_count: 0
   slug: tapcart-price-estimates
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Tapcart API Rules
+  rule_count: 52
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 2
+    warn: 3
+  slug: tapcart-rules
 score:
   band: strong
-  composite: 63.1
+  composite: 64.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 2.8
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 55.2
+    discoverability: 71.7
+    operational_transparency: 44.7
+  previous_composite: 61.5
   provenance:
     conformance: derived
     contracts:
@@ -341,13 +356,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tapcart/tapcart-2026-08-17T082251.png
 security:
 - kind: authentication

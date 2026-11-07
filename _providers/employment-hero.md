@@ -1,16 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,23 +25,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-31'
+  score: 42.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -438,7 +445,7 @@ apis:
   description: Chart of Accounts
   name: Employment Hero Chart Of Accounts API
   slug: employment-hero-chart-of-accounts-api
-artifact_total: 101
+artifact_total: 102
 collections:
 - collection_type: open
   name: Employment Hero REST Bank Accounts API
@@ -684,6 +691,9 @@ network: true
 overview: 'Employment Hero publishes 79 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Certifications API, Cost Centres API, and 76 more. Tagged areas include Human Resources, HRIS, Payroll, Recruiting, and Employee Benefits.
 
 
+  The Employment Hero catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Employment Hero''s developer surface includes sandbox, getting-started guide, authentication, documentation, API reference, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Employment Hero Plans Pricing
@@ -694,6 +704,19 @@ rate_limits:
 - limit_count: 1
   name: Employment Hero Rate Limits
   slug: employment-hero-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Employment Hero API Rules
+  rule_count: 62
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 5
+    warn: 11
+  slug: employment-hero-rules
 scopes:
 - name: Employment Hero Scopes
   scope_count: 2
@@ -701,22 +724,22 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 62.0
+  composite: 59.4
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 60.0
+    artifact_dirs: 32
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
+    access_clarity: 57.9
+    contract_governance: 31.8
     contract_quality: 41.7
-    developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 60.5
+    developer_ergonomics: 56.5
+    discoverability: 80.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -724,7 +747,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 62.0
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -740,14 +763,13 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 38.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/employment-hero/employment-hero-2026-06-20T180642.png
 security:
 - kind: authentication

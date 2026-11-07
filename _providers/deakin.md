@@ -1,13 +1,13 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Institutional affiliation or federation membership required
+  confidence: low
+  label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
-  - identity-federation
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Deakin's Shibboleth identity provider, self-hosted and self-described. The EntityDescriptor at https://signon.deakin.edu.au/idp/shibboleth declares protocol support for SAML 2.0, a signing and an encr
@@ -172,9 +173,9 @@ rate_limits:
   slug: deakin-rate-limits
 score:
   band: emerging
-  composite: 13.3
+  composite: 12.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -185,7 +186,7 @@ score:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 4.4
-    developer_ergonomics: 19.0
+    developer_ergonomics: 16.7
     discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
@@ -195,7 +196,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 13.3
+  previous_composite: 12.9
   provenance:
     conformance: first-party
   regulatory:
@@ -204,8 +205,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

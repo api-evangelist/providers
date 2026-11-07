@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -18,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-31'
+  score: 19.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,7 +87,7 @@ apis:
   description: The Teams API from National Hockey League — 4 operation(s) for teams.
   name: National Hockey League Teams API
   slug: national-hockey-league-teams-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: NHL Web Game Center API
@@ -153,27 +155,43 @@ network: true
 overview: 'National Hockey League publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Game Center API, Players API, Schedule API, and 6 more. Tagged areas include Sports, Hockey, Entertainment, and Professional League.
 
 
+  The National Hockey League catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   National Hockey League''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: National Hockey League API Rules
+  rule_count: 44
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 1
+  slug: national-hockey-league-rules
 score:
   band: emerging
-  composite: 15.3
+  composite: 17.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 32.0
+    artifact_dirs: 10
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
-    catalog_max: 115.0
+    catalog_gap: 63.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 42.1
     developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 15.3
+  previous_composite: 17.0
   provenance:
     agentic_access: derived
     contracts:
@@ -187,13 +205,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/national-hockey-league/national-hockey-league-2026-06-20T190023.png
 security:
 - kind: domain-security

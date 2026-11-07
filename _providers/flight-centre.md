@@ -24,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.8
-  scored_at: '2026-10-31'
+  score: 13.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Iris is the NDC aggregator API of TPConnects, the Dubai NDC aggregator majority-owned by Flight Centre Travel Group. It gives travel sellers (OTAs, TMCs, consolidators and corporate booking tools) nor
@@ -209,7 +210,7 @@ rate_limits:
   slug: flight-centre-rate-limits
 score:
   band: emerging
-  composite: 17.0
+  composite: 17.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -223,7 +224,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 58.9
+    discoverability: 65.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -232,7 +233,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 17.0
+  previous_composite: 17.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

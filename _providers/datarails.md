@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -25,23 +25,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.9
-  scored_at: '2026-10-31'
+  score: 57.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +75,7 @@ apis:
   description: The Oauth API from Datarails — 1 operation(s) for oauth.
   name: Datarails OAUTH API
   slug: datarails-oauth-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: Datarails Finance OS MCP Server
@@ -285,6 +286,9 @@ network: true
 overview: 'Datarails publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Ready API, .well Known API, and 2 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
 
 
+  The Datarails catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 33 more developer resources.'
 plans:
 - name: Datarails Plans
@@ -295,6 +299,19 @@ rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits
   slug: datarails-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 72
+  extends:
+  - spectral:oas
+  name: Datarails API Rules
+  rule_count: 31
+  severity_counts:
+    error: 29
+    hint: 0
+    info: 1
+    warn: 1
+  slug: datarails-rules
 scopes:
 - name: Datarails Scopes
   scope_count: 1
@@ -302,30 +319,33 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 57.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 31
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 35.2
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 39.1
     developer_ergonomics: 61.9
-    discoverability: 65.0
-    operational_transparency: 57.9
-  previous_composite: 59.0
+    discoverability: 75.0
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: first-party
@@ -335,13 +355,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/datarails/datarails-2026-08-07T164205.png
 security:
 - kind: authentication

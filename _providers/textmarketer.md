@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.9
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,7 +148,7 @@ modified: '2026-10-27'
 name: Text Marketer
 nav: Providers
 network: true
-overview: 'Text Marketer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SMS, Marketing, UK, Business, and Communications.
+overview: 'Text Marketer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SMS, Marketing, United Kingdom, Business, and Communications.
 
 
   Text Marketer''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
@@ -146,22 +158,38 @@ plans:
   slug: textmarketer-plans-pricing
 random_paper: 16
 score:
-  band: thin
-  composite: 32.0
+  band: emerging
+  composite: 21.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 13
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.9
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 48.2
-    operational_transparency: 21.1
+    developer_ergonomics: 29.8
+    discoverability: 55.4
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 32.7
   provenance:
     mcp: unknown
   regulatory:
@@ -169,13 +197,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 11.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 8.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/textmarketer/textmarketer-2026-11-03T144515.png
 security:
 - kind: domain-security
   name: Textmarketer Domain Security
@@ -185,7 +215,7 @@ slug: textmarketer
 tags:
 - SMS
 - Marketing
-- UK
+- United Kingdom
 - Business
 - Communications
 website: https://www.textmarketer.co.uk/

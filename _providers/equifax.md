@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
   pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Equifax API platform provides programmatic access to Equifax''s consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized '
@@ -205,9 +213,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.4
+  composite: 45.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -219,9 +227,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 71.1
-  previous_composite: 45.4
+    discoverability: 73.2
+    operational_transparency: 68.4
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -231,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

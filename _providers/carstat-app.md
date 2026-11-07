@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-31'
+  score: 43.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +69,7 @@ apis:
   description: Decode a VIN into its manufacturer, model, model year, origin and build plant. It answers for vehicle classes the specification catalog does not cover.
   name: carstat-app VIN Decoding API
   slug: carstat-app-vin-decoding-api
-artifact_total: 10
+artifact_total: 16
 common:
 - group: agent
   href: https://artifacts.apis.io/carstat-app/agentic-access/carstat-app-agentic-access.yml
@@ -113,11 +126,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/carstat-app-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/carstat-app/well-known/carstat-app-cursor-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/carstat-app-cursor-security.txt
 - group: agent
   href: https://artifacts.apis.io/carstat-app/well-known/carstat-app-well-known.yml
   title: ''
@@ -174,6 +182,25 @@ common:
 created: '2026-10-30'
 description: Carstat provides a comprehensive vehicle data API offering specifications, VIN decoding, NHTSA recall information, and safety ratings. The RESTful service and native MCP server enable developers and AI agents to retrieve detailed car make, model, configuration, and safety data across global markets, supporting prepaid credit plans without monthly subscriptions.
 image: https://carstat.app/social-preview.png
+json_schemas:
+- name: recall
+  property_count: 7
+  slug: carstat-app-recall
+- name: safety_rating
+  property_count: 20
+  slug: carstat-app-safety-rating
+- name: search_results_response
+  property_count: 5
+  slug: carstat-app-search-results-response
+- name: vehicle_specs_response
+  property_count: 10
+  slug: carstat-app-vehicle-specs-response
+- name: vin_decode_response
+  property_count: 15
+  slug: carstat-app-vin-decode-response
+- name: vin_specs_response
+  property_count: 9
+  slug: carstat-app-vin-specs-response
 jsonld:
 - class_count: 10
   name: Carstat App Context
@@ -184,13 +211,13 @@ modified: '2026-10-30'
 name: carstat-app
 nav: Providers
 network: true
-overview: 'carstat-app publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Recalls API, Safety Ratings API, Vehicle Specifications API, and 1 more. Tagged areas include Company, Automotive, Data, API, and Vehicle.
+overview: 'carstat-app publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Recalls API, Safety Ratings API, Vehicle Specifications API, and 1 more. Tagged areas include Company, Automotive, Data, and Vehicles.
 
 
   The carstat-app catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  carstat-app''s developer surface includes CLI, changelog, pricing, getting-started guide, API reference, authentication, and 18 more developer resources.'
+  carstat-app''s developer surface includes CLI, changelog, pricing, getting-started guide, API reference, authentication, and 17 more developer resources.'
 plans:
 - name: Carstat App Plans Pricing
   plan_count: 2
@@ -198,46 +225,59 @@ plans:
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 105
   extends:
   - spectral:oas
   name: carstat-app API Rules
-  rule_count: 16
+  rule_count: 64
   severity_counts:
-    error: 14
+    error: 61
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: carstat-app-rules
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 43.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 75.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    artifact_dirs: 23
+    catalog_earned: 65.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.0
   facets:
-    access_clarity: 50.5
-    contract_governance: 79.1
-    contract_quality: 57.5
-    developer_ergonomics: 38.1
-    discoverability: 66.1
-    operational_transparency: 42.1
+    access_clarity: 36.8
+    contract_governance: 22.0
+    contract_quality: 66.7
+    developer_ergonomics: 28.6
+    discoverability: 57.1
+    operational_transparency: 34.2
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/carstat-app/carstat-app-2026-11-03T123418.png
 security:
 - kind: authentication
   name: Carstat App Authentication
@@ -252,7 +292,6 @@ tags:
 - Company
 - Automotive
 - Data
-- API
-- Vehicle
+- Vehicles
 website: https://carstat.app/
 ---

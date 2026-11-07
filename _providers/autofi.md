@@ -1,13 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Public reference, sales-gated credentials
+  confidence: low
+  gated_conflict: 'x-api-posture: private but 7 published API entries'
+  label: Unknown
   onboarding: unknown
   pricing: unknown
-  public: true
+  public: false
   source:
-  - openapi
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -80,7 +84,7 @@ apis:
   description: The Prequalification API from AutoFi — 1 operation(s) for prequalification.
   name: AutoFi Prequalification API
   slug: autofi-prequalification-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Autofi Webhooks
@@ -274,7 +278,7 @@ network: true
 overview: 'AutoFi publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Calculate Payment API, Dealers API, and 4 more. Tagged areas include Company, Automotive, Fintech, Digital Retail, and Auto Finance.
 
 
-  The AutoFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The AutoFi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   AutoFi''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, sandbox, and 28 more developer resources.'
@@ -287,6 +291,19 @@ rate_limits:
 - limit_count: 2
   name: Autofi Rate Limits
   slug: autofi-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: AutoFi API Rules
+  rule_count: 55
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 5
+    warn: 5
+  slug: autofi-rules
 scopes:
 - name: Autofi Scopes
   scope_count: 7
@@ -294,23 +311,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 52.0
+  composite: 53.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 56.4
     developer_ergonomics: 48.9
-    discoverability: 65.0
-    operational_transparency: 60.5
-  previous_composite: 52.0
+    discoverability: 75.0
+    operational_transparency: 57.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,13 +344,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/autofi/autofi-2026-07-25T201824.png
 security:
 - kind: authentication

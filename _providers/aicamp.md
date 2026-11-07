@@ -1,31 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: derived
+    dynamic_client_registration: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
-    pagination_ratio: na
-    protected_resource_metadata: verified
+    pagination_ratio: paginated
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-31'
+  score: 28.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -198,41 +214,43 @@ plans:
 random_paper: 19
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: AICamp API Rules
-  rule_count: 12
+  rule_count: 36
   severity_counts:
-    error: 10
+    error: 34
     hint: 0
     info: 1
     warn: 1
   slug: aicamp-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 29.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
-    contract_quality: 6.7
-    developer_ergonomics: 42.9
-    discoverability: 57.1
-    operational_transparency: 15.8
+    contract_quality: 13.4
+    developer_ergonomics: 27.4
+    discoverability: 64.3
+    operational_transparency: 7.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
   regulatory:
@@ -240,13 +258,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/aicamp/aicamp-2026-11-03T120445.png
 security:
 - kind: authentication
   name: Aicamp Authentication

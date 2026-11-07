@@ -1,12 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Free and unauthenticated
-  onboarding: unknown
-  pricing: free
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
   public: true
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The CHCO Council publishes its charter, leadership roster, working group output, policy memoranda, and federal human capital guidance through chcoc.gov (now hosted under opm.gov). The Council does not
@@ -183,9 +189,9 @@ rate_limits:
   slug: chief-human-capital-officers-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -197,22 +203,22 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 58.9
+    discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 13.1
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

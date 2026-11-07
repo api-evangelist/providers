@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.8
-  scored_at: '2026-10-31'
+  score: 35.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -240,7 +257,7 @@ modified: '2026-10-31'
 name: puckapi-com
 nav: Providers
 network: true
-overview: 'puckapi-com publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Basic lookup API, Model projections API, Multi Table API, and 3 more. Tagged areas include Sports, Hockey, Data, API, and Statistics.
+overview: 'puckapi-com publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Basic lookup API, Model projections API, Multi Table API, and 3 more. Tagged areas include Sports, Hockey, Data, and Statistics.
 
 
   The puckapi-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -275,34 +292,48 @@ scopes:
   slug: puckapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.0
+  band: developing
+  composite: 50.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 75.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 39.3
+    artifact_dirs: 29
+    catalog_earned: 57.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -13.2
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 48.4
-    developer_ergonomics: 75.5
-    discoverability: 65.0
-    operational_transparency: 55.8
+    access_clarity: 53.9
+    contract_governance: 35.6
+    contract_quality: 51.4
+    developer_ergonomics: 45.8
+    discoverability: 56.7
+    operational_transparency: 39.5
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/puckapi-com/puckapi-com-2026-11-03T141710.png
 security:
 - kind: authentication
   name: Puckapi Com Authentication
@@ -325,7 +356,6 @@ tags:
 - Sports
 - Hockey
 - Data
-- API
 - Statistics
 website: https://puckapi.com/
 ---

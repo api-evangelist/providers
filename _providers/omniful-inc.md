@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-31'
+  score: 26.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://prodapi.omniful.com
@@ -209,7 +210,7 @@ apis:
   description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
   name: Omniful, Inc. Webhooks API
   slug: omniful-inc-webhooks-api
-artifact_total: 73
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Omniful Inc Webhooks
@@ -440,7 +441,7 @@ network: true
 overview: 'Omniful publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Omniful, Inc. Background Jobs API, Omniful, Inc. Billing API, Omniful, Inc. Courier Partners API, and 31 more. Tagged areas include Company, Supply Chain, Fulfillment, Order Management, and Warehouse Management.
 
 
-  The Omniful catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Omniful catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Omniful''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 17 more developer resources.'
@@ -449,25 +450,38 @@ plans:
   plan_count: 0
   slug: omniful-inc-plans-pricing
 random_paper: 17
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Omniful API Rules
+  rule_count: 45
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 6
+  slug: omniful-inc-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 41.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 31.6
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 53.9
-    developer_ergonomics: 50.0
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 41.9
+    developer_ergonomics: 34.5
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 41.3
   provenance:
     contracts:
       callable: 100.0
@@ -481,13 +495,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/omniful-inc/omniful-inc-2026-08-07T190155.png
 security:
 - kind: authentication

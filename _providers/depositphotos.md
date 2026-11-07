@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -197,9 +201,9 @@ rules:
   slug: depositphotos-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.8
+  composite: 31.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
@@ -213,7 +217,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 31.8
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +231,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/depositphotos/depositphotos-2026-06-20T175928.png
 security:
 - kind: authentication

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -89,7 +90,7 @@ apis:
   description: The Webhooks API from Follow Up Boss — 2 operation(s) for webhooks.
   name: Follow Up Boss Webhooks API
   slug: follow-up-boss-webhooks-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Follow Up Boss Calls API
@@ -195,27 +196,43 @@ network: true
 overview: 'Follow Up Boss publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Deals API, Events API, and 6 more. Tagged areas include Real Estate, CRM, Lead Management, Sales Automation, and Follow Up.
 
 
+  The Follow Up Boss catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Follow Up Boss'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Follow Up Boss API Rules
+  rule_count: 47
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 1
+  slug: follow-up-boss-rules
 score:
   band: emerging
-  composite: 25.7
+  composite: 23.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 37.0
+    artifact_dirs: 14
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 40.5
+    contract_governance: 13.6
+    contract_quality: 3.4
+    developer_ergonomics: 34.5
     discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 25.7
+    operational_transparency: 21.1
+  previous_composite: 21.7
   provenance:
     agentic_access: derived
     contracts:
@@ -229,13 +246,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/follow-up-boss/follow-up-boss-2026-06-20T181354.png
 security:
 - kind: authentication

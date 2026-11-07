@@ -31,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -41,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -99,7 +100,7 @@ apis:
   description: Identify the patient based on personal information
   name: Vim Patient Identification API
   slug: vim-patient-identification-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Vim Webhooks
@@ -351,7 +352,7 @@ network: true
 overview: 'Vim publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token Retrieval API, Applications API, Appointments API, and 7 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
 
 
-  The Vim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Vim catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 41 more developer resources.'
@@ -364,6 +365,19 @@ rate_limits:
 - limit_count: 5
   name: Vim Rate Limits
   slug: vim-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Vim API Rules
+  rule_count: 56
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 6
+    warn: 5
+  slug: vim-rules
 scopes:
 - name: Vim Scopes
   scope_count: 4
@@ -371,22 +385,22 @@ scopes:
   summary_line: 4 scopes · implicit/clientCredentials
 score:
   band: strong
-  composite: 62.2
+  composite: 62.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 44.0
+    artifact_dirs: 32
+    catalog_earned: 48.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.7
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 54.8
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 57.7
     developer_ergonomics: 78.0
-    discoverability: 57.1
-    operational_transparency: 86.8
+    discoverability: 64.3
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -394,14 +408,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 62.7
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 55.6
       total: 9
     mcp: derived
     skills: derived
@@ -415,13 +429,12 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vim/vim-2026-08-17T082750.png
 security:
 - kind: authentication
@@ -456,6 +469,7 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
+- OAuth
 - Authentication
 website: https://getvim.com/
 ---

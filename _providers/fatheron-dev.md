@@ -1,11 +1,24 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-31'
+  score: 35.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 2
@@ -288,7 +302,7 @@ modified: '2026-10-30'
 name: fatheron-dev
 nav: Providers
 network: true
-overview: 'fatheron-dev publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Builders API, Catalog API, Domainers API, and 17 more. Tagged areas include Platform, API, DeveloperTools, Identity, and Mail.
+overview: 'fatheron-dev publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Builders API, Catalog API, Domainers API, and 17 more. Tagged areas include Platform, Developer Tools, Identity, and Mail.
 
 
   The fatheron-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -319,34 +333,48 @@ scopes:
   slug: fatheron-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.5
+  band: thin
+  composite: 31.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 77.7
+    artifact_dirs: 26
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.3
   facets:
-    access_clarity: 34.2
-    contract_governance: 79.1
-    contract_quality: 53.9
-    developer_ergonomics: 35.0
-    discoverability: 66.1
-    operational_transparency: 15.8
+    access_clarity: 17.1
+    contract_governance: 22.0
+    contract_quality: 55.1
+    developer_ergonomics: 16.1
+    discoverability: 57.1
+    operational_transparency: 11.8
+  previous_composite: 40.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/fatheron-dev/fatheron-dev-2026-11-03T131908.png
 security:
 - kind: authentication
   name: Fatheron Dev Authentication
@@ -363,8 +391,7 @@ skills:
 slug: fatheron-dev
 tags:
 - Platform
-- API
-- DeveloperTools
+- Developer Tools
 - Identity
 - Mail
 website: https://fatheron.dev/

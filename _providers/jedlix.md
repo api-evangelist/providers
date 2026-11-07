@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for managing EV charging schedules, retrieving vehicle status, creating charging plans, and accessing billing information.
@@ -133,23 +146,23 @@ overview: 'Jedlix is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Jedlix''s developer surface includes sandbox, authentication, getting-started guide, documentation, and 11 more developer resources.'
 random_paper: 16
 score:
-  band: thin
-  composite: 27.8
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 36.9
     discoverability: 62.5
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   previous_composite: 27.8
   regulatory:
     applies: true
@@ -157,13 +170,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/jedlix/jedlix-2026-11-03T134135.png
 security:
 - kind: authentication
   name: Jedlix Authentication

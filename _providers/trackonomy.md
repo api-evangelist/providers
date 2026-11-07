@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,6 +94,10 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/channel/UCIPF532gccb_Uh5kM8k4deA
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://trackonomy.ai/platform/
 created: '2026-07-17'
 description: Trackonomy is a supply chain visibility company that digitizes real-world operations with barely-there smart label sensors. Its SmartTape and THL Tape products provide item-level tracking, monitoring location, temperature, humidity, and light in real time, while its platform connects, automates, controls, and remediates operations processes at global scale for logistics, industrial, utilities, healthcare, government, and airline customers. Trackonomy is backed by 8VC. It advertises a customizable RESTful API and webhook-based real-time data exchange for platform customers, but publishes no public developer portal, API documentation, or SDKs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trackonomy.png
@@ -103,35 +109,35 @@ network: true
 overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Supply Chain, Logistics, and Asset Tracking.
 
 
-  Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
+  Trackonomy''s developer surface includes support, YouTube channel, documentation, and 11 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 11.7
+  composite: 11.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 50.0
-    operational_transparency: 13.2
-  previous_composite: 11.7
+    developer_ergonomics: 7.1
+    discoverability: 56.3
+    operational_transparency: 6.6
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -152,5 +158,7 @@ tags:
 - Asset Tracking
 - Smart Labels
 - Sensors
+- Real-Time-Tracking
+- Predictive Maintenance
 website: https://trackonomy.ai
 ---

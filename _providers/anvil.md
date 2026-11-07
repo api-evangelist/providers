@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.7
-  scored_at: '2026-10-31'
+  score: 57.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -249,10 +253,10 @@ rules:
     warn: 3
   slug: anvil-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -263,10 +267,10 @@ score:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 63.7
-    developer_ergonomics: 40.5
-    discoverability: 66.1
+    developer_ergonomics: 38.1
+    discoverability: 68.3
     operational_transparency: 28.9
-  previous_composite: 39.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -281,13 +285,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/anvil/anvil-2026-06-20T172029.png
 security:
 - kind: authentication

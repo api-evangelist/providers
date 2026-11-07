@@ -1,16 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-31'
+  score: 35.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -488,9 +492,9 @@ rules:
   slug: prime-intellect-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
+  composite: 53.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 75.3
     catalog_earned_first_party: 12.0
     catalog_gap: 39.8
@@ -500,15 +504,15 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 61.0
+    contract_quality: 60.7
     developer_ergonomics: 70.2
     discoverability: 71.4
     operational_transparency: 23.7
-  previous_composite: 51.1
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 20
@@ -518,13 +522,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/prime-intellect/prime-intellect-2026-06-20T192203.png
 security:
 - kind: authentication

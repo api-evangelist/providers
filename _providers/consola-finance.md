@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -47,6 +52,16 @@ asyncapis:
   name: Consola Finance Webhooks
   slug: consola-finance-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/consola-finance/hosts/consola-finance-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/consola-finance-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/consola-finance/vendors/consola-finance-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/consola-finance-vendors.yml
 - group: auth
   href: https://artifacts.apis.io/consola-finance/security/consola-finance-domain-security.yml
   title: ''
@@ -118,11 +133,6 @@ common:
   type: Conventions
   url: conventions/consola-finance-conventions.yml
 - group: agent
-  href: https://artifacts.apis.io/consola-finance/llms/consola-finance-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/consola-finance-llms.txt
-- group: agent
   href: https://artifacts.apis.io/consola-finance/well-known/consola-finance-well-known.yml
   title: ''
   type: WellKnown
@@ -146,7 +156,7 @@ overview: 'Consola Finance is listed with 1 API on the [APIs.io](https://apis.io
   The Consola Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Consola Finance''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
+  Consola Finance''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 13 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 3
@@ -158,10 +168,10 @@ scopes:
   slug: consola-finance-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 42.2
+  band: thin
+  composite: 36.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -169,21 +179,21 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 42.2
+    developer_ergonomics: 59.5
+    discoverability: 73.2
+    operational_transparency: 57.9
+  previous_composite: 36.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

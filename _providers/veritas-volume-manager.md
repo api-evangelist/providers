@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
@@ -151,8 +153,8 @@ rate_limits:
   name: Veritas Volume Manager Rate Limits
   slug: veritas-volume-manager-rate-limits
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 34.0
@@ -167,16 +169,16 @@ score:
     contract_quality: 30.5
     developer_ergonomics: 64.3
     discoverability: 57.1
-    operational_transparency: 50.0
-  previous_composite: 40.0
+    operational_transparency: 42.1
+  previous_composite: 39.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

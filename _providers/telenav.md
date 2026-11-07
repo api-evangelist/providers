@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Location-based semantic search for the connected car - onebox search with category, brand, corridor, polygon, and bounding-box filters, reverse geocoding, EV charge-station search, auto-suggest and wo
@@ -177,9 +178,9 @@ overview: 'Telenav is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 7
 score:
   band: developing
-  composite: 39.4
+  composite: 39.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -191,9 +192,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 39.4
+    discoverability: 64.3
+    operational_transparency: 26.3
+  previous_composite: 39.7
   provenance:
     conformance: derived
     mcp: derived
@@ -203,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

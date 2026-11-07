@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 30.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Gamma Public API generates presentations, documents, websites, and social posts from text. Everything runs asynchronously: create a generation, poll for status, and retrieve the result (gammaUrl, '
@@ -196,10 +199,10 @@ scopes:
   slug: gammaapp-scopes
   summary_line: 2 scopes
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -207,13 +210,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 65.0
-    operational_transparency: 44.7
-  previous_composite: 40.8
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,9 +231,9 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

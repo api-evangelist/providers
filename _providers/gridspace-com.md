@@ -1,34 +1,52 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
+- group: agent
+  href: https://artifacts.apis.io/gridspace-com/llms/gridspace-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/gridspace-com-llms.txt
 - group: other
   href: https://artifacts.apis.io/gridspace-com/vendors/gridspace-com-vendors.yml
   title: ''
@@ -148,10 +166,10 @@ modified: '2026-10-21'
 name: Gridspace
 nav: Providers
 network: true
-overview: 'Gridspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Voice AI, API, Regulated Compliance, Healthcare, and Insurance.
+overview: 'Gridspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Voice AI, Regulated Compliance, Healthcare, Insurance, and Fintech.
 
 
-  Gridspace''s developer surface includes changelog, authentication, pricing, engineering blog, getting-started guide, documentation, API reference, and 16 more developer resources.'
+  Gridspace''s developer surface includes changelog, authentication, pricing, engineering blog, getting-started guide, documentation, API reference, and 17 more developer resources.'
 plans:
 - name: Gridspace Com Plans Pricing
   plan_count: 4
@@ -159,21 +177,29 @@ plans:
 random_paper: 14
 score:
   band: thin
-  composite: 37.3
+  composite: 28.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.2
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 50.0
-    operational_transparency: 36.8
+    developer_ergonomics: 39.3
+    discoverability: 49.1
+    operational_transparency: 26.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -186,13 +212,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/gridspace-com/gridspace-com-2026-11-03T133053.png
 security:
 - kind: authentication
   name: Gridspace Com Authentication
@@ -205,7 +233,6 @@ security:
 slug: gridspace-com
 tags:
 - Voice AI
-- API
 - Regulated Compliance
 - Healthcare
 - Insurance

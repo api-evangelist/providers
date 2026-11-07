@@ -1,12 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -19,12 +24,13 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -34,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-31'
+  score: 31.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.attentivemobile.com/v1
@@ -275,7 +281,7 @@ apis:
 - description: 'Attentive''s GraphQL API (beta) at POST https://api.attentivemobile.com/v1/graphql, authenticated with the same application token as the REST API and gated by the same app scopes. The graph covers the '
   name: Attentive GraphQL API
   slug: attentive-graphql-api
-artifact_total: 69
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Attentive Webhooks
@@ -606,7 +612,7 @@ network: true
 overview: 'Attentive publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 16 more. Tagged areas include Company, MarTech, SMS Marketing, Email Marketing, and E-Commerce.
 
 
-  The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 35 more developer resources.'
@@ -619,6 +625,19 @@ rate_limits:
 - limit_count: 7
   name: Attentive Rate Limits
   slug: attentive-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Attentive API Rules
+  rule_count: 65
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 5
+    warn: 12
+  slug: attentive-rules
 scopes:
 - name: Attentive Scopes
   scope_count: 14
@@ -626,23 +645,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.7
+  composite: 77.4
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 61.0
+    artifact_dirs: 34
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 58.0
+    contract_governance: 18.2
+    contract_quality: 58.6
     developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 86.8
-  previous_composite: 69.7
+    discoverability: 73.2
+    operational_transparency: 84.2
+  previous_composite: 73.6
   provenance:
     conformance: derived
     contracts:
@@ -664,13 +683,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/attentive/attentive-2026-07-25T201630.png
 security:
 - kind: authentication

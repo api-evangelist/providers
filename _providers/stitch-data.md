@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,11 +36,16 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.6
-  scored_at: '2026-10-31'
+  score: 7.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
+- group: auth
+  href: https://artifacts.apis.io/stitch-data/well-known/stitch-data-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/stitch-data-status-security.txt
 - group: commercial
   href: https://artifacts.apis.io/stitch-data/plans/stitch-data-plans-pricing.yml
   title: ''
@@ -48,11 +65,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/stitch-data-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/stitch-data/well-known/stitch-data-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/stitch-data-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/stitch-data/well-known/stitch-data-well-known.yml
   title: ''
@@ -145,7 +157,7 @@ modified: '2026-10-26'
 name: Stitch Data
 nav: Providers
 network: true
-overview: 'Stitch Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include data integration, ETL, data pipelines, cloud data, and data warehouse.
+overview: 'Stitch Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Integration, ETL, Data Pipeline, Cloud Data, and Data Warehouse.
 
 
   Stitch Data''s developer surface includes changelog, signup flow, pricing, documentation, getting-started guide, and 18 more developer resources.'
@@ -156,21 +168,23 @@ plans:
 random_paper: 6
 score:
   band: thin
-  composite: 38.0
+  composite: 26.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 12.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.0
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 46.4
-    operational_transparency: 55.3
+    developer_ergonomics: 10.7
+    discoverability: 52.7
+    operational_transparency: 27.6
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     mcp: unknown
@@ -183,13 +197,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/stitch-data/stitch-data-2026-11-03T143819.png
 security:
 - kind: domain-security
   name: Stitch Data Domain Security
@@ -201,11 +217,11 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP
 slug: stitch-data
 tags:
-- data integration
+- Data Integration
 - ETL
-- data pipelines
-- cloud data
-- data warehouse
-- data lake
+- Data Pipeline
+- Cloud Data
+- Data Warehouse
+- Data Lake
 website: https://www.stitchdata.com/
 ---

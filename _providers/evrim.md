@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-31'
+  score: 26.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.evrim.ai
@@ -130,7 +131,7 @@ apis:
   description: The transform API from Evrim — 1 operation(s) for transform.
   name: Evrim Transform API
   slug: evrim-transform-api
-artifact_total: 44
+artifact_total: 45
 collections:
 - collection_type: open
   name: Evrim answers API
@@ -307,6 +308,9 @@ network: true
 overview: 'Evrim publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Answers API, Blank API, Bulk API, and 15 more. Tagged areas include Company, Intelligence, Signals, Data Enrichment, and Profiles.
 
 
+  The Evrim catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Evrim''s developer surface includes documentation, engineering blog, authentication, changelog, and 18 more developer resources.'
 plans:
 - name: Evrim Plans Pricing
@@ -317,25 +321,38 @@ rate_limits:
 - limit_count: 0
   name: Evrim Rate Limits
   slug: evrim-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Evrim API Rules
+  rule_count: 48
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 2
+    warn: 6
+  slug: evrim-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 29.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    contract_governance: 18.2
-    contract_quality: 38.5
-    developer_ergonomics: 32.7
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 30.7
+    access_clarity: 6.6
+    contract_governance: 31.8
+    contract_quality: 41.9
+    developer_ergonomics: 25.6
+    discoverability: 66.1
+    operational_transparency: 18.4
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     contracts:
@@ -351,13 +368,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/evrim/evrim-2026-07-25T213819.png
 security:
 - kind: authentication

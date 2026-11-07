@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://spectrumoutage.us/api/v1
@@ -61,7 +65,7 @@ apis:
   description: Dashboard and aggregate statistics
   name: SpectrumOutage API Stats API
   slug: spectrumoutage-api-stats-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: SpectrumOutage API
@@ -211,6 +215,9 @@ network: true
 overview: 'SpectrumOutage API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Locations API, Map API, Reports API, and 1 more. Tagged areas include Spectrum, Outage, Internet, TV, and Phone.
 
 
+  The SpectrumOutage API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SpectrumOutage API''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 21 more developer resources.'
 plans:
 - name: Spectrumoutage Api Plans Pricing
@@ -221,31 +228,44 @@ rate_limits:
 - limit_count: 1
   name: Spectrumoutage Api Rate Limits
   slug: spectrumoutage-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: SpectrumOutage API API Rules
+  rule_count: 64
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 1
+    warn: 1
+  slug: spectrumoutage-api-rules
 score:
   band: developing
-  composite: 51.8
+  composite: 52.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 56.0
+    artifact_dirs: 26
+    catalog_earned: 60.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 1.5
   facets:
     access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 51.9
-    developer_ergonomics: 63.7
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 57.7
     discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 50.8
+    operational_transparency: 39.5
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -255,13 +275,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spectrumoutage-api/spectrumoutage-api-2026-08-17T082021.png
 security:
 - kind: authentication

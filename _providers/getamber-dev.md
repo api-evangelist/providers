@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.0
-  scored_at: '2026-10-31'
+  score: 18.5
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'JSON REST API at https://getamber.dev/api/v1 for the full mandate lifecycle: list templates (public), create a contract from a template (X-API-Key with credits, or x402 pay-per-contract), share it by '
@@ -291,24 +308,24 @@ rate_limits:
   name: Getamber Dev Rate Limits
   slug: getamber-dev-rate-limits
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 43.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 72.0
     catalog_earned_first_party: 20.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -11.7
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 18.2
     contract_quality: 18.5
-    developer_ergonomics: 56.5
-    discoverability: 76.7
-    operational_transparency: 68.4
-  previous_composite: 53.4
+    developer_ergonomics: 35.1
+    discoverability: 80.0
+    operational_transparency: 50.0
+  previous_composite: 55.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -318,10 +335,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 38.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 34.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

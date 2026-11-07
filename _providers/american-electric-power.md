@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
@@ -179,9 +182,9 @@ rate_limits:
   slug: american-electric-power-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 17.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,14 +196,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.5
+  previous_composite: 17.2
   provenance:
     mcp: derived
   regulatory:
@@ -209,8 +212,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

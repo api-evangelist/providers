@@ -1,6 +1,22 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-31'
+  score: 39.9
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: SOAP/XML web service for ABN Lookup that searches the Australian Business Register by ABN, ACN/ASIC number, name, postcode, charity, ABN status and registration/update events. It is free to registered
@@ -39,6 +56,11 @@ apis:
   slug: abn-lookup-json-services
 artifact_total: 8
 common:
+- group: auth
+  href: https://artifacts.apis.io/australian-business-register/well-known/australian-business-register-socket-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/australian-business-register-socket-security.txt
 - group: commercial
   href: https://artifacts.apis.io/australian-business-register/plans/australian-business-register-plans-pricing.yml
   title: ''
@@ -83,11 +105,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/australian-business-register-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/australian-business-register/well-known/australian-business-register-socket-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/australian-business-register-socket-security.txt
 - group: auth
   href: https://artifacts.apis.io/australian-business-register/well-known/australian-business-register-security.txt
   title: ''
@@ -193,23 +210,36 @@ rate_limits:
   slug: australian-business-register-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 34.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.1
   facets:
-    access_clarity: 55.3
+    access_clarity: 38.2
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 54.8
+    contract_quality: 24.0
+    developer_ergonomics: 33.3
     discoverability: 71.4
-    operational_transparency: 34.2
-  previous_composite: 38.4
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -218,14 +248,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/australian-business-register/australian-business-register-2026-11-03T121343.png
 security:
 - kind: authentication
   name: Australian Business Register Authentication

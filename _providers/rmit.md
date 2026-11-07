@@ -1,15 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Free
+  onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
-  - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -174,7 +175,7 @@ score:
   band: emerging
   composite: 12.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -204,8 +205,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

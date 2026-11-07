@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: WeLab Bank's Open API programme, published under the Hong Kong Monetary Authority Open API Framework and linked as "Open API" from the welab.bank site footer. The developer portal at portal-sandbox.we
@@ -149,7 +150,7 @@ overview: 'WeLab is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 19
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -163,7 +164,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 67.9
+    discoverability: 67.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -173,7 +174,7 @@ score:
     regions:
     - greater-china
     - southeast-asia
-  previous_composite: 19.5
+  previous_composite: 19.4
   provenance:
     conformance: first-party
   regulatory:
@@ -182,8 +183,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

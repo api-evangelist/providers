@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -331,9 +333,9 @@ rules:
   slug: apache-event-mesh-spectral-rules
 score:
   band: thin
-  composite: 35.1
+  composite: 32.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
@@ -344,10 +346,13 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 53.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 16.7
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 35.1
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -361,13 +366,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/apache-event-mesh/apache-event-mesh-2026-06-20T172059.png
 security:
 - kind: domain-security

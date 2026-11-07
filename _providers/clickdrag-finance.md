@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 14.6
-  scored_at: '2026-10-31'
+  score: 15.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Quote, price and request a cost segregation workpaper or study on US rental and commercial property.
@@ -164,7 +181,7 @@ modified: '2026-10-30'
 name: ClickDrag Finance
 nav: Providers
 network: true
-overview: 'ClickDrag Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Cost Segregation, Real Estate, API, and Tax.
+overview: 'ClickDrag Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Cost Segregation, Real Estate, and Tax.
 
 
   ClickDrag Finance''s developer surface includes changelog, documentation, API reference, support, engineering blog, pricing, and 20 more developer resources.'
@@ -183,34 +200,42 @@ scopes:
   slug: clickdrag-finance-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.1
+  band: thin
+  composite: 30.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 63.1
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.9
+    artifact_dirs: 25
+    catalog_earned: 57.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.5
   facets:
-    access_clarity: 73.2
-    contract_governance: 30.0
+    access_clarity: 53.9
+    contract_governance: 8.3
     contract_quality: 0.0
-    developer_ergonomics: 39.8
-    discoverability: 65.0
-    operational_transparency: 49.5
+    developer_ergonomics: 23.1
+    discoverability: 56.7
+    operational_transparency: 50.0
+  previous_composite: 39.5
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/clickdrag-finance/clickdrag-finance-2026-11-03T124421.png
 security:
 - kind: authentication
   name: Clickdrag Finance Authentication
@@ -235,7 +260,6 @@ tags:
 - Finance
 - Cost Segregation
 - Real Estate
-- API
 - Tax
 website: https://www.clickdragfinance.com
 ---

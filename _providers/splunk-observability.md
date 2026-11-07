@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
@@ -285,7 +286,7 @@ apis:
   description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
   name: Splunk Observability Cloud SL Os API
   slug: splunk-observability-slos-api
-artifact_total: 65
+artifact_total: 66
 asyncapis:
 - description: The SignalFlow streaming analytics service. A client opens a WebSocket connection, authenticates with a session token within 5 seconds, then starts computations on named channels and receives control,
   name: Splunk Observability Cloud — SignalFlow streaming
@@ -764,7 +765,7 @@ network: true
 overview: 'Splunk Observability Cloud publishes 49 API contracts indexed on the [APIs.io](https://apis.io/) network, including APM service topology API, APM visibility filters API, Automated archival API, and 46 more. Tagged areas include Observability, APM, Monitoring, Telemetry, and OpenTelemetry.
 
 
-  The Splunk Observability Cloud catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Splunk Observability Cloud catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 87 more developer resources.'
@@ -780,34 +781,47 @@ rate_limits:
 - limit_count: 2
   name: Splunk Observability Rate Limits
   slug: splunk-observability-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Splunk Observability Cloud API Rules
+  rule_count: 55
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 1
+    warn: 22
+  slug: splunk-observability-rules
 score:
-  band: strong
-  composite: 63.2
+  band: exemplar
+  composite: 69.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 63.0
+    artifact_dirs: 29
+    catalog_earned: 67.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 21.6
+    contract_governance: 31.8
+    contract_quality: 24.9
     developer_ergonomics: 73.2
-    discoverability: 70.0
-    operational_transparency: 84.2
+    discoverability: 80.0
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 61.6
+  previous_composite: 69.5
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 97.9
       derived: 48
       marker_coverage: 100.0
       total: 48
@@ -819,13 +833,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/splunk-observability/splunk-observability-2026-09-02T160527.png
 security:
 - kind: authentication

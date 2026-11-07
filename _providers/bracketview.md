@@ -1,12 +1,23 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.4
-  scored_at: '2026-10-31'
+  score: 3.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: BracketView provides a privacy‑first online JSON workspace with features like viewing, formatting, validating, querying, diffing, and schema generation via a web app.
@@ -148,23 +160,23 @@ plans:
 random_paper: 23
 score:
   band: emerging
-  composite: 23.7
+  composite: 16.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 57.1
-    operational_transparency: 34.2
-  previous_composite: 23.7
+    developer_ergonomics: 3.6
+    discoverability: 64.3
+    operational_transparency: 17.1
+  previous_composite: 24.4
   provenance:
     mcp: derived
   regulatory:
@@ -172,14 +184,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/bracketview/bracketview-2026-11-03T122423.png
 security:
 - kind: domain-security
   name: Bracketview Domain Security

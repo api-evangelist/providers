@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://screendoor.dobt.co/api
@@ -79,7 +80,7 @@ apis:
   description: Manage the status workflow stages for a project's responses.
   name: Department of Better Technology Statuses API
   slug: department-of-better-technology-statuses-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Screendoor Files API
@@ -222,27 +223,43 @@ network: true
 overview: 'Department of Better Technology publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Forms API, Labels API, and 5 more. Tagged areas include Company, Forms, Government, GovTech, and Civic Technology.
 
 
+  The Department of Better Technology catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Department of Better Technology API Rules
+  rule_count: 63
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 5
+  slug: department-of-better-technology-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 31.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 13.2
     developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 29.8
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 31.1
   provenance:
     conformance: derived
     contracts:
@@ -258,13 +275,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/department-of-better-technology/department-of-better-technology-2026-07-25T211725.png
 security:
 - kind: authentication

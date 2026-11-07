@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -175,9 +177,9 @@ rules:
   slug: nostr-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 24.9
+  composite: 22.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
@@ -188,18 +190,21 @@ score:
     access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 40.6
-    developer_ergonomics: 11.9
+    developer_ergonomics: 0.0
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 24.9
+    operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

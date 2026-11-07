@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -17,7 +20,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -29,18 +32,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-31'
+  score: 53.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -159,7 +163,7 @@ apis:
     question: How do I commit a transaction that is still on hold as inflight?
   phrasing_ops: 2
   slug: blnkfinance-transactions-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Blnkfinance Webhooks
@@ -394,7 +398,7 @@ network: true
 overview: 'Blnk Finance publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 7 more. Tagged areas include Fintech, Financial Services, Ledger, Double-Entry, and Payments.
 
 
-  The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Blnk Finance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
@@ -410,6 +414,19 @@ rate_limits:
 - limit_count: 2
   name: Blnkfinance Rate Limits
   slug: blnkfinance-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Blnk Finance API Rules
+  rule_count: 55
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 1
+    warn: 1
+  slug: blnkfinance-rules
 scopes:
 - name: Blnkfinance Scopes
   scope_count: 24
@@ -417,29 +434,29 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 71.4
+  composite: 71.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 55.0
+    artifact_dirs: 32
+    catalog_earned: 59.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.1
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 46.3
+    contract_governance: 31.8
+    contract_quality: 50.5
     developer_ergonomics: 85.7
-    discoverability: 63.3
-    operational_transparency: 84.2
-  previous_composite: 69.8
+    discoverability: 60.0
+    operational_transparency: 73.7
+  previous_composite: 70.6
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: first-party
@@ -453,13 +470,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/blnkfinance/blnkfinance-2026-09-02T144933.png
 security:
 - kind: authentication

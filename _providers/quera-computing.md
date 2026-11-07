@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -152,6 +154,10 @@ common:
   title: ''
   type: News
   url: https://www.quera.com/news
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.quera.com
 created: '2026-05-25T00:00:00.000Z'
 description: QuEra Computing is a Boston-based neutral-atom quantum computing company (founded 2018) that operates Aquila, a 256-qubit Analog Hamiltonian Simulation QPU available publicly through Amazon Braket, and Gemini-class, a 260-qubit gate-model neutral-atom system used for fault-tolerant logical-qubit research with Harvard and MIT. QuEra has no native public REST API; developers submit programs to Aquila through the AWS Braket task API using QuEra's Bloqade SDKs (bloqade-analog for Python hardware submission, Bloqade.jl for Julia emulation, bloqade-circuit for gate-model programs), built on the Kirin compiler IR. Additional open-source tools include tsim (QEC circuit sampling), bloqade-shuttle, bloqade-lanes, and bloqade-decoders for the Dynamic Qubit Array compilation stack.
 features:
@@ -179,13 +185,13 @@ network: true
 overview: 'QuEra Computing is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Neutral Atom, Analog Hamiltonian Simulation, AWS Braket, and Aquila.
 
 
-  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 16 more developer resources.'
+  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 17 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 19.9
+  composite: 22.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -197,8 +203,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 64.3
-    operational_transparency: 21.1
+    discoverability: 63.4
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -206,15 +212,18 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 22.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -238,5 +247,12 @@ tags:
 - Quantum Error Correction
 - Bloqade
 - Hardware
+- QPU
+- Analog Quantum
+- Rydberg
+- Quantum SDK
+- Scientific Computing
+- High Performance Computing
+- Research
 website: https://quera.com
 ---

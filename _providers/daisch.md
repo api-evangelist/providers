@@ -1,34 +1,27 @@
 ---
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    operation_distinctiveness: na
-    pagination_ratio: na
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 api_count: 0
 artifact_total: 1
 common:
+- group: build
+  href: https://artifacts.apis.io/daisch/packages/daisch-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/daisch-packages.yml
+- group: build
+  href: https://artifacts.apis.io/daisch/packages/daisch-packages.yml
+  title: ''
+  type: Packages
+  url: packages/daisch-packages.yml
 - group: other
   href: https://artifacts.apis.io/daisch/hosts/daisch-hosts.yml
   title: ''
@@ -47,52 +40,67 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://equityzen.com/company/daisch
+  url: https://daischsensor.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://daischsensor.com/category/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://daischsensor.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://daischsensor.com/daisch-sensor-privacy-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DaischSensor
+coverage:
+  detail: DAISCH's own front door at daischsensor.com is open and readable (the prior bot-challenge verdict was recorded against the EquityZen venue listing, not the company itself). The company sells inertial-sensor hardware (IMU, GNSS/INS, AHRS modules and the IFS3000 ground-truth test system); no developer portal, OpenAPI specification, public API reference or MCP endpoint was found during the identity-pass probes. Open-source ROS 1 / ROS 2 drivers are published on the DaischSensor GitHub organization, which later modules may harvest for contracts.
+  evidence:
+  - status: 200
+    url: https://daischsensor.com/
+  - status: 200
+    url: https://daischsensor.com/company-profile-imu-manufacturer/
+  - status: 200
+    url: https://github.com/DaischSensor
+  - status: 403
+    url: https://equityzen.com/company/daisch
+  reason: not-a-software-company
+  state: none
 created: '2026-10-22'
-description: 'Daisch is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: DAISCH (Daisch Technology Co., Ltd.) is a Shanghai-based inertial sensing company founded in January 2015 that develops and manufactures high-precision IMU, GNSS/INS and AHRS sensors, motion-sensing modules, and the IFS3000 multi-vehicle networking ground-truth test system for ADAS and autonomous-vehicle validation. Its hardware is calibrated using the proprietary AutoCalix full-temperature calibration process, supported by DSX sensor-fusion software and the DS_RVision evaluation tool, and backed by IATF 16949, ISO 9001, ISO 26262 / ASIL D and Automotive SPICE certifications. Open-source ROS 1 and ROS 2 drivers for DAISCH IM1R sensors are published on the DaischSensor GitHub organization.
+image: https://daischsensor.com/wp-content/uploads/2024/02/DAISCH-factory-1.webp
 layout: provider
-modified: '2026-10-22'
-name: Daisch
+modified: '2026-11-03'
+name: DAISCH
 nav: Providers
 network: true
-overview: Daisch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: 'DAISCH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IMU, Inertial Measurement Unit, GNSS/INS, and AHRS.
+
+
+  DAISCH''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 20
-score:
-  band: minimal
-  composite: 1.3
-  coverage:
-    artifact_dirs: 4
-    catalog_earned: 15.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 26.8
-    operational_transparency: 0.0
-  regulatory:
-    applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+screenshot: https://apis.io/screenshots/daisch/daisch-2026-11-03T130014.png
 security:
 - kind: domain-security
   name: Daisch Domain Security
   slug: daisch-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: daisch
 tags:
 - Company
-website: https://equityzen.com/company/daisch
+- IMU
+- Inertial Measurement Unit
+- GNSS/INS
+- AHRS
+- Motion Sensing
+- Autonomous Driving
+- ADAS
+- Robotics
+- Sensors
+- Hardware Manufacturer
+website: https://daischsensor.com/
 ---

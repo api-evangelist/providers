@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Token-authenticated REST and WebSocket API for real-time and historical financial market data across crypto, forex, indices, stock, future, and fund product lines.
@@ -150,10 +168,10 @@ rate_limits:
   name: Itick Rate Limits
   slug: itick-rate-limits
 score:
-  band: developing
-  composite: 44.4
+  band: thin
+  composite: 38.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
@@ -164,10 +182,10 @@ score:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 68.3
-    operational_transparency: 52.6
-  previous_composite: 44.4
+    developer_ergonomics: 42.9
+    discoverability: 71.7
+    operational_transparency: 50.0
+  previous_composite: 38.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -177,8 +195,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

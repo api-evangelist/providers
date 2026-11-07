@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.0
-  scored_at: '2026-10-31'
+  score: 27.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -346,7 +363,7 @@ modified: '2026-10-30'
 name: licensy-ai
 nav: Providers
 network: true
-overview: 'licensy-ai publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Admin License Submissions API, Admin Npi API, and 29 more. Tagged areas include Company, Healthcare, Licensing, API, and Data.
+overview: 'licensy-ai publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Admin License Submissions API, Admin Npi API, and 29 more. Tagged areas include Company, Healthcare, Licensing, Data, and Artificial Intelligence.
 
 
   The licensy-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -372,34 +389,48 @@ rules:
     warn: 3
   slug: licensy-ai-rules
 score:
-  band: strong
-  composite: 61.2
+  band: developing
+  composite: 44.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 79.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
+    artifact_dirs: 26
+    catalog_earned: 65.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.8
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
+    access_clarity: 53.9
+    contract_governance: 35.6
     contract_quality: 50.1
-    developer_ergonomics: 77.9
+    developer_ergonomics: 47.0
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 5.3
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 18.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/licensy-ai/licensy-ai-2026-11-03T134848.png
 security:
 - kind: authentication
   name: Licensy Ai Authentication
@@ -418,8 +449,7 @@ tags:
 - Company
 - Healthcare
 - Licensing
-- API
 - Data
-- AI
+- Artificial Intelligence
 website: https://www.licensy.ai/
 ---

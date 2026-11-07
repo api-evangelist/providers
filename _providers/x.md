@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,18 +24,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 60.1
-  scored_at: '2026-10-31'
+  score: 61.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -578,7 +579,7 @@ apis:
 - description: 'The X Ads API enables programmatic management of advertising campaigns on the X platform including campaign creation and scheduling, custom audience building, creative management (draft posts, cards, '
   name: X Ads API
   slug: x-ads-api
-artifact_total: 40
+artifact_total: 41
 asyncapis:
 - description: ''
   name: X Webhooks
@@ -841,7 +842,7 @@ network: true
 overview: 'X publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Activity API, Account API, Activity API, and 21 more. Tagged areas include Spaces, Conversations, X, Social, and Social Media.
 
 
-  The X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The X catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   X''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 40 more developer resources.'
@@ -857,6 +858,19 @@ rate_limits:
 - limit_count: 17
   name: X Rate Limits
   slug: x-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 118
+  extends:
+  - spectral:oas
+  name: X API Rules
+  rule_count: 77
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 9
+    warn: 13
+  slug: x-rules
 scopes:
 - name: X Scopes
   scope_count: 29
@@ -864,23 +878,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.1
+  composite: 74.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 64.0
+    artifact_dirs: 34
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 55.4
-    developer_ergonomics: 88.1
-    discoverability: 65.0
-    operational_transparency: 94.7
-  previous_composite: 69.4
+    contract_governance: 31.8
+    contract_quality: 57.6
+    developer_ergonomics: 76.2
+    discoverability: 75.0
+    operational_transparency: 76.3
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -897,13 +911,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/x/x-2026-06-20T201653.png
 security:
 - kind: authentication

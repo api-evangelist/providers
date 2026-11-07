@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   - '{''url'': ''https://www.root.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.aikido.dev/cloud/hardened-images — a different registrable domain (root.io -> aikido.dev), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -147,7 +152,7 @@ apis:
   description: The Webhooks API from Root (fka Slim.ai) — 3 operation(s) for webhooks.
   name: Root (fka Slim.ai) Webhooks API
   slug: root-fka-slimai-webhooks-api
-artifact_total: 50
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Root Fka Slimai Webhooks
@@ -386,7 +391,7 @@ network: true
 overview: 'Root (fka Slim.ai) publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Authentication API, and 17 more. Tagged areas include Company, Security, Vulnerability Management, Container Security, and DevSecOps.
 
 
-  The Root (fka Slim.ai) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Root (fka Slim.ai) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Root (fka Slim.ai)''s developer surface includes authentication, changelog, CLI, documentation, getting-started guide, support, engineering blog, and 26 more developer resources.'
@@ -395,25 +400,38 @@ plans:
   plan_count: 9
   slug: root-fka-slimai-plans-pricing
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Root (fka Slim.ai) API Rules
+  rule_count: 57
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 2
+    warn: 12
+  slug: root-fka-slimai-rules
 score:
   band: strong
-  composite: 61.1
+  composite: 57.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
-    access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 52.1
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 53.2
+    access_clarity: 61.8
+    contract_governance: 31.8
+    contract_quality: 52.6
+    developer_ergonomics: 58.9
+    discoverability: 73.2
+    operational_transparency: 36.8
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -429,14 +447,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 27.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/root-fka-slimai/root-fka-slimai-2026-08-17T081633.png
 security:
 - kind: authentication

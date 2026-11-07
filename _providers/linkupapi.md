@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.1
-  scored_at: '2026-10-31'
+  score: 44.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API for automating LinkedIn, email, and WhatsApp communications as described on the documentation site.
@@ -43,6 +56,10 @@ asyncapis:
   name: Linkupapi Webhooks
   slug: linkupapi-webhooks
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://app.linkupapi.com/signin
 - group: commercial
   href: https://artifacts.apis.io/linkupapi/plans/linkupapi-plans-pricing.yml
   title: ''
@@ -201,7 +218,7 @@ overview: 'LinkupAPI is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
   The LinkupAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  LinkupAPI''s developer surface includes authentication, pricing, getting-started guide, documentation, API reference, and 18 more developer resources.'
+  LinkupAPI''s developer surface includes authentication, pricing, getting-started guide, documentation, API reference, and 19 more developer resources.'
 plans:
 - name: Linkupapi Plans Pricing
   plan_count: 3
@@ -209,57 +226,57 @@ plans:
 random_paper: 13
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: LinkupAPI API Rules
-  rule_count: 11
+  rule_count: 46
   severity_counts:
-    error: 10
+    error: 44
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: linkupapi-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 35.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 64.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.0
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -2.8
   facets:
-    access_clarity: 63.2
-    contract_governance: 19.7
-    contract_quality: 32.6
-    developer_ergonomics: 40.5
-    discoverability: 48.3
+    access_clarity: 60.5
+    contract_governance: 22.0
+    contract_quality: 36.4
+    developer_ergonomics: 26.2
+    discoverability: 58.3
     operational_transparency: 7.9
-  previous_composite: 40.0
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 12
+      derived: 1
       marker_coverage: 100.0
-      total: 12
+      total: 1
     mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/linkupapi/linkupapi-2026-11-03T134926.png
 security:
 - kind: authentication
   name: Linkupapi Authentication

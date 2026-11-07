@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -28,7 +29,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -38,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.8
-  scored_at: '2026-10-31'
+  score: 61.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -94,7 +96,7 @@ apis:
   description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
   name: Prezent Webhooks API
   slug: prezent-webhooks-api
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Prezent Webhooks
@@ -345,7 +347,7 @@ network: true
 overview: 'Prezent publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audiences API, AutoGenerator API, File Access API, and 6 more. Tagged areas include Company, Presentations, Generative AI, AI Agents, and Life Sciences.
 
 
-  The Prezent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Prezent catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 29 more developer resources.'
@@ -361,25 +363,38 @@ rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
   slug: prezent-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: Prezent API Rules
+  rule_count: 73
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 2
+    warn: 8
+  slug: prezent-rules
 score:
-  band: strong
-  composite: 63.9
+  band: exemplar
+  composite: 68.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 30
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 60.1
+    contract_governance: 31.8
+    contract_quality: 60.8
     developer_ergonomics: 62.5
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 47.4
-  previous_composite: 56.0
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,13 +417,12 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/prezent/prezent-2026-08-17T081335.png
 security:
 - kind: authentication

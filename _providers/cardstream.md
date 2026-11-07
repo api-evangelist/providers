@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Hosted Payment Pages (HPP) integration. The merchant's browser POSTs a URL-encoded request to the Gateway, which collects and processes the cardholder's payment details on a Cardstream-hosted page (li
@@ -216,9 +217,9 @@ overview: 'Cardstream is listed with 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 6
 score:
   band: developing
-  composite: 47.9
+  composite: 47.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -226,12 +227,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 25.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 71.4
-    operational_transparency: 44.7
+    discoverability: 78.6
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -240,7 +241,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 47.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
   regulatory:
@@ -253,8 +254,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

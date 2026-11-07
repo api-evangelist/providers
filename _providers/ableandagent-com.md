@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-31'
+  score: 49.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -267,7 +280,7 @@ modified: '2026-10-29'
 name: ableandagent-com
 nav: Providers
 network: true
-overview: 'ableandagent-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Acts API, Catalog API, Conversations API, and 9 more. Tagged areas include Company, AI, Marketplace, GigEconomy, and SanDiego.
+overview: 'ableandagent-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Acts API, Catalog API, Conversations API, and 9 more. Tagged areas include Company, Artificial Intelligence, Marketplace, Gig Economy, and San Diego.
 
 
   The ableandagent-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -293,22 +306,30 @@ rules:
     warn: 5
   slug: ableandagent-com-rules
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 36.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 11.8
     contract_governance: 22.0
     contract_quality: 62.3
-    developer_ergonomics: 46.9
-    discoverability: 66.7
+    developer_ergonomics: 32.6
+    discoverability: 75.8
     operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,13 +345,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/ableandagent-com/ableandagent-com-2026-11-03T120138.png
 security:
 - kind: authentication
   name: Ableandagent Com Authentication
@@ -347,9 +369,9 @@ security:
 slug: ableandagent-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketplace
-- GigEconomy
-- SanDiego
+- Gig Economy
+- San Diego
 website: https://ableandagent.com/
 ---

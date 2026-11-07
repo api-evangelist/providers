@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,10 +198,10 @@ rules:
     warn: 4
   slug: exotel-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 18.6
+  band: thin
+  composite: 28.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -207,7 +211,7 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 12.5
+    contract_quality: 56.4
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
@@ -218,7 +222,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 18.6
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -232,13 +236,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/exotel/exotel-2026-07-25T213905.png
 security:
 - kind: authentication

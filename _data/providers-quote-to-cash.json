@@ -8,27 +8,27 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Drippay",
      "slug": "drippay",
      "description": "Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and leadership changes, drafts outreach in the user's voice, follows up, and books meetings, with a hosted MCP server at mcp.drippay.dev exposing seven outbound tools to any HTTP MCP client over OAuth. The Drip API is a separate usage-based billing and execution-ledger platform for AI agents — a Stripe-like metering and monetization backend covering customers, subscriptions, pricing plans, billable metrics, usage events, invoices, credit notes, coupons, entitlements, charges, dunning, tax, contracts, drift detection and webhooks across 245 REST operations at api.drippay.dev. It ships official Node, Python and C++ SDKs and a drip-cli binary, an idempotencyKey contract, cursor pagination, role-scoped secret keys, an x402 payment-required flow for agent self-settlement, and a SOC 2 Type I posture monitored with Vanta.",
      "screenshot": "https://artifacts.apis.io/drippay/screenshots/drippay-2026-07-25T212410.png",
-     "score": 70.2,
+     "score": 76.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 55.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 55.3,
+      "discoverability": 75.0,
+      "contract_quality": 61.6,
+      "contract_governance": 31.8,
+      "operational_transparency": 52.6,
       "developer_ergonomics": 86.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -43,13 +43,13 @@
        }
       ]
      },
-     "agent_score": 57.9,
+     "agent_score": 64.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": "verified",
       "error_semantics": "documented",
@@ -66,150 +66,29 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 1
-    },
-    {
-     "name": "Spade",
-     "slug": "spade",
-     "description": "Spade is a real-time transaction enrichment and merchant intelligence platform for financial services. Its API transforms raw, messy card, transfer, and universal transaction records into clean, structured, verified merchant, location, and category data with sub-50ms latency. Fintechs, banks, and card issuers use Spade for authorization decisions, rewards attribution, recurring-payment detection, risk and fraud signals, spend analytics, and category personalization, plus merchant search and account/program/user/card-scoped action triggers. Spade operates east and west US sandbox and production environments and is SOC 2 Type II certified.",
-     "screenshot": "https://artifacts.apis.io/spade/screenshots/spade-2026-08-17T080423.png",
-     "score": 67.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 59.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 76.2,
-      "access_clarity": 78.9
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 32.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 38.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
-     },
-     "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 10,
-   "shown": 10,
-   "providers": [
-    {
-     "name": "Conga",
-     "slug": "conga",
-     "description": "Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, approvals, billing and incentives, and AI-assisted contract intelligence. It is one of the largest documented API surfaces in the catalog: Conga publishes a complete OpenAPI 3.0.1 definition for every operation on its ReadMe-hosted developer portal at developer.conga.com - 2,136 operations across 31 services, captured here in openapi/. The platform is regionally partitioned (NA/EU/AU), secured with OAuth 2.0 bearer tokens minted from region-specific Conga login services that publish OIDC discovery and a real per-service scope set (api.cart, api.catalog, api.quote, api.order, api.user-management, api.revenue-admin, sign, doc-gen.composer and more), and uses JSON bodies, page/limit pagination with Content-Range headers, URI filter functions and a JSON:API-style error envelope. Conga also runs two machine surfaces it documents nowhere: a hosted, OAuth-gated MCP server at /mcp on every regional gateway, and a multi-tenant GraphQL API evidenced only by its own first-party npm client @conga-cloud/graphql. Conga is backed by ICONIQ Capital and Insight Partners.",
-     "screenshot": "https://artifacts.apis.io/conga/screenshots/conga-2026-07-25T210254.png",
-     "score": 65.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 58.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 71.1,
-      "developer_ergonomics": 80.4,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 42.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
-     },
-     "rank": 3
     },
     {
      "name": "ClickFunnels",
      "slug": "clickfunnels",
      "description": "ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.",
      "screenshot": "https://artifacts.apis.io/clickfunnels/screenshots/clickfunnels-2026-06-20T174514.png",
-     "score": 65.6,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 73.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 61.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
+      "discoverability": 73.2,
+      "contract_quality": 64.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 42.1,
       "developer_ergonomics": 85.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -217,12 +96,12 @@
       "score": 31.3,
       "matched_via": "tags"
      },
-     "agent_score": 43.5,
+     "agent_score": 47.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "verified",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -240,7 +119,121 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "paginated",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 2
+    },
+    {
+     "name": "Conga",
+     "slug": "conga",
+     "description": "Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, approvals, billing and incentives, and AI-assisted contract intelligence. It is one of the largest documented API surfaces in the catalog: Conga publishes a complete OpenAPI 3.0.1 definition for every operation on its ReadMe-hosted developer portal at developer.conga.com - 2,136 operations across 31 services, captured here in openapi/. The platform is regionally partitioned (NA/EU/AU), secured with OAuth 2.0 bearer tokens minted from region-specific Conga login services that publish OIDC discovery and a real per-service scope set (api.cart, api.catalog, api.quote, api.order, api.user-management, api.revenue-admin, sign, doc-gen.composer and more), and uses JSON bodies, page/limit pagination with Content-Range headers, URI filter functions and a JSON:API-style error envelope. Conga also runs two machine surfaces it documents nowhere: a hosted, OAuth-gated MCP server at /mcp on every regional gateway, and a multi-tenant GraphQL API evidenced only by its own first-party npm client @conga-cloud/graphql. Conga is backed by ICONIQ Capital and Insight Partners.",
+     "screenshot": "https://artifacts.apis.io/conga/screenshots/conga-2026-07-25T210254.png",
+     "score": 71.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 60.9,
+      "contract_governance": 31.8,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 48.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 3
+    },
+    {
+     "name": "Spade",
+     "slug": "spade",
+     "description": "Spade is a real-time transaction enrichment and merchant intelligence platform for financial services. Its API transforms raw, messy card, transfer, and universal transaction records into clean, structured, verified merchant, location, and category data with sub-50ms latency. Fintechs, banks, and card issuers use Spade for authorization decisions, rewards attribution, recurring-payment detection, risk and fraud signals, spend analytics, and category personalization, plus merchant search and account/program/user/card-scoped action triggers. Spade operates east and west US sandbox and production environments and is SOC 2 Type II certified.",
+     "screenshot": "https://artifacts.apis.io/spade/screenshots/spade-2026-08-17T080423.png",
+     "score": 69.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 64.7,
+      "contract_governance": 31.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 69.0,
+      "access_clarity": 78.9
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 32.1,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 34.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 4
     },
@@ -249,19 +242,19 @@
      "slug": "getaccept",
      "description": "GetAccept is a digital sales room and sales enablement platform that helps revenue teams design, send, promote, track, and e-sign sales documents in one place — combining sales collateral, proposals, contract management, document tracking, and legally binding electronic signatures. The GetAccept REST API (v1, base https://api.getaccept.com/v1) exposes 86 operations across documents, e-signature, recipients, contacts, templates, users, videos, custom data, communication templates, and webhook subscriptions, secured with OAuth2 (authorization code) or bearer tokens. GetAccept is backed by Bessemer Venture Partners and Y Combinator.",
      "screenshot": "https://artifacts.apis.io/getaccept/screenshots/getaccept-2026-07-25T215711.png",
-     "score": 64.6,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 68.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.1,
-      "contract_quality": 58.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
+      "contract_quality": 64.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 34.2,
       "developer_ergonomics": 58.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -307,7 +300,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 5
     },
@@ -316,19 +310,19 @@
      "slug": "keap",
      "description": "Keap (formerly Infusionsoft, now part of Thryv) is a CRM, sales and marketing automation platform for small businesses that combines contact management, email and text marketing, e-commerce, affiliate management and pipeline automation. Keap publishes two live OpenAPI 3.1 contracts covering 540 operations — REST v2 (399 operations, the Default version) and REST v1 (141 operations, still the only home of REST Hooks webhooks and Appointments) — plus a deprecated XML-RPC surface. Authentication is OAuth 2.0 authorization code with rotating refresh tokens, or Personal Access Tokens and Service Account Keys, all with a single `full` scope. Keap also operates an undocumented but live remote MCP server at https://api.keap.com/mcp secured with OAuth 2.1, PKCE and dynamic client registration, and ships first-party SDKs for six languages generated in lock-step from its own spec.",
      "screenshot": "https://artifacts.apis.io/keap/screenshots/keap-2026-06-20T183931.png",
-     "score": 64.6,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 68.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 58.0,
+      "discoverability": 73.3,
+      "contract_quality": 61.4,
       "contract_governance": 15.9,
-      "operational_transparency": 36.8,
+      "operational_transparency": 34.2,
       "developer_ergonomics": 78.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -336,13 +330,13 @@
       "score": 35.7,
       "matched_via": "tags"
      },
-     "agent_score": 36.4,
+     "agent_score": 45.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
+      "reversibility_documented": "verified",
+      "mcp_server": "verified",
       "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "verified",
@@ -359,62 +353,22 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": false
+      "operation_distinctiveness": false,
+      "mcp_tool_quality": "na"
      },
      "rank": 6
-    },
-    {
-     "name": "Podium",
-     "slug": "podium",
-     "description": "Podium is a customer communication platform providing a REST API for local businesses to manage text-based conversations, reviews, payment requests, lead capture forms, webchat, and AI-driven lead conversion. The API is organized around REST with predictable resource-oriented URLs, JSON-encoded responses, and OAuth 2.0 authentication.",
-     "screenshot": "https://artifacts.apis.io/podium/screenshots/podium-2026-06-20T191840.png",
-     "score": 63.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 56.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 78.0,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
-     },
-     "rank": 7
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "Kartra",
      "slug": "kartra",
@@ -431,8 +385,8 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -470,7 +424,61 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 7
+    },
+    {
+     "name": "DealHub",
+     "slug": "dealhub",
+     "description": "DealHub is an agentic quote-to-revenue platform that unifies CPQ (Configure, Price, Quote), CLM (contract lifecycle management), DealRoom digital sales rooms, subscription management, usage-based billing and revenue recognition. The platform is governed by the customer's CRM — with native connectors for Salesforce, HubSpot and Microsoft Dynamics — and centers the quoting experience on a guided-selling Playbook that generates products, calculates pricing and applies discount and approval workflows automatically. DealHub publishes a public developer portal at developers.dealhub.io covering eleven OpenAPI 3.0.3 contracts: Quote, Headless Quote, Actions, CRM, CRM Import, User, Partner, Pricing and Version APIs on api.dealhub.io, the Subskribe billing and revenue API acquired with Subskribe on api.app.subskribe.com, plus two inbound callback contracts (External Query and Callouts) that customers implement so DealHub can pull real-time data and pricing from an external system during quote generation.",
+     "screenshot": "https://artifacts.apis.io/dealhub/screenshots/dealhub-2026-08-17T080848.png",
+     "score": 59.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 50.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 54.2,
+      "access_clarity": 75.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 8
     },
@@ -479,19 +487,19 @@
      "slug": "ontraport",
      "description": "Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.",
      "screenshot": "https://artifacts.apis.io/ontraport/screenshots/ontraport-2026-06-20T190730.png",
-     "score": 58.4,
+     "score": 59.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 52.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
+      "discoverability": 75.0,
+      "contract_quality": 56.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 63.2,
       "developer_ergonomics": 67.3,
-      "access_clarity": 60.5
+      "access_clarity": 53.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -499,13 +507,13 @@
       "score": 35.7,
       "matched_via": "tags"
      },
-     "agent_score": 50.0,
+     "agent_score": 54.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -522,7 +530,8 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 9
     },
@@ -531,19 +540,19 @@
      "slug": "monetizenow",
      "description": "MonetizeNow is an enterprise monetization platform that unifies quoting, billing, and usage metering into a single quote-to-cash system for B2B SaaS companies. It combines a CPQ/quote builder with guided selling, a billing engine supporting subscriptions, credits, and usage-based pricing, multi-currency payments (via Stripe), dunning, revenue recognition, and real-time usage metering. The platform exposes a REST API (base https://api.monetizeplatform.com) authenticated with an x-api-key header: 156 operations across 124 paths covering accounts, contacts, addresses, bill groups, quotes, opportunities, contracts, subscriptions, invoices, payments, payment methods, credits, credit notes, products, offerings, rates, price uplift, usage events, trials, account documents for e-signature, and a self-service checkout flow, plus a 30-event webhook surface. MonetizeNow publishes OpenAPI 3.0.3 per operation inside its ReadMe reference rather than as one downloadable document, and it operates an OAuth-protected hosted MCP server at https://mcp.monetizeplatform.com/mcp that appears nowhere in its documentation. Pre-built connectors integrate Salesforce, HubSpot, Attio, NetSuite, QuickBooks, Xero, DocuSign, Adobe Sign, Anrok, Avalara, and Taxwire. MonetizeNow is backed by Uncork Capital.",
      "screenshot": "https://artifacts.apis.io/monetizenow/screenshots/monetizenow-2026-08-07T184153.png",
-     "score": 57.1,
+     "score": 57.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 52.2,
-      "contract_governance": 18.2,
+      "discoverability": 73.2,
+      "contract_quality": 53.4,
+      "contract_governance": 31.8,
       "operational_transparency": 78.9,
       "developer_ergonomics": 58.9,
-      "access_clarity": 50.0
+      "access_clarity": 43.4
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -551,13 +560,13 @@
       "score": 41.1,
       "matched_via": "tags"
      },
-     "agent_score": 56.5,
+     "agent_score": 54.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": "documented",
       "error_semantics": "verified",
@@ -574,28 +583,142 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 10
+    },
+    {
+     "name": "Podium",
+     "slug": "podium",
+     "description": "Podium is a customer communication platform providing a REST API for local businesses to manage text-based conversations, reviews, payment requests, lead capture forms, webchat, and AI-driven lead conversion. The API is organized around REST with predictable resource-oriented URLs, JSON-encoded responses, and OAuth 2.0 authentication.",
+     "screenshot": "https://artifacts.apis.io/podium/screenshots/podium-2026-06-20T191840.png",
+     "score": 57.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 59.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 56.6
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 35.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "partial",
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 11
+    },
+    {
+     "name": "Lawmatics",
+     "slug": "lawmatics",
+     "description": "Lawmatics is a legal CRM, client-intake and marketing-automation platform for law firms, from solo practices to multi-office firms. Its public developer surface is the Lawmatics OAuth API — a REST API of 177 operations across matters (called prospects in the API), contacts, companies, custom intake forms and form entries, custom fields, collections, pipelines, stages, practice areas, marketing sources and campaigns, events, tasks, notes, files, tags, users, time entries, expenses, invoices and transactions — plus a set of signed outbound webhooks. Access is OAuth 2.0 authorization code, gated on a Lawmatics support representative enabling developer settings on the account, and the resulting access token is non-expiring, unscoped and grants full CRUD over the firm.",
+     "screenshot": "https://artifacts.apis.io/lawmatics/screenshots/lawmatics-2026-06-20T184337.png",
+     "score": 56.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 32.5,
+      "contract_governance": 31.8,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 53.7,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 40.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 12
     },
     {
      "name": "Pabbly",
      "slug": "pabbly",
      "description": "Pabbly is an Indian SaaS company selling a suite of marketing and sales software as one-time lifetime deals as well as monthly plans: Pabbly Connect (workflow automation), Pabbly Subscription Billing (recurring billing and invoicing), Pabbly Email Marketing, Pabbly Chatflow (WhatsApp Business messaging), Pabbly Form Builder, Pabbly Hook (an inbound webhook gateway) and Pabbly Email Verification. Its developer platform at apidocs.pabbly.com documents five REST APIs and 173 endpoints, all keyed on HTTP Basic or Bearer credentials generated from the account dashboard, plus a sixth Connect Platform API distributed only through a first-party npm SDK. Pabbly Subscription Billing emits 23 webhook event types, and Pabbly Connect ships a beta hosted MCP server that exposes a customer's own workflow actions as agent tools.",
      "screenshot": "https://artifacts.apis.io/pabbly/screenshots/pabbly-2026-06-20T191303.png",
-     "score": 56.3,
+     "score": 54.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 61.7,
+      "discoverability": 68.3,
       "contract_quality": 39.0,
       "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 100.0
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 93.4
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -626,68 +749,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 11
-    },
-    {
-     "name": "Lawmatics",
-     "slug": "lawmatics",
-     "description": "Lawmatics is a legal CRM, client-intake and marketing-automation platform for law firms, from solo practices to multi-office firms. Its public developer surface is the Lawmatics OAuth API — a REST API of 177 operations across matters (called prospects in the API), contacts, companies, custom intake forms and form entries, custom fields, collections, pipelines, stages, practice areas, marketing sources and campaigns, events, tasks, notes, files, tags, users, time entries, expenses, invoices and transactions — plus a set of signed outbound webhooks. Access is OAuth 2.0 authorization code, gated on a Lawmatics support representative enabling developer settings on the account, and the resulting access token is non-expiring, unscoped and grants full CRUD over the firm.",
-     "screenshot": "https://artifacts.apis.io/lawmatics/screenshots/lawmatics-2026-06-20T184337.png",
-     "score": 55.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 29.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 53.7,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 38.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "mostly"
-     },
-     "rank": 12
+     "rank": 13
     }
    ],
    "open": true
@@ -697,194 +762,27 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
-    {
-     "name": "DealHub",
-     "slug": "dealhub",
-     "description": "DealHub is an agentic quote-to-revenue platform that unifies CPQ (Configure, Price, Quote), CLM (contract lifecycle management), DealRoom digital sales rooms, subscription management, usage-based billing and revenue recognition. The platform is governed by the customer's CRM — with native connectors for Salesforce, HubSpot and Microsoft Dynamics — and centers the quoting experience on a guided-selling Playbook that generates products, calculates pricing and applies discount and approval workflows automatically. DealHub publishes a public developer portal at developers.dealhub.io covering eleven OpenAPI 3.0.3 contracts: Quote, Headless Quote, Actions, CRM, CRM Import, User, Partner, Pricing and Version APIs on api.dealhub.io, the Subskribe billing and revenue API acquired with Subskribe on api.app.subskribe.com, plus two inbound callback contracts (External Query and Callouts) that customers implement so DealHub can pull real-time data and pricing from an external system during quote generation.",
-     "screenshot": "https://artifacts.apis.io/dealhub/screenshots/dealhub-2026-08-17T080848.png",
-     "score": 53.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 51.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 81.6
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 35.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
-     },
-     "rank": 13
-    },
-    {
-     "name": "DocSend",
-     "slug": "docsend",
-     "description": "DocSend is a secure document sharing and analytics platform, now part of Dropbox, used by sales, marketing, and fundraising teams to share pitch decks, sales collateral, and confidential documents through trackable links. It provides page-by-page viewer analytics, granular access controls (email verification, passcodes, expiration, watermarking), virtual data rooms, and e-signature. DocSend was surfaced as a portfolio company of Cowboy Ventures, DCM Ventures, and Uncork Capital and enriched by the API Evangelist pipeline. DocSend publishes no public REST API and no OpenAPI; its only programmatic surface is a live, OAuth-secured hosted Model Context Protocol (MCP) server at https://docsend.com/mcp, backed by RFC 8414 authorization-server discovery, RFC 9728 protected-resource metadata, dynamic client registration (RFC 7591), and mandatory PKCE. In August 2026 DocSend replaced the server's two coarse mcp:read / mcp:write scopes with five resource-scoped ones — documents:read, spaces:read, spaces:write, analytics:read, contacts:read.",
-     "screenshot": "https://artifacts.apis.io/docsend/screenshots/docsend-2026-08-17T123407.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 41.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 14
-    },
-    {
-     "name": "Pinoffer",
-     "slug": "pinoffer",
-     "description": "Pinoffer is the API Evangelist network profile for Convertedin (converted.in / convertedin.com), the MENA-focused marketing operating system for e-commerce founded in Cairo in 2019 by Mohamed Fergany, Mohamed Atef and Mustafa Raslan. \"PinOffer\" is the company's former name and is still the identifier used by 500 Global, Crunchbase, MAGNiTT and LinkedIn, which is why the network entry carries it. Backed by Merak Capital, 500 Global and MSAS, Convertedin operates across Egypt, Saudi Arabia, the UAE and Brazil, and sells a unified growth platform covering store analytics, a commerce pixel, segmentation, SMS and email automation, and multi-channel ad buying on Meta, TikTok, Snapchat and Google — plus the Converted Pay, Flyerz, Leads and Orders products. Convertedin DOES run a public developer program at developer.converted.in, contrary to the earlier enrichment pass on this repo: it publishes an llms.txt-indexed documentation set covering a live webhook ingest API at app.converted.in, two merchant-implemented data-sync contracts (Store Connector and Loyalty/POS), a browser pixel SDK, first-party Android and iOS SDKs, and a Flyerz DSP iframe embed. What it does not publish is any machine-readable contract — no OpenAPI, AsyncAPI, GraphQL schema, MCP server or agent card exists on any Convertedin host.",
-     "screenshot": "https://artifacts.apis.io/pinoffer/screenshots/pinoffer-2026-08-17T081239.png",
-     "score": 49.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 57.1,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 22.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 15
-    },
     {
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
      "description": "Lone Wolf Technologies is the dominant back-office, transaction-management and forms vendor in North American residential real estate, headquartered in Dallas, Texas and backed by Stone Point Capital. Its software runs the paperwork and money side of the deal rather than the listing feed: brokerage accounting and commission processing (Back Office, the brokerWOLF lineage), transaction management in two editions (zipForm Edition and TransactionDesk Edition), Authentisign and Inkless e-signature, Cloud CMA comparative market analysis, Boost digital advertising (HomeSpotter), Spacio open-house lead capture, and Propertybase/Relationships CRM. Its forms suites are distributed to agents as association member benefits through state REALTOR associations and MLSs, which places it between the MLS layer and the brokerage. On API posture it is one of the strongest surfaces in this sector and an instructive counter-example to the MLS data providers: on 2026-02-02 it launched a public API Portal for the Lone Wolf Foundation platform, and its documentation hub at apidocs.lwolf.com publishes seven complete, anonymously downloadable OpenAPI 3.0 definitions (Transact, Deals, Back Office, Authentisign, TransactionDesk, zipForm and WolfConnect) plus an MCP server endpoint. Documentation is genuinely open; credentials are not. Keys are issued only after an access-request form is reviewed by the integrations team, and the zipForm API is explicitly licensed to third-party application partners. Lone Wolf is not a RESO-certified data distributor and publishes no RESO Web API, Data Dictionary endpoint, OData $metadata document or Universal Property Identifier — RESO certification governs MLS listing feeds, which is not the layer Lone Wolf occupies; it consumes MLS data under MLS agreements (Cloud CMA documents RETS live queries) rather than redistributing it.",
      "screenshot": "https://artifacts.apis.io/lone-wolf/screenshots/lone-wolf-2026-08-07T171753.png",
-     "score": 47.9,
+     "score": 50.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 54.3,
-      "contract_governance": 4.5,
+      "discoverability": 78.3,
+      "contract_quality": 59.3,
+      "contract_governance": 18.2,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 66.1,
+      "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -915,7 +813,125 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 14
+    },
+    {
+     "name": "DocSend",
+     "slug": "docsend",
+     "description": "DocSend is a secure document sharing and analytics platform, now part of Dropbox, used by sales, marketing, and fundraising teams to share pitch decks, sales collateral, and confidential documents through trackable links. It provides page-by-page viewer analytics, granular access controls (email verification, passcodes, expiration, watermarking), virtual data rooms, and e-signature. DocSend was surfaced as a portfolio company of Cowboy Ventures, DCM Ventures, and Uncork Capital and enriched by the API Evangelist pipeline. DocSend publishes no public REST API and no OpenAPI; its only programmatic surface is a live, OAuth-secured hosted Model Context Protocol (MCP) server at https://docsend.com/mcp, backed by RFC 8414 authorization-server discovery, RFC 9728 protected-resource metadata, dynamic client registration (RFC 7591), and mandatory PKCE. In August 2026 DocSend replaced the server's two coarse mcp:read / mcp:write scopes with five resource-scoped ones — documents:read, spaces:read, spaces:write, analytics:read, contacts:read.",
+     "screenshot": "https://artifacts.apis.io/docsend/screenshots/docsend-2026-08-17T123407.png",
+     "score": 50.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 15
+    },
+    {
+     "name": "Pinoffer",
+     "slug": "pinoffer",
+     "description": "Pinoffer is the API Evangelist network profile for Convertedin (converted.in / convertedin.com), the MENA-focused marketing operating system for e-commerce founded in Cairo in 2019 by Mohamed Fergany, Mohamed Atef and Mustafa Raslan. \"PinOffer\" is the company's former name and is still the identifier used by 500 Global, Crunchbase, MAGNiTT and LinkedIn, which is why the network entry carries it. Backed by Merak Capital, 500 Global and MSAS, Convertedin operates across Egypt, Saudi Arabia, the UAE and Brazil, and sells a unified growth platform covering store analytics, a commerce pixel, segmentation, SMS and email automation, and multi-channel ad buying on Meta, TikTok, Snapchat and Google — plus the Converted Pay, Flyerz, Leads and Orders products. Convertedin DOES run a public developer program at developer.converted.in, contrary to the earlier enrichment pass on this repo: it publishes an llms.txt-indexed documentation set covering a live webhook ingest API at app.converted.in, two merchant-implemented data-sync contracts (Store Connector and Loyalty/POS), a browser pixel SDK, first-party Android and iOS SDKs, and a Flyerz DSP iframe embed. What it does not publish is any machine-readable contract — no OpenAPI, AsyncAPI, GraphQL schema, MCP server or agent card exists on any Convertedin host.",
+     "screenshot": "https://artifacts.apis.io/pinoffer/screenshots/pinoffer-2026-08-17T081239.png",
+     "score": 49.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 57.1,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 22.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 16
     }
@@ -930,23 +946,76 @@
    "shown": 4,
    "providers": [
     {
+     "name": "Cacheflow",
+     "slug": "cacheflow",
+     "description": "Cacheflow was a B2B SaaS billing, CPQ (configure-price-quote), and subscription-management platform that let software companies build interactive deal rooms, automate quote-to-cash, and offer buyers flexible payment and financing options. Founded in 2020 and backed by GGV Capital and GV, Cacheflow was acquired by HubSpot in 2024 and folded into HubSpot Commerce / HubSpot CPQ. The company shipped a substantial REST API — 305 paths and 400 operations across proposals, products, customers, subscriptions, billing schedules, usage, invoices, payments, refunds, approvals, e-signature and CRM/accounting integrations — and that contract is still publicly published: developer.getcacheflow.com serves a live ReadMe developer portal with an llms.txt and an OpenAPI 3.0.1 definition. The runtime is gone. As of 2026-08-13 api.getcacheflow.com, api.sandbox.getcacheflow.com, checkout, status and help all return NXDOMAIN, and getcacheflow.com 301-redirects to HubSpot's Commerce CPQ page. This profile therefore records a rare shape: a fully published, machine-readable API contract that outlived the API it described.",
+     "screenshot": "https://artifacts.apis.io/cacheflow/screenshots/cacheflow-2026-07-25T204205.png",
+     "score": 36.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 48.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 17
+    },
+    {
      "name": "Logik.io",
      "slug": "logikio",
      "description": "Logik.io is a headless, composable, API-first CPQ (Configure, Price, Quote) and product-configuration engine. It powers guided configuration, pricing, and quoting for complex products across Salesforce CPQ/Commerce and any headless front end, and computes Sales, Manufacturing, and Custom Bills of Materials. The platform exposes versioned Runtime APIs (start/update/save configurations, access Sets, retrieve BOMs) and Admin APIs (blueprints, fields, rules, managed data tables, jobs), authenticated with HTTP Bearer Runtime and Admin tokens. Logik.io was acquired by ServiceNow and is now also marketed as ServiceNow CPQ / Logik.ai; the developer surface at api-docs.logik.io and github.com/logikioopensource remains live and independent.",
      "screenshot": "https://artifacts.apis.io/logikio/screenshots/logikio-2026-07-25T225503.png",
-     "score": 33.2,
+     "score": 35.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 47.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
+      "discoverability": 78.6,
+      "contract_quality": 50.3,
+      "contract_governance": 31.8,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 43.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -984,28 +1053,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "partial",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Grid",
      "slug": "grid",
      "description": "Grid (formerly SaaSGrid) is a revenue operations and financial platform that gives SaaS finance teams, CFOs, and RevOps a single source of truth for pipeline, billing, ARR, retention, revenue, and cash. It connects CRMs, billing systems, and ERPs — including Salesforce, HubSpot, NetSuite, QuickBooks, Sage Intacct, and Xero — to automate invoicing and reconciliation, produce real-time ARR, NDR, and churn reporting, and power revenue forecasting and scenario planning inside shareable dashboards. Surfaced as a portfolio company of craft-ventures, kindred-ventures, and obvious-ventures.",
      "screenshot": "https://artifacts.apis.io/grid/screenshots/grid-2026-07-25T220324.png",
-     "score": 32.7,
+     "score": 31.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 48.3,
+      "discoverability": 55.0,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 40.5,
-      "access_clarity": 73.7
+      "access_clarity": 67.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1036,28 +1106,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Cheerfy",
      "slug": "cheerfy",
      "description": "Cheerfy is a customer-engagement and digital-experience platform for restaurants and hospitality brands, bringing CRM and loyalty, online ordering, pay-at-table, self-service kiosks, and a multi-brand marketplace together in a single platform. It centralizes customer data from POS, bookings, Wi-Fi and payment systems, then drives automated SMS, email and push marketing, branded loyalty cards and wallet-ready digital coupons, feedback surveys, and real-time analytics. Cheerfy serves 200+ restaurant brands and publishes developer documentation for its Loyalty Card and Coupons APIs. Backed by Techstars, it was added to the API Evangelist network from a Techstars portfolio lead and enriched from its public developer surface.",
      "screenshot": "https://artifacts.apis.io/cheerfy/screenshots/cheerfy-2026-07-25T205137.png",
-     "score": 31.9,
+     "score": 27.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 15.8,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 76.3
+      "developer_ergonomics": 19.0,
+      "access_clarity": 69.7
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1095,59 +1166,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 19
-    },
-    {
-     "name": "Cacheflow",
-     "slug": "cacheflow",
-     "description": "Cacheflow was a B2B SaaS billing, CPQ (configure-price-quote), and subscription-management platform that let software companies build interactive deal rooms, automate quote-to-cash, and offer buyers flexible payment and financing options. Founded in 2020 and backed by GGV Capital and GV, Cacheflow was acquired by HubSpot in 2024 and folded into HubSpot Commerce / HubSpot CPQ. The company shipped a substantial REST API — 305 paths and 400 operations across proposals, products, customers, subscriptions, billing schedules, usage, invoices, payments, refunds, approvals, e-signature and CRM/accounting integrations — and that contract is still publicly published: developer.getcacheflow.com serves a live ReadMe developer portal with an llms.txt and an OpenAPI 3.0.1 definition. The runtime is gone. As of 2026-08-13 api.getcacheflow.com, api.sandbox.getcacheflow.com, checkout, status and help all return NXDOMAIN, and getcacheflow.com 301-redirects to HubSpot's Commerce CPQ page. This profile therefore records a rare shape: a fully published, machine-readable API contract that outlived the API it described.",
-     "screenshot": "https://artifacts.apis.io/cacheflow/screenshots/cacheflow-2026-07-25T204205.png",
-     "score": 30.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 42.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 20
     }
@@ -1166,19 +1186,19 @@
      "slug": "vendavo",
      "description": "Vendavo is an enterprise B2B commercial-excellence software company whose platform helps manufacturers and distributors optimize pricing, automate quoting and agreements, and manage rebate and incentive programs using AI-powered pricing intelligence and margin analytics. Vendavo has been named a Leader in the Gartner Magic Quadrant for B2B Pricing & Rebate Optimization Software and integrates with enterprise ERP, CRM, and eCommerce systems. Vendavo markets \"real-time APIs for dynamic pricing and quoting workflows\" alongside batch and file-based integration, but as of this enrichment pass it publishes no public developer portal, API reference or machine-readable contract: the Vendavo Documentation Portal (one.vendavo.com) redirects to an Atlassian ID login and the support portal to a Salesforce Community login, so the integration surface is reachable only by contracted customers and partners. Vendavo does publish a substantive public security posture — ISO/IEC 27001:2022, annual SOC 1 and SOC 2 Type 2 audits, a CSA STAR CAIQ self-assessment and a Trust Center at trustvault.vendavo.com. This profile was seeded as a portfolio lead of DCM Ventures and Sapphire Ventures.",
      "screenshot": "https://artifacts.apis.io/vendavo/screenshots/vendavo-2026-09-02T165629.png",
-     "score": 21.3,
+     "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 51.8,
+      "discoverability": 57.1,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
-      "operational_transparency": 15.8,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 7.1,
-      "access_clarity": 47.4
+      "access_clarity": 42.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1220,7 +1240,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 21
     },
@@ -1229,19 +1250,19 @@
      "slug": "provusinc",
      "description": "Provus (Provusinc) is an agentic AI Configure, Price, Quote (CPQ) platform built specifically for services organizations — professional services, consulting, and asset-based services firms. The platform turns unstructured inputs such as emails, RFPs, and call notes into structured, accurate services quotes, and runs a set of AI agents (Quote Optimizer, Deal Predictor, Proposal Response, Deal Rescue, and Provus Admin) that monitor deals, optimize pricing, assess risk, and protect margin. Provus ships two products — CPQ Express for growing teams and Enterprise Services CPQ for large organizations — with native connectors to Salesforce, HubSpot, Kantata, NetSuite, and DocuSign. It is backed by Norwest Venture Partners and reports managing over $5B in enterprise services revenue across customers including Thoughtworks, Trace3, and Prolifics. Provus does not currently publish a public developer API, OpenAPI specification, or developer portal; integration is delivered through native prebuilt connectors and a Salesforce AppExchange managed package, and product help documentation is hosted on a Document360 knowledge base at docs.provus.ai that 302s the entire site to a login. Provus names an internal \"Profet API\" in its published sub-processor list, but that service is not documented, versioned, or reachable publicly.",
      "screenshot": "https://artifacts.apis.io/provusinc/screenshots/provusinc-2026-09-02T152244.png",
-     "score": 18.4,
+     "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
+      "developer_ergonomics": 7.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1272,7 +1293,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 22
     }

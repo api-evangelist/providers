@@ -1,6 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.2
-  scored_at: '2026-10-31'
+  score: 5.4
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,9 +93,9 @@ overview: Clearmindbiomedical is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 8
 score:
   band: minimal
-  composite: 1.8
+  composite: 2.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 17.0
     catalog_earned_first_party: 0.0
     catalog_gap: 98.0
@@ -96,24 +107,25 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 31.7
+    discoverability: 41.7
     operational_transparency: 0.0
-  previous_composite: 1.8
+  previous_composite: 2.8
   provenance:
-    mcp: platform-generated
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/clearmindbiomedical/clearmindbiomedical-2026-11-03T124349.png
 security:
 - kind: domain-security
   name: Clearmindbiomedical Domain Security

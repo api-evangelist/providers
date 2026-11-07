@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -330,10 +334,10 @@ rules:
     warn: 4
   slug: chaos-mesh-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 42.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 57.7
     catalog_earned_first_party: 0.0
     catalog_gap: 57.4
@@ -343,11 +347,14 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 58.6
-    developer_ergonomics: 40.5
+    contract_quality: 60.2
+    developer_ergonomics: 38.1
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 36.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -361,13 +368,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/chaos-mesh/chaos-mesh-2026-06-20T174215.png
 security:
 - kind: authentication

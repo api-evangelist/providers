@@ -1,16 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -187,7 +190,7 @@ rate_limits:
   slug: anixter-international-rate-limits
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -201,9 +204,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 11.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -24,7 +31,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +42,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-31'
+  score: 23.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for programmatic access to your Violet data. The Explore endpoint (POST /api/explore) accepts a rich query payload (keyword, filterModel, sort, grouping, pagination) and returns a paginated P
@@ -215,23 +223,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.3
+  composite: 50.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,9 +249,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

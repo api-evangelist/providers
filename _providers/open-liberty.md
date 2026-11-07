@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-31'
+  score: 29.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,9 +185,9 @@ rules:
   slug: open-liberty-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 27.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 41.7
     catalog_earned_first_party: 0.0
     catalog_gap: 73.4
@@ -196,8 +200,8 @@ score:
     contract_quality: 46.1
     developer_ergonomics: 35.7
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 27.5
+    operational_transparency: 10.5
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -211,13 +215,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/open-liberty/open-liberty-2026-06-20T190837.png
 security:
 - kind: authentication

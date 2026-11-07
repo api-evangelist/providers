@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for the Growatt ShineServer monitoring platform. Exposes plant lists and details, plant energy overview and history, device lists, and per-device energy, detail, history a
@@ -120,7 +121,7 @@ overview: 'Growatt is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 8
 score:
   band: emerging
-  composite: 14.9
+  composite: 12.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -133,10 +134,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 66.1
+    developer_ergonomics: 21.4
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 12.2
   provenance:
     conformance: derived
     mcp: derived
@@ -146,8 +147,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

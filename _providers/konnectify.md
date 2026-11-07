@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Konnectify offers a RESTful API for managing integrations, agents, and workflows. Documentation is available at the developer portal.
@@ -129,22 +145,24 @@ plans:
   slug: konnectify-plans-pricing
 random_paper: 2
 score:
-  band: thin
-  composite: 34.1
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.0
-    discoverability: 53.6
+    developer_ergonomics: 36.2
+    discoverability: 60.7
     operational_transparency: 0.0
+  previous_composite: 34.9
   provenance:
     mcp: derived
     skills: unknown
@@ -153,13 +171,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 16.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/konnectify/konnectify-2026-11-03T134512.png
 security:
 - kind: authentication
   name: Konnectify Authentication

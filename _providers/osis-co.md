@@ -1,20 +1,34 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: unknown
-    agentic_access: false
-    agentic_commerce: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: platform
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +38,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 66.1
-  scored_at: '2026-10-31'
+  score: 63.9
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 31
+  human_in_the_loop: 0
+  name: Osis Co Agentic Access
+  operation_count: 55
+  slug: osis-co-agentic-access
+  summary_line: 55 operations · 31 acting
 api_count: 1
 apis:
 - baseURL: https://osis.co/api/v1/comms
@@ -83,12 +104,17 @@ apis:
   description: The Webhooks API from osis-co — 1 operation(s) for webhooks.
   name: osis-co Webhooks API
   slug: osis-co-webhooks-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Osis Co Webhooks
   slug: osis-co-webhooks
 common:
+- group: agent
+  href: https://artifacts.apis.io/osis-co/agentic-access/osis-co-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/osis-co-agentic-access.yml
 - group: operate
   href: https://artifacts.apis.io/osis-co/rate-limits/osis-co-rate-limits.yml
   title: ''
@@ -271,13 +297,13 @@ modified: '2026-10-30'
 name: osis-co
 nav: Providers
 network: true
-overview: 'osis-co publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Calls API, Capabilities API, and 8 more. Tagged areas include Messaging, Communications, API, SaaS, and CustomerSupport.
+overview: 'osis-co publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Calls API, Capabilities API, and 8 more. Tagged areas include Messaging, Communications, Software-as-a-Service, and Customer Service.
 
 
   The osis-co catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  osis-co''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, and 23 more developer resources.'
+  osis-co''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, and 24 more developer resources.'
 plans:
 - name: Osis Co Plans Pricing
   plan_count: 4
@@ -289,46 +315,60 @@ rate_limits:
   slug: osis-co-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 100
   extends:
   - spectral:oas
   name: osis-co API Rules
-  rule_count: 15
+  rule_count: 59
   severity_counts:
-    error: 9
+    error: 47
     hint: 0
     info: 1
-    warn: 5
+    warn: 11
   slug: osis-co-rules
 score:
-  band: strong
-  composite: 65.8
+  band: developing
+  composite: 49.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 28
+    catalog_earned: 81.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 68.7
-    developer_ergonomics: 58.8
-    discoverability: 66.1
-    operational_transparency: 36.3
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 71.8
+    developer_ergonomics: 33.9
+    discoverability: 57.1
+    operational_transparency: 39.5
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/osis-co/osis-co-2026-11-03T140744.png
 security:
 - kind: authentication
   name: Osis Co Authentication
@@ -348,8 +388,7 @@ slug: osis-co
 tags:
 - Messaging
 - Communications
-- API
-- SaaS
-- CustomerSupport
+- Software-as-a-Service
+- Customer Service
 website: https://osis.co/
 ---

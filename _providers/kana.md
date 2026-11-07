@@ -1,11 +1,16 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-31'
+  score: 23.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The callable surface a deployed Kana pipeline ("skill") exposes on the Kana application host. POST /skill/{pipelineid} starts a run and returns a runid; GET /run/{runid}/status reports progress and qu
@@ -179,9 +185,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 32.3
+  composite: 32.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -193,9 +199,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 32.3
+  previous_composite: 32.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -209,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

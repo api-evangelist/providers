@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RPC-over-HTTP JSON API for OZON marketplace sellers to manage products, prices, stock, warehouses, orders (FBO/FBS), returns, analytics, and finances. POST-only endpoints under a per-operation version
@@ -111,7 +112,7 @@ overview: 'OZON.ru is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 13
 score:
   band: emerging
-  composite: 16.9
+  composite: 15.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -124,8 +125,8 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 66.1
+    developer_ergonomics: 21.4
+    discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -135,7 +136,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 16.9
+  previous_composite: 15.6
   provenance:
     conformance: derived
   regulatory:
@@ -144,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

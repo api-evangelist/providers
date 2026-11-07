@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium · Requires approval
   onboarding: approval
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://meliopayments.com/'', ''status'': 301, ''note'': ''declared website redirects to https://melio.com/ — a different registrable domain (meliopayments.com -> melio.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -158,7 +160,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -169,8 +171,8 @@ score:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 34.7
-    developer_ergonomics: 28.6
-    discoverability: 66.1
+    developer_ergonomics: 25.0
+    discoverability: 73.2
     operational_transparency: 31.6
   previous_composite: 34.2
   regulatory:
@@ -179,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

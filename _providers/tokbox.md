@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -22,10 +33,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'TokBox API as documented publicly: 43 operations. Contract generated from the documentation by API Evangelist (2026-10-25); not the provider''s own document.'
@@ -37,6 +48,14 @@ asyncapis:
   name: Tokbox Webhooks
   slug: tokbox-webhooks
 common:
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://vonageapi.statuspage.io/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tokbox.com/account/user/signup
 - group: design
   href: https://artifacts.apis.io/tokbox/rules/tokbox-rules.yml
   title: ''
@@ -72,11 +91,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/tokbox-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/tokbox/well-known/tokbox-vonageapi-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/tokbox-vonageapi-security.txt
 - group: agent
   href: https://artifacts.apis.io/tokbox/well-known/tokbox-well-known.yml
   title: ''
@@ -170,51 +184,53 @@ modified: '2026-10-25'
 name: TokBox
 nav: Providers
 network: true
-overview: 'TokBox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video, WebRTC, Real-time Communication, SDKs, and Vonage.
+overview: 'TokBox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video, WebRTC, Real-Time Communication, SDK, and Vonage.
 
 
   The TokBox catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  TokBox''s developer surface includes changelog, documentation, API reference, getting-started guide, support, pricing, and 16 more developer resources.'
+  TokBox''s developer surface includes signup flow, changelog, documentation, API reference, getting-started guide, support, pricing, and 16 more developer resources.'
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 50
+  effective_rule_count: 79
   extends:
   - spectral:oas
   name: TokBox API Rules
-  rule_count: 9
+  rule_count: 38
   severity_counts:
-    error: 8
+    error: 36
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: tokbox-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 31.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.0
+    artifact_dirs: 21
+    catalog_earned: 55.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.8
   facets:
-    access_clarity: 10.5
-    contract_governance: 19.7
+    access_clarity: 18.4
+    contract_governance: 22.0
     contract_quality: 35.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 28.6
     discoverability: 53.6
-    operational_transparency: 39.5
+    operational_transparency: 52.6
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 7
+      derived: 1
       marker_coverage: 100.0
-      total: 7
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -222,12 +238,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/tokbox/tokbox-2026-11-03T144931.png
 security:
 - kind: domain-security
   name: Tokbox Domain Security
@@ -237,8 +254,8 @@ slug: tokbox
 tags:
 - Video
 - WebRTC
-- Real-time Communication
-- SDKs
+- Real-Time Communication
+- SDK
 - Vonage
 website: https://tokbox.com/developer/
 ---

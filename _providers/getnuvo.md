@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -130,28 +142,36 @@ modified: '2026-10-20'
 name: Ingestro
 nav: Providers
 network: true
-overview: 'Ingestro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Data-Operations, Payroll, Automation, and Integration.
+overview: 'Ingestro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Data Operations, Payroll, Automation, and Integration.
 
 
   Ingestro''s developer surface includes changelog, authentication, pricing, getting-started guide, engineering blog, documentation, and 13 more developer resources.'
 random_paper: 8
 score:
-  band: thin
-  composite: 29.8
+  band: emerging
+  composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 31.0
     discoverability: 48.2
-    operational_transparency: 42.1
+    operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 29.8
   provenance:
     mcp: unknown
   regulatory:
@@ -159,13 +179,15 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/getnuvo/getnuvo-2026-11-03T132842.png
 security:
 - kind: authentication
   name: Getnuvo Authentication
@@ -185,8 +207,8 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: getnuvo
 tags:
-- AI
-- Data-Operations
+- Artificial Intelligence
+- Data Operations
 - Payroll
 - Automation
 - Integration

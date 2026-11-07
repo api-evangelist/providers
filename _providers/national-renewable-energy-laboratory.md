@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
   public: false
   source:
   - plans
   - authentication
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -20,23 +23,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 22.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,7 +82,7 @@ apis:
   description: The Utility Rates API from National Renewable Energy Laboratory — 1 operation(s) for utility rates.
   name: National Renewable Energy Laboratory Utility Rates API
   slug: national-renewable-energy-laboratory-utility-rates-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: NREL Developer Network APIs Alt Fuel Stations API
@@ -160,6 +164,9 @@ network: true
 overview: 'National Renewable Energy Laboratory publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alt Fuel Stations API, Pvwatts API, Solar API, and 5 more. Tagged areas include Energy, Renewable Energy, Federal Government, Climate, and Research.
 
 
+  The National Renewable Energy Laboratory catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   National Renewable Energy Laboratory''s developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
 plans:
 - name: National Renewable Energy Laboratory Plans Pricing
@@ -170,30 +177,43 @@ rate_limits:
 - limit_count: 3
   name: National Renewable Energy Laboratory Rate Limits
   slug: national-renewable-energy-laboratory-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: National Renewable Energy Laboratory API Rules
+  rule_count: 45
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 1
+  slug: national-renewable-energy-laboratory-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 27.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 42.0
+    artifact_dirs: 13
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 41.9
-    developer_ergonomics: 31.0
+    developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.4
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,13 +227,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: National Renewable Energy Laboratory Authentication

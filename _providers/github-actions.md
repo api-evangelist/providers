@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -9,6 +12,7 @@ access_model:
   - plans
   - authentication
   - scopes
+  - rate-limits
   - security
   trial: false
   try_now: true
@@ -29,17 +33,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.6
-  scored_at: '2026-10-31'
+  score: 48.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -355,7 +360,7 @@ arazzos:
 - description: Look up a repository variable by name and either create it or update it, then read it back.
   name: GitHub Actions Upsert a Repository Variable
   slug: github-actions-upsert-repo-variable-workflow
-artifact_total: 172
+artifact_total: 173
 asyncapis:
 - description: ''
   name: Github Actions Webhooks
@@ -401,6 +406,41 @@ collections:
   name: GitHub Actions API
   slug: open-github-actions
 common:
+- group: design
+  href: https://artifacts.apis.io/github-actions/rules/github-actions-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-actions-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-actions/rules/github-actions-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-actions-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-actions/rules/github-actions-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-actions-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/github-actions/vocabulary/github-actions-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/github-actions-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/github-actions/hosts/github-actions-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/github-actions-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/github-actions/integrations/github-actions-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/github-actions-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/github-actions/vendors/github-actions-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/github-actions-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -637,11 +677,6 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.github.com/llms.txt
-- group: agent
-  href: https://artifacts.apis.io/github-actions/llms/github-actions-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/github-actions-llms.txt
 - group: build
   href: https://artifacts.apis.io/github-actions/packages/github-actions-packages.yml
   title: ''
@@ -1140,10 +1175,10 @@ network: true
 overview: 'GitHub Actions publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Cache API, Jobs API, and 8 more. Tagged areas include CI/CD, Continuous Integration, Continuous Deployment, DevOps, and Pipelines.
 
 
-  The GitHub Actions catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The GitHub Actions catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 82 more developer resources.'
+  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 88 more developer resources.'
 plans:
 - name: Github Actions Plans Pricing
   plan_count: 5
@@ -1169,6 +1204,18 @@ rules:
     warn: 4
   slug: github-actions-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: GitHub Actions API Rules
+  rule_count: 64
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 5
+  slug: github-actions-rules
+- authorship: generated
   effective_rule_count: 56
   extends:
   - spectral:oas
@@ -1182,28 +1229,28 @@ rules:
   slug: github-actions-spectral-rules
 scopes:
 - name: Github Actions Scopes
-  scope_count: 0
+  scope_count: 4
   slug: github-actions-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: exemplar
-  composite: 82.8
+  composite: 82.9
   coverage:
-    artifact_dirs: 36
+    artifact_dirs: 40
     catalog_earned: 87.0
     catalog_earned_first_party: 24.0
     catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 31.8
     contract_quality: 70.2
-    developer_ergonomics: 83.9
-    discoverability: 71.7
-    operational_transparency: 100.0
-  previous_composite: 81.2
+    developer_ergonomics: 83.3
+    discoverability: 75.0
+    operational_transparency: 97.4
+  previous_composite: 82.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1220,13 +1267,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/github-actions/github-actions-2026-06-20T181837.png
 security:
 - kind: authentication
@@ -1247,17 +1293,17 @@ security:
   summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001:2013, ISO/IEC 42001:2023, CSA STAR Level 2, FedRAMP LI-SaaS (ATO)
 skill_count: 6
 skills:
-- name: Approve a pending deployment
+- name: approve-pending-deployment
   slug: github-actions-approve-pending-deployment
-- name: Collect artifacts from a workflow run
+- name: collect-run-artifacts
   slug: github-actions-collect-run-artifacts
-- name: Dispatch a workflow and track the run
+- name: dispatch-and-track-run
   slug: github-actions-dispatch-and-track-run
-- name: Diagnose a failed workflow run
+- name: inspect-failed-run
   slug: github-actions-inspect-failed-run
-- name: Register and manage a self-hosted runner
+- name: manage-self-hosted-runners
   slug: github-actions-manage-self-hosted-runners
-- name: Store a repository secret
+- name: upsert-repo-secret
   slug: github-actions-upsert-repo-secret
 slug: github-actions
 tags:

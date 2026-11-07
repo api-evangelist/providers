@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Coachcare provides remote care management services.
@@ -103,37 +114,38 @@ overview: 'Coachcare is listed with 1 API on the [APIs.io](https://apis.io/) net
   Coachcare''s developer surface includes support, engineering blog, and 8 more developer resources.'
 random_paper: 9
 score:
-  band: emerging
-  composite: 12.0
+  band: minimal
+  composite: 8.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 58.9
-    operational_transparency: 5.3
+    developer_ergonomics: 3.6
+    discoverability: 58.0
+    operational_transparency: 2.6
   previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 7.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/coachcare/coachcare-2026-11-03T124650.png
 security:
 - kind: domain-security
   name: Coachcare Domain Security

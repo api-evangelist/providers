@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.0
-  scored_at: '2026-10-31'
+  score: 15.7
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Finds and returns the optimal swap route across 420+ liquidity sources on 17+ EVM chains. Returns the best route and encodes calldata for submission to the KyberSwap Aggregator smart contract.
@@ -124,9 +126,9 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 21.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -138,9 +140,9 @@ score:
     contract_governance: 0.0
     contract_quality: 43.6
     developer_ergonomics: 9.5
-    discoverability: 78.6
+    discoverability: 80.0
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 21.1
   provenance:
     mcp: first-party
   regulatory:
@@ -149,8 +151,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

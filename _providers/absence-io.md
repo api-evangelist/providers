@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -370,9 +374,9 @@ rules:
   slug: absence-io-spectral-rules
 score:
   band: thin
-  composite: 32.7
+  composite: 30.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -382,11 +386,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 27.3
-    contract_quality: 28.6
-    developer_ergonomics: 32.1
+    contract_quality: 29.9
+    developer_ergonomics: 26.2
     discoverability: 53.6
-    operational_transparency: 13.2
-  previous_composite: 32.7
+    operational_transparency: 10.5
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -400,13 +404,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/absence-io/absence-io-2026-06-20T163343.png
 security:
 - kind: authentication

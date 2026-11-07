@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Synse Server exposes a uniform HTTP and WebSocket API for reading from and writing to physical and virtual devices through protocol-specific plugins. The same 18 operations are available over both tra
@@ -207,9 +224,9 @@ rate_limits:
   slug: vapor-io-rate-limits
 score:
   band: developing
-  composite: 39.4
+  composite: 39.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -221,9 +238,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 39.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 39.8
   provenance:
     conformance: derived
     mcp: derived
@@ -234,8 +251,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

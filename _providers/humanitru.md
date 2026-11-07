@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,6 +78,10 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/humanitru-llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.humanitru.com/blog
 created: '2026-07-17'
 description: Humanitru is an integration-first CRM and fundraising platform built for nonprofits, museums, zoos, aquariums, botanic gardens, and food banks. Rather than forcing organizations into an all-in-one ecosystem, Humanitru consolidates donor, membership, ticketing, email marketing, accounting, and volunteer data from more than 40 partner tools into a single 360-degree view, then layers automated insights, reporting, and donor-engagement workflows on top. The company positions itself around data consolidation and retention, citing customer outcomes such as increased active donors and improved donor retention, and pairs the platform with one-on-one support staffed by former fundraisers and database managers. Humanitru (formerly operating as Totem Insights) is a Techstars portfolio company. It exposes no public developer API, developer portal, or documentation; all connectivity is delivered through its curated native integration catalog.
 image: https://cdn.prod.website-files.com/698241a7b516516506d193d8/69bb4b0af688a315ddcae000_website%20open%20graph%20image.png
@@ -87,13 +93,13 @@ network: true
 overview: 'Humanitru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Non-Profit, Fundraising, and Donor Management.
 
 
-  Humanitru''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
+  Humanitru''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 13.0
+  composite: 13.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,17 +111,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 13.0
+    discoverability: 55.4
+    operational_transparency: 2.6
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -137,5 +143,6 @@ tags:
 - Integration
 - Membership
 - Museums
+- Data Integration
 website: https://humanitru.com/
 ---

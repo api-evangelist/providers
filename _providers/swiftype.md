@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.9
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -154,9 +155,9 @@ rate_limits:
   slug: swiftype-rate-limits
 score:
   band: emerging
-  composite: 20.5
+  composite: 21.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -168,9 +169,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 20.5
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 21.0
   provenance:
     conformance: derived
     mcp: derived
@@ -180,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

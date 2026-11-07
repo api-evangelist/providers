@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -13,6 +16,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,23 +25,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-31'
+  score: 39.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +157,10 @@ apis:
   description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
   name: CourtListener Visualizations API
   slug: court-listener-visualizations-api
-artifact_total: 67
+- description: API for CourtListener legal data access
+  name: CourtListener API
+  slug: courtlistener-api
+artifact_total: 68
 collections:
 - collection_type: open
   name: CourtListener REST Alerts API
@@ -358,7 +366,7 @@ modified: '2026-06-13'
 name: CourtListener
 nav: Providers
 network: true
-overview: 'CourtListener publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audio API, Citation API, and 18 more. Tagged areas include Legal, Court Data, Case Law, PACER, and Judicial.
+overview: 'CourtListener publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audio API, Citation API, and 19 more. Tagged areas include Legal, Court Data, Case Law, PACER, and Judicial.
 
 
   The CourtListener catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -388,23 +396,23 @@ rules:
   slug: court-listener-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 30.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 51.3
+    artifact_dirs: 19
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.6
     developer_ergonomics: 23.8
-    discoverability: 66.1
+    discoverability: 60.0
     operational_transparency: 5.3
-  previous_composite: 31.3
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -419,13 +427,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/court-listener/court-listener-2026-06-20T175112.png
 security:
 - kind: authentication
@@ -448,5 +456,6 @@ tags:
 - Federal Courts
 - State Courts
 - Open Data
+- FreeLaw
 website: https://www.courtlistener.com/
 ---

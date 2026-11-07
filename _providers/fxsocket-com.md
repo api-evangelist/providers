@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.fxsocket.com
@@ -171,7 +184,7 @@ modified: '2026-10-29'
 name: FxSocket
 nav: Providers
 network: true
-overview: 'FxSocket is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Trading, API, and Cloud.
+overview: 'FxSocket is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, and Cloud.
 
 
   The FxSocket catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,29 +210,31 @@ rules:
     warn: 1
   slug: fxsocket-com-rules
 score:
-  band: developing
-  composite: 45.4
+  band: thin
+  composite: 35.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 74.8
+    artifact_dirs: 20
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 35.6
     contract_quality: 26.0
-    developer_ergonomics: 47.6
-    discoverability: 66.1
-    operational_transparency: 15.8
+    developer_ergonomics: 33.3
+    discoverability: 64.3
+    operational_transparency: 7.9
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 22
+      derived: 1
       marker_coverage: 100.0
-      total: 22
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -230,13 +245,14 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/fxsocket-com/fxsocket-com-2026-11-03T132425.png
 security:
 - kind: authentication
   name: Fxsocket Com Authentication
@@ -249,9 +265,8 @@ security:
 slug: fxsocket-com
 tags:
 - Company
-- FinTech
+- Fintech
 - Trading
-- API
 - Cloud
 website: https://fxsocket.com
 ---

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -194,10 +196,10 @@ rules:
     warn: 4
   slug: manifold-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
@@ -208,10 +210,10 @@ score:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 49.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 26.8
+  previous_composite: 25.2
   provenance:
     agentic_access: derived
     contracts:
@@ -225,13 +227,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/manifold/manifold-2026-06-20T184923.png
 security:
 - kind: domain-security

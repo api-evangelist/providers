@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 26.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -228,9 +232,9 @@ rules:
   slug: papaya-global-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 33.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -240,11 +244,11 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 60.5
+    contract_quality: 61.5
     developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 28.9
-  previous_composite: 33.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -258,13 +262,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/papaya-global/papaya-global-2026-06-20T191348.png
 security:
 - kind: authentication

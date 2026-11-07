@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -22,23 +25,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.9
-  scored_at: '2026-10-31'
+  score: 61.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -1133,29 +1137,29 @@ rules:
   slug: novu-spectral-rules
 score:
   band: exemplar
-  composite: 69.3
+  composite: 71.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 84.0
     catalog_earned_first_party: 12.0
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 77.6
     contract_governance: 27.3
-    contract_quality: 75.5
-    developer_ergonomics: 85.7
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 67.7
+    contract_quality: 83.5
+    developer_ergonomics: 83.3
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 94.1
       total: 17
     mcp: first-party
   regulatory:
@@ -1164,13 +1168,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/novu/novu-2026-06-20T190442.png
 security:
 - kind: authentication

@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -97,7 +98,7 @@ apis:
   description: 'Rate quoting. This is the one endpoint in this reference implemented by the rate provider and called by Augment: Augment submits a shipment, the provider prices it and returns the applicable rates. Au'
   name: Augment Quote Management API
   slug: augment-quote-management-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Augment Webhooks
@@ -287,7 +288,7 @@ network: true
 overview: 'Augment publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Key API, Carrier Management API, Carrier Support API, and 7 more. Tagged areas include Company, Logistics, Freight, Supply Chain, and Transportation.
 
 
-  The Augment catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Augment catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Augment''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -300,32 +301,45 @@ rate_limits:
 - limit_count: 2
   name: Augment Rate Limits
   slug: augment-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Augment API Rules
+  rule_count: 59
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 9
+  slug: augment-rules
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 60.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.2
   facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 58.8
+    access_clarity: 55.3
+    contract_governance: 31.8
+    contract_quality: 63.7
     developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 53.6
+    discoverability: 73.2
+    operational_transparency: 31.6
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 58.8
       total: 17
     mcp: derived
     skills: derived
@@ -339,13 +353,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/augment/augment-2026-07-25T201709.png
 security:
 - kind: authentication

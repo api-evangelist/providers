@@ -5,7 +5,11 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://manage-api.ensighten.com
@@ -102,7 +107,7 @@ apis:
   description: CRUD operations with Users. User specific fields Field Description Valid Values username Unique identifier for the user Up to 255 characters; cannot include <, >, :, ~, +, or spaces firstName User's f
   name: Ensighten Users API
   slug: ensighten-users-api
-artifact_total: 22
+artifact_total: 23
 common:
 - group: operate
   href: https://artifacts.apis.io/ensighten/rate-limits/ensighten-rate-limits.yml
@@ -250,6 +255,9 @@ network: true
 overview: 'Ensighten publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Conditions API, Data Definitions API, and 10 more. Tagged areas include Company, Cybersecurity, Tag Management, Data Governance, and Client-Side Security.
 
 
+  The Ensighten catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Ensighten''s developer surface includes support, engineering blog, documentation, API reference, getting-started guide, changelog, and 22 more developer resources.'
 plans:
 - name: Ensighten Plans Pricing
@@ -260,25 +268,38 @@ rate_limits:
 - limit_count: 1
   name: Ensighten Rate Limits
   slug: ensighten-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Ensighten API Rules
+  rule_count: 62
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 2
+    warn: 6
+  slug: ensighten-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 43.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 12.5
-    developer_ergonomics: 63.7
-    discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 43.3
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 18.6
+    developer_ergonomics: 55.4
+    discoverability: 73.2
+    operational_transparency: 47.4
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     contracts:
@@ -294,13 +315,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ensighten/ensighten-2026-07-25T213419.png
 security:
 - kind: authentication

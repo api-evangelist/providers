@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -30,7 +33,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -40,8 +44,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.4
-  scored_at: '2026-10-31'
+  score: 56.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,7 +60,7 @@ apis:
   description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
   name: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Amuncore Webhooks
@@ -254,7 +258,7 @@ network: true
 overview: 'AmunCore publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Dynamic API. Tagged areas include Database, API Management, Backend, No-Code, and SQL.
 
 
-  The AmunCore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The AmunCore catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   AmunCore''s developer surface includes documentation, code examples, authentication, sandbox, pricing, signup flow, support, and 28 more developer resources.'
@@ -270,6 +274,19 @@ rate_limits:
 - limit_count: 4
   name: Amuncore Rate Limits
   slug: amuncore-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: AmunCore API Rules
+  rule_count: 58
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 1
+  slug: amuncore-rules
 scopes:
 - name: Amuncore Scopes
   scope_count: 1
@@ -277,21 +294,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.9
+  composite: 59.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 59.0
+    artifact_dirs: 29
+    catalog_earned: 63.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.3
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 56.6
+    contract_governance: 31.8
+    contract_quality: 61.7
     developer_ergonomics: 35.1
-    discoverability: 63.3
+    discoverability: 66.7
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -302,14 +319,14 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 56.4
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: first-party
     skills: derived
@@ -319,13 +336,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amuncore/amuncore-2026-08-07T161347.png
 security:
 - kind: authentication

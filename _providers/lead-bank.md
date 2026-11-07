@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -26,18 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.9
-  scored_at: '2026-10-31'
+  score: 41.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -195,7 +199,7 @@ apis:
   description: The User Credit Transaction API from Lead Bank — 3 operation(s) for user credit transaction.
   name: Lead Bank User Credit Transaction API
   slug: lead-bank-user-credit-transaction-api
-artifact_total: 56
+artifact_total: 57
 collections:
 - collection_type: open
   name: Lead Bank Account Number API
@@ -339,6 +343,9 @@ network: true
 overview: 'Lead Bank publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Number API, ACH API, Blockchain Payment API, and 29 more. Tagged areas include Banking, Sponsor Bank, Embedded Finance, Banking as a Service, and Payments.
 
 
+  The Lead Bank catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Lead Bank''s developer surface includes engineering blog, authentication, documentation, changelog, and 11 more developer resources.'
 plans:
 - name: Lead Bank Plans Pricing
@@ -349,31 +356,44 @@ rate_limits:
 - limit_count: 2
   name: Lead Bank Rate Limits
   slug: lead-bank-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Lead Bank API Rules
+  rule_count: 57
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 17
+  slug: lead-bank-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 29.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 41.0
+    artifact_dirs: 19
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.9
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 51.1
+    contract_governance: 13.6
+    contract_quality: 54.6
     developer_ergonomics: 23.8
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 27.4
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 60.5
       total: 43
     mcp: first-party
   regulatory:
@@ -382,13 +402,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lead-bank/lead-bank-2026-06-20T184345.png
 security:
 - kind: authentication

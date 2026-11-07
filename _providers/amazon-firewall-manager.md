@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,8 +27,9 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
-    operation_distinctiveness: distinct
+    mcp_tool_quality: na
+    openapi_examples: partial
+    operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-31'
+  score: 25.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -381,7 +382,7 @@ modified: '2026-05-19'
 name: Amazon Firewall Manager
 nav: Providers
 network: true
-overview: 'Amazon Firewall Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Accounts API, Compliance API, Member Accounts API, and 6 more. Tagged areas include Compliance, Firewall, Network Security, and Security.
+overview: 'Amazon Firewall Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Accounts API, Compliance API, Member Accounts API, and 6 more. Tagged areas include Amazon Web Services, Compliance, Firewall, Network Security, and Security.
 
 
   The Amazon Firewall Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -426,28 +427,28 @@ rules:
   slug: amazon-firewall-manager-spectral-rules
 score:
   band: strong
-  composite: 64.1
+  composite: 62.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 75.0
+    artifact_dirs: 23
+    catalog_earned: 80.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 40.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 81.6
     contract_governance: 27.3
-    contract_quality: 70.0
-    developer_ergonomics: 65.5
-    discoverability: 57.1
-    operational_transparency: 39.5
+    contract_quality: 71.4
+    developer_ergonomics: 58.3
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 64.1
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -461,13 +462,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-firewall-manager/amazon-firewall-manager-2026-06-20T171659.png
 security:
 - kind: authentication
@@ -488,6 +488,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-firewall-manager
 tags:
+- Amazon Web Services
 - Compliance
 - Firewall
 - Network Security

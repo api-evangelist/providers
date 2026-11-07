@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -183,9 +184,9 @@ rate_limits:
   slug: 1inch-rate-limits
 score:
   band: emerging
-  composite: 23.8
+  composite: 21.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -196,18 +197,18 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 29.8
-    developer_ergonomics: 26.2
+    developer_ergonomics: 11.9
     discoverability: 78.6
     operational_transparency: 10.5
-  previous_composite: 23.8
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

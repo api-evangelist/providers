@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: false
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-31'
+  score: 48.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -220,7 +233,7 @@ modified: '2026-10-30'
 name: DigiParser
 nav: Providers
 network: true
-overview: 'DigiParser publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Document processing API, MCP API, and Parsers API. Tagged areas include Company, Document-Processing, API, Automation, and Data-Extraction.
+overview: 'DigiParser publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Document processing API, MCP API, and Parsers API. Tagged areas include Company, Document Processing, Automation, Data Extraction, and Artificial Intelligence.
 
 
   The DigiParser catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -234,13 +247,13 @@ plans:
 random_paper: 10
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 88
   extends:
   - spectral:oas
   name: DigiParser API Rules
-  rule_count: 16
+  rule_count: 47
   severity_counts:
-    error: 14
+    error: 45
     hint: 0
     info: 1
     warn: 1
@@ -251,34 +264,48 @@ scopes:
   slug: digiparser-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.4
+  band: developing
+  composite: 45.5
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 78.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 36.1
+    artifact_dirs: 32
+    catalog_earned: 65.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.4
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 51.1
-    developer_ergonomics: 63.6
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 54.1
+    developer_ergonomics: 41.0
     discoverability: 65.0
-    operational_transparency: 28.9
+    operational_transparency: 14.5
+  previous_composite: 56.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/digiparser/digiparser-2026-11-03T130703.png
 security:
 - kind: authentication
   name: Digiparser Authentication
@@ -299,10 +326,9 @@ skills:
 slug: digiparser
 tags:
 - Company
-- Document-Processing
-- API
+- Document Processing
 - Automation
-- Data-Extraction
-- AI
+- Data Extraction
+- Artificial Intelligence
 website: https://www.digiparser.com/
 ---

@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -91,7 +92,7 @@ apis:
   description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
   name: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Consumer Research API
@@ -313,6 +314,9 @@ network: true
 overview: 'Brandwatch publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client API, Data API, Me API, and 9 more. Tagged areas include Analytics, Social Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
 
 
+  The Brandwatch catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 36 more developer resources.'
 plans:
 - name: Brandwatch Plans Pricing
@@ -323,6 +327,19 @@ rate_limits:
 - limit_count: 1
   name: Brandwatch Rate Limits
   slug: brandwatch-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Brandwatch API Rules
+  rule_count: 47
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 2
+    warn: 5
+  slug: brandwatch-rules
 scopes:
 - name: Brandwatch Scopes
   scope_count: 3
@@ -330,29 +347,29 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: strong
-  composite: 60.5
+  composite: 57.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 44.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 3.4
   facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 48.5
-    developer_ergonomics: 66.1
+    access_clarity: 53.9
+    contract_governance: 31.8
+    contract_quality: 50.8
+    developer_ergonomics: 55.4
     discoverability: 75.0
-    operational_transparency: 68.4
-  previous_composite: 61.1
+    operational_transparency: 57.9
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 42.9
       total: 7
     mcp: derived
     skills: derived
@@ -362,13 +379,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/brandwatch/brandwatch-2026-06-20T173633.png
 security:
 - kind: authentication

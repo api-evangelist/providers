@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API for TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks. Endpoints include Get Services, Check Balance, Estimate Energy, Address Info, Calculate Resource Cost, Creat
@@ -195,7 +199,7 @@ modified: '2026-08-30'
 name: TronZap
 nav: Providers
 network: true
-overview: 'TronZap is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 1 more. Tagged areas include Blockchain, Cryptocurrency, TRON, DeFi infrastructure, and Stablecoins.
+overview: 'TronZap is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 1 more. Tagged areas include Blockchain, Cryptocurrency, TRON, DeFi Infrastructure, and Stablecoins.
 
 
   TronZap''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 21 more developer resources.'
@@ -210,9 +214,9 @@ rate_limits:
   slug: tronzap-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 41.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -223,10 +227,10 @@ score:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 70.8
+    developer_ergonomics: 68.5
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 42.0
+    operational_transparency: 34.2
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -237,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +271,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - TRON
-- DeFi infrastructure
+- DeFi Infrastructure
 - Stablecoins
 - USDT
 - TRC-20

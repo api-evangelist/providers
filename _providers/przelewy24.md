@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 26.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -690,10 +691,10 @@ json_schemas:
   property_count: 2
   slug: AffiliatesResponse404
 - name: Alias
-  property_count: 0
+  property_count: 2
   slug: Alias
 - name: Alternativekey
-  property_count: 0
+  property_count: 3
   slug: Alternativekey
 - name: ApiKeyResponse200
   property_count: 3
@@ -975,13 +976,13 @@ json_schemas:
   property_count: 4
   slug: PutPaymentRefundResponse
 - name: RecurringParametersA
-  property_count: 0
+  property_count: 8
   slug: RecurringParametersA
 - name: RecurringParametersM
-  property_count: 0
+  property_count: 8
   slug: RecurringParametersM
 - name: RecurringParametersO
-  property_count: 0
+  property_count: 4
   slug: RecurringParametersO
 - name: RecurringParams
   property_count: 5
@@ -1227,10 +1228,10 @@ json_schemas:
   property_count: 2
   slug: extended_AdditionalProperties
 - name: extended_Alias
-  property_count: 0
+  property_count: 2
   slug: extended_Alias
 - name: extended_Alternativekey
-  property_count: 0
+  property_count: 3
   slug: extended_Alternativekey
 - name: extended_AvailabilityHoursResponse
   property_count: 3
@@ -1332,13 +1333,13 @@ json_schemas:
   property_count: 9
   slug: extended_PaymentMethodsResponseMethod
 - name: extended_RecurringParametersA
-  property_count: 0
+  property_count: 8
   slug: extended_RecurringParametersA
 - name: extended_RecurringParametersM
-  property_count: 0
+  property_count: 8
   slug: extended_RecurringParametersM
 - name: extended_RecurringParametersO
-  property_count: 0
+  property_count: 4
   slug: extended_RecurringParametersO
 - name: extended_RecurringParams
   property_count: 5
@@ -1528,19 +1529,19 @@ rules:
   slug: przelewy24-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 39.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 55.4
+    contract_quality: 60.5
     developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 15.8
@@ -1552,13 +1553,13 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 38.4
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 92.3
       total: 13
   regulatory:
     applies: true
@@ -1566,13 +1567,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/przelewy24/przelewy24-2026-06-20T192230.png
 security:
 - kind: authentication

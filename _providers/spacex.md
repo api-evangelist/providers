@@ -1,16 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,21 +22,22 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-31'
+  score: 21.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,6 +168,84 @@ collections:
   name: SpaceX REST Capsules Starlink API
   slug: open-spacex-starlink-api
 common:
+- group: design
+  href: https://artifacts.apis.io/spacex/rules/spacex-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/spacex-rules.yml
+- group: design
+  href: https://artifacts.apis.io/spacex/rules/spacex-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/spacex-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/spacex/json-ld/spacex-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/spacex-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/spacex/data-model/spacex-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/spacex-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/spacex/changelog/spacex-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/spacex-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/spacex/conventions/spacex-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/spacex-conventions.yml
+- group: operate
+  href: https://artifacts.apis.io/spacex/lifecycle/spacex-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/spacex-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.spacexdata.com
+- group: design
+  href: https://artifacts.apis.io/spacex/lifecycle/spacex-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/spacex-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/spacex/errors/spacex-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/spacex-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/spacex/conformance/spacex-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/spacex-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/spacex/well-known/spacex-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/spacex-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/spacex/hosts/spacex-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/spacex-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/spacex/vendors/spacex-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/spacex-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/spacex/packages/spacex-packages.yml
+  title: ''
+  type: Packages
+  url: packages/spacex-packages.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.spacexdata.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -259,16 +337,6 @@ common:
   title: ''
   type: Subreddit
   url: https://www.reddit.com/r/spacex/
-- group: commercial
-  href: https://artifacts.apis.io/spacex/plans/spacex-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/spacex-plans-pricing.yml
-- group: operate
-  href: https://artifacts.apis.io/spacex/rate-limits/spacex-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/spacex-rate-limits.yml
 - group: design
   href: https://artifacts.apis.io/spacex/rules/spacex-rules.yml
   title: ''
@@ -444,14 +512,14 @@ overview: 'SpaceX (Community API) is listed with 15 APIs on the [APIs.io](https:
   The SpaceX (Community API) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpaceX (Community API)''s developer surface includes authentication, documentation, getting-started guide, changelog, status page, tooling, and 22 more developer resources.'
+  SpaceX (Community API)''s developer surface includes changelog, authentication, documentation, getting-started guide, status page, tooling, and 36 more developer resources.'
 plans:
 - name: Spacex Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: spacex-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 4
+- limit_count: 0
   name: Spacex Rate Limits
   slug: spacex-rate-limits
 rules:
@@ -480,43 +548,45 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 32.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 66.0
+    artifact_dirs: 30
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
-    access_clarity: 5.3
-    contract_governance: 27.3
+    access_clarity: 0.0
+    contract_governance: 22.0
     contract_quality: 25.1
-    developer_ergonomics: 54.8
+    developer_ergonomics: 59.5
     discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 32.1
+    operational_transparency: 34.2
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 15
       marker_coverage: 100.0
       total: 15
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/spacex/spacex-2026-06-20T194240.png
 security:
 - kind: authentication
@@ -542,4 +612,5 @@ tags:
 - REST
 - GraphQL
 - Open Data
+website: https://docs.spacexdata.com/
 ---

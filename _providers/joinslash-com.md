@@ -1,8 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -15,17 +30,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.1
-  scored_at: '2026-10-31'
+  score: 44.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -351,6 +367,26 @@ common:
   title: ''
   type: Pricing
   url: https://www.slash.com/pricing
+- group: company
+  title: ''
+  type: Website
+  url: https://slash.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.slash.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.slash.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.slash.com/api-reference
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/slashfi
 created: '2026-10-25'
 description: Slash provides a modern business banking platform offering corporate cards, treasury services, stablecoin payments, and global payments API. Founded to simplify financial operations for enterprises, Slash supports multi‑entity accounting, expense management, and working capital solutions. Backed by a $100M Series C round, the company serves e‑commerce, agencies, healthcare, and Web3 sectors, handling over $30 bn yearly payment volume. The platform emphasizes low fees, transparent pricing, and developer-friendly APIs for payments, invoicing, and analytics.
 image: https://www.slash.com/images/social-previews/index.jpg
@@ -364,13 +400,13 @@ modified: '2026-10-25'
 name: Slash
 nav: Providers
 network: true
-overview: 'Slash publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 29 more. Tagged areas include FinTech, Payments, Banking, API, and Enterprise.
+overview: 'Slash publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 29 more. Tagged areas include Fintech, Payments, Banking, and Enterprise.
 
 
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Slash''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+  Slash''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
 plans:
 - name: Joinslash Com Plans Pricing
   plan_count: 2
@@ -391,21 +427,23 @@ rules:
   slug: joinslash-com-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 53.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 61.8
+    artifact_dirs: 24
+    catalog_earned: 56.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 53.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.2
   facets:
     access_clarity: 52.6
     contract_governance: 35.6
     contract_quality: 64.0
-    developer_ergonomics: 47.6
-    discoverability: 66.1
-    operational_transparency: 34.2
+    developer_ergonomics: 51.2
+    discoverability: 64.3
+    operational_transparency: 36.8
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -413,7 +451,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 33
     mcp: derived
   regulatory:
     applies: true
@@ -421,12 +459,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
+screenshot: https://apis.io/screenshots/joinslash-com/joinslash-com-2026-11-03T134224.png
 security:
 - kind: authentication
   name: Joinslash Com Authentication
@@ -442,10 +481,9 @@ security:
   summary_line: security.txt · contact published
 slug: joinslash-com
 tags:
-- FinTech
+- Fintech
 - Payments
 - Banking
-- API
 - Enterprise
 website: https://www.slash.com
 ---

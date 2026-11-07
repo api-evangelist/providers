@@ -1,11 +1,26 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.9
-  scored_at: '2026-10-31'
+  score: 42.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -176,7 +192,7 @@ json_schemas:
   property_count: 9
   slug: blinkinbox-club-inbox
 - name: Message
-  property_count: 0
+  property_count: 15
   slug: blinkinbox-club-message
 - name: MessageSummary
   property_count: 10
@@ -197,7 +213,7 @@ modified: '2026-10-30'
 name: blinkinbox-club
 nav: Providers
 network: true
-overview: 'blinkinbox-club publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Domains API, Inboxes API, and 2 more. Tagged areas include Email, Temporary, API, MCP, and DeveloperTools.
+overview: 'blinkinbox-club publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Domains API, Inboxes API, and 2 more. Tagged areas include Email, MCP, Developer Tools, and Disposable.
 
 
   The blinkinbox-club catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,33 +240,46 @@ rules:
   slug: blinkinbox-club-rules
 score:
   band: developing
-  composite: 53.0
+  composite: 39.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 20
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
+    access_clarity: 47.4
+    contract_governance: 22.0
     contract_quality: 58.9
-    developer_ergonomics: 40.5
-    discoverability: 73.2
+    developer_ergonomics: 26.2
+    discoverability: 64.3
     operational_transparency: 0.0
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/blinkinbox-club/blinkinbox-club-2026-11-03T121934.png
 security:
 - kind: authentication
   name: Blinkinbox Club Authentication
@@ -263,10 +292,8 @@ security:
 slug: blinkinbox-club
 tags:
 - Email
-- Temporary
-- API
 - MCP
-- DeveloperTools
+- Developer Tools
 - Disposable
 website: https://blinkinbox.club/
 ---

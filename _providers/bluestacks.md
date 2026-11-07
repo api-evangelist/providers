@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -229,9 +230,9 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 45.5
+  composite: 45.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -243,9 +244,9 @@ score:
     contract_governance: 0.0
     contract_quality: 42.7
     developer_ergonomics: 78.6
-    discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 45.5
+    discoverability: 73.2
+    operational_transparency: 21.1
+  previous_composite: 45.9
   provenance:
     conformance: first-party
   regulatory:
@@ -254,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -288,6 +289,7 @@ tags:
 - Developer Platform
 - App Distribution
 - Advertising
+- OAuth
 - Authentication
 website: https://www.bluestacks.com/
 ---

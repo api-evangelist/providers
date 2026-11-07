@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -147,9 +148,9 @@ overview: '17hats is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 8
 score:
   band: emerging
-  composite: 24.5
+  composite: 24.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -161,17 +162,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 48.2
-    operational_transparency: 15.8
-  previous_composite: 24.5
+    discoverability: 55.4
+    operational_transparency: 13.2
+  previous_composite: 24.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

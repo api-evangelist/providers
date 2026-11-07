@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -226,8 +228,8 @@ overview: 'Slice is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   Slice''s developer surface includes support and 42 more developer resources.'
 random_paper: 18
 score:
-  band: emerging
-  composite: 11.4
+  band: minimal
+  composite: 9.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -240,8 +242,8 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 50.0
+    developer_ergonomics: 4.8
+    discoverability: 49.1
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -250,15 +252,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 11.4
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

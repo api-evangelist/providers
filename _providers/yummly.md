@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium (free trial)
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: true
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'DEPRECATED / HISTORICAL. The Search Recipes endpoint (GET http://api.yummly.com/v1/api/recipes) returned recipe matches as JSON with optional filters combined via AND - free-text query (q), maxResult '
@@ -98,8 +100,8 @@ rate_limits:
   name: Yummly Rate Limits
   slug: yummly-rate-limits
 score:
-  band: emerging
-  composite: 11.7
+  band: minimal
+  composite: 10.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 46.0
@@ -112,18 +114,18 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 11.7
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

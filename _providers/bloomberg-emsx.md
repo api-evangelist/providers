@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-31'
+  score: 27.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -233,9 +237,9 @@ rules:
   slug: bloomberg-emsx-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 38.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 41.3
     catalog_earned_first_party: 0.0
     catalog_gap: 73.8
@@ -245,11 +249,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 55.4
+    contract_quality: 58.0
     developer_ergonomics: 42.9
     discoverability: 48.2
     operational_transparency: 18.4
-  previous_composite: 38.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -263,13 +267,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bloomberg-emsx/bloomberg-emsx-2026-07-25T203400.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Human-as-a-Service API for AI agents, enabling task delegation to human workers.
@@ -149,7 +160,7 @@ modified: '2026-10-30'
 name: needhuman-ai
 nav: Providers
 network: true
-overview: 'needhuman-ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Human-in-the-loop, Platform, and Automation.
+overview: 'needhuman-ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Human-in-the-Loop, Platform, and Automation.
 
 
   The needhuman-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -168,34 +179,46 @@ rules:
     warn: 1
   slug: needhuman-ai-rules
 score:
-  band: thin
-  composite: 32.8
+  band: emerging
+  composite: 17.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 72.7
+    artifact_dirs: 16
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.3
   facets:
-    access_clarity: 10.5
-    contract_governance: 79.1
-    contract_quality: 54.2
+    access_clarity: 5.3
+    contract_governance: 22.0
+    contract_quality: 24.9
     developer_ergonomics: 0.0
     discoverability: 57.1
     operational_transparency: 10.5
+  previous_composite: 18.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/needhuman-ai/needhuman-ai-2026-11-03T140058.png
 security:
 - kind: domain-security
   name: Needhuman Ai Domain Security
@@ -208,8 +231,8 @@ security:
 slug: needhuman-ai
 tags:
 - Company
-- AI
-- Human-in-the-loop
+- Artificial Intelligence
+- Human-in-the-Loop
 - Platform
 - Automation
 website: https://needhuman.ai/

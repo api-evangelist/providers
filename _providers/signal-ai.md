@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-31'
+  score: 50.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.signal-ai.com
@@ -95,7 +96,7 @@ apis:
   description: 'Organisation administration for the Signal AI API. `GET /users` returns all users in the organisation of the authenticated API credential, and requires a credential carrying the `manage-organisation` '
   name: Signal AI Organisation API
   slug: signal-ai-organisation-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Signal AI Affinity API
@@ -306,6 +307,9 @@ network: true
 overview: 'Signal AI publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Affinity API, Categories API, Content Metrics API, and 8 more. Tagged areas include Company, Media Intelligence, Reputation Management, Risk Intelligence, and News.
 
 
+  The Signal AI catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Signal Ai Plans Pricing
@@ -316,6 +320,19 @@ rate_limits:
 - limit_count: 8
   name: Signal Ai Rate Limits
   slug: signal-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Signal AI API Rules
+  rule_count: 54
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 5
+  slug: signal-ai-rules
 scopes:
 - name: Signal Ai Scopes
   scope_count: 7
@@ -323,29 +340,29 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.4
+  composite: 52.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.7
   facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
-    contract_quality: 46.5
+    access_clarity: 27.6
+    contract_governance: 31.8
+    contract_quality: 48.2
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 51.4
+    discoverability: 75.0
+    operational_transparency: 73.7
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 11
     mcp: first-party
     skills: derived
@@ -355,13 +372,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/signal-ai/signal-ai-2026-08-17T081853.png
 security:
 - kind: authentication

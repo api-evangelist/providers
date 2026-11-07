@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -118,7 +122,7 @@ apis:
   description: Kakao Login OAuth 2.0 authorization, token, and logout flows.
   name: Kakao O Auth API
   slug: kakao-oauth-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Kakao Login REST OAuth API
@@ -254,6 +258,9 @@ network: true
 overview: 'Kakao publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including OIDC API, Service Terms API, User API, and 18 more. Tagged areas include Messaging, Maps, Navigation, Payments, and Search.
 
 
+  The Kakao catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Kakao''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 19 more developer resources.'
 plans:
 - name: Kakao Plans Pricing
@@ -264,23 +271,36 @@ rate_limits:
 - limit_count: 2
   name: Kakao Rate Limits
   slug: kakao-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Kakao API Rules
+  rule_count: 61
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 3
+    warn: 1
+  slug: kakao-rules
 score:
   band: thin
-  composite: 26.4
+  composite: 27.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 47.8
     developer_ergonomics: 33.3
-    discoverability: 67.9
+    discoverability: 67.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -289,7 +309,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 26.4
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -303,13 +323,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/kakao/kakao-2026-06-20T183903.png
 security:
 - kind: authentication
@@ -329,8 +348,9 @@ tags:
 - Search
 - South Korea
 - Identity
-- Authentication
+- OAuth
 - KakaoTalk
 - LLM
+- Authentication
 website: https://www.kakaocorp.com/
 ---

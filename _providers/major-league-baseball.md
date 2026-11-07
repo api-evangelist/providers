@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -208,7 +210,7 @@ apis:
   description: The Weather API from Major League Baseball — 4 operation(s) for weather.
   name: Major League Baseball Weather API
   slug: major-league-baseball-weather-api
-artifact_total: 68
+artifact_total: 69
 collections:
 - collection_type: open
   name: Stats API Documentation Analytics API
@@ -374,33 +376,49 @@ network: true
 overview: 'Major League Baseball publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Attendance API, Awards API, and 31 more. Tagged areas include Analytics, Baseball, Entertainment, Media, and Sports.
 
 
+  The Major League Baseball catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Major League Baseball''s developer surface includes product news, engineering blog, and 12 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Major League Baseball API Rules
+  rule_count: 45
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 5
+    warn: 8
+  slug: major-league-baseball-rules
 score:
   band: emerging
-  composite: 20.3
+  composite: 22.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 32.0
+    artifact_dirs: 10
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 38.9
+    contract_governance: 13.6
+    contract_quality: 43.2
     developer_ergonomics: 19.0
-    discoverability: 58.9
+    discoverability: 58.0
     operational_transparency: 10.5
-  previous_composite: 20.3
+  previous_composite: 21.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 31
   regulatory:
     applies: true
@@ -408,13 +426,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/major-league-baseball/major-league-baseball-2026-10-11T190820.png
 security:
 - kind: domain-security

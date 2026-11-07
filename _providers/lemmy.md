@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Free · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: free
+  pricing: freemium
   public: false
   source:
   - plans
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -306,10 +310,10 @@ rules:
     warn: 4
   slug: lemmy-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 34.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 70.8
     catalog_earned_first_party: 0.0
     catalog_gap: 44.3
@@ -319,11 +323,14 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
-    contract_quality: 66.3
-    developer_ergonomics: 35.7
+    contract_quality: 70.8
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 40.1
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +344,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lemmy/lemmy-2026-06-20T184415.png
 security:
 - kind: authentication

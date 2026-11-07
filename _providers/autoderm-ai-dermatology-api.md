@@ -1,17 +1,17 @@
 ---
 access_model:
   confidence: high
-  label: Freemium (free trial) · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - rate-limits
   - security
-  trial: true
-  try_now: true
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: false
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -68,7 +69,7 @@ apis:
   description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
   name: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: Autoderm Device API
@@ -334,6 +335,9 @@ network: true
 overview: 'Autoderm – AI Dermatology API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telehealth, and skin-analysis.
 
 
+  The Autoderm – AI Dermatology API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Autoderm Ai Dermatology Api Plans
@@ -347,32 +351,45 @@ rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits
   slug: autoderm-ai-dermatology-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Autoderm – AI Dermatology API API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: autoderm-ai-dermatology-api-rules
 score:
   band: strong
-  composite: 62.4
+  composite: 65.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 1.4
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 50.6
+    contract_governance: 31.8
+    contract_quality: 56.0
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 61.4
+    discoverability: 73.2
+    operational_transparency: 57.9
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -382,13 +399,12 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/autoderm-ai-dermatology-api/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:
 - kind: authentication
@@ -416,7 +432,7 @@ tags:
 - skin-analysis
 - REST API
 - OpenAPI
-- llms-txt
+- Llms.txt
 - ce-marked
 - White Label
 - Healthcare

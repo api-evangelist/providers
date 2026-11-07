@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
@@ -209,9 +210,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.2
+  composite: 34.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -222,8 +223,8 @@ score:
     access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.2
-    discoverability: 65.0
+    developer_ergonomics: 28.0
+    discoverability: 68.3
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -232,7 +233,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.2
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -243,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

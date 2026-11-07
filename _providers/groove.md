@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-31'
+  score: 40.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -231,7 +233,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.8
     catalog_earned_first_party: 0.0
     catalog_gap: 74.3
@@ -241,9 +243,9 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 50.5
+    contract_quality: 52.3
     developer_ergonomics: 33.3
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 5.3
   previous_composite: 32.2
   provenance:
@@ -260,13 +262,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/groove/groove-2026-06-20T182412.png
 security:
 - kind: authentication

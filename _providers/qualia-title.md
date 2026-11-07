@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Enterprise · Requires approval
-  onboarding: approval
+  confidence: high
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -191,9 +195,9 @@ rate_limits:
   slug: qualia-title-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 34.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -206,16 +210,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 60.5
-  previous_composite: 35.0
+    operational_transparency: 57.9
+  previous_composite: 34.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

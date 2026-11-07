@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The LifeStyles US store implements the Universal Commerce Protocol for agent-driven commerce. Agents discover the merchant profile at /.well-known/ucp and then call the JSON-RPC MCP endpoint to search
@@ -151,9 +152,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.3
+  composite: 23.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -165,9 +166,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 56.7
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -178,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

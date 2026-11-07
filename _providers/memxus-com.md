@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API reference for Memxus providing endpoints for memory storage and retrieval.
@@ -134,7 +150,7 @@ modified: '2026-10-30'
 name: memxus-com
 nav: Providers
 network: true
-overview: 'memxus-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, ContextEngine, DeveloperTools, Productivity, and Memory.
+overview: 'memxus-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Context Engine, Developer Tools, Productivity, and Memory.
 
 
   The memxus-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -160,22 +176,24 @@ rules:
     warn: 1
   slug: memxus-com-rules
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 24.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.8
     catalog_earned_first_party: 8.0
     catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.2
   facets:
-    access_clarity: 65.8
+    access_clarity: 43.4
     contract_governance: 22.0
     contract_quality: 10.5
-    developer_ergonomics: 33.3
+    developer_ergonomics: 22.6
     discoverability: 56.7
     operational_transparency: 0.0
+  previous_composite: 31.9
   provenance:
     conformance: derived
     contracts:
@@ -189,13 +207,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/memxus-com/memxus-com-2026-11-03T135653.png
 security:
 - kind: authentication
   name: Memxus Com Authentication
@@ -207,9 +227,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: memxus-com
 tags:
-- AI
-- ContextEngine
-- DeveloperTools
+- Artificial Intelligence
+- Context Engine
+- Developer Tools
 - Productivity
 - Memory
 website: https://memxus.com/

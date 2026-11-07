@@ -1,31 +1,45 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-31'
+  score: 22.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -40,6 +54,61 @@ asyncapis:
   name: Timely Webhooks
   slug: timely-webhooks
 common:
+- group: agent
+  href: https://artifacts.apis.io/timely/agentic-access/timely-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/timely-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/timely/rules/timely-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/timely-rules.yml
+- group: design
+  href: https://artifacts.apis.io/timely/json-ld/timely-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/timely-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/timely/vocabulary/timely-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/timely-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/timely/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/timely/asyncapi/timely-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/timely-webhooks.yml
+- group: design
+  href: https://artifacts.apis.io/timely/data-model/timely-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/timely-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/timely/changelog/timely-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/timely-changelog.yml
+- group: auth
+  href: https://artifacts.apis.io/timely/authentication/timely-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/timely-authentication.yml
+- group: auth
+  href: https://artifacts.apis.io/timely/scopes/timely-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/timely-scopes.yml
+- group: design
+  href: https://artifacts.apis.io/timely/errors/timely-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/timely-problem-types.yml
 - group: commercial
   href: https://artifacts.apis.io/timely/plans/timely-plans-pricing.yml
   title: ''
@@ -172,13 +241,13 @@ modified: '2026-10-27'
 name: Timely (Memory AS)
 nav: Providers
 network: true
-overview: 'Timely (Memory AS) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Time Tracking, AI, SaaS, and Productivity.
+overview: 'Timely (Memory AS) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Time Tracking, Artificial Intelligence, Software-as-a-Service, and Productivity.
 
 
   The Timely (Memory AS) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Timely (Memory AS)''s developer surface includes support, pricing, changelog, engineering blog, getting-started guide, documentation, and 15 more developer resources.'
+  Timely (Memory AS)''s developer surface includes changelog, authentication, support, pricing, engineering blog, getting-started guide, documentation, and 25 more developer resources.'
 plans:
 - name: Timely Plans Pricing
   plan_count: 7
@@ -190,16 +259,16 @@ rate_limits:
   slug: timely-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 105
   extends:
   - spectral:oas
   name: Timely (Memory AS) API Rules
-  rule_count: 13
+  rule_count: 64
   severity_counts:
-    error: 9
+    error: 49
     hint: 0
     info: 1
-    warn: 3
+    warn: 14
   slug: timely-rules
 scopes:
 - name: Timely Scopes
@@ -208,21 +277,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 56.1
+  composite: 61.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 54.5
+    artifact_dirs: 32
+    catalog_earned: 55.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.5
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.3
   facets:
-    access_clarity: 92.1
-    contract_governance: 31.8
+    access_clarity: 85.5
+    contract_governance: 35.6
     contract_quality: 59.1
-    developer_ergonomics: 38.1
-    discoverability: 48.2
+    developer_ergonomics: 41.1
+    discoverability: 55.4
     operational_transparency: 26.3
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,12 +310,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
+screenshot: https://apis.io/screenshots/timely/timely-2026-11-03T144756.png
 security:
 - kind: authentication
   name: Timely Authentication
@@ -270,8 +342,8 @@ slug: timely
 tags:
 - Company
 - Time Tracking
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
 website: https://timelyapp.com/
 ---

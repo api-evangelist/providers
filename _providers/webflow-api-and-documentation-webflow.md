@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.1
-  scored_at: '2026-10-31'
+  score: 40.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -903,9 +908,9 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.8
+  composite: 56.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -924,7 +929,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.8
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -938,13 +943,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/webflow-api-and-documentation-webflow/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:
 - kind: authentication

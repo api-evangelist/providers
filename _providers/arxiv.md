@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -323,9 +328,9 @@ rules:
   slug: arxiv-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 44.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 61.4
     catalog_earned_first_party: 0.0
     catalog_gap: 53.6
@@ -335,15 +340,15 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 58.4
+    contract_quality: 55.3
     developer_ergonomics: 52.4
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 45.7
+    operational_transparency: 34.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -353,13 +358,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/arxiv/arxiv-2026-06-20T172448.png
 security:
 - kind: domain-security

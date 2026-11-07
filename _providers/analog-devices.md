@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Free
-  onboarding: unknown
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
   pricing: free
   public: false
   source:
   - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.5
-  scored_at: '2026-10-31'
+  score: 20.4
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -319,9 +325,9 @@ rules:
   slug: analog-devices-spectral-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 40.3
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 59.8
     catalog_earned_first_party: 0.0
     catalog_gap: 55.3
@@ -329,13 +335,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 10.5
     contract_governance: 41.7
-    contract_quality: 10.7
-    developer_ergonomics: 88.1
+    contract_quality: 34.7
+    developer_ergonomics: 65.5
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 40.6
+    operational_transparency: 23.7
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -345,9 +351,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

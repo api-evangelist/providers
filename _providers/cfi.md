@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,10 +37,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
+- group: auth
+  href: https://artifacts.apis.io/cfi/well-known/cfi-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/cfi-status-security.txt
+- group: start
+  title: ''
+  type: Login
+  url: https://learn.corporatefinanceinstitute.com/auth/login
 - group: commercial
   href: https://artifacts.apis.io/cfi/plans/cfi-plans-pricing.yml
   title: ''
@@ -39,11 +60,6 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/cfi-changelog.yml
-- group: auth
-  href: https://artifacts.apis.io/cfi/well-known/cfi-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/cfi-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/cfi/well-known/cfi-well-known.yml
   title: ''
@@ -116,10 +132,10 @@ modified: '2026-10-25'
 name: CFI
 nav: Providers
 network: true
-overview: 'CFI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Finance, Certifications, and Online-Learning.
+overview: 'CFI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Finance, Certification, and E-Learning.
 
 
-  CFI''s developer surface includes changelog, pricing, getting-started guide, documentation, and 12 more developer resources.'
+  CFI''s developer surface includes changelog, pricing, getting-started guide, documentation, and 13 more developer resources.'
 plans:
 - name: Cfi Plans Pricing
   plan_count: 7
@@ -127,21 +143,23 @@ plans:
 random_paper: 18
 score:
   band: emerging
-  composite: 24.2
+  composite: 20.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 51.8
-    operational_transparency: 42.1
+    developer_ergonomics: 10.7
+    discoverability: 50.0
+    operational_transparency: 26.3
+  previous_composite: 24.2
   provenance:
     mcp: derived
   regulatory:
@@ -149,13 +167,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 7.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/cfi/cfi-2026-11-03T123744.png
 security:
 - kind: domain-security
   name: Cfi Domain Security
@@ -166,7 +186,7 @@ tags:
 - Company
 - Education
 - Finance
-- Certifications
-- Online-Learning
+- Certification
+- E-Learning
 website: https://corporatefinanceinstitute.com
 ---

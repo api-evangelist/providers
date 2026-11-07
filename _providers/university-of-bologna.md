@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Free
-  onboarding: unknown
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
   - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 12
 apis:
 - description: Institution-operated CKAN open data portal serving the standard CKAN Action API over University of Bologna datasets. Verified live 2026-09-01 — https://dati.unibo.it/api/3/action/package_list returned
@@ -205,9 +211,9 @@ rate_limits:
   slug: university-of-bologna-rate-limits
 score:
   band: emerging
-  composite: 19.0
+  composite: 18.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -220,7 +226,7 @@ score:
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -229,7 +235,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 19.0
+  previous_composite: 18.6
   provenance:
     conformance: first-party
   regulatory:
@@ -238,8 +244,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

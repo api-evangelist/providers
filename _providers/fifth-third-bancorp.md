@@ -1,15 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Sandbox available · Partner onboarding
+  confidence: low
+  label: Unknown
   onboarding: unknown
   pricing: unknown
-  public: true
+  public: false
   source:
-  - developer-portal
-  - openapi
   - authentication
-  trial: true
+  - security
+  - sandbox
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-10-31'
+  score: 44.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -113,7 +114,7 @@ apis:
   description: 'VRNs act as aliases for accounts, enabling unique use cases like accounts receivable segmentation or reconciliation. **Endpoints:** - GET [List Virtual Reference Numbers: GET /virtual_reference_number'
   name: Fifth Third Bancorp Virtual Reference Numbers API
   slug: fifth-third-bancorp-virtual-reference-numbers-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Fifth Third Bancorp Newline Webhooks
@@ -302,7 +303,7 @@ network: true
 overview: 'Fifth Third Bancorp publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Combined Transfers API, Custodial Accounts API, and 10 more. Tagged areas include Banking, United States, Embedded Finance, Banking as a Service, and Payments.
 
 
-  The Fifth Third Bancorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Fifth Third Bancorp catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Fifth Third Bancorp''s developer surface includes engineering blog, authentication, documentation, changelog, sandbox, getting-started guide, and 30 more developer resources.'
@@ -323,24 +324,37 @@ press:
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Fifth Third Bancorp API Rules
+  rule_count: 50
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 11
+  slug: fifth-third-bancorp-rules
 score:
   band: developing
-  composite: 47.0
+  composite: 48.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 37.0
+    artifact_dirs: 29
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 55.1
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 63.7
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 44.7
+    discoverability: 75.0
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -348,14 +362,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 13
     mcp: first-party
     skills: first-party
@@ -364,14 +378,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 18.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fifth-third-bancorp/fifth-third-bancorp-2026-06-20T181156.png
 security:
 - kind: authentication

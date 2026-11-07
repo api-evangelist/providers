@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.3
-  scored_at: '2026-10-31'
+  score: 23.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A governed Model Context Protocol gateway that turns GlobalData's business intelligence into tools an AI agent can call directly. One MCP server endpoint per industry vertical, all sharing a single to
@@ -169,10 +186,10 @@ scopes:
   slug: globaldata-scopes
   summary_line: 4 scopes
 score:
-  band: thin
-  composite: 28.1
+  band: emerging
+  composite: 22.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,10 +200,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.0
-    discoverability: 65.0
+    developer_ergonomics: 20.8
+    discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 28.1
+  previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +214,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

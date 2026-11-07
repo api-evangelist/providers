@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: partial
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -188,10 +193,10 @@ rules:
     warn: 7
   slug: superviz-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 18.3
+  band: thin
+  composite: 30.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -201,11 +206,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 8.1
+    contract_quality: 60.0
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 18.3
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,13 +224,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/superviz/superviz-2026-08-17T082204.png
 security:
 - kind: authentication

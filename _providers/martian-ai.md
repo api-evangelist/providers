@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -256,9 +260,9 @@ rules:
   slug: martian-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 44.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -270,9 +274,9 @@ score:
     contract_governance: 29.5
     contract_quality: 57.6
     developer_ergonomics: 65.5
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 45.7
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,13 +292,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/martian-ai/martian-ai-2026-07-25T230258.png
 security:
 - kind: authentication

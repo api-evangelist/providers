@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -108,7 +110,7 @@ apis:
   description: The Unpack API from Apache Tika — 2 operation(s) for unpack.
   name: Apache Tika Unpack API
   slug: apache-tika-unpack-api
-artifact_total: 48
+artifact_total: 49
 collections:
 - collection_type: open
   name: Apache Tika Server REST Apache Tika Server REST API API
@@ -277,6 +279,9 @@ network: true
 overview: 'Apache Tika is listed with 13 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API, Detect API, Detectors API, and 10 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open Source.
 
 
+  The Apache Tika catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 14 more developer resources.'
 plans:
 - name: Apache Tika Plans Pricing
@@ -287,25 +292,41 @@ rate_limits:
 - limit_count: 5
   name: Apache Tika Rate Limits
   slug: apache-tika-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Apache Tika API Rules
+  rule_count: 34
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 1
+    warn: 1
+  slug: apache-tika-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 34.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 41.0
+    artifact_dirs: 14
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 33.7
-    developer_ergonomics: 50.0
+    developer_ergonomics: 26.2
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 33.6
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +340,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/apache-tika/apache-tika-2026-06-20T172153.png
 security:
 - kind: domain-security

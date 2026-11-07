@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -10,7 +13,7 @@ access_model:
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -226,9 +230,9 @@ rules:
   slug: fdc3-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 36.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 60.7
     catalog_earned_first_party: 0.0
     catalog_gap: 54.4
@@ -239,10 +243,10 @@ score:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 33.3
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 38.0
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,13 +260,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fdc3/fdc3-2026-06-20T181104.png
 security:
 - kind: authentication

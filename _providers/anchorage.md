@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-31'
+  score: 48.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -195,7 +196,7 @@ arazzos:
 - description: Request a quote, accept it, and confirm the resulting order and trade.
   name: Anchorage Digital - Trade via RFQ
   slug: anchorage-trade-rfq
-artifact_total: 69
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Anchorage Webhooks
@@ -463,7 +464,7 @@ network: true
 overview: 'Anchorage Digital publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, AML API, API Key API, and 25 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Custody, and Trading.
 
 
-  The Anchorage Digital catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Anchorage Digital catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 28 more developer resources.'
@@ -472,32 +473,45 @@ rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
   slug: anchorage-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Anchorage Digital API Rules
+  rule_count: 65
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 3
+    warn: 13
+  slug: anchorage-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 49.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 45.0
+    artifact_dirs: 28
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 59.6
-    developer_ergonomics: 61.3
-    discoverability: 65.0
-    operational_transparency: 84.2
-  previous_composite: 53.1
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 63.5
+    developer_ergonomics: 23.2
+    discoverability: 71.7
+    operational_transparency: 81.6
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 67.9
       total: 28
     mcp: first-party
     skills: derived
@@ -507,13 +521,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/anchorage/anchorage-2026-07-25T200219.png
 security:
 - kind: authentication

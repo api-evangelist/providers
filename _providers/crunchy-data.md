@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,17 +31,25 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-10-31'
+  score: 40.8
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 49
+  human_in_the_loop: 1
+  name: Crunchy Data Agentic Access
+  operation_count: 82
+  slug: crunchy-data-agentic-access
+  summary_line: 82 operations · 49 acting · 1 human-in-the-loop
 api_count: 23
 apis:
 - baseURL: https://api.crunchybridge.com
@@ -143,8 +167,33 @@ apis:
   description: The Team Member API from Crunchy Data — 2 operation(s) for team member.
   name: Crunchy Data Team Member API
   slug: crunchy-data-team-member-api
-artifact_total: 30
+artifact_total: 32
 common:
+- group: agent
+  href: https://artifacts.apis.io/crunchy-data/agentic-access/crunchy-data-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/crunchy-data-agentic-access.yml
+- group: commercial
+  href: https://artifacts.apis.io/crunchy-data/finops/crunchy-data-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crunchy-data-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/crunchy-data/well-known/crunchy-data-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/crunchy-data-www-security.txt
+- group: build
+  href: https://artifacts.apis.io/crunchy-data/integrations/crunchy-data-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/crunchy-data-integration-edges.yml
+- group: auth
+  href: https://artifacts.apis.io/crunchy-data/authentication/crunchy-data-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/crunchy-data-authentication.yml
 - group: commercial
   href: https://artifacts.apis.io/crunchy-data/plans/crunchy-data-plans-pricing.yml
   title: ''
@@ -214,11 +263,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/crunchy-data-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/crunchy-data/well-known/crunchy-data-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/crunchy-data-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/crunchy-data/well-known/crunchy-data-well-known.yml
   title: ''
@@ -353,7 +397,7 @@ overview: 'Crunchy Data is listed with 23 APIs on the [APIs.io](https://apis.io/
   The Crunchy Data catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Crunchy Data''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 33 more developer resources.'
+  Crunchy Data''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 37 more developer resources.'
 plans:
 - name: Crunchy Data Plans Pricing
   plan_count: 18
@@ -368,37 +412,38 @@ rate_limits:
   slug: crunchy-data-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: Crunchy Data API Rules
-  rule_count: 11
+  rule_count: 42
   severity_counts:
-    error: 9
+    error: 37
     hint: 0
     info: 1
-    warn: 1
+    warn: 4
   slug: crunchy-data-rules
 score:
   band: developing
-  composite: 53.9
+  composite: 43.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 26
     catalog_earned: 68.8
     catalog_earned_first_party: 20.0
     catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: -10.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 67.1
     contract_governance: 22.0
-    contract_quality: 12.1
-    developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 76.3
-  previous_composite: 46.0
+    contract_quality: 15.5
+    developer_ergonomics: 45.2
+    discoverability: 72.3
+    operational_transparency: 48.7
+  previous_composite: 54.1
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -411,15 +456,19 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 28.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/crunchy-data/crunchy-data-2026-11-03T125704.png
 security:
+- kind: authentication
+  name: Crunchy Data Authentication
+  slug: crunchy-data-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Crunchy Data Domain Security
   slug: crunchy-data-domain-security

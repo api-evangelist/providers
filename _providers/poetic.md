@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,6 +65,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://poetic.com/terms
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.poetic.com/
 created: '2026-07-17'
 description: Poetic is an enterprise AI automation company whose platform learns an organization's rules and procedures and then executes end-to-end business processes with high precision and compliance. Marketed as "turn your business into software," Poetic ingests procedures, training materials, and expert feedback to build self-healing automations that adapt when underlying systems change, targeting long, multi-step workflows such as fraud detection, KYC, and dispute resolution. The company emphasizes enterprise-grade security with zero data retention (processing data in-transit only) and states SOC 2 Type II, PCI DSS, HIPAA, and GDPR compliance, and cites customers including AIG, SoFi, and Chime. Poetic is an early-stage, Kleiner Perkins-backed AI company; as of this profile it publishes no public API, developer documentation, or SDKs.
 image: https://poetic.com/og.jpg
@@ -71,11 +77,14 @@ modified: '2026-07-20'
 name: Poetic
 nav: Providers
 network: true
-overview: Poetic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automation, Enterprise, and Agents.
+overview: 'Poetic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automation, Enterprise, and Agents.
+
+
+  Poetic''s developer surface includes documentation and 6 more developer resources.'
 random_paper: 20
 score:
   band: minimal
-  composite: 8.7
+  composite: 9.6
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -83,12 +92,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.8
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 8.7
@@ -98,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -121,5 +130,10 @@ tags:
 - Workflows
 - Compliance
 - Fraud Prevention
+- AI Automation
+- KYC
+- Dispute Management
+- Enterprise Workflow
+- Security
 website: https://poetic.com/
 ---

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -252,7 +256,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/password/deviceCode/refreshToken
 score:
   band: developing
-  composite: 47.3
+  composite: 46.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -265,7 +269,7 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 61.3
+    developer_ergonomics: 58.9
     discoverability: 62.5
     operational_transparency: 47.4
   jurisdiction:
@@ -275,7 +279,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.3
+  previous_composite: 46.8
   provenance:
     conformance: derived
     mcp: derived
@@ -286,8 +290,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

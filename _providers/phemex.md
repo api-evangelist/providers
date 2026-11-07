@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-31'
+  score: 24.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -282,9 +283,9 @@ rules:
   slug: phemex-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 32.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 54.8
     catalog_earned_first_party: 0.0
     catalog_gap: 60.3
@@ -294,11 +295,11 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
-    contract_quality: 51.8
+    contract_quality: 52.5
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 34.0
+    operational_transparency: 13.2
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -312,13 +313,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/phemex/phemex-2026-06-20T191642.png
 security:
 - kind: authentication

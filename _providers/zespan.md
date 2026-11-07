@@ -1,32 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.8
-  scored_at: '2026-10-31'
+  score: 24.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API for Zespan AI agent reliability platform
@@ -43,6 +58,11 @@ asyncapis:
   name: Zespan Webhooks
   slug: zespan-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/zespan/well-known/zespan-app-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/zespan-app-security.txt
 - group: commercial
   href: https://artifacts.apis.io/zespan/plans/zespan-plans-pricing.yml
   title: ''
@@ -226,7 +246,7 @@ overview: 'Zespan is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
   The Zespan catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Zespan''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, engineering blog, and 22 more developer resources.'
+  Zespan''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
 plans:
 - name: Zespan Plans Pricing
   plan_count: 5
@@ -234,54 +254,57 @@ plans:
 random_paper: 9
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: Zespan API Rules
-  rule_count: 11
+  rule_count: 46
   severity_counts:
-    error: 10
+    error: 44
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: zespan-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 40.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.0
+    artifact_dirs: 23
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 41.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.6
   facets:
-    access_clarity: 76.3
-    contract_governance: 19.7
+    access_clarity: 53.9
+    contract_governance: 22.0
     contract_quality: 33.7
-    developer_ergonomics: 57.1
-    discoverability: 66.1
+    developer_ergonomics: 38.1
+    discoverability: 73.2
     operational_transparency: 28.9
+  previous_composite: 49.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 10
+      derived: 1
       marker_coverage: 100.0
-      total: 10
-    mcp: unknown
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/zespan/zespan-2026-11-03T150514.png
 security:
 - kind: authentication
   name: Zespan Authentication

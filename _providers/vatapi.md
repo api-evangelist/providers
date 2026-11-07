@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium (free trial)
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: true
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for EU and UK VAT compliance including VAT rate lookups by country, VAT number validation against VIES and HMRC, currency conversion rates from HMRC and ECB, and generation of VAT-compliant i
@@ -119,9 +121,9 @@ rate_limits:
   slug: vatapi-rate-limits
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -132,7 +134,7 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 13.2
   jurisdiction:
@@ -143,15 +145,15 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 14.0
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

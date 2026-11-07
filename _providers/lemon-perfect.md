@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -190,7 +191,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: thin
-  composite: 35.0
+  composite: 36.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -204,7 +205,7 @@ score:
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 49.4
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -213,7 +214,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.0
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -224,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

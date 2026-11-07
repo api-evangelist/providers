@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.2
-  scored_at: '2026-10-31'
+  score: 52.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -83,7 +84,7 @@ apis:
   description: The Users API from Padlet — 1 operation(s) for users.
   name: Padlet Users API
   slug: padlet-users-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Padlet AI Recipe Boards API
@@ -254,31 +255,47 @@ network: true
 overview: 'Padlet publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Recipe Boards API, Boards API, Comments API, and 4 more. Tagged areas include Collaboration, Education, Visual Collaboration, Content, and Boards.
 
 
+  The Padlet catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Padlet''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 22 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Padlet Rate Limits
   slug: padlet-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Padlet API Rules
+  rule_count: 46
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 2
+  slug: padlet-rules
 score:
   band: developing
-  composite: 49.8
+  composite: 49.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
+    artifact_dirs: 24
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 44.7
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 49.9
-    developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 49.8
+    developer_ergonomics: 54.2
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -295,13 +312,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/padlet/padlet-2026-08-07T191252.png
 security:
 - kind: authentication

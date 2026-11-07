@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Admin/management REST API for MultiLine, used to connect external applications to a Movius organization. Supports provisioning and managing API users, assigning and reassigning business numbers, confi
@@ -131,9 +132,9 @@ overview: 'Movius is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 3
 score:
   band: thin
-  composite: 32.4
+  composite: 31.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,8 +147,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 32.4
+    operational_transparency: 23.7
+  previous_composite: 31.3
   provenance:
     conformance: first-party
   regulatory:
@@ -166,8 +167,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

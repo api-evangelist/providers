@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-31'
+  score: 33.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -192,7 +208,7 @@ modified: '2026-10-30'
 name: omniyond-com
 nav: Providers
 network: true
-overview: 'omniyond-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: MCP API, Scheduler API, and Utility API. Tagged areas include AI, API, Pay-per-use, Scheduling, and Automation.
+overview: 'omniyond-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: MCP API, Scheduler API, and Utility API. Tagged areas include Artificial Intelligence, Pay-Per-Use, Scheduling, and Automation.
 
 
   The omniyond-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -219,33 +235,47 @@ rules:
   slug: omniyond-com-rules
 score:
   band: developing
-  composite: 50.6
+  composite: 39.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 24
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.7
   facets:
-    access_clarity: 62.6
-    contract_governance: 79.1
-    contract_quality: 61.5
-    developer_ergonomics: 27.9
-    discoverability: 65.0
+    access_clarity: 48.7
+    contract_governance: 22.0
+    contract_quality: 64.5
+    developer_ergonomics: 23.1
+    discoverability: 56.7
     operational_transparency: 0.0
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/omniyond-com/omniyond-com-2026-11-03T140540.png
 security:
 - kind: authentication
   name: Omniyond Com Authentication
@@ -261,9 +291,8 @@ skills:
   slug: omniyond-com-schedule-job
 slug: omniyond-com
 tags:
-- AI
-- API
-- Pay-per-use
+- Artificial Intelligence
+- Pay-Per-Use
 - Scheduling
 - Automation
 website: https://omniyond.com/

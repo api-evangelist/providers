@@ -1,8 +1,9 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  gated_conflict: 'x-api-posture: private but 3 published API entries'
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'Amwell''s Converge platform REST APIs, which Amwell states leverage HL7 FHIR and single sign-on, let partners embed and orchestrate virtual care — urgent, scheduled, behavioral, and specialty visits — '
@@ -165,7 +167,7 @@ rate_limits:
   slug: amwell-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 25.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 35.0
@@ -179,8 +181,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 62.5
-    operational_transparency: 15.8
+    discoverability: 69.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -188,7 +190,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.3
+  previous_composite: 25.0
   provenance:
     conformance: first-party
   regulatory:
@@ -201,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

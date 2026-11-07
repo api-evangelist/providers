@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,10 +21,11 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -31,17 +33,92 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
+  score: 5.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
-- description: Create/customize digital maps based on Bing Maps data
-  name: Bing Maps
+- description: The Bing Maps REST Services (dev.virtualearth.net/REST/v1) provide geocoding, reverse geocoding, routing, imagery, elevations, time zone, traffic and location recognition over HTTP with a Bing Maps ke
+  name: Bing Maps REST Services
   slug: bing-maps
 artifact_total: 4
 common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/bingmaps/getting-started/bing-maps-api-best-practices
+- group: design
+  href: https://artifacts.apis.io/bing-maps/lifecycle/bing-maps-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bing-maps-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/bing-maps/errors/bing-maps-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/bing-maps-problem-types.yml
+- group: agent
+  href: https://artifacts.apis.io/bing-maps/llms/bing-maps-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/bing-maps-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/bing-maps/well-known/bing-maps-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/bing-maps-security.txt
+- group: agent
+  href: https://artifacts.apis.io/bing-maps/well-known/bing-maps-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/bing-maps-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/bing-maps/hosts/bing-maps-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bing-maps-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/bing-maps/vendors/bing-maps-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/bing-maps-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/en-us
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.microsoft.com/privacy?icid=DSM_Footer_Company_Privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.microsoft.com/en-us/changelog
+- group: company
+  title: ''
+  type: Blog
+  url: https://azure.microsoft.com/en-us/blog/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
 - group: auth
   href: https://artifacts.apis.io/bing-maps/security/bing-maps-trust-center.yml
   title: ''
@@ -65,44 +142,65 @@ common:
   title: ''
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/bingmaps/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.bingmapsportal.com/
+coverage:
+  checked: '2026-11-05'
+  detail: Bing Maps REST Services are documented only as prose on learn.microsoft.com (no OpenAPI anywhere, dev.virtualearth.net answers 401 to every unauthenticated path) and the service is deprecated, retired for Basic accounts and closing to Enterprise accounts on June 30th, 2028.
+  evidence:
+  - status: 200
+    url: https://learn.microsoft.com/en-us/bingmaps/rest-services/
+  - status: 401
+    url: https://dev.virtualearth.net/REST/v1/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-05-28'
-description: Create/customize digital maps based on Bing Maps data
+description: 'Bing Maps for Enterprise is Microsoft''s mapping platform offering REST Services, a Web Control SDK and spatial data services for geocoding, routing, imagery and traffic. Microsoft has deprecated it: free (Basic) accounts are retired and Enterprise accounts can use it until June 30th, 2028, after which customers must move to Azure Maps.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bing-maps.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-11-05'
 name: Bing Maps
 nav: Providers
 network: true
-overview: Bing Maps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
+overview: 'Bing Maps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding, Maps, Routing, Geospatial, and Microsoft.
+
+
+  Bing Maps'' developer surface includes support, pricing, changelog, engineering blog, getting-started guide, documentation, and 18 more developer resources.'
 random_paper: 6
 score:
-  band: minimal
-  composite: 9.7
+  band: thin
+  composite: 29.7
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 22.0
+    artifact_dirs: 11
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 20.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 46.4
-    operational_transparency: 10.5
+    developer_ergonomics: 45.2
+    discoverability: 73.2
+    operational_transparency: 39.5
   previous_composite: 9.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -124,6 +222,11 @@ security:
 slug: bing-maps
 tags:
 - Geocoding
+- Maps
+- Routing
+- Geospatial
+- Microsoft
+- Deprecated
 - Public APIs
 website: https://www.microsoft.com/maps/
 ---

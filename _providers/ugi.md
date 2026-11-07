@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -83,6 +85,10 @@ common:
   title: ''
   type: Contact
   url: https://ugies.com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ugicorp.com
 created: '2026-05-03'
 description: 'UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange.'
 finops:
@@ -183,8 +189,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -205,5 +211,8 @@ tags:
 - Electric
 - Fortune 500
 - Pennsylvania
+- Utility
+- LPG
+- Midstream
 website: https://ugicorp.com
 ---

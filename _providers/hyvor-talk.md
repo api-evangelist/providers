@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Commenting platform API documented at Hyvor Talk developer docs.
@@ -137,40 +148,44 @@ modified: '2026-10-26'
 name: Hyvor Talk
 nav: Providers
 network: true
-overview: 'Hyvor Talk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include comments, platform, SaaS, engagement, and privacy.
+overview: 'Hyvor Talk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Comments, Platform, Software-as-a-Service, Engagement, and Privacy.
 
 
   Hyvor Talk''s developer surface includes support, sandbox, pricing, documentation, engineering blog, and 15 more developer resources.'
 random_paper: 9
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 18.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 57.1
-    operational_transparency: 31.6
+    developer_ergonomics: 19.0
+    discoverability: 64.3
+    operational_transparency: 15.8
+  previous_composite: 27.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/hyvor-talk/hyvor-talk-2026-11-03T133555.png
 security:
 - kind: domain-security
   name: Hyvor Talk Domain Security
@@ -186,10 +201,10 @@ security:
   summary_line: ISO 27001, GDPR
 slug: hyvor-talk
 tags:
-- comments
-- platform
-- SaaS
-- engagement
-- privacy
+- Comments
+- Platform
+- Software-as-a-Service
+- Engagement
+- Privacy
 website: https://hyvor.com/talk
 ---

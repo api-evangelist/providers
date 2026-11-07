@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: free
+  pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,12 +23,13 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -35,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-31'
+  score: 58.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 5
@@ -593,7 +597,7 @@ json_schemas:
   property_count: 2
   slug: recorded-future-get-active-risk-rule-response
 - name: GetSigmaJobResponse
-  property_count: 0
+  property_count: 12
   slug: recorded-future-get-sigma-job-response
 - name: GetSigmaJobsRequest
   property_count: 2
@@ -800,51 +804,50 @@ scopes:
   slug: recorded-future-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.7
+  band: strong
+  composite: 61.6
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 31
     catalog_earned: 85.8
     catalog_earned_first_party: 20.0
     catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: -5.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 59.2
     contract_governance: 22.0
-    contract_quality: 64.5
-    developer_ergonomics: 64.3
-    discoverability: 71.7
-    operational_transparency: 68.4
+    contract_quality: 70.7
+    developer_ergonomics: 50.0
+    discoverability: 80.8
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 65.9
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 96.1
+      callable: 96.0
       derived: 0
       marker_coverage: 100.0
-      total: 76
+      total: 25
     mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 38.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/recorded-future/recorded-future-2026-06-20T192704.png
 security:
 - kind: authentication

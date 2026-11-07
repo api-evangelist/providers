@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,13 +11,15 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -22,10 +27,11 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-31'
+  score: 35.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -102,7 +108,7 @@ arazzos:
 - description: Read a plan and its details for ETags, rename the plan, then set category label descriptions.
   name: Microsoft Planner Rename a Plan and Describe Its Categories
   slug: microsoft-planner-rename-plan-workflow
-artifact_total: 195
+artifact_total: 199
 collections:
 - collection_type: postman
   name: Microsoft Planner Microsoft Graph Planner API
@@ -126,6 +132,116 @@ collections:
   name: Microsoft Planner Microsoft Graph Planner API
   slug: open-microsoft-planner
 common:
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.microsoft/
+- group: operate
+  href: https://artifacts.apis.io/microsoft-planner/rate-limits/microsoft-planner-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-planner-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/rules/microsoft-planner-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-planner-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/rules/microsoft-planner-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-planner-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/rules/microsoft-planner-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-planner-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/vocabulary/microsoft-planner-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-planner-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-planner/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/data-model/microsoft-planner-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-planner-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/conventions/microsoft-planner-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/microsoft-planner-conventions.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-support
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/lifecycle/microsoft-planner-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/microsoft-planner-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/errors/microsoft-planner-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-planner-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-planner/conformance/microsoft-planner-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-planner-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-planner/llms/microsoft-planner-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-planner-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/microsoft-planner/well-known/microsoft-planner-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-planner-security.txt
+- group: agent
+  href: https://artifacts.apis.io/microsoft-planner/well-known/microsoft-planner-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-planner-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-planner/hosts/microsoft-planner-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-planner-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-planner/vendors/microsoft-planner-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-planner-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-planner/packages/microsoft-planner-packages.yml
+  title: ''
+  type: Packages
+  url: packages/microsoft-planner-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: auth
+  href: https://artifacts.apis.io/microsoft-planner/security/microsoft-planner-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-planner-trust-center.yml
 - group: commercial
   href: https://artifacts.apis.io/microsoft-planner/plans/microsoft-planner-plans-pricing.yml
   title: ''
@@ -234,10 +350,6 @@ common:
   title: ''
   type: Blog
   url: https://developer.microsoft.com/en-us/graph/blogs/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://developer.microsoft.com/en-us/graph/status
 - group: docs
   title: ''
   type: Documentation
@@ -762,17 +874,17 @@ network: true
 overview: 'Microsoft Planner publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buckets API, Plan Details API, Plans API, and 4 more. Tagged areas include Collaboration, Microsoft 365, Productivity, Project Management, and Task Management.
 
 
-  The Microsoft Planner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Planner catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 33 more developer resources.'
+  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 55 more developer resources.'
 plans:
 - name: Microsoft Planner Plans Pricing
   plan_count: 4
   slug: microsoft-planner-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 4
+- limit_count: 2
   name: Microsoft Planner Rate Limits
   slug: microsoft-planner-rate-limits
 rules:
@@ -787,6 +899,18 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-planner-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Microsoft Planner API Rules
+  rule_count: 71
+  severity_counts:
+    error: 68
+    hint: 0
+    info: 2
+    warn: 1
+  slug: microsoft-planner-rules
 - authorship: generated
   effective_rule_count: 59
   extends:
@@ -805,44 +929,46 @@ scopes:
   slug: microsoft-planner-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.3
+  band: exemplar
+  composite: 67.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    artifact_dirs: 36
+    catalog_earned: 62.4
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.7
   facets:
-    access_clarity: 52.6
-    contract_governance: 27.3
-    contract_quality: 62.6
-    developer_ergonomics: 82.1
-    discoverability: 64.3
-    operational_transparency: 55.3
-  previous_composite: 63.3
+    access_clarity: 56.6
+    contract_governance: 31.8
+    contract_quality: 68.7
+    developer_ergonomics: 83.9
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-planner/microsoft-planner-2026-06-20T185518.png
 security:
 - kind: authentication
@@ -857,6 +983,16 @@ security:
   name: Microsoft Planner Vulnerability Disclosure
   slug: microsoft-planner-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Planner Trust Center
+  slug: microsoft-planner-trust-center
+  summary_line: GDPR
+skill_count: 2
+skills:
+- name: microsoft-planner-complete-task
+  slug: microsoft-planner-complete-task
+- name: microsoft-planner-create-task
+  slug: microsoft-planner-create-task
 slug: microsoft-planner
 tags:
 - Collaboration

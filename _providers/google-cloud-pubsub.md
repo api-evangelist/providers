@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -212,10 +217,10 @@ scopes:
   slug: google-cloud-pubsub-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 38.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 55.9
     catalog_earned_first_party: 0.0
     catalog_gap: 59.1
@@ -228,8 +233,8 @@ score:
     contract_quality: 65.4
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 23.7
-  previous_composite: 39.7
+    operational_transparency: 21.1
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -243,13 +248,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-cloud-pubsub/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication

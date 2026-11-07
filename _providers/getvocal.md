@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -18,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.1
-  scored_at: '2026-10-31'
+  score: 18.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   name: GetVocal .well Known API
   slug: getvocal-well-known-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: GetVocal Agent Contact API
@@ -168,34 +170,50 @@ network: true
 overview: 'GetVocal publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Contact API, Llms.txt API, and .well Known API. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Customer Experience.
 
 
+  The GetVocal catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   GetVocal''s developer surface includes documentation, engineering blog, signup flow, and 15 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: GetVocal API Rules
+  rule_count: 37
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 1
+    warn: 1
+  slug: getvocal-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 35.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 32.0
+    artifact_dirs: 20
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 44.7
+    access_clarity: 42.1
+    contract_governance: 31.8
+    contract_quality: 49.7
     developer_ergonomics: 13.7
-    discoverability: 56.7
-    operational_transparency: 5.3
-  previous_composite: 34.1
+    discoverability: 64.3
+    operational_transparency: 2.6
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
     mcp: first-party
     skills: derived
@@ -212,14 +230,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 29.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/getvocal/getvocal-2026-07-25T215750.png
 security:
 - kind: domain-security

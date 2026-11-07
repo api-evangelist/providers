@@ -1,6 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Invokera provides a platform that turns a project URL into tools usable by AI agents, offering a REST API documented at the public docs site.
@@ -93,7 +109,7 @@ modified: '2026-10-29'
 name: invokera-com
 nav: Providers
 network: true
-overview: 'invokera-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Automation, Platform, Tools, and Integration.
+overview: 'invokera-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Automation, Platform, Tools, and Integration.
 
 
   invokera-com''s developer surface includes documentation, pricing, and 8 more developer resources.'
@@ -113,21 +129,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 17.5
+  composite: 15.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 53.6
+    developer_ergonomics: 9.5
+    discoverability: 60.7
     operational_transparency: 0.0
+  previous_composite: 18.2
   provenance:
     conformance: unknown
     mcp: unknown
@@ -137,12 +155,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/invokera-com/invokera-com-2026-11-03T134009.png
 security:
 - kind: authentication
   name: Invokera Com Authentication
@@ -154,7 +174,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: invokera-com
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Platform
 - Tools

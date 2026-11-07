@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Bosch IoT Remote Manager enables management, updating, control, and servicing of IoT devices throughout their lifecycle. The service provides remote device administration, monitoring, and configuratio
@@ -139,9 +141,9 @@ overview: 'Bosch is listed with 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 23
 score:
   band: emerging
-  composite: 15.5
+  composite: 15.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -154,21 +156,21 @@ score:
     contract_quality: 10.7
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 15.8
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 15.5
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

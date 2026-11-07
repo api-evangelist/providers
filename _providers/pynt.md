@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.pynt.io
@@ -198,7 +204,7 @@ apis:
   description: The vulnerability-instance API from Pynt — 5 operation(s) for vulnerability-instance.
   name: Pynt Vulnerability Instance API
   slug: pynt-vulnerability-instance-api
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Pynt Webhooks
@@ -381,7 +387,7 @@ network: true
 overview: 'Pynt publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alive API, API Key API, Application API, and 29 more. Tagged areas include API Testing, API Security, Security, Application Security, and DAST.
 
 
-  The Pynt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Pynt catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Pynt''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 28 more developer resources.'
@@ -394,31 +400,44 @@ rate_limits:
 - limit_count: 0
   name: Pynt Rate Limits
   slug: pynt-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Pynt API Rules
+  rule_count: 46
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 3
+    warn: 11
+  slug: pynt-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 54.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.1
   facets:
     access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 49.0
-    developer_ergonomics: 70.8
+    contract_governance: 18.2
+    contract_quality: 54.1
+    developer_ergonomics: 68.5
     discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 50.9
+    operational_transparency: 21.1
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 32
     mcp: derived
     skills: derived
@@ -428,13 +447,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/pynt/pynt-2026-06-20T192329.png
 security:
 - kind: authentication

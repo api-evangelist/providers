@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://async-api.rhumbix.com
@@ -54,7 +56,7 @@ apis:
   description: Returns appropriate headers to enable CORS for cross-domain API requests
   name: Rhumbix CORS API
   slug: rhumbix-cors-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Rhumbix Public Batch Export API
@@ -166,31 +168,47 @@ network: true
 overview: 'Rhumbix publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Batch Export API, Batch Import API, and CORS API. Tagged areas include Company, Application, Construction, Construction Technology, and Workforce Management.
 
 
+  The Rhumbix catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
 plans:
 - name: Rhumbix Plans Pricing
   plan_count: 4
   slug: rhumbix-plans-pricing
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Rhumbix API Rules
+  rule_count: 53
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 2
+    warn: 2
+  slug: rhumbix-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 48.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 40.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -206,13 +224,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rhumbix/rhumbix-2026-09-02T153759.png
 security:
 - kind: authentication

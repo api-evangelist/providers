@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -77,7 +78,7 @@ arazzos:
 - description: Authenticate, discover an available score and the data sources it is available in, bind it to a brand entity, and request the score timeseries.
   name: Morning Consult — compute a score
   slug: morning-consult-compute-score
-artifact_total: 20
+artifact_total: 21
 common:
 - group: company
   title: ''
@@ -253,43 +254,59 @@ network: true
 overview: 'Morning Consult publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Data API, and 1 more. Tagged areas include Company, Market Research, Survey Data, Consumer Intelligence, and Brand Tracking.
 
 
+  The Morning Consult catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 28 more developer resources.'
 random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
   slug: morning-consult-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Morning Consult API Rules
+  rule_count: 57
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 5
+  slug: morning-consult-rules
 score:
   band: strong
-  composite: 55.2
+  composite: 57.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 54.4
+    artifact_dirs: 27
+    catalog_earned: 58.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.6
+    catalog_gap: 56.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 59.0
+    contract_governance: 31.8
+    contract_quality: 61.4
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 55.3
+    discoverability: 73.2
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 55.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -299,13 +316,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/morning-consult/morning-consult-2026-08-07T184308.png
 security:
 - kind: authentication

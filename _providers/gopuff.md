@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -318,9 +319,9 @@ rules:
   slug: gopuff-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 35.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 53.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
@@ -332,8 +333,8 @@ score:
     contract_governance: 27.3
     contract_quality: 55.6
     developer_ergonomics: 38.1
-    discoverability: 67.9
-    operational_transparency: 5.3
+    discoverability: 67.0
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -341,7 +342,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -355,13 +356,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/gopuff/gopuff-2026-06-20T182249.png
 security:
 - kind: authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 29.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -262,10 +263,10 @@ rules:
     warn: 3
   slug: workday-reporting-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.7
+  band: thin
+  composite: 39.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 39.3
     catalog_earned_first_party: 0.0
     catalog_gap: 75.8
@@ -276,10 +277,10 @@ score:
     access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 51.4
-    developer_ergonomics: 58.3
+    developer_ergonomics: 25.0
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +294,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/workday-reporting/workday-reporting-2026-06-20T201611.png
 security:
 - kind: authentication

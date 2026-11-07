@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -212,9 +213,9 @@ overview: 'Exchange Data International is listed with 24 APIs on the [APIs.io](h
 random_paper: 23
 score:
   band: emerging
-  composite: 25.4
+  composite: 26.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -226,7 +227,7 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -236,7 +237,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 25.4
+  previous_composite: 26.1
   provenance:
     conformance: derived
   regulatory:
@@ -245,8 +246,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

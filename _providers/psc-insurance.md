@@ -1,11 +1,11 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   gated: partner
   gated_source:
   - tag:Partner Gated
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -176,7 +177,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 33.3
+  composite: 32.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -191,7 +192,7 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 19.0
     discoverability: 58.9
-    operational_transparency: 10.5
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -199,7 +200,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 33.3
+  previous_composite: 32.6
   provenance:
     conformance: first-party
   regulatory:
@@ -208,8 +209,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,6 +78,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/handl-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://handlhealth.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://handlhealth.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://handlhealth.com/about-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://handlhealth.com/blog
 created: '2026-07-17'
 description: Handl Health is a healthcare price-transparency AI platform that turns the negotiated rates, gross charges, and cash prices unlocked by the Hospital Price Transparency and Transparency in Coverage rules into clean, usable pricing intelligence. Using proprietary AI models, Handl cleans and organizes publicly available machine-readable pricing files at scale and supplements them with claims, Medicare rates, and provider-directory data to build a holistic, validated dataset. Its products — Iris, AI-driven network analytics for benefits consultants to evaluate and compare carrier networks, and Arke, real-time cost tools that help plan members find high-value care — serve benefits consultants, carriers, third-party administrators, and employers designing alternative health plans. Handl is a Techstars- and StartUp Health-backed company. This profile was enriched by the API Evangelist pipeline; no public developer API or portal was found at the time of enrichment.
 image: https://cdn.prod.website-files.com/65d3d89fbb0141c0fd9bb48d/6627fa4486ef3d26073aca99_seo_home.png
@@ -87,7 +105,7 @@ network: true
 overview: 'Handl Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Price Transparency, Health Insurance, and Analytics.
 
 
-  Handl Health''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
+  Handl Health''s developer surface includes pricing, engineering blog, support, documentation, and 9 more developer resources.'
 plans:
 - name: Handl Health Plans Pricing
   plan_count: 0
@@ -95,20 +113,20 @@ plans:
 random_paper: 18
 score:
   band: minimal
-  composite: 9.2
+  composite: 10.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 16.7
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.2
@@ -118,8 +136,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -141,5 +159,8 @@ tags:
 - Artificial Intelligence
 - Benefits
 - Data
+- Health Tech
+- BenefitsConsulting
+- Software-as-a-Service
 website: https://www.handlhealth.com/
 ---

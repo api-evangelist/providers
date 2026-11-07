@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-31'
+  score: 17.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Komodo provides a web application for managing servers, builds, deployments, and automated procedures as described in its documentation.
@@ -138,7 +153,7 @@ modified: '2026-10-28'
 name: Komodo
 nav: Providers
 network: true
-overview: 'Komodo is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Infrastructure, Automation, and OpenSource.
+overview: 'Komodo is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Infrastructure, Automation, and Open Source.
 
 
   The Komodo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -160,29 +175,31 @@ rules:
     warn: 1
   slug: komo-do-rules
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 21.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.8
     catalog_earned_first_party: 0.0
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.8
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 20.2
-    developer_ergonomics: 57.1
+    developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 15.8
+    operational_transparency: 7.9
+  previous_composite: 26.4
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 7
+      derived: 1
       marker_coverage: 100.0
-      total: 7
+      total: 1
     mcp: unknown
   regulatory:
     applies: true
@@ -190,12 +207,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/komo-do/komo-do-2026-11-03T134506.png
 security:
 - kind: authentication
   name: Komo Do Authentication
@@ -211,6 +229,6 @@ tags:
 - DevOps
 - Infrastructure
 - Automation
-- OpenSource
+- Open Source
 website: https://komo.do/
 ---

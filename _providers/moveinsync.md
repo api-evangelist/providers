@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: JWT-authenticated REST and webhook API for employee-transport integration. Partners authenticate at api.moveinsync.com/auth/token (OAuth2 client-credentials over HTTP Basic) to obtain a 24-hour JWT, t
@@ -132,9 +134,9 @@ overview: 'MoveInSync is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 19
 score:
   band: thin
-  composite: 35.1
+  composite: 35.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,9 +148,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 38.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 35.8
   provenance:
     conformance: first-party
   regulatory:
@@ -157,8 +159,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

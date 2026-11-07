@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Authenticated REST API for Palette's multimodal generation platform, accessed with API keys managed in the Studio profile. The base path /api/v1 is auth-gated (returns HTTP 401 without credentials). N
@@ -116,7 +117,7 @@ overview: 'Palette 2 is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 6
 score:
   band: emerging
-  composite: 20.5
+  composite: 21.2
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -130,17 +131,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 20.5
+  previous_composite: 21.2
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

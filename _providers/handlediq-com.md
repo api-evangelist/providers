@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.6
-  scored_at: '2026-10-31'
+  score: 47.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -217,7 +228,7 @@ modified: '2026-10-30'
 name: handlediq-com
 nav: Providers
 network: true
-overview: 'handlediq-com publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Booking Status API, Cancel Booking API, Find Help API, and 6 more. Tagged areas include Field Service, SaaS, Home Services, Scheduling, and Payments.
+overview: 'handlediq-com publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Booking Status API, Cancel Booking API, Find Help API, and 6 more. Tagged areas include Field Service Management, Software-as-a-Service, Home Services, Scheduling, and Payments.
 
 
   The handlediq-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -240,21 +251,29 @@ rules:
   slug: handlediq-com-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 29.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 22.0
     contract_quality: 48.1
-    developer_ergonomics: 35.1
-    discoverability: 56.7
-    operational_transparency: 26.3
+    developer_ergonomics: 18.5
+    discoverability: 66.7
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,13 +289,14 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/handlediq-com/handlediq-com-2026-11-03T133143.png
 security:
 - kind: domain-security
   name: Handlediq Com Domain Security
@@ -302,11 +322,11 @@ skills:
   slug: handlediq-com-verify_record
 slug: handlediq-com
 tags:
-- Field Service
-- SaaS
+- Field Service Management
+- Software-as-a-Service
 - Home Services
 - Scheduling
 - Payments
-- AI
+- Artificial Intelligence
 website: https://handlediq.com/
 ---

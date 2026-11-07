@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-31'
+  score: 19.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public, load-balanced Lotus node endpoint hosted by Glif providing read-only access to the Filecoin mainnet JSON-RPC API, including all Filecoin and Ethereum-compatible RPC methods. Supports MPoolPush
@@ -174,9 +178,9 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 25.9
+  composite: 25.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -189,21 +193,21 @@ score:
     contract_quality: 38.8
     developer_ergonomics: 28.6
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 25.9
+    operational_transparency: 7.9
+  previous_composite: 25.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/filecoin/filecoin-2026-06-20T181204.png
 security:
 - kind: authentication

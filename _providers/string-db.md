@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-31'
+  score: 28.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://string-db.org
@@ -222,9 +224,9 @@ rules:
   slug: string-db-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.7
+  composite: 27.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 44.3
     catalog_earned_first_party: 0.0
     catalog_gap: 70.8
@@ -236,9 +238,9 @@ score:
     contract_governance: 9.8
     contract_quality: 52.3
     developer_ergonomics: 19.0
-    discoverability: 58.9
+    discoverability: 61.7
     operational_transparency: 5.3
-  previous_composite: 27.7
+  previous_composite: 27.3
   provenance:
     contracts:
       callable: 100.0
@@ -252,13 +254,12 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/string-db/string-db-2026-06-20T194621.png
 security:
 - kind: domain-security

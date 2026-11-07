@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.8
-  scored_at: '2026-10-31'
+  score: 53.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -140,7 +141,7 @@ apis:
   description: The Datapoints API from Morningstar — 3 operation(s) for datapoints.
   name: Morningstar Datapoints API
   slug: morningstar-datapoints-api
-artifact_total: 148
+artifact_total: 149
 collections:
 - collection_type: open
   name: Authorization Tokens Accounts API
@@ -694,8 +695,24 @@ network: true
 overview: 'Morningstar publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 17 more. Tagged areas include Finance, Market Data, Investing, Stocks, and Fund.
 
 
+  The Morningstar catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Morningstar''s developer surface includes engineering blog, authentication, developer portal, documentation, support, sandbox, API reference, and 33 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Morningstar API Rules
+  rule_count: 62
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 5
+    warn: 25
+  slug: morningstar-rules
 scopes:
 - name: Morningstar Scopes
   scope_count: 4
@@ -703,22 +720,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.0
+  composite: 48.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 35.0
+    artifact_dirs: 28
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 50.9
-    developer_ergonomics: 92.9
-    discoverability: 61.7
-    operational_transparency: 31.6
+    contract_governance: 18.2
+    contract_quality: 51.1
+    developer_ergonomics: 73.8
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -726,14 +743,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.0
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 99.1
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 0.9
       total: 116
     mcp: first-party
     skills: first-party
@@ -743,13 +760,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/morningstar/morningstar-2026-07-22T202515.png
 security:
 - kind: authentication

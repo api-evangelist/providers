@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -86,7 +91,7 @@ apis:
   description: USSD broadcast messaging and delivery status.
   name: Telkomsel USSD API
   slug: telkomsel-ussd-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Telkomsel DigiHub APIs Consent Management API
@@ -182,6 +187,9 @@ network: true
 overview: 'Telkomsel publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consent Management API, Identity Verification API, Location API, and 5 more. Tagged areas include Telecommunications, Indonesia, SMS, Mobile Network, and CPaaS.
 
 
+  The Telkomsel catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Telkomsel''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
 plans:
 - name: Telkomsel Plans Pricing
@@ -192,20 +200,33 @@ rate_limits:
 - limit_count: 4
   name: Telkomsel Rate Limits
   slug: telkomsel-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Telkomsel API Rules
+  rule_count: 55
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 4
+  slug: telkomsel-rules
 score:
   band: thin
-  composite: 28.1
+  composite: 29.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 43.0
+    artifact_dirs: 14
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 51.1
     developer_ergonomics: 38.1
     discoverability: 66.1
@@ -217,7 +238,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 28.1
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -231,13 +252,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/telkomsel/telkomsel-2026-09-02T162747.png
 security:
 - kind: authentication

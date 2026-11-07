@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -224,7 +228,7 @@ arazzos:
 - description: Create an organizational group, create an employee, and assign a role using the Quinyx API v3.
   name: Onboard an employee in Quinyx
   slug: quinyx-onboard-employee
-artifact_total: 79
+artifact_total: 80
 collections:
 - collection_type: open
   name: Quinyx Absence Schedules API
@@ -496,12 +500,28 @@ network: true
 overview: 'Quinyx publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
 
 
+  The Quinyx catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Quinyx Plans Pricing
   plan_count: 0
   slug: quinyx-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Quinyx API Rules
+  rule_count: 54
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 2
+    warn: 18
+  slug: quinyx-rules
 scopes:
 - name: Quinyx Scopes
   scope_count: 14
@@ -509,23 +529,23 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.1
+  composite: 52.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 28
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 39.5
-    contract_governance: 4.5
-    contract_quality: 46.0
+    contract_governance: 18.2
+    contract_quality: 49.4
     developer_ergonomics: 66.1
-    discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 47.1
+    discoverability: 78.6
+    operational_transparency: 26.3
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -542,13 +562,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/quinyx/quinyx-2026-08-17T081427.png
 security:
 - kind: authentication

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Requires approval
+  confidence: low
+  label: Paid · Requires approval
   onboarding: approval
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 47
 common:
@@ -187,9 +189,9 @@ rate_limits:
   slug: touchbistro-rate-limits
 score:
   band: minimal
-  composite: 9.4
+  composite: 9.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 31.0
     catalog_earned_first_party: 0.0
     catalog_gap: 84.0
@@ -202,16 +204,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 21.1
-  previous_composite: 9.4
+    operational_transparency: 18.4
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

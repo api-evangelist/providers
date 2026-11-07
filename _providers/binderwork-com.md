@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Binderwork API provides endpoints for workspace creation, document management and AI‑driven features. See the developer guides at https://binderwork.com/guides.
@@ -192,7 +204,7 @@ modified: '2026-10-30'
 name: binderwork-com
 nav: Providers
 network: true
-overview: 'binderwork-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Binderwork API V1 API, and 1 more. Tagged areas include AI, OpenSource, DocumentManagement, ESignature, and StartupTools.
+overview: 'binderwork-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Binderwork API V1 API, and 1 more. Tagged areas include Artificial Intelligence, Open Source, Document Management, E-Signature, and Startup Tools.
 
 
   The binderwork-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,34 +230,41 @@ rules:
     warn: 3
   slug: binderwork-com-rules
 score:
-  band: developing
-  composite: 49.2
+  band: thin
+  composite: 34.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 76.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 38.1
+    artifact_dirs: 19
+    catalog_earned: 62.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.5
   facets:
-    access_clarity: 50.5
-    contract_governance: 79.1
+    access_clarity: 36.8
+    contract_governance: 22.0
     contract_quality: 46.7
-    developer_ergonomics: 38.1
+    developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 26.3
+    operational_transparency: 18.4
+  previous_composite: 42.7
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/binderwork-com/binderwork-com-2026-11-03T121728.png
 security:
 - kind: domain-security
   name: Binderwork Com Domain Security
@@ -257,10 +276,10 @@ security:
   summary_line: security.txt · contact published
 slug: binderwork-com
 tags:
-- AI
-- OpenSource
-- DocumentManagement
-- ESignature
-- StartupTools
+- Artificial Intelligence
+- Open Source
+- Document Management
+- E-Signature
+- Startup Tools
 website: https://binderwork.com/
 ---

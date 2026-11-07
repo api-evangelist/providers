@@ -1,11 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -13,9 +24,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.1
-  scored_at: '2026-10-31'
+  score: 38.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -263,7 +275,7 @@ modified: '2026-10-31'
 name: print-one
 nav: Providers
 network: true
-overview: 'print-one publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Campaigns API, Coupons API, and 7 more. Tagged areas include Postcards, API, Direct Mail, Marketing, and Automation.
+overview: 'print-one publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Campaigns API, Coupons API, and 7 more. Tagged areas include Postcards, Direct Mail, Marketing, and Automation.
 
 
   The print-one catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -298,34 +310,48 @@ scopes:
   slug: print-one-scopes
   summary_line: 30 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.9
+  band: developing
+  composite: 43.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 77.7
+    artifact_dirs: 30
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.7
   facets:
-    access_clarity: 34.2
-    contract_governance: 79.1
-    contract_quality: 68.4
-    developer_ergonomics: 70.7
-    discoverability: 66.1
-    operational_transparency: 18.4
+    access_clarity: 17.1
+    contract_governance: 22.0
+    contract_quality: 71.4
+    developer_ergonomics: 48.1
+    discoverability: 57.1
+    operational_transparency: 14.5
+  previous_composite: 52.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/print-one/print-one-2026-11-03T141505.png
 security:
 - kind: authentication
   name: Print One Authentication
@@ -342,7 +368,6 @@ skills:
 slug: print-one
 tags:
 - Postcards
-- API
 - Direct Mail
 - Marketing
 - Automation

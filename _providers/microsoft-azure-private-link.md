@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
   source:
-  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -76,7 +81,7 @@ apis:
   description: The Subscriptions API from Microsoft Azure Private Link — 2 operation(s) for subscriptions.
   name: Microsoft Azure Private Link Subscriptions API
   slug: microsoft-azure-private-link-subscriptions-api
-artifact_total: 20
+artifact_total: 35
 collections:
 - collection_type: open
   name: Azure Private Link REST Operations API
@@ -88,6 +93,35 @@ collections:
   name: Azure Private Link REST API
   slug: open-microsoft-azure-private-link
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-private-link/rules/microsoft-azure-private-link-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-azure-private-link-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-private-link/json-ld/microsoft-azure-private-link-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-azure-private-link-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-azure-private-link/vocabulary/microsoft-azure-private-link-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-azure-private-link-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-azure-private-link/hosts/microsoft-azure-private-link-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-azure-private-link-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-azure-private-link/vendors/microsoft-azure-private-link-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-azure-private-link-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
 - group: commercial
   href: https://artifacts.apis.io/microsoft-azure-private-link/finops/microsoft-azure-private-link-finops.yml
   title: ''
@@ -295,15 +329,63 @@ finops:
   slug: microsoft-azure-private-link-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-private-link.png
+json_schemas:
+- name: AutoApprovedPrivateLinkServicesResult
+  property_count: 2
+  slug: microsoft-azure-private-link-auto-approved-private-link-services-result
+- name: AvailablePrivateEndpointTypesResult
+  property_count: 2
+  slug: microsoft-azure-private-link-available-private-endpoint-types-result
+- name: CheckPrivateLinkServiceVisibilityRequest
+  property_count: 1
+  slug: microsoft-azure-private-link-check-private-link-service-visibility-request
+- name: OperationList
+  property_count: 2
+  slug: microsoft-azure-private-link-operation-list
+- name: PrivateDnsZoneGroupListResult
+  property_count: 2
+  slug: microsoft-azure-private-link-private-dns-zone-group-list-result
+- name: PrivateDnsZoneGroup
+  property_count: 3
+  slug: microsoft-azure-private-link-private-dns-zone-group
+- name: PrivateEndpointConnectionListResult
+  property_count: 2
+  slug: microsoft-azure-private-link-private-endpoint-connection-list-result
+- name: PrivateEndpointConnection
+  property_count: 4
+  slug: microsoft-azure-private-link-private-endpoint-connection
+- name: PrivateEndpoint
+  property_count: 3
+  slug: microsoft-azure-private-link-private-endpoint
+- name: PrivateLinkServiceListResult
+  property_count: 2
+  slug: microsoft-azure-private-link-private-link-service-list-result
+- name: PrivateLinkService
+  property_count: 3
+  slug: microsoft-azure-private-link-private-link-service
+- name: ResourceList
+  property_count: 2
+  slug: microsoft-azure-private-link-resource-list
+- name: Resource
+  property_count: 6
+  slug: microsoft-azure-private-link-resource
+jsonld:
+- class_count: 35
+  name: Microsoft Azure Private Link Context
+  property_count: 62
+  slug: microsoft-azure-private-link-context
 layout: provider
-modified: '2026-09-17'
+modified: '2026-11-05'
 name: Microsoft Azure Private Link
 nav: Providers
 network: true
 overview: 'Microsoft Azure Private Link publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including microsoft-azure-private-link Operations API, microsoft-azure-private-link Private Endpoints API, Private Dns Zone Groups API, and 3 more. Tagged areas include Networking, Private Connectivity, Cloud Infrastructure, Virtual Networks, and DNS.
 
 
-  Microsoft Azure Private Link''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, and 36 more developer resources.'
+  The Microsoft Azure Private Link catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Microsoft Azure Private Link''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, and 42 more developer resources.'
 plans:
 - name: Microsoft Azure Private Link Plans Pricing
   plan_count: 0
@@ -313,37 +395,50 @@ rate_limits:
 - limit_count: 6
   name: Microsoft Azure Private Link Rate Limits
   slug: microsoft-azure-private-link-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Microsoft Azure Private Link API Rules
+  rule_count: 52
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 5
+    warn: 3
+  slug: microsoft-azure-private-link-rules
 scopes:
 - name: Microsoft Azure Private Link Scopes
   scope_count: 1
   slug: microsoft-azure-private-link-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 60.9
+  band: exemplar
+  composite: 68.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 35
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 4.4
   facets:
     access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 42.2
+    contract_governance: 22.0
+    contract_quality: 57.2
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 92.1
-  previous_composite: 61.4
+    discoverability: 75.0
+    operational_transparency: 89.5
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 28.6
       total: 7
     mcp: derived
     skills: derived
@@ -353,13 +448,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-private-link/microsoft-azure-private-link-2026-06-20T185432.png
 security:
 - kind: authentication

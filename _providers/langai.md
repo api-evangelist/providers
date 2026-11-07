@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +61,7 @@ apis:
   description: Create and inspect classification projects and their tags.
   name: Lang.ai Projects API
   slug: langai-projects-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Lang.ai Documents API
@@ -256,6 +257,9 @@ network: true
 overview: 'Lang.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Conversation Intelligence.
 
 
+  The Lang.ai catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Langai Plans Pricing
@@ -266,25 +270,38 @@ rate_limits:
 - limit_count: 0
   name: Langai Rate Limits
   slug: langai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Lang.ai API Rules
+  rule_count: 62
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 2
+  slug: langai-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 51.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 29
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 18.2
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 51.4
+    developer_ergonomics: 53.0
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +324,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/langai/langai-2026-07-25T224513.png
 security:
 - kind: authentication

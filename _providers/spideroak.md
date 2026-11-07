@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
@@ -224,9 +225,9 @@ rate_limits:
   slug: spideroak-rate-limits
 score:
   band: developing
-  composite: 44.4
+  composite: 44.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 13.0
     catalog_gap: 70.0
@@ -238,9 +239,9 @@ score:
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 44.4
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -256,8 +257,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

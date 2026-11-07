@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://cyberark.github.io/conjur
@@ -208,7 +209,7 @@ overview: 'Conjur publishes 1 API contract indexed on the [APIs.io](https://apis
 random_paper: 9
 score:
   band: thin
-  composite: 30.6
+  composite: 31.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -222,9 +223,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.1
     developer_ergonomics: 54.2
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 30.6
+    discoverability: 71.7
+    operational_transparency: 18.4
+  previous_composite: 31.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -235,13 +236,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/conjur/conjur-2026-07-25T210258.png
 security:
 - kind: authentication

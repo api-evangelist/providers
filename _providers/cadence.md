@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. The EDA product lines (Virtuoso, Allegro X,
@@ -268,23 +273,23 @@ scopes:
   summary_line: 36 scopes
 score:
   band: thin
-  composite: 38.7
+  composite: 37.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
-    access_clarity: 42.1
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 38.7
+    discoverability: 70.5
+    operational_transparency: 26.3
+  previous_composite: 36.3
   provenance:
     conformance: first-party
   regulatory:
@@ -292,9 +297,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 37.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -12,7 +15,7 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
@@ -47,7 +51,7 @@ apis:
   description: The Oauth2 API from Centrica — 1 operation(s) for oauth2.
   name: Centrica Oauth2 API
   slug: centrica-oauth2-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Identity API
@@ -210,6 +214,9 @@ network: true
 overview: 'Centrica publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Oauth2 API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
+  The Centrica catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 24 more developer resources.'
 plans:
 - name: Centrica Plans
@@ -220,24 +227,37 @@ rate_limits:
 - limit_count: 3
   name: Centrica Rate Limits
   slug: centrica-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Centrica API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: centrica-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 49.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.0
+    artifact_dirs: 25
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 55.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 45.9
     developer_ergonomics: 49.4
-    discoverability: 66.1
-    operational_transparency: 47.4
+    discoverability: 73.2
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -247,7 +267,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 48.5
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -263,13 +283,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/centrica/centrica-2026-08-07T163224.png
 security:
 - kind: authentication

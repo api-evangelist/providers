@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'CAVATICA is a pediatric-research data analysis platform Seven Bridges operates with the Children''s Hospital of Philadelphia and the NIH Common Fund. It exposes the same v2 REST API surface on its own '
@@ -123,7 +124,7 @@ apis:
   description: The Users API from Seven Bridges — 1 operation(s) for users.
   name: Seven Bridges Users API
   slug: seven-bridges-users-api
-artifact_total: 27
+artifact_total: 28
 common:
 - group: other
   href: https://artifacts.apis.io/seven-bridges/capabilities/seven-bridges-capability-edges.yml
@@ -279,6 +280,9 @@ network: true
 overview: 'Seven Bridges publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action API, API Settings API, Apps API, and 14 more. Tagged areas include Genomics, Bioinformatics, Life Sciences, Healthcare, and Cloud Computing.
 
 
+  The Seven Bridges catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Seven Bridges'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 22 more developer resources.'
 plans:
 - name: Seven Bridges Plans Pricing
@@ -289,25 +293,38 @@ rate_limits:
 - limit_count: 1
   name: Seven Bridges Rate Limits
   slug: seven-bridges-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Seven Bridges API Rules
+  rule_count: 39
+  severity_counts:
+    error: 28
+    hint: 0
+    info: 3
+    warn: 8
+  slug: seven-bridges-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 49.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 26
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 44.1
-    developer_ergonomics: 73.2
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 47.5
+    developer_ergonomics: 63.7
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 50.3
+    operational_transparency: 23.7
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     contracts:
@@ -323,13 +340,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/seven-bridges/seven-bridges-2026-09-02T155037.png
 security:
 - kind: authentication

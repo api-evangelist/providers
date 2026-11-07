@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,13 +11,16 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -26,17 +32,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.8
-  scored_at: '2026-10-31'
+  score: 31.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -192,7 +199,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: Microsoft Exchange Upsert a Contact
   slug: microsoft-exchange-upsert-contact-workflow
-artifact_total: 129
+artifact_total: 155
 collections:
 - collection_type: postman
   name: Microsoft Exchange Exchange Online Admin API
@@ -282,6 +289,63 @@ collections:
   name: Microsoft Exchange Exchange Online Admin Accepted Domains Scheduling API
   slug: open-microsoft-exchange-scheduling-api
 common:
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-deprecation
+- group: design
+  href: https://artifacts.apis.io/microsoft-exchange/rules/microsoft-exchange-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-exchange-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-exchange/rules/microsoft-exchange-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-exchange-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-exchange/json-ld/microsoft-exchange-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-exchange-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-exchange/vocabulary/microsoft-exchange-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-exchange-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-exchange/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-exchange/mcp/microsoft-exchange-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/microsoft-exchange-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-exchange/mcp/microsoft-exchange-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/microsoft-exchange-mcp.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-exchange/hosts/microsoft-exchange-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-exchange-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-exchange/vendors/microsoft-exchange-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-exchange-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
 - group: commercial
   href: https://artifacts.apis.io/microsoft-exchange/plans/microsoft-exchange-plans-pricing.yml
   title: ''
@@ -602,25 +666,49 @@ image: https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png
 json_schemas:
 - name: AdminApiResponse
   property_count: 3
+  slug: microsoft-exchange-admin-api-response
+- name: AdminApiResponse
+  property_count: 3
   slug: microsoft-exchange-adminapiresponse
+- name: AttachmentCollectionResponse
+  property_count: 2
+  slug: microsoft-exchange-attachment-collection-response
 - name: Attachment
   property_count: 8
   slug: microsoft-exchange-attachment
 - name: AttachmentCollectionResponse
   property_count: 2
   slug: microsoft-exchange-attachmentcollectionresponse
+- name: AttendeeBase
+  property_count: 2
+  slug: microsoft-exchange-attendee-base
 - name: Attendee
   property_count: 4
   slug: microsoft-exchange-attendee
 - name: AttendeeBase
   property_count: 2
   slug: microsoft-exchange-attendeebase
+- name: CalendarCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-calendar-collection-response
 - name: Microsoft Exchange Calendar
   property_count: 14
   slug: microsoft-exchange-calendar
 - name: CalendarCollectionResponse
   property_count: 3
   slug: microsoft-exchange-calendarcollectionresponse
+- name: ContactCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-contact-collection-response
+- name: ContactDeltaResponse
+  property_count: 4
+  slug: microsoft-exchange-contact-delta-response
+- name: ContactFolderCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-contact-folder-collection-response
+- name: ContactFolder
+  property_count: 3
+  slug: microsoft-exchange-contact-folder
 - name: Microsoft Exchange Contact
   property_count: 38
   slug: microsoft-exchange-contact
@@ -638,10 +726,16 @@ json_schemas:
   slug: microsoft-exchange-contactfoldercollectionresponse
 - name: DateTimeTimeZone
   property_count: 2
+  slug: microsoft-exchange-date-time-time-zone
+- name: DateTimeTimeZone
+  property_count: 2
   slug: microsoft-exchange-datetimetimezone
 - name: EmailAddress
   property_count: 2
   slug: microsoft-exchange-emailaddress
+- name: EventCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-event-collection-response
 - name: Microsoft Exchange Calendar Event
   property_count: 40
   slug: microsoft-exchange-event
@@ -657,6 +751,9 @@ json_schemas:
 - name: ItemBody
   property_count: 2
   slug: microsoft-exchange-itembody
+- name: LocationConstraint
+  property_count: 3
+  slug: microsoft-exchange-location-constraint
 - name: Location
   property_count: 8
   slug: microsoft-exchange-location
@@ -666,9 +763,18 @@ json_schemas:
 - name: LocationConstraintItem
   property_count: 3
   slug: microsoft-exchange-locationconstraintitem
+- name: MailFolderCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-mail-folder-collection-response
 - name: Microsoft Exchange Mail Folder
   property_count: 7
   slug: microsoft-exchange-mail-folder
+- name: MailboxFolder
+  property_count: 7
+  slug: microsoft-exchange-mailbox-folder
+- name: MailboxItem
+  property_count: 8
+  slug: microsoft-exchange-mailbox-item
 - name: Mailbox
   property_count: 6
   slug: microsoft-exchange-mailbox
@@ -684,12 +790,18 @@ json_schemas:
 - name: MailFolderCollectionResponse
   property_count: 3
   slug: microsoft-exchange-mailfoldercollectionresponse
+- name: MeetingTimeSuggestionsResult
+  property_count: 3
+  slug: microsoft-exchange-meeting-time-suggestions-result
 - name: MeetingTimeSuggestion
   property_count: 7
   slug: microsoft-exchange-meetingtimesuggestion
 - name: MeetingTimeSuggestionsResult
   property_count: 3
   slug: microsoft-exchange-meetingtimesuggestionsresult
+- name: MessageCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-message-collection-response
 - name: Microsoft Exchange Message
   property_count: 31
   slug: microsoft-exchange-message
@@ -708,6 +820,9 @@ json_schemas:
 - name: PatternedRecurrence
   property_count: 2
   slug: microsoft-exchange-patternedrecurrence
+- name: PersonCollectionResponse
+  property_count: 3
+  slug: microsoft-exchange-person-collection-response
 - name: Microsoft Exchange Person
   property_count: 20
   slug: microsoft-exchange-person
@@ -737,6 +852,9 @@ json_schemas:
   slug: microsoft-exchange-responsestatus
 - name: ScheduleInformation
   property_count: 5
+  slug: microsoft-exchange-schedule-information
+- name: ScheduleInformation
+  property_count: 5
   slug: microsoft-exchange-scheduleinformation
 - name: ScheduleItem
   property_count: 6
@@ -744,6 +862,12 @@ json_schemas:
 - name: ScoredEmailAddress
   property_count: 3
   slug: microsoft-exchange-scoredemailaddress
+- name: TimeConstraint
+  property_count: 2
+  slug: microsoft-exchange-time-constraint
+- name: TimeSlot
+  property_count: 2
+  slug: microsoft-exchange-time-slot
 - name: TimeConstraint
   property_count: 2
   slug: microsoft-exchange-timeconstraint
@@ -766,6 +890,10 @@ jsonld:
   property_count: 13
   slug: microsoft-exchange-context
 layout: provider
+mcp_servers:
+- description: Microsoft documents a hosted, tenant-level Mail Tools MCP server (Server ID mcp_MailTools) in the Agent 365 / Copilot Studio MCP server reference (preview), exposing Microsoft Graph mail operations ag
+  name: Microsoft Exchange MCP Server
+  slug: microsoft-exchange
 modified: '2026-06-20'
 name: Microsoft Exchange
 nav: Providers
@@ -773,10 +901,10 @@ network: true
 overview: 'Microsoft Exchange publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accepted Domains API, Attachments API, Calendars API, and 17 more. Tagged areas include Calendar, Collaboration, Contacts, Email, and Enterprise.
 
 
-  The Microsoft Exchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Microsoft Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 58 more developer resources.'
+  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 70 more developer resources.'
 plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
@@ -798,6 +926,18 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-exchange-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: Microsoft Exchange API Rules
+  rule_count: 73
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 3
+    warn: 8
+  slug: microsoft-exchange-rules
 scopes:
 - name: Microsoft Exchange Scopes
   scope_count: 18
@@ -805,23 +945,23 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.6
+  composite: 62.7
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 57.3
+    artifact_dirs: 39
+    catalog_earned: 68.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
-    access_clarity: 52.6
-    contract_governance: 14.4
-    contract_quality: 58.5
-    developer_ergonomics: 79.8
-    discoverability: 78.6
-    operational_transparency: 55.3
-  previous_composite: 61.6
+    access_clarity: 40.8
+    contract_governance: 22.0
+    contract_quality: 70.7
+    developer_ergonomics: 81.5
+    discoverability: 80.4
+    operational_transparency: 52.6
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -830,20 +970,20 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-    mcp: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-exchange/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication
@@ -858,6 +998,16 @@ security:
   name: Microsoft Exchange Vulnerability Disclosure
   slug: microsoft-exchange-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: microsoft-exchange-manage-contacts
+  slug: microsoft-exchange-manage-contacts
+- name: microsoft-exchange-schedule-meeting
+  slug: microsoft-exchange-schedule-meeting
+- name: microsoft-exchange-send-mail
+  slug: microsoft-exchange-send-mail
+- name: microsoft-exchange-triage-inbox
+  slug: microsoft-exchange-triage-inbox
 slug: microsoft-exchange
 tags:
 - Calendar

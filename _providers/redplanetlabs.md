@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: In-cluster HTTP+JSON RPC surface exposed by Rama Supervisors (default port 2000) for appending to depots, querying PStates by navigation path, and invoking query topologies. POST-only; no application-
@@ -167,10 +172,10 @@ overview: 'Redplanetlabs is listed with 1 API on the [APIs.io](https://apis.io/)
   Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 17 more developer resources.'
 random_paper: 9
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -181,10 +186,10 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 26.3
+    developer_ergonomics: 59.5
+    discoverability: 64.3
+    operational_transparency: 18.4
+  previous_composite: 25.7
   provenance:
     conformance: derived
     mcp: derived
@@ -195,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

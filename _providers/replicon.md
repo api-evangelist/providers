@@ -9,7 +9,6 @@ access_model:
   - authentication
   - security
   - sandbox
-  - '{''url'': ''https://www.replicon.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.deltek.com/products/replicon/ — a different registrable domain (replicon.com -> deltek.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -19,26 +18,27 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-31'
+  score: 21.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Proprietary JSON-over-HTTPS web-service API for the Replicon Time Intelligence Platform and Polaris PSA — users, clients, projects, tasks, time, billing/costing and analytics. Tenants resolve their re
@@ -199,7 +199,7 @@ overview: 'Replicon is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 20
 score:
   band: thin
-  composite: 36.6
+  composite: 36.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -207,15 +207,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 69.6
-    operational_transparency: 47.4
-  previous_composite: 36.6
+    contract_quality: 24.0
+    developer_ergonomics: 40.5
+    discoverability: 75.0
+    operational_transparency: 36.8
+  previous_composite: 33.3
   provenance:
     conformance: first-party
   regulatory:
@@ -223,9 +223,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 29.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

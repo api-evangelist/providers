@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,6 +57,14 @@ common:
   title: ''
   type: Support
   url: https://coded.kw/about/contact
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.joincoded.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/JoinCODED
 created: '2026-07-17'
 description: CODED is a Kuwait-based coding education and technology skills company offering hands-on bootcamps and programs for adults, youth, and kids. Its adult bootcamps cover Cybersecurity, Agentic AI, AI & Data Science, and AI App Development, while youth tracks (ages 14-24) and kids programs (ages 6-13) build foundational and career-oriented tech skills through projects, coaching, and real-world standards. CODED also delivers custom enterprise training for corporate teams. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; CODED is an education provider and publishes no public developer API, SDKs, or specifications.
 image: https://framerusercontent.com/images/ZKicZkhyozuTSRuukgcgdzTuzI.png
@@ -66,11 +76,11 @@ network: true
 overview: 'Coded is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Coding Bootcamp, and Developer Training.
 
 
-  Coded''s developer surface includes support and 3 more developer resources.'
+  Coded''s developer surface includes support and 5 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 6.5
+  composite: 7.8
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -78,16 +88,18 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 9.5
     discoverability: 48.2
-    operational_transparency: 0.0
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - kuwait
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
@@ -99,8 +111,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -123,5 +135,8 @@ tags:
 - Cybersecurity
 - Data Science
 - Kuwait
+- Bootcamps
+- Technology
+- Coding
 website: https://coded.kw
 ---

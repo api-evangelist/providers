@@ -1,9 +1,22 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
@@ -16,17 +29,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.9
-  scored_at: '2026-10-31'
+  score: 53.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -172,6 +186,16 @@ asyncapis:
   name: Good Grants Webhooks
   slug: good-grants-webhooks
 common:
+- group: operate
+  href: https://artifacts.apis.io/good-grants/rate-limits/good-grants-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/good-grants-rate-limits.yml
+- group: auth
+  href: https://artifacts.apis.io/good-grants/well-known/good-grants-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/good-grants-status-security.txt
 - group: other
   href: https://artifacts.apis.io/good-grants/capabilities/good-grants-capability-edges.yml
   title: ''
@@ -261,11 +285,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/good-grants-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/good-grants/well-known/good-grants-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/good-grants-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/good-grants/well-known/good-grants-well-known.yml
   title: ''
@@ -353,7 +372,7 @@ json_schemas:
   property_count: 8
   slug: good-grants-attachment
 - name: Category
-  property_count: 0
+  property_count: 21
   slug: good-grants-category
 - name: Field
   property_count: 32
@@ -384,13 +403,13 @@ modified: '2026-10-28'
 name: GOOD Grants
 nav: Providers
 network: true
-overview: 'GOOD Grants publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Action tasks API, Allocation payments API, and 23 more. Tagged areas include Company, Grants, SaaS, Nonprofit, and Funding.
+overview: 'GOOD Grants publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Action tasks API, Allocation payments API, and 23 more. Tagged areas include Company, Grants, Software-as-a-Service, Non-Profit, and Funding.
 
 
   The GOOD Grants catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  GOOD Grants'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, pricing, and 29 more developer resources.'
+  GOOD Grants'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, pricing, and 30 more developer resources.'
 plans:
 - name: Good Grants Plans Pricing
   plan_count: 36
@@ -402,16 +421,16 @@ rate_limits:
   slug: good-grants-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 98
   extends:
   - spectral:oas
   name: GOOD Grants API Rules
-  rule_count: 16
+  rule_count: 57
   severity_counts:
-    error: 14
+    error: 49
     hint: 0
     info: 1
-    warn: 1
+    warn: 7
   slug: good-grants-rules
 scopes:
 - name: Good Grants Scopes
@@ -420,21 +439,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.9
+  composite: 58.7
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 34
     catalog_earned: 82.8
     catalog_earned_first_party: 20.0
     catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.1
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 22.0
-    contract_quality: 70.5
-    developer_ergonomics: 51.7
-    discoverability: 66.7
-    operational_transparency: 71.1
+    contract_quality: 73.8
+    developer_ergonomics: 35.0
+    discoverability: 75.8
+    operational_transparency: 50.0
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -450,13 +471,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/good-grants/good-grants-2026-11-03T132926.png
 security:
 - kind: authentication
   name: Good Grants Authentication
@@ -480,8 +502,8 @@ slug: good-grants
 tags:
 - Company
 - Grants
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Funding
 website: https://goodgrants.com/
 ---

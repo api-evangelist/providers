@@ -1,12 +1,11 @@
 ---
 access_model:
   confidence: medium
-  label: Requires approval
-  onboarding: approval
-  pricing: unknown
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - plans
   - authentication
   - scopes
   - rate-limits
@@ -30,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -40,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 52
 apis:
 - baseURL: https://api.umbrella.com/admin/v2
@@ -468,7 +468,7 @@ apis:
   description: The WHOIS Information for a Domain API from Cisco Umbrella — 6 operation(s) for whois information for a domain.
   name: Cisco Umbrella WHOIS Information for a Domain API
   slug: cisco-umbrella-whois-information-for-a-domain-api
-artifact_total: 98
+artifact_total: 99
 common:
 - group: company
   title: ''
@@ -804,6 +804,9 @@ network: true
 overview: 'Cisco Umbrella publishes 85 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Activity API, API Keys API, and 82 more. Tagged areas include Security, DNS, Secure Web Gateway, Cloud Security, and Zero Trust.
 
 
+  The Cisco Umbrella catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Cisco Umbrella''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 60 more developer resources.'
 plans:
 - name: Cisco Umbrella Plans Pricing
@@ -814,6 +817,19 @@ rate_limits:
 - limit_count: 17
   name: Cisco Umbrella Rate Limits
   slug: cisco-umbrella-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: Cisco Umbrella API Rules
+  rule_count: 72
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 7
+    warn: 19
+  slug: cisco-umbrella-rules
 scopes:
 - name: Cisco Umbrella Scopes
   scope_count: 61
@@ -821,23 +837,23 @@ scopes:
   summary_line: 61 scopes
 score:
   band: strong
-  composite: 62.8
+  composite: 65.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 52.5
+    contract_governance: 18.2
+    contract_quality: 61.7
     developer_ergonomics: 70.8
     discoverability: 71.4
-    operational_transparency: 86.8
-  previous_composite: 62.8
+    operational_transparency: 84.2
+  previous_composite: 64.3
   provenance:
     conformance: derived
     contracts:
@@ -853,13 +869,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cisco-umbrella/cisco-umbrella-2026-09-02T145048.png
 security:
 - kind: authentication

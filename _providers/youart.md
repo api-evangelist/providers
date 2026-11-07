@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol (MCP) server that gives AI agents access to YouArt's catalog of 60+ image, video, audio, and TTS models plus its node-based workflow builder, asset library
@@ -118,9 +123,9 @@ overview: 'Youart is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 4
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -131,10 +136,10 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 65.0
+    developer_ergonomics: 40.5
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 22.0
   provenance:
     mcp: first-party
   regulatory:
@@ -143,8 +148,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

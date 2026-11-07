@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -285,9 +286,9 @@ overview: 'BitFury is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 7
 score:
   band: developing
-  composite: 42.8
+  composite: 41.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -298,9 +299,9 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 78.6
+    developer_ergonomics: 73.8
     discoverability: 57.1
-    operational_transparency: 42.1
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -309,7 +310,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 42.8
+  previous_composite: 41.5
   provenance:
     conformance: derived
   regulatory:
@@ -318,8 +319,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,28 +91,43 @@ modified: '2026-10-26'
 name: City Bureau, Ministry of Land, Infrastructure and Tourism (MLIT)
 nav: Providers
 network: true
-overview: 'City Bureau, Ministry of Land, Infrastructure and Tourism (MLIT) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Geospatial, OpenData, UrbanPlanning, and Japan.
+overview: 'City Bureau, Ministry of Land, Infrastructure and Tourism (MLIT) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Geospatial, Open Data, Urban Planning, and Japan.
 
 
   City Bureau, Ministry of Land, Infrastructure and Tourism (MLIT)''s developer surface includes documentation, API reference, support, GitHub presence, and 4 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 8.7
+  composite: 6.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 10.7
     discoverability: 48.2
     operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 8.7
   provenance:
     mcp: unknown
   regulatory:
@@ -110,12 +136,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/city-bureau-ministry-of-land-infrastructure-and-tourism-mlit/city-bureau-ministry-of-land-infrastructure-and-tourism-mlit-2026-11-03T124240.png
 security:
 - kind: domain-security
   name: City Bureau Ministry Of Land Infrastructure And Tourism Mlit Domain Security
@@ -125,8 +153,8 @@ slug: city-bureau-ministry-of-land-infrastructure-and-tourism-mlit
 tags:
 - Government
 - Geospatial
-- OpenData
-- UrbanPlanning
+- Open Data
+- Urban Planning
 - Japan
 website: https://www.mlit.go.jp/plateau/
 ---

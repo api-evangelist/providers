@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Search and retrieve English-language poems by author, title, line content, and line count. Returns structured JSON with title, author, lines array, and linecount fields. No authentication required.
@@ -162,9 +167,9 @@ rules:
   slug: poetry-db-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.6
+  composite: 20.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
@@ -178,7 +183,10 @@ score:
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 22.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 20.4
   provenance:
     contracts:
       callable: 100.0
@@ -191,8 +199,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

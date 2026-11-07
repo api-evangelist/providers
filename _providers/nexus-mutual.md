@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-31'
+  score: 26.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,9 +241,9 @@ rules:
   slug: nexus-mutual-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
+  composite: 37.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
@@ -254,8 +256,11 @@ score:
     contract_quality: 54.7
     developer_ergonomics: 19.0
     discoverability: 67.9
-    operational_transparency: 47.4
-  previous_composite: 36.9
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -269,13 +274,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/nexus-mutual/nexus-mutual-2026-06-20T190302.png
 security:
 - kind: domain-security

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-31'
+  score: 27.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Auto-generated RESTful and GraphQL APIs derived from user-defined content type definitions, enabling full CRUD operations on content objects with OpenAPI schema support.
@@ -109,9 +111,9 @@ overview: 'Flotiq is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 7
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -123,9 +125,9 @@ score:
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 11.9
-    discoverability: 64.3
+    discoverability: 66.7
     operational_transparency: 5.3
-  previous_composite: 19.0
+  previous_composite: 19.2
   provenance:
     mcp: first-party
   regulatory:
@@ -134,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

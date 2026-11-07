@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -207,7 +220,7 @@ modified: '2026-10-28'
 name: Placid
 nav: Providers
 network: true
-overview: 'Placid publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include Automation, Creative, API, Image-Generation, and No-Code.
+overview: 'Placid publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include Automation, Creative, Image Generation, and No-Code.
 
 
   The Placid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -243,21 +256,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.3
+  composite: 40.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 67.8
+    artifact_dirs: 28
+    catalog_earned: 62.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 47.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 54.4
-    developer_ergonomics: 61.2
-    discoverability: 66.1
-    operational_transparency: 36.8
+    developer_ergonomics: 43.3
+    discoverability: 57.1
+    operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,13 +294,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/placid/placid-2026-11-03T141306.png
 security:
 - kind: authentication
   name: Placid Authentication
@@ -297,8 +319,7 @@ slug: placid
 tags:
 - Automation
 - Creative
-- API
-- Image-Generation
+- Image Generation
 - No-Code
 website: https://placid.app/
 ---

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,8 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-31'
+  score: 48.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -71,7 +77,7 @@ arazzos:
 - description: Confirm a user's events, then permanently delete them with a secret key.
   name: GDPR right-to-be-forgotten
   slug: millimetric-gdpr-delete
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Millimetric Analytics Identity API
@@ -264,6 +270,9 @@ network: true
 overview: 'Millimetric publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Identity API, Ingest API, and Read API. Tagged areas include Company, Analytics, Web Analytics, Product Analytics, and Attribution.
 
 
+  The Millimetric catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Millimetric''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 27 more developer resources.'
 plans:
 - name: Millimetric Plans
@@ -277,25 +286,38 @@ rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
   slug: millimetric-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Millimetric API Rules
+  rule_count: 65
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 1
+  slug: millimetric-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 47.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 60.0
+    artifact_dirs: 25
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
+    access_clarity: 86.8
+    contract_governance: 18.2
     contract_quality: 14.9
     developer_ergonomics: 63.7
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 45.2
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,13 +340,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/millimetric/millimetric-2026-08-07T172916.png
 security:
 - kind: authentication

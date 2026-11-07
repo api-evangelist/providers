@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-31'
+  score: 22.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Carbon intelligence API converting transactions, activities, flights, shipments, and EU CBAM imports into verified CO₂e numbers.
@@ -164,7 +176,7 @@ modified: '2026-10-30'
 name: myco2suite-io
 nav: Providers
 network: true
-overview: 'myco2suite-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon, API, Climate, Sustainability, and Data.
+overview: 'myco2suite-io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon, Climate, Sustainability, and Data.
 
 
   The myco2suite-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -190,34 +202,46 @@ rules:
     warn: 1
   slug: myco2suite-io-rules
 score:
-  band: developing
-  composite: 47.6
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 81.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 33.5
+    artifact_dirs: 17
+    catalog_earned: 62.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.1
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 53.4
-    developer_ergonomics: 21.4
-    discoverability: 53.6
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 24.7
+    developer_ergonomics: 10.7
+    discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 34.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/myco2suite-io/myco2suite-io-2026-11-03T135931.png
 security:
 - kind: domain-security
   name: Myco2Suite Io Domain Security
@@ -226,7 +250,6 @@ security:
 slug: myco2suite-io
 tags:
 - Carbon
-- API
 - Climate
 - Sustainability
 - Data

@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-31'
+  score: 30.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.marketstack.com/v2
@@ -114,7 +115,7 @@ apis:
   description: The ETFs API from Marketstack — 2 operation(s) for etfs.
   name: Marketstack ET Fs API
   slug: marketstack-etfs-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Marketstack API v2
@@ -273,6 +274,9 @@ network: true
 overview: 'Marketstack publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End of Day, and Intraday Data.
 
 
+  The Marketstack catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Marketstack''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
 plans:
 - name: Marketstack Plans
@@ -286,25 +290,38 @@ rate_limits:
 - limit_count: 5
   name: Marketstack Rate Limits
   slug: marketstack-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Marketstack API Rules
+  rule_count: 56
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 6
+  slug: marketstack-rules
 score:
   band: strong
-  composite: 55.7
+  composite: 56.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.0
+    artifact_dirs: 25
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 44.2
-    developer_ergonomics: 63.7
+    developer_ergonomics: 60.1
     discoverability: 71.7
     operational_transparency: 47.4
-  previous_composite: 54.1
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -320,13 +337,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/marketstack/marketstack-2026-06-20T184956.png
 security:
 - kind: authentication

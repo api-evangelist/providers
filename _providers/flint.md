@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-31'
+  score: 56.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +57,7 @@ apis:
 - description: Flint's official hosted remote MCP server. Four tools — list_sites, run_background_agent, check_background_agent_status and publish_site — let an MCP client discover Flint sites, run background design
   name: Flint MCP Server
   slug: flint-mcp-server
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Flint Webhooks
@@ -297,7 +298,7 @@ network: true
 overview: 'Flint publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Tasks API, and 1 more. Tagged areas include Company, Artificial Intelligence, Marketing, Landing Pages, and Agents.
 
 
-  The Flint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Flint catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 39 more developer resources.'
@@ -313,30 +314,43 @@ rate_limits:
 - limit_count: 0
   name: Flint Rate Limits
   slug: flint-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Flint API Rules
+  rule_count: 56
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 1
+  slug: flint-rules
 scopes:
 - name: Flint Scopes
   scope_count: 7
   slug: flint-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 49.0
+    artifact_dirs: 32
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 58.8
     developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 55.3
-  previous_composite: 65.9
+    discoverability: 75.0
+    operational_transparency: 52.6
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,13 +371,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/flint/flint-2026-07-25T214758.png
 security:
 - kind: authentication

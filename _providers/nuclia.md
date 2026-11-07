@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://nuclia.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.progress.com/agentic-rag — a different registrable domain (nuclia.com -> progress.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -204,9 +209,9 @@ rules:
   slug: nuclia-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 32.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -219,8 +224,8 @@ score:
     contract_quality: 56.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 33.5
+    operational_transparency: 10.5
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +239,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nuclia/nuclia-2026-06-20T190517.png
 security:
 - kind: authentication

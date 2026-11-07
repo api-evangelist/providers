@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://api.spindl.xyz/v1
@@ -55,7 +56,7 @@ apis:
   description: Publisher-facing onchain advertising API. Fetch targeted ad recommendations for a wallet address at a named placement, render the returned unit, and post impressions and clicks back to Spindl. Also se
   name: Spindl Ads API
   slug: spindl-ads-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Spindl Server-to-Server Events API
@@ -192,6 +193,9 @@ network: true
 overview: 'Spindl is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Events API, Short Links API, and Ads API. Tagged areas include Company, Web3, Attribution, Analytics, and Marketing.
 
 
+  The Spindl catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Spindl''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Spindl Plans Pricing
@@ -202,25 +206,38 @@ rate_limits:
 - limit_count: 0
   name: Spindl Rate Limits
   slug: spindl-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Spindl API Rules
+  rule_count: 64
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 3
+    warn: 2
+  slug: spindl-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 29.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
-    contract_governance: 4.5
+    access_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 14.1
     developer_ergonomics: 66.1
-    discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 30.7
+    discoverability: 78.6
+    operational_transparency: 2.6
+  previous_composite: 29.3
   provenance:
     conformance: derived
     contracts:
@@ -236,13 +253,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spindl/spindl-2026-08-17T082027.png
 security:
 - kind: authentication

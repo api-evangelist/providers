@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-31'
+  score: 19.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -151,10 +164,10 @@ rate_limits:
   name: Sarus Rate Limits
   slug: sarus-rate-limits
 score:
-  band: emerging
-  composite: 21.4
+  band: thin
+  composite: 27.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,10 +177,10 @@ score:
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 6.5
+    contract_quality: 30.5
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -176,7 +189,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 21.4
+  previous_composite: 27.0
   provenance:
     conformance: derived
   regulatory:
@@ -185,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

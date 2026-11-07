@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -237,9 +239,9 @@ rules:
   slug: cri-o-status-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 33.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 40.8
     catalog_earned_first_party: 0.0
     catalog_gap: 74.3
@@ -250,10 +252,13 @@ score:
     access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 41.3
-    developer_ergonomics: 28.6
+    developer_ergonomics: 25.0
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 27.9
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -267,13 +272,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cri-o/cri-o-2026-06-20T175228.png
 security:
 - kind: domain-security

@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://predibase.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.rubrik.com/products/rubrik-agent-cloud — a different registrable domain (predibase.com -> rubrik.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 22.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -211,9 +216,9 @@ rules:
   slug: predibase-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 27.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -226,8 +231,8 @@ score:
     contract_quality: 49.3
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 28.9
+    operational_transparency: 10.5
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +246,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/predibase/predibase-2026-06-20T192044.png
 security:
 - kind: authentication

@@ -1,10 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-31'
+  score: 28.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -196,7 +208,7 @@ modified: '2026-10-30'
 name: githunt-ai
 nav: Providers
 network: true
-overview: 'githunt-ai publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Briefs API, Lists API, Profile API, and 2 more. Tagged areas include Company, AI, Talent, Recruitment, and Developer.
+overview: 'githunt-ai publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Briefs API, Lists API, Profile API, and 2 more. Tagged areas include Company, Artificial Intelligence, Talent, Recruiting, and Developers.
 
 
   The githunt-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,22 +230,34 @@ rules:
     warn: 1
   slug: githunt-ai-rules
 score:
-  band: developing
-  composite: 49.8
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 77.7
+    artifact_dirs: 24
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.3
   facets:
-    access_clarity: 34.2
-    contract_governance: 79.1
-    contract_quality: 61.7
-    developer_ergonomics: 51.7
+    access_clarity: 17.1
+    contract_governance: 35.6
+    contract_quality: 64.8
+    developer_ergonomics: 30.4
     discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 44.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -243,13 +267,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/githunt-ai/githunt-ai-2026-11-03T132827.png
 security:
 - kind: authentication
   name: Githunt Ai Authentication
@@ -266,9 +292,9 @@ skills:
 slug: githunt-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Talent
-- Recruitment
-- Developer
+- Recruiting
+- Developers
 website: https://githunt.ai/
 ---

@@ -1,33 +1,19 @@
 ---
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    operation_distinctiveness: na
-    pagination_ratio: na
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: true
+  try_now: true
 api_count: 0
-artifact_total: 1
+artifact_total: 10
 common:
 - group: other
   href: https://artifacts.apis.io/delphina/hosts/delphina-hosts.yml
@@ -58,47 +44,66 @@ coverage:
   state: unreadable
 created: '2026-10-22'
 description: Delphina is a company identified through the API Evangelist secondary-market harvest. Public information about its services, products, or API offerings is currently limited, and no official website or detailed documentation has been located. This profile serves as a placeholder pending further discovery and verification of the company’s digital presence and API assets.
+json_schemas:
+- name: GetV4HistoricalSportsSportEventsEventidMarketsResponse
+  property_count: 4
+  slug: delphina-get-v4-historical-sports-sport-events-eventid-markets-response
+- name: GetV4SportsResponse
+  property_count: 6
+  slug: delphina-get-v4-sports-response
+- name: GetV4SportsSportParticipantsResponse
+  property_count: 2
+  slug: delphina-get-v4-sports-sport-participants-response
+jsonld:
+- class_count: 3
+  name: Delphina Context
+  property_count: 12
+  slug: delphina-context
 layout: provider
 modified: '2026-10-22'
 name: Delphina
 nav: Providers
 network: true
-overview: Delphina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Data, and Platform.
+overview: 'Delphina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Data, and Platform.
+
+
+  The Delphina catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+plans:
+- name: Delphina Plans Pricing
+  plan_count: 3
+  slug: delphina-plans-pricing
 random_paper: 21
-score:
-  band: minimal
-  composite: 2.2
-  coverage:
-    artifact_dirs: 5
-    catalog_earned: 20.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 95.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 35.7
-    operational_transparency: 0.0
-  regulatory:
-    applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+rate_limits:
+- limit_count: 0
+  name: Delphina Rate Limits
+  slug: delphina-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Delphina API Rules
+  rule_count: 40
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 1
+  slug: delphina-rules
+screenshot: https://apis.io/screenshots/delphina/delphina-2026-11-03T130508.png
 security:
+- kind: authentication
+  name: Delphina Authentication
+  slug: delphina-authentication
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Delphina Domain Security
   slug: delphina-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Delphina Trust Center
+  slug: delphina-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
 slug: delphina
 tags:
 - Company

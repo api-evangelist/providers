@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
@@ -12,7 +12,7 @@ access_model:
   - rate-limits
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The WordPress REST API served by mailoptin.io, plus the Model Context Protocol server exposed through the WordPress MCP Adapter at the mcp namespace. The REST root is a public, self-describing route i
@@ -217,23 +218,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 50.0
+  composite: 50.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 40.5
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 48.4
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -243,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,9 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,17 +33,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-31'
+  score: 43.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 29
@@ -297,6 +315,16 @@ asyncapis:
   name: Pipeshub Webhooks
   slug: pipeshub-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/pipeshub/finops/pipeshub-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pipeshub-finops.yml
+- group: build
+  href: https://artifacts.apis.io/pipeshub/integrations/pipeshub-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/pipeshub-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/pipeshub/capabilities/pipeshub-capability-edges.yml
   title: ''
@@ -412,11 +440,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/pipeshub-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/pipeshub/well-known/pipeshub-platform-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/pipeshub-platform-security.txt
 - group: agent
   href: https://artifacts.apis.io/pipeshub/well-known/pipeshub-well-known.yml
   title: ''
@@ -579,7 +602,7 @@ overview: 'PipesHub publishes 51 API contracts indexed on the [APIs.io](https://
   The PipesHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  PipesHub''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 43 more developer resources.'
+  PipesHub''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 44 more developer resources.'
 plans:
 - name: Pipeshub Plans Pricing
   plan_count: 2
@@ -603,16 +626,16 @@ rules:
     warn: 2
   slug: pipeshub-pipeshub-ai-spectral-rules
 - authorship: generated
-  effective_rule_count: 60
+  effective_rule_count: 112
   extends:
   - spectral:oas
   name: PipesHub API Rules
-  rule_count: 19
+  rule_count: 71
   severity_counts:
-    error: 9
+    error: 44
     hint: 0
-    info: 4
-    warn: 6
+    info: 5
+    warn: 22
   slug: pipeshub-rules
 scopes:
 - name: Pipeshub Scopes
@@ -620,24 +643,24 @@ scopes:
   slug: pipeshub-scopes
   summary_line: 43 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 68.0
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 87.3
-    catalog_earned_first_party: 26.0
-    catalog_gap: 27.8
+    artifact_dirs: 37
+    catalog_earned: 75.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: -15.5
   facets:
-    access_clarity: 65.8
-    contract_governance: 76.5
-    contract_quality: 66.9
-    developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 55.3
-  previous_composite: 68.6
+    access_clarity: 43.4
+    contract_governance: 41.7
+    contract_quality: 68.6
+    developer_ergonomics: 42.3
+    discoverability: 75.0
+    operational_transparency: 39.5
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -653,14 +676,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/pipeshub/pipeshub-2026-10-11T112606.png
 security:
 - kind: authentication

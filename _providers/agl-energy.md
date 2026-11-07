@@ -1,12 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -371,9 +373,9 @@ scopes:
   summary_line: 11 scopes
 score:
   band: developing
-  composite: 46.2
+  composite: 44.8
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 74.0
     catalog_earned_first_party: 12.0
     catalog_gap: 41.0
@@ -385,8 +387,8 @@ score:
     contract_governance: 33.3
     contract_quality: 26.0
     developer_ergonomics: 35.1
-    discoverability: 66.1
-    operational_transparency: 86.8
+    discoverability: 73.2
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -394,7 +396,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 46.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -411,13 +413,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Agl Energy Authentication

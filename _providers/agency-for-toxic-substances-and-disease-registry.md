@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.7
-  scored_at: '2026-10-31'
+  score: 22.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -262,9 +264,9 @@ rules:
   slug: agency-for-toxic-substances-and-disease-registry-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 29.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -275,7 +277,7 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 52.6
-    developer_ergonomics: 31.0
+    developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
@@ -283,7 +285,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.5
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,13 +299,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/agency-for-toxic-substances-and-disease-registry/agency-for-toxic-substances-and-disease-registry-2026-06-20T165830.png
 security:
 - kind: domain-security

@@ -1,18 +1,25 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -25,17 +32,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.3
-  scored_at: '2026-10-31'
+  score: 53.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -682,7 +690,7 @@ json_schemas:
   property_count: 14
   slug: dwolla-upgrade-to-verified-business
 - name: VerifiedBusinessCustomer
-  property_count: 0
+  property_count: 21
   slug: dwolla-verified-business-customer
 - name: VerifyMicroDeposits
   property_count: 2
@@ -746,22 +754,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.5
+  composite: 74.8
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 81.8
+    artifact_dirs: 38
+    catalog_earned: 83.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 33.3
+    catalog_gap: 31.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 81.6
-    contract_governance: 35.6
-    contract_quality: 70.4
+    contract_governance: 41.7
+    contract_quality: 76.8
     developer_ergonomics: 74.4
-    discoverability: 70.0
-    operational_transparency: 84.2
+    discoverability: 76.7
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -769,14 +777,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 73.5
+  previous_composite: 72.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 18
     mcp: first-party
     skills: derived
@@ -786,13 +794,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dwolla/dwolla-2026-07-25T212550.png
 security:
 - kind: authentication

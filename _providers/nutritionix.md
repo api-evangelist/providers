@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -390,9 +395,9 @@ rules:
   slug: nutritionix-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 34.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 74.0
     catalog_earned_first_party: 0.0
     catalog_gap: 41.0
@@ -403,10 +408,10 @@ score:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 31.7
-    developer_ergonomics: 54.8
+    developer_ergonomics: 42.9
     discoverability: 78.6
-    operational_transparency: 13.2
-  previous_composite: 37.7
+    operational_transparency: 10.5
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -420,13 +425,12 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nutritionix/nutritionix-2026-06-20T190531.png
 security:
 - kind: authentication

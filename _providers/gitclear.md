@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Paid (free trial) · Open access
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Open access
   onboarding: open
-  pricing: paid
+  pricing: freemium
   public: true
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,7 +91,7 @@ apis:
   description: The Teams API from GitClear — 2 operation(s) for teams.
   name: GitClear Teams API
   slug: gitclear-teams-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: GitClear Public API Tokens API
@@ -200,6 +205,9 @@ network: true
 overview: 'GitClear publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Tokens API, Code Introspection API, Data Audit API, and 5 more. Tagged areas include Code Analytics, Commit Analytics, Developer Productivity, Diff Delta, and Engineering Metrics.
 
 
+  The GitClear catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   GitClear''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Gitclear Plans Pricing
@@ -210,25 +218,38 @@ rate_limits:
 - limit_count: 2
   name: Gitclear Rate Limits
   slug: gitclear-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: GitClear API Rules
+  rule_count: 57
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 1
+  slug: gitclear-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 32.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 17
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 46.5
+    contract_governance: 13.6
+    contract_quality: 48.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 31.4
+    operational_transparency: 18.4
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -242,13 +263,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/gitclear/gitclear-2026-07-25T215835.png
 security:
 - kind: authentication

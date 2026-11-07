@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gr
@@ -130,9 +132,9 @@ rate_limits:
   slug: mockito-rate-limits
 score:
   band: emerging
-  composite: 15.3
+  composite: 20.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -143,18 +145,21 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 15.5
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 15.3
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

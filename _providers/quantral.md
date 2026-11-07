@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-31'
+  score: 21.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public API providing access to Quantral's investment signals and alternative data.
@@ -119,7 +135,7 @@ modified: '2026-10-30'
 name: Quantral
 nav: Providers
 network: true
-overview: 'Quantral is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Data, Analytics, and AI.
+overview: 'Quantral is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Data, Analytics, and Artificial Intelligence.
 
 
   Quantral''s developer surface includes support, documentation, getting-started guide, engineering blog, pricing, and 11 more developer resources.'
@@ -138,34 +154,41 @@ scopes:
   slug: quantral-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 20.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 42.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.2
+    artifact_dirs: 22
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.6
   facets:
-    access_clarity: 60.0
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 58.9
+    developer_ergonomics: 19.0
+    discoverability: 58.0
     operational_transparency: 0.0
+  previous_composite: 28.0
+  provenance:
+    conformance: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/quantral/quantral-2026-11-03T141817.png
 security:
 - kind: authentication
   name: Quantral Authentication
@@ -181,6 +204,6 @@ tags:
 - Finance
 - Data
 - Analytics
-- AI
+- Artificial Intelligence
 website: https://quantral.com
 ---

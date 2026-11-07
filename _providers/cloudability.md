@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: The Cloudability v3 API is the modern REST interface for the platform. It exposes resource-oriented endpoints for reporting, dimensions and metrics, business mappings, anomalies, rightsizing recommend
@@ -301,9 +304,9 @@ rules:
   slug: cloudability-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 47.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.5
     catalog_earned_first_party: 0.0
     catalog_gap: 65.5
@@ -316,8 +319,8 @@ score:
     contract_quality: 6.7
     developer_ergonomics: 69.0
     discoverability: 71.4
-    operational_transparency: 60.5
-  previous_composite: 47.3
+    operational_transparency: 57.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -327,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
+  score: 12.9
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,9 +114,9 @@ overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 15
 score:
   band: emerging
-  composite: 11.1
+  composite: 17.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -124,19 +126,19 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 11.1
+    discoverability: 55.4
+    operational_transparency: 2.6
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

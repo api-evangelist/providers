@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-31'
+  score: 43.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 3
@@ -504,31 +517,31 @@ rules:
     warn: 3
   slug: firma-dev-rules
 score:
-  band: strong
-  composite: 58.9
+  band: developing
+  composite: 52.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 55.8
     catalog_earned_first_party: 8.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -11.3
   facets:
-    access_clarity: 81.6
+    access_clarity: 55.3
     contract_governance: 22.0
-    contract_quality: 73.5
-    developer_ergonomics: 54.2
-    discoverability: 41.7
-    operational_transparency: 34.2
-  previous_composite: 58.9
+    contract_quality: 81.7
+    developer_ergonomics: 33.9
+    discoverability: 50.8
+    operational_transparency: 17.1
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 92.3
       total: 13
     mcp: derived
     skills: derived
@@ -537,14 +550,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/firma-dev/firma-dev-2026-10-11T104506.png
 security:
 - kind: authentication

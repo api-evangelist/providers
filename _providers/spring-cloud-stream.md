@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -173,7 +175,7 @@ rules:
   slug: spring-cloud-stream-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 30.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.2
@@ -186,18 +188,18 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
-    developer_ergonomics: 35.7
+    developer_ergonomics: 33.3
     discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 30.9
+    operational_transparency: 36.8
+  previous_composite: 30.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

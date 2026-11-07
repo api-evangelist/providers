@@ -1,31 +1,48 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-31'
+  score: 48.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -91,6 +108,16 @@ asyncapis:
   name: Phare Webhooks
   slug: phare-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/phare/finops/phare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/phare-finops.yml
+- group: build
+  href: https://artifacts.apis.io/phare/integrations/phare-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/phare-integration-edges.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -174,11 +201,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/phare-security.txt
-- group: auth
-  href: https://artifacts.apis.io/phare/well-known/phare-pushover-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/phare-pushover-security.txt
 - group: auth
   href: https://artifacts.apis.io/phare/well-known/phare-app-security.txt
   title: ''
@@ -312,7 +334,7 @@ overview: 'Phare publishes 10 API contracts indexed on the [APIs.io](https://api
   The Phare catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 31 more developer resources.'
+  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 32 more developer resources.'
 plans:
 - name: Phare Plans Pricing
   plan_count: 2
@@ -323,63 +345,63 @@ plans:
 random_paper: 0
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 104
   extends:
   - spectral:oas
   name: Phare API Rules
-  rule_count: 16
+  rule_count: 63
   severity_counts:
-    error: 14
+    error: 56
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 5
   slug: phare-rules
 score:
-  band: strong
-  composite: 62.8
+  band: developing
+  composite: 52.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 30
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -10.7
   facets:
-    access_clarity: 73.7
+    access_clarity: 51.3
     contract_governance: 22.0
-    contract_quality: 73.8
-    developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 55.3
+    contract_quality: 83.0
+    developer_ergonomics: 33.9
+    discoverability: 73.2
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 61.2
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 10
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/phare/phare-2026-10-11T112526.png
 security:
 - kind: authentication

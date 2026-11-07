@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 60.4
-  scored_at: '2026-10-31'
+  score: 65.3
+  scored_at: '2026-11-06'
 api_count: 18
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
@@ -190,7 +191,7 @@ apis:
   description: The CVEs API from Feedly — 2 operation(s) for cves.
   name: Feedly CV Es API
   slug: feedly-cves-api
-artifact_total: 61
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Feedly Webhooks
@@ -533,7 +534,7 @@ network: true
 overview: 'Feedly publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 27 more. Tagged areas include Threat Intelligence, Cybersecurity, Content Aggregation, RSS, and News.
 
 
-  The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Feedly''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 48 more developer resources.'
@@ -546,30 +547,43 @@ rate_limits:
 - limit_count: 1
   name: Feedly Rate Limits
   slug: feedly-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Feedly API Rules
+  rule_count: 59
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 6
+    warn: 14
+  slug: feedly-rules
 score:
   band: exemplar
-  composite: 67.6
+  composite: 67.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 56.0
+    artifact_dirs: 29
+    catalog_earned: 60.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 81.6
-    contract_governance: 18.2
+    access_clarity: 68.4
+    contract_governance: 31.8
     contract_quality: 60.0
     developer_ergonomics: 71.4
-    discoverability: 70.0
-    operational_transparency: 84.2
+    discoverability: 80.0
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 67.6
+  previous_composite: 61.3
   provenance:
     conformance: first-party
     contracts:
@@ -585,13 +599,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/feedly/feedly-2026-08-17T080410.png
 security:
 - kind: authentication

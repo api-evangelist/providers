@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -481,7 +482,7 @@ json_schemas:
   property_count: 3
   slug: server-api-gift-balance-request
 - name: GiftRedeemRequest
-  property_count: 0
+  property_count: 1
   slug: server-api-gift-redeem-request
 - name: GiftReply
   property_count: 6
@@ -723,9 +724,9 @@ rules:
   slug: paytronix-spectral-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 30.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 73.0
     catalog_earned_first_party: 0.0
     catalog_gap: 42.0
@@ -738,8 +739,8 @@ score:
     contract_quality: 29.7
     developer_ergonomics: 47.6
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 31.2
+    operational_transparency: 7.9
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -753,13 +754,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/paytronix/paytronix-2026-06-20T191510.png
 security:
 - kind: authentication

@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -179,7 +180,7 @@ rate_limits:
   slug: cartography-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 15.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 46.0
@@ -192,18 +193,18 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 26.2
+    developer_ergonomics: 4.8
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 19.2
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

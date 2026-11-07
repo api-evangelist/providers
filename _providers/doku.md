@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
@@ -11,7 +11,7 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-31'
+  score: 32.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
   description: SNAP BI-SNAP Virtual Account lifecycle.
   name: DOKU Virtual Account API
   slug: doku-virtual-account-api
-artifact_total: 34
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Doku Webhooks
@@ -324,7 +325,7 @@ network: true
 overview: 'DOKU publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Checkout API, Direct Debit & e-Wallet API, and 3 more. Tagged areas include Payments, Payment Gateway, Fintech, Indonesia, and SEA.
 
 
-  The DOKU catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The DOKU catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   DOKU''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 32 more developer resources.'
@@ -340,24 +341,37 @@ rate_limits:
 - limit_count: 3
   name: Doku Rate Limits
   slug: doku-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: DOKU API Rules
+  rule_count: 59
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 3
+  slug: doku-rules
 score:
   band: strong
-  composite: 66.0
+  composite: 66.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 55.0
+    artifact_dirs: 31
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 53.6
     developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 55.3
+    discoverability: 73.2
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -365,7 +379,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 64.5
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,13 +396,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/doku/doku-2026-07-25T212238.png
 security:
 - kind: authentication

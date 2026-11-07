@@ -6,7 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
-  - '{''url'': ''https://www.humio.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.crowdstrike.com/en-us/platform/next-gen-siem/falcon-logscale/ — a different registrable domain (humio.com -> crowdstrike.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Humio (Falcon LogScale) REST + GraphQL API. The REST API covers streaming ingest (structured, unstructured, Splunk HEC, and Elastic bulk endpoints) and search/query jobs against repositories; the Grap
@@ -43,6 +44,49 @@ apis:
   slug: humio-api
 artifact_total: 3
 common:
+- group: other
+  href: https://artifacts.apis.io/humio/hosts/humio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/humio-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/humio/integrations/humio-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/humio-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/humio/vendors/humio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/humio-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.humio.com
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.humio.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.crowdstrike.com/privacy-notice/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.crowdstrike.com/en-us/pricing/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.crowdstrike.com/en-us/news/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.crowdstrike.com/en-us/login/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.crowdstrike.com/
 - group: other
   title: ''
   type: ParentCompany
@@ -97,11 +141,6 @@ common:
   type: WellKnown
   url: well-known/humio-well-known.yml
 - group: auth
-  href: https://artifacts.apis.io/humio/well-known/humio-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/humio-security.txt
-- group: auth
   href: https://artifacts.apis.io/humio/security/humio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
@@ -110,11 +149,6 @@ common:
   title: ''
   type: Security
   url: https://www.crowdstrike.com/report-a-security-bug/
-- group: agent
-  href: https://artifacts.apis.io/humio/llms/humio-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/humio-llms.txt
 created: '2026-07-17'
 description: Humio is a log management and observability platform built for ingesting, storing, and searching machine data in real time at scale. Backed by Accel and acquired by CrowdStrike in 2021, Humio is now delivered as CrowdStrike Falcon LogScale. It provides high-throughput streaming ingest (including Splunk HEC and Elastic bulk compatible endpoints), a live query language for dashboards and alerts, and index-free retention. Developers integrate through a REST API for ingest and search plus a GraphQL API for administration (repositories, parsers, users, ingest tokens), with official client libraries for Python, Node.js, Go, and JavaScript and the humioctl command-line client.
 image: https://avatars.githubusercontent.com/u/16662354?v=4
@@ -126,36 +160,36 @@ network: true
 overview: 'Humio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Log Management, Observability, and Logging.
 
 
-  Humio''s developer surface includes documentation, API reference, engineering blog, CLI, and 12 more developer resources.'
+  Humio''s developer surface includes support, pricing, documentation, API reference, engineering blog, CLI, and 18 more developer resources.'
 random_paper: 18
 score:
-  band: emerging
-  composite: 14.8
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 14.8
+    developer_ergonomics: 47.6
+    discoverability: 75.0
+    operational_transparency: 28.9
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

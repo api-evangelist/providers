@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The FOX storefront's Universal Commerce Protocol service, transported over the Model Context Protocol at https://ridefox.com/api/ucp/mcp. Anonymous JSON-RPC; every tool call carries a UCP agent profil
@@ -200,8 +201,8 @@ scopes:
   slug: fox-factory-holding-scopes
   summary_line: 4 scopes
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -215,9 +216,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 65.0
-    operational_transparency: 26.3
-  previous_composite: 25.6
+    discoverability: 75.0
+    operational_transparency: 23.7
+  previous_composite: 26.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -228,8 +229,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

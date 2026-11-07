@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-10-31'
+  score: 49.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -208,7 +221,7 @@ modified: '2026-10-29'
 name: Titus
 nav: Providers
 network: true
-overview: 'Titus publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Business Connections API, Checkouts API, and 6 more. Tagged areas include Company, Payments, FinTech, Orchestration, and API.
+overview: 'Titus publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Business Connections API, Checkouts API, and 6 more. Tagged areas include Company, Payments, Fintech, Orchestration, and B2B.
 
 
   The Titus catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -235,21 +248,29 @@ rules:
   slug: titus-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 43.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
     contract_quality: 53.8
-    developer_ergonomics: 54.8
-    discoverability: 66.1
+    developer_ergonomics: 33.3
+    discoverability: 73.2
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,20 +278,21 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 8
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/titus/titus-2026-11-03T144816.png
 security:
 - kind: authentication
   name: Titus Authentication
@@ -284,9 +306,8 @@ slug: titus
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Orchestration
-- API
 - B2B
 website: https://www.gotitus.com/
 ---

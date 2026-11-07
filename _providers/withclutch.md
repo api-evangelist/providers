@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Clutch delivers daily origination datasets to credit union customers over either SFTP or a File Transfer API. The public knowledge base documents the datasets (lending, account opening, funding, NACHA
@@ -171,9 +172,9 @@ overview: 'Clutch is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 7
 score:
   band: emerging
-  composite: 23.7
+  composite: 20.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 33.5
     catalog_earned_first_party: 0.0
     catalog_gap: 81.5
@@ -181,13 +182,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 2.0
     developer_ergonomics: 16.7
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 23.7
+    discoverability: 64.3
+    operational_transparency: 21.1
+  previous_composite: 20.9
   provenance:
     conformance: first-party
   regulatory:
@@ -201,9 +202,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

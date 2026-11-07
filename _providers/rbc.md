@@ -1,13 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Enterprise business APIs (advisor onboarding) + self-serve informational APIs on the developer portal
-  onboarding: approval
-  pricing: enterprise
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - authentication
-  - documentation
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: Self-serve informational API on the RBC External Developer Portal that accepts a postal code or keyword search and returns the address and hours of operation of the closest RBC branch, or a list of ne
@@ -138,9 +138,9 @@ overview: 'Royal Bank of Canada is listed with 9 APIs on the [APIs.io](https://a
 random_paper: 23
 score:
   band: emerging
-  composite: 20.5
+  composite: 20.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -152,8 +152,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 62.5
-    operational_transparency: 5.3
+    discoverability: 69.6
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -161,15 +161,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.5
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

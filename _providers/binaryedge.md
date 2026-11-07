@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - security
   - '{''url'': ''https://docs.binaryedge.io/api-v2.html'', ''status'': 301, ''note'': ''declared website redirects to https://help.coalitioninc.com/hc/en-us/articles/48928737389979-What-the-BinaryEdge-scanner-does-and-why-Coalition-may-scan-your-internet-facing-systems — a different registrable domain (binaryedge.io -> coalitioninc.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Provide access to BinaryEdge 40fy scanning platform
@@ -73,7 +75,7 @@ overview: BinaryEdge is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 18
 score:
   band: minimal
-  composite: 7.4
+  composite: 5.5
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -86,18 +88,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 0.0
     discoverability: 46.4
     operational_transparency: 10.5
-  previous_composite: 7.4
+  previous_composite: 5.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

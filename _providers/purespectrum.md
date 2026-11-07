@@ -1,6 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -22,13 +33,18 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 9.6
-  scored_at: '2026-10-31'
+  score: 3.6
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
+- group: auth
+  href: https://artifacts.apis.io/purespectrum/well-known/purespectrum-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/purespectrum-status-security.txt
 - group: auth
   title: ''
   type: Compliance
@@ -38,11 +54,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/purespectrum-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/purespectrum/well-known/purespectrum-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/purespectrum-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/purespectrum/well-known/purespectrum-well-known.yml
   title: ''
@@ -116,28 +127,36 @@ modified: '2026-10-21'
 name: PureSpectrum
 nav: Providers
 network: true
-overview: 'PureSpectrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Data, API, and Market-Research.
+overview: 'PureSpectrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Data, and Market Research.
 
 
   PureSpectrum''s developer surface includes documentation, support, engineering blog, and 13 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 19.6
+  composite: 12.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 27.0
+    artifact_dirs: 11
+    catalog_earned: 22.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 50.0
-    operational_transparency: 26.3
+    developer_ergonomics: 8.3
+    discoverability: 47.3
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 20.4
   provenance:
     mcp: unknown
   regulatory:
@@ -145,13 +164,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/purespectrum/purespectrum-2026-11-03T141720.png
 security:
 - kind: domain-security
   name: Purespectrum Domain Security
@@ -166,7 +187,6 @@ tags:
 - Company
 - Research
 - Data
-- API
-- Market-Research
+- Market Research
 website: https://purespectrum.com
 ---

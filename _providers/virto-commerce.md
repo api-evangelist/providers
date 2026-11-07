@@ -1,15 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-31'
+  score: 34.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 266
   human_in_the_loop: 9
@@ -440,7 +445,7 @@ apis:
     question: Which event subscriptions are sending events through a given connection?
   phrasing_ops: 12
   slug: virto-commerce-event-bus-module-api
-artifact_total: 40
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Virto Commerce Webhooks
@@ -725,7 +730,7 @@ network: true
 overview: 'Virto Commerce publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B eCommerce, Catalog Management, Order Management, Pricing, and Inventory.
 
 
-  The Virto Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
+  The Virto Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, CLI, and 40 more developer resources.'
@@ -741,37 +746,50 @@ rate_limits:
 - limit_count: 4
   name: Virto Commerce Rate Limits
   slug: virto-commerce-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Virto Commerce API Rules
+  rule_count: 64
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 4
+    warn: 9
+  slug: virto-commerce-rules
 scopes:
 - name: Virto Commerce Scopes
   scope_count: 84
   slug: virto-commerce-scopes
   summary_line: 84 scopes · password/clientCredentials
 score:
-  band: strong
-  composite: 62.0
+  band: exemplar
+  composite: 71.0
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 71.0
+    artifact_dirs: 36
+    catalog_earned: 75.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 44.0
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
-    contract_governance: 18.2
-    contract_quality: 49.0
+    contract_governance: 31.8
+    contract_quality: 51.1
     developer_ergonomics: 80.4
-    discoverability: 70.0
-    operational_transparency: 60.5
-  previous_composite: 62.6
+    discoverability: 76.7
+    operational_transparency: 57.9
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 8.3
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 7.7
       total: 13
     mcp: first-party
     skills: derived
@@ -781,13 +799,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 72.2
 screenshot: https://apis.io/screenshots/virto-commerce/virto-commerce-2026-06-20T201036.png
 security:
 - kind: authentication

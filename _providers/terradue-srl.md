@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-31'
+  score: 24.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -235,7 +247,7 @@ modified: '2026-10-23'
 name: Terradue Srl
 nav: Providers
 network: true
-overview: 'Terradue Srl publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Audit Logs API, Avatars API, and 21 more. Tagged areas include Company, EarthScience, OpenSource, Cloud, and DataProcessing.
+overview: 'Terradue Srl publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Audit Logs API, Avatars API, and 21 more. Tagged areas include Company, Earth Science, Open Source, Cloud, and Data Processing.
 
 
   The Terradue Srl catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -257,22 +269,30 @@ rules:
     warn: 2
   slug: terradue-srl-rules
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 41.8
     catalog_earned_first_party: 0.0
     catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.8
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 53.3
-    developer_ergonomics: 26.2
+    contract_quality: 56.7
+    developer_ergonomics: 19.0
     discoverability: 44.6
-    operational_transparency: 5.3
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,12 +308,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/terradue-srl/terradue-srl-2026-11-03T144451.png
 security:
 - kind: authentication
   name: Terradue Srl Authentication
@@ -306,10 +327,10 @@ security:
 slug: terradue-srl
 tags:
 - Company
-- EarthScience
-- OpenSource
+- Earth Science
+- Open Source
 - Cloud
-- DataProcessing
+- Data Processing
 - Collaboration
 website: http://www.terradue.com
 ---

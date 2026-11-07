@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -92,7 +93,7 @@ apis:
   description: '[https://devdocs.drift.com/docs/user-model](https://devdocs.drift.com/docs/user-model)'
   name: Drift Users API
   slug: drift-com-users-api
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: open
   name: Drift Accounts API
@@ -254,6 +255,9 @@ network: true
 overview: 'Drift publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, App Admin API, Contacts API, and 6 more. Tagged areas include Conversational Marketing, Chatbots, Sales, Messaging, and Customer Engagement.
 
 
+  The Drift catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Drift''s developer surface includes authentication, documentation, developer portal, and 14 more developer resources.'
 plans:
 - name: Drift Com Plans Pricing
@@ -264,25 +268,38 @@ rate_limits:
 - limit_count: 1
   name: Drift Com Rate Limits
   slug: drift-com-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Drift API Rules
+  rule_count: 40
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 2
+  slug: drift-com-rules
 score:
   band: thin
-  composite: 30.4
+  composite: 31.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 41.0
+    artifact_dirs: 19
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 42.4
-    developer_ergonomics: 54.8
+    contract_governance: 13.6
+    contract_quality: 43.4
+    developer_ergonomics: 42.9
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 30.4
+    operational_transparency: 7.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +313,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/drift-com/drift-com-2026-06-20T180240.png
 security:
 - kind: authentication

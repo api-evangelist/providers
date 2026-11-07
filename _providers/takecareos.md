@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +62,7 @@ common:
   type: Support
   url: https://takecareos.com/hello
 created: '2026-07-17'
-description: TakeCareOS is an AI-powered operating system for home care and disability-services agencies. It consolidates fragmented back-office operations — shift rostering and scheduling, GPS-enabled clock-in/out, participant/client CRM, shift notes and incident reporting, timesheet management with variance detection, invoice generation synced to accounting tools (Xero, MYOB, QuickBooks), team messaging, and compliance and credential tracking — into a single platform. An AI assistant called Atlas drafts documentation, converts PDF forms to digital, and automates administrative work while requiring human approval. Founded by Ragav Sachdeva and backed by Y Combinator (Spring 2026), the company is based in San Francisco and serves NDIS and Medicaid HCBS providers. As of this profile the company publishes no public API, developer portal, or programmatic integration surface.
+description: TakeCareOS is care management software for Australian NDIS and aged care providers. It connects rostering, shift notes, timesheets and invoicing. Direct-support billing can use shifts or recurring participant invoice plans; support coordination billing uses completed tasks. Reviewed invoices connect to Xero or MYOB, and NDIA-managed lines can be exported for bulk upload. As of this profile the company publishes no public API, developer portal, or programmatic integration surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/takecareos.png
 layout: provider
 modified: '2026-07-21'
@@ -76,7 +78,7 @@ score:
   band: minimal
   composite: 7.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,13 +92,6 @@ score:
     developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - united-states
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
   previous_composite: 7.7
   regulatory:
     applies: true
@@ -104,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

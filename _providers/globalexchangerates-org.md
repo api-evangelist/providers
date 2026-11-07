@@ -1,10 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 12.5
-  scored_at: '2026-10-31'
+  score: 4.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +149,7 @@ modified: '2026-10-30'
 name: globalexchangerates-org
 nav: Providers
 network: true
-overview: 'globalexchangerates-org is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, API, ExchangeRates, and ERP.
+overview: 'globalexchangerates-org is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Exchange Rates, and ERP.
 
 
   The globalexchangerates-org catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -163,34 +175,42 @@ rules:
     warn: 1
   slug: globalexchangerates-org-rules
 score:
-  band: thin
-  composite: 36.5
+  band: emerging
+  composite: 20.5
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 64.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    artifact_dirs: 17
+    catalog_earned: 45.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.5
   facets:
-    access_clarity: 50.5
-    contract_governance: 79.1
+    access_clarity: 36.8
+    contract_governance: 22.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 66.1
-    operational_transparency: 5.3
+    developer_ergonomics: 22.6
+    discoverability: 57.1
+    operational_transparency: 2.6
+  previous_composite: 30.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/globalexchangerates-org/globalexchangerates-org-2026-11-03T132846.png
 security:
 - kind: domain-security
   name: Globalexchangerates Org Domain Security
@@ -200,8 +220,7 @@ slug: globalexchangerates-org
 tags:
 - Company
 - Finance
-- API
-- ExchangeRates
+- Exchange Rates
 - ERP
 website: https://globalexchangerates.org/
 ---

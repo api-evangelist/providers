@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Open Kraken is the integration layer of the Kraken utility operating system. Kraken publicly describes it as "APIs, events and MCP" for building apps and experiences against data and capabilities insi
@@ -215,9 +216,9 @@ overview: 'Kraken Technologies is listed with 2 APIs on the [APIs.io](https://ap
 random_paper: 21
 score:
   band: thin
-  composite: 29.6
+  composite: 28.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -228,9 +229,9 @@ score:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 58.3
-    operational_transparency: 31.6
+    developer_ergonomics: 31.0
+    discoverability: 58.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,7 +240,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 29.6
+  previous_composite: 28.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -253,8 +254,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

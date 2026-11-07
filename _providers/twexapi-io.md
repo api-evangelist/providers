@@ -1,10 +1,23 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium (free trial)
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 63.1
-  scored_at: '2026-10-31'
+  score: 59.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -150,7 +164,7 @@ apis:
   description: The Users Endpoints API from twexapi-io — 7 operation(s) for users endpoints.
   name: twexapi-io Users Endpoints API
   slug: twexapi-io-users-endpoints-api
-artifact_total: 40
+artifact_total: 45
 common:
 - group: agent
   href: https://artifacts.apis.io/twexapi-io/agentic-access/twexapi-io-agentic-access.yml
@@ -351,6 +365,9 @@ json_schemas:
 - name: CashtagsQuery
   property_count: 15
   slug: twexapi-io-cashtags-query
+- name: GetDmMediaV3Query
+  property_count: 8
+  slug: twexapi-io-get-dm-media-v3-query
 - name: GetQuotesCursorResponse
   property_count: 5
   slug: twexapi-io-get-quotes-cursor-response
@@ -363,6 +380,15 @@ json_schemas:
 - name: HashtagsQuery
   property_count: 15
   slug: twexapi-io-hashtags-query
+- name: PostTweetQuery
+  property_count: 9
+  slug: twexapi-io-post-tweet-query
+- name: QuoteTweetQuery
+  property_count: 8
+  slug: twexapi-io-quote-tweet-query
+- name: SendDmV3Query
+  property_count: 7
+  slug: twexapi-io-send-dm-v3-query
 - name: UserTimelinePageResponse
   property_count: 8
   slug: twexapi-io-user-timeline-page-response
@@ -380,7 +406,7 @@ modified: '2026-10-31'
 name: twexapi-io
 nav: Providers
 network: true
-overview: 'twexapi-io publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including All Tweets Replies Endpoints API, Article Endpoints API, Balance Endpoints API, and 20 more. Tagged areas include Social, Data, API, X, and Credit.
+overview: 'twexapi-io publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including All Tweets Replies Endpoints API, Article Endpoints API, Balance Endpoints API, and 20 more. Tagged areas include Social, Data, X, Credit, and Artificial Intelligence.
 
 
   The twexapi-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -415,34 +441,48 @@ scopes:
   slug: twexapi-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 70.1
+  band: developing
+  composite: 54.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 95.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 19.3
+    artifact_dirs: 33
+    catalog_earned: 82.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.8
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 62.2
-    developer_ergonomics: 80.2
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 65.3
+    developer_ergonomics: 56.4
     discoverability: 65.0
-    operational_transparency: 34.7
+    operational_transparency: 28.9
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/twexapi-io/twexapi-io-2026-11-03T145310.png
 security:
 - kind: authentication
   name: Twexapi Io Authentication
@@ -456,17 +496,18 @@ security:
   name: Twexapi Io Vulnerability Disclosure
   slug: twexapi-io-vulnerability-disclosure
   summary_line: security.txt · contact published
-skill_count: 1
+skill_count: 2
 skills:
+- name: get-data
+  slug: twexapi-io-get-data
 - name: get-user-info
   slug: twexapi-io-get-user-info
 slug: twexapi-io
 tags:
 - Social
 - Data
-- API
 - X
 - Credit
-- AI
+- Artificial Intelligence
 website: https://twexapi.io/
 ---

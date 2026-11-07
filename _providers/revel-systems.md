@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -428,10 +429,10 @@ rules:
     warn: 18
   slug: revel-systems-rules
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 20.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -442,10 +443,10 @@ score:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 39.9
-    developer_ergonomics: 42.9
+    developer_ergonomics: 1.2
     discoverability: 53.6
-    operational_transparency: 26.3
-  previous_composite: 31.9
+    operational_transparency: 7.9
+  previous_composite: 20.5
   provenance:
     agentic_access: derived
     contracts:
@@ -459,13 +460,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/revel-systems/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication

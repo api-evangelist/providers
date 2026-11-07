@@ -1,12 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'Partner-only REST API for reservations, availability, and restaurant metadata. Access is granted through Resy''s partnerships team for approved POS, CRM, loyalty, and discovery integrations. No public '
@@ -152,9 +154,9 @@ rate_limits:
   slug: resy-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 12.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -167,16 +169,16 @@ score:
     contract_quality: 6.5
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 13.2
+    operational_transparency: 7.9
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

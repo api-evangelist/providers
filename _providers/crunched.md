@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 2.2
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,8 +105,8 @@ overview: 'Crunched is profiled on the [APIs.io](https://apis.io/) network. Tagg
   Crunched''s developer surface includes engineering blog, documentation, support, and 8 more developer resources.'
 random_paper: 4
 score:
-  band: emerging
-  composite: 17.2
+  band: minimal
+  composite: 8.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -114,13 +116,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 48.2
+    developer_ergonomics: 11.9
+    discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 8.7
   provenance:
     mcp: first-party
   regulatory:
@@ -128,9 +130,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 14.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 4.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

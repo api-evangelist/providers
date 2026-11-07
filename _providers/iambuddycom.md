@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,6 +118,18 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/iambuddycom-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.buddy.insure/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.buddy.insure/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.buddy.insure/terms
 created: '2026-07-17'
 description: Buddy (iambuddy.com, now buddy.insure) is a digital insurance commerce platform that turns insurance product rules, pricing, and workflows into structured data via its Insurance Object Notation (ION) engine, so carriers, MGAs, brokers, and agents can sell P&C insurance online across direct, agent-assisted, embedded, and agentic channels without core-system changes. Its Offer Element embeddable checkout widget adds quote, apply, bind, and pay in a few lines of code, and Buddy MCP connects insurance products to AI assistants such as Claude for conversational selling. Founded by Charles Merritt and David Vogeleer in Richmond, Virginia, Buddy is licensed in all 50 states and is SOC 2 Type 2 and PCI DSS compliant, working with carriers including Allstate, Aon, W.R. Berkley, Chubb, Great American, and Starr.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iambuddycom.png
@@ -131,27 +145,27 @@ network: true
 overview: 'iambuddy.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Embedded Insurance, and Insurance Commerce.
 
 
-  iambuddy.com''s developer surface includes engineering blog, support, and 16 more developer resources.'
+  iambuddy.com''s developer surface includes engineering blog, support, documentation, and 18 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 19.4
+  composite: 20.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 48.3
+    developer_ergonomics: 21.4
+    discoverability: 55.0
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -160,9 +174,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -184,5 +198,9 @@ tags:
 - P&C Insurance
 - MCP
 - Payments
+- Platform
+- Digital Commerce
+- Techstars
+- Artificial Intelligence
 website: https://buddy.insure/
 ---

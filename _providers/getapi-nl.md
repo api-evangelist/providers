@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-31'
+  score: 28.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -241,7 +257,7 @@ modified: '2026-10-30'
 name: getapi-nl
 nav: Providers
 network: true
-overview: 'getapi-nl publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including BAG – Addresses and Buildings Register API, CBS - SBI Codes API, DNS Lookup API, and 14 more. Tagged areas include Company, API, Dutch, WebScraping, and DataValidation.
+overview: 'getapi-nl publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including BAG – Addresses and Buildings Register API, CBS - SBI Codes API, DNS Lookup API, and 14 more. Tagged areas include Company, Dutch, Web Scraping, and Data Validation.
 
 
   The getapi-nl catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -267,34 +283,52 @@ rules:
     warn: 0
   slug: getapi-nl-rules
 score:
-  band: developing
-  composite: 48.9
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 63.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.2
+    artifact_dirs: 18
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 52.1
-    contract_governance: 70.9
-    contract_quality: 50.8
-    developer_ergonomics: 35.7
-    discoverability: 62.5
-    operational_transparency: 21.1
+    access_clarity: 43.4
+    contract_governance: 19.7
+    contract_quality: 53.9
+    developer_ergonomics: 23.8
+    discoverability: 53.6
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 44.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/getapi-nl/getapi-nl-2026-11-03T132641.png
 security:
 - kind: authentication
   name: Getapi Nl Authentication
@@ -311,9 +345,8 @@ security:
 slug: getapi-nl
 tags:
 - Company
-- API
 - Dutch
-- WebScraping
-- DataValidation
+- Web Scraping
+- Data Validation
 website: https://getapi.nl/
 ---

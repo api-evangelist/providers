@@ -1,12 +1,11 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
-  - plans
   - authentication
   - security
   trial: false
@@ -27,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
   description: Health, readiness, and engine-level metadata.
   name: Marqo Telemetry API
   slug: marqo-telemetry-api
-artifact_total: 48
+artifact_total: 49
 collections:
 - collection_type: open
   name: Marqo REST Documents API
@@ -293,6 +293,9 @@ network: true
 overview: 'Marqo publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Search, Multi-Modal, Semantic Search, Embeddings, and Artificial Intelligence.
 
 
+  The Marqo catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 24 more developer resources.'
 plans:
 - name: Marqo Plans Pricing
@@ -303,25 +306,41 @@ rate_limits:
 - limit_count: 1
   name: Marqo Rate Limits
   slug: marqo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Marqo API Rules
+  rule_count: 57
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 1
+  slug: marqo-rules
 score:
-  band: thin
-  composite: 33.8
+  band: developing
+  composite: 41.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 34.0
+    artifact_dirs: 16
+    catalog_earned: 38.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 76.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 45.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 42.9
     discoverability: 57.1
-    operational_transparency: 44.7
-  previous_composite: 38.0
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -335,13 +354,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/marqo/marqo-2026-06-20T185006.png
 security:
 - kind: authentication

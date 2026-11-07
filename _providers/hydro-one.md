@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Application and approval required
-  onboarding: unknown
-  pricing: free
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
-  - documentation
-  - terms
+  - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hydro One's Green Button Connect My Data implementation, mandated by Ontario Regulation 633/21. A registered third-party vendor obtains an OAuth 2.0 authorization code after the customer authenticates
@@ -153,9 +158,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 27.1
+  composite: 26.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -167,7 +172,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 58.9
+    discoverability: 58.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -176,7 +181,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.1
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -184,9 +189,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

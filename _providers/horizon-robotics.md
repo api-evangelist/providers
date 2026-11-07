@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-31'
+  score: 26.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Horizon Robotics'' hosted Model Context Protocol server for the OpenExplorer toolchain. Probed anonymously on 2026-08-22: MCP protocol version 2025-06-18, serverInfo "Open Explorer MCP Server" v3.9.0, '
@@ -203,9 +204,9 @@ rate_limits:
   slug: horizon-robotics-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 28.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,9 +217,9 @@ score:
     access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 65.0
-    operational_transparency: 31.6
+    developer_ergonomics: 50.0
+    discoverability: 68.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -226,7 +227,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 30.8
+  previous_composite: 28.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

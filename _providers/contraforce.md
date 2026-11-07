@@ -1,32 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 53.4
-  scored_at: '2026-10-31'
+  score: 31.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -81,12 +96,21 @@ apis:
 - description: The Webhooks API from Contraforce — 11 operation(s) for webhooks.
   name: Contraforce Webhooks API
   slug: contraforce-webhooks-api
-artifact_total: 25
+artifact_total: 82
 asyncapis:
 - description: ''
   name: Contraforce Webhooks
   slug: contraforce-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/contraforce/finops/contraforce-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/contraforce-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.contraforce.com
 - group: other
   href: https://artifacts.apis.io/contraforce/capabilities/contraforce-capability-edges.yml
   title: ''
@@ -263,6 +287,178 @@ finops:
   slug: contraforce-finops
   template: false
 image: https://www.contraforce.com/og-image.png
+json_schemas:
+- name: AgentToolGamebookSubmissionRequest
+  property_count: 4
+  slug: contraforce-agent-tool-gamebook-submission-request
+- name: AgentToolInvestigationSubmissionRequest
+  property_count: 9
+  slug: contraforce-agent-tool-investigation-submission-request
+- name: AgentToolKqlQueryRequest
+  property_count: 2
+  slug: contraforce-agent-tool-kql-query-request
+- name: AgentToolKqlTableColumnsRequest
+  property_count: 1
+  slug: contraforce-agent-tool-kql-table-columns-request
+- name: ApiResponseOfAgentToolKqlQueryResult
+  property_count: 2
+  slug: contraforce-api-response-of-agent-tool-kql-query-result
+- name: ApiResponseOfAgentToolUserDetailsResult
+  property_count: 2
+  slug: contraforce-api-response-of-agent-tool-user-details-result
+- name: ApiResponseOfAuditLogsResultDto
+  property_count: 2
+  slug: contraforce-api-response-of-audit-logs-result-dto
+- name: ApiResponseOfBulkUpdateIncidentResultDto
+  property_count: 2
+  slug: contraforce-api-response-of-bulk-update-incident-result-dto
+- name: ApiResponseOfContraForceIncident
+  property_count: 2
+  slug: contraforce-api-response-of-contra-force-incident
+- name: ApiResponseOfDataConnectorAnomaliesDto
+  property_count: 2
+  slug: contraforce-api-response-of-data-connector-anomalies-dto
+- name: ApiResponseOfDataConnectorWorkspacesDto
+  property_count: 2
+  slug: contraforce-api-response-of-data-connector-workspaces-dto
+- name: ApiResponseOfIEnumerableOfAzureResourceDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-azure-resource-dto
+- name: ApiResponseOfIEnumerableOfAzureSubscriptionDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-azure-subscription-dto
+- name: ApiResponseOfIEnumerableOfDataSource
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-data-source
+- name: ApiResponseOfIEnumerableOfGamebookDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-gamebook-dto
+- name: ApiResponseOfIEnumerableOfNetworkSecurityGroupDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-network-security-group-dto
+- name: ApiResponseOfIEnumerableOfPlaybookGameplanDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-playbook-gameplan-dto
+- name: ApiResponseOfIEnumerableOfPlaybookMetadataDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-playbook-metadata-dto
+- name: ApiResponseOfIEnumerableOfUser
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-user
+- name: ApiResponseOfIEnumerableOfWorkspaceUserDto
+  property_count: 2
+  slug: contraforce-api-response-of-ienumerable-of-workspace-user-dto
+- name: ApiResponseOfListGamebooksResultDto
+  property_count: 2
+  slug: contraforce-api-response-of-list-gamebooks-result-dto
+- name: ApiResponseOfListIncidentsForWorkspacesResultDto
+  property_count: 2
+  slug: contraforce-api-response-of-list-incidents-for-workspaces-result-dto
+- name: ApiResponseOfPageListOfGamebookDto
+  property_count: 2
+  slug: contraforce-api-response-of-page-list-of-gamebook-dto
+- name: ApiResponseOfPagedResultOfWebhookDeliveryLogDto
+  property_count: 2
+  slug: contraforce-api-response-of-paged-result-of-webhook-delivery-log-dto
+- name: ApiResponseOfRunGamebookResponse
+  property_count: 2
+  slug: contraforce-api-response-of-run-gamebook-response
+- name: ApiResponseOfSendTestWebhookResult
+  property_count: 2
+  slug: contraforce-api-response-of-send-test-webhook-result
+- name: ApiResponseOfSentinelIngestDeploymentCardDto
+  property_count: 2
+  slug: contraforce-api-response-of-sentinel-ingest-deployment-card-dto
+- name: ApiResponseOfServiceAccountCreatedDto
+  property_count: 2
+  slug: contraforce-api-response-of-service-account-created-dto
+- name: ApiResponseOfServiceAccountCredentialCreatedDto
+  property_count: 2
+  slug: contraforce-api-response-of-service-account-credential-created-dto
+- name: ApiResponseOfServiceTicketResponse
+  property_count: 2
+  slug: contraforce-api-response-of-service-ticket-response
+- name: ApiResponseOfSignInLogsResultDto
+  property_count: 2
+  slug: contraforce-api-response-of-sign-in-logs-result-dto
+- name: ApiResponseOfUser
+  property_count: 2
+  slug: contraforce-api-response-of-user
+- name: ApiResponseOfWebhookSecretRegeneratedDto
+  property_count: 2
+  slug: contraforce-api-response-of-webhook-secret-regenerated-dto
+- name: ApiResponseOfboolean
+  property_count: 2
+  slug: contraforce-api-response-ofboolean
+- name: AssignIncidentRequest
+  property_count: 2
+  slug: contraforce-assign-incident-request
+- name: BulkUpdateIncidentsRequest
+  property_count: 1
+  slug: contraforce-bulk-update-incidents-request
+- name: CreateIncidentCommentRequest
+  property_count: 2
+  slug: contraforce-create-incident-comment-request
+- name: CreateServiceAccountRequest
+  property_count: 6
+  slug: contraforce-create-service-account-request
+- name: CreateWebhookConfigurationRequest
+  property_count: 10
+  slug: contraforce-create-webhook-configuration-request
+- name: ExportAuditResponse
+  property_count: 2
+  slug: contraforce-export-audit-response
+- name: GetWorkspaceUsersRequest
+  property_count: 3
+  slug: contraforce-get-workspace-users-request
+- name: IngestIncidentRequest
+  property_count: 4
+  slug: contraforce-ingest-incident-request
+- name: LinkServiceTicketRequest
+  property_count: 2
+  slug: contraforce-link-service-ticket-request
+- name: ListIncidentsAcrossWorkspacesRequest
+  property_count: 11
+  slug: contraforce-list-incidents-across-workspaces-request
+- name: ListMultipleWorkspacesGeneralRequestDto
+  property_count: 2
+  slug: contraforce-list-multiple-workspaces-general-request-dto
+- name: PaginatedApiResponseOfServiceTicketResponse
+  property_count: 3
+  slug: contraforce-paginated-api-response-of-service-ticket-response
+- name: ProvisionSentinelIngestRequest
+  property_count: 1
+  slug: contraforce-provision-sentinel-ingest-request
+- name: RunGamebookRequest
+  property_count: 6
+  slug: contraforce-run-gamebook-request
+- name: ServiceTicketUpdatePriorityRequest
+  property_count: 6
+  slug: contraforce-service-ticket-update-priority-request
+- name: SubmitAddUsersRequest
+  property_count: 2
+  slug: contraforce-submit-add-users-request
+- name: SubmitUserManagementRequest
+  property_count: 6
+  slug: contraforce-submit-user-management-request
+- name: UnlinkServiceTicketRequest
+  property_count: 1
+  slug: contraforce-unlink-service-ticket-request
+- name: UpdateIncidentCommentRequest
+  property_count: 2
+  slug: contraforce-update-incident-comment-request
+- name: UpdateIncidentStatusRequest
+  property_count: 6
+  slug: contraforce-update-incident-status-request
+- name: UpdateServiceAccountRequest
+  property_count: 4
+  slug: contraforce-update-service-account-request
+- name: UpdateWebhookConfigurationRequest
+  property_count: 4
+  slug: contraforce-update-webhook-configuration-request
+- name: UpdateWebhookCredentialsRequest
+  property_count: 5
+  slug: contraforce-update-webhook-credentials-request
 jsonld:
 - class_count: 120
   name: Contraforce Context
@@ -279,7 +475,7 @@ overview: 'Contraforce publishes 15 API contracts indexed on the [APIs.io](https
   The Contraforce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Contraforce''s developer surface includes changelog, authentication, signup flow, pricing, engineering blog, getting-started guide, documentation, and 27 more developer resources.'
+  Contraforce''s developer surface includes changelog, authentication, signup flow, pricing, engineering blog, getting-started guide, documentation, and 29 more developer resources.'
 plans:
 - name: Contraforce Plans Pricing
   plan_count: 3
@@ -290,36 +486,36 @@ plans:
 random_paper: 22
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 79
   extends:
   - spectral:oas
   name: Contraforce API Rules
-  rule_count: 13
+  rule_count: 38
   severity_counts:
-    error: 11
+    error: 33
     hint: 0
     info: 1
-    warn: 1
+    warn: 4
   slug: contraforce-rules
 score:
-  band: strong
-  composite: 58.1
+  band: developing
+  composite: 51.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 63.8
+    artifact_dirs: 30
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -7.7
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 35.6
-    contract_quality: 54.0
-    developer_ergonomics: 42.9
-    discoverability: 58.9
-    operational_transparency: 34.2
-  previous_composite: 56.6
+    contract_quality: 63.4
+    developer_ergonomics: 36.9
+    discoverability: 65.2
+    operational_transparency: 21.1
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -328,20 +524,20 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-    mcp: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/contraforce/contraforce-2026-11-03T125220.png
 security:
 - kind: authentication
   name: Contraforce Authentication

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Enterprise API for the Rimsys Regulatory Information Management platform, used to integrate regulatory submissions, product registrations, UDI data, standards, and regulatory intelligence with PLM, ER
@@ -149,9 +150,9 @@ overview: 'Rimsys is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 7
 score:
   band: thin
-  composite: 34.4
+  composite: 34.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -163,9 +164,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 34.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 34.7
   provenance:
     conformance: first-party
   regulatory:
@@ -178,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

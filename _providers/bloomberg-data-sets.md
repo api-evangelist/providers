@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Bloomberg Open API (BLPAPI) provides programmatic access to Bloomberg's market data, reference data, historical data and intraday tick data. It is an event-driven session protocol rather than an H
@@ -225,7 +226,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.0
+  composite: 34.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -239,9 +240,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 35.0
+    discoverability: 64.3
+    operational_transparency: 31.6
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -251,8 +252,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

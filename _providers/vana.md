@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The protocol's read/write boundary — a caching and relay layer between protocol participants and the Vana L1 covering the onchain primitives (identity, permissions, fees, PGE, schemas, files, DLP cont
@@ -202,9 +205,9 @@ overview: 'Vana is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 14
 score:
   band: thin
-  composite: 36.7
+  composite: 37.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,9 +219,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 36.7
+    discoverability: 71.7
+    operational_transparency: 13.2
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -229,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

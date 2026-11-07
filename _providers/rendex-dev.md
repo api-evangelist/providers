@@ -1,11 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -13,9 +29,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.5
-  scored_at: '2026-10-31'
+  score: 55.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -280,7 +297,7 @@ modified: '2026-10-31'
 name: rendex-dev
 nav: Providers
 network: true
-overview: 'rendex-dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Batch API, Health API, and 3 more. Tagged areas include Rendering, Screenshot, PDF, API, and Automation.
+overview: 'rendex-dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Batch API, Health API, and 3 more. Tagged areas include Rendering, Screenshots, PDF, and Automation.
 
 
   The rendex-dev catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -315,34 +332,48 @@ scopes:
   slug: rendex-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 75.0
+  band: strong
+  composite: 57.3
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 34
+    catalog_earned: 81.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.7
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 69.0
-    developer_ergonomics: 66.0
-    discoverability: 65.0
-    operational_transparency: 78.4
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 72.0
+    developer_ergonomics: 45.7
+    discoverability: 56.7
+    operational_transparency: 60.5
+  previous_composite: 70.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/rendex-dev/rendex-dev-2026-11-03T142144.png
 security:
 - kind: authentication
   name: Rendex Dev Authentication
@@ -369,9 +400,8 @@ skills:
 slug: rendex-dev
 tags:
 - Rendering
-- Screenshot
+- Screenshots
 - PDF
-- API
 - Automation
 website: https://rendex.dev/
 ---

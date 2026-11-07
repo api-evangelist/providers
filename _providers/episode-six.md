@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -203,9 +204,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 23.8
+  composite: 22.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -216,10 +217,10 @@ score:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 58.3
+    developer_ergonomics: 28.6
+    discoverability: 64.2
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -127,7 +128,7 @@ apis:
   description: Manage and verify member work experiences (organization affiliations).
   name: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
-artifact_total: 41
+artifact_total: 42
 collections:
 - collection_type: open
   name: CDP → Akrites External Advisories API
@@ -368,6 +369,9 @@ network: true
 overview: 'Crowd.dev publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advisories API, Affiliations API, Contacts API, and 13 more. Tagged areas include Company, Community, Developer Relations, Developer Data Platform, and Identity Resolution.
 
 
+  The Crowd.dev catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Crowd.dev''s developer surface includes pricing, authentication, documentation, getting-started guide, API reference, support, signup flow, and 31 more developer resources.'
 plans:
 - name: Crowddev Plans Pricing
@@ -378,6 +382,19 @@ rate_limits:
 - limit_count: 4
   name: Crowddev Rate Limits
   slug: crowddev-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Crowd.dev API Rules
+  rule_count: 65
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 7
+    warn: 6
+  slug: crowddev-rules
 scopes:
 - name: Crowddev Scopes
   scope_count: 17
@@ -385,23 +402,23 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.2
+  composite: 58.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 60.0
+    artifact_dirs: 31
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 65.8
-    contract_governance: 18.2
+    access_clarity: 52.6
+    contract_governance: 31.8
     contract_quality: 52.1
     developer_ergonomics: 70.8
     discoverability: 78.6
-    operational_transparency: 68.4
-  previous_composite: 62.2
+    operational_transparency: 50.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -418,13 +435,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/crowddev/crowddev-2026-07-25T210805.png
 security:
 - kind: authentication

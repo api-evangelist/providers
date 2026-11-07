@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.1
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -151,9 +152,9 @@ overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 6
 score:
   band: emerging
-  composite: 19.7
+  composite: 20.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -165,9 +166,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 19.7
+    discoverability: 58.3
+    operational_transparency: 2.6
+  previous_composite: 20.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,8 +178,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

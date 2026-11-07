@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) endpoint published on Zipline's marketing site (getzipline.com), declared by the site's own RFC 9728 OAuth Protected Resource Metadata. The endpoint liv
@@ -186,9 +187,9 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 37.0
+  composite: 37.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -200,8 +201,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 65.0
-    operational_transparency: 31.6
+    discoverability: 75.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +210,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.0
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -219,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

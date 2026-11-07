@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://eu.rest.relexsolutions.com
@@ -77,7 +81,7 @@ apis:
   description: The namespace for transaction data contains the different endpoints for inventory transactions, balance and open order information.
   name: RELEX Solutions Transactions API
   slug: relex-transactions-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Relex Data Api Webhooks
@@ -275,7 +279,7 @@ network: true
 overview: 'RELEX Solutions publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Environments API, Events API, Health API, and 4 more. Tagged areas include Supply Chain, Retail, Demand Planning, Inventory, and Forecasting.
 
 
-  The RELEX Solutions catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The RELEX Solutions catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   RELEX Solutions'' developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 31 more developer resources.'
@@ -288,6 +292,19 @@ rate_limits:
 - limit_count: 2
   name: Relex Rate Limits
   slug: relex-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: RELEX Solutions API Rules
+  rule_count: 70
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 6
+    warn: 8
+  slug: relex-rules
 scopes:
 - name: Relex Scopes
   scope_count: 51
@@ -295,22 +312,22 @@ scopes:
   summary_line: 51 scopes
 score:
   band: strong
-  composite: 55.4
+  composite: 55.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 36.8
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 59.9
-    developer_ergonomics: 54.2
+    developer_ergonomics: 49.4
     discoverability: 66.1
-    operational_transparency: 68.4
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -319,7 +336,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 55.4
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     contracts:
@@ -335,13 +352,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/relex/relex-2026-09-02T153336.png
 security:
 - kind: authentication

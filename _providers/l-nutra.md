@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The agent-facing commerce surface of L-Nutra's direct-to-consumer ProLon storefront. An anonymous MCP endpoint at https://prolonlife.com/api/ucp/mcp implements Universal Commerce Protocol 2026-04-08 a
@@ -201,9 +202,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 26.5
+  composite: 27.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -215,9 +216,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 61.7
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 27.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -228,8 +229,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

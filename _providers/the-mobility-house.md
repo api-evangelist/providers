@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management System, CMS) and an upstream Depot Management, Fleet Management or ITCS system, implemented against the VDV 46
@@ -214,9 +215,9 @@ rate_limits:
   slug: the-mobility-house-rate-limits
 score:
   band: developing
-  composite: 43.3
+  composite: 42.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -228,8 +229,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 66.1
-    operational_transparency: 44.7
+    discoverability: 73.2
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -238,7 +239,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.3
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -248,8 +249,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

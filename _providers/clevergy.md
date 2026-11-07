@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -169,7 +170,7 @@ apis:
   description: The Virtual wallet API from Clevergy — 1 operation(s) for virtual wallet.
   name: Clevergy Virtual wallet API
   slug: clevergy-virtual-wallet-api
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Clevergy Webhooks
@@ -348,7 +349,7 @@ network: true
 overview: 'Clevergy publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access control API, Connections API, Contracts API, and 22 more. Tagged areas include Company, Climate Tech, Energy, Energy Management, and Utilities.
 
 
-  The Clevergy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Clevergy catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Clevergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, FAQ, and 27 more developer resources.'
@@ -361,24 +362,37 @@ rate_limits:
 - limit_count: 0
   name: Clevergy Rate Limits
   slug: clevergy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Clevergy API Rules
+  rule_count: 58
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 15
+  slug: clevergy-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 53.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 28
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 55.3
-    contract_governance: 4.5
-    contract_quality: 54.3
-    developer_ergonomics: 63.7
+    contract_governance: 18.2
+    contract_quality: 62.8
+    developer_ergonomics: 61.3
     discoverability: 73.2
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -387,14 +401,14 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 48.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 23
     mcp: derived
     skills: derived
@@ -404,13 +418,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 26.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/clevergy/clevergy-2026-09-02T145107.png
 security:
 - kind: authentication

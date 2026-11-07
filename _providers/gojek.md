@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The GoBiz Partner Integration API is Gojek's merchant-side REST API. It covers outlet information and outlet linking, GoFood catalog sync and out-of-stock updates, order acceptance / rejection / food-
@@ -201,9 +202,9 @@ scopes:
   summary_line: 20 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 39.1
+  composite: 38.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,7 +217,7 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -224,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 39.1
+  previous_composite: 38.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -234,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -265,6 +266,7 @@ tags:
 - Indonesia
 - Southeast Asia
 - Webhook
+- OAuth
 - Authentication
 website: https://www.gojek.com/
 ---

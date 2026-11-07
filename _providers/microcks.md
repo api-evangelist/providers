@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -233,9 +238,9 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.2
+  composite: 34.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 56.0
     catalog_earned_first_party: 18.0
     catalog_gap: 59.0
@@ -245,11 +250,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 54.5
-    contract_quality: 42.9
-    developer_ergonomics: 50.0
+    contract_quality: 46.3
+    developer_ergonomics: 35.7
     discoverability: 56.7
-    operational_transparency: 13.2
-  previous_composite: 37.2
+    operational_transparency: 10.5
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -263,13 +268,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microcks/microcks-2026-06-20T185332.png
 security:
 - kind: authentication

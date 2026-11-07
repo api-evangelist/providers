@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 11
 asyncapis:
@@ -121,7 +133,7 @@ modified: '2026-10-26'
 name: Codebase
 nav: Providers
 network: true
-overview: 'Codebase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Git, Mercurial, Subversion, and Project Management.
+overview: 'Codebase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Version Control, Mercurial, Subversion, and Project Management.
 
 
   The Codebase catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -148,41 +160,44 @@ rules:
   slug: codebasehq-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 28.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 52.5
     catalog_earned_first_party: 12.0
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.4
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 38.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 20.2
     discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 35.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 12
+      derived: 1
       marker_coverage: 100.0
-      total: 12
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/codebasehq/codebasehq-2026-11-03T124719.png
 security:
 - kind: domain-security
   name: Codebasehq Domain Security
@@ -191,7 +206,7 @@ security:
 slug: codebasehq
 tags:
 - Company
-- Git
+- Version Control
 - Mercurial
 - Subversion
 - Project Management

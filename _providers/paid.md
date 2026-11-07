@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-31'
+  score: 36.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.agentpaid.io/api/v2
@@ -150,7 +155,7 @@ apis:
   description: The webhooks API from Paid — 4 operation(s) for webhooks.
   name: Paid Webhooks API
   slug: paid-webhooks-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Paid Webhooks
@@ -394,7 +399,7 @@ network: true
 overview: 'Paid publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Analytics Experimental API, Checkouts API, and 19 more. Tagged areas include Company, Artificial Intelligence, Billing, Monetization, and Payments.
 
 
-  The Paid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Paid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 25 more developer resources.'
@@ -403,31 +408,44 @@ plans:
   plan_count: 5
   slug: paid-plans-pricing
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Paid API Rules
+  rule_count: 50
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 9
+  slug: paid-rules
 score:
-  band: strong
-  composite: 55.7
+  band: exemplar
+  composite: 66.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.2
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 54.8
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 58.7
     developer_ergonomics: 81.0
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 54.6
+    discoverability: 71.7
+    operational_transparency: 10.5
+  previous_composite: 66.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 18.2
       total: 22
     mcp: first-party
     skills: first-party
@@ -437,13 +455,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 100.0
 screenshot: https://apis.io/screenshots/paid/paid-2026-08-07T191309.png
 security:
 - kind: authentication

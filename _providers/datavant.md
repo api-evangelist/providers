@@ -1,14 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Partner onboarding
+  label: Paid
   onboarding: unknown
-  pricing: enterprise
+  pricing: paid
   public: false
   source:
-  - review
-  - https://developer.datavant.com/openapi.json
-  - https://aws.amazon.com/marketplace/pp/prodview-eolcfagze2ihw
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -27,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-31'
+  score: 34.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -87,7 +90,7 @@ apis:
   description: The Oauth2 API from Datavant — 1 operation(s) for oauth2.
   name: Datavant Oauth2 API
   slug: datavant-oauth2-api
-artifact_total: 21
+artifact_total: 22
 common:
 - group: other
   href: https://artifacts.apis.io/datavant/capabilities/datavant-capability-edges.yml
@@ -308,6 +311,9 @@ network: true
 overview: 'Datavant publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration API, Documents API, Order Queries API, and 5 more. Tagged areas include Healthcare, United States, Interoperability, Health Data, and De-Identification.
 
 
+  The Datavant catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Datavant''s developer surface includes authentication, engineering blog, documentation, API reference, support, changelog, CLI, and 37 more developer resources.'
 plans:
 - name: Datavant Plans Pricing
@@ -321,6 +327,19 @@ rate_limits:
 - limit_count: 0
   name: Datavant Rate Limits
   slug: datavant-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Datavant API Rules
+  rule_count: 59
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 12
+  slug: datavant-rules
 scopes:
 - name: Datavant Scopes
   scope_count: 0
@@ -328,22 +347,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.7
+  composite: 61.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 30
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 1.3
   facets:
-    access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 47.7
+    access_clarity: 75.0
+    contract_governance: 31.8
+    contract_quality: 55.6
     developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 47.4
+    discoverability: 73.2
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -351,14 +370,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.7
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: derived
     skills: derived
@@ -368,13 +387,12 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/datavant/datavant-2026-07-25T211401.png
 security:
 - kind: authentication
@@ -417,7 +435,8 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- Authentication
+- OAuth
 - Health Information Exchange
+- Authentication
 website: https://www.datavant.com/
 ---

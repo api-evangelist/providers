@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Nameko is a microservices framework for Python that provides tools for building, testing, and running services. It supports RPC over AMQP, HTTP endpoints, WebSocket connections, and timer-based worker
@@ -148,9 +149,9 @@ rules:
   slug: nameko-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.0
+  composite: 16.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 46.7
     catalog_earned_first_party: 0.0
     catalog_gap: 68.4
@@ -161,18 +162,21 @@ score:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 16.0
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

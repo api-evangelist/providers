@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Anonymous read, free registration for full data
-  onboarding: self-serve
-  pricing: free
-  public: true
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
   source:
-  - probe
-  - portal
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -20,23 +23,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 35.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +63,7 @@ apis:
   description: API to work on records
   name: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Explore API
@@ -299,12 +303,28 @@ network: true
 overview: 'Northern Powergrid publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 1 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
+  The Northern Powergrid catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 41 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Northern Powergrid Rate Limits
   slug: northern-powergrid-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Northern Powergrid API Rules
+  rule_count: 57
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 2
+    warn: 2
+  slug: northern-powergrid-rules
 scopes:
 - name: Northern Powergrid Scopes
   scope_count: 1
@@ -312,22 +332,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.2
+  composite: 57.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.4
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 54.2
+    contract_governance: 18.2
+    contract_quality: 59.9
     developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 65.8
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -336,14 +356,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 55.7
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
@@ -353,13 +373,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/northern-powergrid/northern-powergrid-2026-08-07T185523.png
 security:
 - kind: authentication

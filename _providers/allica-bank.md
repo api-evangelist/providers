@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -29,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
@@ -39,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -135,7 +140,7 @@ apis:
   description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
   name: Allica Bank Transactions API
   slug: allica-bank-transactions-api
-artifact_total: 28
+artifact_total: 29
 common:
 - group: company
   title: ''
@@ -314,6 +319,9 @@ network: true
 overview: 'Allica Bank publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 15 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
+  The Allica Bank catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Allica Bank''s developer surface includes pricing, authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Allica Bank Plans Pricing
@@ -323,6 +331,19 @@ plans:
   plan_count: 0
   slug: allica-bank-price-estimates
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Allica Bank API Rules
+  rule_count: 70
+  severity_counts:
+    error: 66
+    hint: 0
+    info: 1
+    warn: 3
+  slug: allica-bank-rules
 scopes:
 - name: Allica Bank Scopes
   scope_count: 17
@@ -330,21 +351,21 @@ scopes:
   summary_line: 17 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.6
+  composite: 53.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.2
   facets:
-    access_clarity: 71.1
-    contract_governance: 4.5
-    contract_quality: 45.7
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 50.8
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -354,14 +375,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.6
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 16
     mcp: derived
     skills: derived
@@ -375,13 +396,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/allica-bank/allica-bank-2026-07-25T195713.png
 security:
 - kind: authentication

@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for the UrbanStems store, implementing the Universal Commerce Protocol (dev.ucp.shopping) over MCP. Thirteen tools cover catalog search and lookup, product detail, ca
@@ -193,9 +210,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -207,9 +224,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 56.7
-    operational_transparency: 5.3
-  previous_composite: 24.3
+    discoverability: 66.7
+    operational_transparency: 2.6
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -220,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

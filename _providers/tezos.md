@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Open access
   onboarding: open
   pricing: freemium
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -444,7 +449,7 @@ json_schemas:
   property_count: 2
   slug: accounttypeparameter
 - name: ActivationOperation
-  property_count: 0
+  property_count: 9
   slug: activationoperation
 - name: Activity
   property_count: 2
@@ -465,19 +470,19 @@ json_schemas:
   property_count: 3
   slug: anyofparameter
 - name: AttestationOperation
-  property_count: 0
+  property_count: 12
   slug: attestationoperation
 - name: AttestationRewardOperation
-  property_count: 0
+  property_count: 12
   slug: attestationrewardoperation
 - name: AutostakingOperation
-  property_count: 0
+  property_count: 9
   slug: autostakingoperation
 - name: BakerRewards
   property_count: 80
   slug: bakerrewards
 - name: BakingOperation
-  property_count: 0
+  property_count: 20
   slug: bakingoperation
 - name: BakingRight
   property_count: 8
@@ -489,13 +494,13 @@ json_schemas:
   property_count: 2
   slug: bakingrighttypeparameter
 - name: BalanceTooLowError
-  property_count: 0
+  property_count: 3
   slug: balancetoolowerror
 - name: BallotOperation
-  property_count: 0
+  property_count: 12
   slug: ballotoperation
 - name: BaseOperationError
-  property_count: 0
+  property_count: 1
   slug: baseoperationerror
 - name: BigIntegerNullableParameter
   property_count: 9
@@ -546,7 +551,7 @@ json_schemas:
   property_count: 8
   slug: constant
 - name: Contract
-  property_count: 0
+  property_count: 37
   slug: contract
 - name: ContractEvent
   property_count: 10
@@ -567,25 +572,25 @@ json_schemas:
   property_count: 19
   slug: cycle
 - name: DalAttestationRewardOperation
-  property_count: 0
+  property_count: 12
   slug: dalattestationrewardoperation
 - name: DalEntrapmentEvidenceOperation
-  property_count: 0
+  property_count: 11
   slug: dalentrapmentevidenceoperation
 - name: DalPublishCommitmentOperation
-  property_count: 0
+  property_count: 16
   slug: dalpublishcommitmentoperation
 - name: DateTimeParameter
   property_count: 8
   slug: datetimeparameter
 - name: Delegate
-  property_count: 0
+  property_count: 106
   slug: delegate
 - name: DelegateInfo
   property_count: 3
   slug: delegateinfo
 - name: DelegationOperation
-  property_count: 0
+  property_count: 22
   slug: delegationoperation
 - name: Delegator
   property_count: 6
@@ -597,19 +602,19 @@ json_schemas:
   property_count: 12
   slug: domain
 - name: DoubleBakingOperation
-  property_count: 0
+  property_count: 17
   slug: doublebakingoperation
 - name: DoubleConsensusKindParameter
   property_count: 2
   slug: doubleconsensuskindparameter
 - name: DoubleConsensusOperation
-  property_count: 0
+  property_count: 18
   slug: doubleconsensusoperation
 - name: DrainDelegateOperation
-  property_count: 0
+  property_count: 12
   slug: draindelegateoperation
 - name: EmptyAccount
-  property_count: 0
+  property_count: 3
   slug: emptyaccount
 - name: Entrypoint
   property_count: 5
@@ -624,13 +629,13 @@ json_schemas:
   property_count: 2
   slug: eventinterface
 - name: ExpressionAlreadyRegisteredError
-  property_count: 0
+  property_count: 2
   slug: expressionalreadyregisterederror
 - name: ExpressionParameter
   property_count: 4
   slug: expressionparameter
 - name: Ghost
-  property_count: 0
+  property_count: 15
   slug: ghost
 - name: HistoricalBalance
   property_count: 4
@@ -642,7 +647,7 @@ json_schemas:
   property_count: 1
   slug: imicheline
 - name: IncreasePaidStorageOperation
-  property_count: 0
+  property_count: 19
   slug: increasepaidstorageoperation
 - name: Int32NullParameter
   property_count: 9
@@ -675,22 +680,22 @@ json_schemas:
   property_count: 4
   slug: migrationkindparameter
 - name: MigrationOperation
-  property_count: 0
+  property_count: 12
   slug: migrationoperation
 - name: NatParameter
   property_count: 8
   slug: natparameter
 - name: NonceRevelationOperation
-  property_count: 0
+  property_count: 16
   slug: noncerevelationoperation
 - name: NonExistingContractError
-  property_count: 0
+  property_count: 2
   slug: nonexistingcontracterror
 - name: OffsetParameter
   property_count: 3
   slug: offsetparameter
 - name: Operation
-  property_count: 0
+  property_count: 2
   slug: operation
 - name: OperationError
   property_count: 1
@@ -705,13 +710,13 @@ json_schemas:
   property_count: 6
   slug: originatedcontract
 - name: OriginationOperation
-  property_count: 0
+  property_count: 28
   slug: originationoperation
 - name: PeriodInfo
   property_count: 5
   slug: periodinfo
 - name: PreattestationOperation
-  property_count: 0
+  property_count: 10
   slug: preattestationoperation
 - name: PrimType
   property_count: 0
@@ -723,7 +728,7 @@ json_schemas:
   property_count: 2
   slug: proposalalias
 - name: ProposalOperation
-  property_count: 0
+  property_count: 12
   slug: proposaloperation
 - name: Protocol
   property_count: 9
@@ -747,22 +752,22 @@ json_schemas:
   property_count: 4
   slug: refutationmoveparameter
 - name: RegisterConstantOperation
-  property_count: 0
+  property_count: 19
   slug: registerconstantoperation
 - name: RelatedContract
   property_count: 7
   slug: relatedcontract
 - name: RevealOperation
-  property_count: 0
+  property_count: 16
   slug: revealoperation
 - name: RevelationPenaltyOperation
-  property_count: 0
+  property_count: 9
   slug: revelationpenaltyoperation
 - name: RewardSplit
-  property_count: 0
+  property_count: 3
   slug: rewardsplit
 - name: Rollup
-  property_count: 0
+  property_count: 27
   slug: rollup
 - name: SecondaryKeyTypeParameter
   property_count: 2
@@ -774,37 +779,37 @@ json_schemas:
   property_count: 2
   slug: selectparameter
 - name: SetDelegateParametersOperation
-  property_count: 0
+  property_count: 17
   slug: setdelegateparametersoperation
 - name: SetDepositsLimitOperation
-  property_count: 0
+  property_count: 16
   slug: setdepositslimitoperation
 - name: SmartRollup
-  property_count: 0
+  property_count: 38
   slug: smartrollup
 - name: SmartRollupAddMessagesOperation
-  property_count: 0
+  property_count: 15
   slug: smartrollupaddmessagesoperation
 - name: SmartRollupCementOperation
-  property_count: 0
+  property_count: 16
   slug: smartrollupcementoperation
 - name: SmartRollupExecuteOperation
-  property_count: 0
+  property_count: 19
   slug: smartrollupexecuteoperation
 - name: SmartRollupOriginateOperation
-  property_count: 0
+  property_count: 21
   slug: smartrolluporiginateoperation
 - name: SmartRollupParameter
   property_count: 4
   slug: smartrollupparameter
 - name: SmartRollupPublishOperation
-  property_count: 0
+  property_count: 17
   slug: smartrolluppublishoperation
 - name: SmartRollupRecoverBondOperation
-  property_count: 0
+  property_count: 17
   slug: smartrolluprecoverbondoperation
 - name: SmartRollupRefuteOperation
-  property_count: 0
+  property_count: 21
   slug: smartrolluprefuteoperation
 - name: Software
   property_count: 7
@@ -864,7 +869,7 @@ json_schemas:
   property_count: 4
   slug: srmessagetypeparameter
 - name: SrStaker
-  property_count: 0
+  property_count: 4
   slug: srstaker
 - name: StakerRewards
   property_count: 10
@@ -873,7 +878,7 @@ json_schemas:
   property_count: 4
   slug: stakingactionparameter
 - name: StakingOperation
-  property_count: 0
+  property_count: 20
   slug: stakingoperation
 - name: StakingUpdate
   property_count: 17
@@ -915,7 +920,7 @@ json_schemas:
   property_count: 10
   slug: tickettransfer
 - name: TicketTransferActivity
-  property_count: 0
+  property_count: 11
   slug: tickettransferactivity
 - name: TimestampParameter
   property_count: 8
@@ -945,43 +950,43 @@ json_schemas:
   property_count: 10
   slug: tokentransfer
 - name: TokenTransferActivity
-  property_count: 0
+  property_count: 11
   slug: tokentransferactivity
 - name: TransactionOperation
-  property_count: 0
+  property_count: 31
   slug: transactionoperation
 - name: TransferTicketOperation
-  property_count: 0
+  property_count: 24
   slug: transferticketoperation
 - name: TxParameter
   property_count: 2
   slug: txparameter
 - name: TxRollupCommitOperation
-  property_count: 0
+  property_count: 17
   slug: txrollupcommitoperation
 - name: TxRollupDispatchTicketsOperation
-  property_count: 0
+  property_count: 18
   slug: txrollupdispatchticketsoperation
 - name: TxRollupFinalizeCommitmentOperation
-  property_count: 0
+  property_count: 16
   slug: txrollupfinalizecommitmentoperation
 - name: TxRollupOriginationOperation
-  property_count: 0
+  property_count: 17
   slug: txrolluporiginationoperation
 - name: TxRollupRejectionOperation
-  property_count: 0
+  property_count: 19
   slug: txrolluprejectionoperation
 - name: TxRollupRemoveCommitmentOperation
-  property_count: 0
+  property_count: 16
   slug: txrollupremovecommitmentoperation
 - name: TxRollupReturnBondOperation
-  property_count: 0
+  property_count: 17
   slug: txrollupreturnbondoperation
 - name: TxRollupSubmitBatchOperation
-  property_count: 0
+  property_count: 18
   slug: txrollupsubmitbatchoperation
 - name: UnregisteredDelegateError
-  property_count: 0
+  property_count: 2
   slug: unregistereddelegateerror
 - name: UnstakeRequest
   property_count: 19
@@ -990,16 +995,16 @@ json_schemas:
   property_count: 2
   slug: unstakerequeststatusparameter
 - name: UpdateSecondaryKeyOperation
-  property_count: 0
+  property_count: 19
   slug: updatesecondarykeyoperation
 - name: User
-  property_count: 0
+  property_count: 63
   slug: user
 - name: ValueTupleOfStringAndListOfInteger
   property_count: 0
   slug: valuetupleofstringandlistofinteger
 - name: VdfRevelationOperation
-  property_count: 0
+  property_count: 15
   slug: vdfrevelationoperation
 - name: VoteParameter
   property_count: 4
@@ -1060,29 +1065,29 @@ rules:
   slug: tezos-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.4
+  composite: 29.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 50.4
+    contract_quality: 55.4
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 29.4
+    operational_transparency: 26.3
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 24
   regulatory:
     applies: true
@@ -1090,13 +1095,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tezos/tezos-2026-06-20T195210.png
 security:
 - kind: domain-security

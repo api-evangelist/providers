@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -97,7 +99,7 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 33
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Vyond Webhooks
@@ -329,7 +331,7 @@ network: true
 overview: 'Vyond publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Content Generation API, Parameter API, SCIM API, and 5 more. Tagged areas include Video, Animation, Video Generation, Artificial Intelligence, and E-Learning.
 
 
-  The Vyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Vyond catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
@@ -341,6 +343,19 @@ plans:
   plan_count: 0
   slug: vyond-price-estimates
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Vyond API Rules
+  rule_count: 50
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 3
+    warn: 8
+  slug: vyond-rules
 scopes:
 - name: Vyond Scopes
   scope_count: 2
@@ -348,35 +363,35 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 58.0
+  composite: 64.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 53.9
+    contract_governance: 31.8
+    contract_quality: 63.7
     developer_ergonomics: 49.4
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.4
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: derived
     skills: derived
@@ -394,13 +409,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/vyond/vyond-2026-08-17T082830.png
 security:
 - kind: authentication

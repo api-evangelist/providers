@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.4
-  scored_at: '2026-10-31'
+  score: 53.6
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -247,9 +248,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.8
+  composite: 58.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -261,9 +262,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 70.0
-    operational_transparency: 84.2
-  previous_composite: 57.8
+    discoverability: 80.0
+    operational_transparency: 81.6
+  previous_composite: 58.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -280,8 +281,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

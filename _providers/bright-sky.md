@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 25.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +166,7 @@ modified: '2026-10-28'
 name: Bright Sky
 nav: Providers
 network: true
-overview: 'Bright Sky publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Current Weather API, Internals API, and 2 more. Tagged areas include Company, Weather, API, OpenData, and JSON.
+overview: 'Bright Sky publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Current Weather API, Internals API, and 2 more. Tagged areas include Company, Weather, Open Data, and JSON.
 
 
   The Bright Sky catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -178,21 +189,29 @@ rules:
   slug: bright-sky-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 26.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 53.8
+    artifact_dirs: 16
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.3
-    catalog_max: 115.0
+    catalog_gap: 51.3
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.5
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 56.5
-    developer_ergonomics: 35.7
-    discoverability: 66.1
+    developer_ergonomics: 21.4
+    discoverability: 57.1
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,16 +223,18 @@ score:
     mcp: unknown
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/bright-sky/bright-sky-2026-11-03T122612.png
 security:
 - kind: domain-security
   name: Bright Sky Domain Security
@@ -223,8 +244,7 @@ slug: bright-sky
 tags:
 - Company
 - Weather
-- API
-- OpenData
+- Open Data
 - JSON
 website: https://brightsky.dev/
 ---

@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-31'
+  score: 39.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -85,7 +88,7 @@ apis:
   description: The Virtual Accounts API from BCB Group — 6 operation(s) for virtual accounts.
   name: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Bcb Group Webhooks
@@ -284,30 +287,43 @@ network: true
 overview: 'BCB Group publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Beneficiaries API, and 5 more. Tagged areas include Company, Cryptocurrency, Payments, Banking, and Digital Assets.
 
 
-  The BCB Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The BCB Group catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   BCB Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: BCB Group API Rules
+  rule_count: 51
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 14
+  slug: bcb-group-rules
 score:
   band: developing
-  composite: 48.0
+  composite: 47.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 42.1
-    contract_governance: 4.5
+    access_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 48.0
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,13 +340,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bcb-group/bcb-group-2026-07-25T202502.png
 security:
 - kind: authentication

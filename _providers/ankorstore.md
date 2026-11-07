@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-31'
+  score: 38.9
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://www.public.ankorstore-sandbox.com
@@ -143,7 +146,7 @@ apis:
   description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
   name: Ankorstore Webhooks API
   slug: ankorstore-webhooks-api
-artifact_total: 49
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Ankorstore Webhooks
@@ -352,36 +355,49 @@ network: true
 overview: 'Ankorstore publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Brands API, Catalog API, and 18 more. Tagged areas include Company, Retail, Wholesale, Marketplace, and E-Commerce.
 
 
-  The Ankorstore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ankorstore catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Ankorstore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 20 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 115
+  extends:
+  - spectral:oas
+  name: Ankorstore API Rules
+  rule_count: 74
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 4
+    warn: 25
+  slug: ankorstore-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 45.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 58.1
+    contract_governance: 18.2
+    contract_quality: 58.9
     developer_ergonomics: 54.2
-    discoverability: 71.4
-    operational_transparency: 36.8
-  previous_composite: 40.7
+    discoverability: 78.6
+    operational_transparency: 34.2
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 4.8
       total: 21
     mcp: derived
     skills: derived
@@ -391,13 +407,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/ankorstore/ankorstore-2026-07-25T200257.png
 security:
 - kind: authentication

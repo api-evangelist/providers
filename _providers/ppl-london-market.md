@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -113,7 +114,7 @@ apis:
   description: The version API from PPL — 1 operation(s) for version.
   name: PPL Version API
   slug: ppl-london-market-version-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: document
@@ -342,8 +343,24 @@ network: true
 overview: 'PPL publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contract API, Document API, Health API, and 10 more. Tagged areas include Insurance, United Kingdom, London Market, Lloyd''s of London, and Reinsurance.
 
 
+  The PPL catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   PPL''s developer surface includes authentication, sandbox, getting-started guide, documentation, API reference, signup flow, support, and 37 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: PPL API Rules
+  rule_count: 54
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 2
+    warn: 15
+  slug: ppl-london-market-rules
 scopes:
 - name: Ppl London Market Scopes
   scope_count: 1
@@ -351,21 +368,21 @@ scopes:
   summary_line: 1 scope · authorizationCode/onBehalfOf/clientCredentials
 score:
   band: developing
-  composite: 44.4
+  composite: 46.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 45.5
+    contract_governance: 18.2
+    contract_quality: 48.9
     developer_ergonomics: 70.8
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -375,7 +392,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.4
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -392,13 +409,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ppl-london-market/ppl-london-market-2026-08-17T081327.png
 security:
 - kind: authentication

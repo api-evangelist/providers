@@ -1,0 +1,133 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-11-06'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/aicodelabs-dev/hosts/aicodelabs-dev-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aicodelabs-dev-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/aicodelabs-dev/vendors/aicodelabs-dev-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/aicodelabs-dev-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/aicodelabs-dev/security/aicodelabs-dev-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/aicodelabs-dev-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aicodelabs.dev/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://aicodelabs.dev/repo-health/
+coverage:
+  checked: '2026-11-01'
+  detail: The provider offers browser‑based experiments but publishes no public API documentation or machine‑readable contract.
+  evidence:
+  - status: 0
+    url: https://api.aicodelabs.dev/openapi.json
+  reason: no-developer-program
+  state: none
+created: '2026-11-01'
+description: AI Code Labs, founded by Harald Rohan, offers small free experiments that showcase the capabilities of AI applied to legacy .NET code. The site provides tools such as repository health checks, migration risk assessments, code age guessing, and retirement readiness evaluations. Each experiment runs in the browser, allowing developers to quickly gain insights into code modernization challenges and receive actionable feedback. The platform emphasizes transparency, humor, and practical guidance for developers navigating codebase evolution.
+layout: provider
+modified: '2026-11-01'
+name: AI Code Labs
+nav: Providers
+network: true
+overview: 'AI Code Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, .NET, Code Modernization, and Experiments.
+
+
+  AI Code Labs'' developer surface includes getting-started guide and 4 more developer resources.'
+random_paper: 3
+score:
+  band: minimal
+  composite: 4.2
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 25.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.2
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.0
+    discoverability: 44.6
+    operational_transparency: 0.0
+  previous_composite: 5.4
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Aicodelabs Dev Domain Security
+  slug: aicodelabs-dev-domain-security
+  summary_line: TLSv1.3
+slug: aicodelabs-dev
+tags:
+- Company
+- Artificial Intelligence
+- .NET
+- Code Modernization
+- Experiments
+website: https://aicodelabs.dev/
+---

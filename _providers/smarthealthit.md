@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,7 +79,7 @@ apis:
   description: OAuth 2.0 authorization endpoints on the SMART App Launcher.
   name: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: SMART Health IT Sandbox FHIR APIs Bulk Data API
@@ -173,6 +178,9 @@ network: true
 overview: 'SMART Health IT publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk Data API, Clinical Records API, Conformance API, and 3 more. Tagged areas include SMART on FHIR, FHIR, Health IT, EHR Integration, and Clinical Data.
 
 
+  The SMART Health IT catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SMART Health IT''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Smarthealthit Plans Pricing
@@ -183,25 +191,38 @@ rate_limits:
 - limit_count: 4
   name: Smarthealthit Rate Limits
   slug: smarthealthit-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 110
+  extends:
+  - spectral:oas
+  name: SMART Health IT API Rules
+  rule_count: 69
+  severity_counts:
+    error: 66
+    hint: 0
+    info: 1
+    warn: 2
+  slug: smarthealthit-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 29.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 42.0
+    artifact_dirs: 15
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 48.1
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 29.3
+    operational_transparency: 21.1
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -215,13 +236,12 @@ score:
     regime: Health
     regime_id: health
     score: 14.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/smarthealthit/smarthealthit-2026-09-02T155918.png
 security:
 - kind: authentication

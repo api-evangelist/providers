@@ -24,6 +24,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,10 +35,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 21
 common:
+- group: build
+  href: https://artifacts.apis.io/autogen-studio/cli/autogen-studio-cli.yml
+  title: ''
+  type: CLI
+  url: cli/autogen-studio-cli.yml
+- group: other
+  href: https://artifacts.apis.io/autogen-studio/hosts/autogen-studio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/autogen-studio-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/autogen-studio/vendors/autogen-studio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/autogen-studio-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/autogen-studio/packages/autogen-studio-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/autogen-studio-packages.yml
+- group: build
+  href: https://artifacts.apis.io/autogen-studio/packages/autogen-studio-packages.yml
+  title: ''
+  type: Packages
+  url: packages/autogen-studio-packages.yml
 - group: operate
   title: ''
   type: Releases
@@ -74,6 +100,22 @@ common:
   title: ''
   type: Usage
   url: https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/usage.html
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/microsoft/autogen/tree/main/python/packages/autogen-studio
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/installation.html
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/faq.html
 - group: other
   title: ''
   type: ExperimentalFeatures
@@ -122,10 +164,6 @@ common:
   title: ''
   type: License
   url: https://github.com/microsoft/autogen/blob/main/LICENSE-CODE
-- group: other
-  title: ''
-  type: Companion
-  url: https://github.com/api-evangelist/microsoft-autogen
 created: '2026-05-24'
 description: AutoGen Studio is a low-code / no-code developer GUI from Microsoft Research for rapidly prototyping, composing, and debugging multi-agent AI workflows built on the AutoGen framework. Shipped as the `autogenstudio` Python package and launched with `autogenstudio ui`, it serves a FastAPI + React (Gatsby) web app on localhost that exposes four primary interfaces — Team Builder, Playground, Gallery, and Deployment — backed by a SQLModel persistence layer (SQLite by default; any SQLAlchemy-compatible backend such as PostgreSQL, MySQL, MSSQL via `--database-uri`). The Team Builder offers drag-and-drop and JSON authoring of teams, agents, models, tools, and termination conditions fully aligned with AutoGen AgentChat's declarative component spec; the Playground streams live inter-agent messages and renders the control transition graph; the Gallery imports community components; and the Deployment view exports a team to Python, exposes it as an endpoint, and packages it for Docker. AutoGen
   Studio is built on AutoGen AgentChat / Core / Extensions and supports any OpenAI-compatible model endpoint (OpenAI, Azure OpenAI, Anthropic, local vLLM/Ollama, etc.) via declarative `model_client` configuration, plus MCP tool integration. Authentication is experimental (GitHub OAuth + JWT only). Microsoft explicitly positions AutoGen Studio as a research prototype — not production-ready — and encourages teams that need authn/z, multi-tenancy, sandboxing rigor, or hardened deployment to build directly on the AutoGen framework instead. Companion to the broader AutoGen multi-agent framework, distributed under the Microsoft microsoft/autogen monorepo (CC-BY-4.0 docs, MIT code).
@@ -153,43 +191,49 @@ features:
 - License: MIT for code, CC-BY-4.0 for documentation
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autogen-studio.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-11-05'
 name: AutoGen Studio
 nav: Providers
 network: true
 overview: 'AutoGen Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AutoGen, AutoGen Studio, Multi-Agent, Agent Framework, and AI Agents.
 
 
-  AutoGen Studio''s developer surface includes engineering blog, documentation, FAQ, and 19 more developer resources.'
+  AutoGen Studio''s developer surface includes CLI, engineering blog, documentation, getting-started guide, FAQ, and 25 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 11.6
+  composite: 16.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 42.9
     discoverability: 48.2
-    operational_transparency: 36.8
-  previous_composite: 11.6
+    operational_transparency: 34.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: never_enriched
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -208,7 +252,7 @@ tags:
 - Visual Builder
 - Drag And Drop
 - Prototyping
-- AgentChat
+- Agent Chat
 - Microsoft Research
 - Python
 - FastAPI

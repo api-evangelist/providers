@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-31'
+  score: 53.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -116,7 +120,7 @@ apis:
   description: The whoami API from Standard Metrics — 1 operation(s) for whoami.
   name: Standard Metrics Whoami API
   slug: standard-metrics-whoami-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: OAuth Token budgets API
@@ -323,36 +327,52 @@ network: true
 overview: 'Standard Metrics publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Budgets API, Cap Table API, Companies API, and 11 more. Tagged areas include Company, Venture Capital, Private Equity, Portfolio Management, and Financial Data.
 
 
+  The Standard Metrics catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Standard Metrics Rate Limits
   slug: standard-metrics-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Standard Metrics API Rules
+  rule_count: 55
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 6
+    warn: 8
+  slug: standard-metrics-rules
 scopes:
 - name: Standard Metrics Scopes
   scope_count: 3
   slug: standard-metrics-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 60.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 48.0
+    artifact_dirs: 26
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 48.8
     developer_ergonomics: 58.9
-    discoverability: 70.0
+    discoverability: 80.0
     operational_transparency: 44.7
-  previous_composite: 52.6
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,13 +393,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/standard-metrics/standard-metrics-2026-08-17T082103.png
 security:
 - kind: authentication

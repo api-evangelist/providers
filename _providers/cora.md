@@ -1,12 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-31'
+  score: 37.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -317,21 +324,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.3
+  composite: 56.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 59.5
     catalog_earned_first_party: 12.0
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 6.1
   facets:
     access_clarity: 60.5
     contract_governance: 31.8
-    contract_quality: 56.2
-    developer_ergonomics: 69.0
-    discoverability: 73.2
+    contract_quality: 61.6
+    developer_ergonomics: 61.9
+    discoverability: 79.5
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -340,7 +347,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 48.4
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,7 +355,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 13
+      total: 14
     mcp: derived
   regulatory:
     applies: true
@@ -356,13 +363,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cora/cora-2026-07-25T210413.png
 security:
 - kind: authentication

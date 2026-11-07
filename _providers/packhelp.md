@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.1
-  scored_at: '2026-10-31'
+  score: 12.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Packhelp''s "first-ever API for packaging" — a sales-gated set of web services for building packaging workflows into your own application: sell and quote packaging, access a curated EU-producer catalog'
@@ -92,7 +94,7 @@ score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -104,8 +106,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.1
-    operational_transparency: 5.3
+    discoverability: 60.0
+    operational_transparency: 2.6
   previous_composite: 11.8
   provenance:
     mcp: first-party
@@ -115,8 +117,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

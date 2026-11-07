@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.2
-  scored_at: '2026-10-31'
+  score: 19.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: Short-term orbit prediction products.
   name: National Geospatial-Intelligence Agency Orbit API
   slug: national-geospatial-intelligence-agency-orbit-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: NGA Earth-Info REST Clock API
@@ -159,6 +161,9 @@ network: true
 overview: 'National Geospatial-Intelligence Agency publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clock API, EOPP API, Ephemeris API, and 1 more. Tagged areas include Federal Government, Geospatial, Intelligence, Defense, and Geomatics.
 
 
+  The National Geospatial-Intelligence Agency catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   National Geospatial-Intelligence Agency''s developer surface includes engineering blog, developer portal, and 11 more developer resources.'
 plans:
 - name: National Geospatial Intelligence Agency Plans Pricing
@@ -169,30 +174,43 @@ rate_limits:
 - limit_count: 5
   name: National Geospatial Intelligence Agency Rate Limits
   slug: national-geospatial-intelligence-agency-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: National Geospatial-Intelligence Agency API Rules
+  rule_count: 48
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 1
+  slug: national-geospatial-intelligence-agency-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 25.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 43.0
+    artifact_dirs: 14
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 43.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.0
+  previous_composite: 25.2
   provenance:
     agentic_access: derived
     contracts:
@@ -206,13 +224,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/national-geospatial-intelligence-agency/national-geospatial-intelligence-agency-2026-06-20T190021.png
 security:
 - kind: domain-security

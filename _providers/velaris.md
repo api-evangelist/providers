@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-31'
+  score: 25.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.euw1.velaris.io
@@ -109,7 +111,7 @@ apis:
   description: The Users API from Velaris — 2 operation(s) for users.
   name: Velaris Users API
   slug: velaris-users-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: Velaris Public Activity API
@@ -305,31 +307,47 @@ network: true
 overview: 'Velaris publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Attribute Change Log API, Currencies API, and 11 more. Tagged areas include Customer Success, Artificial Intelligence, Software-as-a-Service, Customer Data, and CRM.
 
 
+  The Velaris catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 22 more developer resources.'
 plans:
 - name: Velaris Plans Pricing
   plan_count: 1
   slug: velaris-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Velaris API Rules
+  rule_count: 44
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 2
+    warn: 2
+  slug: velaris-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 53.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 81.6
-    contract_governance: 18.2
-    contract_quality: 48.2
+    access_clarity: 75.0
+    contract_governance: 31.8
+    contract_quality: 48.7
     developer_ergonomics: 48.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 26.3
-  previous_composite: 52.9
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -349,13 +367,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/velaris/velaris-2026-08-17T082724.png
 security:
 - kind: authentication

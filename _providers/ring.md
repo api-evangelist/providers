@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: quarter
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-31'
+  score: 34.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Ring Partner API (Amazon Vision API / AVA) lets certified Ring Appstore partners access Ring device data and media on behalf of consenting users: list and inspect devices, read status/capabilities'
@@ -204,9 +209,9 @@ overview: 'Ring is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 0
 score:
   band: developing
-  composite: 45.0
+  composite: 43.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -217,10 +222,10 @@ score:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 57.1
-    discoverability: 65.0
-    operational_transparency: 50.0
-  previous_composite: 45.0
+    developer_ergonomics: 50.0
+    discoverability: 75.0
+    operational_transparency: 44.7
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

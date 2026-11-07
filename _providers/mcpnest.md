@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Gateway API for MCPNest workspace tools.
@@ -206,31 +222,31 @@ rules:
     warn: 0
   slug: mcpnest-rules
 score:
-  band: developing
-  composite: 45.9
+  band: thin
+  composite: 35.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 69.0
     catalog_earned_first_party: 12.0
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.9
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 33.3
     contract_quality: 24.7
-    developer_ergonomics: 47.6
+    developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 45.9
+    operational_transparency: 15.8
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 7
+      derived: 1
       marker_coverage: 100.0
-      total: 7
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -241,14 +257,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/mcpnest/mcpnest-2026-11-03T135408.png
 security:
 - kind: authentication
   name: Mcpnest Authentication

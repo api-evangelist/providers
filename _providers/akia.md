@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -27,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-10-31'
+  score: 47.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -228,9 +230,9 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.7
+  composite: 55.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -242,9 +244,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 18.4
-  previous_composite: 54.7
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -254,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

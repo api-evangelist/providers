@@ -1,32 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.2
-  scored_at: '2026-10-31'
+  score: 21.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Twine Integrations API provides endpoints for HR and payroll automation integration.
@@ -39,6 +50,10 @@ apis:
   slug: twine-api
 artifact_total: 12
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://app.twine.se/login
 - group: design
   href: https://artifacts.apis.io/twine/rules/twine-rules.yml
   title: ''
@@ -209,64 +224,67 @@ overview: 'Twine Integrations is listed with 2 APIs on the [APIs.io](https://api
   The Twine Integrations catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Twine Integrations'' developer surface includes changelog, authentication, API reference, documentation, engineering blog, support, and 21 more developer resources.'
+  Twine Integrations'' developer surface includes changelog, authentication, API reference, documentation, engineering blog, support, and 22 more developer resources.'
 random_paper: 23
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 86
   extends:
   - spectral:oas
   name: Twine Integrations API Rules
-  rule_count: 10
+  rule_count: 45
   severity_counts:
-    error: 8
+    error: 42
     hint: 0
-    info: 1
+    info: 2
     warn: 1
   slug: twine-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 29.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 24
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.2
   facets:
-    access_clarity: 28.9
+    access_clarity: 27.6
     contract_governance: 22.0
     contract_quality: 25.7
-    developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 50.0
+    developer_ergonomics: 23.8
+    discoverability: 64.3
+    operational_transparency: 30.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - nordics
+  previous_composite: 35.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/twine/twine-2026-11-03T145310.png
 security:
 - kind: authentication
   name: Twine Authentication

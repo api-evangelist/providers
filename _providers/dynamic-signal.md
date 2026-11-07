@@ -1,32 +1,46 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 43.4
-  scored_at: '2026-10-31'
+  score: 21.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Employee communication platform API (details not publicly documented)
@@ -41,6 +55,11 @@ asyncapis:
   name: Dynamic Signal Webhooks
   slug: dynamic-signal-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/dynamic-signal/well-known/dynamic-signal-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/dynamic-signal-status-security.txt
 - group: design
   href: https://artifacts.apis.io/dynamic-signal/rules/dynamic-signal-rules.yml
   title: ''
@@ -90,11 +109,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/dynamic-signal-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/dynamic-signal/well-known/dynamic-signal-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/dynamic-signal-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/dynamic-signal/well-known/dynamic-signal-security.txt
   title: ''
@@ -211,7 +225,7 @@ modified: '2026-10-24'
 name: Dynamic Signal
 nav: Providers
 network: true
-overview: 'Dynamic Signal is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Communication, Enterprise Software, SaaS, and HR Tech.
+overview: 'Dynamic Signal is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Communication, Enterprise Software, Software-as-a-Service, and Human Resources.
 
 
   The Dynamic Signal catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -221,54 +235,57 @@ overview: 'Dynamic Signal is listed with 2 APIs on the [APIs.io](https://apis.io
 random_paper: 8
 rules:
 - authorship: generated
-  effective_rule_count: 50
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Dynamic Signal API Rules
-  rule_count: 9
+  rule_count: 32
   severity_counts:
-    error: 7
+    error: 29
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: dynamic-signal-rules
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 30.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 20
     catalog_earned: 37.8
     catalog_earned_first_party: 0.0
     catalog_gap: 77.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 27.6
     contract_governance: 22.0
-    contract_quality: 18.4
-    developer_ergonomics: 45.2
-    discoverability: 60.7
-    operational_transparency: 50.0
+    contract_quality: 22.2
+    developer_ergonomics: 28.6
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 15
+      derived: 1
       marker_coverage: 100.0
-      total: 15
-    mcp: unknown
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: weak_tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/dynamic-signal/dynamic-signal-2026-11-03T131138.png
 security:
 - kind: authentication
   name: Dynamic Signal Authentication
@@ -291,7 +308,7 @@ tags:
 - Company
 - Employee Communication
 - Enterprise Software
-- SaaS
-- HR Tech
+- Software-as-a-Service
+- Human Resources
 website: https://firstup.io
 ---

@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-10-31'
+  score: 28.6
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: The Eyevinn Open Source Cloud (OSC) REST API is the management plane for provisioning and operating service instances on the OSC platform. The API uses Personal Access Tokens (PATs) issued from app.os
@@ -265,9 +267,9 @@ overview: 'Eyevinn Technology is listed with 8 APIs on the [APIs.io](https://api
 random_paper: 23
 score:
   band: thin
-  composite: 32.5
+  composite: 30.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -279,8 +281,8 @@ score:
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 78.6
-    discoverability: 61.7
-    operational_transparency: 36.8
+    discoverability: 65.0
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -289,7 +291,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 32.5
+  previous_composite: 30.5
   provenance:
     mcp: first-party
   regulatory:
@@ -298,8 +300,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-10-31'
+  score: 48.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -225,7 +228,7 @@ apis:
   description: Used to manage webhooks
   name: Ripple Labs Webhooks API
   slug: ripple-labs-webhooks-api
-artifact_total: 81
+artifact_total: 82
 asyncapis:
 - description: ''
   name: Ripple Labs Stablecoin Webhooks
@@ -533,40 +536,53 @@ network: true
 overview: 'Ripple Labs publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, API Credentials API, Auditing API, and 33 more. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Blockchain.
 
 
-  The Ripple Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ripple Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 31 more developer resources.'
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Ripple Labs API Rules
+  rule_count: 59
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 2
+    warn: 22
+  slug: ripple-labs-rules
 scopes:
 - name: Ripple Labs Scopes
   scope_count: 2
   slug: ripple-labs-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 28
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 36.8
-    contract_governance: 18.2
-    contract_quality: 57.2
+    contract_governance: 31.8
+    contract_quality: 59.2
     developer_ergonomics: 73.2
-    discoverability: 70.0
-    operational_transparency: 36.8
+    discoverability: 76.7
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 52.7
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -583,13 +599,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/ripple-labs/ripple-labs-2026-08-17T081609.png
 security:
 - kind: authentication

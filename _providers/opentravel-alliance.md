@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -78,7 +82,7 @@ apis:
   description: The HotelDescriptiveContents API from OpenTravel Alliance — 3 operation(s) for hoteldescriptivecontents.
   name: OpenTravel Alliance Hotel Descriptive Contents API
   slug: opentravel-alliance-hoteldescriptivecontents-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Opentravel Alliance Notifications Webhooks
@@ -458,11 +462,24 @@ network: true
 overview: 'OpenTravel Alliance publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Facilities API, Hospitality Find Hospitality Availability API, Hospitality Offers API, and 3 more. Tagged areas include Travel, United States, Standards, Aviation, and Hospitality.
 
 
-  The OpenTravel Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The OpenTravel Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 55 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: OpenTravel Alliance API Rules
+  rule_count: 39
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 2
+  slug: opentravel-alliance-rules
 scopes:
 - name: Opentravel Alliance Scopes
   scope_count: 1
@@ -470,22 +487,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.4
+  composite: 47.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 49.0
+    artifact_dirs: 30
+    catalog_earned: 53.5
     catalog_earned_first_party: 5.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 19.7
+    access_clarity: 32.9
+    contract_governance: 33.3
     contract_quality: 53.6
-    developer_ergonomics: 66.1
-    discoverability: 61.7
-    operational_transparency: 34.2
+    developer_ergonomics: 54.2
+    discoverability: 65.0
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -493,7 +510,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.4
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -509,14 +526,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/opentravel-alliance/opentravel-alliance-2026-08-07T190651.png
 security:
 - kind: authentication

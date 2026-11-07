@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -20,12 +21,13 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 27.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -592,7 +594,7 @@ json_schemas:
   property_count: 3
   slug: posit-group-patch-input
 - name: Group
-  property_count: 0
+  property_count: 6
   slug: posit-group
 - name: JobMetrics
   property_count: 3
@@ -619,7 +621,7 @@ json_schemas:
   property_count: 6
   slug: posit-oauth-client
 - name: OAuthClients
-  property_count: 0
+  property_count: 3
   slug: posit-oauth-clients
 - name: OAuthCredentials
   property_count: 4
@@ -643,7 +645,7 @@ json_schemas:
   property_count: 7
   slug: posit-oauth-template
 - name: PackagesResponse
-  property_count: 0
+  property_count: 3
   slug: posit-packages-response
 - name: PermissionInput
   property_count: 4
@@ -661,7 +663,7 @@ json_schemas:
   property_count: 1
   slug: posit-quarto-installations
 - name: QueueResponse
-  property_count: 0
+  property_count: 3
   slug: posit-queue-response
 - name: RInstallations
   property_count: 1
@@ -727,35 +729,35 @@ rules:
   slug: posit-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 63.3
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
-    access_clarity: 52.6
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 62.9
+    contract_quality: 71.8
     developer_ergonomics: 73.2
-    discoverability: 67.9
-    operational_transparency: 44.7
+    discoverability: 74.1
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.7
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 33
     mcp: derived
     skills: derived
@@ -764,14 +766,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/posit/posit-2026-08-17T081325.png
 security:
 - kind: authentication

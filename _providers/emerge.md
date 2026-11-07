@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-31'
+  score: 37.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.emergemarket.io/v1
@@ -86,7 +87,7 @@ apis:
   description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
   name: Emerge Webhooks API
   slug: emerge-webhooks-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Emerge Webhooks
@@ -297,7 +298,7 @@ network: true
 overview: 'Emerge publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Awards API, Network Partners API, and 6 more. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Procurement.
 
 
-  The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Emerge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -310,25 +311,38 @@ rate_limits:
 - limit_count: 1
   name: Emerge Rate Limits
   slug: emerge-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Emerge API Rules
+  rule_count: 57
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 4
+    warn: 5
+  slug: emerge-rules
 score:
-  band: strong
-  composite: 57.5
+  band: developing
+  composite: 49.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
-    contract_governance: 4.5
-    contract_quality: 57.8
-    developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 63.2
-  previous_composite: 58.1
+    contract_governance: 18.2
+    contract_quality: 60.0
+    developer_ergonomics: 30.4
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -344,13 +358,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/emerge/emerge-2026-08-17T080921.png
 security:
 - kind: authentication

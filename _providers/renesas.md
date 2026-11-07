@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.2
-  scored_at: '2026-10-31'
+  score: 42.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
   description: Endpoints for retrieving software tools.
   name: Renesas Software Tool API
   slug: renesas-software-tool-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Renesas Web Data Board & Kit API
@@ -248,27 +249,43 @@ network: true
 overview: 'Renesas publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Board & Kit API, Document API, Package API, and 3 more. Tagged areas include Company, Semiconductors, Microcontrollers, Electronics, and Hardware.
 
 
+  The Renesas catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Renesas API Rules
+  rule_count: 61
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 3
+    warn: 2
+  slug: renesas-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 45.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 49.3
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 43.6
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,13 +302,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/renesas/renesas-2026-08-17T081518.png
 security:
 - kind: authentication

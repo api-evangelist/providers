@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -340,9 +345,9 @@ rules:
   slug: cloudflare-r2-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
+  composite: 36.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -353,10 +358,13 @@ score:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 58.1
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 37.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -370,13 +378,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cloudflare-r2/cloudflare-r2-2026-06-20T174556.png
 security:
 - kind: authentication

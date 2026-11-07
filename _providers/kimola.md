@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API for presets (pre-trained classification and entity-extraction models), research reports and their analyses, feedback feeds, query consumption, and subscription usage. Authenticated with an HT
@@ -184,9 +186,9 @@ plans:
 random_paper: 13
 score:
   band: thin
-  composite: 36.8
+  composite: 36.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -198,9 +200,9 @@ score:
     contract_governance: 4.5
     contract_quality: 6.5
     developer_ergonomics: 44.6
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 36.8
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 36.2
   provenance:
     conformance: derived
     mcp: derived
@@ -211,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

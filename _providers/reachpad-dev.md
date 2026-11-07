@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 12.1
-  scored_at: '2026-10-31'
+  score: 12.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Managed Content Publishing (MCP) service allowing agents to publish and manage apps.
@@ -144,7 +160,7 @@ modified: '2026-10-31'
 name: reachpad-dev
 nav: Providers
 network: true
-overview: 'reachpad-dev is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Collaboration, AppHosting, LowCode, and Productivity.
+overview: 'reachpad-dev is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Collaboration, AppHosting, Low-Code, and Productivity.
 
 
   reachpad-dev''s developer surface includes CLI, engineering blog, documentation, API reference, pricing, signup flow, and 15 more developer resources.'
@@ -159,33 +175,39 @@ rate_limits:
   slug: reachpad-dev-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 18.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 47.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 28.6
     discoverability: 65.0
-    operational_transparency: 33.7
+    operational_transparency: 34.2
+  previous_composite: 25.8
+  provenance:
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 9.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 7.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/reachpad-dev/reachpad-dev-2026-11-03T142009.png
 security:
 - kind: authentication
   name: Reachpad Dev Authentication
@@ -197,10 +219,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: reachpad-dev
 tags:
-- AI
+- Artificial Intelligence
 - Collaboration
 - AppHosting
-- LowCode
+- Low-Code
 - Productivity
 website: https://reachpad.dev/
 ---

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -18,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-31'
+  score: 17.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Circulating and total CADC supply, overall and per chain.
   name: Loon Finance Supply API
   slug: loon-finance-supply-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: Loon CADC Transparency Attestations API
@@ -182,26 +184,42 @@ network: true
 overview: 'Loon Finance publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoins, Cryptocurrency, and Payments.
 
 
+  The Loon Finance catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Loon Finance API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: loon-finance-rules
 score:
-  band: thin
-  composite: 31.2
+  band: developing
+  composite: 42.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 32.0
+    artifact_dirs: 18
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
-    catalog_max: 115.0
+    catalog_gap: 63.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
-    contract_governance: 18.2
+    access_clarity: 78.6
+    contract_governance: 31.8
     contract_quality: 45.5
     developer_ergonomics: 18.5
-    discoverability: 57.1
-    operational_transparency: 10.5
+    discoverability: 64.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +227,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.2
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,13 +244,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/loon-finance/loon-finance-2026-07-25T225523.png
 security:
 - kind: domain-security

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.usemultiplier.com
@@ -152,9 +153,9 @@ rate_limits:
   slug: multiplier-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -165,23 +166,23 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 35.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 21.4
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/multiplier/multiplier-2026-08-07T184541.png
 security:
 - kind: authentication

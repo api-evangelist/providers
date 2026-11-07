@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -26,19 +29,20 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: verified
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: na
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.8
-  scored_at: '2026-10-31'
+  score: 58.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +82,187 @@ apis:
   description: User and account management.
   name: Apify Users API
   slug: apify-users-api
-artifact_total: 61
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section enable you to manage, and delete Apify Actor builds. Note that if any returned build object contains usage in dollars, your effective unit pricing at the ti
+  name: Apify Actor builds API
+  slug: apify-actor-builds-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section enable you to create, manage, delete, and run Apify Actor tasks. For more information, see the [Actor tasks documentation](https://docs.apify.com/platform/a
+  name: Apify Actor tasks API
+  slug: apify-actor-tasks-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints in this section allow you to manage your Apify Actors builds.
+  name: Apify Actors/Actor builds API
+  slug: apify-actors-actor-builds-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints in this section allow you to manage your Apify Actors runs. Some API endpoints return run objects. If a run object includes usage costs in dollars, note that these values are calcula
+  name: Apify Actors/Actor runs API
+  slug: apify-actors-actor-runs-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints in this section allow you to manage your Apify Actors versions. - The version object contains the source code of a specific version of an Actor. - The `sourceType` property indicates
+  name: Apify Actors/Actor versions API
+  slug: apify-actors-actor-versions-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoint in this section allows you to get a list of webhooks of a specific Actor.
+  name: Apify Actors/Webhook collection API
+  slug: apify-actors-webhook-collection-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor run's default dataset without the need to resolve the dataset ID first. Subset of functionality descr
+  name: Apify Default dataset API
+  slug: apify-default-dataset-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor run's default key-value store without the need to resolve the key-value store ID first. Subset of fun
+  name: Apify Default key-value store API
+  slug: apify-default-key-value-store-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor run's default request queue without the need to resolve the request queue ID first. Subset of functio
+  name: Apify Default request queue API
+  slug: apify-default-request-queue-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that aborts the Actor''s last run. Same as of functionality described in: [Abort run](/api/v2/actor-run-abort-post)'
+  name: Apify Last Actor run's abort API
+  slug: apify-last-actor-run-s-abort-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor's last run's default dataset without the need to resolve the dataset ID first. Subset of functionalit
+  name: Apify Last Actor run's default dataset API
+  slug: apify-last-actor-run-s-default-dataset-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor's last run's default key-value store without the need to resolve the key-value store ID first. Subset
+  name: Apify Last Actor run's default key-value store API
+  slug: apify-last-actor-run-s-default-key-value-store-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoints described in this section are convenience endpoints that provide access to Actor''s last run''s default request queue without the need to resolve the request queue ID first. Subset of '
+  name: Apify Last Actor run's default request queue API
+  slug: apify-last-actor-run-s-default-request-queue-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is convenience endpoint that provides access to last Actor run''s log. Same as of functionality described in: [Logs](/api/v2/logs)'
+  name: Apify Last Actor run's log API
+  slug: apify-last-actor-run-s-log-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that metamorphs the Actor''s last run into a run of another Actor. Same as of functionality described in: [Metamorph run](/api/v2/ac'
+  name: Apify Last Actor run's metamorph API
+  slug: apify-last-actor-run-s-metamorph-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that reboots the Actor''s last run. Same as of functionality described in: [Reboot run](/api/v2/actor-run-reboot-post)'
+  name: Apify Last Actor run's reboot API
+  slug: apify-last-actor-run-s-reboot-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that aborts the Actor task''s last run. Same as of functionality described in: [Abort run](/api/v2/actor-run-abort-post)'
+  name: Apify Last Actor task run's abort API
+  slug: apify-last-actor-task-run-s-abort-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor task's last run's default dataset without the need to resolve the dataset ID first. Subset of functio
+  name: Apify Last Actor task run's default dataset API
+  slug: apify-last-actor-task-run-s-default-dataset-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor task's last run's default key-value store without the need to resolve the key-value store ID first. S
+  name: Apify Last Actor task run's default key-value store API
+  slug: apify-last-actor-task-run-s-default-key-value-store-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section are convenience endpoints that provide access to Actor task's last run's default request queue without the need to resolve the request queue ID first. Subse
+  name: Apify Last Actor task run's default request queue API
+  slug: apify-last-actor-task-run-s-default-request-queue-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is convenience endpoint that provides access to last Actor task run''s log. Same as of functionality described in: [Logs](/api/v2/logs)'
+  name: Apify Last Actor task run's log API
+  slug: apify-last-actor-task-run-s-log-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that metamorphs the Actor task''s last run into a run of another Actor. Same as of functionality described in: [Metamorph run](/api/'
+  name: Apify Last Actor task run's metamorph API
+  slug: apify-last-actor-task-run-s-metamorph-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoint described in this section is a convenience endpoint that reboots the Actor task''s last run. Same as of functionality described in: [Reboot run](/api/v2/actor-run-reboot-post)'
+  name: Apify Last Actor task run's reboot API
+  slug: apify-last-actor-task-run-s-reboot-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'The API endpoints described in this section are used the download the logs generated by Actor builds and runs. Note that only the trailing 5M characters of the log are stored, the rest is discarded. :'
+  name: Apify Logs API
+  slug: apify-logs-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints for managing schedules. Schedules are used to automatically start your Actors at certain times. Each schedule can be associated with a number of Actors and Actor t
+  name: Apify Schedules API
+  slug: apify-schedules-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to manage Datasets. Dataset is a storage for structured data, where each record stored has the same attributes, such as online store products or real estate offers
+  name: Apify Storage/Datasets API
+  slug: apify-storage-datasets-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to manage Key-value stores. Key-value store is a simple storage for saving and reading data records or files. Each data record is represented by a unique key and a
+  name: Apify Storage/Key-value stores API
+  slug: apify-storage-key-value-stores-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to create, manage, and delete request queues. Request queue is a storage for a queue of HTTP URLs to crawl, which is typically used for deep crawling of websites w
+  name: Apify Storage/Request queues API
+  slug: apify-storage-request-queues-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to create, manage, and delete requests within request queues. Request queue is a storage for a queue of HTTP URLs to crawl, which is typically used for deep crawli
+  name: Apify Storage/Request queues/Requests API
+  slug: apify-storage-request-queues-requests-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to create, manage, and delete request locks within request queues. Request queue is a storage for a queue of HTTP URLs to crawl, which is typically used for deep c
+  name: Apify Storage/Request queues/Requests locks API
+  slug: apify-storage-request-queues-requests-locks-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: '[Apify Store](https://apify.com/store) is home to thousands of public Actors available to the Apify community. The API endpoints described in this section are used to retrieve these Actors. :::note Th'
+  name: Apify Store API
+  slug: apify-store-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section let you test your proxy connection. For details, see the [Apify Proxy](https://docs.apify.com/platform/proxy).
+  name: Apify Tools API
+  slug: apify-tools-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section provide utility tools for encoding and decoding data.
+  name: Apify Tools/Encoding API
+  slug: apify-tools-encoding-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: The API endpoints described in this section return your account's usage for the current monthly cycle and let you view and update your account limits. For details, see the [Limits](https://docs.apify.
+  name: Apify Users/Usage API
+  slug: apify-users-usage-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: This section describes API endpoints to get webhook dispatches.
+  name: Apify Webhooks/Webhook dispatches API
+  slug: apify-webhooks-webhook-dispatches-api
+- baseURL: https://api.apify.com
+  baseurl_source: declared
+  description: 'This section describes API endpoints to manage webhooks. Webhooks provide an easy and reliable way to configure the Apify platform to carry out an action (e.g. a HTTP request to another service) when '
+  name: Apify Webhooks/Webhooks API
+  slug: apify-webhooks-webhooks-api
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Apify Actor Runs API
@@ -309,7 +493,7 @@ modified: '2026-05-19'
 name: Apify
 nav: Providers
 network: true
-overview: 'Apify publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actor Runs API, Actors API, Datasets API, and 3 more. Tagged areas include Actors, Browser Automation, Crawling, Data Aggregation, and Data Extraction.
+overview: 'Apify publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actor Runs API, Actors API, Datasets API, and 39 more. Tagged areas include Actors, Browser Automation, Crawling, Data Aggregation, and Data Extraction.
 
 
   The Apify catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -363,23 +547,23 @@ rules:
   slug: apify-spectral-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 48.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 25.0
     contract_governance: 13.6
-    contract_quality: 62.1
+    contract_quality: 61.8
     developer_ergonomics: 62.4
-    discoverability: 71.7
-    operational_transparency: 23.7
-  previous_composite: 47.3
+    discoverability: 75.0
+    operational_transparency: 21.1
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -394,13 +578,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/apify/apify-2026-06-20T172249.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -34,22 +45,26 @@ common:
   title: ''
   type: Hosts
   url: hosts/thousand-api-com-hosts.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://thousand-api.com/
 coverage:
   checked: '2026-10-31'
-  detail: No OpenAPI or other machine-readable contract was found at standard locations on the provider's API host.
+  detail: No public API documentation or machine‑readable contract could be found; attempts to fetch OpenAPI at https://api.thousand-api.com/openapi.json returned 404.
   evidence:
   - status: 404
     url: https://api.thousand-api.com/openapi.json
-  reason: no-machine-readable-spec
-  state: unreadable
+  reason: no-developer-program
+  state: none
 created: '2026-10-31'
-description: 'thousand-api-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+description: thousand-api-com is a stub entry discovered in the API Evangelist harvest backlog. No public website or documentation could be retrieved; attempts to access https://thousand-api.com/ and https://api.thousand-api.com/ were unsuccessful, indicating the provider may be offline or lacking a public API presence at this time. Further information about the company, its services, or its API offerings is currently unavailable.
 layout: provider
 modified: '2026-10-31'
 name: thousand-api-com
 nav: Providers
 network: true
-overview: thousand-api-com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: thousand-api-com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, and Services.
 plans:
 - name: Thousand Api Com Plans Pricing
   plan_count: 0
@@ -66,29 +81,35 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 1.9
+  composite: 2.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 15.0
+    artifact_dirs: 18
+    catalog_earned: 20.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.9
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 26.8
+    discoverability: 35.7
     operational_transparency: 0.0
+  previous_composite: 3.7
+  provenance:
+    conformance: unknown
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -101,4 +122,7 @@ security:
 slug: thousand-api-com
 tags:
 - Company
+- Data
+- Services
+website: https://thousand-api.com/
 ---

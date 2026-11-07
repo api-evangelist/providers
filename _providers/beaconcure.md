@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
@@ -128,7 +129,7 @@ overview: 'Beaconcure is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 15
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -143,16 +144,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 5.3
-  previous_composite: 16.7
+    operational_transparency: 2.6
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 14.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

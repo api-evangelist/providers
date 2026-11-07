@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -107,7 +108,7 @@ apis:
   description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
   name: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
-artifact_total: 30
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Persistiq Webhooks
@@ -311,7 +312,7 @@ network: true
 overview: 'PersistIQ publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Do Not Contact Domains API, Events API, and 9 more. Tagged areas include Company, Sales Engagement, Sales, Outbound, and Email Outreach.
 
 
-  The PersistIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The PersistIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   PersistIQ''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
@@ -324,32 +325,45 @@ rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits
   slug: persistiq-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: PersistIQ API Rules
+  rule_count: 57
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 2
+    warn: 3
+  slug: persistiq-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 52.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 29
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 1.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 54.2
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 49.9
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 56.5
+    discoverability: 73.2
+    operational_transparency: 47.4
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 83.3
       total: 12
     mcp: derived
     skills: derived
@@ -359,13 +373,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/persistiq/persistiq-2026-08-17T081210.png
 security:
 - kind: authentication

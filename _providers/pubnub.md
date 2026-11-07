@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-31'
+  score: 45.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://ps.pndsn.com
@@ -160,9 +162,9 @@ rules:
   slug: pubnub-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 31.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.5
     catalog_earned_first_party: 0.0
     catalog_gap: 67.5
@@ -174,9 +176,9 @@ score:
     contract_governance: 13.6
     contract_quality: 40.6
     developer_ergonomics: 27.9
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 28.9
-  previous_composite: 30.9
+  previous_composite: 31.1
   provenance:
     mcp: first-party
   regulatory:
@@ -185,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

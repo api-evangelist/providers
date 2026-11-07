@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -15,6 +18,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +32,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.7
-  scored_at: '2026-10-31'
+  score: 42.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -84,7 +89,7 @@ apis:
   description: Verify which partner or shop the calling API token resolves to.
   name: Postscript Identity API
   slug: postscript-identity-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Postscript Webhooks
@@ -307,7 +312,7 @@ network: true
 overview: 'Postscript publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subscribers API, Events API, Keywords API, and 4 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
 
 
-  The Postscript catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Postscript catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Postscript''s developer surface includes authentication, changelog, documentation, getting-started guide, API reference, pricing, engineering blog, and 37 more developer resources.'
@@ -323,25 +328,38 @@ rate_limits:
 - limit_count: 1
   name: Postscript Rate Limits
   slug: postscript-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Postscript API Rules
+  rule_count: 61
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 4
+  slug: postscript-rules
 score:
   band: exemplar
-  composite: 66.7
+  composite: 69.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 4.9
   facets:
     access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 59.7
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 71.1
-  previous_composite: 65.1
+    contract_governance: 18.2
+    contract_quality: 62.2
+    developer_ergonomics: 60.1
+    discoverability: 75.0
+    operational_transparency: 63.2
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,13 +380,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/postscript/postscript-2026-06-20T192017.png
 security:
 - kind: authentication

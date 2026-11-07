@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Twirp is a simple RPC framework with protobuf service definitions. Define your service in a .proto file and Twirp generates servers and clients implementing the Twirp wire protocol. Services are expos
@@ -168,9 +169,9 @@ rules:
   slug: twirp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.3
+  composite: 21.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 50.8
     catalog_earned_first_party: 0.0
     catalog_gap: 64.3
@@ -183,16 +184,19 @@ score:
     contract_quality: 6.7
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 18.3
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

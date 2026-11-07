@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   - '{''url'': ''https://www.openpath.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.avigilon.com/access-control — a different registrable domain (openpath.com -> avigilon.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-31'
+  score: 33.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 295
   human_in_the_loop: 4
@@ -491,7 +494,7 @@ apis:
   description: Token use and validation
   name: Openpath Tokens API
   slug: openpath-tokens-api
-artifact_total: 185
+artifact_total: 186
 collections:
 - collection_type: open
   name: Openpath API Documentation auth API
@@ -874,39 +877,55 @@ network: true
 overview: 'Openpath publishes 89 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Billable Features API, Identities API, and 86 more. Tagged areas include Company, Security, Access Control, Physical Security, and Identity.
 
 
+  The Openpath catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Openpath''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 17 more developer resources.'
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Openpath API Rules
+  rule_count: 47
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 10
+  slug: openpath-rules
 scopes:
 - name: Openpath Scopes
   scope_count: 3
   slug: openpath-scopes
   summary_line: 3 scopes
 score:
-  band: thin
-  composite: 33.2
+  band: developing
+  composite: 39.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
-    access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 43.4
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 48.3
     developer_ergonomics: 54.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 89
     mcp: derived
     skills: derived
@@ -916,13 +935,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/openpath/openpath-2026-08-07T190619.png
 security:
 - kind: authentication

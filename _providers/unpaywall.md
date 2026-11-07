@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-31'
+  score: 33.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,9 +213,9 @@ rules:
   slug: unpaywall-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 27.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 68.4
     catalog_earned_first_party: 0.0
     catalog_gap: 46.6
@@ -224,10 +226,10 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 59.5
-    developer_ergonomics: 14.3
+    developer_ergonomics: 0.0
     discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 30.5
+    operational_transparency: 10.5
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +243,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/unpaywall/unpaywall-2026-06-20T200345.png
 security:
 - kind: domain-security

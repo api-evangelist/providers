@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,7 +63,7 @@ apis:
   description: Versioned datasets and result data
   name: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Code Ocean Capsules API
@@ -183,8 +184,24 @@ network: true
 overview: 'Code Ocean publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Capsules API, Computations API, and Data Assets API. Tagged areas include Company, Reproducible Research, Computational Science, Data Science, and Research Computing.
 
 
+  The Code Ocean catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 16 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Code Ocean API Rules
+  rule_count: 62
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 3
+  slug: code-ocean-rules
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4
@@ -192,23 +209,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 35.0
+  composite: 36.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 53.3
+    contract_governance: 18.2
+    contract_quality: 56.7
     developer_ergonomics: 58.9
     discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 35.0
+    operational_transparency: 2.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,13 +242,12 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/code-ocean/code-ocean-2026-07-25T205905.png
 security:
 - kind: authentication

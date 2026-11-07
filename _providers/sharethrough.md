@@ -1,12 +1,18 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -205,9 +212,9 @@ rate_limits:
   slug: sharethrough-rate-limits
 score:
   band: thin
-  composite: 31.0
+  composite: 30.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 56.0
     catalog_earned_first_party: 8.0
     catalog_gap: 59.0
@@ -220,8 +227,8 @@ score:
     contract_quality: 14.7
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 31.0
+    operational_transparency: 2.6
+  previous_composite: 30.7
   provenance:
     conformance: first-party
   regulatory:
@@ -230,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

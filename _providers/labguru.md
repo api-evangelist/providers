@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -835,7 +837,7 @@ json_schemas:
   property_count: 2
   slug: addElement
 - name: addExperiment
-  property_count: 0
+  property_count: 1
   slug: addExperiment
 - name: Add item
   property_count: 2
@@ -853,28 +855,28 @@ json_schemas:
   property_count: 2
   slug: assignItemToDataset
 - name: createAntibody
-  property_count: 0
+  property_count: 1
   slug: createAntibody
 - name: createAttachment
   property_count: 5
   slug: createAttachment
 - name: createBacterium
-  property_count: 0
+  property_count: 1
   slug: createBacterium
 - name: createBox
-  property_count: 0
+  property_count: 1
   slug: createBox
 - name: createCellLine
-  property_count: 0
+  property_count: 1
   slug: createCellLine
 - name: createComment
   property_count: 2
   slug: createComment
 - name: createCompany
-  property_count: 0
+  property_count: 1
   slug: createCompany
 - name: createCompound
-  property_count: 0
+  property_count: 1
   slug: createCompound
 - name: Create consume sample pooling event
   property_count: 2
@@ -886,82 +888,82 @@ json_schemas:
   property_count: 2
   slug: createDataset
 - name: createDocument
-  property_count: 0
+  property_count: 1
   slug: createDocument
 - name: createEquipment
-  property_count: 0
+  property_count: 1
   slug: createEquipment
 - name: createEvent
-  property_count: 0
+  property_count: 1
   slug: createEvent
 - name: Create fixed sample pooling event
   property_count: 2
   slug: createFixedSamplePoolingEvent
 - name: createFlag
-  property_count: 0
+  property_count: 1
   slug: createFlag
 - name: createFly
-  property_count: 0
+  property_count: 1
   slug: createFly
 - name: createFolder
   property_count: 2
   slug: createFolder
 - name: createFungus
-  property_count: 0
+  property_count: 1
   slug: createFungus
 - name: createGene
-  property_count: 0
+  property_count: 1
   slug: createGene
 - name: createGenericItem
-  property_count: 0
+  property_count: 1
   slug: createGenericItem
 - name: createLink
-  property_count: 0
+  property_count: 1
   slug: createLink
 - name: createLipid
-  property_count: 0
+  property_count: 1
   slug: createLipid
 - name: createMaintenance
   property_count: 2
   slug: createMaintenance
 - name: createMaintenanceEvent
-  property_count: 0
+  property_count: 1
   slug: createMaintenanceEvent
 - name: createMaintenanceTemplate
-  property_count: 0
+  property_count: 1
   slug: createMaintenanceTemplate
 - name: createMaintenanceType
   property_count: 2
   slug: createMaintenanceType
 - name: createMaterial
-  property_count: 0
+  property_count: 1
   slug: createMaterial
 - name: createNote
-  property_count: 0
+  property_count: 1
   slug: createNote
 - name: createPaper
-  property_count: 0
+  property_count: 1
   slug: createPaper
 - name: createPlant
-  property_count: 0
+  property_count: 1
   slug: createPlant
 - name: createPlasmid
-  property_count: 0
+  property_count: 1
   slug: createPlasmid
 - name: createPrimer
-  property_count: 0
+  property_count: 1
   slug: createPrimer
 - name: createProject
-  property_count: 0
+  property_count: 1
   slug: createProject
 - name: createProtein
-  property_count: 0
+  property_count: 1
   slug: createProtein
 - name: createProtocol
   property_count: 2
   slug: createProtocol
 - name: createReport
-  property_count: 0
+  property_count: 1
   slug: createReport
 - name: createRequest
   property_count: 2
@@ -970,43 +972,43 @@ json_schemas:
   property_count: 2
   slug: createRequestTemplate
 - name: createRodentCage
-  property_count: 0
+  property_count: 1
   slug: createRodentCage
 - name: createRodentSpecimen
-  property_count: 0
+  property_count: 1
   slug: createRodentSpecimen
 - name: createRodentStrain
-  property_count: 0
+  property_count: 1
   slug: createRodentStrain
 - name: createSOP
-  property_count: 0
+  property_count: 1
   slug: createSOP
 - name: createSection
   property_count: 2
   slug: createSection
 - name: createSeed
-  property_count: 0
+  property_count: 1
   slug: createSeed
 - name: createSequence
-  property_count: 0
+  property_count: 1
   slug: createSequence
 - name: createSession
   property_count: 3
   slug: createSession
 - name: createStock
-  property_count: 0
+  property_count: 1
   slug: createStock
 - name: createStorage
-  property_count: 0
+  property_count: 1
   slug: createStorage
 - name: createTag
   property_count: 2
   slug: createTag
 - name: createTask
-  property_count: 0
+  property_count: 1
   slug: createTask
 - name: createTissue
-  property_count: 0
+  property_count: 1
   slug: createTissue
 - name: createUnit
   property_count: 2
@@ -1015,7 +1017,7 @@ json_schemas:
   property_count: 3
   slug: createVector
 - name: createVirus
-  property_count: 0
+  property_count: 1
   slug: createVirus
 - name: createVisualization
   property_count: 2
@@ -1024,10 +1026,10 @@ json_schemas:
   property_count: 2
   slug: createWebhook
 - name: createWorm
-  property_count: 0
+  property_count: 1
   slug: createWorm
 - name: createYeast
-  property_count: 0
+  property_count: 1
   slug: createYeast
 - name: deleteTag
   property_count: 2
@@ -1262,9 +1264,9 @@ rules:
   slug: labguru-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 30.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -1274,11 +1276,11 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 44.9
+    contract_quality: 45.2
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 31.4
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1292,13 +1294,12 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/labguru/labguru-2026-06-20T184239.png
 security:
 - kind: domain-security

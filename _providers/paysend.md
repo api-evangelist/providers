@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
@@ -161,9 +162,9 @@ overview: 'Paysend is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 12
 score:
   band: thin
-  composite: 37.5
+  composite: 37.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -175,8 +176,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 57.1
-    operational_transparency: 13.2
+    discoverability: 64.3
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -185,7 +186,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.5
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

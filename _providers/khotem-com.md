@@ -1,10 +1,20 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-31'
+  score: 22.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -255,7 +266,7 @@ modified: '2026-10-30'
 name: khotem-com
 nav: Providers
 network: true
-overview: 'khotem-com publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including A1 API, Agent Credit Report API, Agent Verify API, and 42 more. Tagged areas include Company, Unknown, Stub, API, and Placeholder.
+overview: 'khotem-com publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including A1 API, Agent Credit Report API, Agent Verify API, and 42 more. Tagged areas include Company and Placeholder.
 
 
   The khotem-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -277,30 +288,43 @@ rules:
     warn: 1
   slug: khotem-com-rules
 score:
-  band: thin
-  composite: 33.2
+  band: emerging
+  composite: 22.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 48.2
+    catalog_earned: 31.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    catalog_gap: 83.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.3
   facets:
-    access_clarity: 10.5
-    contract_governance: 65.5
+    access_clarity: 5.3
+    contract_governance: 18.2
     contract_quality: 37.2
-    developer_ergonomics: 23.1
-    discoverability: 57.1
-    operational_transparency: 26.3
+    developer_ergonomics: 14.8
+    discoverability: 48.2
+    operational_transparency: 13.2
+  previous_composite: 27.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -317,9 +341,6 @@ security:
 slug: khotem-com
 tags:
 - Company
-- Unknown
-- Stub
-- API
 - Placeholder
 website: https://khotem.com/
 ---

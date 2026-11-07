@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,7 +82,7 @@ apis:
   description: Projects operations
   name: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Azure Migrate REST Operations API
@@ -215,6 +220,9 @@ network: true
 overview: 'Azure Migrate is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Operations API, Projects API, and 7 more. Tagged areas include Cloud Migration, Database Migration, Discovery, Migration, and Replication.
 
 
+  The Azure Migrate catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure Migrate''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Microsoft Azure Migrate Plans Pricing
@@ -225,6 +233,19 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Azure Migrate Rate Limits
   slug: microsoft-azure-migrate-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Azure Migrate API Rules
+  rule_count: 47
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-azure-migrate-rules
 scopes:
 - name: Microsoft Azure Migrate Scopes
   scope_count: 1
@@ -232,23 +253,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 55.9
+  composite: 58.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 55.0
+    artifact_dirs: 16
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 44.1
-    developer_ergonomics: 65.5
+    developer_ergonomics: 63.1
     discoverability: 85.7
-    operational_transparency: 44.7
-  previous_composite: 55.7
+    operational_transparency: 42.1
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +283,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-migrate/microsoft-azure-migrate-2026-06-20T185423.png
 security:
 - kind: authentication

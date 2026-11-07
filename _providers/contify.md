@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
-  - plans
-  trial: false
-  try_now: false
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Contify News API is a developer-friendly REST/JSON API that aggregates, deduplicates, and enriches business news from over a million curated sources, covering 700,000+ companies and 117+ languages
@@ -197,9 +203,9 @@ rate_limits:
   slug: contify-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 39.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,10 +216,10 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 38.1
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 40.2
+    developer_ergonomics: 33.3
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -214,9 +216,9 @@ rate_limits:
   slug: mercedes-benz-rate-limits
 score:
   band: thin
-  composite: 29.7
+  composite: 29.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -229,16 +231,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 62.5
-    operational_transparency: 39.5
-  previous_composite: 29.7
+    operational_transparency: 36.8
+  previous_composite: 29.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

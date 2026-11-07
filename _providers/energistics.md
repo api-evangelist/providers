@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,40 +99,50 @@ modified: '2026-10-23'
 name: Energistics
 nav: Providers
 network: true
-overview: 'Energistics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Standards, Energy Industry, Oil & Gas, Non‑profit Consortium, and Data Interoperability.
+overview: 'Energistics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Standards, Energy Industry, Oil and Gas, Non‑profit Consortium, and Data Interoperability.
 
 
   Energistics'' developer surface includes changelog, authentication, getting-started guide, documentation, and 6 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 18.1
+  composite: 13.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 46.4
+    developer_ergonomics: 22.6
+    discoverability: 45.5
     operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 13.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/energistics/energistics-2026-11-03T131520.png
 security:
 - kind: authentication
   name: Energistics Authentication
@@ -134,7 +156,7 @@ slug: energistics
 tags:
 - Data Standards
 - Energy Industry
-- Oil & Gas
+- Oil and Gas
 - Non‑profit Consortium
 - Data Interoperability
 - Technical Standards

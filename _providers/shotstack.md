@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,7 +76,7 @@ apis:
   description: Manage and render reusable edit templates with merge fields.
   name: Shotstack Templates API
   slug: shotstack-templates-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Shotstack Create API
@@ -163,6 +167,9 @@ network: true
 overview: 'Shotstack publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Create API, Edit API, Ingest API, and 2 more. Tagged areas include Video, Video Editing, Media, Rendering, and Generative AI.
 
 
+  The Shotstack catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Shotstack''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Shotstack Plans Pricing
@@ -173,25 +180,38 @@ rate_limits:
 - limit_count: 4
   name: Shotstack Rate Limits
   slug: shotstack-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Shotstack API Rules
+  rule_count: 65
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 1
+  slug: shotstack-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 28.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 16
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
-    contract_quality: 49.1
+    contract_governance: 13.6
+    contract_quality: 50.6
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 27.1
+    operational_transparency: 10.5
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -205,13 +225,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/shotstack/shotstack-2026-06-20T193841.png
 security:
 - kind: authentication

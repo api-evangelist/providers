@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,6 +60,11 @@ asyncapis:
   name: Contract Guard Webhooks
   slug: contract-guard-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/contract-guard/finops/contract-guard-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/contract-guard-finops.yml
 - group: agent
   href: https://artifacts.apis.io/contract-guard/agentic-access/contract-guard-agentic-access.yml
   title: ''
@@ -131,26 +152,6 @@ common:
   title: ''
   type: Website
   url: https://contract-guard-production.up.railway.app/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://contract-guard-production.up.railway.app/openapi.json
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://contract-guard-production.up.railway.app/mcp
-- group: build
-  title: ''
-  type: Postman
-  url: https://contract-guard-production.up.railway.app/postman_collection.json
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://contract-guard-production.up.railway.app/v1/products
-- group: other
-  title: ''
-  type: Health
-  url: https://contract-guard-production.up.railway.app/healthz
 coverage:
   detail: the company serves an API surface but requires credentials before any description of it can be read
   evidence:
@@ -185,7 +186,7 @@ overview: 'Contract Guard / Autonomous Utility Factory is listed with 1 API on t
   The Contract Guard / Autonomous Utility Factory catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Contract Guard / Autonomous Utility Factory''s developer surface includes CLI, authentication, getting-started guide, documentation, API reference, pricing, and 17 more developer resources.'
+  Contract Guard / Autonomous Utility Factory''s developer surface includes CLI, authentication, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Contract Guard Plans Pricing
   plan_count: 4
@@ -208,24 +209,24 @@ rules:
     warn: 1
   slug: contract-guard-rules
 score:
-  band: developing
-  composite: 44.5
+  band: thin
+  composite: 36.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.5
     catalog_earned_first_party: 12.0
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -8.7
   facets:
-    access_clarity: 65.8
+    access_clarity: 51.3
     contract_governance: 31.8
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 53.3
+    developer_ergonomics: 25.0
+    discoverability: 63.3
     operational_transparency: 7.9
-  previous_composite: 43.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -241,10 +242,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

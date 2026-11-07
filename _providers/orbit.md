@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -357,7 +358,7 @@ json_schemas:
   property_count: 10
   slug: orbit-activity
 - name: Custom Activity
-  property_count: 0
+  property_count: 1
   slug: orbit-activity-with-member
 - name: Custom Activity
   property_count: 10
@@ -405,7 +406,7 @@ json_schemas:
   property_count: 8
   slug: orbit-organization
 - name: Content Activity
-  property_count: 0
+  property_count: 1
   slug: orbit-post-activity-with-member
 - name: Content Activity
   property_count: 3
@@ -470,7 +471,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
@@ -485,6 +486,9 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
+  open_source:
+    applies: true
+    score: 0.0
   previous_composite: 0.0
   provenance:
     agentic_access: derived
@@ -502,13 +506,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/orbit/orbit-2026-08-17T124255.png
 security:
 - kind: authentication

@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Authenticated REST surface of the Kevala platform, mounted at https://api.kevala.com/der/ and implemented with Django REST Framework. Kevala's September 2024 platform release notes describe a "DER Met
@@ -197,7 +198,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: thin
-  composite: 26.6
+  composite: 27.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -211,9 +212,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 26.6
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 27.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,8 +224,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

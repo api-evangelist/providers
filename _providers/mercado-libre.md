@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Core REST API for the Mercado Libre marketplace covering items, categories, search, orders, questions, messages, users, sites, currencies, and shipping. Auth via OAuth 2.0 (authorization code).
@@ -121,9 +123,9 @@ rate_limits:
   slug: mercado-libre-rate-limits
 score:
   band: emerging
-  composite: 15.5
+  composite: 13.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -134,23 +136,23 @@ score:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 21.4
     discoverability: 78.6
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 15.5
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

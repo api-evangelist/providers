@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: true
@@ -27,7 +31,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.3
-  scored_at: '2026-10-31'
+  score: 44.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -93,7 +98,7 @@ apis:
   description: Committed sales transactions and credit notes.
   name: Kintsugi Transactions API
   slug: kintsugi-transactions-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Kintsugi Tax Address Validation API
@@ -208,6 +213,9 @@ network: true
 overview: 'Kintsugi publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address Validation API, Customers API, Exemptions API, and 6 more. Tagged areas include Sales Tax, Tax Compliance, Tax Automation, VAT, and GST.
 
 
+  The Kintsugi catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Kintsugi''s developer surface includes pricing, engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Kintsugi Plans Pricing
@@ -218,25 +226,38 @@ rate_limits:
 - limit_count: 1
   name: Kintsugi Rate Limits
   slug: kintsugi-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Kintsugi API Rules
+  rule_count: 61
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 2
+    warn: 3
+  slug: kintsugi-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 38.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 57.0
+    artifact_dirs: 19
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
-    contract_quality: 46.3
+    access_clarity: 36.8
+    contract_governance: 13.6
+    contract_quality: 47.7
     developer_ergonomics: 32.1
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 35.8
+    discoverability: 68.3
+    operational_transparency: 23.7
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -251,13 +272,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/kintsugi/kintsugi-2026-07-25T223847.png
 security:
 - kind: authentication

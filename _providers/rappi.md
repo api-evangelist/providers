@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.5
-  scored_at: '2026-10-31'
+  score: 18.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Rappi Partners REST API is the integration surface used by approved restaurants, grocery and retail merchants, and middleware/POS providers to operate on the Rappi marketplace. Authentication is O
@@ -156,10 +158,10 @@ overview: 'Rappi is listed with 1 API on the [APIs.io](https://apis.io/) network
   Rappi''s developer surface includes API reference, authentication, FAQ, engineering blog, and 14 more developer resources.'
 random_paper: 12
 score:
-  band: emerging
-  composite: 17.6
+  band: minimal
+  composite: 6.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -170,9 +172,9 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 57.1
-    operational_transparency: 21.1
+    developer_ergonomics: 1.2
+    discoverability: 60.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 17.6
+  previous_composite: 6.3
   provenance:
     mcp: first-party
   regulatory:
@@ -189,8 +191,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

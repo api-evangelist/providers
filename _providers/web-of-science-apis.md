@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -559,10 +563,10 @@ rules:
     warn: 7
   slug: web-of-science-spectral-rules
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -575,8 +579,8 @@ score:
     contract_quality: 57.2
     developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 39.6
+    operational_transparency: 10.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -590,13 +594,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/web-of-science-apis/web-of-science-apis-2026-06-20T201320.png
 security:
 - kind: authentication

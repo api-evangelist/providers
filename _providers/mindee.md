@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -507,9 +508,9 @@ rules:
   slug: mindee-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 54.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 75.4
     catalog_earned_first_party: 12.0
     catalog_gap: 39.6
@@ -523,7 +524,7 @@ score:
     developer_ergonomics: 63.1
     discoverability: 62.5
     operational_transparency: 28.9
-  previous_composite: 55.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -537,13 +538,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mindee/mindee-2026-06-20T185555.png
 security:
 - kind: authentication

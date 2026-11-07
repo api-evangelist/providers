@@ -1,16 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A single GraphQL endpoint for the Filed platform. Create clients and ingest source documents into a binder, trigger tax prep and tax advisor runs and poll them to completion, read leadsheets and revie
@@ -178,8 +181,8 @@ plans:
   slug: filed-plans-pricing
 random_paper: 12
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 40.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -193,9 +196,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 39.1
+  previous_composite: 40.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -206,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

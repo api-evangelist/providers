@@ -1,17 +1,22 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
   - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,23 +25,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-31'
+  score: 30.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +245,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.5
+  composite: 30.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.3
@@ -252,10 +258,10 @@ score:
     access_clarity: 0.0
     contract_governance: 28.0
     contract_quality: 54.4
-    developer_ergonomics: 38.1
+    developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,13 +276,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/granular/granular-2026-06-20T182321.png
 security:
 - kind: authentication

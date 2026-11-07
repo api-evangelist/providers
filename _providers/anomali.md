@@ -5,7 +5,11 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: REST API for the Anomali ThreatStream Threat Intelligence Platform — manage threat intelligence, observables, investigations, imports, and integrations. Authentication uses an apikey credential in the
@@ -273,30 +278,30 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 40.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 71.0
     catalog_earned_first_party: 12.0
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 21.1
     contract_governance: 19.7
-    contract_quality: 21.0
-    developer_ergonomics: 54.8
-    discoverability: 73.3
-    operational_transparency: 86.8
-  previous_composite: 45.2
+    contract_quality: 20.1
+    developer_ergonomics: 40.5
+    discoverability: 81.7
+    operational_transparency: 76.3
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 6
+      callable: 0.0
+      derived: 1
       marker_coverage: 100.0
-      total: 6
+      total: 1
     mcp: first-party
   regulatory:
     applies: true
@@ -304,13 +309,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/anomali/anomali-2026-07-25T200450.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +64,7 @@ apis:
   description: The Indexes API from Azure AI Search — 2 operation(s) for indexes.
   name: Azure AI Search Indexes API
   slug: microsoft-azure-search-indexes-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Azure AI Search REST Documents API
@@ -173,6 +177,9 @@ network: true
 overview: 'Azure AI Search is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Indexes API, and 1 more. Tagged areas include AI Search, Cognitive Search, Hybrid Search, Search, and Semantic Search.
 
 
+  The Azure AI Search catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure AI Search''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Microsoft Azure Search Plans Pricing
@@ -183,25 +190,38 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Azure Search Rate Limits
   slug: microsoft-azure-search-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Azure AI Search API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-azure-search-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 52.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 55.0
+    artifact_dirs: 15
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 63.2
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 46.5
-    developer_ergonomics: 57.1
+    developer_ergonomics: 54.8
     discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 50.0
+    operational_transparency: 42.1
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -215,13 +235,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-search/microsoft-azure-search-2026-06-20T185434.png
 security:
 - kind: authentication

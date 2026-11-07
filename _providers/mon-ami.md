@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.monami.io/api
@@ -124,7 +125,7 @@ apis:
   description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
-artifact_total: 40
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Mon Ami Webhooks
@@ -267,30 +268,43 @@ network: true
 overview: 'Mon Ami publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Care Plans API, Client Calls API, Clients API, and 14 more. Tagged areas include Company, Healthcare, Aging Services, Disability Services, and Case Management.
 
 
-  The Mon Ami catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mon Ami catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 13 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Mon Ami API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: mon-ami-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 42.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
+    access_clarity: 27.6
+    contract_governance: 31.8
     contract_quality: 55.0
     developer_ergonomics: 54.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 46.1
+  previous_composite: 42.7
   provenance:
     conformance: first-party
     contracts:
@@ -309,14 +323,13 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mon-ami/mon-ami-2026-08-07T184127.png
 security:
 - kind: authentication

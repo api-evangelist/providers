@@ -1,9 +1,23 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: near-conformant
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: false
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-31'
+  score: 24.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://convrgent.ai
@@ -118,7 +133,7 @@ modified: '2026-10-30'
 name: convrgent-ai
 nav: Providers
 network: true
-overview: 'convrgent-ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Convrgent API. Tagged areas include AI, Personality-Intelligence, x402, Microservices, and API.
+overview: 'convrgent-ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Convrgent API. Tagged areas include Artificial Intelligence, Personality-Intelligence, x402, and Microservices.
 
 
   The convrgent-ai catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -154,33 +169,41 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.3
+  composite: 16.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 50.5
+    artifact_dirs: 26
+    catalog_earned: 35.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 79.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.9
   facets:
     access_clarity: 0.0
-    contract_governance: 57.3
+    contract_governance: 15.9
     contract_quality: 24.0
-    developer_ergonomics: 23.1
-    discoverability: 65.0
-    operational_transparency: 5.3
+    developer_ergonomics: 10.1
+    discoverability: 56.7
+    operational_transparency: 2.6
+  previous_composite: 19.4
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/convrgent-ai/convrgent-ai-2026-11-03T125243.png
 security:
 - kind: authentication
   name: Convrgent Ai Authentication
@@ -202,10 +225,9 @@ skills:
   slug: convrgent-ai-vault-skill
 slug: convrgent-ai
 tags:
-- AI
+- Artificial Intelligence
 - Personality-Intelligence
 - x402
 - Microservices
-- API
 website: https://convrgent.ai/
 ---

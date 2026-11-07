@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -27,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-31'
+  score: 24.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -87,7 +89,7 @@ apis:
   description: The Relay API from Parsec — 2 operation(s) for relay.
   name: Parsec Relay API
   slug: parsec-relay-api
-artifact_total: 29
+artifact_total: 30
 collections:
 - collection_type: open
   name: Parsec Teams App Rule API
@@ -295,6 +297,9 @@ network: true
 overview: 'Parsec publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including App Rule API, Audit Log API, Group API, and 5 more. Tagged areas include Company, Remote Desktop, Cloud Gaming, Streaming, and Virtual Desktop.
 
 
+  The Parsec catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 plans:
 - name: Parsec Plans Pricing
@@ -308,25 +313,38 @@ rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
   slug: parsec-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Parsec API Rules
+  rule_count: 50
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 2
+  slug: parsec-rules
 score:
   band: strong
-  composite: 63.4
+  composite: 65.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 49.0
+    contract_governance: 31.8
+    contract_quality: 54.4
     developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 76.3
-  previous_composite: 61.8
+    discoverability: 73.2
+    operational_transparency: 65.8
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +361,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/parsec/parsec-2026-08-07T191456.png
 security:
 - kind: authentication

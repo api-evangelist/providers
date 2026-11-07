@@ -7,6 +7,9 @@ access_model:
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for accepting card payments (NON-3DS and 3D Secure), hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions, marketplace submerchant payments and payouts, card storage/toke
@@ -209,9 +213,9 @@ rate_limits:
   slug: iyzico-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 48.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -222,9 +226,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 76.2
-    discoverability: 66.1
-    operational_transparency: 68.4
+    developer_ergonomics: 72.6
+    discoverability: 73.2
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -233,7 +237,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 49.1
+  previous_composite: 48.8
   provenance:
     conformance: derived
     mcp: derived
@@ -243,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

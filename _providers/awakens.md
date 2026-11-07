@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
@@ -173,10 +176,10 @@ scopes:
   slug: awakens-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 26.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -188,9 +191,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 44.6
-    discoverability: 57.1
-    operational_transparency: 5.3
-  previous_composite: 25.8
+    discoverability: 64.3
+    operational_transparency: 2.6
+  previous_composite: 26.2
   provenance:
     conformance: derived
     mcp: derived
@@ -201,8 +204,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -231,7 +234,8 @@ tags:
 - Health
 - Consumer Genetics
 - Ancestry
-- Authentication
+- OAuth
 - Personal Genomics
+- Authentication
 website: https://genomelink.io
 ---

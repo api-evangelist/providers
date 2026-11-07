@@ -1,9 +1,22 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -15,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 54.0
-  scored_at: '2026-10-31'
+  score: 39.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -212,7 +226,7 @@ modified: '2026-10-29'
 name: TwitterAPI.io
 nav: Providers
 network: true
-overview: 'TwitterAPI.io publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Oapi API, Plants API, and Twitter API. Tagged areas include Company, X-API, Data-Provider, REST, and Third-Party.
+overview: 'TwitterAPI.io publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Oapi API, Plants API, and Twitter API. Tagged areas include Company, xAPI, Data Provider, REST, and Third Party.
 
 
   The TwitterAPI.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,34 +244,36 @@ rate_limits:
   slug: twitterapi-io-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 95
   extends:
   - spectral:oas
   name: TwitterAPI.io API Rules
-  rule_count: 11
+  rule_count: 54
   severity_counts:
-    error: 9
+    error: 45
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 7
   slug: twitterapi-io-rules
 score:
   band: developing
-  composite: 50.8
+  composite: 43.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 82.8
     catalog_earned_first_party: 20.0
     catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 22.0
     contract_quality: 62.0
-    developer_ergonomics: 50.0
-    discoverability: 66.1
+    developer_ergonomics: 34.5
+    discoverability: 73.2
     operational_transparency: 31.6
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,19 +282,20 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-    mcp: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/twitterapi-io/twitterapi-io-2026-11-03T145318.png
 security:
 - kind: authentication
   name: Twitterapi Io Authentication
@@ -291,9 +308,9 @@ security:
 slug: twitterapi-io
 tags:
 - Company
-- X-API
-- Data-Provider
+- xAPI
+- Data Provider
 - REST
-- Third-Party
+- Third Party
 website: https://twitterapi.io
 ---

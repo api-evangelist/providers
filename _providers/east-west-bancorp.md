@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
-  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: East West Bancorp's API surface is delivered by its banking subsidiary, East West Bank, through the Bridge Open Banking developer program for Global Transaction Services clients. Documented capabiliti
@@ -216,7 +223,7 @@ rate_limits:
   slug: east-west-bancorp-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 43.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -230,8 +237,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 28.9
+    discoverability: 73.2
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,7 +246,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.6
+  previous_composite: 43.0
   provenance:
     conformance: first-party
   regulatory:
@@ -248,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

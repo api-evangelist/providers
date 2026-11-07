@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-31'
+  score: 31.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +56,7 @@ apis:
   description: The Classify API from Lasso Security — 2 operation(s) for classify.
   name: Lasso Security Classify API
   slug: lasso-security-classify-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Lasso Security / Threat Detection Classify API
@@ -142,6 +146,9 @@ network: true
 overview: 'Lasso Security publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Classify API. Tagged areas include Artificial Intelligence, LLM, GenAI Security, Prompt Injection, and Guardrails.
 
 
+  The Lasso Security catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Lasso Security''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Lasso Security Plans Pricing
@@ -152,25 +159,38 @@ rate_limits:
 - limit_count: 3
   name: Lasso Security Rate Limits
   slug: lasso-security-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Lasso Security API Rules
+  rule_count: 61
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 2
+    warn: 1
+  slug: lasso-security-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 28.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 43.0
+    artifact_dirs: 18
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: -0.6
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 49.6
-    developer_ergonomics: 35.2
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 29.3
+    developer_ergonomics: 32.1
+    discoverability: 68.3
+    operational_transparency: 10.5
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -185,13 +205,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lasso-security/lasso-security-2026-06-20T184320.png
 security:
 - kind: authentication

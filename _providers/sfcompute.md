@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 22.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -97,7 +98,7 @@ apis:
   description: The VMs API from SF Compute — 5 operation(s) for vms.
   name: SF Compute V Ms API
   slug: sfcompute-vms-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: SF Compute API
@@ -275,6 +276,9 @@ network: true
 overview: 'SF Compute publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Balance API, Clusters API, and 7 more. Tagged areas include GPU, Compute, Marketplace, H100, and Spot Pricing.
 
 
+  The SF Compute catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SF Compute''s developer surface includes engineering blog, authentication, documentation, signup flow, pricing, changelog, support, and 16 more developer resources.'
 plans:
 - name: Sfcompute Plans Pricing
@@ -285,25 +289,38 @@ rate_limits:
 - limit_count: 4
   name: Sfcompute Rate Limits
   slug: sfcompute-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: SF Compute API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sfcompute-rules
 score:
   band: developing
-  composite: 42.9
+  composite: 40.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 52.0
+    artifact_dirs: 17
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 55.3
-    contract_governance: 0.0
+    access_clarity: 48.7
+    contract_governance: 13.6
     contract_quality: 43.9
-    developer_ergonomics: 51.2
+    developer_ergonomics: 44.0
     discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 42.9
+    operational_transparency: 26.3
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -317,13 +334,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sfcompute/sfcompute-2026-06-20T193742.png
 security:
 - kind: authentication

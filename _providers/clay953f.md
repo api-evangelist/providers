@@ -1,32 +1,54 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 50.8
-  scored_at: '2026-10-31'
+  score: 34.5
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Clay953F Agentic Access
+  operation_count: 16
+  slug: clay953f-agentic-access
+  summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
 - description: API documentation is available but machine‑readable specifications were not found.
@@ -62,8 +84,31 @@ apis:
   description: Search workflow runs by query.
   name: Clay953f Workflows Runs API
   slug: clay953f-workflowsruns-api
-artifact_total: 18
+artifact_total: 36
 common:
+- group: agent
+  href: https://artifacts.apis.io/clay953f/agentic-access/clay953f-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/clay953f-agentic-access.yml
+- group: commercial
+  href: https://artifacts.apis.io/clay953f/finops/clay953f-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/clay953f-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/clay953f-status-security.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.clay.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://university.clay.com/docs
 - group: other
   href: https://artifacts.apis.io/clay953f/capabilities/clay953f-capability-edges.yml
   title: ''
@@ -138,11 +183,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/clay953f-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/clay953f/well-known/clay953f-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/clay953f-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/clay953f/well-known/clay953f-security.txt
   title: ''
@@ -250,6 +290,58 @@ finops:
   slug: clay953f-finops
   template: false
 image: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a3ab15061812432ead96f56_Clay_Homepage_og-image%201000.png
+json_schemas:
+- name: BatchResultsInProgress
+  property_count: 4
+  slug: clay953f-batch-results-in-progress
+- name: CreateSearchRequest
+  property_count: 2
+  slug: clay953f-create-search-request
+- name: CreateSearchResponse
+  property_count: 1
+  slug: clay953f-create-search-response
+- name: NextQueryModeResultsResponse
+  property_count: 0
+  slug: clay953f-next-query-mode-results-response
+- name: NextSearchResultsBody
+  property_count: 1
+  slug: clay953f-next-search-results-body
+- name: NextSearchResultsResponse
+  property_count: 3
+  slug: clay953f-next-search-results-response
+- name: QueryResponse
+  property_count: 4
+  slug: clay953f-query-response
+- name: RunResultsComplete
+  property_count: 6
+  slug: clay953f-run-results-complete
+- name: RunResultsInProgress
+  property_count: 4
+  slug: clay953f-run-results-in-progress
+- name: RunRoutineRequest
+  property_count: 2
+  slug: clay953f-run-routine-request
+- name: RunRoutineResponse
+  property_count: 2
+  slug: clay953f-run-routine-response
+- name: RunsQueryReferenceResponse
+  property_count: 1
+  slug: clay953f-runs-query-reference-response
+- name: RunsQueryRequest
+  property_count: 3
+  slug: clay953f-runs-query-request
+- name: RunsQueryResponse
+  property_count: 0
+  slug: clay953f-runs-query-response
+- name: SearchFieldsResponse
+  property_count: 3
+  slug: clay953f-search-fields-response
+- name: StartBatchRequest
+  property_count: 2
+  slug: clay953f-start-batch-request
+- name: StructuredQueryRequest
+  property_count: 3
+  slug: clay953f-structured-query-request
 jsonld:
 - class_count: 48
   name: Clay953F Context
@@ -266,7 +358,7 @@ overview: 'Clay953f publishes 7 API contracts indexed on the [APIs.io](https://a
   The Clay953f catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clay953f''s developer surface includes changelog, authentication, sandbox, pricing, engineering blog, getting-started guide, API reference, and 29 more developer resources.'
+  Clay953f''s developer surface includes documentation, changelog, authentication, sandbox, pricing, engineering blog, getting-started guide, and 33 more developer resources.'
 plans:
 - name: Clay953F Plans Pricing
   plan_count: 3
@@ -277,37 +369,38 @@ plans:
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 111
   extends:
   - spectral:oas
   name: Clay953f API Rules
-  rule_count: 17
+  rule_count: 70
   severity_counts:
-    error: 15
+    error: 62
     hint: 0
-    info: 1
-    warn: 1
+    info: 6
+    warn: 2
   slug: clay953f-rules
 score:
   band: strong
-  composite: 54.6
+  composite: 55.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 58.8
+    artifact_dirs: 29
+    catalog_earned: 67.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 56.3
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 69.7
     contract_governance: 35.6
-    contract_quality: 56.9
-    developer_ergonomics: 42.3
-    discoverability: 50.0
-    operational_transparency: 50.0
-  previous_composite: 53.0
+    contract_quality: 63.0
+    developer_ergonomics: 44.6
+    discoverability: 56.3
+    operational_transparency: 38.2
+  previous_composite: 54.6
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -327,14 +420,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/clay953f/clay953f-2026-11-03T124324.png
 security:
 - kind: authentication
   name: Clay953F Authentication

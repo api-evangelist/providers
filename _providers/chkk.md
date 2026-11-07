@@ -1,31 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-31'
+  score: 5.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Chkk provides an Agentic Lifecycle Management Platform for cloud native projects. Documentation is available at the Docs page.
@@ -139,7 +155,7 @@ modified: '2026-10-23'
 name: Chkk
 nav: Providers
 network: true
-overview: 'Chkk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Lifecycle Management, Kubernetes, Cloud Native, and Enterprise Software.
+overview: 'Chkk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Lifecycle Management, Kubernetes, Cloud-Native, and Enterprise Software.
 
 
   Chkk''s developer surface includes CLI, authentication, pricing, engineering blog, getting-started guide, documentation, API reference, and 13 more developer resources.'
@@ -150,21 +166,29 @@ plans:
 random_paper: 9
 score:
   band: thin
-  composite: 34.1
+  composite: 26.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.4
   facets:
-    access_clarity: 71.1
+    access_clarity: 51.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 48.2
-    operational_transparency: 5.3
+    developer_ergonomics: 34.5
+    discoverability: 55.4
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: unknown
@@ -179,13 +203,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/chkk/chkk-2026-11-03T124057.png
 security:
 - kind: authentication
   name: Chkk Authentication
@@ -199,7 +225,7 @@ slug: chkk
 tags:
 - Lifecycle Management
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Enterprise Software
 website: https://www.chkk.io/
 ---

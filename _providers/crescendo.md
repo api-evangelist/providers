@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-31'
+  score: 29.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -71,7 +72,7 @@ apis:
   description: Upload recordings for VOC processing.
   name: Crescendo VOC API
   slug: crescendo-voc-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Crescendo Platform MCP API
@@ -195,6 +196,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.crescendo.ai/guides/diy-ai
 created: '2026-07-17'
 description: Crescendo is an AI-native customer experience (CX) platform that unifies AI agents for chat, voice, email, and messaging with quality assurance, workforce management, and business insights. The Crescendo Platform API (OpenAPI 3.1) is a tenant-scoped HTTP API for provisioning tenant configuration and documents, exporting assistant and voice-of-customer (VOC) conversations for reporting with cursor pagination, uploading audio recordings for asynchronous VOC processing, and driving assistants through a hosted Model Context Protocol (MCP) bots server over Streamable HTTP. Authentication is a tenant-scoped bearer API key. Crescendo is backed by General Catalyst and Trinity Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo.png
@@ -210,27 +215,43 @@ network: true
 overview: 'Crescendo publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer Service, Artificial Intelligence, and AI Agents.
 
 
-  Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 17 more developer resources.'
+  The Crescendo catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Crescendo API Rules
+  rule_count: 52
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 4
+    warn: 1
+  slug: crescendo-rules
 score:
-  band: thin
-  composite: 35.9
+  band: developing
+  composite: 40.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 48.5
     developer_ergonomics: 58.9
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 35.9
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,13 +268,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/crescendo/crescendo-2026-07-25T210727.png
 security:
 - kind: authentication
@@ -283,5 +303,7 @@ tags:
 - Conversational AI
 - Voice of Customer
 - MCP
+- Platform
+- Automation
 website: https://www.crescendo.ai
 ---

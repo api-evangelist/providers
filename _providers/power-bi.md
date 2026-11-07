@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: na
+    mcp_tool_quality: na
+    openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-31'
+  score: 30.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,8 +49,14 @@ agentic_access:
   operation_count: 36
   slug: power-bi-agentic-access
   summary_line: 36 operations · 14 acting
-api_count: 1
+api_count: 2
 apis:
+- description: Microsoft-hosted (preview) and local stdio (GA) MCP server that lets AI agents create, change, validate and document Power BI semantic models, run DAX, and work with TMDL and PBIP files.
+  name: Power BI Authoring MCP Server
+  slug: power-bi-authoring-mcp-server
+- description: Remote MCP endpoint (preview) where AI agents query Power BI semantic models in natural language, generating and executing DAX under the user's permissions.
+  name: Power BI Consumption MCP Server
+  slug: power-bi-consumption-mcp-server
 - description: Azure service that enables ISVs and developers to embed Power BI visuals, reports, and dashboards into their applications.
   name: Power BI Embedded
   slug: power-bi-embedded
@@ -398,6 +409,71 @@ apis:
     question: Which reports are in a shared team workspace?
   phrasing_ops: 8
   slug: microsoft-power-bi-reports-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Admin API from Power BI — 55 operation(s) for admin.
+  name: Power BI Admin API
+  slug: power-bi-admin-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The AvailableFeatures API from Power BI — 2 operation(s) for availablefeatures.
+  name: Power BI Available Features API
+  slug: power-bi-availablefeatures-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The DataflowStorageAccounts API from Power BI — 2 operation(s) for dataflowstorageaccounts.
+  name: Power BI Dataflow Storage Accounts API
+  slug: power-bi-dataflowstorageaccounts-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The GoalNotes_(Preview) API from Power BI — 2 operation(s) for goalnotes_(preview).
+  name: Power BI Goal Notes (Preview) API
+  slug: power-bi-goalnotes-preview-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Goals_(Preview) API from Power BI — 7 operation(s) for goals_(preview).
+  name: Power BI Goals (Preview) API
+  slug: power-bi-goals-preview-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The GoalsStatusRules_(Preview) API from Power BI — 1 operation(s) for goalsstatusrules_(preview).
+  name: Power BI Goals Status Rules (Preview) API
+  slug: power-bi-goalsstatusrules-preview-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The GoalValues_(Preview) API from Power BI — 2 operation(s) for goalvalues_(preview).
+  name: Power BI Goal Values (Preview) API
+  slug: power-bi-goalvalues-preview-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Pipelines API from Power BI — 12 operation(s) for pipelines.
+  name: Power BI Pipelines API
+  slug: power-bi-pipelines-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Profiles API from Power BI — 2 operation(s) for profiles.
+  name: Power BI Profiles API
+  slug: power-bi-profiles-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The PushDatasets API from Power BI — 8 operation(s) for pushdatasets.
+  name: Power BI Push Datasets API
+  slug: power-bi-pushdatasets-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Scorecards_(Preview) API from Power BI — 4 operation(s) for scorecards_(preview).
+  name: Power BI Scorecards (Preview) API
+  slug: power-bi-scorecards-preview-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The TemplateApps API from Power BI — 1 operation(s) for templateapps.
+  name: Power BI Template Apps API
+  slug: power-bi-templateapps-api
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: The Users API from Power BI — 1 operation(s) for users.
+  name: Power BI Users API
+  slug: power-bi-users-api
 arazzos:
 - description: Walk from the dashboard list down to a single tile and capture the embed URL, report, and dataset it needs.
   name: Power BI Resolve a Dashboard Tile for Embedding
@@ -435,7 +511,7 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 271
+artifact_total: 306
 collections:
 - collection_type: postman
   name: Power BI REST Dashboards API
@@ -477,6 +553,57 @@ collections:
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/power-bi/developer/embedded/embedded-analytics-power-bi-changelog
+- group: design
+  href: https://artifacts.apis.io/power-bi/rules/power-bi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/power-bi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/power-bi/rules/power-bi-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/power-bi-rules.yml
+- group: design
+  href: https://artifacts.apis.io/power-bi/rules/power-bi-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/power-bi-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/power-bi/vocabulary/power-bi-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/power-bi-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: other
+  href: https://artifacts.apis.io/power-bi/hosts/power-bi-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/power-bi-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/power-bi/integrations/power-bi-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/power-bi-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/power-bi/vendors/power-bi-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/power-bi-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
 - group: commercial
   href: https://artifacts.apis.io/power-bi/plans/power-bi-plans-pricing.yml
   title: ''
@@ -1064,10 +1191,19 @@ integrations:
 json_schemas:
 - name: CloneReportRequest
   property_count: 3
+  slug: power-bi-clone-report-request
+- name: CloneReportRequest
+  property_count: 3
   slug: power-bi-clonereportrequest
 - name: Column
   property_count: 5
   slug: power-bi-column
+- name: CreateDashboardRequest
+  property_count: 1
+  slug: power-bi-create-dashboard-request
+- name: CreateDatasetRequest
+  property_count: 4
+  slug: power-bi-create-dataset-request
 - name: CreateDashboardRequest
   property_count: 1
   slug: power-bi-createdashboardrequest
@@ -1077,12 +1213,18 @@ json_schemas:
 - name: CreateGroupRequest
   property_count: 1
   slug: power-bi-creategrouprequest
+- name: DashboardList
+  property_count: 2
+  slug: power-bi-dashboard-list
 - name: Dashboard
   property_count: 6
   slug: power-bi-dashboard
 - name: DashboardList
   property_count: 2
   slug: power-bi-dashboardlist
+- name: DatasetList
+  property_count: 2
+  slug: power-bi-dataset-list
 - name: Power BI Dataset
   property_count: 18
   slug: power-bi-dataset
@@ -1098,6 +1240,12 @@ json_schemas:
 - name: ErrorResponse
   property_count: 1
   slug: power-bi-errorresponse
+- name: GatewayDatasourceList
+  property_count: 2
+  slug: power-bi-gateway-datasource-list
+- name: GatewayList
+  property_count: 2
+  slug: power-bi-gateway-list
 - name: Gateway
   property_count: 5
   slug: power-bi-gateway
@@ -1110,9 +1258,21 @@ json_schemas:
 - name: GatewayList
   property_count: 2
   slug: power-bi-gatewaylist
+- name: GenericList
+  property_count: 1
+  slug: power-bi-generic-list
+- name: GenericObject
+  property_count: 0
+  slug: power-bi-generic-object
+- name: GroupList
+  property_count: 2
+  slug: power-bi-group-list
 - name: Group
   property_count: 7
   slug: power-bi-group
+- name: GroupUser
+  property_count: 6
+  slug: power-bi-group-user
 - name: GroupList
   property_count: 2
   slug: power-bi-grouplist
@@ -1122,6 +1282,9 @@ json_schemas:
 - name: GroupUserList
   property_count: 2
   slug: power-bi-groupuserlist
+- name: ImportList
+  property_count: 2
+  slug: power-bi-import-list
 - name: Import
   property_count: 7
   slug: power-bi-import
@@ -1131,6 +1294,9 @@ json_schemas:
 - name: Measure
   property_count: 4
   slug: power-bi-measure
+- name: PageList
+  property_count: 2
+  slug: power-bi-page-list
 - name: Page
   property_count: 3
   slug: power-bi-page
@@ -1145,7 +1311,16 @@ json_schemas:
   slug: power-bi-parameterlist
 - name: RebindReportRequest
   property_count: 1
+  slug: power-bi-rebind-report-request
+- name: RebindReportRequest
+  property_count: 1
   slug: power-bi-rebindreportrequest
+- name: RefreshList
+  property_count: 2
+  slug: power-bi-refresh-list
+- name: RefreshRequest
+  property_count: 5
+  slug: power-bi-refresh-request
 - name: Refresh
   property_count: 7
   slug: power-bi-refresh
@@ -1158,6 +1333,9 @@ json_schemas:
 - name: Relationship
   property_count: 6
   slug: power-bi-relationship
+- name: ReportList
+  property_count: 2
+  slug: power-bi-report-list
 - name: Power BI Report
   property_count: 17
   slug: power-bi-report
@@ -1281,12 +1459,18 @@ json_schemas:
 - name: Table
   property_count: 4
   slug: power-bi-table
+- name: TileList
+  property_count: 2
+  slug: power-bi-tile-list
 - name: Tile
   property_count: 9
   slug: power-bi-tile
 - name: TileList
   property_count: 2
   slug: power-bi-tilelist
+- name: UpdateParametersRequest
+  property_count: 1
+  slug: power-bi-update-parameters-request
 - name: UpdateParametersRequest
   property_count: 1
   slug: power-bi-updateparametersrequest
@@ -1422,20 +1606,20 @@ modified: '2026-06-20'
 name: Power BI
 nav: Providers
 network: true
-overview: 'Power BI publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 19 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
+overview: 'Power BI publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 34 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
 
 
-  The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 62 more developer resources.'
+  Power BI''s developer surface includes getting-started guide, authentication, sandbox, changelog, CLI, developer portal, engineering blog, and 73 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 8
   slug: power-bi-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 4
+- limit_count: 5
   name: Power Bi Rate Limits
   slug: power-bi-rate-limits
 rules:
@@ -1450,6 +1634,18 @@ rules:
     info: 2
     warn: 4
   slug: power-bi-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Power BI API Rules
+  rule_count: 66
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 2
+    warn: 17
+  slug: power-bi-rules
 - authorship: generated
   effective_rule_count: 57
   extends:
@@ -1469,23 +1665,23 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.4
+  composite: 78.3
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 64.5
-    catalog_earned_first_party: 12.0
-    catalog_gap: 50.5
+    artifact_dirs: 40
+    catalog_earned: 87.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 60.7
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 63.8
     developer_ergonomics: 95.7
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 72.4
+    discoverability: 75.0
+    operational_transparency: 84.2
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1493,21 +1689,20 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
-    mcp: derived
+      total: 23
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/power-bi/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication
@@ -1525,7 +1720,7 @@ security:
 - kind: trust-center
   name: Power Bi Trust Center
   slug: power-bi-trust-center
-  summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, PCI DSS, HIPAA / HITECH, HITRUST, FedRAMP, GDPR, CSA STAR
+  summary_line: GDPR
 slug: power-bi
 tags:
 - Analytics

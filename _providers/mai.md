@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The one public, callable API MAI publishes. A single unauthenticated write-only endpoint, POST /api/collect, that ingests first-party commerce events from a merchant's storefront — product views, cart
@@ -188,23 +189,23 @@ rate_limits:
   slug: mai-rate-limits
 score:
   band: thin
-  composite: 31.0
+  composite: 29.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 46.5
     catalog_earned_first_party: 8.0
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.1
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 2.0
     developer_ergonomics: 33.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 5.3
-  previous_composite: 31.0
+  previous_composite: 24.4
   provenance:
     conformance: derived
   regulatory:
@@ -212,10 +213,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 22.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

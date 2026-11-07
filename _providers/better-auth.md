@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 13.0
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints that the developer mounts under their own do
@@ -163,9 +165,9 @@ rate_limits:
   slug: better-auth-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 21.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -177,9 +179,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 71.4
+    discoverability: 73.3
     operational_transparency: 26.3
-  previous_composite: 13.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 21.8
   provenance:
     mcp: first-party
   regulatory:
@@ -188,8 +193,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

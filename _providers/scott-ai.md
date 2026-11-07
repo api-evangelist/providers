@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-31'
+  score: 32.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -196,7 +197,7 @@ apis:
   description: The .well Known API from Scott Ai — 1 operation(s) for .well known.
   name: Scott Ai .well Known API
   slug: scott-ai-well-known-api
-artifact_total: 68
+artifact_total: 69
 collections:
 - collection_type: open
   name: One-Shot access API
@@ -445,27 +446,43 @@ network: true
 overview: 'Scott Ai publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Agent Counsel API, Agent Counsel Internal API, and 27 more. Tagged areas include Company, Coding Agents, Artificial Intelligence, Developer Tools, and Collaboration.
 
 
+  The Scott Ai catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 24 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Scott Ai API Rules
+  rule_count: 47
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 4
+    warn: 9
+  slug: scott-ai-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 46.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 42.2
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 43.0
     developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 10.5
-  previous_composite: 44.3
+    discoverability: 71.7
+    operational_transparency: 5.3
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -482,13 +499,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/scott-ai/scott-ai-2026-08-17T081735.png
 security:
 - kind: authentication

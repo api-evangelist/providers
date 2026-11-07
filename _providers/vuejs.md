@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -199,9 +200,9 @@ rules:
   slug: vuejs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.8
+  composite: 27.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 51.8
     catalog_earned_first_party: 0.0
     catalog_gap: 63.3
@@ -212,18 +213,18 @@ score:
     access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 17.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 67.9
     operational_transparency: 28.9
-  previous_composite: 27.8
+  previous_composite: 27.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
+  confidence: low
+  label: Freemium
   onboarding: unknown
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 9.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Single REST API spanning Cryptocurrency endpoints (listings, quotes, OHLCV, market pairs, historical), Exchange endpoints (listings, quotes, market pairs), DEX/on-chain data (networks, dexes, spot pai
@@ -130,7 +132,7 @@ rate_limits:
   slug: coinmarketcap-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 43.0
@@ -143,10 +145,10 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 16.3
+    developer_ergonomics: 25.0
+    discoverability: 68.3
+    operational_transparency: 10.5
+  previous_composite: 15.5
   provenance:
     mcp: first-party
   regulatory:
@@ -155,8 +157,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

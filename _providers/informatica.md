@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -120,6 +121,28 @@ collections:
   name: Informatica IICS Platform REST Authentication Schedules API
   slug: open-informatica-schedules-api
 common:
+- group: auth
+  href: https://artifacts.apis.io/informatica/well-known/informatica-apis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/informatica-apis-security.txt
+- group: build
+  href: https://artifacts.apis.io/informatica/integrations/informatica-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/informatica-integration-edges.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.informatica.com/terms-of-use.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.informatica.com/privacy-policy.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.informatica.com/pricing.html
 - group: commercial
   href: https://artifacts.apis.io/informatica/finops/informatica-finops.yml
   title: ''
@@ -195,21 +218,11 @@ common:
   title: ''
   type: Conformance
   url: conformance/informatica-conformance.yml
-- group: other
-  href: https://artifacts.apis.io/informatica/a2a/informatica-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/informatica-a2a.yml
 - group: auth
   href: https://artifacts.apis.io/informatica/well-known/informatica-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/informatica-security.txt
-- group: auth
-  href: https://artifacts.apis.io/informatica/well-known/informatica-apis-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/informatica-apis-security.txt
 - group: agent
   href: https://artifacts.apis.io/informatica/well-known/informatica-well-known.yml
   title: ''
@@ -689,7 +702,7 @@ overview: 'Informatica publishes 12 API contracts indexed on the [APIs.io](https
   The Informatica catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Informatica''s developer surface includes getting-started guide, API reference, authentication, developer portal, documentation, support, engineering blog, and 36 more developer resources.'
+  Informatica''s developer surface includes pricing, getting-started guide, API reference, authentication, developer portal, documentation, support, and 39 more developer resources.'
 plans:
 - name: Informatica Plans Pricing
   plan_count: 3
@@ -712,16 +725,16 @@ rules:
     warn: 3
   slug: informatica-jsonschema-spectral-rules
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 116
   extends:
   - spectral:oas
   name: Informatica API Rules
-  rule_count: 17
+  rule_count: 75
   severity_counts:
-    error: 15
+    error: 67
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 6
   slug: informatica-rules
 - authorship: generated
   effective_rule_count: 57
@@ -736,24 +749,24 @@ rules:
     warn: 7
   slug: informatica-spectral-rules
 score:
-  band: developing
-  composite: 52.3
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 6.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 57.9
     contract_governance: 31.8
-    contract_quality: 66.3
-    developer_ergonomics: 66.1
+    contract_quality: 69.7
+    developer_ergonomics: 63.7
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 50.7
+    operational_transparency: 26.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -769,14 +782,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/informatica/informatica-2026-06-20T183340.png
 security:
 - kind: authentication

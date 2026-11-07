@@ -1,14 +1,17 @@
 ---
 access_model:
   confidence: high
-  label: Free trial · Self-serve signup
-  onboarding: self-serve
-  pricing: free-trial
-  public: false
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
   - plans
-  trial: true
-  try_now: true
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -166,7 +170,7 @@ rate_limits:
   slug: textla-inc-rate-limits
 score:
   band: thin
-  composite: 31.3
+  composite: 32.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 39.0
@@ -180,9 +184,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 32.0
   provenance:
     conformance: first-party
   regulatory:
@@ -191,8 +195,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 26.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

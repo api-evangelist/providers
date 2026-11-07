@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.25.0
-last_updated: '2026-10-15'
+schema_version: 0.27.0
+last_updated: '2026-11-06'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,47 +22,31 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.25.0
+  version: 0.27.0
   body: |
-    PUBLISHED 22 OCTOBER 2026, the second weekly release. Two new graded agent-readiness
-    dimensions, five corrections to how we credit what a provider publishes, and no weight or
-    band-cut changes. Against the 0.24.0 scores, measured on the full catalog (31,234 providers,
-    same pages): 2,318 composites move by more than 0.05 (2,315 up, 3 down, median +1.4, range
-    -1.4 to +4.5) and 247 change band. Agent readiness moves for 7,889 (6,449 up, median +1.4,
-    range -4.1 to +9.9), with 468 band changes. No band share moved enough to need a re-cut.
-    Our own record: apis.io 93.6 -> 93.8, agent readiness 77.5 -> 78.7.
+    Three changes. No provider goes down.
 
-    PAGINATION, 5 POINTS, GRADED (roadmap#982). The share of collection GETs that declare a page,
-    limit, offset or cursor parameter, a Link header or a next/cursor field. Paginated at 0.9 or
-    more, partial at 0.5; not applicable, and out of the denominator, with no collection GETs.
+    Contract provenance: the first-party share of a provider's OpenAPI corpus now pays. 0.23.0 lowered
+    `unknown` to 0.90 so declared authorship would be worth something, but an OpenAPI corpus had no
+    first-party state: a spec stamped `method: harvested` against the provider's own source was
+    credited like an unmarked one, and a corpus with a few derived specs slid down from 0.90. The
+    first-party share now lifts the credit from 0.90 toward 1.00; derived, scaffold and
+    platform-generated corpora are unchanged.
 
-    DISTINCT OPERATIONS, 3 POINTS, GRADED (roadmap#983). The share of operations whose summary is
-    unique within its document. An agent choosing between two operations described the same way
-    is guessing. Not applicable without two summarised operations.
+    Contract governance: overlay_published becomes graded (roadmap#809). A hosted OpenAPI Overlay still
+    earns the full 4 points. A provider with no Overlay but with PUBLIC evidence of a CI-enforced spec
+    bundling pipeline -- a Redocly, Fern or Speakeasy config run by a pull_request workflow in its own
+    GitHub org -- now earns half. Linters (Spectral) and SDK generators do not count: they govern or
+    consume the contract, they do not produce it. Evidence is probed read-only from public GitHub and
+    recorded in _data/spec-pipeline.json.
 
-    PER-OPERATION CHECKS SKIP A DOCUMENT WITH NO OPERATIONS (roadmap#986). A webhooks-only split
-    was failing seven checks it had nothing to be measured on.
+    Agent readiness: a live x402 payment challenge now earns agentic commerce, graded like UCP and ACP.
+    The probe sends an unauthenticated GET, requires a 402 with protocol evidence, refuses catch-all
+    hosts, and pays nothing. Results are recorded in _data/x402-adoption.json.
 
-    A SECURITY DISCLOSURE IS CREDITED WHERE IT IS PUBLISHED (roadmap#524): a Security,
-    VulnerabilityDisclosure or SecurityTxt pointer, or a served security.txt -- not a Security link
-    that leads to an authentication page.
-
-    AGENTIC ACCESS FROM THE SERVED CONTRACT (roadmap#981). x-agentic-* extensions in the document
-    a provider serves earn full credit; our derived file keeps its provenance-graded floor.
-
-    AN MCP SERVER SERVED BY ANOTHER RECORD (roadmap#958): a product whose MCPServer pointer names a
-    server verified, with a live probe, under its parent inherits that grade. A docs page claimed as
-    an endpoint does not.
-
-    AUTHORSHIP, BOTH DIRECTIONS. Our own Arazzo workflows and vocabularies are now credited as ours
-    (roadmap#527: 4,636 Arazzo files on 513 providers, 18 vocabularies, unknown -> derived), and a
-    working contract split from a provider's own published document, verified by fetch, is now
-    credited as theirs (roadmap#793: about 21,000 contracts on about 1,250 providers, unknown ->
-    first-party). Both apply from this release's first build.
-
-    OBSERVED, NOT SCORED: MCP tool quality (roadmap#994) -- annotations, parameter descriptions,
-    hazard hints and tool-list weight, graded from 596 live tools/list captures. It scores nothing in
-    0.25.0 and is proposed as a 6-point dimension for 0.26.0.
+    Modelled 2026-11-04 on the full catalog of 37,880 providers, same pages under both rubrics.
+    Composite: 2,213 move, all up, median +1.1, at most +2.2; 155 band changes, all upward. Agent
+    readiness: 8 move, all up, at most +3.9; no agent band changes. No band is re-cut.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -90,6 +74,10 @@ aliases:
     - Spectral
     - Spectral Rules
     - SpectralRuleset
+    - OpenLint
+    - OpenLint Rules
+    - OpenLintRules
+    - OpenLintRuleset
     - Rules
   GitHubOrganization:
     - GitHubOrg
@@ -505,6 +493,9 @@ provenance:
   author_markers:
     methods: [declared, authored, published, self-reported]
     requires: [publisher, source]
+  # 0.27.0 — the first-party share of an OpenAPI corpus lifts its credit from `unknown` toward
+  # `first-party` (score.rb openapi_first_party_lift). Absent, the corpus stays graded as 0.26.0.
+  first_party_share_lifts: true
   credit:
     first-party: 1.00
     conformance: 0.75
@@ -2398,7 +2389,8 @@ artifacts:
         label: Publishes an OpenAPI Overlay
         facet: contract_governance
         points: 4
-        rule: 'apis.yml carries an Overlay pointer to an http(s) URL the provider hosts; a local overlays/ file (generated by our enrichment) does not count'
+        rule: 'apis.yml carries an Overlay pointer to an http(s) URL the provider hosts (full credit); otherwise, public evidence of a CI-enforced bundling pipeline -- a Redocly/Fern/Speakeasy config run by a pull_request workflow in the provider''s own GitHub org -- earns pipeline_credit. A local overlays/ file (generated by our enrichment) does not count'
+        pipeline_credit: 0.5
         description: >
           An OpenAPI Overlay — the provider expressing a repeatable, versioned
           transformation of its own contract rather than hand-editing it. Evidence of a
@@ -4030,7 +4022,7 @@ agent_readiness:
       credit:
         self: 1.00
         platform: 0.25
-      signal: 'a parsing /.well-known/ucp.json or acp.json declaring a version and at least one service — `self` when its endpoints are on the provider''s own domain, `platform` when they are on a vendor''s'
+      signal: 'a parsing /.well-known/ucp.json or acp.json declaring a version and at least one service, OR (0.27) a live x402 payment challenge from _data/x402-adoption.json — `self` when its endpoints are on the provider''s own domain, `platform` when they are on a vendor''s'
       description: >
         197 providers hold a real, parsing `/.well-known/ucp.json` and every one scored
         zero before this: `well_known_catalog` credits only api-catalog, security.txt
@@ -4047,7 +4039,15 @@ agent_readiness:
         exists — a buyer's agent can transact there.
         A PARSING DOCUMENT IS NOT ENOUGH: a version and at least one declared service
         are required, or it is a stub at the right path.
-        NO AP2 CHECK AND NO x402 CHECK. AP2 defines no well-known path and no pointer —
+        0.27.0 (Kin, 2026-10-28: "x402 is agentic commerce"): a live x402 payment challenge now
+        earns this dimension. The measurement this description said the surface did not permit
+        exists: engine/probe-x402-adoption.py sends an unauthenticated GET to each declared API
+        base, requires a 402 AND protocol evidence (an x402 header, or a body with x402Version /
+        accepts[]), and refuses any host whose made-up path answers the same way (catch-all). It
+        pays nothing. Results are snapshotted in signals/_data/x402-adoption.json (2026-10-28:
+        9 adopters of 132 tagged x402; 0 catch-all). Graded like UCP/ACP — self on the provider's
+        own domain, platform on a vendor's.
+        NO AP2 CHECK. (The x402 half of what follows is superseded above.) AP2 defines no well-known path and no pointer —
         its artifacts are SD-JWT mandate chains presented in-band at transaction time,
         under authentication, so nothing anonymous is ever fetchable; 0 of the 197 UCP
         documents reference it. x402 is a 402 plus a response header and needs a live
@@ -4078,6 +4078,35 @@ agent_readiness:
         0.25.0 (roadmap#983, step 1). An agent choosing a tool by its description cannot tell two identical
         summaries apart, and it is the cheapest agent-readiness failure to fix. Distinct at 98% unique,
         mostly at 90%. Exact and normalised matches only; embedding distance is a later step.
+    - id: mcp_tool_quality
+      label: MCP Tool Quality
+      points: 6
+      graded: true
+      credit:
+        full: 1.0
+        three_quarters: 0.75
+        half: 0.5
+        quarter: 0.25
+      manifest_check: tool_quality
+      signal: 'graded from the `tool_quality` block of the provider''s mcp/ manifest (a live tools/list capture, mcp_tool_quality.py); the 0-1 credit of the four sub-checks, rounded to the nearest quarter; na with no capture or a platform-authored server'
+      subchecks:
+        - id: annotations
+          points: 2
+          rule: 'share of tools carrying readOnlyHint or destructiveHint; full credit at >= 90%, linear below'
+        - id: param_descriptions
+          points: 2
+          rule: 'share of parameters with a description; full credit at >= 90%, linear below; no parameters = full credit'
+        - id: hazard_hints
+          points: 1
+          rule: 'no state-changing tool (name heuristic) is missing a destructiveHint'
+        - id: weight
+          points: 1
+          rule: '0.5 for a tool list under 20k tokens, plus 0.5 for no single tool over 1,200 tokens'
+      description: >
+        0.26.0 (roadmap#994, promoted from the 0.25 observed signal). Whether an agent can use a server's
+        tools safely and cheaply: annotated hazards, described parameters, and a tool list that fits in a
+        context window. Not applicable without a live capture, or for a platform-authored server whose tool
+        shape is not the provider's design (mcp_server already discounts those).
   # Cut points calibrated against the real distribution (re-cut 2026-07-28,
   # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
@@ -4455,49 +4484,6 @@ agent_readiness:
         a detector keyed on the word would false-positive, which is why the
         probe keys on the registration API and not the name — and why
         Pixeltable correctly reads `none` in the snapshot.
-
-    # roadmap#994 (approved 2026-10-20) — ONE release observed, then 6 points in a later
-    # release. Unlike the boolean signals above this one is GRADED: score.rb computes the
-    # 0-1 credit and the four sub-checks per provider, prints the applicable count, and
-    # carries the breakdown in --explain under `observed`. It touches no facet, no `raw`,
-    # no `max` -- composite and agent readiness are unchanged by construction.
-    - id: mcp_tool_quality
-      label: MCP Tool Quality
-      signal: 'graded from the `tool_quality` block of the provider''s mcp/ manifest (a live tools/list capture, mcp_tool_quality.py)'
-      manifest_check: tool_quality
-      graded: true
-      points_when_promoted: 6
-      observed_at: '2026-10-20'
-      observed_basis: >
-        Captures refreshed 2026-10-20 (all/0-working/refresh-mcp-tool-captures.py:
-        initialize + tools/list only, anonymous, no tool called) and recorded with
-        record-mcp-tool-quality.py. See roadmap#994 for the measurements.
-      promote_at_basis: >
-        Not an adoption line: every provider with a capture is measurable today.
-        Promotion waits one release so the refreshed captures and the projected
-        movement (median +1.4, range -2.3 to +4.0 on 298 in-scope providers) are
-        seen before any point moves -- pending Kin.
-      not_applicable:
-        - no live tools/list capture recorded in the mcp/ manifest
-        - platform-authored server (mcp-authorship.json `platform`, or another party's server per provenance) -- its tool shape is not the provider's design
-      subchecks:
-        - id: annotations
-          points: 2
-          rule: 'share of tools carrying readOnlyHint or destructiveHint; full credit at >= 90%, linear below'
-        - id: param_descriptions
-          points: 2
-          rule: 'share of parameters with a description; full credit at >= 90%, linear below; no parameters = full credit'
-        - id: hazard_hints
-          points: 1
-          rule: 'no state-changing tool (name heuristic) is missing a destructiveHint'
-        - id: weight
-          points: 1
-          rule: '0.5 when the whole tool list is under 20,000 tokens, plus 0.5 when no single tool exceeds 1,200 tokens (chars/3.6)'
-      description: >
-        Grades the tool list itself, which nothing else in the rubric reads:
-        mcp_server grades provenance and deployment, not whether an agent can use
-        the tools well. Learned from Glimind's MCP audit, restricted to the parts
-        computable from one anonymous initialize + tools/list. Recorded, not scored.
 
   # What is queued next, and why each is waiting:
   planned_dimensions:

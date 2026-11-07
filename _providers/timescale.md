@@ -1,18 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,18 +27,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-31'
+  score: 33.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -553,23 +555,23 @@ rules:
   slug: timescale-rules
 score:
   band: exemplar
-  composite: 73.0
+  composite: 70.2
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 80.0
     catalog_earned_first_party: 12.0
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 19.7
     contract_quality: 59.6
-    developer_ergonomics: 89.9
-    discoverability: 65.0
-    operational_transparency: 63.2
-  previous_composite: 71.4
+    developer_ergonomics: 82.7
+    discoverability: 75.0
+    operational_transparency: 60.5
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -594,13 +596,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/timescale/timescale-2026-08-17T082356.png
 security:
 - kind: authentication

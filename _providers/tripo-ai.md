@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -162,9 +164,9 @@ rate_limits:
   slug: tripo-ai-rate-limits
 score:
   band: emerging
-  composite: 17.3
+  composite: 16.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -175,18 +177,21 @@ score:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 7.1
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 17.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

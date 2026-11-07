@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 27.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -166,7 +167,7 @@ apis:
   description: The User API from Quantum Art — 1 operation(s) for user.
   name: Quantum Art User API
   slug: quantum-art-user-api
-artifact_total: 52
+artifact_total: 53
 collections:
 - collection_type: open
   name: QaaS Backend admin API
@@ -357,27 +358,43 @@ network: true
 overview: 'Quantum Art publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Apple Touch Icon.png API, Artifacts API, and 21 more. Tagged areas include Company, Quantum Computing, Quantum as a Service, Qiskit, and Developer Tools.
 
 
+  The Quantum Art catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Quantum Art''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 18 more developer resources.'
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Quantum Art API Rules
+  rule_count: 48
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 4
+  slug: quantum-art-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 32.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 41.4
     developer_ergonomics: 42.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -394,13 +411,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/quantum-art/quantum-art-2026-09-02T152619.png
 security:
 - kind: authentication

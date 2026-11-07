@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Open-source 9B-parameter image-text-to-text multimodal model designed for digital agents - simple architecture, arbitrary image resolutions, and strong UI/document understanding. Self-hosted only - no
@@ -129,7 +131,7 @@ score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -150,8 +152,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

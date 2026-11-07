@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,11 +36,16 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
+- group: auth
+  href: https://artifacts.apis.io/coveralls/well-known/coveralls-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/coveralls-status-security.txt
 - group: commercial
   title: ''
   type: TermsOfService
@@ -42,11 +59,6 @@ common:
   title: ''
   type: Compliance
   url: https://trust.coveralls.io/
-- group: auth
-  href: https://artifacts.apis.io/coveralls/well-known/coveralls-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/coveralls-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/coveralls/well-known/coveralls-well-known.yml
   title: ''
@@ -134,7 +146,7 @@ modified: '2026-10-26'
 name: Coveralls
 nav: Providers
 network: true
-overview: 'Coveralls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CodeCoverage, CIIntegration, OpenSource, and SaaS.
+overview: 'Coveralls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Coverage, CI Integration, Open Source, and Software-as-a-Service.
 
 
   Coveralls'' developer surface includes getting-started guide, documentation, pricing, signup flow, engineering blog, and 15 more developer resources.'
@@ -144,22 +156,24 @@ plans:
   slug: coveralls-plans-pricing
 random_paper: 11
 score:
-  band: thin
-  composite: 32.3
+  band: emerging
+  composite: 23.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.7
   facets:
-    access_clarity: 81.6
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 21.4
     discoverability: 48.2
-    operational_transparency: 31.6
+    operational_transparency: 23.7
+  previous_composite: 32.3
   provenance:
     mcp: unknown
   regulatory:
@@ -167,13 +181,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 10.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/coveralls/coveralls-2026-11-03T125445.png
 security:
 - kind: domain-security
   name: Coveralls Domain Security
@@ -186,9 +202,9 @@ security:
 slug: coveralls
 tags:
 - Company
-- CodeCoverage
-- CIIntegration
-- OpenSource
-- SaaS
+- Code Coverage
+- CI Integration
+- Open Source
+- Software-as-a-Service
 website: https://coveralls.io/
 ---

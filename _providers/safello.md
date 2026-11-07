@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-31'
+  score: 34.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -87,7 +91,7 @@ arazzos:
 - description: BankID auth, email verification, terms acceptance, and KYC to reach a trade-ready customer.
   name: Safello — onboard a customer with BankID
   slug: safello-onboard-customer
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: Safello account API
@@ -270,8 +274,24 @@ network: true
 overview: 'Safello publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Compliance API, and 4 more. Tagged areas include Company, Fintech, Cryptocurrency, Bitcoin, and Brokerage.
 
 
+  The Safello catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 25 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Safello API Rules
+  rule_count: 58
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 14
+  slug: safello-rules
 scopes:
 - name: Safello Scopes
   scope_count: 8
@@ -279,22 +299,22 @@ scopes:
   summary_line: 8 scopes · urn:safello:params:oauth:grant-type:bankid/clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.2
+  composite: 51.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 52.3
     developer_ergonomics: 63.7
-    discoverability: 66.1
-    operational_transparency: 15.8
+    discoverability: 73.2
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -303,7 +323,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 48.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,13 +340,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/safello/safello-2026-08-17T081705.png
 security:
 - kind: authentication

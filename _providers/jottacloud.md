@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-31'
+  score: 26.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Jottacloud API is documented on the help center but no machine‑readable contract (OpenAPI, GraphQL, etc.) was found.
@@ -40,6 +56,10 @@ asyncapis:
   name: Jottacloud Webhooks
   slug: jottacloud-webhooks
 common:
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.jottacloud.com/
 - group: commercial
   href: https://artifacts.apis.io/jottacloud/plans/jottacloud-plans-pricing.yml
   title: ''
@@ -90,11 +110,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/jottacloud-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/jottacloud/well-known/jottacloud-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/jottacloud-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/jottacloud/well-known/jottacloud-security.txt
   title: ''
@@ -191,49 +206,48 @@ plans:
 random_paper: 1
 rules:
 - authorship: generated
-  effective_rule_count: 49
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: Jottacloud API Rules
-  rule_count: 8
+  rule_count: 20
   severity_counts:
-    error: 6
+    error: 18
     hint: 0
     info: 1
     warn: 1
   slug: jottacloud-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 40.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 49.8
     catalog_earned_first_party: 12.0
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 35.6
     contract_quality: 17.3
-    developer_ergonomics: 47.6
-    discoverability: 57.1
-    operational_transparency: 34.2
+    developer_ergonomics: 33.3
+    discoverability: 64.3
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - norway
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - nordics
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 1
       marker_coverage: 100.0
-      total: 2
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -244,13 +258,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/jottacloud/jottacloud-2026-11-03T134231.png
 security:
 - kind: authentication
   name: Jottacloud Authentication

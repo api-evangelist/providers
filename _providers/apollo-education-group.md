@@ -5,7 +5,11 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The University of Phoenix identity provider, running ForgeRock Access Management in the /alpha realm. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-09-04) at https://logi
@@ -177,9 +182,9 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.0
+  composite: 25.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,9 +196,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 76.8
+    discoverability: 83.9
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 25.7
   provenance:
     conformance: first-party
   regulatory:
@@ -202,8 +207,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

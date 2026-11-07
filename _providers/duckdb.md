@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: DuckDB ships as a library with first-class bindings for Python, R, Java (JDBC), Node.js, C/C++, Go, Rust, Swift, Julia, and the browser via DuckDB-Wasm. There is no network REST API; clients call Duck
@@ -149,10 +151,10 @@ rate_limits:
   name: Duckdb Rate Limits
   slug: duckdb-rate-limits
 score:
-  band: emerging
-  composite: 20.3
+  band: thin
+  composite: 28.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -166,15 +168,18 @@ score:
     developer_ergonomics: 38.1
     discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 20.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 28.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

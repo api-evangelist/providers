@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -12,23 +15,24 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -38,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.4
-  scored_at: '2026-10-31'
+  score: 48.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -1315,22 +1319,22 @@ finops:
 image: https://framerusercontent.com/assets/ZHgWyxIoZ4u3muxNTrEuOhP9o.jpg
 json_schemas:
 - name: AccountAttributeListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-attribute-list-response
 - name: AccountAttributeResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-attribute-response
 - name: AccountBalanceListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-balance-list-response
 - name: AccountBalanceResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-balance-response
 - name: AccountCardBrandListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-card-brand-list-response
 - name: AccountCardBrandResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-card-brand-response
 - name: AccountConsentUpdateRequest
   property_count: 2
@@ -1339,79 +1343,79 @@ json_schemas:
   property_count: 0
   slug: methodfi-account-create-request
 - name: AccountListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-list-response
 - name: AccountPaymentInstrumentCreateRequest
   property_count: 1
   slug: methodfi-account-payment-instrument-create-request
 - name: AccountPaymentInstrumentListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-payment-instrument-list-response
 - name: AccountPaymentInstrumentResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-payment-instrument-response
 - name: AccountPayoffListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-payoff-list-response
 - name: AccountPayoffResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-payoff-response
 - name: AccountProductListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-product-list-response
 - name: AccountProductResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-product-response
 - name: AccountResponse_2
   property_count: 10
   slug: methodfi-account-response-2
 - name: AccountResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-response
 - name: AccountSensitiveCreateRequest
   property_count: 1
   slug: methodfi-account-sensitive-create-request
 - name: AccountSensitiveListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-sensitive-list-response
 - name: AccountSensitiveResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-sensitive-response
 - name: AccountSubscriptionCreateRequest
   property_count: 1
   slug: methodfi-account-subscription-create-request
 - name: AccountSubscriptionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-subscription-list-response
 - name: AccountSubscriptionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-subscription-response
 - name: AccountTransactionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-transaction-list-response
 - name: AccountTransactionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-transaction-response
 - name: AccountUpdateListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-update-list-response
 - name: AccountUpdateRequest
   property_count: 2
   slug: methodfi-account-update-request
 - name: AccountUpdateResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-update-response
 - name: AccountVerificationSessionAmountsResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-verification-session-amounts-response
 - name: AccountVerificationSessionCreateRequest
   property_count: 1
   slug: methodfi-account-verification-session-create-request
 - name: AccountVerificationSessionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-verification-session-list-response
 - name: AccountVerificationSessionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-account-verification-session-response
 - name: AccountVerificationSessionUpdateRequest
   property_count: 8
@@ -1420,7 +1424,7 @@ json_schemas:
   property_count: 5
   slug: methodfi-balance-response
 - name: CardProductResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-card-product-response
 - name: ConnectResponse
   property_count: 5
@@ -1435,139 +1439,139 @@ json_schemas:
   property_count: 7
   slug: methodfi-create-entity-verification-session-request
 - name: EntityAttributeListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-attribute-list-response
 - name: EntityAttributeResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-attribute-response
 - name: EntityConnectListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-connect-list-response
 - name: EntityConnectResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-connect-response
 - name: EntityCreateRequest
   property_count: 5
   slug: methodfi-entity-create-request
 - name: EntityCreditScoreListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-credit-score-list-response
 - name: EntityCreditScoreResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-credit-score-response
 - name: EntityIdentityListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-identity-list-response
 - name: EntityIdentityResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-identity-response
 - name: EntityProductListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-product-list-response
 - name: EntityProductResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-product-response
 - name: EntityResponse_2
   property_count: 11
   slug: methodfi-entity-response-2
 - name: EntityResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-response
 - name: EntitySubscriptionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-subscription-list-response
 - name: EntitySubscriptionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-subscription-response
 - name: EntityVehicleListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-vehicle-list-response
 - name: EntityVehicleResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-vehicle-response
 - name: EntityVerificationSessionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-verification-session-list-response
 - name: EntityVerificationSessionRequest
   property_count: 4
   slug: methodfi-entity-verification-session-request
 - name: EntityVerificationSessionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-entity-verification-session-response
 - name: EventListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-event-list-response
 - name: EventResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-event-response
 - name: ForwardingRequestCreateRequest
   property_count: 6
   slug: methodfi-forwarding-request-create-request
 - name: ForwardingRequestResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-forwarding-request-response
 - name: ManagedAccountListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-managed-account-list-response
 - name: ManagedAccountResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-managed-account-response
 - name: ManagedAccountTransactionListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-managed-account-transaction-list-response
 - name: MerchantListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-merchant-list-response
 - name: MerchantResponse_2
   property_count: 6
   slug: methodfi-merchant-response-2
 - name: MerchantResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-merchant-response
 - name: MethodPublicKeyResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-method-public-key-response
 - name: MLEPublicKeyCreateRequest
   property_count: 1
   slug: methodfi-mlepublic-key-create-request
 - name: MLEPublicKeyListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-mlepublic-key-list-response
 - name: MLEPublicKeyResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-mlepublic-key-response
 - name: ObjectResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-object-response
 - name: OpalNullResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-opal-null-response
 - name: OpalSessionResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-opal-session-response
 - name: OpalTokenCreateRequest
   property_count: 10
   slug: methodfi-opal-token-create-request
 - name: OpalTokenResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-opal-token-response
 - name: PaymentCreateRequest
   property_count: 8
   slug: methodfi-payment-create-request
 - name: PaymentListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-payment-list-response
 - name: PaymentResponse_2
   property_count: 9
   slug: methodfi-payment-response-2
 - name: PaymentResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-payment-response
 - name: PaymentReversalListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-payment-reversal-list-response
 - name: PaymentReversalResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-payment-reversal-response
 - name: PaymentReversalUpdateRequest
   property_count: 1
@@ -1576,7 +1580,7 @@ json_schemas:
   property_count: 1
   slug: methodfi-report-create-request
 - name: ReportResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-report-response
 - name: SearchEntityVehiclesRequest
   property_count: 0
@@ -1585,10 +1589,10 @@ json_schemas:
   property_count: 2
   slug: methodfi-secret-create-request
 - name: SecretListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-secret-list-response
 - name: SecretResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-secret-response
 - name: TeamCreateRequest
   property_count: 1
@@ -1597,7 +1601,7 @@ json_schemas:
   property_count: 1
   slug: methodfi-team-encryption-key-request
 - name: TeamResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-team-response
 - name: TransactionListResponse
   property_count: 1
@@ -1615,16 +1619,16 @@ json_schemas:
   property_count: 6
   slug: methodfi-webhook-create-request
 - name: WebhookDeleteResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-webhook-delete-response
 - name: WebhookListResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-webhook-list-response
 - name: WebhookResponse_2
   property_count: 5
   slug: methodfi-webhook-response-2
 - name: WebhookResponse
-  property_count: 0
+  property_count: 3
   slug: methodfi-webhook-response
 - name: WebhookUpdateRequest
   property_count: 1
@@ -1677,23 +1681,23 @@ rules:
   slug: methodfi-rules
 score:
   band: exemplar
-  composite: 69.7
+  composite: 69.3
   coverage:
-    artifact_dirs: 38
+    artifact_dirs: 40
     catalog_earned: 76.8
     catalog_earned_first_party: 12.0
     catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 55.3
+    access_clarity: 42.1
     contract_governance: 35.6
-    contract_quality: 75.2
-    developer_ergonomics: 78.0
-    discoverability: 68.3
-    operational_transparency: 84.2
-  previous_composite: 69.7
+    contract_quality: 75.9
+    developer_ergonomics: 75.6
+    discoverability: 76.7
+    operational_transparency: 81.6
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1710,13 +1714,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/methodfi/methodfi-2026-08-07T172708.png
 security:
 - kind: authentication

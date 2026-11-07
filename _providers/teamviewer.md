@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'RESTful Web API for managing TeamViewer users, devices, device groups, sessions, session history, and meetings within a TeamViewer company account. Authentication uses OAuth 2.0 bearer tokens (either '
@@ -106,9 +108,9 @@ overview: 'TeamViewer is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 1
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -121,16 +123,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 19.5
+    operational_transparency: 13.2
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

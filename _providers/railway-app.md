@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -185,9 +187,9 @@ rules:
   slug: railway-app-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 28.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 49.8
     catalog_earned_first_party: 0.0
     catalog_gap: 65.3
@@ -200,16 +202,16 @@ score:
     contract_quality: 49.6
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 13.2
-  previous_composite: 28.9
+    operational_transparency: 10.5
+  previous_composite: 28.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: Global Apex service classes for automating revenue recognition to ASC 606 and IFRS 15. RevenueContractService creates and updates revenue contracts, generates performance obligations, allocates revenu
@@ -135,9 +137,9 @@ rate_limits:
   slug: certinia-rate-limits
 score:
   band: emerging
-  composite: 15.3
+  composite: 13.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -148,18 +150,18 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 13.2
-  previous_composite: 15.3
+    operational_transparency: 10.5
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -255,9 +256,9 @@ rules:
   slug: teco-energy-rules
 score:
   band: thin
-  composite: 33.8
+  composite: 31.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 62.5
     catalog_earned_first_party: 0.0
     catalog_gap: 52.5
@@ -268,10 +269,10 @@ score:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 61.8
-    developer_ergonomics: 31.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +286,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/teco-energy/teco-energy-2026-06-20T195017.png
 security:
 - kind: authentication

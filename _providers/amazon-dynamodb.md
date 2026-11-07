@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,7 +11,9 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -27,17 +32,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.2
-  scored_at: '2026-10-31'
+  score: 41.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -52,10 +58,10 @@ apis:
   description: Operations for batch reading and writing multiple items
   name: Amazon DynamoDB Batch API
   phrasing_intents:
-  - id: BatchGetItem
+  - id: batchGetItem
     intent: Fetch many items by key across tables
     question: How do I read up to 100 items by primary key in a single request?
-  - id: BatchWriteItem
+  - id: batchWriteItem
     intent: Put or delete many items in one batch
     question: How do I load a bunch of items into a table in one call?
   phrasing_ops: 2
@@ -65,18 +71,18 @@ apis:
   description: Operations for putting, getting, updating, and deleting individual items
   name: Amazon DynamoDB Items API
   phrasing_intents:
-  - id: DeleteItem
-    intent: Delete one item by its primary key
-    question: How do I remove a single record from a DynamoDB table?
-  - id: GetItem
-    intent: Fetch one item by its primary key
-    question: How do I look up a single record in a table by its primary key?
-  - id: PutItem
+  - id: putItem
     intent: Write or replace an item in a table
     question: How do I insert a new record into a DynamoDB table?
-  - id: UpdateItem
+  - id: getItem
+    intent: Fetch one item by its primary key
+    question: How do I look up a single record in a table by its primary key?
+  - id: updateItem
     intent: Edit attributes on an existing item
     question: How do I change just a few attributes on an existing item without rewriting the whole thing?
+  - id: deleteItem
+    intent: Delete one item by its primary key
+    question: How do I remove a single record from a DynamoDB table?
   phrasing_ops: 4
   slug: amazon-dynamodb-items-api
 - baseURL: https://dynamodb.{region}.amazonaws.com
@@ -84,10 +90,10 @@ apis:
   description: Operations for querying and scanning table data
   name: Amazon DynamoDB Queries API
   phrasing_intents:
-  - id: Query
+  - id: query
     intent: Find items by partition key value
     question: How do I get all items that share one partition key value?
-  - id: Scan
+  - id: scan
     intent: Read every item in a table or index
     question: How do I read through every item in a table without knowing the keys?
   phrasing_ops: 2
@@ -97,29 +103,32 @@ apis:
   description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
   name: Amazon DynamoDB Tables API
   phrasing_intents:
-  - id: DeleteTable
-    intent: Delete a table and all its items
-    question: How do I permanently drop a DynamoDB table along with its data?
-  - id: DescribeTable
+  - id: createTable
+    intent: Create a new DynamoDB table
+    question: How do I create a new table in DynamoDB with a partition key and sort key?
+  - id: describeTable
     intent: Get a table's status, key schema and indexes
     question: Is my DynamoDB table still being created, or is it active yet?
-  - id: ListTables
+  - id: listTables
     intent: List the tables in my account
     question: What tables do I have in this account and Region?
-  - id: UpdateTable
+  - id: updateTable
     intent: Change a table's throughput, billing or indexes
     question: How do I raise the provisioned read and write capacity on an existing table?
-  phrasing_ops: 4
+  - id: deleteTable
+    intent: Delete a table and all its items
+    question: How do I permanently drop a DynamoDB table along with its data?
+  phrasing_ops: 5
   slug: amazon-dynamodb-tables-api
 - baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for transactional reads and writes across multiple items
   name: Amazon DynamoDB Transactions API
   phrasing_intents:
-  - id: TransactGetItems
+  - id: transactGetItems
     intent: Read several items atomically
     question: How do I read several items as one consistent, all-or-nothing snapshot?
-  - id: TransactWriteItems
+  - id: transactWriteItems
     intent: Write several items atomically
     question: How do I make several writes succeed or fail together across tables?
   phrasing_ops: 2
@@ -863,7 +872,7 @@ modified: '2026-09-18'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 12 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 12 more. Tagged areas include Amazon Web Services, Database, Document Store, Key-Value Store, and NoSQL.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -905,28 +914,28 @@ rules:
   slug: amazon-dynamodb-spectral-rules
 score:
   band: exemplar
-  composite: 80.2
+  composite: 80.9
   coverage:
-    artifact_dirs: 36
+    artifact_dirs: 37
     catalog_earned: 89.4
     catalog_earned_first_party: 24.0
     catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 45.5
-    contract_quality: 67.8
+    contract_quality: 71.7
     developer_ergonomics: 81.5
-    discoverability: 71.7
-    operational_transparency: 86.8
+    discoverability: 81.7
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 78.6
+  previous_composite: 79.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -943,13 +952,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/amazon-dynamodb/amazon-dynamodb-2026-06-20T171630.png
 security:
 - kind: authentication
@@ -980,6 +988,7 @@ skills:
   slug: amazon-dynamodb-write-and-read-an-item
 slug: amazon-dynamodb
 tags:
+- Amazon Web Services
 - Database
 - Document Store
 - Key-Value Store

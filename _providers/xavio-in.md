@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +28,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 63.5
-  scored_at: '2026-10-31'
+  score: 65.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -287,7 +301,7 @@ modified: '2026-10-30'
 name: xavio-in
 nav: Providers
 network: true
-overview: 'xavio-in publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Discovery API, Leads API, and 6 more. Tagged areas include Company, API, Stub, Unknown, and Placeholder.
+overview: 'xavio-in publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Discovery API, Leads API, and 6 more. Tagged areas include Company and Placeholder.
 
 
   The xavio-in catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -315,21 +329,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.8
+  composite: 47.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 62.8
+    artifact_dirs: 30
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 26.3
     contract_governance: 22.0
-    contract_quality: 68.7
-    developer_ergonomics: 30.2
-    discoverability: 65.0
-    operational_transparency: 34.2
+    contract_quality: 71.2
+    developer_ergonomics: 24.3
+    discoverability: 66.7
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,13 +367,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 38.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
+screenshot: https://apis.io/screenshots/xavio-in/xavio-in-2026-11-03T150301.png
 security:
 - kind: authentication
   name: Xavio In Authentication
@@ -372,9 +395,6 @@ skills:
 slug: xavio-in
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Placeholder
 website: https://xavio.in/
 ---

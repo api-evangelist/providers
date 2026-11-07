@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-31'
+  score: 28.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -68,7 +69,7 @@ apis:
   description: Query transaction status by Ozow reference or merchant reference.
   name: Ozow Transactions API
   slug: ozow-transactions-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Ozow Webhooks
@@ -286,7 +287,7 @@ network: true
 overview: 'Ozow publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banks API, Payments API, Refunds API, and 1 more. Tagged areas include Payments, Instant EFT, Pay by Bank, Fintech, and South Africa.
 
 
-  The Ozow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ozow catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Ozow''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
@@ -302,23 +303,36 @@ rate_limits:
 - limit_count: 2
   name: Ozow Rate Limits
   slug: ozow-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Ozow API Rules
+  rule_count: 62
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 1
+  slug: ozow-rules
 score:
   band: strong
-  composite: 62.4
+  composite: 55.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 54.0
+    artifact_dirs: 31
+    catalog_earned: 58.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.7
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
+    access_clarity: 86.8
+    contract_governance: 31.8
     contract_quality: 56.4
-    developer_ergonomics: 67.3
-    discoverability: 66.1
+    developer_ergonomics: 36.3
+    discoverability: 73.2
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -327,7 +341,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 58.7
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,13 +358,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ozow/ozow-2026-08-07T191227.png
 security:
 - kind: authentication

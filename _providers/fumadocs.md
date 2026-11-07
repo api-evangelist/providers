@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -181,7 +183,7 @@ json_schemas:
   property_count: 5
   slug: fumadocs-page
 - name: Fumadocs Page Tree
-  property_count: 0
+  property_count: 4
   slug: fumadocs-page-tree
 - name: Fumadocs Search Result
   property_count: 5
@@ -226,9 +228,9 @@ rules:
   slug: fumadocs-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.6
+  composite: 22.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 44.7
     catalog_earned_first_party: 0.0
     catalog_gap: 70.4
@@ -238,11 +240,11 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
-    contract_quality: 49.9
+    contract_quality: 53.3
     developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 22.6
+  previous_composite: 22.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,13 +258,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fumadocs/fumadocs-2026-06-20T181650.png
 security:
 - kind: domain-security

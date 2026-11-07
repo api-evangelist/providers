@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: Asynchronous payouts designed for Money Transfer Organizations (MTOs) and disbursement partners. Partners create payments to mobile money wallets, cash pickup points, and bank accounts; results are de
@@ -176,9 +178,9 @@ overview: 'Onafriq is listed with 9 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 8
 score:
   band: emerging
-  composite: 11.3
+  composite: 11.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -191,7 +193,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,15 +203,15 @@ score:
     - africa
     - europe
     - united-kingdom-ireland
-  previous_composite: 11.3
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

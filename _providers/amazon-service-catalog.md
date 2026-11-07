@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -333,7 +337,7 @@ modified: '2026-05-19'
 name: Amazon Service Catalog
 nav: Providers
 network: true
-overview: 'Amazon Service Catalog is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Portfolios API, Products API, Provisioned Products API, and 9 more. Tagged areas include Cloud Governance, Compliance, IT Governance, and Service Catalog.
+overview: 'Amazon Service Catalog is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Portfolios API, Products API, Provisioned Products API, and 9 more. Tagged areas include Amazon Web Services, Cloud Governance, Compliance, IT Governance, and Service Catalog.
 
 
   The Amazon Service Catalog catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -378,29 +382,29 @@ rules:
   slug: amazon-service-catalog-spectral-rules
 score:
   band: strong
-  composite: 58.8
+  composite: 58.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.5
+    artifact_dirs: 20
+    catalog_earned: 66.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 53.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 2.3
   facets:
-    access_clarity: 81.6
+    access_clarity: 75.0
     contract_governance: 13.6
-    contract_quality: 59.0
+    contract_quality: 64.6
     developer_ergonomics: 58.3
-    discoverability: 62.5
-    operational_transparency: 39.5
-  previous_composite: 58.7
+    discoverability: 71.4
+    operational_transparency: 36.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 1
-      marker_coverage: 76.9
+      marker_coverage: 100.0
       total: 13
   regulatory:
     applies: true
@@ -408,13 +412,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-service-catalog/amazon-service-catalog-2026-06-20T171823.png
 security:
 - kind: authentication
@@ -435,6 +438,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-service-catalog
 tags:
+- Amazon Web Services
 - Cloud Governance
 - Compliance
 - IT Governance

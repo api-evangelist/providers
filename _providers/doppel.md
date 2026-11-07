@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.doppel.com/v1
@@ -94,7 +95,7 @@ apis:
   description: The urls API from Doppel — 0 operation(s) for urls.
   name: Doppel URLS API
   slug: doppel-urls-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI derived from the Doppel V1 OpenAPI webhooks[] surface — the events Doppel POSTs to a subscriber endpoint for Brand Protection, IOC, and Human Risk Management activity. Payload schemas are the
   name: Doppel Webhooks
@@ -271,6 +272,10 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/doppel-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.doppel.com/docs/jira-integration
 created: '2026-07-17'
 description: Doppel is an AI-native social engineering defense platform that protects brands, executives, and employees from AI-powered impersonation, phishing, fraud, and account takeover across domains, social media, ads, messaging apps, app stores, crypto surfaces, and the dark web. Its real-time Threat Graph correlates signals to detect and dismantle attacker infrastructure, unifying Digital Risk Protection, Human Risk Management, and Email Security. Doppel exposes a REST API (https://api.doppel.com/v1) for Brand Protection alerts, URL scanning, reports, protected assets, and phishing-simulation campaigns, plus webhooks for real-time events. Backed by a16z and Bessemer Venture Partners.
 image: https://prod-cms.doppel.com/sites/default/files/2025-11/Open_Graph_Image_0.png
@@ -282,30 +287,43 @@ network: true
 overview: 'Doppel publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Brands API, Hrm API, and 8 more. Tagged areas include Company, Security, Cybersecurity, Digital Risk Protection, and Social Engineering Defense.
 
 
-  The Doppel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Doppel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 26 more developer resources.'
+  Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 27 more developer resources.'
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Doppel API Rules
+  rule_count: 60
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 2
+    warn: 8
+  slug: doppel-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 50.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 1.8
   facets:
-    access_clarity: 50.0
-    contract_governance: 4.5
+    access_clarity: 43.4
+    contract_governance: 18.2
     contract_quality: 60.2
-    developer_ergonomics: 60.1
-    discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 53.5
+    developer_ergonomics: 51.8
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -324,14 +342,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/doppel/doppel-2026-07-25T212309.png
 security:
 - kind: authentication
@@ -372,5 +389,8 @@ tags:
 - Threat Intelligence
 - Human Risk Management
 - Takedowns
+- Artificial Intelligence
+- Social-Engineering
+- Defense
 website: https://www.doppel.com/
 ---

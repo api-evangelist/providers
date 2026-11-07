@@ -1,13 +1,16 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Requires approval
-  onboarding: approval
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
   pricing: enterprise
   public: false
   source:
-  - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -649,7 +653,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.3
+  composite: 45.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 55.5
@@ -661,11 +665,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 13.6
-    contract_quality: 66.4
-    developer_ergonomics: 48.8
+    contract_quality: 69.8
+    developer_ergonomics: 27.4
     discoverability: 64.3
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -679,13 +683,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sap-hana/sap-hana-2026-06-20T193427.png
 security:
 - kind: authentication

@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-31'
+  score: 28.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -151,7 +168,7 @@ modified: '2026-10-30'
 name: abundanceapis-com
 nav: Providers
 network: true
-overview: 'abundanceapis-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: CORS Proxy API, System API, and Tools API. Tagged areas include APIs, DeveloperTools, DataValidation, Geolocation, and Finance.
+overview: 'abundanceapis-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: CORS Proxy API, System API, and Tools API. Tagged areas include Developer Tools, Data Validation, Geolocation, Finance, and Utilities.
 
 
   The abundanceapis-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -186,34 +203,48 @@ scopes:
   slug: abundanceapis-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.5
+  band: thin
+  composite: 32.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 67.1
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.9
+    artifact_dirs: 28
+    catalog_earned: 53.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.9
   facets:
-    access_clarity: 40.0
-    contract_governance: 79.1
+    access_clarity: 31.6
+    contract_governance: 22.0
     contract_quality: 34.1
-    developer_ergonomics: 39.8
+    developer_ergonomics: 23.1
     discoverability: 56.7
-    operational_transparency: 18.9
+    operational_transparency: 21.1
+  previous_composite: 38.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 29.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/abundanceapis-com/abundanceapis-com-2026-11-03T120143.png
 security:
 - kind: authentication
   name: Abundanceapis Com Authentication
@@ -225,9 +256,8 @@ security:
   summary_line: TLSv1.3
 slug: abundanceapis-com
 tags:
-- APIs
-- DeveloperTools
-- DataValidation
+- Developer Tools
+- Data Validation
 - Geolocation
 - Finance
 - Utilities

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The OpenUSD C++ API is the primary interface for working with Universal Scene Description data. Provides access to USD core (scene composition and asset management), UsdImaging and Hydra (rendering in
@@ -216,9 +218,9 @@ rules:
   slug: aousd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 28.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 53.3
@@ -231,16 +233,16 @@ score:
     contract_quality: 14.7
     developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 28.7
+    operational_transparency: 36.8
+  previous_composite: 28.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

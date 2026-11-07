@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple Shortcuts, n8n, Zapier, Replit, and custom code ca
@@ -177,9 +179,9 @@ overview: 'craft is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 0
 score:
   band: thin
-  composite: 34.3
+  composite: 34.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,9 +193,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 34.3
+    discoverability: 71.7
+    operational_transparency: 44.7
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -207,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

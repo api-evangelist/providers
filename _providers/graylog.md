@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Graylog provides a REST API for managing log data, streams, dashboards, alerts, users, and system configuration. The API is browseable via the bundled API Browser at /api/api-browser/.
@@ -141,10 +143,10 @@ rate_limits:
   name: Graylog Rate Limits
   slug: graylog-rate-limits
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 10.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
@@ -157,16 +159,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 55.0
-    operational_transparency: 23.7
-  previous_composite: 11.2
+    operational_transparency: 21.1
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

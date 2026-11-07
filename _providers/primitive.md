@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 68.2
-  scored_at: '2026-10-31'
+  score: 73.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -158,7 +159,7 @@ apis:
   description: View and replay webhook delivery attempts
   name: Primitive Webhook Deliveries API
   slug: primitive-webhook-deliveries-api
-artifact_total: 52
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Primitive Webhooks
@@ -274,27 +275,46 @@ network: true
 overview: 'Primitive publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent API, CLI API, and 19 more. Tagged areas include Company and A2A.
 
 
-  The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
+  The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: Primitive API Rules
+  rule_count: 72
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 5
+    warn: 15
+  slug: primitive-rules
 score:
-  band: emerging
-  composite: 21.8
+  band: thin
+  composite: 30.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 15.0
+    artifact_dirs: 26
+    catalog_earned: 19.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 95.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 18.2
-    contract_quality: 60.5
+    contract_governance: 31.8
+    contract_quality: 62.9
     developer_ergonomics: 8.3
-    discoverability: 28.3
+    discoverability: 38.3
     operational_transparency: 10.5
-  previous_composite: 22.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,13 +331,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 security:
 - kind: authentication
   name: Primitive Authentication

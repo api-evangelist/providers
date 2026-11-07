@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Worthune API as documented publicly: 22 operations. Contract generated from the documentation by API Evangelist (2026-10-19); not the provider''s own document.'
@@ -187,21 +203,23 @@ rules:
   slug: worthune-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 29.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 58.0
     catalog_earned_first_party: 12.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 19.7
     contract_quality: 20.1
-    developer_ergonomics: 38.1
-    discoverability: 48.2
-    operational_transparency: 21.1
+    developer_ergonomics: 28.6
+    discoverability: 55.4
+    operational_transparency: 10.5
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -215,13 +233,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/worthune/worthune-2026-11-03T150244.png
 security:
 - kind: authentication
   name: Worthune Authentication

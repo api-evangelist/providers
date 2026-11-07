@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.7
-  scored_at: '2026-10-31'
+  score: 6.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Management and orchestration REST API of the Versa Director control plane — SD-WAN workflows, appliance/device management, templates and device groups, dashboard/live status, health, assets, audit log
@@ -173,9 +175,9 @@ overview: 'Versa Networks is listed with 2 APIs on the [APIs.io](https://apis.io
 random_paper: 19
 score:
   band: thin
-  composite: 29.7
+  composite: 30.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,9 +189,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 29.7
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 30.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

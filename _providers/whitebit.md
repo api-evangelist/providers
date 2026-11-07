@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.3
-  scored_at: '2026-10-31'
+  score: 55.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 6
@@ -284,6 +296,15 @@ asyncapis:
   name: WhiteBit Market Trades
   slug: whitebit-public-trades-asyncapi
 common:
+- group: build
+  href: https://artifacts.apis.io/whitebit/integrations/whitebit-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/whitebit-integration-edges.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.whitebit.com/changelog
 - group: other
   href: https://artifacts.apis.io/whitebit/capabilities/whitebit-capability-edges.yml
   title: ''
@@ -532,40 +553,40 @@ overview: 'WhiteBIT publishes 25 API contracts indexed on the [APIs.io](https://
   The WhiteBIT catalog on APIs.io includes 41 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  WhiteBIT''s developer surface includes engineering blog, signup flow, authentication, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
+  WhiteBIT''s developer surface includes changelog, engineering blog, signup flow, authentication, documentation, API reference, getting-started guide, and 31 more developer resources.'
 random_paper: 0
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 113
   extends:
   - spectral:oas
   name: WhiteBIT API Rules
-  rule_count: 14
+  rule_count: 72
   severity_counts:
-    error: 7
+    error: 55
     hint: 0
-    info: 3
-    warn: 4
+    info: 4
+    warn: 13
   slug: whitebit-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 44.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 26
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
     contract_quality: 68.5
-    developer_ergonomics: 61.9
-    discoverability: 63.3
-    operational_transparency: 21.1
-  previous_composite: 48.4
+    developer_ergonomics: 44.0
+    discoverability: 72.5
+    operational_transparency: 26.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -580,14 +601,14 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/whitebit/whitebit-2026-11-03T150153.png
 security:
 - kind: authentication
   name: Whitebit Authentication

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol server for Rohlik online grocery. Search the catalog, manage a cart, discover recipes, track and repeat orders, manage shopping lists, and reach customer service
@@ -162,7 +165,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.0
+  composite: 27.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -176,15 +179,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 65.0
-    operational_transparency: 15.8
+    discoverability: 75.0
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 28.0
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -194,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -224,7 +227,8 @@ tags:
 - Delivery
 - Logistics
 - MCP
-- Authentication
+- OAuth
 - Europe
+- Authentication
 website: http://rohlik.cz
 ---

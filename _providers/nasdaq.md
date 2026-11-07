@@ -1,11 +1,14 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -201,32 +205,32 @@ rules:
     warn: 4
   slug: nasdaq-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.7
+  band: thin
+  composite: 37.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 53.5
     catalog_earned_first_party: 12.0
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 46.9
-    developer_ergonomics: 52.4
+    developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 63.2
-  previous_composite: 40.7
+    operational_transparency: 60.5
+  previous_composite: 40.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

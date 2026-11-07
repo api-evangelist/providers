@@ -1,12 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 19
 common:
@@ -145,10 +147,10 @@ rate_limits:
   name: Accenture Rate Limits
   slug: accenture-rate-limits
 score:
-  band: emerging
-  composite: 11.0
+  band: minimal
+  composite: 10.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 26.0
     catalog_earned_first_party: 0.0
     catalog_gap: 89.0
@@ -161,16 +163,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 39.3
-    operational_transparency: 10.5
-  previous_composite: 11.0
+    operational_transparency: 7.9
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

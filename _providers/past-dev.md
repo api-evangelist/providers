@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 56.0
-  scored_at: '2026-10-31'
+  score: 49.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -274,7 +290,7 @@ modified: '2026-10-30'
 name: past-dev
 nav: Providers
 network: true
-overview: 'past-dev publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audiences API, Debugging API, Identities API, and 4 more. Tagged areas include AI, Memory, API, Platform, and Developer.
+overview: 'past-dev publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audiences API, Debugging API, Identities API, and 4 more. Tagged areas include Artificial Intelligence, Memory, Platform, and Developers.
 
 
   The past-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,34 +316,48 @@ rules:
     warn: 2
   slug: past-dev-rules
 score:
-  band: exemplar
-  composite: 68.3
+  band: developing
+  composite: 48.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 24
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -13.1
   facets:
-    access_clarity: 88.9
-    contract_governance: 79.1
-    contract_quality: 63.5
-    developer_ergonomics: 49.3
-    discoverability: 65.0
-    operational_transparency: 47.4
+    access_clarity: 65.8
+    contract_governance: 22.0
+    contract_quality: 66.6
+    developer_ergonomics: 29.2
+    discoverability: 56.7
+    operational_transparency: 23.7
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/past-dev/past-dev-2026-11-03T141151.png
 security:
 - kind: authentication
   name: Past Dev Authentication
@@ -355,10 +385,9 @@ skills:
   slug: past-dev-upsert-and-get-identity
 slug: past-dev
 tags:
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - Platform
-- Developer
+- Developers
 website: https://past.dev/
 ---

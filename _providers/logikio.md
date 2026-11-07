@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -105,7 +106,7 @@ apis:
   description: Get Bill of Materials (BOM) information for a given configuration UUID.
   name: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Logik Configurator Runtime APIs
@@ -274,6 +275,9 @@ network: true
 overview: 'Logik.io publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Product Configuration, and Bill of Materials.
 
 
+  The Logik.io catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, support, and 20 more developer resources.'
 plans:
 - name: Logikio Plans Pricing
@@ -284,25 +288,38 @@ rate_limits:
 - limit_count: 0
   name: Logikio Rate Limits
   slug: logikio-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Logik.io API Rules
+  rule_count: 57
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 5
+    warn: 6
+  slug: logikio-rules
 score:
   band: thin
-  composite: 33.2
+  composite: 35.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 27
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 18.2
-    contract_quality: 47.8
+    contract_governance: 31.8
+    contract_quality: 50.3
     developer_ergonomics: 43.5
-    discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 33.3
+    discoverability: 78.6
+    operational_transparency: 2.6
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,13 +340,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/logikio/logikio-2026-07-25T225503.png
 security:
 - kind: authentication

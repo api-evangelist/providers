@@ -1,9 +1,20 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -11,22 +22,23 @@ agent_readiness:
     consent_identity: false
     delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: true
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 44.3
-  scored_at: '2026-10-31'
+  score: 41.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: AI-native platform for legal technology offering various services.
@@ -196,7 +208,7 @@ modified: '2026-10-29'
 name: Case.dev
 nav: Providers
 network: true
-overview: 'Case.dev publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including API API, and 1 more. Tagged areas include Company, LegalTech, AI, Platform, and Automation.
+overview: 'Case.dev publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including API API, and 1 more. Tagged areas include Company, Legal Tech, Artificial Intelligence, Platform, and Automation.
 
 
   The Case.dev catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -210,54 +222,58 @@ rate_limits:
   slug: casedev-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 108
   extends:
   - spectral:oas
   name: Case.dev API Rules
-  rule_count: 17
+  rule_count: 67
   severity_counts:
-    error: 12
+    error: 56
     hint: 0
     info: 2
-    warn: 3
+    warn: 9
   slug: casedev-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 40.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 25
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 49.9
-    developer_ergonomics: 61.9
-    discoverability: 66.1
-    operational_transparency: 13.2
+    contract_quality: 48.3
+    developer_ergonomics: 44.0
+    discoverability: 73.2
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 49.1
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 21
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/casedev/casedev-2026-11-03T123438.png
 security:
 - kind: authentication
   name: Casedev Authentication
@@ -274,8 +290,8 @@ security:
 slug: casedev
 tags:
 - Company
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - Platform
 - Automation
 website: https://case.dev/

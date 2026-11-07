@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Read-only API to retrieve compliance reports and their associated files for your fleet, exposed through the Fleetworthy Compliance API portal (Azure API Management).
@@ -140,9 +141,9 @@ overview: 'Fleetworthy is listed with 3 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 13
 score:
   band: thin
-  composite: 34.8
+  composite: 34.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -155,16 +156,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 34.8
+    operational_transparency: 18.4
+  previous_composite: 34.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

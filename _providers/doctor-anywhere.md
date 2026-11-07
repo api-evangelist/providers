@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Thailand site (Wix Site MCP). Advertised in the site llms.txt; an unauthenticated tools/list returns nine tools covering busin
@@ -159,9 +160,9 @@ overview: 'Doctor Anywhere is listed with 3 APIs on the [APIs.io](https://apis.i
 random_paper: 3
 score:
   band: emerging
-  composite: 22.4
+  composite: 23.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -173,8 +174,8 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 70.0
-    operational_transparency: 5.3
+    discoverability: 80.0
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +183,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 22.4
+  previous_composite: 23.1
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -193,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

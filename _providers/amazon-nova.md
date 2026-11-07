@@ -1,12 +1,11 @@
 ---
 access_model:
-  confidence: high
-  label: Paid
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: paid
+  pricing: unknown
   public: false
   source:
-  - finops
   - authentication
   - rate-limits
   - security
@@ -28,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.8
-  scored_at: '2026-10-31'
+  score: 50.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: Synchronous and streaming inference against the Amazon Nova understanding and generation models through the Amazon Bedrock Runtime endpoint — InvokeModel, InvokeModelWithResponseStream, Converse and C
   name: Amazon Nova Inference API
   slug: amazon-nova-inference-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Amazon Nova Events
@@ -353,10 +353,10 @@ modified: '2026-09-01'
 name: Amazon Nova
 nav: Providers
 network: true
-overview: 'Amazon Nova publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async API, Inference API, and 1 more. Tagged areas include Foundation Models, Generative AI, Image Generation, Machine Learning, and Multi-Modal.
+overview: 'Amazon Nova publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async API, Inference API, and 1 more. Tagged areas include Amazon Web Services, Foundation Models, Generative AI, Image Generation, and Machine Learning.
 
 
-  The Amazon Nova catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Amazon Nova catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Amazon Nova''s developer surface includes authentication, documentation, support, engineering blog, developer console, signup flow, API reference, and 41 more developer resources.'
@@ -369,30 +369,43 @@ rate_limits:
 - limit_count: 20
   name: Amazon Nova Rate Limits
   slug: amazon-nova-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Amazon Nova API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: amazon-nova-rules
 score:
   band: strong
-  composite: 62.9
+  composite: 61.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 39.0
+    artifact_dirs: 30
+    catalog_earned: 43.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
+    access_clarity: 53.9
+    contract_governance: 31.8
     contract_quality: 52.8
     developer_ergonomics: 80.4
-    discoverability: 48.3
-    operational_transparency: 94.7
+    discoverability: 58.3
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 62.9
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -409,13 +422,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-nova/amazon-nova-2026-06-20T171754.png
 security:
 - kind: authentication
@@ -444,6 +456,7 @@ skills:
   slug: amazon-nova-invoke-image
 slug: amazon-nova
 tags:
+- Amazon Web Services
 - Foundation Models
 - Generative AI
 - Image Generation

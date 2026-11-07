@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.cobre.co
@@ -186,10 +187,10 @@ rate_limits:
   name: Cobre Rate Limits
   slug: cobre-rate-limits
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 39.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -201,7 +202,7 @@ score:
     contract_governance: 18.2
     contract_quality: 40.6
     developer_ergonomics: 64.3
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -211,7 +212,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 38.6
+  previous_composite: 39.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   - '{''url'': ''https://kasten.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.veeam.com/products/cloud/kubernetes-data-protection.html — a different registrable domain (kasten.io -> veeam.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -152,9 +154,9 @@ overview: 'Kasten is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 22
 score:
   band: thin
-  composite: 32.5
+  composite: 27.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -165,10 +167,10 @@ score:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 48.2
-    operational_transparency: 21.1
-  previous_composite: 32.5
+    developer_ergonomics: 35.7
+    discoverability: 55.4
+    operational_transparency: 18.4
+  previous_composite: 27.6
   provenance:
     conformance: first-party
   regulatory:
@@ -177,8 +179,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

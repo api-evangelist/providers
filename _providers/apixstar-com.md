@@ -1,6 +1,21 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.6
-  scored_at: '2026-10-31'
+  score: 38.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Reddit API documentation providing endpoints for communities, users, posts, comments, and search.
@@ -176,7 +192,7 @@ modified: '2026-10-30'
 name: apixstar-com
 nav: Providers
 network: true
-overview: 'apixstar-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reddit, Data, API, and Developer.
+overview: 'apixstar-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reddit, Data, Developers, and Analytics.
 
 
   The apixstar-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,34 +227,46 @@ scopes:
   slug: apixstar-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.8
+  band: thin
+  composite: 34.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 78.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 36.6
+    artifact_dirs: 25
+    catalog_earned: 67.4
+    catalog_earned_first_party: 20.0
+    catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.5
   facets:
-    access_clarity: 60.0
-    contract_governance: 70.9
-    contract_quality: 45.0
-    developer_ergonomics: 50.0
+    access_clarity: 47.4
+    contract_governance: 19.7
+    contract_quality: 17.6
+    developer_ergonomics: 31.0
     discoverability: 56.7
-    operational_transparency: 34.7
+    operational_transparency: 28.9
+  previous_composite: 42.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/apixstar-com/apixstar-com-2026-11-03T121018.png
 security:
 - kind: authentication
   name: Apixstar Com Authentication
@@ -253,8 +281,7 @@ tags:
 - Company
 - Reddit
 - Data
-- API
-- Developer
+- Developers
 - Analytics
 website: https://apixstar.com/
 ---

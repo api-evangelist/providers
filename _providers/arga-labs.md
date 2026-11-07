@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: quarter
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.7
-  scored_at: '2026-10-31'
+  score: 15.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -173,10 +174,10 @@ overview: 'Arga Labs is listed with 1 API on the [APIs.io](https://apis.io/) net
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
 random_paper: 10
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 16.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,10 +188,10 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 27.1
+    developer_ergonomics: 23.2
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 16.7
   provenance:
     mcp: first-party
     skills: derived
@@ -200,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

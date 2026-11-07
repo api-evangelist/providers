@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.huobi.pro
@@ -180,9 +181,9 @@ rate_limits:
   slug: htx-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 44.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -195,8 +196,8 @@ score:
     contract_quality: 43.8
     developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 44.7
+    operational_transparency: 47.4
+  previous_composite: 44.3
   provenance:
     conformance: derived
   regulatory:
@@ -205,8 +206,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +23,11 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.2
-  scored_at: '2026-10-31'
+  score: 20.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -88,7 +89,7 @@ apis:
 - description: JavaScript API for building add-ins and extending Visio functionality in the browser with access to documents, pages, shapes, and comments.
   name: Visio JavaScript API
   slug: visio-javascript-api
-artifact_total: 41
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Visio JavaScript Application API
@@ -136,6 +137,85 @@ collections:
   name: Visio JavaScript Application Shapes API
   slug: open-visio-shapes-api
 common:
+- group: design
+  href: https://artifacts.apis.io/visio/rules/visio-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/visio-rules.yml
+- group: design
+  href: https://artifacts.apis.io/visio/rules/visio-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/visio-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/visio/data-model/visio-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/visio-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/visio/errors/visio-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/visio-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/visio/conformance/visio-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/visio-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/visio/llms/visio-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/visio-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/visio/well-known/visio-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/visio-security.txt
+- group: agent
+  href: https://artifacts.apis.io/visio/well-known/visio-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/visio-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/visio/hosts/visio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/visio-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/visio/vendors/visio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/visio-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.microsoft.com/en-us/changelog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.microsoft.com/
+- group: auth
+  href: https://artifacts.apis.io/visio/security/visio-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/visio-trust-center.yml
 - group: commercial
   href: https://artifacts.apis.io/visio/plans/visio-plans-pricing.yml
   title: ''
@@ -216,10 +296,6 @@ common:
   title: ''
   type: Blog
   url: https://devblogs.microsoft.com/microsoft365dev/
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://learn.microsoft.com/en-us/javascript/api/overview/visio/release-notes
 - group: docs
   href: https://artifacts.apis.io/visio/openapi/_original/visio-javascript-openapi.yml
   title: ''
@@ -255,6 +331,18 @@ common:
   title: ''
   type: SpectralRules
   url: rules/visio-rules.yml
+coverage:
+  checked: '2026-11-05'
+  detail: Visio exposes only a client-side Office.js object model loaded from appsforoffice.microsoft.com/embedded/1.0/visio-web-embedded.js; Microsoft publishes no REST/OpenAPI contract for it and Graph has no Visio resource (learn.microsoft.com/en-us/graph/api/resources/visio 404).
+  evidence:
+  - status: 200
+    url: https://appsforoffice.microsoft.com/embedded/1.0/visio-web-embedded.js
+  - status: 404
+    url: https://learn.microsoft.com/en-us/graph/api/resources/visio
+  - status: 200
+    url: https://learn.microsoft.com/en-us/javascript/api/visio
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2024'
 description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, comments, and shape data. Visio APIs support programmatic diagram manipulation, visual overlay creation, mouse event handling, and data visualization workflows.
 examples:
@@ -274,12 +362,48 @@ finops:
   template: false
 image: https://www.microsoft.com/en-us/microsoft-365/visio/visio-logo.png
 json_schemas:
+- name: Application
+  property_count: 1
+  slug: visio-application
+- name: ApplicationUpdate
+  property_count: 1
+  slug: visio-application-update
+- name: CommentCollection
+  property_count: 1
+  slug: visio-comment-collection
+- name: Document
+  property_count: 4
+  slug: visio-document
+- name: HyperlinkCollection
+  property_count: 1
+  slug: visio-hyperlink-collection
+- name: PageCollection
+  property_count: 1
+  slug: visio-page-collection
 - name: Visio Page
   property_count: 6
   slug: visio-page
+- name: PageView
+  property_count: 1
+  slug: visio-page-view
+- name: PageViewUpdate
+  property_count: 1
+  slug: visio-page-view-update
+- name: ShapeCollection
+  property_count: 1
+  slug: visio-shape-collection
+- name: ShapeDataItemCollection
+  property_count: 1
+  slug: visio-shape-data-item-collection
 - name: Visio Shape
   property_count: 9
   slug: visio-shape
+- name: ShapeView
+  property_count: 2
+  slug: visio-shape-view
+- name: ShapeViewUpdate
+  property_count: 2
+  slug: visio-shape-view-update
 json_structures:
 - name: Visio Shape Structure
   property_count: 0
@@ -290,7 +414,7 @@ jsonld:
   property_count: 8
   slug: visio-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-11-05'
 name: Microsoft Visio API
 nav: Providers
 network: true
@@ -300,7 +424,7 @@ overview: 'Microsoft Visio API publishes 9 API contracts indexed on the [APIs.io
   The Microsoft Visio API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Visio API''s developer surface includes support, authentication, pricing, engineering blog, changelog, and 21 more developer resources.'
+  Microsoft Visio API''s developer surface includes changelog, getting-started guide, documentation, support, authentication, pricing, engineering blog, and 35 more developer resources.'
 plans:
 - name: Visio Plans Pricing
   plan_count: 5
@@ -344,43 +468,44 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.3
+  composite: 61.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 72.0
+    artifact_dirs: 31
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 43.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 5.0
   facets:
-    access_clarity: 71.1
-    contract_governance: 27.3
-    contract_quality: 60.7
-    developer_ergonomics: 65.5
-    discoverability: 66.1
-    operational_transparency: 55.3
-  previous_composite: 61.8
+    access_clarity: 86.8
+    contract_governance: 22.0
+    contract_quality: 66.9
+    developer_ergonomics: 53.6
+    discoverability: 67.9
+    operational_transparency: 28.9
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/visio/visio-2026-06-20T201052.png
 security:
 - kind: authentication
@@ -395,6 +520,10 @@ security:
   name: Visio Vulnerability Disclosure
   slug: visio-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Visio Trust Center
+  slug: visio-trust-center
+  summary_line: GDPR
 slug: visio
 tags:
 - Business Process

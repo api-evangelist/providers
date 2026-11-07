@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,7 +77,7 @@ apis:
   description: Molecular profiling results delivered back to the patient chart.
   name: Guardant Health Results API
   slug: guardant-health-results-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Guardant Health EMR Integration API (Illustrative Model) Orders API
@@ -168,6 +173,9 @@ network: true
 overview: 'Guardant Health publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Orders API and Results API. Tagged areas include Healthcare, Precision Oncology, Liquid Biopsy, Genomics, and EMR Integration.
 
 
+  The Guardant Health catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Guardant Health''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Guardant Health Plans Pricing
@@ -178,36 +186,49 @@ rate_limits:
 - limit_count: 2
   name: Guardant Health Rate Limits
   slug: guardant-health-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Guardant Health API Rules
+  rule_count: 58
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 1
+  slug: guardant-health-rules
 scopes:
 - name: Guardant Health Scopes
   scope_count: 0
   slug: guardant-health-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 20.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
+    artifact_dirs: 18
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 42.2
+    contract_governance: 13.6
+    contract_quality: 11.7
     developer_ergonomics: 25.0
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 27.3
+  previous_composite: 20.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
   regulatory:
     applies: true
@@ -215,13 +236,12 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/guardant-health/guardant-health-2026-06-20T182424.png
 security:
 - kind: authentication

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-31'
+  score: 31.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: CompanyProof REST API provides company verification, profile, and intelligence endpoints.
@@ -182,7 +197,7 @@ modified: '2026-10-30'
 name: companyproof-ai
 nav: Providers
 network: true
-overview: 'companyproof-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Verification, Compliance, Data, and CompanyProof.
+overview: 'companyproof-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Verification, Compliance, Data, and CompanyProof.
 
 
   companyproof-ai''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
@@ -201,34 +216,42 @@ scopes:
   slug: companyproof-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.5
+  band: thin
+  composite: 37.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 58.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.4
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.4
   facets:
-    access_clarity: 88.9
-    contract_governance: 16.4
+    access_clarity: 65.8
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 70.7
+    developer_ergonomics: 48.1
     discoverability: 65.0
-    operational_transparency: 38.9
+    operational_transparency: 36.8
+  previous_composite: 49.1
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/companyproof-ai/companyproof-ai-2026-11-03T124958.png
 security:
 - kind: authentication
   name: Companyproof Ai Authentication
@@ -252,7 +275,7 @@ skills:
   slug: companyproof-ai-agent-quickstart
 slug: companyproof-ai
 tags:
-- AI
+- Artificial Intelligence
 - Verification
 - Compliance
 - Data

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.prod.fortahealth.com/api/v1/
@@ -209,7 +210,7 @@ apis:
   description: The treatment_plan_statuses API from Forta Health — 1 operation(s) for treatment_plan_statuses.
   name: Forta Health Treatment Plan Statuses API
   slug: forta-health-treatment-plan-statuses-api
-artifact_total: 71
+artifact_total: 72
 collections:
 - collection_type: open
   name: Fast Assessment Surveys API
@@ -421,33 +422,49 @@ network: true
 overview: 'Forta Health publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include Healthcare, Autism, ABA Therapy, Behavioral Health, and Telehealth.
 
 
+  The Forta Health catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Forta Health API Rules
+  rule_count: 46
+  severity_counts:
+    error: 28
+    hint: 0
+    info: 1
+    warn: 17
+  slug: forta-health-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 38.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 42.1
-    contract_governance: 4.5
-    contract_quality: 42.9
+    contract_governance: 18.2
+    contract_quality: 48.5
     developer_ergonomics: 25.5
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 33.6
+    operational_transparency: 2.6
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 47.9
       total: 71
     skills: unknown
   regulatory:
@@ -462,13 +479,12 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/forta-health/forta-health-2026-08-07T165415.png
 security:
 - kind: authentication

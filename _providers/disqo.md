@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.4
-  scored_at: '2026-10-31'
+  score: 17.6
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - baseURL: https://projects-api.audience.disqo.com
@@ -171,9 +172,9 @@ overview: 'DISQO is listed with 4 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 16
 score:
   band: thin
-  composite: 29.1
+  composite: 29.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -185,9 +186,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 68.6
-    discoverability: 71.4
+    discoverability: 80.0
     operational_transparency: 15.8
-  previous_composite: 29.1
+  previous_composite: 29.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -197,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

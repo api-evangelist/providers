@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,23 +19,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: UCSF's Shibboleth SAML 2.0 identity provider, registered in the InCommon Federation and re-exported to eduGAIN. Signed, versioned, publicly retrievable federation metadata describing SingleSignOnServi
@@ -312,9 +313,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.3
+  composite: 29.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
@@ -324,10 +325,10 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 3.8
-    contract_quality: 24.4
+    contract_quality: 24.0
     developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -335,11 +336,11 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.3
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 50.0
       derived: 2
       marker_coverage: 100.0
       total: 2
@@ -349,13 +350,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Ucsf Authentication

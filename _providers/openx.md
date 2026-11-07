@@ -12,7 +12,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-31'
+  score: 40.5
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -355,9 +357,9 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 32.8
+  composite: 36.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -365,12 +367,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 21.1
+    contract_quality: 24.0
+    developer_ergonomics: 69.0
+    discoverability: 73.3
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -378,7 +380,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.8
+  previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -393,9 +395,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,16 +1,20 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
-  - '{''url'': ''https://security.microsoft.com'', ''status'': 302, ''note'': ''declared website redirects to https://login.microsoftonline.com/common/oauth2/authorize?client_id=80ccca67-54bd-44ab-8625-4b79c4dc7775&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DRz3ddEkEW3sCl5UCgcVwX8a8Ir1Q6_ILuWrtConTQwwKtyKFNhW_moRzN-_q6IZS1dKFGGx7jegyPBSSIIASrDGabcBAEmiEmXBxJYDdh9NCfTTOtCeDZaIe-v_wXDk_JhcKYICC7FqM9r8ZJC9bqA&response_mode=form_post&nonce=639240508798129965.MTE2Y2IyNDgtZWNmMy00OTcyLTljNjktMWIyODdjNTQyODE4ZjIzNjY3OGMtNTBmMS00MmUwLWE3OWUtM2E5YjA5NWMxYzBi&client-request-id=a09eeb6f-0236-4bd1-b925-be28f3ebdf16&redirect_uri=https%3A%2F%2Fsecurity.microsoft.com%2F&x-client-SKU=ID_NET472&x-client-ver=8.22.0.0 — a different registrable domain (microsoft.com -> microsoftonline.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-31'
+  score: 34.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +50,7 @@ agentic_access:
   operation_count: 10
   slug: microsoft-defender-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Cloud Access Security Broker (CASB) API for discovering, investigating, and governing cloud apps.
   name: Microsoft Defender for Cloud Apps API
@@ -59,9 +64,6 @@ apis:
 - description: Unified extended detection and response API for automating workflows based on shared incident and advanced hunting tables across Microsoft security products.
   name: Microsoft Defender XDR API
   slug: microsoft-defender-xdr-api
-- description: REST API for unified security management and advanced threat protection across hybrid cloud workloads in Azure, other clouds, and on-premises.
-  name: Microsoft Defender for Cloud REST API
-  slug: microsoft-defender-for-cloud-rest-api
 - description: API for identity-based attack detection and investigation across on-premises Active Directory and hybrid environments, with sensor management via Microsoft Graph.
   name: Microsoft Defender for Identity API
   slug: microsoft-defender-for-identity-api
@@ -80,7 +82,247 @@ apis:
   description: Retrieve vulnerability information from Microsoft Defender Vulnerability Management. Access CVE data, severity scores, exploit information, and exposure metrics.
   name: Microsoft Defender Vulnerabilities API
   slug: microsoft-defender-vulnerabilities-api
-artifact_total: 33
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AdvancedThreatProtection API from Microsoft Defender — 1 operation(s) for advancedthreatprotection.
+  name: Microsoft Defender Advanced Threat Protection API
+  slug: microsoft-defender-advancedthreatprotection-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Aggregated Alert API from Microsoft Defender — 3 operation(s) for aggregated alert.
+  name: Microsoft Defender Aggregated Alert API
+  slug: microsoft-defender-aggregated-alert-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Aggregated Recommendation API from Microsoft Defender — 2 operation(s) for aggregated recommendation.
+  name: Microsoft Defender Aggregated Recommendation API
+  slug: microsoft-defender-aggregated-recommendation-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AllowedConnections API from Microsoft Defender — 3 operation(s) for allowedconnections.
+  name: Microsoft Defender Allowed Connections API
+  slug: microsoft-defender-allowedconnections-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Antimalware API from Microsoft Defender — 3 operation(s) for antimalware.
+  name: Microsoft Defender Antimalware API
+  slug: microsoft-defender-antimalware-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The APIMConfig API from Microsoft Defender — 2 operation(s) for apimconfig.
+  name: Microsoft Defender APIM Config API
+  slug: microsoft-defender-apimconfig-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Assessments API from Microsoft Defender — 2 operation(s) for assessments.
+  name: Microsoft Defender Assessments API
+  slug: microsoft-defender-assessments-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Assessments Metadata API from Microsoft Defender — 4 operation(s) for assessments metadata.
+  name: Microsoft Defender Assessments Metadata API
+  slug: microsoft-defender-assessments-metadata-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The BatchPricings API from Microsoft Defender — 2 operation(s) for batchpricings.
+  name: Microsoft Defender Batch Pricings API
+  slug: microsoft-defender-batchpricings-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Compliance Results API from Microsoft Defender — 2 operation(s) for compliance results.
+  name: Microsoft Defender Compliance Results API
+  slug: microsoft-defender-compliance-results-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The CustomRecommendations API from Microsoft Defender — 2 operation(s) for customrecommendations.
+  name: Microsoft Defender Custom Recommendations API
+  slug: microsoft-defender-customrecommendations-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The D4APICollection API from Microsoft Defender — 1 operation(s) for d4apicollection.
+  name: Microsoft Defender D4API Collection API
+  slug: microsoft-defender-d4apicollection-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The D4APICollectionList API from Microsoft Defender — 3 operation(s) for d4apicollectionlist.
+  name: Microsoft Defender D4API Collection List API
+  slug: microsoft-defender-d4apicollectionlist-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DataScanners API from Microsoft Defender — 2 operation(s) for datascanners.
+  name: Microsoft Defender Data Scanners API
+  slug: microsoft-defender-datascanners-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DefenderForStorage API from Microsoft Defender — 4 operation(s) for defenderforstorage.
+  name: Microsoft Defender Defender For Storage API
+  slug: microsoft-defender-defenderforstorage-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DeviceSecurityGroups API from Microsoft Defender — 2 operation(s) for devicesecuritygroups.
+  name: Microsoft Defender Device Security Groups API
+  slug: microsoft-defender-devicesecuritygroups-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DiscoveredSecuritySolutions API from Microsoft Defender — 3 operation(s) for discoveredsecuritysolutions.
+  name: Microsoft Defender Discovered Security Solutions API
+  slug: microsoft-defender-discoveredsecuritysolutions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ExternalSecuritySolutions API from Microsoft Defender — 3 operation(s) for externalsecuritysolutions.
+  name: Microsoft Defender External Security Solutions API
+  slug: microsoft-defender-externalsecuritysolutions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Alert Types API from Microsoft Defender — 2 operation(s) for iot security alert types.
+  name: Microsoft Defender IoT Security Alert Types API
+  slug: microsoft-defender-iot-security-alert-types-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Alerts API from Microsoft Defender — 2 operation(s) for iot security alerts.
+  name: Microsoft Defender IoT Security Alerts API
+  slug: microsoft-defender-iot-security-alerts-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Recommendation Types API from Microsoft Defender — 2 operation(s) for iot security recommendation types.
+  name: Microsoft Defender IoT Security Recommendation Types API
+  slug: microsoft-defender-iot-security-recommendation-types-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Recommendations API from Microsoft Defender — 2 operation(s) for iot security recommendations.
+  name: Microsoft Defender IoT Security Recommendations API
+  slug: microsoft-defender-iot-security-recommendations-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Solution Analytics API from Microsoft Defender — 2 operation(s) for iot security solution analytics.
+  name: Microsoft Defender IoT Security Solution Analytics API
+  slug: microsoft-defender-iot-security-solution-analytics-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IoT Security Solution API from Microsoft Defender — 3 operation(s) for iot security solution.
+  name: Microsoft Defender IoT Security Solution API
+  slug: microsoft-defender-iot-security-solution-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The JitNetworkAccessPolicies API from Microsoft Defender — 6 operation(s) for jitnetworkaccesspolicies.
+  name: Microsoft Defender Jit Network Access Policies API
+  slug: microsoft-defender-jitnetworkaccesspolicies-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The OffboardFromD4API API from Microsoft Defender — 1 operation(s) for offboardfromd4api.
+  name: Microsoft Defender Offboard From D4API API
+  slug: microsoft-defender-offboardfromd4api-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The OnboardToD4API API from Microsoft Defender — 1 operation(s) for onboardtod4api.
+  name: Microsoft Defender Onboard To D4API API
+  slug: microsoft-defender-onboardtod4api-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Operations API from Microsoft Defender — 1 operation(s) for operations.
+  name: Microsoft Defender Operations API
+  slug: microsoft-defender-operations-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PricingBatch API from Microsoft Defender — 2 operation(s) for pricingbatch.
+  name: Microsoft Defender Pricing Batch API
+  slug: microsoft-defender-pricingbatch-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Pricings API from Microsoft Defender — 2 operation(s) for pricings.
+  name: Microsoft Defender Pricings API
+  slug: microsoft-defender-pricings-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PrivateLinkResources API from Microsoft Defender — 2 operation(s) for privatelinkresources.
+  name: Microsoft Defender Private Link Resources API
+  slug: microsoft-defender-privatelinkresources-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PrivateLinks API from Microsoft Defender — 3 operation(s) for privatelinks.
+  name: Microsoft Defender Private Links API
+  slug: microsoft-defender-privatelinks-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Scan API from Microsoft Defender — 3 operation(s) for scan.
+  name: Microsoft Defender Scan API
+  slug: microsoft-defender-scan-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Secure Score API from Microsoft Defender — 3 operation(s) for secure score.
+  name: Microsoft Defender Secure Score API
+  slug: microsoft-defender-secure-score-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Secure Score Control Definitions API from Microsoft Defender — 2 operation(s) for secure score control definitions.
+  name: Microsoft Defender Secure Score Control Definitions API
+  slug: microsoft-defender-secure-score-control-definitions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Secure Score Controls API from Microsoft Defender — 1 operation(s) for secure score controls.
+  name: Microsoft Defender Secure Score Controls API
+  slug: microsoft-defender-secure-score-controls-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SecuritySolutions API from Microsoft Defender — 2 operation(s) for securitysolutions.
+  name: Microsoft Defender Security Solutions API
+  slug: microsoft-defender-securitysolutions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SecuritySolutionsReferenceData API from Microsoft Defender — 2 operation(s) for securitysolutionsreferencedata.
+  name: Microsoft Defender Security Solutions Reference Data API
+  slug: microsoft-defender-securitysolutionsreferencedata-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SecurityStandards API from Microsoft Defender — 2 operation(s) for securitystandards.
+  name: Microsoft Defender Security Standards API
+  slug: microsoft-defender-securitystandards-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServerVulnerabilityAssessment API from Microsoft Defender — 1 operation(s) for servervulnerabilityassessment.
+  name: Microsoft Defender Server Vulnerability Assessment API
+  slug: microsoft-defender-servervulnerabilityassessment-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServerVulnerabilityAssessments API from Microsoft Defender — 2 operation(s) for servervulnerabilityassessments.
+  name: Microsoft Defender Server Vulnerability Assessments API
+  slug: microsoft-defender-servervulnerabilityassessments-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServerVulnerabilityAssessmentsSettings API from Microsoft Defender — 2 operation(s) for servervulnerabilityassessmentssettings.
+  name: Microsoft Defender Server Vulnerability Assessments Settings API
+  slug: microsoft-defender-servervulnerabilityassessmentssettings-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Settings API from Microsoft Defender — 2 operation(s) for settings.
+  name: Microsoft Defender Settings API
+  slug: microsoft-defender-settings-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The StandardAssignments API from Microsoft Defender — 2 operation(s) for standardassignments.
+  name: Microsoft Defender Standard Assignments API
+  slug: microsoft-defender-standardassignments-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Subscriptions API from Microsoft Defender — 1 operation(s) for subscriptions.
+  name: Microsoft Defender Subscriptions API
+  slug: microsoft-defender-subscriptions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Topology API from Microsoft Defender — 3 operation(s) for topology.
+  name: Microsoft Defender Topology API
+  slug: microsoft-defender-topology-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Dev Ops API from Microsoft Defender — 21 operation(s) for dev ops.
+  name: Microsoft Defender Dev Ops API
+  slug: microsoft-defender-dev-ops-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Private Endpoint Connections API from Microsoft Defender — 2 operation(s) for private endpoint connections.
+  name: Microsoft Defender Private Endpoint Connections API
+  slug: microsoft-defender-private-endpoint-connections-api
+artifact_total: 82
 collections:
 - collection_type: open
   name: Microsoft Defender for Endpoint Alerts API
@@ -95,6 +337,113 @@ collections:
   name: Microsoft Defender for Endpoint Alerts Vulnerabilities API
   slug: open-microsoft-defender-vulnerabilities-api
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/rules/microsoft-defender-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-defender-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/rules/microsoft-defender-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-defender-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/vocabulary/microsoft-defender-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-defender-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/data-model/microsoft-defender-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-defender-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/conventions/microsoft-defender-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/microsoft-defender-conventions.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/errors/microsoft-defender-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-defender-error-codes.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/errors/microsoft-defender-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-defender-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-defender/conformance/microsoft-defender-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-defender-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-defender/llms/microsoft-defender-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-defender-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/microsoft-defender/well-known/microsoft-defender-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-defender-security.txt
+- group: agent
+  href: https://artifacts.apis.io/microsoft-defender/well-known/microsoft-defender-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-defender-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-defender/hosts/microsoft-defender-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-defender-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-defender/vendors/microsoft-defender-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-defender-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-defender/packages/microsoft-defender-packages.yml
+  title: ''
+  type: Packages
+  url: packages/microsoft-defender-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/en-us
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.microsoft.com/en-us/changelog
+- group: company
+  title: ''
+  type: Blog
+  url: https://techcommunity.microsoft.com/category/azure/blog/azuredevcommunityblog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.microsoft.com/
+- group: auth
+  href: https://artifacts.apis.io/microsoft-defender/security/microsoft-defender-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-defender-trust-center.yml
 - group: commercial
   href: https://artifacts.apis.io/microsoft-defender/plans/microsoft-defender-plans-pricing.yml
   title: ''
@@ -189,7 +538,7 @@ common:
   type: Security Pricing Overview
   url: https://www.microsoft.com/en-us/security/pricing-overview
 created: '2024-01-15'
-description: Collection of Microsoft Defender security APIs for threat protection, endpoint security, and security operations.
+description: Collection of Microsoft Defender security APIs for threat protection, endpoint security, and security operations, spanning Defender XDR (api.security.microsoft.com), Defender for Endpoint, Defender for Cloud Apps, Defender Threat Intelligence and Office 365 via Microsoft Graph security, and Defender for Cloud through the Azure Resource Manager Microsoft.Security provider whose OpenAPI is published in Azure/azure-rest-api-specs.
 finops:
 - has_sources: true
   method: derived
@@ -241,20 +590,20 @@ modified: '2026-09-16'
 name: Microsoft Defender
 nav: Providers
 network: true
-overview: 'Microsoft Defender publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Machines API, Vulnerabilities API, and 6 more. Tagged areas include Cloud Security, Data Protection, Threat Intelligence, Email Security, and Endpoint Security.
+overview: 'Microsoft Defender publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Machines API, Vulnerabilities API, and 53 more. Tagged areas include Cloud Security, Data Protection, Threat Intelligence, Email Security, and Endpoint Security.
 
 
-  The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Defender''s developer surface includes authentication, developer portal, and 19 more developer resources.'
+  Microsoft Defender''s developer surface includes support, changelog, engineering blog, getting-started guide, documentation, authentication, developer portal, and 37 more developer resources.'
 plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 12
   slug: microsoft-defender-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 6
+- limit_count: 2
   name: Microsoft Defender Rate Limits
   slug: microsoft-defender-rate-limits
 rules:
@@ -269,6 +618,18 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-defender-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Microsoft Defender API Rules
+  rule_count: 59
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 4
+    warn: 5
+  slug: microsoft-defender-rules
 scopes:
 - name: Microsoft Defender Scopes
   scope_count: 1
@@ -276,43 +637,44 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.3
+  composite: 63.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 50.7
-    catalog_earned_first_party: 12.0
-    catalog_gap: 64.4
+    artifact_dirs: 32
+    catalog_earned: 63.2
+    catalog_earned_first_party: 20.0
+    catalog_gap: 51.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 63.2
-    contract_governance: 9.8
-    contract_quality: 64.9
-    developer_ergonomics: 57.1
-    discoverability: 39.3
-    operational_transparency: 55.3
-  previous_composite: 56.3
+    access_clarity: 78.9
+    contract_governance: 22.0
+    contract_quality: 58.6
+    developer_ergonomics: 64.3
+    discoverability: 50.0
+    operational_transparency: 65.8
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 55
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-defender/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication
@@ -327,6 +689,10 @@ security:
   name: Microsoft Defender Vulnerability Disclosure
   slug: microsoft-defender-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Defender Trust Center
+  slug: microsoft-defender-trust-center
+  summary_line: GDPR
 slug: microsoft-defender
 tags:
 - Cloud Security

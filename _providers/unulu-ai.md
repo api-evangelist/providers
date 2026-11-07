@@ -1,20 +1,34 @@
 ---
+access_model:
+  confidence: high
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,34 +38,39 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-31'
+  score: 32.6
+  scored_at: '2026-11-06'
 agentic_access:
-- acting_count: 1
+- acting_count: 6
   human_in_the_loop: 0
   name: Unulu Ai Agentic Access
-  operation_count: 2
+  operation_count: 9
   slug: unulu-ai-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 9 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api.unulu.ai
   baseurl_source: declared
-  description: The Sites API from unulu-ai — 2 operation(s) for sites.
+  description: The Claims API from unulu-ai — 1 operation(s) for claims.
+  name: unulu-ai Claims API
+  slug: unulu-ai-claims-api
+- baseURL: https://api.unulu.ai
+  baseurl_source: declared
+  description: The Feature Votes API from unulu-ai — 1 operation(s) for feature votes.
+  name: unulu-ai Feature Votes API
+  slug: unulu-ai-feature-votes-api
+- baseURL: https://api.unulu.ai
+  baseurl_source: declared
+  description: The Sites API from unulu-ai — 5 operation(s) for sites.
   name: unulu-ai Sites API
   slug: unulu-ai-sites-api
-artifact_total: 15
+artifact_total: 17
 common:
 - group: agent
   href: https://artifacts.apis.io/unulu-ai/agentic-access/unulu-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unulu-ai-agentic-access.yml
-- group: commercial
-  href: https://artifacts.apis.io/unulu-ai/plans/unulu-ai-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/unulu-ai-plans-pricing.yml
 - group: design
   href: https://artifacts.apis.io/unulu-ai/rules/unulu-ai-rules.yml
   title: ''
@@ -67,16 +86,11 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/unulu-ai-vocabulary.yml
-- group: agent
-  href: https://artifacts.apis.io/unulu-ai/skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/unulu-ai/data-model/unulu-ai-data-model.yml
   title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: build
-  href: https://artifacts.apis.io/unulu-ai/cli/unulu-ai-cli.yml
-  title: ''
-  type: CLI
-  url: cli/unulu-ai-cli.yml
+  type: DataModel
+  url: data-model/unulu-ai-data-model.yml
 - group: design
   href: https://artifacts.apis.io/unulu-ai/errors/unulu-ai-problem-types.yml
   title: ''
@@ -126,6 +140,30 @@ common:
   title: ''
   type: TrustCenter
   url: https://unulu.ai/trust
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://unulu.ai/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://unulu.ai/help
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://unulu.ai/privacy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://unulu.ai/docs
+- group: company
+  title: ''
+  type: Blog
+  url: https://unulu.ai/blog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://unulu.ai/install
 - group: auth
   href: https://artifacts.apis.io/unulu-ai/security/unulu-ai-domain-security.yml
   title: ''
@@ -135,26 +173,10 @@ common:
   title: ''
   type: Website
   url: https://unulu.ai/
-- group: docs
+- group: agent
   title: ''
-  type: Documentation
-  url: https://unulu.ai/docs
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://unulu.ai/openapi.json
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://unulu.ai/install
-- group: operate
-  title: ''
-  type: Support
-  url: https://unulu.ai/help
-- group: company
-  title: ''
-  type: Blog
-  url: https://unulu.ai/blog
+  type: llms.txt
+  url: https://unulu.ai/llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -163,25 +185,17 @@ common:
   title: ''
   type: Pricing
   url: https://unulu.ai/pricing
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://unulu.ai/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://unulu.ai/privacy
 created: '2026-10-31'
-description: unulu™ provides an AI‑driven website builder that creates link‑in‑bio pages instantly. Developers can connect AI agents via a Streamable HTTP MCP server or a standard REST API to programmatically generate, read, update, and publish sites on unu.lu. The service is free, requires no signup, and offers tools for future portfolio and shop extensions.
+description: unulu™ provides an AI‑powered link‑in‑bio site builder. Developers can create and publish personalized link‑in‑bio pages instantly via a MCP server or REST API, without signup or templates. The service runs on the unu.lu domain, offers free usage, and integrates with major AI agents like Claude, ChatGPT, and Gemini.
 image: https://unulu.ai/opengraph-image?faec48898589e26b
 json_schemas:
 - name: SkinId
   property_count: 0
   slug: unulu-ai-skin-id
 jsonld:
-- class_count: 1
+- class_count: 2
   name: Unulu Ai Context
-  property_count: 0
+  property_count: 1
   slug: unulu-ai-context
 layout: provider
 mcp_servers:
@@ -192,13 +206,13 @@ modified: '2026-10-31'
 name: unulu-ai
 nav: Providers
 network: true
-overview: 'unulu-ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Sites API. Tagged areas include Company, AI, Link-in-Bio, API, and MCP.
+overview: 'unulu-ai publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Claims API, Feature Votes API, and Sites API. Tagged areas include Company, Artificial Intelligence, Link in Bio, and MCP.
 
 
   The unulu-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  unulu-ai''s developer surface includes CLI, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+  unulu-ai''s developer surface includes support, documentation, engineering blog, getting-started guide, pricing, and 21 more developer resources.'
 plans:
 - name: Unulu Ai Plans Pricing
   plan_count: 1
@@ -210,13 +224,13 @@ rate_limits:
   slug: unulu-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: unulu-ai API Rules
-  rule_count: 13
+  rule_count: 12
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 1
     warn: 1
@@ -227,34 +241,48 @@ scopes:
   slug: unulu-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.8
+  band: thin
+  composite: 34.1
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 75.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 39.7
+    artifact_dirs: 34
+    catalog_earned: 56.2
+    catalog_earned_first_party: 8.0
+    catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.9
   facets:
-    access_clarity: 58.4
-    contract_governance: 79.1
-    contract_quality: 48.7
-    developer_ergonomics: 49.3
-    discoverability: 65.0
-    operational_transparency: 5.3
+    access_clarity: 40.8
+    contract_governance: 22.0
+    contract_quality: 51.8
+    developer_ergonomics: 14.3
+    discoverability: 56.7
+    operational_transparency: 2.6
+  previous_composite: 43.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/unulu-ai/unulu-ai-2026-11-03T145456.png
 security:
 - kind: authentication
   name: Unulu Ai Authentication
@@ -277,10 +305,8 @@ skills:
 slug: unulu-ai
 tags:
 - Company
-- AI
-- Link-in-Bio
-- API
+- Artificial Intelligence
+- Link in Bio
 - MCP
-- Platform
 website: https://unulu.ai/
 ---

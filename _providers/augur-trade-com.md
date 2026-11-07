@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 35.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -184,7 +196,7 @@ modified: '2026-10-29'
 name: augur-trade-com
 nav: Providers
 network: true
-overview: 'augur-trade-com publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chain Cortex API, Forensics Lobe API, Hub API, and 8 more. Tagged areas include Company, Finance, Crypto, Trading, and Automation.
+overview: 'augur-trade-com publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chain Cortex API, Forensics Lobe API, Hub API, and 8 more. Tagged areas include Company, Finance, Cryptocurrency, Trading, and Automation.
 
 
   The augur-trade-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -212,7 +224,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.9
+  composite: 31.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 42.8
@@ -220,13 +232,21 @@ score:
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 51.2
-    developer_ergonomics: 44.5
-    discoverability: 66.1
+    developer_ergonomics: 31.4
+    discoverability: 73.2
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,13 +262,13 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Augur Trade Com Authentication
@@ -266,7 +286,7 @@ slug: augur-trade-com
 tags:
 - Company
 - Finance
-- Crypto
+- Cryptocurrency
 - Trading
 - Automation
 - Solana

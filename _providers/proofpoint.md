@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -209,9 +222,9 @@ rate_limits:
   slug: proofpoint-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 40.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -224,8 +237,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 59.5
     discoverability: 71.4
-    operational_transparency: 47.4
-  previous_composite: 40.4
+    operational_transparency: 44.7
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -235,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

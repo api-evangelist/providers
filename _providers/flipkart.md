@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-31'
+  score: 19.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -146,7 +152,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.8
+  composite: 35.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -160,7 +166,7 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 42.9
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -169,7 +175,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 34.8
+  previous_composite: 35.7
   provenance:
     mcp: derived
   regulatory:
@@ -178,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -206,6 +212,7 @@ tags:
 - Order
 - Fulfillment
 - India
+- OAuth
 - Authentication
 website: https://www.flipkart.com/
 ---

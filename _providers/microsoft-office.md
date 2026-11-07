@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,9 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -107,7 +114,7 @@ arazzos:
 - description: Resolve a joined team, check for an existing channel, create it when missing, and post a kickoff message.
   name: Microsoft Office Provision a Teams Channel and Announce It
   slug: microsoft-office-teams-channel-provisioning-workflow
-artifact_total: 33
+artifact_total: 41
 collections:
 - collection_type: open
   name: Microsoft Graph API (Office 365 subset) Drive API
@@ -122,6 +129,51 @@ collections:
   name: Microsoft Graph API (Office 365 subset)
   slug: open-microsoft-office
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-office/rules/microsoft-office-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-office-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-office/json-ld/microsoft-office-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-office-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-office/vocabulary/microsoft-office-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-office-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-support#deprecation
+- group: other
+  href: https://artifacts.apis.io/microsoft-office/hosts/microsoft-office-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-office-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-office/vendors/microsoft-office-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-office-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
 - group: commercial
   href: https://artifacts.apis.io/microsoft-office/plans/microsoft-office-plans-pricing.yml
   title: ''
@@ -332,6 +384,30 @@ finops:
   slug: microsoft-office-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-office.png
+json_schemas:
+- name: DriveItemCollection
+  property_count: 1
+  slug: microsoft-office-drive-item-collection
+- name: DriveItem
+  property_count: 7
+  slug: microsoft-office-drive-item
+- name: Drive
+  property_count: 4
+  slug: microsoft-office-drive
+- name: MessageCollection
+  property_count: 2
+  slug: microsoft-office-message-collection
+- name: Message
+  property_count: 6
+  slug: microsoft-office-message
+- name: SendMailRequest
+  property_count: 2
+  slug: microsoft-office-send-mail-request
+jsonld:
+- class_count: 6
+  name: Microsoft Office Context
+  property_count: 18
+  slug: microsoft-office-context
 layout: provider
 mcp_servers:
 - description: Microsoft ships an official Model Context Protocol server for Microsoft Graph (the API surface behind this Office 365 collection). "Microsoft MCP Server for Enterprise" is a read-only, RAG-assisted se
@@ -344,7 +420,10 @@ network: true
 overview: 'Microsoft Office is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Drive API, Mail API, Teams API, and 7 more. Tagged areas include Collaboration, Documents, Microsoft, Office, and Productivity.
 
 
-  Microsoft Office''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, engineering blog, and 35 more developer resources.'
+  The Microsoft Office catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Microsoft Office''s developer surface includes getting-started guide, changelog, CLI, sandbox, authentication, developer portal, documentation, and 45 more developer resources.'
 plans:
 - name: Microsoft Office Plans Pricing
   plan_count: 13
@@ -357,30 +436,43 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Office Rate Limits
   slug: microsoft-office-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Microsoft Office API Rules
+  rule_count: 51
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 2
+  slug: microsoft-office-rules
 scopes:
 - name: Microsoft Office Scopes
   scope_count: 16
   slug: microsoft-office-scopes
   summary_line: 16 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.1
+  band: exemplar
+  composite: 69.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 58.0
+    artifact_dirs: 36
+    catalog_earned: 83.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 57.0
+    catalog_gap: 31.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 6.6
   facets:
-    access_clarity: 78.9
-    contract_governance: 4.5
-    contract_quality: 42.9
+    access_clarity: 86.8
+    contract_governance: 22.0
+    contract_quality: 59.2
     developer_ergonomics: 78.6
-    discoverability: 76.7
-    operational_transparency: 55.3
-  previous_composite: 60.6
+    discoverability: 81.7
+    operational_transparency: 52.6
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,13 +488,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-office/microsoft-office-2026-06-20T185511.png
 security:
 - kind: authentication

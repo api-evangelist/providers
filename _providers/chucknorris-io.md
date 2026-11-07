@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Free
   onboarding: unknown
-  pricing: unknown
+  pricing: free
   public: false
-  source: []
+  source:
+  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -18,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-31'
+  score: 35.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -327,9 +330,9 @@ rules:
   slug: chucknorris-io-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 36.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -342,8 +345,8 @@ score:
     contract_quality: 64.9
     developer_ergonomics: 31.0
     discoverability: 64.3
-    operational_transparency: 21.1
-  previous_composite: 38.3
+    operational_transparency: 10.5
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -357,13 +360,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/chucknorris-io/chucknorris-io-2026-06-20T174333.png
 security:
 - kind: domain-security

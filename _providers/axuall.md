@@ -1,6 +1,22 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -9,23 +25,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-10-31'
+  score: 39.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -116,6 +133,11 @@ asyncapis:
   name: Axuall Webhooks
   slug: axuall-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/axuall/finops/axuall-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/axuall-finops.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -299,7 +321,7 @@ overview: 'Axuall publishes 15 API contracts indexed on the [APIs.io](https://ap
   The Axuall catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Axuall''s developer surface includes pricing, CLI, authentication, changelog, documentation, API reference, getting-started guide, and 21 more developer resources.'
+  Axuall''s developer surface includes pricing, CLI, authentication, changelog, documentation, API reference, getting-started guide, and 22 more developer resources.'
 plans:
 - name: Axuall Plans Pricing
   plan_count: 3
@@ -310,43 +332,43 @@ plans:
 random_paper: 23
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 92
   extends:
   - spectral:oas
   name: Axuall API Rules
-  rule_count: 14
+  rule_count: 51
   severity_counts:
-    error: 11
+    error: 37
     hint: 0
-    info: 1
-    warn: 2
+    info: 2
+    warn: 12
   slug: axuall-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 55.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 75.8
     catalog_earned_first_party: 12.0
     catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -7.7
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 35.6
-    contract_quality: 70.6
-    developer_ergonomics: 54.2
-    discoverability: 64.3
-    operational_transparency: 34.2
-  previous_composite: 59.4
+    contract_quality: 76.1
+    developer_ergonomics: 37.5
+    discoverability: 63.4
+    operational_transparency: 26.3
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 15
     mcp: derived
     skills: derived
@@ -355,14 +377,13 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 17.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/axuall/axuall-2026-10-11T101402.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -15,7 +18,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +32,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,8 +43,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 29.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server that connects an AI coding assistant to the Kotzilla Platform. Fifteen tools covering app registration, SDK onboarding, telemetry, issue detection and conte
@@ -230,10 +234,10 @@ scopes:
   slug: kotzilla-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.8
+  band: thin
+  composite: 35.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -241,12 +245,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 65.8
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 28.9
+    developer_ergonomics: 54.8
+    discoverability: 68.3
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -255,7 +259,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 42.8
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -265,8 +269,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

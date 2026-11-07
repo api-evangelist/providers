@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The Adaptive Client API is a sixteen-operation REST API under /api/v3/client that exposes an Adaptive workspace to external systems: list users, resources, endpoints, authorizations, scripts and teams'
@@ -197,9 +211,9 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 52.2
+  composite: 52.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,9 +225,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 52.2
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

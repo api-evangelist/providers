@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -94,7 +96,7 @@ overview: 'JobAdder is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 11
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -109,16 +111,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 16.7
+    operational_transparency: 2.6
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

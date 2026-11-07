@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for the Employment Hero platform (behind humi.ca) — employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks. OAuth 2.0 authorization-code with PKCE; Bearer to
@@ -199,8 +205,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 66.1
-    operational_transparency: 50.0
+    discoverability: 73.2
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -218,8 +224,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

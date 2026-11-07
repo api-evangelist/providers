@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.3
-  scored_at: '2026-10-31'
+  score: 14.0
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Newfold Labs WordPress MCP module (wp-module-mcp) registers an MCP server, id blu-mcp, on the WordPress REST route /wp-json/blu/mcp of every site running a Newfold brand plugin. It exposes WordPre
@@ -214,7 +215,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -226,8 +227,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 61.7
-    operational_transparency: 31.6
+    discoverability: 65.0
+    operational_transparency: 28.9
   previous_composite: 31.3
   provenance:
     conformance: first-party
@@ -239,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -285,10 +290,10 @@ scopes:
   slug: runsignup-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 37.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 62.4
     catalog_earned_first_party: 0.0
     catalog_gap: 52.6
@@ -299,10 +304,10 @@ score:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 57.2
-    developer_ergonomics: 40.5
+    developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 39.4
+    operational_transparency: 10.5
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -316,13 +321,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/runsignup/runsignup-2026-06-20T193255.png
 security:
 - kind: authentication

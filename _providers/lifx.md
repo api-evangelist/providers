@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,7 +26,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-31'
+  score: 31.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -52,6 +65,16 @@ apis:
   slug: lifx-scenes-api
 artifact_total: 10
 common:
+- group: design
+  href: https://artifacts.apis.io/lifx/vocabulary/lifx-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/lifx-vocabulary.yml
+- group: auth
+  href: https://artifacts.apis.io/lifx/well-known/lifx-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/lifx-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/lifx/well-known/lifx-lifx-security.txt
   title: ''
@@ -106,11 +129,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/lifx-www-security.txt
-- group: auth
-  href: https://artifacts.apis.io/lifx/well-known/lifx-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/lifx-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/lifx/well-known/lifx-security.txt
   title: ''
@@ -215,7 +233,7 @@ overview: 'LIFX publishes 3 API contracts indexed on the [APIs.io](https://apis.
   The LIFX catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  LIFX''s developer surface includes authentication, support, documentation, API reference, and 28 more developer resources.'
+  LIFX''s developer surface includes authentication, support, documentation, API reference, and 29 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 1
@@ -223,34 +241,36 @@ rate_limits:
   slug: lifx-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 89
   extends:
   - spectral:oas
   name: LIFX API Rules
-  rule_count: 11
+  rule_count: 48
   severity_counts:
-    error: 8
+    error: 43
     hint: 0
-    info: 1
-    warn: 2
+    info: 2
+    warn: 3
   slug: lifx-rules
 score:
-  band: developing
-  composite: 43.6
+  band: thin
+  composite: 37.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 44.5
+    artifact_dirs: 20
+    catalog_earned: 45.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.5
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.1
   facets:
-    access_clarity: 21.1
-    contract_governance: 18.2
-    contract_quality: 47.3
-    developer_ergonomics: 51.8
-    discoverability: 58.9
-    operational_transparency: 52.6
+    access_clarity: 10.5
+    contract_governance: 22.0
+    contract_quality: 52.6
+    developer_ergonomics: 36.3
+    discoverability: 65.2
+    operational_transparency: 36.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,20 +279,21 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 3
-    mcp: unknown
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/lifx/lifx-2026-11-03T134859.png
 security:
 - kind: authentication
   name: Lifx Authentication

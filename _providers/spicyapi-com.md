@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.6
-  scored_at: '2026-10-31'
+  score: 45.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -223,7 +236,7 @@ modified: '2026-10-31'
 name: spicyapi-com
 nav: Providers
 network: true
-overview: 'spicyapi-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent tools API, Audio API, Characters API, and 9 more. Tagged areas include Company, AI, Adult, Image Generation, and Video Generation.
+overview: 'spicyapi-com publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent tools API, Audio API, Characters API, and 9 more. Tagged areas include Company, Artificial Intelligence, Adult, Image Generation, and Video Generation.
 
 
   The spicyapi-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -254,34 +267,48 @@ scopes:
   slug: spicyapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.5
+  band: thin
+  composite: 37.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    artifact_dirs: 27
+    catalog_earned: 50.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.4
   facets:
-    access_clarity: 31.6
-    contract_governance: 79.1
-    contract_quality: 49.8
-    developer_ergonomics: 51.7
+    access_clarity: 15.8
+    contract_governance: 22.0
+    contract_quality: 52.9
+    developer_ergonomics: 30.4
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 31.6
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/spicyapi-com/spicyapi-com-2026-11-03T143631.png
 security:
 - kind: authentication
   name: Spicyapi Com Authentication
@@ -318,7 +345,7 @@ skills:
 slug: spicyapi-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Adult
 - Image Generation
 - Video Generation

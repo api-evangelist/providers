@@ -24,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-31'
+  score: 16.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
@@ -168,9 +169,9 @@ overview: 'System Initiative is listed with 1 API on the [APIs.io](https://apis.
 random_paper: 0
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,10 +182,13 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 61.3
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 26.1
+    developer_ergonomics: 41.1
+    discoverability: 73.2
+    operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 25.7
   provenance:
     mcp: first-party
     skills: derived
@@ -194,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

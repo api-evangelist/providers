@@ -26,7 +26,8 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: documented
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-31'
+  score: 30.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -93,11 +94,6 @@ apis:
   slug: amazon-appsync-types-api
 - baseURL: https://appsync.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The Appsync Apiassociation API from Amazon AppSync — 1 operation(s) for appsync apiassociation.
-  name: Amazon AppSync Appsync Apiassociation API
-  slug: amazon-appsync-apiassociation-api
-- baseURL: https://appsync.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The Appsync Apicaches API from Amazon AppSync — 2 operation(s) for appsync apicaches.
   name: Amazon AppSync Appsync Apicaches API
   slug: amazon-appsync-apicaches-api
@@ -121,7 +117,7 @@ apis:
   description: The Appsync Sourceapiassociations API from Amazon AppSync — 3 operation(s) for appsync sourceapiassociations.
   name: Amazon AppSync Appsync Sourceapiassociations API
   slug: amazon-appsync-sourceapiassociations-api
-artifact_total: 280
+artifact_total: 279
 collections:
 - collection_type: open
   name: Amazon AppSync Api Keys API
@@ -913,7 +909,7 @@ modified: '2026-09-16'
 name: Amazon AppSync
 nav: Providers
 network: true
-overview: 'Amazon AppSync publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Api Keys API, Data Sources API, Domain Names API, and 12 more. Tagged areas include Amazon AppSync, GraphQL, API Management, and Serverless.
+overview: 'Amazon AppSync publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Api Keys API, Data Sources API, Domain Names API, and 11 more. Tagged areas include Amazon AppSync, GraphQL, API Management, Serverless, and Amazon Web Services.
 
 
   The Amazon AppSync catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -947,23 +943,23 @@ rules:
   slug: amazon-appsync-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 33.1
   coverage:
     artifact_dirs: 24
-    catalog_earned: 53.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 1.1
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
-    contract_quality: 68.2
+    contract_quality: 71.3
     developer_ergonomics: 11.9
-    discoverability: 65.0
+    discoverability: 73.3
     operational_transparency: 10.5
-  previous_composite: 31.4
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -979,13 +975,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-appsync/amazon-appsync-2026-07-25T195928.png
 security:
 - kind: authentication
@@ -1006,6 +1001,7 @@ tags:
 - GraphQL
 - API Management
 - Serverless
+- Amazon Web Services
 use_cases:
 - Build mobile and web applications with a unified GraphQL data layer
 - Implement real-time features like live notifications and chat with subscriptions

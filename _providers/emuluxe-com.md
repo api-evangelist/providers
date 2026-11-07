@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-31'
+  score: 29.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.emuluxe.com
@@ -218,7 +234,7 @@ modified: '2026-10-30'
 name: emuluxe-com
 nav: Providers
 network: true
-overview: 'emuluxe-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MobileSimulation, DeveloperTools, AI, and DeviceEmulation.
+overview: 'emuluxe-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MobileSimulation, Developer Tools, Artificial Intelligence, and DeviceEmulation.
 
 
   The emuluxe-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -253,34 +269,47 @@ scopes:
   slug: emuluxe-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.9
+  band: developing
+  composite: 41.6
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 82.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 32.5
+    artifact_dirs: 31
+    catalog_earned: 68.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.7
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 51.8
-    developer_ergonomics: 77.9
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 22.1
+    developer_ergonomics: 55.2
     discoverability: 66.1
-    operational_transparency: 47.4
+    operational_transparency: 23.7
+  previous_composite: 54.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/emuluxe-com/emuluxe-com-2026-11-03T131506.png
 security:
 - kind: authentication
   name: Emuluxe Com Authentication
@@ -298,8 +327,8 @@ slug: emuluxe-com
 tags:
 - Company
 - MobileSimulation
-- DeveloperTools
-- AI
+- Developer Tools
+- Artificial Intelligence
 - DeviceEmulation
 website: https://emuluxe.com/
 ---

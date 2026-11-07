@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,6 +85,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.certa.ai/terms-of-service
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.certa.ai/blog
 created: '2026-07-17'
 description: Certa (operated by Opinr, Inc. d/b/a Certa) is an AI-native third-party risk management (TPRM) and compliance platform that unifies the full third-party lifecycle — onboarding, due diligence, contract management, continuous compliance monitoring, and offboarding — in a single no-code system. Founded by Jag Lamba and headquartered in Saratoga, CA, Certa serves Fortune 500 companies (Honeywell, Uber, Mars, Box, Quantcast) across 120+ countries and 17 languages. The platform covers all risk domains — operational and resilience, infosec and cyber, compliance and legal, financial and credit, reputational, geopolitical, and ESG and ethical risk — via its Studio no-code process designer, Certa Connect (130+ native integrations), and embedded AI agents. Certa was named a Leader in the inaugural 2026 Gartner Magic Quadrant for Third-Party Risk Management Tools. External integration is available through an enterprise external API surfaced from the platform; no public OpenAPI or developer
   portal is published as of this profile.
@@ -95,13 +101,13 @@ network: true
 overview: 'Certa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Third-Party Risk Management, Compliance, Procurement, and Vendor Management.
 
 
-  Certa''s developer surface includes engineering blog and 9 more developer resources.'
+  Certa''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 23
 score:
   band: emerging
-  composite: 15.4
+  composite: 16.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,17 +119,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 10.5
-  previous_composite: 15.4
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -154,5 +160,8 @@ tags:
 - ESG
 - KYC
 - Supplier Onboarding
+- Identity
+- Verification
+- Fraud Prevention
 website: https://www.certa.ai/
 ---

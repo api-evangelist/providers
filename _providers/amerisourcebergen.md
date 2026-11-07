@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
@@ -217,7 +225,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.0
+  composite: 23.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 32.0
@@ -231,9 +239,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 23.0
+  previous_composite: 23.7
   provenance:
     conformance: first-party
   regulatory:
@@ -242,8 +250,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

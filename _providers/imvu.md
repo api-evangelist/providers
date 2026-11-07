@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Open access
   onboarding: open
   pricing: paid
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: First-party in-world scripting API for IMVU Live Rooms. Room scripts are single-file Lua programs executed server-side in a Luau sandbox; the engine calls event functions (event_start, event_begin_ite
@@ -183,23 +187,23 @@ rate_limits:
   slug: imvu-rate-limits
 score:
   band: thin
-  composite: 32.1
+  composite: 31.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 51.0
     catalog_earned_first_party: 24.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 6.5
     developer_ergonomics: 16.7
-    discoverability: 50.0
-    operational_transparency: 44.7
-  previous_composite: 32.1
+    discoverability: 49.1
+    operational_transparency: 42.1
+  previous_composite: 31.8
   provenance:
     conformance: derived
     mcp: derived
@@ -209,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

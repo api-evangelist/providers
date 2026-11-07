@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://gpodder.net
@@ -138,7 +149,7 @@ modified: '2026-10-28'
 name: gpodder.net
 nav: Providers
 network: true
-overview: 'gpodder.net is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Podcast, Open-Source, Sync, API, and Community.
+overview: 'gpodder.net is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Podcasts, Open Source, Sync, and Community.
 
 
   The gpodder.net catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -161,28 +172,30 @@ rules:
   slug: gpodder-rules
 score:
   band: emerging
-  composite: 21.1
+  composite: 16.5
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 60.8
+    artifact_dirs: 15
+    catalog_earned: 55.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.9
   facets:
-    access_clarity: 13.2
+    access_clarity: 6.6
     contract_governance: 22.0
     contract_quality: 24.8
-    developer_ergonomics: 16.7
-    discoverability: 62.5
+    developer_ergonomics: 8.3
+    discoverability: 53.6
     operational_transparency: 5.3
+  previous_composite: 20.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 1
       marker_coverage: 100.0
-      total: 11
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -190,12 +203,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/gpodder/gpodder-2026-11-03T132954.png
 security:
 - kind: domain-security
   name: Gpodder Domain Security
@@ -203,10 +217,9 @@ security:
   summary_line: TLSv1.2 · HSTS
 slug: gpodder
 tags:
-- Podcast
-- Open-Source
+- Podcasts
+- Open Source
 - Sync
-- API
 - Community
 website: https://gpodder.net/
 ---

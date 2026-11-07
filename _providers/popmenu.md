@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -215,9 +216,9 @@ rate_limits:
   slug: popmenu-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 29.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 52.0
     catalog_earned_first_party: 20.0
     catalog_gap: 63.0
@@ -225,13 +226,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 57.1
-    operational_transparency: 42.1
-  previous_composite: 30.8
+    discoverability: 64.3
+    operational_transparency: 39.5
+  previous_composite: 29.9
   provenance:
     conformance: derived
     mcp: derived
@@ -241,8 +242,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

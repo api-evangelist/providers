@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
@@ -44,7 +46,7 @@ apis:
   description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
   name: StarTree (Cortexdata) Query API
   slug: startree-cortexdata-query-api-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: StarTree Cloud Query Query API API
@@ -203,31 +205,47 @@ network: true
 overview: 'StarTree (Cortexdata) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
+  The StarTree (Cortexdata) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   StarTree (Cortexdata)''s developer surface includes engineering blog, authentication, changelog, documentation, API reference, support, pricing, and 22 more developer resources.'
 plans:
 - name: Startree Cortexdata Plans Pricing
   plan_count: 3
   slug: startree-cortexdata-plans-pricing
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: StarTree (Cortexdata) API Rules
+  rule_count: 47
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 1
+  slug: startree-cortexdata-rules
 score:
   band: strong
   composite: 57.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.0
+    artifact_dirs: 22
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
+    access_clarity: 85.5
+    contract_governance: 31.8
     contract_quality: 47.8
     developer_ergonomics: 54.2
-    discoverability: 65.0
-    operational_transparency: 31.6
-  previous_composite: 49.1
+    discoverability: 71.7
+    operational_transparency: 28.9
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     contracts:
@@ -243,13 +261,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/startree-cortexdata/startree-cortexdata-2026-08-17T082112.png
 security:
 - kind: authentication

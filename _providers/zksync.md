@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -213,7 +215,7 @@ rules:
   slug: zksync-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 35.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 48.5
@@ -226,18 +228,21 @@ score:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 40.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 36.8
-  previous_composite: 28.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 35.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The FlashExpress Open API is the merchant-facing integration surface for Flash Express parcel logistics in Thailand. All calls are HTTPS POST with an application/x-www-form-urlencoded body and a JSON '
@@ -197,8 +198,8 @@ rate_limits:
   name: Flash Express Rate Limits
   slug: flash-express-rate-limits
 score:
-  band: developing
-  composite: 42.6
+  band: thin
+  composite: 34.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -211,7 +212,7 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 71.4
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
@@ -221,7 +222,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 42.6
+  previous_composite: 34.9
   provenance:
     conformance: derived
   regulatory:
@@ -230,8 +231,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

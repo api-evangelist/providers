@@ -1,11 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,8 +31,9 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
-    openapi_examples: false
+    mcp_server: false
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
@@ -25,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 58.0
-  scored_at: '2026-10-31'
+  score: 53.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +128,37 @@ apis:
   description: The User v2 API from datalikers-com — 1 operation(s) for user v2.
   name: datalikers-com User v2 API
   slug: datalikers-com-user-v2-api
-artifact_total: 25
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: Acquisition and merger signals with acquirer, target, amount, and source context.
+  name: datalikers-com Acquisitions API
+  slug: datalikers-com-acquisitions-api
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: Company directory records with search and firmographic filters.
+  name: datalikers-com Companies API
+  slug: datalikers-com-companies-api
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: Executive job-change signals across tracked companies and people.
+  name: datalikers-com Exec Moves API
+  slug: datalikers-com-exec-moves-api
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: Funding rounds with company, investors, amount, round, and source context.
+  name: datalikers-com Funding Events API
+  slug: datalikers-com-funding-events-api
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: 'Hiring signals from company job boards: leadership openings, founding roles, team scaling, technology hiring (beta) and hard-to-fill roles, plus each company''s current hiring profile. Build-outs, surg'
+  name: datalikers-com Hiring Signals API
+  slug: datalikers-com-hiring-signals-api
+- baseURL: https://api.datahyena.com
+  baseurl_source: declared
+  description: Investor directory records with search, type, country, and domain filters.
+  name: datalikers-com Investors API
+  slug: datalikers-com-investors-api
+artifact_total: 31
 common:
 - group: agent
   href: https://artifacts.apis.io/datalikers-com/agentic-access/datalikers-com-agentic-access.yml
@@ -265,7 +312,7 @@ modified: '2026-10-30'
 name: datalikers-com
 nav: Providers
 network: true
-overview: 'datalikers-com publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Comment API, Hashtag API, Highlight API, and 12 more. Tagged areas include Company, Data, Social Media, API, and Developer Platform.
+overview: 'datalikers-com publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Comment API, Hashtag API, Highlight API, and 18 more. Tagged areas include Company, Data, Social Media, and Developer Platform.
 
 
   The datalikers-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,34 +347,48 @@ scopes:
   slug: datalikers-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.8
+  band: developing
+  composite: 43.4
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 78.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    artifact_dirs: 33
+    catalog_earned: 62.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.0
   facets:
-    access_clarity: 63.7
-    contract_governance: 70.9
-    contract_quality: 47.3
-    developer_ergonomics: 35.7
-    discoverability: 66.1
-    operational_transparency: 78.4
+    access_clarity: 43.4
+    contract_governance: 19.7
+    contract_quality: 40.8
+    developer_ergonomics: 23.8
+    discoverability: 57.1
+    operational_transparency: 65.8
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 28.6
+      derived: 6
+      marker_coverage: 28.6
+      total: 21
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/datalikers-com/datalikers-com-2026-11-03T130226.png
 security:
 - kind: authentication
   name: Datalikers Com Authentication
@@ -350,7 +411,6 @@ tags:
 - Company
 - Data
 - Social Media
-- API
 - Developer Platform
 website: https://datalikers.com/
 ---

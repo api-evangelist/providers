@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Balance API powers embedded B2B payments, digital trade credit, net terms, and order-to-cash automation. Developer documentation is gated behind a request form (ReadMe-hosted) and the production A
@@ -143,7 +145,7 @@ overview: 'Balance is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 22
 score:
   band: thin
-  composite: 31.5
+  composite: 32.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -157,9 +159,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 31.5
+  previous_composite: 32.2
   provenance:
     conformance: first-party
   regulatory:
@@ -172,8 +174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

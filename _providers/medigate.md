@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Customer-facing REST API for the Medigate (now Claroty xDome for Healthcare) device-security platform. Documents two versions — V1 (HTTP basic auth) and V2 (API token) — used to pull the Device List, '
@@ -104,7 +105,7 @@ overview: 'Medigate is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 16
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -117,7 +118,7 @@ score:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 15.5
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -125,15 +126,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.4
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 21.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

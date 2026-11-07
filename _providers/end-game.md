@@ -1,19 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -25,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -35,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.2
-  scored_at: '2026-10-31'
+  score: 49.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -61,7 +65,7 @@ apis:
   description: The Protected Static API from Endgame — 2 operation(s) for protected static.
   name: Endgame Protected Static API
   slug: end-game-protected-static-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Endgame Public Threads API
@@ -299,6 +303,9 @@ network: true
 overview: 'Endgame publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Threads API, Internal API, and Protected Static API. Tagged areas include Company, Sales, Revenue Intelligence, Go-To-Market, and Artificial Intelligence.
 
 
+  The Endgame catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 39 more developer resources.'
 plans:
 - name: End Game Plans Pricing
@@ -309,6 +316,19 @@ rate_limits:
 - limit_count: 1
   name: End Game Rate Limits
   slug: end-game-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Endgame API Rules
+  rule_count: 45
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 1
+  slug: end-game-rules
 scopes:
 - name: End Game Scopes
   scope_count: 4
@@ -316,23 +336,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 56.7
+  composite: 59.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 45.0
+    artifact_dirs: 30
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 43.5
+    contract_governance: 31.8
+    contract_quality: 46.9
     developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 68.4
-  previous_composite: 56.7
+    discoverability: 75.0
+    operational_transparency: 65.8
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,13 +375,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/end-game/end-game-2026-07-25T213310.png
 security:
 - kind: authentication

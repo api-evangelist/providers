@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -12,9 +28,10 @@ agent_readiness:
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 69.5
-  scored_at: '2026-10-31'
+  score: 65.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -293,7 +310,7 @@ modified: '2026-10-31'
 name: postzen-dev
 nav: Providers
 network: true
-overview: 'postzen-dev publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, API Keys API, and 10 more. Tagged areas include social-media, api, developer-tools, ai-agents, and automation.
+overview: 'postzen-dev publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, API Keys API, and 10 more. Tagged areas include Social Media, Developer Tools, AI Agents, and Automation.
 
 
   The postzen-dev catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -328,34 +345,48 @@ scopes:
   slug: postzen-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 66.0
+  band: developing
+  composite: 52.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 32
+    catalog_earned: 81.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.4
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 70.2
-    developer_ergonomics: 54.0
-    discoverability: 65.0
-    operational_transparency: 52.1
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 73.2
+    developer_ergonomics: 39.8
+    discoverability: 56.7
+    operational_transparency: 47.4
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/postzen-dev/postzen-dev-2026-11-03T141427.png
 security:
 - kind: authentication
   name: Postzen Dev Authentication
@@ -371,10 +402,9 @@ skills:
   slug: postzen-dev-create-post
 slug: postzen-dev
 tags:
-- social-media
-- api
-- developer-tools
-- ai-agents
-- automation
+- Social Media
+- Developer Tools
+- AI Agents
+- Automation
 website: https://postzen.dev/
 ---

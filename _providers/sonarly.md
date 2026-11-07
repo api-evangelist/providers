@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://sonarly.com/api/v1/public
@@ -56,7 +60,7 @@ apis:
   description: Device-code style setup-session API to onboard a tenant.
   name: Sonarly Setup API
   slug: sonarly-setup-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: Sonarly delivers signed outbound webhooks on bug and incident lifecycle events. Register a receiver via POST /api/setup/webhook-endpoint (the URL is SSRF-checked; a whsec_ signing secret is returned o
   name: Sonarly Webhooks
@@ -185,7 +189,7 @@ network: true
 overview: 'Sonarly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Bugs API, Incidents API, and Setup API. Tagged areas include Company, Reliability, Observability, Monitoring, and Bug Detection.
 
 
-  The Sonarly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Sonarly catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Sonarly''s developer surface includes engineering blog, documentation, API reference, authentication, pricing, signup flow, and 16 more developer resources.'
@@ -198,25 +202,38 @@ rate_limits:
 - limit_count: 1
   name: Sonarly Rate Limits
   slug: sonarly-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Sonarly API Rules
+  rule_count: 52
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sonarly-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 28.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 57.0
+    artifact_dirs: 21
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 55.3
-    contract_governance: 4.5
+    access_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 21.3
-    developer_ergonomics: 42.3
-    discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 36.7
+    developer_ergonomics: 16.1
+    discoverability: 73.2
+    operational_transparency: 31.6
+  previous_composite: 28.0
   provenance:
     conformance: derived
     contracts:
@@ -232,13 +249,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sonarly/sonarly-2026-08-17T081959.png
 security:
 - kind: authentication

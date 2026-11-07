@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-31'
+  score: 45.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -196,9 +199,9 @@ overview: 'Strise is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 18
 score:
   band: developing
-  composite: 49.2
+  composite: 48.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,8 +213,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 55.3
+    discoverability: 75.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -220,7 +223,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -235,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

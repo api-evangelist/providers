@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-31'
+  score: 7.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Authenticated, read-only REST/JSON API for company search and lookup, typeahead suggestions, single-company retrieval (by id or tax number), and domain WHOIS/RDAP lookups. Static bearer API-key auth (
@@ -103,7 +117,7 @@ rate_limits:
   slug: felh-magyar-zleti-infrastrukt-ra-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 37.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 58.0
@@ -117,15 +131,17 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 66.7
+    discoverability: 67.9
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - hungary
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 37.4
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -135,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

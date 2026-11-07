@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.5
-  scored_at: '2026-10-31'
+  score: 54.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -34,7 +50,7 @@ agentic_access:
   operation_count: 35
   slug: zambo-dev-agentic-access
   summary_line: 35 operations · 13 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://zambo.dev
   baseurl_source: declared
@@ -260,7 +276,7 @@ common:
   type: PrivacyPolicy
   url: https://zambo.dev/privacy
 created: '2026-10-30'
-description: Zambo provides a verifiable work layer for AI, offering a hosted MCP server with no API key, 153 live tools, and a verifiable trust layer. Founded by Brennan Zambo, the platform aims to simplify AI tool integration, ensure data provenance, and enable secure, auditable workflows for developers and enterprises alike.
+description: Zambo provides a verifiable work layer for AI, offering a hosted MCP server with no API key, 153 live tools, and a verifiable AER-1 receipt for every job. Founded by Brennan Zambo, the platform aims to simplify AI tool integration, ensure data provenance, and enable secure, auditable workflows for developers and enterprises alike.
 image: https://zambo.dev/images/og-founder.png
 jsonld:
 - class_count: 1
@@ -276,7 +292,7 @@ modified: '2026-10-30'
 name: zambo-dev
 nav: Providers
 network: true
-overview: 'zambo-dev publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capabilities API, Day Pass API, Discovery API, and 8 more. Tagged areas include Company, AI, TrustLayer, MCP, and Platform.
+overview: 'zambo-dev publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capabilities API, Day Pass API, Discovery API, and 8 more. Tagged areas include Artificial Intelligence, MCP, Platform, AI Tools, and Verifiable Receipts.
 
 
   The zambo-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -290,34 +306,42 @@ plans:
 random_paper: 13
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 104
   extends:
   - spectral:oas
   name: zambo-dev API Rules
-  rule_count: 11
+  rule_count: 63
   severity_counts:
-    error: 6
+    error: 49
     hint: 0
-    info: 1
-    warn: 4
+    info: 6
+    warn: 8
   slug: zambo-dev-rules
 score:
-  band: strong
-  composite: 58.8
+  band: developing
+  composite: 46.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 30
     catalog_earned: 59.8
     catalog_earned_first_party: 12.0
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.2
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 22.0
     contract_quality: 49.5
-    developer_ergonomics: 66.0
-    discoverability: 66.7
-    operational_transparency: 42.1
+    developer_ergonomics: 43.3
+    discoverability: 75.8
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,20 +350,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-    mcp: derived
+    mcp: first-party
     skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/zambo-dev/zambo-dev-2026-11-03T150412.png
 security:
 - kind: authentication
   name: Zambo Dev Authentication
@@ -363,10 +388,11 @@ skills:
   slug: zambo-dev-capability-search
 slug: zambo-dev
 tags:
-- Company
-- AI
-- TrustLayer
+- Artificial Intelligence
 - MCP
 - Platform
+- AI Tools
+- Verifiable Receipts
+- Cross‑AI Continuity
 website: https://zambo.dev/
 ---

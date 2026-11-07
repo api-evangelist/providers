@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -133,9 +136,9 @@ overview: 'Alpen Labs is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 7
 score:
   band: emerging
-  composite: 23.0
+  composite: 23.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -147,9 +150,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 23.0
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -158,8 +161,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

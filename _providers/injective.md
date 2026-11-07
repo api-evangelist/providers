@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +38,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-31'
-api_count: 2
+  scored_at: '2026-11-06'
+api_count: 3
 apis:
 - description: High-throughput read/stream API over the Injective chain and exchange data, exposed via gRPC, gRPC-web, and REST plus a Chain Stream WebSocket. Provides accounts, auctions, spot and derivative markets
   name: Injective Indexer API
@@ -44,7 +47,10 @@ apis:
 - description: The Injective Chain LCD/REST + Tendermint RPC surface for querying chain state (bank, staking, governance, exchange, oracle, tokenfactory, peggy, permissions) and broadcasting transactions. Cosmos SDK
   name: Injective Chain API
   slug: injective-chain-api
-artifact_total: 6
+- description: Injective provides blockchain and DeFi functionality via its platform. Documentation is available at https://docs.injective.network/. No machine‑readable API contract was found.
+  name: Injective API
+  slug: injective-api
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Injective Chain Stream Webhooks
@@ -169,6 +175,10 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/injective-sandbox.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://injective.com/dev
 created: '2026-07-17'
 description: Injective is a Layer 1 blockchain purpose-built for Web3 finance, enabling users, institutions, and AI agents to trade, tokenize, and transact on-chain with native financial primitives including an on-chain central-limit order book, derivatives (perpetuals, expiry and pre-launch futures, options), spot markets, real-world-asset tokenization, stablecoins, and near-zero-fee payments with instant finality. Developers integrate through the Injective Chain LCD/REST API, a high-throughput Indexer API (gRPC, gRPC-web, and REST), a Chain Stream WebSocket for real-time market and account events, first-party SDKs in TypeScript, Python, Go, Rust, and CosmWasm, the injectived CLI, an official Model Context Protocol (MCP) server, and a suite of packaged Agent Skills for AI-driven trading and integration.
 image: https://github.com/InjectiveLabs.png
@@ -181,33 +191,33 @@ modified: '2026-07-19'
 name: Injective
 nav: Providers
 network: true
-overview: 'Injective is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, DeFi, and Trading.
+overview: 'Injective is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, DeFi, and Trading.
 
 
   The Injective catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Injective''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
+  Injective''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 20 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 44.4
+  composite: 41.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 44.7
-  previous_composite: 44.4
+    developer_ergonomics: 81.0
+    discoverability: 68.3
+    operational_transparency: 26.3
+  previous_composite: 40.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -218,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -249,5 +259,7 @@ tags:
 - Tokenization
 - Payments
 - AI Agents
+- Finance
+- Infrastructure
 website: https://injective.com/
 ---

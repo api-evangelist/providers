@@ -1,17 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -27,7 +31,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -37,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.3
-  scored_at: '2026-10-31'
+  score: 49.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.tradeshift.com/tradeshift
@@ -231,7 +236,7 @@ apis:
   description: The Tools API from Tradeshift — 3 operation(s) for tools.
   name: Tradeshift Tools API
   slug: tradeshift-tools-api
-artifact_total: 102
+artifact_total: 103
 asyncapis:
 - description: ''
   name: Tradeshift Webhooks
@@ -624,7 +629,7 @@ network: true
 overview: 'Tradeshift publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include E-Invoicing, Accounts Payable, AP Automation, Procure-to-Pay, and Supply Chain.
 
 
-  The Tradeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tradeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
@@ -633,6 +638,19 @@ plans:
   plan_count: 6
   slug: tradeshift-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Tradeshift API Rules
+  rule_count: 48
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 3
+    warn: 11
+  slug: tradeshift-rules
 scopes:
 - name: Tradeshift Scopes
   scope_count: 7
@@ -640,28 +658,28 @@ scopes:
   summary_line: 7 scopes · clientCredentials/implicit
 score:
   band: exemplar
-  composite: 70.4
+  composite: 68.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 58.0
+    artifact_dirs: 32
+    catalog_earned: 62.5
     catalog_earned_first_party: 18.0
-    catalog_gap: 57.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 57.4
-    developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 63.2
+    contract_governance: 31.8
+    contract_quality: 60.5
+    developer_ergonomics: 35.1
+    discoverability: 75.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 69.3
+  previous_composite: 68.0
   provenance:
     conformance: first-party
     contracts:
@@ -677,13 +695,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/tradeshift/tradeshift-2026-08-17T082420.png
 security:
 - kind: authentication

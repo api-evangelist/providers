@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.6
-  scored_at: '2026-10-31'
+  score: 56.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -332,7 +348,7 @@ modified: '2026-10-29'
 name: studiomeyer-io
 nav: Providers
 network: true
-overview: 'studiomeyer-io publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Backfill API, Case Study API, and 15 more. Tagged areas include Company, AI, Web-Design, MCP, and Mallorca.
+overview: 'studiomeyer-io publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Backfill API, Case Study API, and 15 more. Tagged areas include Company, Artificial Intelligence, Web Design, MCP, and Mallorca.
 
 
   The studiomeyer-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -367,22 +383,30 @@ scopes:
   slug: studiomeyer-io-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 49.8
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 31
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
     contract_quality: 59.3
-    developer_ergonomics: 58.8
-    discoverability: 66.1
-    operational_transparency: 15.8
+    developer_ergonomics: 36.2
+    discoverability: 73.2
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,13 +422,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
+screenshot: https://apis.io/screenshots/studiomeyer-io/studiomeyer-io-2026-11-03T143945.png
 security:
 - kind: authentication
   name: Studiomeyer Io Authentication
@@ -425,8 +450,8 @@ skills:
 slug: studiomeyer-io
 tags:
 - Company
-- AI
-- Web-Design
+- Artificial Intelligence
+- Web Design
 - MCP
 - Mallorca
 website: https://studiomeyer.io/

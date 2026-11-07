@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-31'
+  score: 36.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 13
@@ -248,7 +260,7 @@ modified: '2026-10-29'
 name: neruva-io
 nav: Providers
 network: true
-overview: 'neruva-io publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Cognitive API, Agent Federated API, Audit API, and 10 more. Tagged areas include Company, Memory, AI, Agents, and MCP.
+overview: 'neruva-io publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Cognitive API, Agent Federated API, Audit API, and 10 more. Tagged areas include Company, Memory, Artificial Intelligence, Agents, and MCP.
 
 
   The neruva-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -276,21 +288,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.7
+  composite: 39.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 50.7
-    developer_ergonomics: 58.8
-    discoverability: 65.0
-    operational_transparency: 10.5
+    developer_ergonomics: 42.1
+    discoverability: 68.3
+    operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,13 +326,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
+screenshot: https://apis.io/screenshots/neruva-io/neruva-io-2026-11-03T140106.png
 security:
 - kind: authentication
   name: Neruva Io Authentication
@@ -330,7 +351,7 @@ slug: neruva-io
 tags:
 - Company
 - Memory
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
 website: https://neruva.io/

@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Fee-based · Participation gated to financial institutions
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: paid
+  pricing: unknown
   public: false
   source:
-  - fees
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Account Management API letting a participating financial institution programmatically retrieve its FedNow master account balance information. Documented on the FedLine Developer portal as one of the o
@@ -160,7 +162,7 @@ overview: 'FedNow Service is listed with 5 APIs on the [APIs.io](https://apis.io
 random_paper: 19
 score:
   band: thin
-  composite: 35.8
+  composite: 36.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 35.0
@@ -174,7 +176,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -183,7 +185,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.8
+  previous_composite: 36.6
   provenance:
     conformance: first-party
   regulatory:
@@ -192,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

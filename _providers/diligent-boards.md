@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'REST API for the Diligent One Platform (formerly HighBond) covering the governance, risk, and compliance surface - organizations, projects, control tests, risks, controls, issues, frameworks, results '
@@ -109,9 +111,9 @@ overview: 'Diligent is listed with 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 16
 score:
   band: emerging
-  composite: 16.8
+  composite: 14.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -122,18 +124,18 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 9.5
     discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 16.8
+  previous_composite: 14.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

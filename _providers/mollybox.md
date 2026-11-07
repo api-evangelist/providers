@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,7 +59,7 @@ apis:
 - description: The Resources API from MollyBox — 4 operation(s) for resources.
   name: MollyBox Resources API
   slug: mollybox-resources-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Arcflow Admin API
@@ -140,37 +141,53 @@ modified: '2026-07-20'
 name: MollyBox
 nav: Providers
 network: true
-overview: 'MollyBox publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Health API, Me API, and 1 more. Tagged areas include Company, Consumer, Bookmarking, Resource Capture, and Read It Later.
+overview: 'MollyBox publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Health API, Me API, and 1 more. Tagged areas include Company, Consumer, Bookmarking, Resource Capture, and Read-it-later.
+
+
+  The MollyBox catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   MollyBox''s developer surface includes authentication and 11 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: MollyBox API Rules
+  rule_count: 44
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 1
+  slug: mollybox-rules
 score:
-  band: emerging
-  composite: 23.4
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 32.0
+    artifact_dirs: 17
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 43.3
+    contract_governance: 18.2
+    contract_quality: 48.1
     developer_ergonomics: 30.4
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 23.4
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -180,13 +197,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Mollybox Authentication
@@ -208,7 +224,7 @@ tags:
 - Consumer
 - Bookmarking
 - Resource Capture
-- Read It Later
+- Read-it-later
 - FastAPI
 - Self-Hosted
 website: https://www.mollybox.cn/

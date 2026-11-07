@@ -1,11 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -13,9 +24,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.8
-  scored_at: '2026-10-31'
+  score: 47.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 2
@@ -180,7 +192,7 @@ modified: '2026-10-31'
 name: relaystation-ai
 nav: Providers
 network: true
-overview: 'relaystation-ai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Relaystation Api API, and 1 more. Tagged areas include Company, AI, Data-Relay, Real-time, and Cloud.
+overview: 'relaystation-ai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Relaystation Api API, and 1 more. Tagged areas include Company, Artificial Intelligence, Data-Relay, Real-Time, and Cloud.
 
 
   The relaystation-ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -216,33 +228,47 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.2
+  composite: 39.3
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 77.7
+    artifact_dirs: 32
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 31.6
-    contract_governance: 79.1
-    contract_quality: 64.9
-    developer_ergonomics: 50.0
+    access_clarity: 15.8
+    contract_governance: 22.0
+    contract_quality: 70.8
+    developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 7.9
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/relaystation-ai/relaystation-ai-2026-11-03T142131.png
 security:
 - kind: authentication
   name: Relaystation Ai Authentication
@@ -259,9 +285,9 @@ skills:
 slug: relaystation-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data-Relay
-- Real-time
+- Real-Time
 - Cloud
 website: https://relaystation.ai/
 ---

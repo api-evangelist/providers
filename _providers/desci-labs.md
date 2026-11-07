@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.6
-  scored_at: '2026-10-31'
+  score: 52.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +64,7 @@ apis:
   description: '**Individual research object resolution** - Perfect for detail pages, file access, and direct DPID links. Get complete research objects with full version history, specific files, or content in differe'
   name: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: dPID Resolver Data API
@@ -206,27 +209,43 @@ network: true
 overview: 'DeSci Labs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Data API, Query API, and Resolve API. Tagged areas include Company, Ai Enterprise Software, Research Infrastructure, Decentralized Science, and Scholarly Communication.
 
 
+  The DeSci Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   DeSci Labs'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: DeSci Labs API Rules
+  rule_count: 60
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 5
+    warn: 3
+  slug: desci-labs-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 44.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 44.6
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 43.3
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,13 +262,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/desci-labs/desci-labs-2026-07-25T211750.png
 security:
 - kind: authentication

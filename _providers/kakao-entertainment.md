@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -13,7 +16,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,7 +30,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-31'
+  score: 32.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Melon's first-party remote Model Context Protocol server, published by Kakao Entertainment's AI Application Technology team. Streamable HTTP transport at https://mcp.melon.com/mcp, OAuth 2.0 authentic
@@ -166,7 +170,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -178,8 +182,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 65.0
-    operational_transparency: 5.3
+    discoverability: 68.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -198,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

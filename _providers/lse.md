@@ -1,14 +1,20 @@
 ---
 access_model:
   confidence: medium
-  label: Free
-  onboarding: unknown
+  gated: none
+  gated_conflict: 'x-api-posture: private but 6 published API entries'
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
   - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
@@ -62,7 +69,7 @@ apis:
   description: IMS Global Learning Tools Interoperability 1.3 / LTI Advantage platform endpoints.
   name: London School of Economics and Political Science LTI API
   slug: lse-lti-api
-artifact_total: 15
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -196,7 +203,7 @@ network: true
 overview: 'London School of Economics and Political Science publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: LTI API. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
-  The London School of Economics and Political Science catalog on APIs.io includes 1 JSON-LD context.
+  The London School of Economics and Political Science catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   London School of Economics and Political Science''s developer surface includes authentication, engineering blog, and 20 more developer resources.'
@@ -209,22 +216,35 @@ rate_limits:
 - limit_count: 1
   name: Lse Rate Limits
   slug: lse-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: London School of Economics and Political Science API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: lse-rules
 score:
   band: thin
-  composite: 26.4
+  composite: 27.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 58.5
+    artifact_dirs: 21
+    catalog_earned: 63.0
     catalog_earned_first_party: 5.0
-    catalog_gap: 56.5
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 26.3
-    contract_governance: 15.2
+    contract_governance: 28.8
     contract_quality: 25.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 22.6
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -235,7 +255,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 26.4
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     contracts:
@@ -249,13 +269,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lse/lse-2026-06-20T184742.png
 security:
 - kind: authentication

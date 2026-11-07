@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Orval generates TypeScript API clients, TanStack Query/SWR hooks, Angular services, SolidStart primitives, Hono server handlers, Zod and Effect schemas, MSW mocks, and MCP servers from OpenAPI v3 or S
@@ -218,9 +219,9 @@ rate_limits:
   slug: orval-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 37.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -231,10 +232,13 @@ score:
     access_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 64.3
+    developer_ergonomics: 60.7
     discoverability: 64.3
-    operational_transparency: 47.4
-  previous_composite: 31.1
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     skills: first-party
@@ -244,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

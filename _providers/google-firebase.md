@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,12 +24,13 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-31'
+  score: 27.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -279,9 +284,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.4
+  composite: 47.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 66.5
     catalog_earned_first_party: 8.0
     catalog_gap: 48.5
@@ -294,8 +299,8 @@ score:
     contract_quality: 59.7
     developer_ergonomics: 56.0
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 48.4
+    operational_transparency: 36.8
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -309,13 +314,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-firebase/google-firebase-2026-06-20T182200.png
 security:
 - kind: authentication

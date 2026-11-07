@@ -1,12 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -266,8 +275,8 @@ scopes:
   slug: clearstream-scopes
   summary_line: 4 scopes
 score:
-  band: developing
-  composite: 40.7
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 43.8
@@ -280,10 +289,10 @@ score:
     access_clarity: 44.7
     contract_governance: 29.5
     contract_quality: 6.7
-    developer_ergonomics: 64.3
-    discoverability: 62.5
+    developer_ergonomics: 52.4
+    discoverability: 69.6
     operational_transparency: 36.8
-  previous_composite: 40.7
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -293,8 +302,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

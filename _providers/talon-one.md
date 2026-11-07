@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,9 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -20,12 +26,13 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -35,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-10-31'
+  score: 49.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 133
   human_in_the_loop: 3
@@ -870,7 +877,7 @@ apis:
     question: What URL and payload does a specific webhook send?
   phrasing_ops: 2
   slug: talon-one-webhooks-api
-artifact_total: 62
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Talon One Webhooks
@@ -1127,7 +1134,7 @@ network: true
 overview: 'Talon.One publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts and users API, Achievements API, Additional costs API, and 39 more. Tagged areas include Promotions, Loyalty, Coupons, Incentives, and Campaigns.
 
 
-  The Talon.One catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Talon.One catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Talon.One''s developer surface includes authentication, documentation, signup flow, engineering blog, changelog, sandbox, API reference, and 38 more developer resources.'
@@ -1140,25 +1147,38 @@ rate_limits:
 - limit_count: 4
   name: Talon One Rate Limits
   slug: talon-one-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Talon.One API Rules
+  rule_count: 57
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 7
+    warn: 12
+  slug: talon-one-rules
 score:
   band: exemplar
-  composite: 70.8
+  composite: 75.5
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 60.2
-    developer_ergonomics: 83.3
-    discoverability: 70.0
-    operational_transparency: 84.2
-  previous_composite: 70.8
+    contract_governance: 18.2
+    contract_quality: 64.0
+    developer_ergonomics: 81.0
+    discoverability: 73.3
+    operational_transparency: 81.6
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1179,13 +1199,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/talon-one/talon-one-2026-08-17T080429.png
 security:
 - kind: authentication

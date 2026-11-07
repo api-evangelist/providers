@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.2
-  scored_at: '2026-10-31'
+  score: 52.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -91,7 +96,7 @@ apis:
   description: The 🧠 Scheduling Inputs API from LeanData — 1 operation(s) for 🧠 scheduling inputs.
   name: LeanData 🧠 Scheduling Inputs API
   slug: leandata-scheduling-inputs-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: LeanData BookIt 🗓️ Availability 🗓️ Availability 🗓️ Availability API
@@ -435,6 +440,9 @@ network: true
 overview: 'LeanData publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including 🗓️ Availability API, Legacy (still supported) API, Matching API, and 6 more. Tagged areas include Revenue Operations, Lead Routing, Lead to Account Matching, Salesforce, and Sales Engagement.
 
 
+  The LeanData catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   LeanData''s developer surface includes developer portal, documentation, changelog, pricing, training material, engineering blog, YouTube channel, and 57 more developer resources.'
 plans:
 - name: Leandata Plans Pricing
@@ -445,6 +453,19 @@ rate_limits:
 - limit_count: 1
   name: Leandata Rate Limits
   slug: leandata-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: LeanData API Rules
+  rule_count: 38
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 2
+    warn: 1
+  slug: leandata-rules
 scopes:
 - name: Leandata Scopes
   scope_count: 4
@@ -452,23 +473,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.8
+  composite: 61.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 42.3
-    developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 68.4
-  previous_composite: 64.4
+    developer_ergonomics: 61.3
+    discoverability: 80.8
+    operational_transparency: 50.0
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -491,13 +512,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/leandata/leandata-2026-06-20T184358.png
 security:
 - kind: authentication

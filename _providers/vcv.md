@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://my.vcv.ai
@@ -124,7 +129,7 @@ apis:
   description: The webhook API from VCV — 2 operation(s) for webhook.
   name: VCV Webhook API
   slug: vcv-webhook-api
-artifact_total: 42
+artifact_total: 43
 asyncapis:
 - description: VCV delivers outbound webhooks for recruitment events. Subscriptions are managed via the Open API v3 company-webhooks endpoints (create/list/get/ update/delete), each carrying a target url, an event t
   name: VCV Webhooks
@@ -329,7 +334,7 @@ network: true
 overview: 'VCV publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chatbot API, Companies API, Countries API, and 14 more. Tagged areas include Company, Recruiting, Human Resources, Video Interviews, and Talent Acquisition.
 
 
-  The VCV catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The VCV catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
@@ -341,25 +346,38 @@ plans:
   plan_count: 0
   slug: vcv-price-estimates
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: VCV API Rules
+  rule_count: 57
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 2
+    warn: 10
+  slug: vcv-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 50.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 53.7
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 57.0
     developer_ergonomics: 37.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 38.9
+  previous_composite: 50.7
   provenance:
     conformance: derived
     contracts:
@@ -375,13 +393,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/vcv/vcv-2026-09-02T165534.png
 security:
 - kind: authentication

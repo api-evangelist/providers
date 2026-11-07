@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-31'
+  score: 37.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 222
   human_in_the_loop: 22
@@ -792,13 +805,13 @@ json_schemas:
   property_count: 8
   slug: infocert-output-info
 - name: PagedFolderResult
-  property_count: 0
+  property_count: 5
   slug: infocert-paged-folder-result
 - name: PagedMailboxResult
-  property_count: 0
+  property_count: 5
   slug: infocert-paged-mailbox-result
 - name: PagedMessageResult
-  property_count: 0
+  property_count: 5
   slug: infocert-paged-message-result
 - name: processType
   property_count: 13
@@ -864,7 +877,7 @@ modified: '2026-10-18'
 name: InfoCert
 nav: Providers
 network: true
-overview: 'InfoCert publishes 105 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Assertions API, Attachment Download API, and 102 more. Tagged areas include Company, Digital Trust, Electronic Signatures, Digital Identity, and Certified Email.
+overview: 'InfoCert publishes 105 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Assertions API, Attachment Download API, and 102 more. Tagged areas include Company, Digital Trust, E-Signature, Digital Identity, and Certified Email.
 
 
   The InfoCert catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -900,21 +913,29 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode/password
 score:
   band: developing
-  composite: 52.1
+  composite: 46.6
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 68.8
     catalog_earned_first_party: 12.0
     catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 51.1
-    developer_ergonomics: 58.9
+    contract_quality: 51.3
+    developer_ergonomics: 39.9
     discoverability: 71.4
     operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -922,7 +943,7 @@ score:
       callable: 99.0
       derived: 0
       marker_coverage: 0.0
-      total: 104
+      total: 105
     mcp: derived
     skills: derived
   regulatory:
@@ -934,13 +955,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/infocert/infocert-2026-11-03T133759.png
 security:
 - kind: authentication
   name: Infocert Authentication
@@ -974,7 +996,7 @@ slug: infocert
 tags:
 - Company
 - Digital Trust
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - Certified Email
 - E-Invoicing

@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 6
@@ -280,7 +288,7 @@ apis:
   description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
   name: Soldo Webhooks API
   slug: soldo-webhooks-api
-artifact_total: 104
+artifact_total: 105
 asyncapis:
 - description: ''
   name: Soldo Webhooks
@@ -578,7 +586,7 @@ network: true
 overview: 'Soldo publishes 47 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting Classification API, Addresses API, Authentication API, and 44 more. Tagged areas include Company, Consumer, Fintech, Financial Services, and Spend Management.
 
 
-  The Soldo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Soldo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 24 more developer resources.'
@@ -594,6 +602,19 @@ rate_limits:
 - limit_count: 2
   name: Soldo Rate Limits
   slug: soldo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Soldo API Rules
+  rule_count: 57
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 15
+  slug: soldo-rules
 scopes:
 - name: Soldo Scopes
   scope_count: 59
@@ -601,23 +622,23 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.4
+  composite: 60.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 60.0
+    artifact_dirs: 31
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 2.7
   facets:
     access_clarity: 71.1
-    contract_governance: 4.5
-    contract_quality: 58.5
-    developer_ergonomics: 66.1
-    discoverability: 66.1
+    contract_governance: 18.2
+    contract_quality: 61.8
+    developer_ergonomics: 61.3
+    discoverability: 73.2
     operational_transparency: 60.5
-  previous_composite: 57.8
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -638,13 +659,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/soldo/soldo-2026-08-17T081954.png
 security:
 - kind: authentication

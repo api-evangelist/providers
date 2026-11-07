@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-31'
+  score: 26.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public API providing access to Umesh Malik developer resources (11 operations).
@@ -179,7 +194,7 @@ modified: '2026-10-31'
 name: umesh-malik-com
 nav: Providers
 network: true
-overview: 'umesh-malik-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Cloud, Observability, and DeveloperTools.
+overview: 'umesh-malik-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Cloud, Observability, and Developer Tools.
 
 
   The umesh-malik-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -206,34 +221,42 @@ scopes:
   slug: umesh-malik-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 37.8
+  band: emerging
+  composite: 24.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 66.0
+    artifact_dirs: 28
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.1
   facets:
-    access_clarity: 21.1
-    contract_governance: 70.9
+    access_clarity: 10.5
+    contract_governance: 19.7
     contract_quality: 14.7
-    developer_ergonomics: 46.9
-    discoverability: 66.7
-    operational_transparency: 15.8
+    developer_ergonomics: 30.2
+    discoverability: 65.8
+    operational_transparency: 7.9
+  previous_composite: 31.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/umesh-malik-com/umesh-malik-com-2026-11-03T145401.png
 security:
 - kind: authentication
   name: Umesh Malik Com Authentication
@@ -254,9 +277,9 @@ skills:
 slug: umesh-malik-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Observability
-- DeveloperTools
+- Developer Tools
 website: https://umesh-malik.com/
 ---

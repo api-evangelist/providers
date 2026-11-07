@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -14,18 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 50.7
-  scored_at: '2026-10-31'
+  score: 49.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 4
@@ -256,7 +272,7 @@ modified: '2026-10-30'
 name: giljo-ai
 nav: Providers
 network: true
-overview: 'giljo-ai publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Deletion API, Account Lifecycle API, Auth API, and 10 more. Tagged areas include Company, AI, Agent, Collaboration, and Platform.
+overview: 'giljo-ai publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Deletion API, Account Lifecycle API, Auth API, and 10 more. Tagged areas include Company, Artificial Intelligence, Agents, Collaboration, and Platform.
 
 
   The giljo-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -283,21 +299,23 @@ rules:
   slug: giljo-ai-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 44.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 35.6
-    contract_quality: 59.9
-    developer_ergonomics: 25.6
+    contract_quality: 60.6
+    developer_ergonomics: 19.6
     discoverability: 66.1
-    operational_transparency: 26.3
+    operational_transparency: 13.2
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,13 +331,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/giljo-ai/giljo-ai-2026-11-03T132823.png
 security:
 - kind: authentication
   name: Giljo Ai Authentication
@@ -342,8 +361,8 @@ skills:
 slug: giljo-ai
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Collaboration
 - Platform
 website: https://giljo.ai/

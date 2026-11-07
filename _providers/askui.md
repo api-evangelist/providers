@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -121,7 +123,7 @@ apis:
   description: The workspaces API from AskUI — 2 operation(s) for workspaces.
   name: AskUI Workspaces API
   slug: askui-workspaces-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: AskUI Workspaces access-tokens API
@@ -351,30 +353,46 @@ network: true
 overview: 'AskUI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Agent Executions API, Agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
 
 
+  The AskUI catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   AskUI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, support, signup flow, and 29 more developer resources.'
 plans:
 - name: Askui Plans Pricing
   plan_count: 3
   slug: askui-plans-pricing
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: AskUI API Rules
+  rule_count: 48
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 3
+    warn: 7
+  slug: askui-rules
 score:
-  band: strong
-  composite: 55.8
+  band: developing
+  composite: 50.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.2
   facets:
-    access_clarity: 81.6
-    contract_governance: 4.5
-    contract_quality: 42.9
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 36.8
+    access_clarity: 67.1
+    contract_governance: 18.2
+    contract_quality: 47.7
+    developer_ergonomics: 54.2
+    discoverability: 71.7
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -383,14 +401,14 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 49.4
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 15
     mcp: first-party
     skills: derived
@@ -403,14 +421,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/askui/askui-2026-07-25T201426.png
 security:
 - kind: authentication

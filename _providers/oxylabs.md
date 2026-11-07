@@ -1,18 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-31'
+  score: 35.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -128,7 +129,7 @@ arazzos:
 - description: Find a sub-user by name and patch its traffic limit and status.
   name: Oxylabs Throttle Sub-user Traffic
   slug: oxylabs-throttle-sub-user-traffic-workflow
-artifact_total: 72
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Oxylabs Web Intelligence APIs
@@ -503,6 +504,9 @@ network: true
 overview: 'Oxylabs publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Login API, Queries API, Stats API, and 12 more. Tagged areas include AI Web Scraping, Bot Mitigation Bypass, CAPTCHA Solving, Data Extraction, and Datacenter Proxies.
 
 
+  The Oxylabs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Oxylabs'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, changelog, support, and 64 more developer resources.'
 plans:
 - name: Oxylabs Plans Pricing
@@ -516,31 +520,46 @@ rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits
   slug: oxylabs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Oxylabs API Rules
+  rule_count: 52
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 1
+  slug: oxylabs-rules
 score:
   band: strong
-  composite: 60.3
+  composite: 58.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 55.0
+    artifact_dirs: 20
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 0.0
+    access_clarity: 81.6
+    contract_governance: 13.6
     contract_quality: 49.9
     developer_ergonomics: 74.3
-    discoverability: 73.3
-    operational_transparency: 44.7
+    discoverability: 76.7
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - lithuania
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 58.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -554,14 +573,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/oxylabs/oxylabs-2026-06-20T191301.png
 security:
 - kind: authentication

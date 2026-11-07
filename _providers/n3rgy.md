@@ -1,17 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -28,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -38,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -113,7 +118,7 @@ apis:
   description: The Upload API from n3rgy — 4 operation(s) for upload.
   name: n3rgy Upload API
   slug: n3rgy-upload-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: N3Rgy Push Notifications Webhooks
@@ -292,7 +297,7 @@ network: true
 overview: 'n3rgy publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Create Export Profiles API, Customer Service API V2 API, Find Mpxn API, and 10 more. Tagged areas include Energy, United Kingdom, Utilities, Smart Metering, and Electricity.
 
 
-  The n3rgy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The n3rgy catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 22 more developer resources.'
@@ -305,24 +310,37 @@ rate_limits:
 - limit_count: 4
   name: N3Rgy Rate Limits
   slug: n3rgy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: n3rgy API Rules
+  rule_count: 61
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 2
+    warn: 16
+  slug: n3rgy-rules
 score:
   band: strong
-  composite: 59.0
+  composite: 56.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 30
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.3
   facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 59.4
-    developer_ergonomics: 51.8
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 64.8
+    developer_ergonomics: 35.1
     discoverability: 66.1
-    operational_transparency: 60.5
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -331,14 +349,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 52.7
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 13
     mcp: derived
     skills: derived
@@ -348,13 +366,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/n3rgy/n3rgy-2026-08-07T184554.png
 security:
 - kind: authentication

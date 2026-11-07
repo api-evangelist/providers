@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'TradeBB exposes a single publicly consumable machine-readable interface: an llms.txt file designed for LLM consumption. There is no public REST/GraphQL API, MCP server, or agent skills.'
@@ -122,14 +123,14 @@ modified: '2026-08-09'
 name: TradeBB
 nav: Providers
 network: true
-overview: 'TradeBB is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, Trade Analytics, Fintech, trading-tools, and Stocks.
+overview: 'TradeBB is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, Trade Analytics, Fintech, TradingTools, and Stocks.
 
 
   TradeBB''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 22.7
+  composite: 23.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -143,9 +144,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 22.7
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -154,8 +155,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +173,7 @@ tags:
 - trading-journal
 - Trade Analytics
 - Fintech
-- trading-tools
+- TradingTools
 - Stocks
 - Options
 - Futures
@@ -180,6 +181,6 @@ tags:
 - Cryptocurrency
 - CFD
 - AI Assistant
-- llms-txt
+- Llms.txt
 website: https://www.tradebb.ai/
 ---

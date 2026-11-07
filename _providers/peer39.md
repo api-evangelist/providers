@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.2
-  scored_at: '2026-10-31'
+  score: 5.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Peer39 External API manages Custom Categories — contextual targeting and brand-safety lists of keywords, URLs, mobile apps or CTV apps — and syncs them to a connected DSP partner. Nine operations '
@@ -138,9 +139,9 @@ rate_limits:
   slug: peer39-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 22.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -152,9 +153,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 21.5
+  previous_composite: 22.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -164,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

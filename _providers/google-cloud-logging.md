@@ -1,15 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.9
-  scored_at: '2026-10-31'
+  score: 50.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -155,7 +160,7 @@ apis:
     question: Can I export logs that match a filter to BigQuery, Cloud Storage or Pub/Sub?
   phrasing_ops: 2
   slug: google-cloud-logging-sinks-api
-artifact_total: 33
+artifact_total: 38
 collections:
 - collection_type: open
   name: Google Cloud Logging Bucket API
@@ -188,6 +193,35 @@ collections:
   name: Google Cloud Logging API
   slug: open-google-cloud-logging
 common:
+- group: design
+  href: https://artifacts.apis.io/google-cloud-logging/rules/google-cloud-logging-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-cloud-logging-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-cloud-logging/json-ld/google-cloud-logging-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/google-cloud-logging-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/google-cloud-logging/vocabulary/google-cloud-logging-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-cloud-logging-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/google-cloud-logging/hosts/google-cloud-logging-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-cloud-logging-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/google-cloud-logging/integrations/google-cloud-logging-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-cloud-logging-integration-edges.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cloud.google.com/sdk/gcloud/reference/anthos
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -454,6 +488,21 @@ finops:
   service_category: ''
   slug: google-cloud-logging-finops
   template: false
+json_schemas:
+- name: LogBucket
+  property_count: 7
+  slug: google-cloud-logging-log-bucket
+- name: LogEntry
+  property_count: 11
+  slug: google-cloud-logging-log-entry
+- name: LogSink
+  property_count: 8
+  slug: google-cloud-logging-log-sink
+jsonld:
+- class_count: 3
+  name: Google Cloud Logging Context
+  property_count: 23
+  slug: google-cloud-logging-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at logging.googleapis.com over HTTP requiring OAuth; 6 tools listed.
@@ -466,7 +515,10 @@ network: true
 overview: 'Google Cloud Logging publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, Observability, and Telemetry.
 
 
-  Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 49 more developer resources.'
+  The Google Cloud Logging catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Cloud Logging''s developer surface includes API reference, authentication, developer portal, getting-started guide, support, engineering blog, changelog, and 55 more developer resources.'
 plans:
 - name: Google Cloud Logging Plans Pricing
   plan_count: 18
@@ -479,6 +531,19 @@ rate_limits:
 - limit_count: 8
   name: Google Cloud Logging Rate Limits
   slug: google-cloud-logging-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Google Cloud Logging API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: google-cloud-logging-rules
 scopes:
 - name: Google Cloud Logging Scopes
   scope_count: 5
@@ -486,23 +551,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.9
+  composite: 74.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 62.0
+    artifact_dirs: 38
+    catalog_earned: 81.2
     catalog_earned_first_party: 24.0
-    catalog_gap: 53.0
+    catalog_gap: 33.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 2.7
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 46.2
-    developer_ergonomics: 91.1
-    discoverability: 61.7
-    operational_transparency: 86.8
-  previous_composite: 70.0
+    access_clarity: 86.8
+    contract_governance: 35.6
+    contract_quality: 55.3
+    developer_ergonomics: 83.9
+    discoverability: 71.7
+    operational_transparency: 84.2
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -519,13 +584,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-cloud-logging/google-cloud-logging-2026-08-17T083131.png
 security:
 - kind: authentication
@@ -546,11 +610,11 @@ security:
   summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 22301, PCI DSS, HIPAA, FedRAMP, CSA STAR, BSI C5, IRAP
 skill_count: 3
 skills:
-- name: Query Cloud Logging from an agent over MCP
+- name: google-cloud-logging-query-logs-with-mcp
   slug: google-cloud-logging-query-logs-with-mcp
-- name: Route logs to a destination with a Log Router sink
+- name: google-cloud-logging-route-logs-with-a-sink
   slug: google-cloud-logging-route-logs-with-a-sink
-- name: Write and query Cloud Logging entries
+- name: google-cloud-logging-write-and-query-logs
   slug: google-cloud-logging-write-and-query-logs
 slug: google-cloud-logging
 tags:

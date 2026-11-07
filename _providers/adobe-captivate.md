@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -556,49 +561,49 @@ json_schemas:
   property_count: 2
   slug: adobe-captivate-learning-object
 - name: BadgeAwardedPayload
-  property_count: 0
+  property_count: 8
   slug: learning-manager-webhooks-badge-awarded-payload
 - name: CertificationCompletedPayload
-  property_count: 0
+  property_count: 10
   slug: learning-manager-webhooks-certification-completed-payload
 - name: CourseCreatedPayload
-  property_count: 0
+  property_count: 8
   slug: learning-manager-webhooks-course-created-payload
 - name: CourseUpdatedPayload
-  property_count: 0
+  property_count: 9
   slug: learning-manager-webhooks-course-updated-payload
 - name: JobCompletedPayload
-  property_count: 0
+  property_count: 7
   slug: learning-manager-webhooks-job-completed-payload
 - name: LearnerCompletionPayload
-  property_count: 0
+  property_count: 12
   slug: learning-manager-webhooks-learner-completion-payload
 - name: LearnerEnrollmentPayload
-  property_count: 0
+  property_count: 10
   slug: learning-manager-webhooks-learner-enrollment-payload
 - name: LearnerProgressPayload
-  property_count: 0
+  property_count: 9
   slug: learning-manager-webhooks-learner-progress-payload
 - name: LearnerReference
   property_count: 3
   slug: learning-manager-webhooks-learner-reference
 - name: LearnerUnenrollmentPayload
-  property_count: 0
+  property_count: 10
   slug: learning-manager-webhooks-learner-unenrollment-payload
 - name: LearningObjectReference
   property_count: 4
   slug: learning-manager-webhooks-learning-object-reference
 - name: SkillAchievedPayload
-  property_count: 0
+  property_count: 8
   slug: learning-manager-webhooks-skill-achieved-payload
 - name: UserCreatedPayload
-  property_count: 0
+  property_count: 7
   slug: learning-manager-webhooks-user-created-payload
 - name: UserDeletedPayload
-  property_count: 0
+  property_count: 7
   slug: learning-manager-webhooks-user-deleted-payload
 - name: UserUpdatedPayload
-  property_count: 0
+  property_count: 7
   slug: learning-manager-webhooks-user-updated-payload
 - name: WebhookEventBase
   property_count: 5
@@ -982,24 +987,24 @@ scopes:
   slug: adobe-captivate-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 57.1
+  band: developing
+  composite: 48.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 74.5
-    developer_ergonomics: 61.9
+    developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 52.6
-  previous_composite: 57.1
+    operational_transparency: 26.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1013,13 +1018,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/adobe-captivate/adobe-captivate-2026-06-20T164834.png
 security:
 - kind: authentication

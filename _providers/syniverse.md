@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -286,7 +287,7 @@ apis:
   description: The whitelist API from Syniverse — 3 operation(s) for whitelist.
   name: Syniverse Whitelist API
   slug: syniverse-whitelist-api
-artifact_total: 71
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Syniverse Event Manager Webhooks
@@ -545,7 +546,7 @@ network: true
 overview: 'Syniverse publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including 10DLC ATT API, 10DLC LongCodes API, 10DLC Number Pools API, and 45 more. Tagged areas include Telecommunications, United States, CPaaS, Messaging, and SMS.
 
 
-  The Syniverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Syniverse catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 38 more developer resources.'
@@ -554,6 +555,19 @@ rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
   slug: syniverse-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Syniverse API Rules
+  rule_count: 62
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 2
+    warn: 22
+  slug: syniverse-rules
 scopes:
 - name: Syniverse Scopes
   scope_count: 0
@@ -561,22 +575,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.6
+  composite: 52.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 49.9
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 44.7
+    developer_ergonomics: 63.7
+    discoverability: 72.3
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -584,7 +598,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.6
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -601,13 +615,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/syniverse/syniverse-2026-08-17T082233.png
 security:
 - kind: authentication

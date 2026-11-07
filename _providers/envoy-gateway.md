@@ -25,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.4
-  scored_at: '2026-10-31'
+  score: 22.4
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Envoy Gateway's configuration API is a set of Kubernetes Custom Resource Definitions in the gateway.envoyproxy.io/v1alpha1 group — Backend, BackendTrafficPolicy, ClientTrafficPolicy, EnvoyExtensionPol
@@ -232,8 +233,8 @@ rate_limits:
   name: Envoy Gateway Rate Limits
   slug: envoy-gateway-rate-limits
 score:
-  band: thin
-  composite: 34.5
+  band: developing
+  composite: 40.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -245,11 +246,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 12.0
+    contract_quality: 36.0
     developer_ergonomics: 76.2
-    discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 34.5
+    discoverability: 78.6
+    operational_transparency: 42.1
+  previous_composite: 40.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -260,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

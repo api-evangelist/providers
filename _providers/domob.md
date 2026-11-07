@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
@@ -50,7 +51,7 @@ apis:
   description: Media revenue and delivery statistics for a publisher's ad slots.
   name: domob Reporting API
   slug: domob-reporting-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Domob Media Data API
@@ -218,6 +219,9 @@ network: true
 overview: 'domob publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Reporting API, and 1 more. Tagged areas include Company, Advertising, Mobile, AdTech, and Marketing.
 
 
+  The domob catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   domob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Domob Plans Pricing
@@ -228,24 +232,37 @@ rate_limits:
 - limit_count: 0
   name: Domob Rate Limits
   slug: domob-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: domob API Rules
+  rule_count: 65
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 1
+  slug: domob-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 44.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 0.0
+    access_clarity: 27.6
+    contract_governance: 13.6
     contract_quality: 53.3
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 21.1
+    developer_ergonomics: 69.6
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -253,7 +270,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 45.6
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -269,13 +286,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/domob/domob-2026-07-25T212250.png
 security:
 - kind: authentication

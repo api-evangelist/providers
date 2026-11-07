@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -26,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted MCP server exposing 18 tools for messaging, templates, campaigns, agents, analytics, and media. Auth via OAuth 2.0/PKCE or API key.
@@ -52,7 +66,7 @@ apis:
   description: The Webhooks API from RubiConnect — 1 operation(s) for webhooks.
   name: RubiConnect Webhooks API
   slug: rubiconnect-webhooks-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Rubiconnect Webhooks
@@ -171,7 +185,7 @@ network: true
 overview: 'RubiConnect publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Capabilities API, Messages API, and 2 more. Tagged areas include CPaaS, Communications APIs, Business Messaging, RCS, and WhatsApp Business.
 
 
-  The RubiConnect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The RubiConnect catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   RubiConnect''s developer surface includes authentication, signup flow, engineering blog, and 18 more developer resources.'
@@ -184,6 +198,19 @@ rate_limits:
 - limit_count: 0
   name: Rubiconnect Rate Limits
   slug: rubiconnect-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: RubiConnect API Rules
+  rule_count: 55
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 5
+    warn: 1
+  slug: rubiconnect-rules
 scopes:
 - name: Rubiconnect Scopes
   scope_count: 1
@@ -191,29 +218,29 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 36.9
+  composite: 38.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 35.0
+    artifact_dirs: 25
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 54.1
+    contract_governance: 18.2
+    contract_quality: 55.9
     developer_ergonomics: 25.6
-    discoverability: 61.7
+    discoverability: 65.0
     operational_transparency: 13.2
-  previous_composite: 36.9
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
@@ -223,13 +250,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rubiconnect/rubiconnect-2026-10-11T125452.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Meticulous Ai API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-25); not the provider''s own document.'
@@ -135,7 +146,7 @@ modified: '2026-10-25'
 name: Meticulous Ai
 nav: Providers
 network: true
-overview: 'Meticulous Ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Automation, Frontend, and VisualRegression.
+overview: 'Meticulous Ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Automation, Frontend, and Visual Regression.
 
 
   The Meticulous Ai catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -157,42 +168,51 @@ rules:
     warn: 1
   slug: meticulous-ai-rules
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 19.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 37.8
     catalog_earned_first_party: 0.0
     catalog_gap: 77.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 9.4
-    developer_ergonomics: 38.1
-    discoverability: 58.9
-    operational_transparency: 15.8
+    developer_ergonomics: 22.6
+    discoverability: 65.2
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 26.2
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 5
+      derived: 1
       marker_coverage: 100.0
-      total: 5
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/meticulous-ai/meticulous-ai-2026-11-03T135538.png
 security:
 - kind: domain-security
   name: Meticulous Ai Domain Security
@@ -204,6 +224,6 @@ tags:
 - Testing
 - Automation
 - Frontend
-- VisualRegression
+- Visual Regression
 website: https://www.meticulous.ai/
 ---

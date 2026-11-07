@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -26,7 +43,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 68.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -411,30 +428,30 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 63.5
+  composite: 62.7
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 68.8
     catalog_earned_first_party: 8.0
     catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: -1.0
   facets:
     access_clarity: 65.8
     contract_governance: 35.6
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 59.5
-    discoverability: 68.3
-    operational_transparency: 55.3
-  previous_composite: 64.0
+    discoverability: 77.5
+    operational_transparency: 36.8
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 16.7
+      marker_coverage: 66.7
       total: 12
     mcp: first-party
     skills: first-party
@@ -444,13 +461,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/machinelibrary-ai/machinelibrary-ai-2026-10-11T110631.png
 security:
 - kind: authentication

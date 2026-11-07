@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 14.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -194,9 +196,9 @@ rate_limits:
   slug: boeing-rate-limits
 score:
   band: emerging
-  composite: 15.1
+  composite: 13.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -207,23 +209,23 @@ score:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 15.5
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 15.1
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

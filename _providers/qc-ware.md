@@ -1,10 +1,13 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Requires approval
-  onboarding: approval
-  pricing: paid
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
   source:
   - plans
   - authentication
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.promethium.qcware.com
@@ -51,7 +55,7 @@ apis:
   description: The Workflows API from QC Ware — 5 operation(s) for workflows.
   name: QC Ware Workflows API
   slug: qc-ware-workflows-api
-artifact_total: 12
+artifact_total: 13
 common:
 - group: other
   href: https://artifacts.apis.io/qc-ware/overlays/qc-ware-promethium-overlay.yaml
@@ -215,6 +219,9 @@ network: true
 overview: 'QC Ware publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Files API and Workflows API. Tagged areas include Company, Quantum Computing, Computational Chemistry, Quantum Chemistry, and Drug Discovery.
 
 
+  The QC Ware catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   QC Ware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Qc Ware Plans Pricing
@@ -225,24 +232,37 @@ rate_limits:
 - limit_count: 0
   name: Qc Ware Rate Limits
   slug: qc-ware-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: QC Ware API Rules
+  rule_count: 45
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 3
+  slug: qc-ware-rules
 score:
   band: strong
-  composite: 56.1
+  composite: 57.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 1.2
   facets:
     access_clarity: 81.6
-    contract_governance: 4.5
-    contract_quality: 45.6
+    contract_governance: 18.2
+    contract_quality: 53.7
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 36.8
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -250,13 +270,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 55.1
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
@@ -266,13 +286,12 @@ score:
     regime: Health
     regime_id: health
     score: 24.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/qc-ware/qc-ware-2026-09-02T152422.png
 security:
 - kind: authentication

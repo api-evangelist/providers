@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The OpenID Connect issuer Glacier Bank serves at connect.glacierbank.com for its Jack Henry Banno Digital Toolkit tenant. Issuer https://connect.glacierbank.com/a/consumer/api/v0/oidc; the base URL fo
@@ -177,8 +181,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

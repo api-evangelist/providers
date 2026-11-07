@@ -1,6 +1,7 @@
 ---
 access_model:
   confidence: low
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -11,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-31'
+  score: 11.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the neurophos.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored by
@@ -120,8 +122,8 @@ overview: 'Neurophos is listed with 1 API on the [APIs.io](https://apis.io/) net
   Neurophos'' developer surface includes engineering blog, authentication, product news, and 10 more developer resources.'
 random_paper: 11
 score:
-  band: minimal
-  composite: 10.8
+  band: emerging
+  composite: 11.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -135,20 +137,20 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 66.7
-    operational_transparency: 5.3
-  previous_composite: 10.8
+    discoverability: 75.8
+    operational_transparency: 2.6
+  previous_composite: 11.4
   provenance:
     conformance: derived
-    mcp: platform-generated
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

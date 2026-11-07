@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -574,10 +579,10 @@ scopes:
   slug: oracle-siebel-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.2
+  band: exemplar
+  composite: 68.9
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 56.9
     catalog_earned_first_party: 12.0
     catalog_gap: 58.1
@@ -587,11 +592,11 @@ score:
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 60.8
     developer_ergonomics: 67.3
-    discoverability: 56.7
-    operational_transparency: 86.8
-  previous_composite: 65.2
+    discoverability: 63.3
+    operational_transparency: 84.2
+  previous_composite: 68.9
   provenance:
     conformance: derived
     contracts:
@@ -607,13 +612,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/oracle-siebel/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: authentication

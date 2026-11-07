@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -186,9 +190,9 @@ rules:
   slug: golem-cloud-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 29.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -198,11 +202,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 49.4
+    contract_quality: 52.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 29.5
+    operational_transparency: 10.5
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -216,13 +220,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/golem-cloud/golem-cloud-2026-06-20T181950.png
 security:
 - kind: authentication

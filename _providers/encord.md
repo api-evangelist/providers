@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.6
-  scored_at: '2026-10-31'
+  score: 14.7
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API and Python SDK for programmatically managing annotation projects, datasets, ontologies, labels, and workflows within the Encord Annotate platform. Supports creating and retrieving projects an
@@ -163,9 +165,9 @@ rate_limits:
   slug: encord-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 21.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -177,9 +179,12 @@ score:
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 11.9
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 21.6
+    discoverability: 68.3
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 21.9
   provenance:
     mcp: first-party
   regulatory:
@@ -188,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

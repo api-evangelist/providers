@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -9,23 +19,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-31'
+  score: 37.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'dscout API as documented publicly: 22 operations. Contract generated from the documentation by API Evangelist (2026-10-24); not the provider''s own document.'
@@ -148,7 +159,7 @@ modified: '2026-10-24'
 name: dscout
 nav: Providers
 network: true
-overview: 'dscout is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, UX Research, AI, User Testing, and Market Research.
+overview: 'dscout is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User Research, Artificial Intelligence, User Testing, and Market Research.
 
 
   The dscout catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -170,42 +181,46 @@ rules:
     warn: 0
   slug: dscout-rules
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 21.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 45.4
     catalog_earned_first_party: 0.0
     catalog_gap: 69.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 19.7
     contract_quality: 17.4
-    developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 5.3
+    developer_ergonomics: 13.1
+    discoverability: 61.6
+    operational_transparency: 2.6
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 8
+      derived: 1
       marker_coverage: 100.0
-      total: 8
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/dscout/dscout-2026-11-03T131059.png
 security:
 - kind: domain-security
   name: Dscout Domain Security
@@ -218,8 +233,8 @@ security:
 slug: dscout
 tags:
 - Company
-- UX Research
-- AI
+- User Research
+- Artificial Intelligence
 - User Testing
 - Market Research
 website: https://dscout.com

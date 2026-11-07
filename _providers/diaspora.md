@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-31'
+  score: 28.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://diaspora.social/api/v1
@@ -110,7 +111,7 @@ apis:
   description: The Users API from Diaspora — 5 operation(s) for users.
   name: Diaspora Users API
   slug: diaspora-users-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: open
   name: diaspora* Aspects API
@@ -328,8 +329,24 @@ network: true
 overview: 'Diaspora publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aspects API, Comments API, Contacts API, and 11 more. Tagged areas include Company, Social, Social Network, Decentralized, and Federated.
 
 
+  The Diaspora catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Diaspora API Rules
+  rule_count: 71
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 1
+    warn: 6
+  slug: diaspora-rules
 scopes:
 - name: Diaspora Scopes
   scope_count: 16
@@ -337,23 +354,23 @@ scopes:
   summary_line: 16 scopes
 score:
   band: developing
-  composite: 41.3
+  composite: 43.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 48.4
+    contract_governance: 18.2
+    contract_quality: 51.8
     developer_ergonomics: 58.9
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 41.3
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -369,13 +386,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/diaspora/diaspora-2026-07-25T211929.png
 security:
 - kind: authentication

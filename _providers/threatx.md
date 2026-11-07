@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -22,10 +33,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-31'
+  score: 19.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'ThreatX API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-10-21); not the provider''s own document.'
@@ -177,54 +188,57 @@ overview: 'ThreatX is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 0
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: ThreatX API Rules
-  rule_count: 10
+  rule_count: 32
   severity_counts:
-    error: 8
+    error: 28
     hint: 0
-    info: 1
+    info: 3
     warn: 1
   slug: threatx-rules
 score:
-  band: thin
-  composite: 31.3
+  band: emerging
+  composite: 22.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 52.8
     catalog_earned_first_party: 0.0
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 35.6
     contract_quality: 22.0
-    developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 42.1
+    developer_ergonomics: 14.3
+    discoverability: 54.5
+    operational_transparency: 26.3
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 1
       marker_coverage: 100.0
-      total: 2
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/threatx/threatx-2026-11-03T144705.png
 security:
 - kind: domain-security
   name: Threatx Domain Security

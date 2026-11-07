@@ -25,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.optimyzee.com
@@ -238,7 +239,7 @@ apis:
   description: Operations/User
   name: Optimyzee Operations/User API
   slug: optimyzee-operations-user-api
-artifact_total: 48
+artifact_total: 49
 collections:
 - collection_type: open
   name: Optimyzee Application API
@@ -370,6 +371,9 @@ network: true
 overview: 'Optimyzee publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including App/Analyze/Google Ads/Audit API, App/Analyze/Google Ads/Health API, App/Analyze/Google Ads/Optimization API, and 37 more. Tagged areas include Company, Advertising, Google Ads, PPC, and Marketing.
 
 
+  The Optimyzee catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Optimyzee''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 20 more developer resources.'
 plans:
 - name: Optimyzee Plans Pricing
@@ -380,25 +384,38 @@ rate_limits:
 - limit_count: 0
   name: Optimyzee Rate Limits
   slug: optimyzee-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Optimyzee API Rules
+  rule_count: 47
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 3
+    warn: 9
+  slug: optimyzee-rules
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 40.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 38.7
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 39.4
     developer_ergonomics: 20.8
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 38.1
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -414,13 +431,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/optimyzee/optimyzee-2026-08-07T190810.png
 security:
 - kind: authentication

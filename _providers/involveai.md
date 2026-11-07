@@ -6,6 +6,8 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - rate-limits
+  - security
   - '{''url'': ''https://www.involve.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.jeeva.ai/ — a different registrable domain (involve.ai -> jeeva.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -128,7 +131,7 @@ rate_limits:
   slug: involveai-rate-limits
 score:
   band: minimal
-  composite: 7.2
+  composite: 6.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -143,16 +146,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 7.2
+    operational_transparency: 2.6
+  previous_composite: 6.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API behind the Alkira Portal (Cloud Services Exchange). Manages tenant networks, segments, cloud and site connectors (AWS, Azure, GCP, OCI, and SD-WAN vendors), integrated network services, routi
@@ -144,9 +145,9 @@ overview: 'Alkira is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 4
 score:
   band: emerging
-  composite: 17.7
+  composite: 18.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,9 +159,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 23.2
-    discoverability: 65.0
-    operational_transparency: 44.7
-  previous_composite: 17.7
+    discoverability: 71.7
+    operational_transparency: 42.1
+  previous_composite: 18.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -171,8 +172,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface on the All In Food Shopify storefront: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, Customer Account OIDC, and a canonical agents.md instructi'
@@ -107,7 +113,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.2
+  composite: 20.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -121,9 +127,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 56.7
+    discoverability: 63.3
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -134,8 +140,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

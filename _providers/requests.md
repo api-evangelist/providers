@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Requests is a simple and elegant HTTP library for Python, designed for human beings. It provides a clean, human-friendly API for all standard HTTP methods with automatic content handling, authenticati
@@ -180,7 +182,7 @@ rules:
   slug: requests-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 56.8
@@ -195,16 +197,16 @@ score:
     contract_quality: 21.2
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 23.7
+    operational_transparency: 26.3
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

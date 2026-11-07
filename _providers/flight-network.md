@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +172,7 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: emerging
-  composite: 17.3
+  composite: 18.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -185,7 +186,7 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 44.6
+    discoverability: 51.8
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -194,7 +195,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.3
+  previous_composite: 18.0
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -204,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   - '{''url'': ''https://www.knewton.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.wiley.com/en-us/grow/teach-learn/teacher-resources/courseware/knewton-alta/ — a different registrable domain (knewton.com -> wiley.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Knewton Enterprise Platform REST API (v0) that partner learning applications integrate with to deliver continuously adaptive learning. Partners create anonymized user accounts, establish learning '
@@ -183,7 +188,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.2
+  composite: 28.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -196,10 +201,10 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 63.7
-    discoverability: 66.1
+    developer_ergonomics: 55.4
+    discoverability: 73.2
     operational_transparency: 23.7
-  previous_composite: 29.2
+  previous_composite: 28.3
   provenance:
     conformance: derived
     mcp: derived
@@ -210,8 +215,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

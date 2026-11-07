@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Successor API surface of the Ultimate.ai platform after the Zendesk acquisition - Chat, Ticket, and Widget Escalation APIs with matching webhooks, plus Data Export and Delete User Data. Requires the A
@@ -115,9 +116,9 @@ overview: 'Ultimate.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 15
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -129,8 +130,8 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 31.0
-    discoverability: 66.1
-    operational_transparency: 13.2
+    discoverability: 73.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -139,15 +140,15 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 23.4
+  previous_composite: 23.7
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

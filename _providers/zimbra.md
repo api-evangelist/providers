@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: SOAP API (XML and JSON encodings) for Zimbra Collaboration — account, mail, and admin operations, POSTed to /service/soap on a Zimbra deployment. Self-hosted, so the base host is per-deployment; the r
@@ -147,9 +152,9 @@ overview: 'Zimbra is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 21
 score:
   band: thin
-  composite: 27.7
+  composite: 27.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -160,10 +165,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 27.7
+    developer_ergonomics: 39.3
+    discoverability: 64.3
+    operational_transparency: 13.2
+  previous_composite: 27.3
   provenance:
     conformance: first-party
   regulatory:
@@ -172,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

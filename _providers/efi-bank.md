@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.7
-  scored_at: '2026-10-31'
+  score: 23.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -81,7 +86,7 @@ apis:
   description: Webhook registration for received-Pix notifications. Host pix.api.efipay.com.br, mTLS required.
   name: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Efí (formerly Gerencianet) Payments Authorization API
@@ -182,6 +187,9 @@ network: true
 overview: 'Efí publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Carnê API, Cobranças API, and 4 more. Tagged areas include Payments, Pix, Boleto, Banking, and Brazil.
 
 
+  The Efí catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Efí''s developer surface includes engineering blog, pricing, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Efi Bank Plans Pricing
@@ -195,20 +203,33 @@ rate_limits:
 - limit_count: 4
   name: Efi Bank Rate Limits
   slug: efi-bank-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Efí API Rules
+  rule_count: 66
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 3
+    warn: 4
+  slug: efi-bank-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 33.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 52.0
+    artifact_dirs: 16
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
+    access_clarity: 36.8
+    contract_governance: 13.6
     contract_quality: 51.3
     developer_ergonomics: 31.0
     discoverability: 66.1
@@ -220,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 33.4
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +255,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/efi-bank/efi-bank-2026-07-25T212946.png
 security:
 - kind: authentication

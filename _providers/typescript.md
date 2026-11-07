@@ -1,41 +1,15 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: unknown
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    operation_distinctiveness: na
-    pagination_ratio: na
-    protected_resource_metadata: false
-    rate_limit_signal: derived
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 3.9
-  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -47,8 +21,48 @@ apis:
 - description: The TypeScript Transform API enables custom AST transformations during compilation. Transformers can modify, add, or remove nodes in the TypeScript AST before code emission.
   name: TypeScript Transform API
   slug: typescript-transform-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: design
+  href: https://artifacts.apis.io/typescript/rules/typescript-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/typescript-jsonschema-spectral-rules.yml
+- group: auth
+  href: https://artifacts.apis.io/typescript/security/typescript-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/typescript-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/typescript/well-known/typescript-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/typescript-www-security.txt
+- group: agent
+  href: https://artifacts.apis.io/typescript/well-known/typescript-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/typescript-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/typescript/hosts/typescript-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/typescript-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/typescript/vendors/typescript-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/typescript-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/typescript/packages/typescript-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/typescript-packages.yml
+- group: build
+  href: https://artifacts.apis.io/typescript/packages/typescript-packages.yml
+  title: ''
+  type: Packages
+  url: packages/typescript-packages.yml
 - group: commercial
   href: https://artifacts.apis.io/typescript/plans/typescript-plans-pricing.yml
   title: ''
@@ -186,6 +200,18 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/microsoft/TypeScript-Maintainer-Skills
+coverage:
+  checked: '2026-11-04'
+  detail: TypeScript is an open-source language and compiler shipped as the npm package typescript (7.0.2); its Compiler/Language Service APIs are in-process libraries, typescriptlang.org serves no hosted HTTP API, llms.txt or OpenAPI (both 404), and the Microsoft GitHub specs the pre-flight found describe Microsoft Graph, not TypeScript.
+  evidence:
+  - status: 404
+    url: https://www.typescriptlang.org/openapi.json
+  - status: 404
+    url: https://www.typescriptlang.org/llms.txt
+  - status: 200
+    url: https://www.typescriptlang.org
+  reason: no-developer-program
+  state: none
 created: '2024-01-01'
 description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for large-scale web applications, Node.js services, and developer tooling. The TypeScript Compiler API and Language Service API enable programmatic compilation, type checking, code transformation, and IDE integrations.
 finops:
@@ -224,7 +250,7 @@ overview: 'TypeScript is listed with 3 APIs on the [APIs.io](https://apis.io/) n
   The TypeScript catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TypeScript''s developer surface includes developer portal, getting-started guide, support, documentation, engineering blog, release notes, and 26 more developer resources.'
+  TypeScript''s developer surface includes developer portal, getting-started guide, support, documentation, engineering blog, release notes, and 34 more developer resources.'
 plans:
 - name: Typescript Plans Pricing
   plan_count: 3
@@ -246,44 +272,16 @@ rules:
     info: 2
     warn: 3
   slug: typescript-jsonschema-spectral-rules
-score:
-  band: thin
-  composite: 36.7
-  coverage:
-    artifact_dirs: 13
-    catalog_earned: 59.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 23.5
-    contract_quality: 14.7
-    developer_ergonomics: 58.8
-    discoverability: 69.6
-    operational_transparency: 39.5
-  previous_composite: 36.7
-  regulatory:
-    applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://apis.io/screenshots/typescript/typescript-2026-06-20T195902.png
 security:
 - kind: domain-security
   name: Typescript Domain Security
   slug: typescript-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Typescript Vulnerability Disclosure
+  slug: typescript-vulnerability-disclosure
+  summary_line: contact published
 skill_count: 1
 skills:
 - name: ts-maintain-reduce-repro

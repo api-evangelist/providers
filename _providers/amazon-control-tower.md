@@ -1,16 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -685,7 +686,7 @@ modified: '2026-09-16'
 name: Amazon Control Tower
 nav: Providers
 network: true
-overview: 'Amazon Control Tower is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Baselines API, Controls API, Landing Zones API, and 1 more. Tagged areas include Compliance, Governance, Landing Zone, Multi-Account, and Security.
+overview: 'Amazon Control Tower is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Baselines API, Controls API, Landing Zones API, and 1 more. Tagged areas include Amazon Web Services, Compliance, Governance, Landing Zone, and Multi-Account.
 
 
   The Amazon Control Tower catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -727,23 +728,23 @@ rules:
   slug: amazon-control-tower-spectral-rules
 score:
   band: developing
-  composite: 53.4
+  composite: 48.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 80.0
     catalog_earned_first_party: 8.0
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
-    access_clarity: 73.7
+    access_clarity: 67.1
     contract_governance: 27.3
     contract_quality: 27.9
-    developer_ergonomics: 65.5
+    developer_ergonomics: 53.6
     discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 55.5
+    operational_transparency: 36.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -757,13 +758,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-control-tower/amazon-control-tower-2026-06-20T171608.png
 security:
 - kind: authentication
@@ -784,6 +784,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-control-tower
 tags:
+- Amazon Web Services
 - Compliance
 - Governance
 - Landing Zone

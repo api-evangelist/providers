@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-31'
+  score: 34.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -396,9 +397,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.5
+  composite: 36.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 72.3
     catalog_earned_first_party: 16.0
     catalog_gap: 42.8
@@ -411,7 +412,7 @@ score:
     contract_quality: 23.5
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -419,7 +420,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,13 +435,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/carnegie-mellon-university/carnegie-mellon-university-2026-06-20T174011.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-31'
+  score: 31.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +67,7 @@ apis:
   description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Fundamental Research Labs Webhooks
@@ -258,7 +262,7 @@ network: true
 overview: 'Fundamental Research Labs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API, Spreadsheets API, and Usage API. Tagged areas include Company, Artificial Intelligence, Spreadsheets, Excel, and Financial Modeling.
 
 
-  The Fundamental Research Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Fundamental Research Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Fundamental Research Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 26 more developer resources.'
@@ -274,32 +278,45 @@ rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
   slug: fundamental-research-labs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Fundamental Research Labs API Rules
+  rule_count: 50
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 4
+  slug: fundamental-research-labs-rules
 score:
   band: strong
-  composite: 62.5
+  composite: 64.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.6
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 48.6
+    contract_governance: 31.8
+    contract_quality: 50.8
     developer_ergonomics: 67.3
-    discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 60.9
+    discoverability: 73.2
+    operational_transparency: 57.9
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 50.0
       total: 6
     mcp: derived
     skills: derived
@@ -309,13 +326,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fundamental-research-labs/fundamental-research-labs-2026-07-25T215308.png
 security:
 - kind: authentication

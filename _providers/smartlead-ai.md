@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.0
-  scored_at: '2026-10-31'
+  score: 42.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -125,7 +127,7 @@ apis:
   description: Configure webhooks for real-time event notifications
   name: Smartlead Webhooks API
   slug: smartlead-ai-webhooks-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Smartlead Ai Webhooks
@@ -358,7 +360,7 @@ network: true
 overview: 'Smartlead publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, Analytics API, and 16 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warm-up.
 
 
-  The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Smartlead''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, engineering blog, and 36 more developer resources.'
@@ -374,25 +376,38 @@ rate_limits:
 - limit_count: 5
   name: Smartlead Ai Rate Limits
   slug: smartlead-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Smartlead API Rules
+  rule_count: 71
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 10
+  slug: smartlead-ai-rules
 score:
   band: strong
-  composite: 63.6
+  composite: 62.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 58.3
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 58.9
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 62.1
+    discoverability: 75.0
+    operational_transparency: 42.1
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,13 +428,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/smartlead-ai/smartlead-ai-2026-06-20T194043.png
 security:
 - kind: authentication

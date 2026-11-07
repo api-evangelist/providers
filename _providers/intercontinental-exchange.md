@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-31'
+  score: 21.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +59,7 @@ apis:
 - description: The ICE Mortgage Technology Developer Portal is a self-service solution providing developers with resources and documentation to build and deploy mortgage lending applications. It includes a comprehen
   name: ICE Mortgage Technology Developer Portal
   slug: mortgage-technology-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: ICE Consolidated Feed API
@@ -226,6 +227,9 @@ network: true
 overview: 'Intercontinental Exchange publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including ICE Consolidated Feed API, and 2 more. Tagged areas include Commodities, Financial Exchanges, Market Data, NYSE, and Trading.
 
 
+  The Intercontinental Exchange catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Intercontinental Exchange''s developer surface includes authentication, engineering blog, support, developer portal, and 25 more developer resources.'
 plans:
 - name: Intercontinental Exchange Plans Pricing
@@ -252,25 +256,38 @@ rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 78
+  extends:
+  - spectral:oas
+  name: Intercontinental Exchange API Rules
+  rule_count: 37
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 1
+    warn: 1
+  slug: intercontinental-exchange-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 43.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 41.0
+    artifact_dirs: 30
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 42.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 48.2
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 41.7
+    operational_transparency: 23.7
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,13 +308,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/intercontinental-exchange/intercontinental-exchange-2026-06-20T183442.png
 security:
 - kind: authentication

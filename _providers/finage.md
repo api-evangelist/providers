@@ -1,14 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Freemium (3-day free trial) · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
-  trial: true
+  - rate-limits
+  - security
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -20,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-31'
+  score: 34.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.finage.co.uk
@@ -99,7 +102,7 @@ apis:
   description: The ETFs API from Finage — 3 operation(s) for etfs.
   name: Finage ET Fs API
   slug: finage-etfs-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: 'Finage streams real-time market prices (US stocks, global stocks, forex, crypto, CFD indices, and ETFs) over WebSocket. Each customer is assigned a dedicated WebSocket URL (subdomain + port) shown in '
   name: Finage WebSocket Market Data Stream
@@ -273,7 +276,7 @@ network: true
 overview: 'Finage publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket Market Data Stream, Bonds API, Canadian Stocks API, and 9 more. Tagged areas include Finance, Market Data, Stocks, Foreign Exchange, and Cryptocurrency.
 
 
-  The Finage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Finage catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Finage''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, pricing, engineering blog, and 25 more developer resources.'
@@ -289,24 +292,37 @@ rate_limits:
 - limit_count: 3
   name: Finage Rate Limits
   slug: finage-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Finage API Rules
+  rule_count: 64
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 7
+  slug: finage-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 47.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 28
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 24.3
     developer_ergonomics: 47.0
     discoverability: 73.2
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -315,7 +331,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.6
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -331,13 +347,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/finage/finage-2026-06-20T181209.png
 security:
 - kind: authentication

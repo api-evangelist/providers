@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://portal.tcs.taranawireless.com/northbound
@@ -241,9 +242,9 @@ rate_limits:
   slug: tarana-wireless-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 41.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -254,10 +255,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.6
-    developer_ergonomics: 45.2
-    discoverability: 67.9
-    operational_transparency: 55.3
-  previous_composite: 42.8
+    developer_ergonomics: 38.1
+    discoverability: 74.1
+    operational_transparency: 52.6
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -267,8 +268,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

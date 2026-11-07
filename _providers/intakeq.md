@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Open access
   onboarding: open
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 24.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -76,7 +81,7 @@ apis:
   description: Treatment / clinical notes and PDF export.
   name: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: IntakeQ Appointments API
@@ -170,6 +175,9 @@ network: true
 overview: 'IntakeQ publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Clients API, Files API, and 3 more. Tagged areas include Practice Management, Intake Forms, Scheduling, Health and Wellness, and Electronic Health Records.
 
 
+  The IntakeQ catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   IntakeQ''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Intakeq Plans Pricing
@@ -180,25 +188,38 @@ rate_limits:
 - limit_count: 4
   name: Intakeq Rate Limits
   slug: intakeq-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: IntakeQ API Rules
+  rule_count: 60
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 2
+    warn: 2
+  slug: intakeq-rules
 score:
   band: thin
-  composite: 26.9
+  composite: 27.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 16
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 46.5
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 26.9
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +233,12 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/intakeq/intakeq-2026-07-25T222634.png
 security:
 - kind: authentication

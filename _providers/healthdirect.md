@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
@@ -211,7 +212,7 @@ overview: 'Healthdirect Australia is listed with 5 APIs on the [APIs.io](https:/
 random_paper: 17
 score:
   band: thin
-  composite: 35.4
+  composite: 36.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 35.0
@@ -225,7 +226,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 70.4
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -234,7 +235,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 35.4
+  previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,8 +246,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

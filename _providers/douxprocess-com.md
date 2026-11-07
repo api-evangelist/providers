@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for DouxProcess automation platform.
@@ -110,28 +121,36 @@ modified: '2026-10-29'
 name: douxprocess-com
 nav: Providers
 network: true
-overview: 'douxprocess-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Automation, AI, SaaS, and Workflow.
+overview: 'douxprocess-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Automation, Artificial Intelligence, Software-as-a-Service, and Workflows.
 
 
   douxprocess-com''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 8 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 21.8
+  composite: 14.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 65.0
+    developer_ergonomics: 17.9
+    discoverability: 75.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 22.8
   provenance:
     mcp: first-party
   regulatory:
@@ -139,13 +158,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 11.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 8.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/douxprocess-com/douxprocess-com-2026-11-03T131002.png
 security:
 - kind: domain-security
   name: Douxprocess Com Domain Security
@@ -155,8 +176,8 @@ slug: douxprocess-com
 tags:
 - Insurance
 - Automation
-- AI
-- SaaS
-- Workflow
+- Artificial Intelligence
+- Software-as-a-Service
+- Workflows
 website: https://douxprocess.com/
 ---

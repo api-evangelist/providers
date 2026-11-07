@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -1352,9 +1355,9 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.4
+  composite: 38.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 63.2
     catalog_earned_first_party: 0.0
     catalog_gap: 51.9
@@ -1364,11 +1367,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
-    contract_quality: 54.5
+    contract_quality: 55.4
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 36.4
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1382,13 +1385,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/procurify/procurify-2026-06-20T192129.png
 security:
 - kind: authentication

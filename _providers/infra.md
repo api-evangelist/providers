@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.infrahq.com
@@ -87,7 +88,7 @@ arazzos:
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Infra Authentication API
@@ -256,27 +257,43 @@ network: true
 overview: 'Infra publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Destinations API, Grants API, and 5 more. Tagged areas include Company, Identity, Identity and Access Management, Authentication, and Authorization.
 
 
+  The Infra catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 22 more developer resources.'
 random_paper: 0
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Infra API Rules
+  rule_count: 46
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 2
+    warn: 2
+  slug: infra-rules
 score:
   band: thin
-  composite: 30.4
+  composite: 32.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 35.7
+    contract_governance: 18.2
+    contract_quality: 38.9
     developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 30.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 32.5
   provenance:
     conformance: derived
     contracts:
@@ -292,13 +309,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/infra/infra-2026-07-25T222422.png
 security:
 - kind: authentication

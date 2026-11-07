@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
   - authentication
-  trial: false
+  - scopes
+  - security
+  trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
@@ -26,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-31'
+  score: 34.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -116,7 +122,7 @@ arazzos:
 - description: Find a failed run in a flow's history, inspect it, and resubmit its trigger.
   name: Microsoft Power Automate Triage and Resubmit a Failed Run
   slug: microsoft-power-automate-triage-failed-run-workflow
-artifact_total: 81
+artifact_total: 83
 collections:
 - collection_type: postman
   name: Microsoft Power Automate Management Connections API
@@ -155,6 +161,71 @@ collections:
   name: Microsoft Power Automate Management Connections Flows API
   slug: open-microsoft-power-automate-flows-api
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-automate/rules/microsoft-power-automate-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-automate-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-automate/rules/microsoft-power-automate-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-automate-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-automate/rules/microsoft-power-automate-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-automate-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-automate/json-ld/microsoft-power-automate-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-power-automate-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-automate/vocabulary/microsoft-power-automate-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-power-automate-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/power-platform/admin/programmability-versioning-support
+- group: other
+  href: https://artifacts.apis.io/microsoft-power-automate/hosts/microsoft-power-automate-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-power-automate-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-power-automate/integrations/microsoft-power-automate-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/microsoft-power-automate-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-power-automate/vendors/microsoft-power-automate-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-power-automate-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-power-automate/packages/microsoft-power-automate-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/microsoft-power-automate-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
 - group: commercial
   href: https://artifacts.apis.io/microsoft-power-automate/plans/microsoft-power-automate-plans-pricing.yml
   title: ''
@@ -495,6 +566,10 @@ json_structures:
   property_count: 4
   slug: power-automate-management-api-flow-structure
 jsonld:
+- class_count: 25
+  name: Microsoft Power Automate Context
+  property_count: 42
+  slug: microsoft-power-automate-context
 - class_count: 6
   name: Microsoft Power Automate Management Api Context
   property_count: 17
@@ -507,10 +582,10 @@ network: true
 overview: 'Microsoft Power Automate is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Connectors API, Environments API, and 7 more. Tagged areas include Automation, Business Process, Integration, Low-Code, and Microsoft.
 
 
-  The Microsoft Power Automate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Power Automate catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 48 more developer resources.'
+  Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 62 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 6
@@ -536,6 +611,18 @@ rules:
     warn: 3
   slug: microsoft-power-automate-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 116
+  extends:
+  - spectral:oas
+  name: Microsoft Power Automate API Rules
+  rule_count: 75
+  severity_counts:
+    error: 69
+    hint: 0
+    info: 1
+    warn: 5
+  slug: microsoft-power-automate-rules
+- authorship: generated
   effective_rule_count: 69
   extends:
   - spectral:oas
@@ -554,23 +641,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.8
+  composite: 64.2
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 39
     catalog_earned: 82.0
     catalog_earned_first_party: 12.0
     catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 7.2
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 31.0
-    developer_ergonomics: 65.5
-    discoverability: 69.6
+    developer_ergonomics: 72.6
+    discoverability: 71.4
     operational_transparency: 55.3
-  previous_composite: 60.2
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -586,13 +673,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-power-automate/microsoft-power-automate-2026-08-17T083607.png
 security:
 - kind: authentication
@@ -610,7 +696,7 @@ security:
 - kind: trust-center
   name: Microsoft Power Automate Trust Center
   slug: microsoft-power-automate-trust-center
-  summary_line: SOC 1, SOC 2 Type II, ISO 27001, ISO 27018, HIPAA, FedRAMP Moderate, FedRAMP High, PCI DSS, GDPR
+  summary_line: GDPR
 slug: microsoft-power-automate
 solutions:
 - description: Premium plan with advanced connectors, AI Builder, and process mining.

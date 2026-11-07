@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -15,6 +18,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,18 +32,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.7
-  scored_at: '2026-10-31'
+  score: 46.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -444,7 +449,7 @@ apis:
   description: The Documents:v1:Documents API from Connecteam — 3 operation(s) for documents:v1:documents.
   name: Connecteam Documents:v1:Documents API
   slug: connecteam-documents-v1-documents-api
-artifact_total: 97
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Connecteam Events Webhooks
@@ -655,7 +660,7 @@ network: true
 overview: 'Connecteam publishes 79 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Assets:v1:Asset API, Attachments:v1:Files API, and 76 more. Tagged areas include Company, Workforce Management, Human Resources, Time Tracking, and Scheduling.
 
 
-  The Connecteam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Connecteam catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Connecteam''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
@@ -671,38 +676,51 @@ rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits
   slug: connecteam-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Connecteam API Rules
+  rule_count: 57
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 12
+  slug: connecteam-rules
 scopes:
 - name: Connecteam Scopes
   scope_count: 62
   slug: connecteam-scopes
   summary_line: 62 scopes · clientCredentials
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 69.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 3.8
   facets:
     access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 58.2
-    developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 64.8
+    contract_governance: 18.2
+    contract_quality: 64.5
+    developer_ergonomics: 55.4
+    discoverability: 75.0
+    operational_transparency: 73.7
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 146
+      marker_coverage: 53.1
+      total: 147
     mcp: first-party
     skills: derived
   regulatory:
@@ -711,13 +729,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/connecteam/connecteam-2026-08-07T163740.png
 security:
 - kind: authentication

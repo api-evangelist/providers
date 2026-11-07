@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -285,7 +286,7 @@ rate_limits:
   slug: pjm-rate-limits
 score:
   band: developing
-  composite: 48.6
+  composite: 47.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 54.5
@@ -298,7 +299,7 @@ score:
     access_clarity: 44.7
     contract_governance: 33.3
     contract_quality: 8.5
-    developer_ergonomics: 73.2
+    developer_ergonomics: 70.8
     discoverability: 71.4
     operational_transparency: 76.3
   jurisdiction:
@@ -308,7 +309,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.6
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     skills: derived
@@ -317,9 +318,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,14 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium (free trial) · Open access
-  onboarding: open
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
-  public: true
+  public: false
   source:
   - plans
   - authentication
-  trial: true
+  - security
+  trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +71,7 @@ apis:
   description: Create, submit, sync, and merge stacked pull requests via the gt CLI.
   name: Graphite Stacks API
   slug: graphite-com-stacks-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Graphite Platform Authentication API
@@ -298,6 +303,9 @@ network: true
 overview: 'Graphite publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, GitHub App API, Merge Queue API, and 1 more. Tagged areas include Code Review, Stacked PRs, Merge Queue, AI Code Review, and Developer Tools.
 
 
+  The Graphite catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Graphite''s developer surface includes authentication, documentation, getting-started guide, CLI, changelog, engineering blog, pricing, and 36 more developer resources.'
 plans:
 - name: Graphite Com Plans Pricing
@@ -311,24 +319,37 @@ rate_limits:
 - limit_count: 4
   name: Graphite Com Rate Limits
   slug: graphite-com-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Graphite API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: graphite-com-rules
 score:
   band: strong
-  composite: 63.8
+  composite: 62.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 55.0
+    artifact_dirs: 27
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
+    access_clarity: 85.5
+    contract_governance: 31.8
     contract_quality: 48.8
-    developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 55.3
+    developer_ergonomics: 69.0
+    discoverability: 71.7
+    operational_transparency: 44.7
   previous_composite: 62.2
   provenance:
     agentic_access: derived
@@ -346,13 +367,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/graphite-com/graphite-com-2026-06-20T182329.png
 security:
 - kind: authentication

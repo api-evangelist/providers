@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Local JSON-over-HTTPS RPC surface exposed by the chia-blockchain reference node. Each service (full_node, wallet, farmer, harvester, datalayer, crawler, timelord, solver) listens on its own port and i
@@ -188,10 +191,10 @@ overview: 'Chia Network is listed with 1 API on the [APIs.io](https://apis.io/) 
   Chia Network''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 23 more developer resources.'
 random_paper: 4
 score:
-  band: thin
-  composite: 32.8
+  band: developing
+  composite: 40.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -203,9 +206,12 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 57.1
-    operational_transparency: 47.4
-  previous_composite: 32.8
+    discoverability: 64.3
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.0
   provenance:
     conformance: derived
   regulatory:
@@ -214,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

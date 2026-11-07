@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +31,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +42,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-31'
+  score: 25.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The private production API behind the Acelab Material Hub web application and Revit add-in. It is not a published developer product: no OpenAPI, no API reference and no key-issuance flow is published '
@@ -176,9 +194,9 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 37.7
+  composite: 38.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -190,9 +208,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 37.7
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -202,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

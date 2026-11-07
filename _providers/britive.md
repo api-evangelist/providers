@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-31'
+  score: 31.9
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://demo.britive-app.com/api/v1
@@ -433,7 +434,7 @@ apis:
   description: Manage service identity association to identity provider
   name: Britive Workload Service Identity Providers API
   slug: britive-workload-service-identity-providers-api
-artifact_total: 167
+artifact_total: 168
 asyncapis:
 - description: ''
   name: Britive Events Webhooks
@@ -835,35 +836,48 @@ network: true
 overview: 'Britive publishes 79 API contracts indexed on the [APIs.io](https://apis.io/) network, including Secrets Manager API, Access Request Tag Membership API, API Tokens API, and 76 more. Tagged areas include Company, Privileged Access Management, Identity and Access Management, Cloud Security, and Zero Standing Privileges.
 
 
-  The Britive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Britive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 25 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Britive API Rules
+  rule_count: 56
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 4
+    warn: 15
+  slug: britive-rules
 scopes:
 - name: Britive Scopes
   scope_count: 3
   slug: britive-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 47.5
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 27
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
-    contract_governance: 4.5
-    contract_quality: 49.7
+    contract_governance: 18.2
+    contract_quality: 55.7
     developer_ergonomics: 73.2
-    discoverability: 70.0
-    operational_transparency: 44.7
-  previous_composite: 47.5
+    discoverability: 76.7
+    operational_transparency: 42.1
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -879,13 +893,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/britive/britive-2026-08-17T080708.png
 security:
 - kind: authentication

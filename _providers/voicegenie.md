@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.0
-  scored_at: '2026-10-31'
+  score: 37.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,7 +60,7 @@ apis:
   description: Manage outbound/inbound campaigns and their contacts.
   name: VoiceGenie Campaigns API
   slug: voicegenie-campaigns-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Voicegenie Webhooks
@@ -253,7 +254,7 @@ network: true
 overview: 'VoiceGenie publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Calls API and Campaigns API. Tagged areas include Company, Voice AI, Conversational AI, Sales Automation, and Voice Agents.
 
 
-  The VoiceGenie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The VoiceGenie catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   VoiceGenie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
@@ -269,25 +270,38 @@ rate_limits:
 - limit_count: 0
   name: Voicegenie Rate Limits
   slug: voicegenie-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: VoiceGenie API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: voicegenie-rules
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 57.6
     developer_ergonomics: 66.1
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 51.9
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,13 +318,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/voicegenie/voicegenie-2026-08-17T082816.png
 security:
 - kind: authentication

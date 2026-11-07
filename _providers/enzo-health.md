@@ -1,32 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-31'
+  score: 19.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,6 +54,31 @@ apis:
   slug: enzo-health-workflow-runs-api
 artifact_total: 6
 common:
+- group: auth
+  href: https://artifacts.apis.io/enzo-health/well-known/enzo-health-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/enzo-health-security.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.enzo.health/en/
+- group: start
+  title: ''
+  type: Login
+  url: https://my.enzo.health/sign-in
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/mintlify
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.enzo.health/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.enzo.health/api-reference/authentication
 - group: agent
   href: https://artifacts.apis.io/enzo-health/agentic-access/enzo-health-agentic-access.yml
   title: ''
@@ -122,14 +158,6 @@ common:
   title: ''
   type: Website
   url: https://www.enzo.health/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://www.enzo.health/
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://www.enzo.health/
 - group: start
   title: ''
   type: GettingStarted
@@ -159,44 +187,52 @@ modified: '2026-10-24'
 name: Enzo Health
 nav: Providers
 network: true
-overview: 'Enzo Health publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Workflow Runs API. Tagged areas include Company, Home Health, EHR, Healthcare, and SaaS.
+overview: 'Enzo Health publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Workflow Runs API. Tagged areas include Company, Home Care, Electronic Health Records, Healthcare, and Software-as-a-Service.
 
 
   The Enzo Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Enzo Health''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, and 17 more developer resources.'
+  Enzo Health''s developer surface includes support, documentation, API reference, authentication, getting-started guide, engineering blog, and 20 more developer resources.'
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: Enzo Health API Rules
-  rule_count: 10
+  rule_count: 42
   severity_counts:
-    error: 8
+    error: 40
     hint: 0
     info: 1
     warn: 1
   slug: enzo-health-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 22
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.4
   facets:
-    access_clarity: 21.1
+    access_clarity: 23.7
     contract_governance: 22.0
     contract_quality: 47.5
-    developer_ergonomics: 42.9
-    discoverability: 57.1
-    operational_transparency: 10.5
+    developer_ergonomics: 32.1
+    discoverability: 64.3
+    operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,13 +247,14 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 16.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/enzo-health/enzo-health-2026-11-03T131553.png
 security:
 - kind: authentication
   name: Enzo Health Authentication
@@ -230,9 +267,9 @@ security:
 slug: enzo-health
 tags:
 - Company
-- Home Health
-- EHR
+- Home Care
+- Electronic Health Records
 - Healthcare
-- SaaS
+- Software-as-a-Service
 website: https://www.enzo.health/
 ---

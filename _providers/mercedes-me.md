@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium (free trial) · Requires approval
-  onboarding: approval
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: true
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -26,6 +33,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -454,9 +462,9 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 51.5
+  composite: 50.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 76.0
     catalog_earned_first_party: 12.0
     catalog_gap: 39.0
@@ -467,10 +475,10 @@ score:
     access_clarity: 31.6
     contract_governance: 45.5
     contract_quality: 66.4
-    developer_ergonomics: 61.3
+    developer_ergonomics: 58.9
     discoverability: 62.5
     operational_transparency: 15.8
-  previous_composite: 51.5
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -487,13 +495,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mercedes-me/mercedes-me-2026-06-20T185206.png
 security:
 - kind: authentication

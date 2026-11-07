@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-31'
+  score: 41.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Market-State Brief API providing stock, ETF, and crypto ticker summaries.
@@ -186,7 +199,7 @@ modified: '2026-10-30'
 name: patternfetch-com
 nav: Providers
 network: true
-overview: 'patternfetch-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including patternfetch Api API, and 1 more. Tagged areas include Fintech, MarketData, API, Stocks, and Crypto.
+overview: 'patternfetch-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including patternfetch Api API, and 1 more. Tagged areas include Fintech, Market Data, Stocks, and Cryptocurrency.
 
 
   The patternfetch-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -212,34 +225,41 @@ rules:
     warn: 2
   slug: patternfetch-com-rules
 score:
-  band: developing
-  composite: 47.2
+  band: thin
+  composite: 33.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 84.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 30.1
+    artifact_dirs: 22
+    catalog_earned: 65.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.1
   facets:
-    access_clarity: 50.5
-    contract_governance: 79.1
+    access_clarity: 36.8
+    contract_governance: 22.0
     contract_quality: 50.7
-    developer_ergonomics: 31.0
-    discoverability: 66.7
-    operational_transparency: 5.3
+    developer_ergonomics: 21.4
+    discoverability: 57.5
+    operational_transparency: 2.6
+  previous_composite: 40.8
+  provenance:
+    conformance: derived
+    mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/patternfetch-com/patternfetch-com-2026-11-03T141004.png
 security:
 - kind: authentication
   name: Patternfetch Com Authentication
@@ -252,9 +272,8 @@ security:
 slug: patternfetch-com
 tags:
 - Fintech
-- MarketData
-- API
+- Market Data
 - Stocks
-- Crypto
+- Cryptocurrency
 website: https://patternfetch.com/
 ---

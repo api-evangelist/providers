@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
@@ -22,23 +25,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: true
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-31'
+  score: 55.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://btcwar.net
@@ -46,7 +50,7 @@ apis:
   description: Sourced and timestamped Binance Spot observations.
   name: BTC War Live Market Data API Market data API
   slug: btc-war-live-market-data-api-market-data-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: BTC War Live Market Data API
@@ -266,10 +270,10 @@ modified: '2026-10-06'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
-overview: 'BTC War Live Market Data API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Market data API. Tagged areas include Finance, Cryptocurrency, Market Data, Bitcoin, and crypto-price.
+overview: 'BTC War Live Market Data API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Market data API. Tagged areas include Finance, Cryptocurrency, Market Data, Bitcoin, and Crypto Price.
 
 
-  The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts.
+  The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
   BTC War Live Market Data API''s developer surface includes pricing, code examples, authentication, changelog, support, engineering blog, and 31 more developer resources.'
@@ -282,32 +286,45 @@ rate_limits:
 - limit_count: 0
   name: Btc War Live Market Data Api Rate Limits
   slug: btc-war-live-market-data-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: BTC War Live Market Data API API Rules
+  rule_count: 52
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 1
+  slug: btc-war-live-market-data-api-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 47.6
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 61.5
+    artifact_dirs: 32
+    catalog_earned: 66.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 53.5
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.2
   facets:
-    access_clarity: 31.6
-    contract_governance: 18.2
-    contract_quality: 62.7
+    access_clarity: 26.3
+    contract_governance: 31.8
+    contract_quality: 68.0
     developer_ergonomics: 35.7
-    discoverability: 66.7
-    operational_transparency: 47.4
-  previous_composite: 45.6
+    discoverability: 76.7
+    operational_transparency: 44.7
+  previous_composite: 47.4
   provenance:
     agentic_access: unknown
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: first-party
     skills: first-party
@@ -317,13 +334,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/btc-war-live-market-data-api/btc-war-live-market-data-api-2026-08-17T123059.png
 security:
 - kind: authentication
@@ -348,7 +365,7 @@ tags:
 - Cryptocurrency
 - Market Data
 - Bitcoin
-- crypto-price
+- Crypto Price
 - binance-spot
 - Orderflow
 - market-depth

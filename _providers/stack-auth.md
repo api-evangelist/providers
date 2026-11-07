@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -9,11 +12,10 @@ access_model:
   - plans
   - authentication
   - security
-  - '{''url'': ''https://stack-auth.com/'', ''status'': 308, ''note'': ''declared website redirects to https://www.hexclave.com/ — a different registrable domain (stack-auth.com -> hexclave.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -27,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-31'
+  score: 30.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -128,7 +131,7 @@ apis:
   description: The Webhooks API from Stack Auth — 1 operation(s) for webhooks.
   name: Stack Auth Webhooks API
   slug: stack-auth-webhooks-api
-artifact_total: 39
+artifact_total: 40
 collections:
 - collection_type: open
   name: Stack REST Auth API
@@ -276,6 +279,9 @@ network: true
 overview: 'Stack Auth publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connected Accounts API, Contact Channels API, and 16 more. Tagged areas include Authentication, User Management, Open Source, Self-Hosted, and Identity.
 
 
+  The Stack Auth catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Stack Auth''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Stack Auth Plans Pricing
@@ -286,25 +292,38 @@ rate_limits:
 - limit_count: 2
   name: Stack Auth Rate Limits
   slug: stack-auth-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Stack Auth API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: stack-auth-rules
 score:
   band: emerging
-  composite: 18.2
+  composite: 19.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 41.0
+    artifact_dirs: 19
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
+    contract_governance: 13.6
+    contract_quality: 1.8
     developer_ergonomics: 23.8
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 18.2
+  previous_composite: 19.7
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +338,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/stack-auth/stack-auth-2026-06-20T194441.png
 security:
 - kind: authentication

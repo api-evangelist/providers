@@ -1,21 +1,37 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.3
-  scored_at: '2026-10-31'
+  score: 49.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -258,7 +274,7 @@ modified: '2026-10-31'
 name: superdocs-app
 nav: Providers
 network: true
-overview: 'superdocs-app publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Approval API, and 14 more. Tagged areas include AI, Document Editing, REST API, MCP, and SaaS.
+overview: 'superdocs-app publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Approval API, and 14 more. Tagged areas include Artificial Intelligence, Document Editing, REST API, MCP, and Software-as-a-Service.
 
 
   The superdocs-app catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -276,16 +292,16 @@ rate_limits:
   slug: superdocs-app-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 99
   extends:
   - spectral:oas
   name: superdocs-app API Rules
-  rule_count: 13
+  rule_count: 58
   severity_counts:
-    error: 9
+    error: 42
     hint: 0
-    info: 3
-    warn: 1
+    info: 9
+    warn: 7
   slug: superdocs-app-rules
 scopes:
 - name: Superdocs App Scopes
@@ -294,33 +310,46 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.5
+  composite: 41.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 32
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.6
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 59.3
-    developer_ergonomics: 40.5
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 62.3
+    developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 48.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/superdocs-app/superdocs-app-2026-11-03T144036.png
 security:
 - kind: authentication
   name: Superdocs App Authentication
@@ -332,10 +361,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: superdocs-app
 tags:
-- AI
+- Artificial Intelligence
 - Document Editing
 - REST API
 - MCP
-- SaaS
+- Software-as-a-Service
 website: https://typebar.ai/
 ---

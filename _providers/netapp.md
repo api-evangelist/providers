@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -505,10 +506,10 @@ rules:
     warn: 6
   slug: netapp-spectral-rules
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 52.9
     catalog_earned_first_party: 0.0
     catalog_gap: 62.1
@@ -518,11 +519,14 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 54.8
-    developer_ergonomics: 57.1
+    contract_quality: 58.2
+    developer_ergonomics: 52.4
     discoverability: 63.3
-    operational_transparency: 28.9
-  previous_composite: 41.0
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -536,13 +540,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/netapp/netapp-2026-06-20T190143.png
 security:
 - kind: authentication

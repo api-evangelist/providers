@@ -1,0 +1,161 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.1
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: API for EcoVanMove services as described on the company website. No machine-readable contract discovered.
+  name: EcoVanMove API
+  slug: ecovanmove-api
+artifact_total: 3
+common:
+- group: auth
+  href: https://artifacts.apis.io/ecovanmove-com/security/ecovanmove-com-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/ecovanmove-com-vulnerability-disclosure.yml
+- group: other
+  href: https://artifacts.apis.io/ecovanmove-com/hosts/ecovanmove-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ecovanmove-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ecovanmove-com/vendors/ecovanmove-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ecovanmove-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ecovanmove.com/pages/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ecovanmove.com/pages/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://ecovanmove.com/blog/moving/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://ecovanmove.com/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://ecovanmove.com/blog/moving
+- group: auth
+  href: https://artifacts.apis.io/ecovanmove-com/security/ecovanmove-com-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ecovanmove-com-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/ecovanmove-com/security/ecovanmove-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/ecovanmove-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://ecovanmove.com/
+coverage:
+  checked: '2026-11-06'
+  detail: Documentation pages are JavaScript-rendered and no machine-readable spec was found.
+  evidence:
+  - status: 0
+    url: https://api.ecovanmove.com/openapi.json
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-11-06'
+description: 'ecovanmove-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+image: https://ecovanmove.com/storage/site-settings/51SIFiWAl3PsV5MdHlACX96RG979iktlnHPOE5jw.png
+layout: provider
+modified: '2026-11-06'
+name: ecovanmove-com
+nav: Providers
+network: true
+overview: 'ecovanmove-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+
+
+  ecovanmove-com''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
+random_paper: 23
+score:
+  band: emerging
+  composite: 15.4
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 22.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 93.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 39.3
+    operational_transparency: 10.5
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 19.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Ecovanmove Com Domain Security
+  slug: ecovanmove-com-domain-security
+  summary_line: TLSv1.3
+- kind: vulnerability-disclosure
+  name: Ecovanmove Com Vulnerability Disclosure
+  slug: ecovanmove-com-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: ecovanmove-com
+tags:
+- Company
+website: https://ecovanmove.com/
+---

@@ -1,31 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
+    dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 65.5
-  scored_at: '2026-10-31'
+  score: 55.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -125,8 +137,32 @@ apis:
   description: The Time Series API from Engrate — 3 operation(s) for time series.
   name: Engrate Time Series API
   slug: engrate-time-series-api
-artifact_total: 39
+artifact_total: 41
+asyncapis:
+- description: ''
+  name: Engrate Webhooks
+  slug: engrate-webhooks
 common:
+- group: design
+  href: https://artifacts.apis.io/engrate/asyncapi/engrate-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/engrate-webhooks.yml
+- group: design
+  href: https://artifacts.apis.io/engrate/conventions/engrate-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/engrate-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/engrate/conventions/engrate-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/engrate-conventions.yml
+- group: auth
+  href: https://artifacts.apis.io/engrate/scopes/engrate-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/engrate-scopes.yml
 - group: agent
   href: https://artifacts.apis.io/engrate/agentic-access/engrate-agentic-access.yml
   title: ''
@@ -306,43 +342,48 @@ network: true
 overview: 'Engrate publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Logs API, Benachrichtigung API, Betrieb API, and 15 more. Tagged areas include Company, Energy, Platform, Integration, and Markets.
 
 
-  The Engrate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Engrate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Engrate''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, and 22 more developer resources.'
+  Engrate''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, and 26 more developer resources.'
 random_paper: 22
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 103
   extends:
   - spectral:oas
   name: Engrate API Rules
-  rule_count: 13
+  rule_count: 62
   severity_counts:
-    error: 9
+    error: 43
     hint: 0
-    info: 2
-    warn: 2
+    info: 4
+    warn: 15
   slug: engrate-rules
+scopes:
+- name: Engrate Scopes
+  scope_count: 5
+  slug: engrate-scopes
+  summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.0
+  composite: 42.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 29
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 63.7
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 45.0
+    contract_quality: 72.2
+    developer_ergonomics: 39.9
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,14 +399,14 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/engrate/engrate-2026-11-03T131528.png
 security:
 - kind: authentication
   name: Engrate Authentication

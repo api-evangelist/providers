@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -99,7 +103,7 @@ arazzos:
 - description: 'The backend half of a Switcloud card-present transaction: authenticate as a basic/machine user, create a Payment against a POI and POIConfig, wait for the on-device leg, then read the completed transa'
   name: Take a Switcloud payment and reconcile it
   slug: switstack-take-a-payment
-artifact_total: 23
+artifact_total: 24
 common:
 - group: other
   href: https://artifacts.apis.io/switstack/capabilities/switstack-capability-edges.yml
@@ -288,6 +292,9 @@ network: true
 overview: 'Switstack publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, BOM API, Config API, and 5 more. Tagged areas include Company, Fintech Insurtech, Payments, EMV, and emv-level-2.
 
 
+  The Switstack catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Switstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 29 more developer resources.'
 plans:
 - name: Switstack Plans Pricing
@@ -298,6 +305,19 @@ rate_limits:
 - limit_count: 0
   name: Switstack Rate Limits
   slug: switstack-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Switstack API Rules
+  rule_count: 53
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 2
+    warn: 6
+  slug: switstack-rules
 scopes:
 - name: Switstack Scopes
   scope_count: 0
@@ -305,23 +325,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.6
+  composite: 41.1
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 40.0
+    artifact_dirs: 32
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
-    contract_governance: 18.2
-    contract_quality: 40.9
+    contract_governance: 31.8
+    contract_quality: 44.3
     developer_ergonomics: 80.4
     discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 39.6
+    operational_transparency: 2.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,13 +358,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/switstack/switstack-2026-09-02T161419.png
 security:
 - kind: authentication

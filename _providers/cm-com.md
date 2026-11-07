@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-31'
+  score: 51.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 166
@@ -1159,7 +1171,7 @@ json_schemas:
   property_count: 9
   slug: cm-com-api-phone-number-config-notification
 - name: Phone Number Config Sip
-  property_count: 5
+  property_count: 6
   slug: cm-com-api-phone-number-config-sip
 - name: Phone Number Range
   property_count: 8
@@ -1225,7 +1237,7 @@ json_schemas:
   property_count: 8
   slug: cm-com-call-queued-event
 - name: CardPaymentV2
-  property_count: 0
+  property_count: 9
   slug: cm-com-card-payment-v2
 - name: CM.Data.Core.Profiles.Api.Models.ApiProfileExport
   property_count: 4
@@ -1330,22 +1342,22 @@ json_schemas:
   property_count: 3
   slug: cm-com-create-apikey-response
 - name: CreateDossier
-  property_count: 0
+  property_count: 20
   slug: cm-com-create-dossier
 - name: CreateFeedbackScoreRequest
   property_count: 7
   slug: cm-com-create-feedback-score-request
 - name: Create OTP (Email)
-  property_count: 4
+  property_count: 6
   slug: cm-com-create-otp-email
 - name: Create OTP (Push)
-  property_count: 2
+  property_count: 7
   slug: cm-com-create-otp-push
 - name: Create OTP (Voice)
-  property_count: 9
+  property_count: 11
   slug: cm-com-create-otp-voice
 - name: Create OTP (WhatsApp)
-  property_count: 5
+  property_count: 7
   slug: cm-com-create-otp-whats-app
 - name: CreateRuleDto
   property_count: 21
@@ -1363,7 +1375,7 @@ json_schemas:
   property_count: 2
   slug: cm-com-create-transaction-response
 - name: CreateTransaction
-  property_count: 1
+  property_count: 12
   slug: cm-com-create-transaction
 - name: CultureView
   property_count: 2
@@ -1417,10 +1429,10 @@ json_schemas:
   property_count: 3
   slug: cm-com-health-response
 - name: IdealQRTransaction
-  property_count: 0
+  property_count: 15
   slug: cm-com-ideal-qrtransaction
 - name: IdealTransaction
-  property_count: 0
+  property_count: 20
   slug: cm-com-ideal-transaction
 - name: IdentityMatchMatchResponse
   property_count: 7
@@ -1483,7 +1495,7 @@ json_schemas:
   property_count: 21
   slug: cm-com-request-dtmf-instruction
 - name: RivertyTransaction
-  property_count: 0
+  property_count: 17
   slug: cm-com-riverty-transaction
 - name: RuleDto
   property_count: 22
@@ -1498,7 +1510,7 @@ json_schemas:
   property_count: 2
   slug: cm-com-sim-swap-request
 - name: StatusRequest
-  property_count: 0
+  property_count: 3
   slug: cm-com-status-request
 - name: The results of the information requested.
   property_count: 5
@@ -1519,13 +1531,13 @@ json_schemas:
   property_count: 24
   slug: cm-com-ticket
 - name: TransactionDetail
-  property_count: 0
+  property_count: 6
   slug: cm-com-transaction-detail
 - name: TransactionPage
   property_count: 3
   slug: cm-com-transaction-page
 - name: Transaction request
-  property_count: 0
+  property_count: 3
   slug: cm-com-transaction-request
 - name: Transaction response
   property_count: 3
@@ -1593,36 +1605,36 @@ scopes:
   slug: cm-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.4
+  band: developing
+  composite: 50.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 63.8
     catalog_earned_first_party: 0.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: -13.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 26.3
     contract_governance: 22.0
-    contract_quality: 70.4
-    developer_ergonomics: 57.1
-    discoverability: 85.0
-    operational_transparency: 55.3
+    contract_quality: 72.3
+    developer_ergonomics: 34.5
+    discoverability: 87.5
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - netherlands
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 61.5
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 80.7
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 16.2
       total: 167
     mcp: first-party
   regulatory:
@@ -1630,14 +1642,14 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 44.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 38.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/cm-com/cm-com-2026-11-03T124623.png
 security:
 - kind: authentication
   name: Cm Com Authentication

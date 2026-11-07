@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -223,7 +224,7 @@ apis:
   description: The misc-controller API from Danske Bank (UK) — 1 operation(s) for misc-controller.
   name: Danske Bank (UK) Misc Controller API
   slug: danske-bank-uk-misc-controller-api
-artifact_total: 54
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Danske Bank Uk Events Webhooks
@@ -408,11 +409,24 @@ network: true
 overview: 'Danske Bank (UK) publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Account Information Service (AIS) API, Accounts API, and 32 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  The Danske Bank (UK) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Danske Bank (UK) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Danske Bank (UK) API Rules
+  rule_count: 50
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 3
+    warn: 10
+  slug: danske-bank-uk-rules
 scopes:
 - name: Danske Bank Uk Scopes
   scope_count: 4
@@ -420,21 +434,21 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 45.7
+  composite: 46.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 2.0
   facets:
     access_clarity: 28.9
-    contract_governance: 4.5
-    contract_quality: 53.6
-    developer_ergonomics: 66.1
-    discoverability: 71.4
+    contract_governance: 18.2
+    contract_quality: 53.8
+    developer_ergonomics: 58.9
+    discoverability: 78.6
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -444,14 +458,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 2.9
       total: 35
     mcp: derived
     skills: derived
@@ -465,13 +479,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 51.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/danske-bank-uk/danske-bank-uk-2026-07-25T211205.png
 security:
 - kind: authentication

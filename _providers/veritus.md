@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.veritus.com/api/v1
@@ -65,7 +66,7 @@ apis:
   description: The Veritus API API from Veritus — 0 operation(s) for veritus api.
   name: Veritus API
   slug: veritus-veritus-api-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: Outbound webhooks Veritus Agent POSTs to a subscriber-supplied URL when calls complete or drip-campaign events occur. Payloads are signed with HMAC SHA-256. Register a webhook by supplying `webhook.ur
   name: Veritus Agent Webhooks
@@ -190,37 +191,50 @@ network: true
 overview: 'Veritus publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Clients API, Customers API, and 2 more. Tagged areas include Company, Fintech, Consumer Lending, Collection, and AI Agents.
 
 
-  The Veritus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Veritus catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Veritus'' developer surface includes engineering blog, documentation, signup flow, authentication, and 17 more developer resources.'
 random_paper: 18
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Veritus API Rules
+  rule_count: 58
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 4
+    warn: 6
+  slug: veritus-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 52.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 58.2
     developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 48.8
+    discoverability: 73.2
+    operational_transparency: 15.8
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -229,13 +243,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/veritus/veritus-2026-08-17T082732.png
 security:
 - kind: authentication

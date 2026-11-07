@@ -1,0 +1,199 @@
+---
+access_model:
+  confidence: medium
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 21.6
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: API documentation referenced but no machine-readable spec found.
+  name: Agent Letter Desk API
+  slug: agent-letter-desk-api
+artifact_total: 5
+common:
+- group: commercial
+  href: https://artifacts.apis.io/agentletterdesk-com/plans/agentletterdesk-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agentletterdesk-com-plans-pricing.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://agentletterdesk.com/support#security
+- group: auth
+  href: https://artifacts.apis.io/agentletterdesk-com/authentication/agentletterdesk-com-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/agentletterdesk-com-authentication.yml
+- group: agent
+  href: https://artifacts.apis.io/agentletterdesk-com/llms/agentletterdesk-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/agentletterdesk-com-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/agentletterdesk-com/well-known/agentletterdesk-com-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/agentletterdesk-com-security.txt
+- group: agent
+  href: https://artifacts.apis.io/agentletterdesk-com/well-known/agentletterdesk-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/agentletterdesk-com-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/agentletterdesk-com/hosts/agentletterdesk-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/agentletterdesk-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/agentletterdesk-com/vendors/agentletterdesk-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/agentletterdesk-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://agentletterdesk.com/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://agentletterdesk.com/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://agentletterdesk.com/privacy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://agentletterdesk.com/guides
+- group: auth
+  href: https://artifacts.apis.io/agentletterdesk-com/security/agentletterdesk-com-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/agentletterdesk-com-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/agentletterdesk-com/security/agentletterdesk-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/agentletterdesk-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://agentletterdesk.com/
+coverage:
+  checked: '2026-11-01'
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC or WSDL files were found despite probing known endpoints and documentation pages.
+  evidence:
+  - status: error
+    url: https://api.agentletterdesk.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-11-01'
+description: Agent Letter Desk provides AI-generated letters that are printed and mailed on behalf of users. The service integrates with AI models like Claude, ChatGPT, Grok, and Mistral Vibe, allowing users to compose letters via chat and have them sent via USPS Certified Mail. It offers features such as guided templates, safeguards, and destination options, targeting both US and EU markets. The platform is currently in invite-only beta, with a waitlist for broader access.
+image: https://agentletterdesk.com/assets/og.1888715da0.png
+layout: provider
+modified: '2026-11-01'
+name: Agent Letter Desk
+nav: Providers
+network: true
+overview: 'Agent Letter Desk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Mail, Certified Mail, LetterService, and Automation.
+
+
+  Agent Letter Desk''s developer surface includes authentication, support, documentation, and 12 more developer resources.'
+plans:
+- name: Agentletterdesk Com Plans Pricing
+  plan_count: 1
+  slug: agentletterdesk-com-plans-pricing
+random_paper: 2
+score:
+  band: emerging
+  composite: 17.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.7
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 22.0
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: authentication
+  name: Agentletterdesk Com Authentication
+  slug: agentletterdesk-com-authentication
+  summary_line: 1 scheme
+- kind: domain-security
+  name: Agentletterdesk Com Domain Security
+  slug: agentletterdesk-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Agentletterdesk Com Vulnerability Disclosure
+  slug: agentletterdesk-com-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: agentletterdesk-com
+tags:
+- Artificial Intelligence
+- Mail
+- Certified Mail
+- LetterService
+- Automation
+- Company
+website: https://agentletterdesk.com/
+---

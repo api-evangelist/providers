@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,7 +58,7 @@ apis:
   description: The Objects API from Salesforce Marketing Cloud Account Engagement (Pardot) — 24 operation(s) for objects.
   name: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
   slug: pardot-objects-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Salesforce Account Engagement (Pardot) API v5 Objects API
@@ -273,6 +274,9 @@ network: true
 overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Objects API, and 2 more. Tagged areas include Marketing Automation, B2B Marketing, Lead Generation, Email Marketing, and Salesforce.
 
 
+  The Salesforce Marketing Cloud Account Engagement (Pardot) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, sandbox, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Pardot Plans Pricing
@@ -286,6 +290,19 @@ rate_limits:
 - limit_count: 5
   name: Pardot Rate Limits
   slug: pardot-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Salesforce Marketing Cloud Account Engagement (Pardot) API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: pardot-rules
 scopes:
 - name: Pardot Scopes
   scope_count: 1
@@ -293,28 +310,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.3
+  composite: 62.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 12.6
+    contract_governance: 31.8
+    contract_quality: 16.0
     developer_ergonomics: 78.0
-    discoverability: 66.1
-    operational_transparency: 71.1
+    discoverability: 73.2
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 59.7
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,13 +352,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pardot/pardot-2026-06-20T191406.png
 security:
 - kind: authentication

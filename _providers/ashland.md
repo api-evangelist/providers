@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -139,8 +141,8 @@ rate_limits:
   name: Ashland Rate Limits
   slug: ashland-rate-limits
 score:
-  band: emerging
-  composite: 11.7
+  band: minimal
+  composite: 10.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -153,7 +155,7 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 16.7
     discoverability: 57.1
     operational_transparency: 7.9
   jurisdiction:
@@ -163,15 +165,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.7
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

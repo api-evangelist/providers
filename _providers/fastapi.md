@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Modern, fast web framework for building APIs with Python based on standard Python type hints.
@@ -145,7 +147,7 @@ rules:
   slug: fastapi-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.0
+  composite: 16.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.7
@@ -160,16 +162,16 @@ score:
     contract_quality: 7.2
     developer_ergonomics: 26.2
     discoverability: 48.2
-    operational_transparency: 28.9
-  previous_composite: 17.0
+    operational_transparency: 26.3
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

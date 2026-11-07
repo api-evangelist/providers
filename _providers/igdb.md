@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,10 +212,10 @@ rules:
     warn: 0
   slug: igdb-rules
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -222,10 +226,10 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.4
-    developer_ergonomics: 47.6
+    developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 29.2
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -239,13 +243,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/igdb/igdb-2026-06-20T183218.png
 security:
 - kind: authentication

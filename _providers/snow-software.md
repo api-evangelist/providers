@@ -1,14 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
-  - '{''url'': ''https://www.snowsoftware.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.flexera.com/ — a different registrable domain (snowsoftware.com -> flexera.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-31'
+  score: 48.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -203,7 +204,7 @@ apis:
   description: The Upgrades API from Snow Software — 2 operation(s) for upgrades.
   name: Snow Software Upgrades API
   slug: snow-software-upgrades-api
-artifact_total: 79
+artifact_total: 138
 collections:
 - collection_type: open
   name: 'SAM: Computers Applications API'
@@ -308,6 +309,78 @@ collections:
   name: 'SAM: Computers Applications Upgrades API'
   slug: open-snow-software-upgrades-api
 common:
+- group: design
+  href: https://artifacts.apis.io/snow-software/rules/snow-software-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/snow-software-rules.yml
+- group: design
+  href: https://artifacts.apis.io/snow-software/rules/snow-software-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/snow-software-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/snow-software/json-ld/snow-software-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/snow-software-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/snow-software/vocabulary/snow-software-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/snow-software-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/snow-software/data-model/snow-software-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/snow-software-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/snow-software/errors/snow-software-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/snow-software-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/snow-software/conformance/snow-software-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/snow-software-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/snow-software/mcp/snow-software-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/snow-software-mcp.yml
+- group: agent
+  href: https://artifacts.apis.io/snow-software/well-known/snow-software-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/snow-software-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/snow-software/hosts/snow-software-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/snow-software-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/snow-software/integrations/snow-software-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/snow-software-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/snow-software/vendors/snow-software-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/snow-software-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.flexera.com/products/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.flexera.com/legal/privacy-policy
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.flexera.com/about-us/leadership
 - group: commercial
   href: https://artifacts.apis.io/snow-software/plans/snow-software-plans-pricing.yml
   title: ''
@@ -395,12 +468,189 @@ finops:
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snow-software.png
 json_schemas:
+- name: ApplicationPatch
+  property_count: 8
+  slug: snow-software-application-patch
+- name: Application
+  property_count: 34
+  slug: snow-software-application
+- name: ApplicationUserConsumption
+  property_count: 18
+  slug: snow-software-application-user-consumption
+- name: ApplicationsKPI
+  property_count: 9
+  slug: snow-software-applications-kpi
+- name: BulkSummaryResponse
+  property_count: 4
+  slug: snow-software-bulk-summary-response
+- name: BulkUpdateApplicationsRequest
+  property_count: 4
+  slug: snow-software-bulk-update-applications-request
+- name: BulkUpdateComputerStatusRequest
+  property_count: 3
+  slug: snow-software-bulk-update-computer-status-request
+- name: BulkUpdateComputerStatusResponse
+  property_count: 4
+  slug: snow-software-bulk-update-computer-status-response
+- name: ComputerApplicationsDetails
+  property_count: 21
+  slug: snow-software-computer-applications-details
+- name: ComputerAssignment
+  property_count: 10
+  slug: snow-software-computer-assignment
+- name: ComputerCosts
+  property_count: 10
+  slug: snow-software-computer-costs
+- name: ComputerDetails
+  property_count: 54
+  slug: snow-software-computer-details
+- name: ComputerDisplayAdapter
+  property_count: 6
+  slug: snow-software-computer-display-adapter
+- name: ComputerHardwareDetails
+  property_count: 19
+  slug: snow-software-computer-hardware-details
+- name: ComputerLogonHistoryDetails
+  property_count: 5
+  slug: snow-software-computer-logon-history-details
+- name: ComputerMonitor
+  property_count: 5
+  slug: snow-software-computer-monitor
+- name: ComputerSocketMapDetails
+  property_count: 5
+  slug: snow-software-computer-socket-map-details
+- name: ComputerWrite
+  property_count: 19
+  slug: snow-software-computer-write
+- name: DatacenterAssignment
+  property_count: 10
+  slug: snow-software-datacenter-assignment
+- name: FilteredResponseWithLinksOfComputerApplicationMetering
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-application-metering
+- name: FilteredResponseWithLinksOfComputerApplicationUsage
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-application-usage
+- name: FilteredResponseWithLinksOfComputerApplicationUsageSummary
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-application-usage-summary
+- name: FilteredResponseWithLinksOfComputerApplications
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-applications
+- name: FilteredResponseWithLinksOfComputerContract
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-contract
+- name: FilteredResponseWithLinksOfComputerDrive
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-drive
+- name: FilteredResponseWithLinksOfComputerEnvironmentVariables
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-environment-variables
+- name: FilteredResponseWithLinksOfComputerLogicalDisk
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-logical-disk
+- name: FilteredResponseWithLinksOfComputerLogonHistory
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-logon-history
+- name: FilteredResponseWithLinksOfComputerNetworkAdapters
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-network-adapters
+- name: FilteredResponseWithLinksOfComputerProcessor
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-processor
+- name: FilteredResponseWithLinksOfComputerRegistry
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-registry
+- name: FilteredResponseWithLinksOfComputerRemoteClients
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-remote-clients
+- name: FilteredResponseWithLinksOfComputer
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer
+- name: FilteredResponseWithLinksOfComputerVirtualMachine
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-computer-virtual-machine
+- name: FilteredResponseWithLinksOfUserApplicationUsage
+  property_count: 3
+  slug: snow-software-filtered-response-with-links-of-user-application-usage
+- name: HateoasCollectionOfAllocationSummaryCollectionItem
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-allocation-summary-collection-item
+- name: HateoasCollectionOfComplianceSummaryCollection
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-compliance-summary-collection
+- name: HateoasCollectionOfComplianceSummaryUsageCollection
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-compliance-summary-usage-collection
+- name: HateoasCollectionOfComputerApplicationEntitlement
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-computer-application-entitlement
+- name: HateoasCollectionOfEntitlementState
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-entitlement-state
+- name: HateoasCollectionOfExtendedCoverageType
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-extended-coverage-type
+- name: HateoasCollectionOfLicenseCollection
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-license-collection
+- name: HateoasCollectionOfLicenseCost
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-license-cost
+- name: HateoasCollectionOfLicenseEntitlement
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-license-entitlement
+- name: HateoasCollectionOfLicenseExtendedCoverage
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-license-extended-coverage
+- name: HateoasCollectionOfUserApplicationEntitlement
+  property_count: 3
+  slug: snow-software-hateoas-collection-of-user-application-entitlement
+- name: LicenseAssignmentDetails
+  property_count: 6
+  slug: snow-software-license-assignment-details
+- name: LicenseBulkUpdateOperation
+  property_count: 4
+  slug: snow-software-license-bulk-update-operation
+- name: LicenseCost
+  property_count: 11
+  slug: snow-software-license-cost
+- name: LicenseCostSummary
+  property_count: 11
+  slug: snow-software-license-cost-summary
+- name: LicenseExtendedCoverage
+  property_count: 9
+  slug: snow-software-license-extended-coverage
+- name: LicenseRequest
+  property_count: 37
+  slug: snow-software-license-request
 - name: Snow Atlas Software License
   property_count: 17
   slug: snow-software-license
+- name: MaintenancePeriodRequest
+  property_count: 8
+  slug: snow-software-maintenance-period-request
+- name: MaintenancePeriod
+  property_count: 10
+  slug: snow-software-maintenance-period
+- name: OrganizationAssignment
+  property_count: 7
+  slug: snow-software-organization-assignment
+- name: PatchRequest
+  property_count: 0
+  slug: snow-software-patch-request
 - name: Snow Atlas SaaS Application
   property_count: 14
   slug: snow-software-saas-application
+- name: SiteAssignment
+  property_count: 6
+  slug: snow-software-site-assignment
+- name: UserAssignment
+  property_count: 7
+  slug: snow-software-user-assignment
+- name: User
+  property_count: 22
+  slug: snow-software-user
 json_structures:
 - name: Snow Software Atlas Structure
   property_count: 0
@@ -425,7 +675,7 @@ overview: 'Snow Software publishes 31 API contracts indexed on the [APIs.io](htt
   The Snow Software catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 12 more developer resources.'
+  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
@@ -460,26 +710,27 @@ rules:
     warn: 4
   slug: snow-software-rules
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 44.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 54.5
+    artifact_dirs: 29
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.0
   facets:
-    access_clarity: 18.4
-    contract_governance: 13.6
-    contract_quality: 58.0
-    developer_ergonomics: 38.1
-    discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 35.3
+    access_clarity: 22.4
+    contract_governance: 31.8
+    contract_quality: 67.5
+    developer_ergonomics: 35.7
+    discoverability: 66.7
+    operational_transparency: 18.4
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -491,14 +742,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/snow-software/snow-software-2026-06-20T194211.png
 security:
 - kind: authentication

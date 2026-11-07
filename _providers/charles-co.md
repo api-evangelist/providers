@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.6
-  scored_at: '2026-10-31'
+  score: 14.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central api.hello-charles.com service, then work wit
@@ -158,9 +159,9 @@ overview: 'Charles Co is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 9
 score:
   band: emerging
-  composite: 25.6
+  composite: 20.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,9 +172,9 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 21.1
+    developer_ergonomics: 28.6
+    discoverability: 75.0
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +183,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 25.6
+  previous_composite: 20.4
   provenance:
     mcp: first-party
   regulatory:
@@ -191,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

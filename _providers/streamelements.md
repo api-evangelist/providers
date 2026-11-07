@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 35.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -165,7 +169,7 @@ apis:
   description: Folder for loyalty
   name: StreamElements Users API
   slug: streamelements-users-api
-artifact_total: 56
+artifact_total: 57
 asyncapis:
 - description: StreamElements' dedicated pubsub WebSocket gateway. Subscribe to per-channel topics to receive live stream events (tips, activities, session updates, overlay/chatbot events) the moment they happen. Ca
   name: StreamElements Astro Real-Time Gateway
@@ -402,11 +406,24 @@ network: true
 overview: 'StreamElements publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Bot API, Channels API, and 21 more. Tagged areas include Company, Consumer, Live Streaming, Creator Economy, and Overlays.
 
 
-  The StreamElements catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The StreamElements catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: StreamElements API Rules
+  rule_count: 67
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 8
+  slug: streamelements-rules
 scopes:
 - name: Streamelements Scopes
   scope_count: 20
@@ -414,30 +431,30 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
+  composite: 46.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 56.2
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 49.5
+    contract_governance: 18.2
+    contract_quality: 61.5
+    developer_ergonomics: 37.5
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 24
     mcp: derived
     skills: derived
@@ -447,13 +464,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/streamelements/streamelements-2026-08-17T082134.png
 security:
 - kind: authentication

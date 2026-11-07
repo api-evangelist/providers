@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://monkeylearn.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.medallia.com/ — a different registrable domain (monkeylearn.com -> medallia.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for text analysis including sentiment analysis, keyword extraction, topic classification, and custom ML model training. Supports classifiers and extractors with Token-based authentication.
@@ -124,9 +126,9 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 17.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -137,18 +139,18 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 20.0
+    operational_transparency: 13.2
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

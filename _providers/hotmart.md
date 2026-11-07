@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -273,9 +274,9 @@ rate_limits:
   slug: hotmart-rate-limits
 score:
   band: developing
-  composite: 52.2
+  composite: 50.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -286,9 +287,9 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 66.1
-    discoverability: 70.0
-    operational_transparency: 76.3
+    developer_ergonomics: 61.3
+    discoverability: 78.6
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -296,7 +297,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 52.2
+  previous_composite: 50.7
   provenance:
     conformance: derived
     mcp: derived
@@ -307,8 +308,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

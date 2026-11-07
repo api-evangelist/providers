@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-31'
+  score: 31.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -81,7 +82,7 @@ apis:
   description: The WebSocket API from Matrixport — 1 operation(s) for websocket.
   name: Matrixport WebSocket API
   slug: matrixport-websocket-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: 'Public and private WebSocket streaming for the bit.com exchange. Channel names are taken verbatim from the official bitcom-python-umapi SDK (bit_ws_public.py / bit_ws_private.py). Clients connect and '
   name: bit.com (Matrixport) WebSocket streaming API
@@ -224,30 +225,43 @@ network: true
 overview: 'Matrixport publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Batch Orders API, Block Trade API, and 4 more. Tagged areas include Company, Crypto Finance, Cryptocurrency Exchange, Trading, and Derivatives.
 
 
-  The Matrixport catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Matrixport catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Matrixport''s developer surface includes engineering blog, documentation, API reference, changelog, authentication, and 17 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Matrixport API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: matrixport-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 31.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 48.6
     developer_ergonomics: 39.9
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 30.3
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,13 +278,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/matrixport/matrixport-2026-07-25T230424.png
 security:
 - kind: authentication
@@ -300,5 +313,9 @@ tags:
 - WebSocket
 - REST API
 - Real-Time
+- Fintech
+- Digital Assets
+- Cryptocurrency
+- Institutional
 website: https://www.bit.com
 ---

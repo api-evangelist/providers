@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 29.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,7 +72,7 @@ apis:
   description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
   name: CodaMetrix Summary API
   slug: codametrix-summary-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: CodaMetrix Status Components API
@@ -260,22 +261,38 @@ network: true
 overview: 'CodaMetrix publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, Healthcare, Health Systems, Medical Coding, and Autonomous Coding.
 
 
+  The CodaMetrix catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: CodaMetrix API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: codametrix-rules
 score:
-  band: thin
-  composite: 30.1
+  band: developing
+  composite: 40.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
+    catalog_gap: 58.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 26.3
-    contract_governance: 18.2
+    access_clarity: 71.4
+    contract_governance: 31.8
     contract_quality: 16.5
     developer_ergonomics: 37.5
     discoverability: 66.1
@@ -287,7 +304,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.1
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,13 +321,13 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/codametrix/codametrix-2026-08-07T163535.png
 security:
 - kind: authentication

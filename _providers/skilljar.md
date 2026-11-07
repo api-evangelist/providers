@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -436,7 +440,7 @@ apis:
   description: The Webhooks API from Skilljar — 13 operation(s) for webhooks.
   name: Skilljar Webhooks API
   slug: skilljar-webhooks-api
-artifact_total: 166
+artifact_total: 167
 asyncapis:
 - description: ''
   name: Skilljar Webhooks
@@ -838,7 +842,7 @@ network: true
 overview: 'Skilljar publishes 78 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Courses API, Courses > Labels API, and 75 more. Tagged areas include Company, Education, LMS, Customer Education, and Training.
 
 
-  The Skilljar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Skilljar catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -847,6 +851,19 @@ plans:
   plan_count: 6
   slug: skilljar-plans-pricing
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Skilljar API Rules
+  rule_count: 50
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 2
+    warn: 14
+  slug: skilljar-rules
 scopes:
 - name: Skilljar Scopes
   scope_count: 89
@@ -854,30 +871,30 @@ scopes:
   summary_line: 89 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.5
+  composite: 59.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.2
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 50.4
+    contract_governance: 18.2
+    contract_quality: 58.5
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 46.6
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 78
     mcp: derived
     skills: derived
@@ -887,13 +904,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/skilljar/skilljar-2026-08-17T081918.png
 security:
 - kind: authentication

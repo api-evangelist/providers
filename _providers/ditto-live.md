@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-31'
+  score: 29.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -289,23 +293,23 @@ rules:
   slug: ditto-live-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 37.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 51.7
     developer_ergonomics: 34.5
-    discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 36.5
+    discoverability: 60.0
+    operational_transparency: 26.3
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -320,13 +324,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/ditto-live/ditto-live-2026-06-20T180058.png
 security:
 - kind: authentication

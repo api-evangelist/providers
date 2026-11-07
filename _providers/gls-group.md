@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +24,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Group-wide shipping integration web service (version 3.4.19) exposed by the GLS ShipIT backend, documented publicly as Doxygen reference pages. Resource groups cover shipment processing (POST /backend
@@ -81,7 +91,7 @@ apis:
   description: The ShopReturn API from GLS Group — 1 operation(s) for shopreturn.
   name: GLS Group Shop Return API
   slug: gls-group-shopreturn-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: GLS.API (Version 1.0)
@@ -152,24 +162,40 @@ network: true
 overview: 'GLS Group publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Delivery API, Delivery Options API, and 8 more. Tagged areas include Logistics, Supply Chain, Netherlands, Parcel, and Shipping.
 
 
+  The GLS Group catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 7 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: GLS Group API Rules
+  rule_count: 43
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 2
+    warn: 3
+  slug: gls-group-rules
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 23.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 33.0
+    artifact_dirs: 8
+    catalog_earned: 37.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 77.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 0.0
+    access_clarity: 13.2
+    contract_governance: 13.6
     contract_quality: 42.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 23.8
     discoverability: 58.9
     operational_transparency: 7.9
   jurisdiction:
@@ -180,7 +206,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 30.3
+  previous_composite: 23.5
   provenance:
     contracts:
       callable: 100.0
@@ -192,14 +218,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 7.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 0.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/gls-group/gls-group-2026-08-07T165749.png
 slug: gls-group
 tags:

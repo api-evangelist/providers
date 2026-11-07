@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.5
-  scored_at: '2026-10-31'
+  score: 10.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Giant Swarm''s platform API is a Kubernetes API that operates on each customer management cluster, offering custom resources (Cluster API clusters, App Platform apps, catalogs, policies) to create and '
@@ -214,21 +230,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.6
+  composite: 27.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 31.6
+    developer_ergonomics: 42.9
+    discoverability: 68.3
+    operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,13 +261,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 34.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/giant-swarm/giant-swarm-2026-11-03T132816.png
 security:
 - kind: authentication
   name: Giant Swarm Authentication

@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-31'
+  score: 32.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -204,7 +205,7 @@ apis:
   description: Authenticated API for initiating asset transfers between trading accounts.
   name: Bullish Transfer API
   slug: bullish-transfer-api
-artifact_total: 73
+artifact_total: 74
 asyncapis:
 - description: 'The Auction Feed provides real-time auction data for markets with auctions enabled. Two topics are available: - `noii` - Net Order Imbalance Indicator (NOII) updates. Available during the Lockdown pha'
   name: Auction Feed
@@ -491,7 +492,7 @@ network: true
 overview: 'Bullish publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deprecated Features and APIs, WebSocket Multi-Order Book API, WebSocket Anonymous Trades API, and 29 more. Tagged areas include Digital Assets, Cryptocurrency, Exchange, Trading, and Derivatives.
 
 
-  The Bullish catalog on APIs.io includes 6 event-driven AsyncAPI specifications.
+  The Bullish catalog on APIs.io includes 6 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 33 more developer resources.'
@@ -500,24 +501,37 @@ rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits
   slug: bullish-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Bullish API Rules
+  rule_count: 63
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 3
+    warn: 15
+  slug: bullish-rules
 score:
   band: strong
   composite: 62.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
+    access_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 57.3
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 86.8
+    discoverability: 73.2
+    operational_transparency: 84.2
   previous_composite: 62.5
   provenance:
     agentic_access: derived
@@ -535,13 +549,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bullish/bullish-2026-08-17T080736.png
 security:
 - kind: authentication

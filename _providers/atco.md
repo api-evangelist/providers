@@ -1,14 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Anonymous, no signup (open grid data only)
-  onboarding: self-serve
-  pricing: free
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
   public: true
   source:
-  - documentation
+  - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +64,7 @@ arazzos:
 - description: Go from ATCO Electric's whole Alberta distribution grid to a small, mapped shortlist of the feeder segments with the most DER hosting capacity, without ever pulling all 880,623 features.
   name: ATCO Electric DER siting shortlist
   slug: atco-der-siting-shortlist
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -203,25 +208,41 @@ network: true
 overview: 'ATCO is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Query API and Service API. Tagged areas include Energy, Canada, Utilities, Electricity, and Gas.
 
 
+  The ATCO catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   ATCO''s developer surface includes authentication, support, product news, and 24 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: ATCO API Rules
+  rule_count: 48
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 1
+  slug: atco-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 28.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
+    access_clarity: 27.6
+    contract_governance: 18.2
     contract_quality: 16.0
     developer_ergonomics: 35.1
-    discoverability: 67.9
+    discoverability: 74.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -230,7 +251,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.3
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,13 +268,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/atco/atco-2026-08-07T161823.png
 security:
 - kind: authentication

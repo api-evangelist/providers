@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,18 +26,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-31'
+  score: 32.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -266,9 +267,9 @@ rules:
   slug: ebanx-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 34.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
@@ -280,14 +281,14 @@ score:
     contract_governance: 13.6
     contract_quality: 67.6
     developer_ergonomics: 31.0
-    discoverability: 62.5
+    discoverability: 65.0
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 35.2
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -302,13 +303,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ebanx/ebanx-2026-06-20T180446.png
 security:
 - kind: authentication

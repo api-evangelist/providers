@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  gated: private
+  gated_source:
+  - apis
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Cabela's offers an online storefront for hunting, fishing, camping, and outdoor gear, along with store locator, customer service, and loyalty program pages. No public developer API is currently docume
@@ -155,8 +161,8 @@ rate_limits:
   name: Cabelas Rate Limits
   slug: cabelas-rate-limits
 score:
-  band: minimal
-  composite: 10.7
+  band: emerging
+  composite: 11.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -170,17 +176,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

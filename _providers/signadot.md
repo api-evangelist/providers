@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,7 +77,7 @@ arazzos:
 - description: Create a sandbox, poll it until ready to read its preview endpoints, then delete it.
   name: Create and inspect a Signadot sandbox
   slug: signadot-create-and-inspect-sandbox
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Signadot Cluster API
@@ -253,6 +255,9 @@ network: true
 overview: 'Signadot publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Orgs API, ResourcePlugins API, and 2 more. Tagged areas include Company, Developer Tools, Kubernetes, Testing, and Ephemeral Environments.
 
 
+  The Signadot catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Signadot Plans Pricing
@@ -262,25 +267,38 @@ plans:
   plan_count: 0
   slug: signadot-price-estimates
 random_paper: 17
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Signadot API Rules
+  rule_count: 60
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 3
+    warn: 4
+  slug: signadot-rules
 score:
   band: strong
-  composite: 61.4
+  composite: 65.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 50.8
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 53.5
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,13 +315,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/signadot/signadot-2026-08-17T081851.png
 security:
 - kind: authentication

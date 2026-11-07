@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-31'
+  score: 28.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://partner-subdomain.embed.unmade.com
@@ -70,7 +71,7 @@ apis:
   description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
   name: Unmade Editor API
   slug: unmade-unmade-editor-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Unmade Integration Reference Design API API
@@ -197,31 +198,47 @@ network: true
 overview: 'Unmade publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Design API, Ecommerce Orders API, Factory API, and 3 more. Tagged areas include Fashion, Apparel, Manufacturing, Customization, and E-Commerce.
 
 
+  The Unmade catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Unmade''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Unmade Rate Limits
   slug: unmade-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Unmade API Rules
+  rule_count: 49
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 3
+    warn: 4
+  slug: unmade-rules
 score:
   band: emerging
-  composite: 22.8
+  composite: 24.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 12.6
     developer_ergonomics: 44.6
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 22.8
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 24.1
   provenance:
     conformance: derived
     contracts:
@@ -237,13 +254,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/unmade/unmade-2026-09-02T164940.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -80,7 +84,7 @@ apis:
   description: Wallet balance and fiat withdrawal management.
   name: Prestmit Wallet API
   slug: prestmit-wallet-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Prestmit Partner Bank Accounts API
@@ -205,6 +209,9 @@ network: true
 overview: 'Prestmit publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, General API, Gift Cards - Buy API, and 4 more. Tagged areas include Bills, Cryptocurrency, Fintech, Gift Cards, and Payments.
 
 
+  The Prestmit catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Prestmit''s developer surface includes authentication, developer portal, documentation, sandbox, signup flow, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Prestmit Plans Pricing
@@ -215,25 +222,38 @@ rate_limits:
 - limit_count: 5
   name: Prestmit Rate Limits
   slug: prestmit-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Prestmit API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: prestmit-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 29.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 38.0
+    artifact_dirs: 15
+    catalog_earned: 42.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
+    access_clarity: 14.5
+    contract_governance: 13.6
     contract_quality: 45.3
-    developer_ergonomics: 45.2
+    developer_ergonomics: 39.3
     discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 36.0
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -246,14 +266,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 17.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 10.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/prestmit/prestmit-2026-06-20T192051.png
 security:
 - kind: authentication

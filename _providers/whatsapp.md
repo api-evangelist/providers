@@ -1,42 +1,48 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
+    idempotency: documented
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-31'
+  score: 48.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,7 +50,7 @@ agentic_access:
   operation_count: 43
   slug: whatsapp-agentic-access
   summary_line: 43 operations · 27 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://graph.facebook.com/v21.0
   baseurl_source: declared
@@ -129,6 +135,291 @@ apis:
   description: Manage two-step verification PIN
   name: WhatsApp Two-Step Verification API
   slug: whatsapp-two-step-verification-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing application connected client business relationships
+  name: WhatsApp Application Business Connections API
+  slug: whatsapp-application-business-connections-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing assigned WhatsApp Business Accounts for users
+  name: WhatsApp Assigned WhatsApp Business Accounts API
+  slug: whatsapp-assigned-whatsapp-business-accounts-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Billing API from WhatsApp — 1 operation(s) for billing.
+  name: WhatsApp Billing API
+  slug: whatsapp-billing-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Block Users API from WhatsApp — 1 operation(s) for block users.
+  name: WhatsApp Block Users API
+  slug: whatsapp-block-users-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Account compliance information
+  name: WhatsApp Business Compliance API
+  slug: whatsapp-business-compliance-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Account encryption configuration
+  name: WhatsApp Business Encryption API
+  slug: whatsapp-business-encryption-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing phone numbers in WhatsApp Business Accounts
+  name: WhatsApp Business Phone Numbers API
+  slug: whatsapp-business-phone-numbers-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Business Portfolio API from WhatsApp — 1 operation(s) for business portfolio.
+  name: WhatsApp Business Portfolio API
+  slug: whatsapp-business-portfolio-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: 'Use the **`/{Phone-Number-ID}/call_permissions`** endpoint to check whether you have permission to call a specific WhatsApp user and understand what calling-related actions are available. ## Prerequis'
+  name: WhatsApp Call Permissions API
+  slug: whatsapp-call-permissions-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: Use the **`/{Phone-Number-ID}/calls`** endpoint to initiate, manage, and terminate WhatsApp calls. This API allows businesses to handle voice calling functionality through the WhatsApp Business Platfo
+  name: WhatsApp Calls API
+  slug: whatsapp-calls-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing client WhatsApp Business Account relationships
+  name: WhatsApp Client WhatsApp Business Accounts API
+  slug: whatsapp-client-whatsapp-business-accounts-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Commerce Settings API from WhatsApp — 1 operation(s) for commerce settings.
+  name: WhatsApp Commerce Settings API
+  slug: whatsapp-commerce-settings-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing conversational automation settings and bot configurations
+  name: WhatsApp Conversational Automation API
+  slug: whatsapp-conversational-automation-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Create Flow API from WhatsApp — 2 operation(s) for create flow.
+  name: WhatsApp Create Flow API
+  slug: whatsapp-create-flow-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: Payload encryption provides an additional layer of security on top of existing standard TLS/SSL that secures communication between Cloud API and businesses. When enabled, all message requests and mess
+  name: WhatsApp Encrypted Messages API
+  slug: whatsapp-encrypted-messages-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Get Endpoint Metrics API from WhatsApp — 1 operation(s) for get endpoint metrics.
+  name: WhatsApp Get Endpoint Metrics API
+  slug: whatsapp-get-endpoint-metrics-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Groups API from WhatsApp — 1 operation(s) for groups.
+  name: WhatsApp Groups API
+  slug: whatsapp-groups-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving and deleting individual WhatsApp Business message QR codes
+  name: WhatsApp Individual QR Code API
+  slug: whatsapp-individual-qr-code-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Invite Link API from WhatsApp — 1 operation(s) for invite link.
+  name: WhatsApp Invite Link API
+  slug: whatsapp-invite-link-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Join Requests API from WhatsApp — 1 operation(s) for join requests.
+  name: WhatsApp Join Requests API
+  slug: whatsapp-join-requests-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: Send marketing template messages to WhatsApp users using pre-approved templates.
+  name: WhatsApp Marketing Messages API
+  slug: whatsapp-marketing-messages-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Account message history and delivery status information
+  name: WhatsApp Message History API
+  slug: whatsapp-message-history-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Message History Events and delivery status occurrences
+  name: WhatsApp Message History Events API
+  slug: whatsapp-message-history-events-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Meta Graph API Application Connected Client Businesses API from WhatsApp — 1 operation(s) for meta graph api application connected client businesses.
+  name: WhatsApp Meta Graph API Application Connected Client Businesses API
+  slug: whatsapp-meta-graph-api-application-connected-client-businesses-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Account migration intent details
+  name: WhatsApp Migration Intent API
+  slug: whatsapp-migration-intent-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing Multi-Partner MM Lite onboarding requests and business agreements
+  name: WhatsApp MM Lite Onboarding API
+  slug: whatsapp-mm-lite-onboarding-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing Multi-Partner Solutions that enable collaborative WhatsApp Business messaging between solution owners and partner applications.
+  name: WhatsApp Multi-Partner Solutions API
+  slug: whatsapp-multi-partner-solutions-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing On-Behalf-Of mobility intent operations for WhatsApp Business Accounts
+  name: WhatsApp OBO Mobility Intent API
+  slug: whatsapp-obo-mobility-intent-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing Official Business Account status and verification
+  name: WhatsApp Official Business Account API
+  slug: whatsapp-official-business-account-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Accounts owned by a business
+  name: WhatsApp Owned WhatsApp Business Accounts API
+  slug: whatsapp-owned-whatsapp-business-accounts-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Participants API from WhatsApp — 1 operation(s) for participants.
+  name: WhatsApp Participants API
+  slug: whatsapp-participants-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business phone number registration and deregistration
+  name: WhatsApp Phone Number Management API
+  slug: whatsapp-phone-number-management-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for registering and managing WhatsApp Business phone numbers
+  name: WhatsApp Phone Number Registration API
+  slug: whatsapp-phone-number-registration-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for WhatsApp Business phone number verification process
+  name: WhatsApp Phone Number Verification API
+  slug: whatsapp-phone-number-verification-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing partner businesses associated with pre-verified phone numbers
+  name: WhatsApp Pre-Verified Phone Number Partners API
+  slug: whatsapp-pre-verified-phone-number-partners-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for sharing pre-verified phone numbers between business entities
+  name: WhatsApp Pre-Verified Phone Number Sharing API
+  slug: whatsapp-pre-verified-phone-number-sharing-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing pre-verified phone numbers for WhatsApp Business messaging
+  name: WhatsApp Pre-Verified Phone Numbers API
+  slug: whatsapp-pre-verified-phone-numbers-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for listing and creating WhatsApp Business message QR codes
+  name: WhatsApp QR Code Collection API
+  slug: whatsapp-qr-code-collection-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Account schedules and scheduling configurations
+  name: WhatsApp Schedule Management API
+  slug: whatsapp-schedule-management-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Send Flow API from WhatsApp — 1 operation(s) for send flow.
+  name: WhatsApp Send Flow API
+  slug: whatsapp-send-flow-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Settings API from WhatsApp — 1 operation(s) for settings.
+  name: WhatsApp Settings API
+  slug: whatsapp-settings-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Setup Endpoint Encryption API from WhatsApp — 1 operation(s) for setup endpoint encryption.
+  name: WhatsApp Setup Endpoint Encryption API
+  slug: whatsapp-setup-endpoint-encryption-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing Multi-Partner Solution migration processes
+  name: WhatsApp Solution Migration API
+  slug: whatsapp-solution-migration-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Templates API from WhatsApp — 2 operation(s) for templates.
+  name: WhatsApp Templates API
+  slug: whatsapp-templates-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Update Flow API from WhatsApp — 4 operation(s) for update flow.
+  name: WhatsApp Update Flow API
+  slug: whatsapp-update-flow-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Account webhook subscriptions
+  name: WhatsApp Webhook Subscriptions API
+  slug: whatsapp-webhook-subscriptions-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Account Number details and configuration
+  name: WhatsApp WhatsApp Account Numbers API
+  slug: whatsapp-whatsapp-account-numbers-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for retrieving WhatsApp Business Account activity logs and audit trails
+  name: WhatsApp WhatsApp Business Account Activities API
+  slug: whatsapp-whatsapp-business-account-activities-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Account details and configuration
+  name: WhatsApp WhatsApp Business Account API
+  slug: whatsapp-whatsapp-business-account-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Account on-behalf requests and business relationships
+  name: WhatsApp WhatsApp Business Account On-Behalf Requests API
+  slug: whatsapp-whatsapp-business-account-on-behalf-requests-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing user assignments and permissions for WhatsApp Business Accounts
+  name: WhatsApp WhatsApp Business Account Users API
+  slug: whatsapp-whatsapp-business-account-users-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: WhatsApp Business Platform APIs for messaging, account management, and partner integrations.
+  name: WhatsApp WhatsApp Business API
+  slug: whatsapp-whatsapp-business-api-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Bot configuration and details
+  name: WhatsApp WhatsApp Business Bot API
+  slug: whatsapp-whatsapp-business-bot-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Profile information and settings
+  name: WhatsApp WhatsApp Business Profile API
+  slug: whatsapp-whatsapp-business-profile-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: APIs for managing WhatsApp Business Profile details and configuration
+  name: WhatsApp WhatsApp Business Profiles API
+  slug: whatsapp-whatsapp-business-profiles-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: Operations for managing WhatsApp Business Multi-Partner Solutions including lifecycle management, status transitions, and partnership workflows.
+  name: WhatsApp WhatsApp Business Solution Management API
+  slug: whatsapp-whatsapp-business-solution-management-api
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Whats App API from WhatsApp — 1 operation(s) for whats app.
+  name: WhatsApp Whats App API
+  slug: whatsapp-whats-app-api
 arazzos:
 - description: Create a click-to-chat QR code and read back its deep link and image URLs.
   name: WhatsApp Create and Retrieve QR Code
@@ -172,7 +463,7 @@ arazzos:
 - description: Upload an image to WhatsApp servers and send it to a recipient by media ID.
   name: WhatsApp Upload Media and Send Image Message
   slug: whatsapp-upload-media-send-image-workflow
-artifact_total: 193
+artifact_total: 245
 asyncapis:
 - description: 'WhatsApp Business Platform webhooks deliver real-time notifications for incoming messages, message status updates, template status changes, account updates, phone number quality changes, and security '
   name: WhatsApp Webhooks
@@ -242,6 +533,161 @@ collections:
   name: WhatsApp Business Management Analytics Two-Step Verification API
   slug: open-whatsapp-two-step-verification-api
 common:
+- group: operate
+  href: https://artifacts.apis.io/whatsapp/rate-limits/whatsapp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/whatsapp-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/rules/whatsapp-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/whatsapp-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/rules/whatsapp-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/whatsapp-rules.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/rules/whatsapp-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/whatsapp-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/rules/whatsapp-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/whatsapp-asyncapi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/vocabulary/whatsapp-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/whatsapp-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/whatsapp/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/asyncapi/whatsapp-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/whatsapp-webhooks-asyncapi.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/data-model/whatsapp-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/whatsapp-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/components/whatsapp-components.yml
+  title: ''
+  type: Components
+  url: components/whatsapp-components.yml
+- group: operate
+  href: https://artifacts.apis.io/whatsapp/changelog/whatsapp-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/whatsapp-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/conventions/whatsapp-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/whatsapp-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/conventions/whatsapp-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/whatsapp-conventions.yml
+- group: auth
+  href: https://artifacts.apis.io/whatsapp/scopes/whatsapp-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/whatsapp-scopes.yml
+- group: operate
+  href: https://artifacts.apis.io/whatsapp/lifecycle/whatsapp-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/whatsapp-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/lifecycle/whatsapp-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/whatsapp-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/errors/whatsapp-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/whatsapp-error-codes.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/errors/whatsapp-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/whatsapp-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/whatsapp/conformance/whatsapp-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/whatsapp-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/whatsapp/overlays/whatsapp-analytics-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/whatsapp-analytics-api-overlay.yaml
+- group: agent
+  href: https://artifacts.apis.io/whatsapp/llms/whatsapp-reference-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/whatsapp-reference-llms.txt
+- group: build
+  href: https://artifacts.apis.io/whatsapp/mcp/whatsapp-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/whatsapp-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/whatsapp/mcp/whatsapp-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/whatsapp-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/whatsapp/well-known/whatsapp-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/whatsapp-security.txt
+- group: agent
+  href: https://artifacts.apis.io/whatsapp/well-known/whatsapp-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/whatsapp-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/whatsapp/hosts/whatsapp-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/whatsapp-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/whatsapp/integrations/whatsapp-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/whatsapp-integration-edges.yml
+- group: build
+  href: https://artifacts.apis.io/whatsapp/packages/whatsapp-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/whatsapp-packages.yml
+- group: build
+  href: https://artifacts.apis.io/whatsapp/packages/whatsapp-packages.yml
+  title: ''
+  type: Packages
+  url: packages/whatsapp-packages.yml
+- group: auth
+  href: https://artifacts.apis.io/whatsapp/security/whatsapp-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/whatsapp-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/whatsapp/security/whatsapp-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/whatsapp-domain-security.yml
 - group: other
   href: https://artifacts.apis.io/whatsapp/capabilities/whatsapp-capability-edges.yml
   title: ''
@@ -369,10 +815,6 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.whatsapp.com/legal/privacy-policy-eea
-- group: other
-  title: ''
-  type: Commerce Policy
-  url: https://www.whatsapp.com/legal/commerce-policy
 - group: start
   title: ''
   type: DeveloperPortal
@@ -380,19 +822,15 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/get-started
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started
 - group: auth
   title: ''
   type: Authentication
-  url: https://developers.facebook.com/docs/whatsapp/business-management-api/get-started
-- group: other
-  title: ''
-  type: Best Practices
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/best-practices
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/changelog
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog
 - group: operate
   title: ''
   type: StatusPage
@@ -400,7 +838,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://business.whatsapp.com/blog
+  url: https://whatsappbusiness.com/blog/
 - group: operate
   title: ''
   type: Support
@@ -416,7 +854,7 @@ common:
 - group: operate
   title: ''
   type: Community
-  url: https://business.whatsapp.com/developers/developer-hub
+  url: https://whatsappbusiness.com/developers/developer-hub/
 - group: operate
   title: ''
   type: StackOverflow
@@ -432,7 +870,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://business.whatsapp.com/products/platform-pricing
+  url: https://whatsappbusiness.com/products/platform-pricing/
 - group: design
   href: https://artifacts.apis.io/whatsapp/json-ld/whatsapp-context.jsonld
   title: ''
@@ -454,37 +892,85 @@ common:
 - group: other
   title: ''
   type: Business Messaging Policy
-  url: https://business.whatsapp.com/policy
+  url: https://whatsappbusiness.com/policy/
 - group: commercial
   title: ''
   type: Meta Terms
-  url: https://www.whatsapp.com/legal/meta-terms-whatsapp-business
+  url: https://www.facebook.com/legal/Meta-Terms-for-WhatsApp-Business-Platform
 - group: operate
   title: ''
   type: FAQ
-  url: https://business.whatsapp.com/resources/faq
+  url: https://whatsappbusiness.com/resources/faq/
 - group: start
   title: ''
   type: Sandbox
-  url: https://business.whatsapp.com/developers/developer-hub
+  url: https://whatsappbusiness.com/developers/developer-hub/
 - group: design
   title: ''
   type: Versioning
   url: https://developers.facebook.com/docs/graph-api/guides/versioning
-- group: docs
-  title: ''
-  type: Migration Guide
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/migrate-to-cloud-api
 - group: operate
   title: ''
   type: RateLimits
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/overview#throughput
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform#throughput
 - group: design
   title: ''
   type: ErrorCodes
-  url: https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/support/error-codes
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/whatsapp-business-phone-number/message-api
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developers.facebook.com/products/whatsapp/onboard/direct
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://faq.whatsapp.com/
+- group: operate
+  title: ''
+  type: Forum
+  url: https://developers.facebook.com/community
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/messaging-limits
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/support/api-status-page
+- group: auth
+  title: ''
+  type: SecurityAdvisories
+  url: https://www.whatsapp.com/security/advisories
+- group: auth
+  title: ''
+  type: TrustAndSafety
+  url: https://whatsappbusiness.com/trust-and-safety/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.whatsapp.com/
+- group: commercial
+  title: ''
+  type: Legal
+  url: https://www.whatsapp.com/legal/
+- group: company
+  title: ''
+  type: Website
+  url: https://whatsappbusiness.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.facebook.com/documentation/business-messaging/whatsapp/support
 created: '2024-01-15'
-description: APIs for the WhatsApp messaging platform, enabling businesses to communicate with customers through the world's most popular messaging app.
+description: 'WhatsApp, owned by Meta Platforms, is a free, end-to-end encrypted messaging and calling app used by more than two billion people. For developers it offers the WhatsApp Business Platform: the Cloud API (hosted on Meta''s Graph API at graph.facebook.com) for sending and receiving messages, media, interactive and template messages, plus the Business Management API, WhatsApp Flows, webhooks, and per-conversation pricing. The self-hosted On-Premises API was sunset on October 23, 2025.'
 examples:
 - key_count: 1
   name: Whatsapp Business Management Api Conversation Analytics Example
@@ -591,27 +1077,6 @@ examples:
 - key_count: 2
   name: Whatsapp Webhook Payload Example
   slug: whatsapp-webhook-payload-example
-features:
-- description: Send and receive messages, media, and interactive content through Meta-hosted WhatsApp infrastructure.
-  name: Cloud API
-- description: Pre-approved message templates for proactive customer communication with variable substitution.
-  name: Message Templates
-- description: Buttons, lists, product catalogs, and flows for rich customer engagement.
-  name: Interactive Messages
-- description: Send and receive images, videos, documents, audio, stickers, and location data.
-  name: Media Messaging
-- description: Real-time notifications for incoming messages, delivery status, and account events.
-  name: Webhooks
-- description: Manage WhatsApp Business accounts, phone numbers, and messaging limits.
-  name: Business Management API
-- description: Build interactive multi-step forms and workflows within WhatsApp conversations.
-  name: Flows
-- description: Share product catalogs and enable in-chat commerce experiences.
-  name: Catalogs and Commerce
-- description: End-to-end encryption for all messages and media.
-  name: Encryption
-- description: Route conversations to multiple agents with conversation assignment.
-  name: Multi-Agent Support
 finops:
 - has_sources: true
   method: derived
@@ -621,17 +1086,6 @@ finops:
   slug: whatsapp-finops
   template: false
 image: /assets/icons/whatsapp.png
-integrations:
-- description: Manage WhatsApp alongside Facebook and Instagram from a unified dashboard.
-  name: Meta Business Suite
-- description: CRM integration for managing customer conversations and contact history.
-  name: Salesforce
-- description: E-commerce integration for order notifications and customer messaging.
-  name: Shopify
-- description: Marketing and sales integration for lead nurturing via WhatsApp.
-  name: HubSpot
-- description: Help desk integration for ticketed WhatsApp customer support.
-  name: Zendesk
 json_schemas:
 - name: ConversationAnalytics
   property_count: 1
@@ -663,6 +1117,12 @@ json_schemas:
 - name: WhatsAppBusinessAccount
   property_count: 11
   slug: whatsapp-business-management-api-whats-app-business-account
+- name: CallPermissionCheckResponsePayload
+  property_count: 3
+  slug: whatsapp-call-permission-check-response-payload
+- name: CallRequestPayload
+  property_count: 5
+  slug: whatsapp-call-request-payload
 - name: AudioObject
   property_count: 2
   slug: whatsapp-cloud-api-audio-object
@@ -735,9 +1195,21 @@ json_schemas:
 - name: WhatsApp Message Template
   property_count: 5
   slug: whatsapp-message-template
+- name: PhoneNumberInfo
+  property_count: 6
+  slug: whatsapp-phone-number-info
 - name: WhatsApp Webhook Payload
   property_count: 2
   slug: whatsapp-webhook-payload
+- name: WhatsAppAccountNumber
+  property_count: 13
+  slug: whatsapp-whats-app-account-number
+- name: WhatsAppBusinessAccount
+  property_count: 17
+  slug: whatsapp-whats-app-business-account
+- name: WhatsAppBusinessProfileNode
+  property_count: 11
+  slug: whatsapp-whats-app-business-profile-node
 json_structures:
 - name: Whatsapp Business Management Api Conversation Analytics Structure
   property_count: 1
@@ -850,24 +1322,28 @@ jsonld:
   property_count: 109
   slug: whatsapp-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: Remote MCP server at mcp.facebook.com over streamable HTTP requiring OAuth; 18 tools listed.
+  name: WhatsApp Business Tools
+  slug: whatsapp-business-tools
+modified: '2026-11-05'
 name: WhatsApp
 nav: Providers
 network: true
-overview: 'WhatsApp publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 14 more. Tagged areas include Messaging, Analytics, WhatsApp, Business Messaging, and Meta.
+overview: 'WhatsApp publishes 74 API contracts indexed on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 71 more. Tagged areas include Messaging, Analytics, WhatsApp, Business Messaging, and Meta.
 
 
-  The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
 
 
-  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 48 more developer resources.'
+  WhatsApp''s developer surface includes changelog, authentication, getting-started guide, engineering blog, support, developer console, Stack Overflow tag, and 89 more developer resources.'
 plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 6
+- limit_count: 9
   name: Whatsapp Rate Limits
   slug: whatsapp-rate-limits
 rules:
@@ -895,6 +1371,18 @@ rules:
     warn: 5
   slug: whatsapp-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: WhatsApp API Rules
+  rule_count: 71
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 6
+    warn: 19
+  slug: whatsapp-rules
+- authorship: generated
   effective_rule_count: 63
   extends:
   - spectral:oas
@@ -906,81 +1394,97 @@ rules:
     info: 1
     warn: 8
   slug: whatsapp-spectral-rules
+scopes:
+- name: Whatsapp Scopes
+  scope_count: 5
+  slug: whatsapp-scopes
+  summary_line: 5 scopes
 score:
-  band: strong
-  composite: 61.2
+  band: exemplar
+  composite: 68.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 65.5
-    catalog_earned_first_party: 8.0
-    catalog_gap: 49.5
+    artifact_dirs: 43
+    catalog_earned: 87.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 12.6
   facets:
-    access_clarity: 60.5
-    contract_governance: 13.6
-    contract_quality: 71.0
-    developer_ergonomics: 76.2
-    discoverability: 48.2
-    operational_transparency: 63.2
-  previous_composite: 59.6
+    access_clarity: 73.7
+    contract_governance: 31.8
+    contract_quality: 74.0
+    developer_ergonomics: 78.0
+    discoverability: 61.7
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 73
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 40.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/whatsapp/whatsapp-2026-06-20T201434.png
 security:
 - kind: authentication
   name: Whatsapp Authentication
   slug: whatsapp-authentication
   summary_line: http · 1 scheme
+- kind: domain-security
+  name: Whatsapp Domain Security
+  slug: whatsapp-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Whatsapp Vulnerability Disclosure
+  slug: whatsapp-vulnerability-disclosure
+  summary_line: security.txt · contact published
+skill_count: 10
+skills:
+- name: whatsapp-create-qr-code
+  slug: whatsapp-create-qr-code
+- name: whatsapp-create-template-then-send
+  slug: whatsapp-create-template-then-send
+- name: whatsapp-publish-flow-and-send
+  slug: whatsapp-publish-flow-and-send
+- name: whatsapp-register-phone-number
+  slug: whatsapp-register-phone-number
+- name: whatsapp-reply-and-mark-read
+  slug: whatsapp-reply-and-mark-read
+- name: whatsapp-send-template-message
+  slug: whatsapp-send-template-message
+- name: whatsapp-subscribe-webhooks
+  slug: whatsapp-subscribe-webhooks
+- name: whatsapp-update-business-profile
+  slug: whatsapp-update-business-profile
+- name: whatsapp-upload-media-send-document
+  slug: whatsapp-upload-media-send-document
+- name: whatsapp-upload-media-send-image
+  slug: whatsapp-upload-media-send-image
 slug: whatsapp
-solutions:
-- description: Cloud API and On-Premises API for medium and large businesses at scale.
-  name: WhatsApp Business Platform
-- description: Free mobile app for small businesses with basic messaging features.
-  name: WhatsApp Business App
-- description: Interactive forms and workflows within WhatsApp conversations.
-  name: WhatsApp Flows
 tags:
 - Messaging
 - Analytics
 - WhatsApp
 - Business Messaging
 - Meta
-use_cases:
-- description: Provide real-time customer service and support through WhatsApp messaging.
-  name: Customer Support
-- description: Send order confirmations, shipping updates, and delivery notifications.
-  name: Order Notifications
-- description: Send appointment reminders and allow rescheduling via interactive messages.
-  name: Appointment Reminders
-- description: Send promotional messages using approved templates to opted-in customers.
-  name: Marketing Campaigns
-- description: Send OTP codes and verification messages for account security.
-  name: Two-Factor Authentication
-- description: Build automated conversational bots for FAQs and self-service workflows.
-  name: Chatbot Integration
-- description: Share product catalogs, process orders, and send payment reminders.
-  name: E-commerce
-- description: Send appointment reminders, test results, and health tips to patients.
-  name: Healthcare Communication
 website: https://www.whatsapp.com/
 ---

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.scryfall.com
@@ -455,9 +460,9 @@ rules:
   slug: scryfall-rules
 score:
   band: developing
-  composite: 51.7
+  composite: 48.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 63.8
     catalog_earned_first_party: 0.0
     catalog_gap: 51.3
@@ -470,8 +475,11 @@ score:
     contract_quality: 56.6
     developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 51.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 48.3
   provenance:
     contracts:
       callable: 100.0
@@ -484,13 +492,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/scryfall/scryfall-2026-06-20T193609.png
 security:
 - kind: domain-security

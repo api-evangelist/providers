@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,18 +30,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.8
-  scored_at: '2026-10-31'
+  score: 52.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -832,9 +837,9 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
+  composite: 61.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -844,9 +849,9 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 63.5
+    contract_quality: 65.6
     developer_ergonomics: 82.1
-    discoverability: 62.5
+    discoverability: 65.0
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -856,7 +861,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 61.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -871,13 +876,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/salla/salla-2026-06-20T193358.png
 security:
 - kind: authentication

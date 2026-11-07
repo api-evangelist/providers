@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -453,9 +454,9 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.7
+  composite: 55.0
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 69.0
     catalog_earned_first_party: 12.0
     catalog_gap: 46.0
@@ -468,7 +469,7 @@ score:
     contract_quality: 62.9
     developer_ergonomics: 35.1
     discoverability: 57.1
-    operational_transparency: 76.3
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -476,7 +477,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 56.7
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -493,13 +494,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/red-energy/red-energy-2026-10-11T193404.png
 security:
 - kind: authentication

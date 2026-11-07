@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Machine-to-machine REST API for ingesting Product Detail Pages (by Amazon ASIN or by caller-supplied id), submitting standalone images for asynchronous Visual AI scoring, retrieving PDP and image scor
@@ -206,9 +207,9 @@ rate_limits:
   slug: vizit-rate-limits
 score:
   band: thin
-  composite: 35.9
+  composite: 35.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -220,8 +221,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 67.9
-    operational_transparency: 47.4
+    discoverability: 74.1
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -229,7 +230,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.9
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -240,8 +241,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

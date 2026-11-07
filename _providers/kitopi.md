@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Model Context Protocol endpoint that Kitopi''s Wix-hosted website exposes for agentic AI access. It is a platform-provided (Wix) site assistant server rather than a Kitopi product API: it lets an a'
@@ -180,9 +181,9 @@ overview: 'Kitopi is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,7 +195,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 68.3
+    discoverability: 76.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -204,7 +205,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 20.7
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -215,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

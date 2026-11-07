@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-31'
+  score: 23.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Nowlun freight-forwarding capabilities to agents. Requires an access token holding the "mcp" scope.
@@ -116,9 +122,9 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.6
+  composite: 16.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -130,14 +136,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 16.6
+  previous_composite: 16.9
   provenance:
     mcp: first-party
   regulatory:
@@ -146,8 +152,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

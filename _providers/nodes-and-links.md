@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Production API for the Nodes & Links project-controls platform, served from AWS API Gateway with OAuth bearer-token authentication. The full API reference is served inside the authenticated developer '
@@ -128,9 +133,9 @@ overview: 'Nodes and Links is listed with 1 API on the [APIs.io](https://apis.io
 random_paper: 15
 score:
   band: thin
-  composite: 31.5
+  composite: 26.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -141,10 +146,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 31.5
+    developer_ergonomics: 14.3
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 26.6
   provenance:
     conformance: first-party
   regulatory:
@@ -153,8 +158,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

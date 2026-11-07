@@ -18,23 +18,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-31'
+  score: 15.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL_template: https://{node}
@@ -52,7 +53,7 @@ apis:
   description: On-chain redemption rate feeds.
   name: Accountable Redemption API
   slug: accountable-redemption-api
-artifact_total: 6
+artifact_total: 7
 collections:
 - collection_type: open
   name: Accountable / Proof of Reserves Feeds NAV API
@@ -80,27 +81,43 @@ modified: '2026-10-06'
 name: Accountable
 nav: Providers
 network: true
-overview: 'Accountable publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Cryptocurrency.'
+overview: 'Accountable publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Cryptocurrency.
+
+
+  The Accountable catalog on APIs.io includes 1 Spectral governance ruleset.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 84
+  extends:
+  - spectral:oas
+  name: Accountable API Rules
+  rule_count: 43
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 1
+  slug: accountable-rules
 score:
   band: minimal
-  composite: 4.6
+  composite: 6.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 22.0
+    artifact_dirs: 21
+    catalog_earned: 26.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
-    catalog_max: 115.0
+    catalog_gap: 73.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 11.6
     developer_ergonomics: 0.0
-    discoverability: 39.3
+    discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 4.6
+  previous_composite: 6.9
   provenance:
     contracts:
       callable: 0.0
@@ -113,13 +130,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/accountable/accountable-2026-10-11T092725.png
 slug: accountable
 tags:

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,8 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,19 +29,20 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: derived
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-31'
+  score: 32.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -853,7 +859,7 @@ arazzos:
 - description: Search for an asset, read its entity, then walk its lineage graph with pagination.
   name: Microsoft Purview Trace Data Asset Lineage
   slug: microsoft-purview-trace-asset-lineage-workflow
-artifact_total: 278
+artifact_total: 359
 collections:
 - collection_type: postman
   name: Microsoft Purview Account API
@@ -1057,6 +1063,52 @@ collections:
   name: Microsoft Purview Account Accounts Workflows API
   slug: open-microsoft-purview-workflows-api
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: design
+  href: https://artifacts.apis.io/microsoft-purview/rules/microsoft-purview-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-purview-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-purview/rules/microsoft-purview-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-purview-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-purview/vocabulary/microsoft-purview-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-purview-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-purview/conventions/microsoft-purview-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/microsoft-purview-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-support
+- group: other
+  href: https://artifacts.apis.io/microsoft-purview/hosts/microsoft-purview-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-purview-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-purview/vendors/microsoft-purview-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-purview-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/en-us/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
 - group: operate
   href: https://artifacts.apis.io/microsoft-purview/rate-limits/microsoft-purview-rate-limits.yml
   title: ''
@@ -1318,10 +1370,6 @@ common:
   title: ''
   type: Documentation
   url: https://learn.microsoft.com/en-us/purview/
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://learn.microsoft.com/en-us/purview/use-azure-purview-studio
 - group: auth
   title: ''
   type: Authentication
@@ -1401,10 +1449,19 @@ image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sit
 json_schemas:
 - name: AccessKeys
   property_count: 2
+  slug: microsoft-purview-access-keys
+- name: AccessKeys
+  property_count: 2
   slug: microsoft-purview-accesskeys
+- name: AccountList
+  property_count: 3
+  slug: microsoft-purview-account-list
 - name: Microsoft Purview Account
   property_count: 8
   slug: microsoft-purview-account
+- name: AccountUpdateParameters
+  property_count: 3
+  slug: microsoft-purview-account-update-parameters
 - name: AccountEndpoints
   property_count: 3
   slug: microsoft-purview-accountendpoints
@@ -1420,6 +1477,54 @@ json_schemas:
 - name: AccountUpdateParameters
   property_count: 3
   slug: microsoft-purview-accountupdateparameters
+- name: AtlasClassification
+  property_count: 8
+  slug: microsoft-purview-atlas-classification
+- name: AtlasClassifications
+  property_count: 6
+  slug: microsoft-purview-atlas-classifications
+- name: AtlasEntitiesWithExtInfo
+  property_count: 2
+  slug: microsoft-purview-atlas-entities-with-ext-info
+- name: AtlasEntityHeader_2
+  property_count: 7
+  slug: microsoft-purview-atlas-entity-header-2
+- name: AtlasEntityWithExtInfo
+  property_count: 2
+  slug: microsoft-purview-atlas-entity-with-ext-info
+- name: AtlasGlossaryCategory
+  property_count: 9
+  slug: microsoft-purview-atlas-glossary-category
+- name: AtlasGlossary
+  property_count: 9
+  slug: microsoft-purview-atlas-glossary
+- name: AtlasGlossaryTerm
+  property_count: 13
+  slug: microsoft-purview-atlas-glossary-term
+- name: AtlasLineageInfo_2
+  property_count: 5
+  slug: microsoft-purview-atlas-lineage-info-2
+- name: AtlasLineageInfo
+  property_count: 8
+  slug: microsoft-purview-atlas-lineage-info
+- name: AtlasRelatedObjectId
+  property_count: 8
+  slug: microsoft-purview-atlas-related-object-id
+- name: AtlasRelationship
+  property_count: 15
+  slug: microsoft-purview-atlas-relationship
+- name: AtlasRelationshipWithExtInfo
+  property_count: 2
+  slug: microsoft-purview-atlas-relationship-with-ext-info
+- name: AtlasTypeDefHeader
+  property_count: 3
+  slug: microsoft-purview-atlas-type-def-header
+- name: AtlasTypeDef
+  property_count: 13
+  slug: microsoft-purview-atlas-type-def
+- name: AtlasTypesDef
+  property_count: 7
+  slug: microsoft-purview-atlas-types-def
 - name: AtlasClassification
   property_count: 8
   slug: microsoft-purview-atlasclassification
@@ -1500,6 +1605,12 @@ json_schemas:
   slug: microsoft-purview-authoritytemplate
 - name: AutoCompleteRequest
   property_count: 3
+  slug: microsoft-purview-auto-complete-request
+- name: AutoCompleteResult
+  property_count: 1
+  slug: microsoft-purview-auto-complete-result
+- name: AutoCompleteRequest
+  property_count: 3
   slug: microsoft-purview-autocompleterequest
 - name: AutoCompleteResult
   property_count: 1
@@ -1507,6 +1618,12 @@ json_schemas:
 - name: AutoCompleteResultValue
   property_count: 2
   slug: microsoft-purview-autocompleteresultvalue
+- name: BusinessDomainList
+  property_count: 2
+  slug: microsoft-purview-business-domain-list
+- name: BusinessDomain
+  property_count: 9
+  slug: microsoft-purview-business-domain
 - name: BusinessDomain
   property_count: 9
   slug: microsoft-purview-businessdomain
@@ -1518,6 +1635,12 @@ json_schemas:
   slug: microsoft-purview-categorytemplate
 - name: CheckNameAvailabilityRequest
   property_count: 2
+  slug: microsoft-purview-check-name-availability-request
+- name: CheckNameAvailabilityResult
+  property_count: 3
+  slug: microsoft-purview-check-name-availability-result
+- name: CheckNameAvailabilityRequest
+  property_count: 2
   slug: microsoft-purview-checknameavailabilityrequest
 - name: CheckNameAvailabilityResult
   property_count: 3
@@ -1525,6 +1648,15 @@ json_schemas:
 - name: CitationTemplate
   property_count: 4
   slug: microsoft-purview-citationtemplate
+- name: ClassificationResult
+  property_count: 3
+  slug: microsoft-purview-classification-result
+- name: ClassificationRuleList
+  property_count: 3
+  slug: microsoft-purview-classification-rule-list
+- name: ClassificationRule
+  property_count: 4
+  slug: microsoft-purview-classification-rule
 - name: Microsoft Purview Classification
   property_count: 8
   slug: microsoft-purview-classification
@@ -1554,13 +1686,49 @@ json_schemas:
   slug: microsoft-purview-connectedvia
 - name: ContentInfo
   property_count: 4
+  slug: microsoft-purview-content-info
+- name: ContentInfo
+  property_count: 4
   slug: microsoft-purview-contentinfo
+- name: CriticalDataElementList
+  property_count: 2
+  slug: microsoft-purview-critical-data-element-list
+- name: CriticalDataElement
+  property_count: 8
+  slug: microsoft-purview-critical-data-element
 - name: CriticalDataElement
   property_count: 8
   slug: microsoft-purview-criticaldataelement
 - name: CriticalDataElementList
   property_count: 2
   slug: microsoft-purview-criticaldataelementlist
+- name: DataProductList
+  property_count: 2
+  slug: microsoft-purview-data-product-list
+- name: DataProduct
+  property_count: 9
+  slug: microsoft-purview-data-product
+- name: DataQualityRuleList
+  property_count: 2
+  slug: microsoft-purview-data-quality-rule-list
+- name: DataQualityRule
+  property_count: 11
+  slug: microsoft-purview-data-quality-rule
+- name: DataQualityScanRequest
+  property_count: 2
+  slug: microsoft-purview-data-quality-scan-request
+- name: DataQualityScanResult
+  property_count: 3
+  slug: microsoft-purview-data-quality-scan-result
+- name: DataQualityScoreList
+  property_count: 2
+  slug: microsoft-purview-data-quality-score-list
+- name: DataQualityScore
+  property_count: 7
+  slug: microsoft-purview-data-quality-score
+- name: DataSourceList
+  property_count: 3
+  slug: microsoft-purview-data-source-list
 - name: Microsoft Purview Data Source
   property_count: 4
   slug: microsoft-purview-data-source
@@ -1602,13 +1770,37 @@ json_schemas:
   slug: microsoft-purview-departmenttemplate
 - name: DlpAction
   property_count: 3
+  slug: microsoft-purview-dlp-action
+- name: DlpMatchedRule
+  property_count: 6
+  slug: microsoft-purview-dlp-matched-rule
+- name: DlpAction
+  property_count: 3
   slug: microsoft-purview-dlpaction
 - name: DlpMatchedRule
   property_count: 6
   slug: microsoft-purview-dlpmatchedrule
 - name: DowngradeJustification
   property_count: 2
+  slug: microsoft-purview-downgrade-justification
+- name: DowngradeJustification
+  property_count: 2
   slug: microsoft-purview-downgradejustification
+- name: EdiscoveryCase
+  property_count: 10
+  slug: microsoft-purview-ediscovery-case
+- name: EdiscoveryCustodian
+  property_count: 8
+  slug: microsoft-purview-ediscovery-custodian
+- name: EdiscoveryHoldPolicy
+  property_count: 9
+  slug: microsoft-purview-ediscovery-hold-policy
+- name: EdiscoveryReviewSet
+  property_count: 4
+  slug: microsoft-purview-ediscovery-review-set
+- name: EdiscoverySearch
+  property_count: 8
+  slug: microsoft-purview-ediscovery-search
 - name: EdiscoveryCase
   property_count: 10
   slug: microsoft-purview-ediscoverycase
@@ -1624,6 +1816,9 @@ json_schemas:
 - name: EdiscoverySearch
   property_count: 8
   slug: microsoft-purview-ediscoverysearch
+- name: EntityMutationResponse
+  property_count: 3
+  slug: microsoft-purview-entity-mutation-response
 - name: Microsoft Purview Atlas Entity
   property_count: 19
   slug: microsoft-purview-entity
@@ -1633,6 +1828,9 @@ json_schemas:
 - name: FilePlanReferenceTemplate
   property_count: 2
   slug: microsoft-purview-fileplanreferencetemplate
+- name: GlossaryTermList
+  property_count: 2
+  slug: microsoft-purview-glossary-term-list
 - name: Microsoft Purview Glossary Term
   property_count: 17
   slug: microsoft-purview-glossary-term
@@ -1650,6 +1848,12 @@ json_schemas:
   slug: microsoft-purview-identityset
 - name: InformationProtectionAction
   property_count: 1
+  slug: microsoft-purview-information-protection-action
+- name: InformationProtectionPolicySetting
+  property_count: 5
+  slug: microsoft-purview-information-protection-policy-setting
+- name: InformationProtectionAction
+  property_count: 1
   slug: microsoft-purview-informationprotectionaction
 - name: InformationProtectionPolicySetting
   property_count: 5
@@ -1659,10 +1863,22 @@ json_schemas:
   slug: microsoft-purview-keyvaluepair
 - name: LabelingOptions
   property_count: 2
+  slug: microsoft-purview-labeling-options
+- name: LabelingOptions
+  property_count: 2
   slug: microsoft-purview-labelingoptions
 - name: LineageRelation
   property_count: 3
   slug: microsoft-purview-lineagerelation
+- name: MetadataPolicyList
+  property_count: 2
+  slug: microsoft-purview-metadata-policy-list
+- name: MetadataPolicy
+  property_count: 4
+  slug: microsoft-purview-metadata-policy
+- name: MetadataRoleList
+  property_count: 2
+  slug: microsoft-purview-metadata-role-list
 - name: MetadataPolicy
   property_count: 4
   slug: microsoft-purview-metadatapolicy
@@ -1684,6 +1900,12 @@ json_schemas:
 - name: OKRList
   property_count: 2
   slug: microsoft-purview-okrlist
+- name: OperationList
+  property_count: 3
+  slug: microsoft-purview-operation-list
+- name: OperationResponse
+  property_count: 2
+  slug: microsoft-purview-operation-response
 - name: Operation
   property_count: 4
   slug: microsoft-purview-operation
@@ -1698,16 +1920,28 @@ json_schemas:
   slug: microsoft-purview-parentrelation
 - name: PrivateEndpointConnection
   property_count: 4
+  slug: microsoft-purview-private-endpoint-connection
+- name: PrivateEndpointConnection
+  property_count: 4
   slug: microsoft-purview-privateendpointconnection
 - name: PrivateEndpointConnectionList
   property_count: 3
   slug: microsoft-purview-privateendpointconnectionlist
 - name: ProfilingRequest
   property_count: 2
+  slug: microsoft-purview-profiling-request
+- name: ProfilingResult
+  property_count: 5
+  slug: microsoft-purview-profiling-result
+- name: ProfilingRequest
+  property_count: 2
   slug: microsoft-purview-profilingrequest
 - name: ProfilingResult
   property_count: 5
   slug: microsoft-purview-profilingresult
+- name: ProtectionScope
+  property_count: 4
+  slug: microsoft-purview-protection-scope
 - name: ProtectionScope
   property_count: 4
   slug: microsoft-purview-protectionscope
@@ -1717,6 +1951,12 @@ json_schemas:
 - name: ResourceLink
   property_count: 2
   slug: microsoft-purview-resourcelink
+- name: RetentionEvent
+  property_count: 11
+  slug: microsoft-purview-retention-event
+- name: RetentionEventType
+  property_count: 7
+  slug: microsoft-purview-retention-event-type
 - name: Microsoft Purview Retention Label
   property_count: 12
   slug: microsoft-purview-retention-label
@@ -1732,6 +1972,18 @@ json_schemas:
 - name: RuleResult
   property_count: 5
   slug: microsoft-purview-ruleresult
+- name: ScanList
+  property_count: 3
+  slug: microsoft-purview-scan-list
+- name: ScanResultList
+  property_count: 3
+  slug: microsoft-purview-scan-result-list
+- name: ScanRulesetList
+  property_count: 3
+  slug: microsoft-purview-scan-ruleset-list
+- name: ScanRuleset
+  property_count: 4
+  slug: microsoft-purview-scan-ruleset
 - name: Microsoft Purview Scan
   property_count: 4
   slug: microsoft-purview-scan
@@ -1750,6 +2002,12 @@ json_schemas:
 - name: ScanRulesetList
   property_count: 3
   slug: microsoft-purview-scanrulesetlist
+- name: SearchRequest
+  property_count: 6
+  slug: microsoft-purview-search-request
+- name: SearchResult
+  property_count: 3
+  slug: microsoft-purview-search-result
 - name: SearchFacetItem
   property_count: 3
   slug: microsoft-purview-searchfacetitem
@@ -1762,12 +2020,21 @@ json_schemas:
 - name: SearchResultValue
   property_count: 15
   slug: microsoft-purview-searchresultvalue
+- name: SensitivityLabel_2
+  property_count: 11
+  slug: microsoft-purview-sensitivity-label-2
 - name: Microsoft Purview Sensitivity Label
   property_count: 11
   slug: microsoft-purview-sensitivity-label
 - name: SensitivityLabel
   property_count: 10
   slug: microsoft-purview-sensitivitylabel
+- name: SuggestRequest
+  property_count: 3
+  slug: microsoft-purview-suggest-request
+- name: SuggestResult
+  property_count: 1
+  slug: microsoft-purview-suggest-result
 - name: SuggestRequest
   property_count: 3
   slug: microsoft-purview-suggestrequest
@@ -1788,16 +2055,37 @@ json_schemas:
   slug: microsoft-purview-triggerrecurrence
 - name: UserRequestPayload
   property_count: 2
+  slug: microsoft-purview-user-request-payload
+- name: UserRequestResponse
+  property_count: 2
+  slug: microsoft-purview-user-request-response
+- name: UserRequestPayload
+  property_count: 2
   slug: microsoft-purview-userrequestpayload
 - name: UserRequestResponse
   property_count: 2
   slug: microsoft-purview-userrequestresponse
 - name: ValidationResult
   property_count: 1
+  slug: microsoft-purview-validation-result
+- name: ValidationResult
+  property_count: 1
   slug: microsoft-purview-validationresult
+- name: WorkflowCreateOrUpdateCommand
+  property_count: 5
+  slug: microsoft-purview-workflow-create-or-update-command
+- name: WorkflowList
+  property_count: 2
+  slug: microsoft-purview-workflow-list
+- name: WorkflowRun
+  property_count: 10
+  slug: microsoft-purview-workflow-run
 - name: Workflow
   property_count: 6
   slug: microsoft-purview-workflow
+- name: WorkflowTask
+  property_count: 12
+  slug: microsoft-purview-workflow-task
 - name: WorkflowCreateOrUpdateCommand
   property_count: 5
   slug: microsoft-purview-workflowcreateorupdatecommand
@@ -1834,10 +2122,10 @@ network: true
 overview: 'Microsoft Purview publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Approval API, Business Domains API, and 41 more. Tagged areas include Compliance, Data Catalog, Data Classification, Data Governance, and Data Loss Prevention.
 
 
-  The Microsoft Purview catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Microsoft Purview catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Purview''s developer surface includes pricing, authentication, CLI, changelog, developer portal, documentation, getting-started guide, and 63 more developer resources.'
+  Microsoft Purview''s developer surface includes getting-started guide, pricing, authentication, CLI, changelog, developer portal, documentation, and 72 more developer resources.'
 plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 10
@@ -1859,30 +2147,42 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-purview-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Microsoft Purview API Rules
+  rule_count: 71
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 13
+  slug: microsoft-purview-rules
 scopes:
 - name: Microsoft Purview Scopes
   scope_count: 8
   slug: microsoft-purview-scopes
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 65.2
+  band: exemplar
+  composite: 72.4
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 64.3
+    artifact_dirs: 38
+    catalog_earned: 75.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 50.8
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.7
   facets:
-    access_clarity: 84.2
-    contract_governance: 14.4
-    contract_quality: 57.3
+    access_clarity: 71.1
+    contract_governance: 22.0
+    contract_quality: 69.6
     developer_ergonomics: 72.6
-    discoverability: 68.3
-    operational_transparency: 55.3
-  previous_composite: 63.6
+    discoverability: 76.7
+    operational_transparency: 60.5
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1904,13 +2204,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/microsoft-purview/microsoft-purview-2026-08-17T124207.png
 security:
 - kind: authentication

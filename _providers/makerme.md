@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-31'
+  score: 28.8
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -75,7 +76,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: minimal
-  composite: 3.5
+  composite: 4.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 15.0
@@ -89,9 +90,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 28.3
+    discoverability: 38.3
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 4.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -107,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

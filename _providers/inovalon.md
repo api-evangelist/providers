@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Authentication-gated API gateway host for the Inovalon ONE Platform. The host responds with HTTP 401 to unauthenticated requests; no public OpenAPI or docs surface was retrievable (corporate site is W
@@ -89,9 +91,9 @@ overview: 'Inovalon is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 6
 score:
   band: emerging
-  composite: 12.5
+  composite: 13.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -103,9 +105,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 12.5
+  previous_composite: 13.2
   provenance:
     conformance: first-party
   regulatory:
@@ -120,8 +122,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

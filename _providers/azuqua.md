@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -86,6 +89,16 @@ apis:
   slug: azuqua-user-api
 artifact_total: 12
 common:
+- group: design
+  href: https://artifacts.apis.io/azuqua/vocabulary/azuqua-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/azuqua-vocabulary.yml
+- group: auth
+  href: https://artifacts.apis.io/azuqua/well-known/azuqua-apis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/azuqua-apis-security.txt
 - group: agent
   href: https://artifacts.apis.io/azuqua/agentic-access/azuqua-agentic-access.yml
   title: ''
@@ -106,16 +119,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/azuqua-conformance.yml
-- group: other
-  href: https://artifacts.apis.io/azuqua/a2a/azuqua-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/azuqua-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/azuqua/well-known/azuqua-apis-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/azuqua-apis-security.txt
 - group: agent
   href: https://artifacts.apis.io/azuqua/well-known/azuqua-well-known.yml
   title: ''
@@ -209,25 +212,25 @@ overview: 'Azuqua publishes 8 API contracts indexed on the [APIs.io](https://api
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 89
   extends:
   - spectral:oas
   name: Azuqua API Rules
-  rule_count: 12
+  rule_count: 48
   severity_counts:
-    error: 10
+    error: 45
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: azuqua-rules
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 31.5
+    artifact_dirs: 20
+    catalog_earned: 32.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.5
+    catalog_gap: 82.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -251,7 +254,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 100.0
       total: 8
@@ -262,13 +265,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/azuqua/azuqua-2026-07-25T202126.png
 security:
 - kind: authentication

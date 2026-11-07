@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Unauthenticated remote Model Context Protocol endpoint served from Olaris' own host at https://www.myolaris.com/_api/mcp. It is the Wix platform Site MCP — provisioned by the website platform, not a f
@@ -115,7 +116,7 @@ rate_limits:
   slug: olaris-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 10.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -129,9 +130,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 10.3
   provenance:
     mcp: platform-generated
   regulatory:
@@ -140,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

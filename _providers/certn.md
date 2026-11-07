@@ -1,16 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -77,7 +81,7 @@ apis:
   description: Signed server-to-server callbacks for screening status updates.
   name: Certn Webhooks API
   slug: certn-webhooks-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Certn Applications API
@@ -184,6 +188,9 @@ network: true
 overview: 'Certn publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Checks API, Packages API, and 3 more. Tagged areas include Background Checks, Identity Verification, Criminal Record Check, Screening, and Human Resources.
 
 
+  The Certn catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Certn''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Certn Plans Pricing
@@ -194,30 +201,43 @@ rate_limits:
 - limit_count: 3
   name: Certn Rate Limits
   slug: certn-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 110
+  extends:
+  - spectral:oas
+  name: Certn API Rules
+  rule_count: 69
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 1
+    warn: 3
+  slug: certn-rules
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 26.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 17
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 33.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 25.9
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -231,13 +251,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/certn/certn-2026-07-25T205011.png
 security:
 - kind: authentication

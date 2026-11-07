@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-31'
+  score: 43.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -254,9 +255,9 @@ rules:
   slug: sync-labs-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 36.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
@@ -268,9 +269,9 @@ score:
     contract_governance: 13.6
     contract_quality: 56.1
     developer_ergonomics: 35.7
-    discoverability: 64.3
-    operational_transparency: 13.2
-  previous_composite: 37.3
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +286,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sync-labs/sync-labs-2026-06-20T194835.png
 security:
 - kind: authentication

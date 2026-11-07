@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,10 +11,14 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +32,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-31'
+  score: 40.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -182,7 +190,7 @@ arazzos:
 - description: Upload a Word document to OneDrive, confirm its metadata, and generate an organization sharing link.
   name: Microsoft Word Upload and Share Document
   slug: microsoft-word-upload-and-share-workflow
-artifact_total: 110
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Microsoft Graph Word API
@@ -248,6 +256,61 @@ collections:
   name: Microsoft Graph Word Body Versions API
   slug: open-microsoft-word-versions-api
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: design
+  href: https://artifacts.apis.io/microsoft-word/rules/microsoft-word-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-word-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-word/rules/microsoft-word-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-word-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-word/rules/microsoft-word-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-word-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-word/json-ld/microsoft-word-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-word-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-word/vocabulary/microsoft-word-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-word-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://servicetrust.microsoft.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-support
+- group: other
+  href: https://artifacts.apis.io/microsoft-word/hosts/microsoft-word-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-word-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-word/vendors/microsoft-word-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-word-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.microsoft.com/
 - group: commercial
   href: https://artifacts.apis.io/microsoft-word/plans/microsoft-word-plans-pricing.yml
   title: ''
@@ -484,10 +547,6 @@ common:
   title: ''
   type: Authentication
   url: https://learn.microsoft.com/en-us/graph/auth/
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://learn.microsoft.com/en-us/graph/get-started
 - group: company
   title: ''
   type: Blog
@@ -650,6 +709,10 @@ json_structures:
   property_count: 14
   slug: open-xml-sdk-document-properties-structure
 jsonld:
+- class_count: 65
+  name: Microsoft Word Context
+  property_count: 123
+  slug: microsoft-word-context
 - class_count: 11
   name: Microsoft Word Graph Api Context
   property_count: 16
@@ -674,10 +737,10 @@ network: true
 overview: 'Microsoft Word is listed with 21 APIs on the [APIs.io](https://apis.io/) network, including Body API, Checkout API, Comments API, and 18 more. Tagged areas include Documents, Microsoft 365, Office, Productivity, and Word Processing.
 
 
-  The Microsoft Word catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Microsoft Word catalog on APIs.io includes 4 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Word''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, developer console, signup flow, and 57 more developer resources.'
+  Microsoft Word''s developer surface includes getting-started guide, documentation, authentication, sandbox, changelog, CLI, developer portal, and 68 more developer resources.'
 plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
@@ -700,6 +763,18 @@ rules:
     warn: 4
   slug: microsoft-word-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: Microsoft Word API Rules
+  rule_count: 72
+  severity_counts:
+    error: 61
+    hint: 0
+    info: 3
+    warn: 8
+  slug: microsoft-word-rules
+- authorship: generated
   effective_rule_count: 82
   extends:
   - spectral:oas
@@ -718,23 +793,26 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.6
+  composite: 65.7
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 38
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 2.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 65.8
     contract_governance: 31.8
-    contract_quality: 30.5
+    contract_quality: 33.2
     developer_ergonomics: 89.3
-    discoverability: 60.0
-    operational_transparency: 55.3
-  previous_composite: 57.0
+    discoverability: 65.0
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -750,13 +828,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/microsoft-word/microsoft-word-2026-08-07T172841.png
 security:
 - kind: authentication

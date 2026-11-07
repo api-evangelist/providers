@@ -1,8 +1,9 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The OpenID Connect / OAuth 2.0 identity provider behind Good Energy''s customer hub at account.goodenergy.co.uk. It is NOT a developer-facing API and Good Energy publishes no documentation for it — it '
@@ -157,9 +159,9 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials/implicit/deviceCode/ciba
 score:
   band: emerging
-  composite: 25.2
+  composite: 25.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,7 +173,7 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -181,7 +183,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 25.2
+  previous_composite: 25.9
   provenance:
     conformance: derived
   regulatory:
@@ -190,8 +192,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

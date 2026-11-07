@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bombas Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://shop.bombas.com/.well-known/ucp declaring UCP versions
@@ -106,9 +107,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.7
+  composite: 25.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -120,9 +121,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 24.7
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -133,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

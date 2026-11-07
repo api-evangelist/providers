@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-31'
+  score: 29.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,7 +77,7 @@ apis:
   description: The SQL DB API from Soveren — 5 operation(s) for sql db.
   name: Soveren SQL DB API
   slug: soveren-sql-db-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: Soveren delivers data-security events to a subscriber endpoint via outbound webhooks. Soveren POSTs an event object to a URL configured in the app under Integrations - Webhook. When a signing token is
   name: Soveren Events (Webhooks)
@@ -235,30 +236,43 @@ network: true
 overview: 'Soveren publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Data Types API, Endpoints API, and 3 more. Tagged areas include Company, Infra Devtools, Data Security, DSPM, and DDR.
 
 
-  The Soveren catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Soveren catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 82
+  extends:
+  - spectral:oas
+  name: Soveren API Rules
+  rule_count: 41
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 1
+  slug: soveren-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 42.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 53.4
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 58.4
     developer_ergonomics: 58.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 41.6
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,13 +289,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/soveren/soveren-2026-08-17T082012.png
 security:
 - kind: authentication

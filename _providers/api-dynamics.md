@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The APIDynamics platform provides AI-driven API security and observability including API discovery, traffic analysis, real-time risk scoring, adaptive MFA, Zero Trust enforcement, shadow/zombie API de
@@ -177,7 +181,7 @@ rate_limits:
   slug: api-dynamics-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 21.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 32.0
@@ -191,9 +195,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 63.3
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 21.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -203,8 +207,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

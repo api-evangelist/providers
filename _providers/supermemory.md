@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -26,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.supermemory.ai
@@ -111,11 +124,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/supermemory-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/supermemory/well-known/supermemory-cal-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/supermemory-cal-security.txt
 - group: agent
   href: https://artifacts.apis.io/supermemory/well-known/supermemory-well-known.yml
   title: ''
@@ -222,7 +230,7 @@ overview: 'Supermemory is listed with 1 API on the [APIs.io](https://apis.io/) n
   The Supermemory catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Supermemory''s developer surface includes CLI, changelog, authentication, getting-started guide, API reference, documentation, engineering blog, and 28 more developer resources.'
+  Supermemory''s developer surface includes CLI, changelog, authentication, getting-started guide, API reference, documentation, engineering blog, and 27 more developer resources.'
 plans:
 - name: Supermemory Plans Pricing
   plan_count: 4
@@ -230,21 +238,23 @@ plans:
 random_paper: 0
 score:
   band: developing
-  composite: 53.8
+  composite: 44.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 25
     catalog_earned: 55.3
     catalog_earned_first_party: 12.0
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.2
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 38.0
-    developer_ergonomics: 66.7
-    discoverability: 65.0
-    operational_transparency: 55.3
+    developer_ergonomics: 46.4
+    discoverability: 75.0
+    operational_transparency: 36.8
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -259,13 +269,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/supermemory/supermemory-2026-11-03T144042.png
 security:
 - kind: authentication
   name: Supermemory Authentication

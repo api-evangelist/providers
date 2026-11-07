@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -424,9 +425,9 @@ rate_limits:
   slug: osfi-rate-limits
 score:
   band: developing
-  composite: 45.0
+  composite: 45.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 79.0
     catalog_earned_first_party: 25.0
     catalog_gap: 36.0
@@ -438,7 +439,7 @@ score:
     contract_governance: 33.3
     contract_quality: 25.2
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 79.5
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -447,7 +448,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.0
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -458,8 +459,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -6,15 +16,16 @@ agent_readiness:
     agent_skills: unknown
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-31'
+  score: 6.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: CallerKit provides a Caller ID API and global phone lookup service as described on the documentation page.
@@ -110,40 +121,47 @@ modified: '2026-10-30'
 name: caller-kit-com
 nav: Providers
 network: true
-overview: 'caller-kit-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, PhoneLookup, CallerID, and DataEnrichment.
+overview: 'caller-kit-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Phone Lookup, Caller ID, and Data Enrichment.
 
 
   caller-kit-com''s developer surface includes documentation, API reference, pricing, and 11 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 19.9
+  composite: 11.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 32.0
+    artifact_dirs: 10
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.6
-    discoverability: 57.1
-    operational_transparency: 5.3
+    developer_ergonomics: 19.5
+    discoverability: 48.2
+    operational_transparency: 2.6
+  previous_composite: 19.9
+  provenance:
+    mcp: unknown
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/caller-kit-com/caller-kit-com-2026-11-03T123029.png
 security:
 - kind: domain-security
   name: Caller Kit Com Domain Security
@@ -152,9 +170,8 @@ security:
 slug: caller-kit-com
 tags:
 - Company
-- API
-- PhoneLookup
-- CallerID
-- DataEnrichment
+- Phone Lookup
+- Caller ID
+- Data Enrichment
 website: https://caller-kit.com/
 ---

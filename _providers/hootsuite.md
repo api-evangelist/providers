@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-31'
+  score: 48.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -150,7 +151,7 @@ apis:
   description: '### Webhook authentication When setting up a virtual agent, you received a secret key that you can use to verify whether an incoming webhook request really comes from Inbox 2.0 without alterations. In'
   name: Hootsuite Vai Webhooks API
   slug: hootsuite-vai-webhooks-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Hootsuite Webhooks
@@ -418,7 +419,7 @@ network: true
 overview: 'Hootsuite publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Comments API, and 18 more. Tagged areas include Social Media, Social Media Management, Marketing, Content Scheduling, and Analytics.
 
 
-  The Hootsuite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Hootsuite catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Hootsuite''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, pricing, and 41 more developer resources.'
@@ -434,6 +435,19 @@ rate_limits:
 - limit_count: 2
   name: Hootsuite Rate Limits
   slug: hootsuite-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Hootsuite API Rules
+  rule_count: 65
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 4
+    warn: 19
+  slug: hootsuite-rules
 scopes:
 - name: Hootsuite Scopes
   scope_count: 2
@@ -441,22 +455,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.6
+  composite: 72.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 63.0
+    artifact_dirs: 32
+    catalog_earned: 67.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 5.1
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 61.4
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 67.6
     developer_ergonomics: 70.8
-    discoverability: 76.7
-    operational_transparency: 84.2
+    discoverability: 80.0
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -464,14 +478,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 70.0
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 50.0
+      marker_coverage: 60.0
       total: 20
     mcp: first-party
     skills: derived
@@ -481,13 +495,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hootsuite/hootsuite-2026-06-20T182835.png
 security:
 - kind: authentication
@@ -524,9 +537,10 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- Authentication
+- OAuth
 - Webhook
 - Scheduling
 - Canada
+- Authentication
 website: https://www.hootsuite.com
 ---

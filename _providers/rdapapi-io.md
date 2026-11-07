@@ -1,11 +1,24 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.1
-  scored_at: '2026-10-31'
+  score: 51.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -262,7 +276,7 @@ modified: '2026-10-31'
 name: rdapapi-io
 nav: Providers
 network: true
-overview: 'rdapapi-io publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including ASN API, Domain API, Entity API, and 4 more. Tagged areas include Company, RDAP, Domain, API, and Whois.
+overview: 'rdapapi-io publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including ASN API, Domain API, Entity API, and 4 more. Tagged areas include Company, RDAP, Domain, and WHOIS.
 
 
   The rdapapi-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -297,34 +311,48 @@ scopes:
   slug: rdapapi-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 72.3
+  band: strong
+  composite: 57.6
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 32
+    catalog_earned: 81.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.2
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 65.4
-    developer_ergonomics: 61.2
-    discoverability: 66.1
-    operational_transparency: 70.5
+    access_clarity: 53.9
+    contract_governance: 35.6
+    contract_quality: 68.4
+    developer_ergonomics: 43.3
+    discoverability: 57.1
+    operational_transparency: 60.5
+  previous_composite: 68.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/rdapapi-io/rdapapi-io-2026-11-03T142003.png
 security:
 - kind: authentication
   name: Rdapapi Io Authentication
@@ -347,7 +375,6 @@ tags:
 - Company
 - RDAP
 - Domain
-- API
-- Whois
+- WHOIS
 website: https://rdapapi.io/
 ---

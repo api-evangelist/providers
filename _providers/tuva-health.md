@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -91,7 +92,7 @@ apis:
   description: The users API from Tuva Health — 2 operation(s) for users.
   name: Tuva Health Users API
   slug: tuva-health-users-api
-artifact_total: 19
+artifact_total: 20
 common:
 - group: operate
   href: https://artifacts.apis.io/tuva-health/rate-limits/tuva-health-rate-limits.yml
@@ -270,6 +271,9 @@ network: true
 overview: 'Tuva Health publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 8 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
+  The Tuva Health catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Tuva Health''s developer surface includes engineering blog, documentation, getting-started guide, changelog, support, API reference, authentication, and 28 more developer resources.'
 plans:
 - name: Tuva Health Plans Pricing
@@ -280,24 +284,37 @@ rate_limits:
 - limit_count: 0
   name: Tuva Health Rate Limits
   slug: tuva-health-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Tuva Health API Rules
+  rule_count: 39
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 1
+    warn: 3
+  slug: tuva-health-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 43.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 32.0
+    artifact_dirs: 27
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 37.0
     developer_ergonomics: 80.4
-    discoverability: 57.1
-    operational_transparency: 28.9
+    discoverability: 64.3
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -305,7 +322,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.3
+  previous_composite: 43.6
   provenance:
     conformance: first-party
     contracts:
@@ -321,13 +338,12 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tuva-health/tuva-health-2026-08-17T082502.png
 security:
 - kind: authentication

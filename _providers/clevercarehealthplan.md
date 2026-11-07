@@ -1,16 +1,21 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,23 +24,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 29.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +66,7 @@ apis:
   description: Public (rate limited) provider directory resources
   name: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Clever Care Health Plan FHIR R4 Drug Formulary API
@@ -194,8 +200,24 @@ network: true
 overview: 'Clever Care Health Plan publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Drug Formulary API, Patient Access API, and Provider Directory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
 
 
+  The Clever Care Health Plan catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 19 more developer resources.'
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Clever Care Health Plan API Rules
+  rule_count: 50
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 1
+  slug: clevercarehealthplan-rules
 scopes:
 - name: Clevercarehealthplan Scopes
   scope_count: 4
@@ -203,23 +225,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.0
+  composite: 47.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.7
   facets:
     access_clarity: 42.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 44.5
     developer_ergonomics: 51.8
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 45.0
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,13 +264,13 @@ score:
     regime: Health
     regime_id: health
     score: 53.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/clevercarehealthplan/clevercarehealthplan-2026-07-25T205602.png
 security:
 - kind: authentication

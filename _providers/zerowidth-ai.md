@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,17 +30,25 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-31'
+  score: 40.3
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Zerowidth Ai Agentic Access
+  operation_count: 26
+  slug: zerowidth-ai-agentic-access
+  summary_line: 26 operations · 12 acting
 api_count: 6
 apis:
 - baseURL: https://api.zerowidth.ai
@@ -58,8 +81,13 @@ apis:
   description: The Tasks API from zerowidth-ai — 3 operation(s) for tasks.
   name: zerowidth-ai Tasks API
   slug: zerowidth-ai-tasks-api
-artifact_total: 24
+artifact_total: 25
 common:
+- group: agent
+  href: https://artifacts.apis.io/zerowidth-ai/agentic-access/zerowidth-ai-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/zerowidth-ai-agentic-access.yml
 - group: auth
   href: https://artifacts.apis.io/zerowidth-ai/well-known/zerowidth-ai-zerowidth-security.txt
   title: ''
@@ -145,10 +173,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/zerowidth-ai
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://zerowidth.ai/docs
 - group: auth
   href: https://artifacts.apis.io/zerowidth-ai/security/zerowidth-ai-domain-security.yml
   title: ''
@@ -222,13 +246,13 @@ modified: '2026-10-29'
 name: zerowidth-ai
 nav: Providers
 network: true
-overview: 'zerowidth-ai is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Caliper API, Flows API, Knowledge Bases API, and 3 more. Tagged areas include AI, Automation, Consulting, SaaS, and Platform.
+overview: 'zerowidth-ai is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Caliper API, Flows API, Knowledge Bases API, and 3 more. Tagged areas include Artificial Intelligence, Automation, Consulting, Software-as-a-Service, and Platform.
 
 
   The zerowidth-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  zerowidth-ai''s developer surface includes documentation, pricing, support, getting-started guide, and 21 more developer resources.'
+  zerowidth-ai''s developer surface includes pricing, support, getting-started guide, and 22 more developer resources.'
 plans:
 - name: Zerowidth Ai Plans Pricing
   plan_count: 0
@@ -240,16 +264,16 @@ rate_limits:
   slug: zerowidth-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 86
   extends:
   - spectral:oas
   name: zerowidth-ai API Rules
-  rule_count: 11
+  rule_count: 45
   severity_counts:
-    error: 9
+    error: 42
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: zerowidth-ai-rules
 scopes:
 - name: Zerowidth Ai Scopes
@@ -257,23 +281,32 @@ scopes:
   slug: zerowidth-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 29.4
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 30
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.7
   facets:
-    access_clarity: 39.5
+    access_clarity: 19.7
     contract_governance: 22.0
     contract_quality: 25.6
-    developer_ergonomics: 42.9
-    discoverability: 70.0
-    operational_transparency: 31.6
+    developer_ergonomics: 20.2
+    discoverability: 80.0
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 40.1
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -286,13 +319,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/zerowidth-ai/zerowidth-ai-2026-11-03T150523.png
 security:
 - kind: authentication
   name: Zerowidth Ai Authentication
@@ -304,10 +338,10 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: zerowidth-ai
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Consulting
-- SaaS
+- Software-as-a-Service
 - Platform
 website: https://zerowidth.ai/
 ---

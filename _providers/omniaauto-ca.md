@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-31'
+  score: 28.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.omniaauto.ca
@@ -98,7 +110,7 @@ modified: '2026-10-30'
 name: omniaauto-ca
 nav: Providers
 network: true
-overview: 'omniaauto-ca is listed with 1 API on the [APIs.io](https://apis.io/) network: OmniaAuto API. Tagged areas include Company, Automotive, Data, API, and Market.
+overview: 'omniaauto-ca is listed with 1 API on the [APIs.io](https://apis.io/) network: OmniaAuto API. Tagged areas include Company, Automotive, Data, and Markets.
 
 
   omniaauto-ca''s developer surface includes pricing, API reference, and 10 more developer resources.'
@@ -109,33 +121,45 @@ plans:
 random_paper: 14
 score:
   band: thin
-  composite: 31.4
+  composite: 26.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 47.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    artifact_dirs: 12
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.3
   facets:
-    access_clarity: 60.0
-    contract_governance: 16.4
-    contract_quality: 32.1
-    developer_ergonomics: 7.1
-    discoverability: 66.1
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 36.0
+    developer_ergonomics: 3.6
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 31.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/omniaauto-ca/omniaauto-ca-2026-11-03T140534.png
 security:
 - kind: domain-security
   name: Omniaauto Ca Domain Security
@@ -146,7 +170,6 @@ tags:
 - Company
 - Automotive
 - Data
-- API
-- Market
+- Markets
 website: https://omniaauto.ca/
 ---

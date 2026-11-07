@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Code payments gRPC/Protobuf API — account, currency, messaging, and transaction (intent/swap) services that power the Code wallet and SDK.
@@ -173,9 +178,9 @@ overview: 'Code is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 3
 score:
   band: thin
-  composite: 32.8
+  composite: 33.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,9 +192,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 63.7
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 32.8
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: derived
@@ -200,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

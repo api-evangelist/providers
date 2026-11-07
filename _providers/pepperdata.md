@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://dashboard.pepperdata.com/pepperdata-demonstration/api
@@ -54,7 +55,7 @@ apis:
   description: Retrieve time-series metrics, series, and filters.
   name: Pepperdata Metrics API
   slug: pepperdata-metrics-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Pepperdata REST Alarms API
@@ -188,27 +189,43 @@ network: true
 overview: 'Pepperdata is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Alarms API, Job Details API, and Metrics API. Tagged areas include Company, Observability, Monitoring, Kubernetes, and Big Data.
 
 
+  The Pepperdata catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Pepperdata''s developer surface includes engineering blog, authentication, documentation, API reference, support, pricing, signup flow, and 18 more developer resources.'
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Pepperdata API Rules
+  rule_count: 63
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 2
+  slug: pepperdata-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 32.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
+    artifact_dirs: 20
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 14.3
-    developer_ergonomics: 47.0
-    discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 31.7
+    contract_governance: 18.2
+    contract_quality: 17.7
+    developer_ergonomics: 42.3
+    discoverability: 78.6
+    operational_transparency: 2.6
+  previous_composite: 32.9
   provenance:
     conformance: derived
     contracts:
@@ -224,13 +241,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pepperdata/pepperdata-2026-08-17T081155.png
 security:
 - kind: authentication

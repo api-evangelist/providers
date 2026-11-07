@@ -1,12 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -265,10 +267,10 @@ rules:
     warn: 4
   slug: air-products-and-chemicals-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 26.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
@@ -280,14 +282,14 @@ score:
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 26.2
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 25.9
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -296,8 +298,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

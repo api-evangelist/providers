@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.emergetools.com/
@@ -89,7 +94,7 @@ apis:
   description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
   name: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Emerge Analysis API
@@ -287,31 +292,47 @@ network: true
 overview: 'Emerge Tools publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis API, AppHistory API, BuildDetails API, and 7 more. Tagged areas include Company, B2B, Mobile, Developer Tools, and App Performance.
 
 
+  The Emerge Tools catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
 plans:
 - name: Emerge Tools Plans Pricing
   plan_count: 3
   slug: emerge-tools-plans-pricing
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Emerge Tools API Rules
+  rule_count: 52
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 4
+    warn: 3
+  slug: emerge-tools-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 59.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 5.1
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 46.4
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 51.6
     developer_ergonomics: 68.5
-    discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 52.3
+    discoverability: 73.2
+    operational_transparency: 21.1
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     contracts:
@@ -327,13 +348,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/emerge-tools/emerge-tools-2026-07-25T213232.png
 security:
 - kind: authentication

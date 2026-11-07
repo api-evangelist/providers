@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The SOPS decrypt Go package provides programmatic access to SOPS-encrypted files from Go applications. It supports decryption of YAML, JSON, ENV, INI, and binary formats using configured key managemen
@@ -186,9 +188,9 @@ rules:
   slug: sops-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.9
+  composite: 21.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -199,18 +201,21 @@ score:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 10.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 18.9
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 21.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

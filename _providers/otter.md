@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-31'
+  score: 37.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -1322,7 +1327,7 @@ json_schemas:
   property_count: 5
   slug: public-api-courier
 - name: CourierServiceDeliveryInfo
-  property_count: 0
+  property_count: 2
   slug: public-api-courier-service-delivery-info
 - name: CreateConnectionRequest
   property_count: 1
@@ -1424,7 +1429,7 @@ json_schemas:
   property_count: 4
   slug: public-api-enrollment-field
 - name: EntityPathOverrideRule
-  property_count: 0
+  property_count: 1
   slug: public-api-entity-path-override-rule
 - name: ErrorDetail
   property_count: 2
@@ -1469,7 +1474,7 @@ json_schemas:
   property_count: 7
   slug: public-api-fulfillment-info
 - name: FulfillmentModeOverrideRule
-  property_count: 0
+  property_count: 1
   slug: public-api-fulfillment-mode-override-rule
 - name: FulfillmentPathEntity
   property_count: 2
@@ -1826,7 +1831,7 @@ json_schemas:
   property_count: 1
   slug: public-api-override-rule
 - name: ParcelCarrierDeliveryInfo
-  property_count: 0
+  property_count: 2
   slug: public-api-parcel-carrier-delivery-info
 - name: PauseReason
   property_count: 0
@@ -2000,13 +2005,13 @@ json_schemas:
   property_count: 3
   slug: public-api-selected-reward
 - name: SelfDropDeliveryInfo
-  property_count: 0
+  property_count: 2
   slug: public-api-self-drop-delivery-info
 - name: SendMenuEventCallback
   property_count: 1
   slug: public-api-send-menu-event-callback
 - name: ServiceOverrideRule
-  property_count: 0
+  property_count: 1
   slug: public-api-service-override-rule
 - name: Servings
   property_count: 2
@@ -3220,9 +3225,9 @@ scopes:
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.4
+  composite: 33.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 71.4
     catalog_earned_first_party: 0.0
     catalog_gap: 43.6
@@ -3233,10 +3238,10 @@ score:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 27.9
-    developer_ergonomics: 47.6
+    developer_ergonomics: 7.1
     discoverability: 71.4
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -3250,13 +3255,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/otter/otter-2026-06-20T191236.png
 security:
 - kind: authentication

@@ -1,42 +1,50 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-31'
+  score: 44.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +59,7 @@ apis:
   description: Operations on Google Docs documents
   name: Google Docs Documents API
   slug: google-docs-documents-api
-artifact_total: 402
+artifact_total: 405
 collections:
 - collection_type: postman
   name: Google Docs Documents API
@@ -63,6 +71,112 @@ collections:
   name: Google Docs Documents API
   slug: open-google-docs-documents-api
 common:
+- group: design
+  href: https://artifacts.apis.io/google-docs/rules/google-docs-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-docs-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/rules/google-docs-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-docs-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/rules/google-docs-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-docs-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/vocabulary/google-docs-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-docs-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/google-docs/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/data-model/google-docs-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/google-docs-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/conventions/google-docs-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/google-docs-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/lifecycle/google-docs-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-docs-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/errors/google-docs-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-docs-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/google-docs/conformance/google-docs-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/google-docs-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/google-docs/llms/google-docs-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/google-docs-llms.txt
+- group: build
+  href: https://artifacts.apis.io/google-docs/mcp/google-docs-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-docs-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/google-docs/mcp/google-docs-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/google-docs-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/google-docs/well-known/google-docs-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-docs-security.txt
+- group: agent
+  href: https://artifacts.apis.io/google-docs/well-known/google-docs-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/google-docs-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/google-docs/hosts/google-docs-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-docs-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/google-docs/integrations/google-docs-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-docs-integration-edges.yml
+- group: build
+  href: https://artifacts.apis.io/google-docs/packages/google-docs-packages.yml
+  title: ''
+  type: Packages
+  url: packages/google-docs-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://accounts.google.com/ServiceLogin?hl=en-US&continue=https://myaccount.google.com/intro/security
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://play.google.com/console/about/
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2110396649:1793821621755032
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/
 - group: commercial
   href: https://artifacts.apis.io/google-docs/plans/google-docs-plans-pricing.yml
   title: ''
@@ -1311,6 +1425,10 @@ jsonld:
   property_count: 0
   slug: google-docs-v1-context
 layout: provider
+mcp_servers:
+- description: Google's remote Model Context Protocol server for Google Docs (docsmcp.googleapis.com), available in Developer Preview as part of the Google Workspace Developer Preview Program. Exposes the Public MCP
+  name: Google Docs MCP server
+  slug: google-docs-mcp-server
 modified: '2026-05-19'
 name: Google Docs
 nav: Providers
@@ -1318,10 +1436,10 @@ network: true
 overview: 'Google Docs publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Collaboration, Documents, Google Workspace, Productivity, and Word Processing.
 
 
-  The Google Docs catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Google Docs catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Google Docs'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, and 16 more developer resources.'
+  Google Docs'' developer surface includes sandbox, documentation, authentication, developer portal, getting-started guide, engineering blog, and 36 more developer resources.'
 plans:
 - name: Google Docs Plans Pricing
   plan_count: 1
@@ -1344,6 +1462,18 @@ rules:
     warn: 4
   slug: google-docs-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: Google Docs API Rules
+  rule_count: 73
+  severity_counts:
+    error: 70
+    hint: 0
+    info: 1
+    warn: 2
+  slug: google-docs-rules
+- authorship: generated
   effective_rule_count: 56
   extends:
   - spectral:oas
@@ -1361,49 +1491,51 @@ scopes:
   slug: google-docs-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.0
+  band: exemplar
+  composite: 67.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 46.0
+    artifact_dirs: 36
+    catalog_earned: 78.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 6.5
   facets:
-    access_clarity: 52.6
-    contract_governance: 27.3
+    access_clarity: 65.8
+    contract_governance: 31.8
     contract_quality: 70.0
-    developer_ergonomics: 75.0
-    discoverability: 57.1
-    operational_transparency: 55.3
+    developer_ergonomics: 69.6
+    discoverability: 56.7
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 65.1
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-docs/google-docs-2026-06-20T182203.png
 security:
 - kind: authentication
@@ -1418,6 +1550,10 @@ security:
   name: Google Docs Vulnerability Disclosure
   slug: google-docs-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: create-and-edit-document
+  slug: google-docs-create-and-edit-document
 slug: google-docs
 tags:
 - Collaboration

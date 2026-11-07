@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-31'
+  score: 33.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.bokio.se/v1
@@ -118,7 +123,7 @@ apis:
   description: Operations for managing file uploads
   name: Bokio Uploads API
   slug: bokio-uploads-api
-artifact_total: 58
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Company authorization API
@@ -404,12 +409,28 @@ network: true
 overview: 'Bokio publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Bank Payments API, Chart Of Accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
 
 
+  The Bokio catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Bokio Plans Pricing
   plan_count: 4
   slug: bokio-plans-pricing
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Bokio API Rules
+  rule_count: 71
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 5
+    warn: 16
+  slug: bokio-rules
 scopes:
 - name: Bokio Scopes
   scope_count: 24
@@ -417,22 +438,22 @@ scopes:
   summary_line: 24 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.5
+  composite: 58.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 3.4
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
+    access_clarity: 86.8
+    contract_governance: 18.2
     contract_quality: 52.4
-    developer_ergonomics: 67.3
-    discoverability: 66.1
-    operational_transparency: 39.5
+    developer_ergonomics: 57.7
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -441,7 +462,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 52.6
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -456,14 +477,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 41.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 39.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bokio/bokio-2026-07-25T203526.png
 security:
 - kind: authentication
@@ -500,6 +520,7 @@ tags:
 - Payments
 - Sweden
 - Small Business
+- OAuth
 - Authentication
 website: https://bokio.se/
 ---

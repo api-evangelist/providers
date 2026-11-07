@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Shopify-hosted commerce surface for the Face Reality Skincare store. Exposes a hosted Storefront MCP server for catalog search, product lookup, and cart building, a UCP merchant profile for agent-driv
@@ -124,7 +127,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 18.5
+  composite: 19.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -138,9 +141,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 13.7
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 19.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -151,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

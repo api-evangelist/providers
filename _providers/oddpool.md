@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -166,7 +167,7 @@ overview: 'Oddpool is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 9
 score:
   band: thin
-  composite: 38.4
+  composite: 39.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -180,9 +181,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 54.8
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 38.4
+  previous_composite: 39.1
   provenance:
     conformance: derived
     mcp: derived
@@ -192,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

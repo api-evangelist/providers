@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -239,6 +240,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tudelft
 created: '2026-06-03'
 description: 'Delft University of Technology (TU Delft) is the oldest and largest public technical university in the Netherlands and a member of the 4TU.Federation. Its programmable footprint is narrow, and this profile states that plainly rather than padding it. TU Delft operates exactly one public, unauthenticated API: the 4TU.ResearchData repository at data.4tu.nl, which runs on djehuty, open-source repository software written by 4TU.ResearchData and Nikhef. The /v2 surface is deliberately shape-compatible with the Figshare v2 API because that was a requirement of the 2023 migration OFF Figshare — the contract is not Figshare''s, and the service runs inside TU Delft''s own RIPE netblock (DUNET, 131.180.0.0/16). The other genuinely institution-operated machine-readable surface is a SAML 2.0 identity provider at login.tudelft.nl, published into the SURFconext national federation and onward to eduGAIN. Beyond those two, the picture is retirement and tenancy. The general-purpose institutional
   API platform at api.tudelft.nl — campus, buildings, courses, schedules, study results, organisation — no longer answers on port 80 or 443, and its documentation host apidoc.tudelft.nl has no DNS record at all. The research information portal at pure.tudelft.nl / research.tudelft.nl is an Elsevier Pure tenancy whose own API documentation canonicalises to api.elsevierpure.com: TU Delft''s data, Elsevier''s contract. The library discovery layer is an OCLC WorldCat tenancy. No working OAI-PMH endpoint exists on any TU Delft-operated host despite third-party registry entries claiming otherwise. TU Delft publishes no OpenAPI, no llms.txt, no scope vocabulary and no API changelog.'
@@ -275,7 +280,7 @@ overview: 'Delft University of Technology publishes 6 API contracts indexed on t
   The Delft University of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Delft University of Technology''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 35 more developer resources.'
+  Delft University of Technology''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 36 more developer resources.'
 plans:
 - name: Tu Delft Plans Pricing
   plan_count: 2
@@ -305,9 +310,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.0
+  composite: 47.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 59.4
     catalog_earned_first_party: 0.0
     catalog_gap: 55.6
@@ -320,7 +325,7 @@ score:
     contract_quality: 58.7
     developer_ergonomics: 35.7
     discoverability: 76.8
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -329,7 +334,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 48.0
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -343,13 +348,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 48.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/tu-delft/tu-delft-2026-10-11T194130.png
 security:
 - kind: authentication
@@ -378,5 +383,7 @@ tags:
 - 4TU.Federation
 - Netherlands
 - Europe
+- Research
+- Engineering
 website: https://www.tudelft.nl/
 ---

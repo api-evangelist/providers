@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Paid
   onboarding: unknown
   pricing: paid
@@ -8,36 +8,40 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
   - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
+    delegated_identity: served
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: verified
+    mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: na
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-31'
+  score: 53.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +49,7 @@ agentic_access:
   operation_count: 11
   slug: yelp-agentic-access
   summary_line: 11 operations · 1 acting
-api_count: 5
+api_count: 25
 apis:
 - baseURL: https://api.yelp.com
   baseurl_source: declared
@@ -72,7 +76,142 @@ apis:
   description: Business review excerpts and ratings
   name: Yelp Reviews API
   slug: yelp-reviews-api
-artifact_total: 84
+- baseURL: https://partner-api.yelp.com
+  baseurl_source: declared
+  description: 'Advertising operations documented in the Yelp developer reference: Pause Program; Resume Program; Create Program; Modify Program; Terminate Program; Program Status.'
+  name: Yelp Advertising API
+  slug: yelp-advertising-api
+- baseURL: https://api.yelp.com/v3/businesses
+  baseurl_source: declared
+  description: 'Business Subscriptions operations documented in the Yelp developer reference: Get Business Subscriptions; Subscribe to businesses; Unsubscribe from businesses; Get Quota.'
+  name: Yelp Business Subscriptions API
+  slug: yelp-business-subscriptions-api
+- baseURL: https://partner-api.yelp.com
+  baseurl_source: declared
+  description: 'Claim Business operations documented in the Yelp developer reference: Claim Business; Claim Status.'
+  name: Yelp Claim Business API
+  slug: yelp-claim-business-api
+- baseURL: https://partner-api.yelp.com/v1
+  baseurl_source: declared
+  description: 'Data Ingestion operations documented in the Yelp developer reference: Business Update; Job Status.'
+  name: Yelp Data Ingestion API
+  slug: yelp-data-ingestion-api
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: 'Home Services operations documented in the Yelp developer reference: Get Jobs; Get Survey; Request a Quote.'
+  name: Yelp Home Services API
+  slug: yelp-home-services-api
+- baseURL: https://api.yelp.com/v3
+  baseurl_source: declared
+  description: 'Leads operations documented in the Yelp developer reference: Get Lead IDs for a Business; Get Lead; Get Lead Events; Write Event; Mark Lead Event as read; Mark Lead as replied.'
+  name: Yelp Leads API
+  slug: yelp-leads-api
+- baseURL: https://partner-api.yelp.com/listing_management
+  baseurl_source: declared
+  description: 'Listing Management operations documented in the Yelp developer reference: Add subscriptions; Delete subscriptions; Retrieve subscriptions.'
+  name: Yelp Listing Management API
+  slug: yelp-listing-management-api
+- baseURL: https://api.yelp.com/oauth2
+  baseurl_source: declared
+  description: 'OAuth Authorization v2 operations documented in the Yelp developer reference: Revoke Access Token; Get Access Token v2; Get Access Token v3.'
+  name: Yelp OAuth Authorization v2 API
+  slug: yelp-oauth-authorization-v2-api
+- baseURL: https://partner-api.yelp.com
+  baseurl_source: declared
+  description: 'Partner Support operations documented in the Yelp developer reference: Program List All; Business Info; Business Migration Info; Program Info; Program List.'
+  name: Yelp Partner Support API
+  slug: yelp-partner-support-api
+- baseURL: https://partner-api.yelp.com/program
+  baseurl_source: declared
+  description: 'Program Feature operations documented in the Yelp developer reference: Create a portfolio project draft; Retrieve Program Feature; Add Program Feature; Delete Program Feature; Get Portfolio Photos; Up'
+  name: Yelp Program Feature API
+  slug: yelp-program-feature-api
+- baseURL: https://partner-api.yelp.com
+  baseurl_source: declared
+  description: 'Respond to Reviews API operations documented in the Yelp developer reference: Respond to Review; Get Access Token; Get Businesses Associated with Access Token; Retrieve Business Owner Information.'
+  name: Yelp Respond to Reviews API
+  slug: yelp-respond-to-reviews-api
+- baseURL: https://api.yelp.com/v3/webhooks
+  baseurl_source: declared
+  description: 'Webhooks operations documented in the Yelp developer reference: Subscribe to Webhooks; Linkout Attribution; Get Webhook Signing Keys; Add Business IDs to Allow List; Remove Business IDs from Allow Lis'
+  name: Yelp Webhooks API
+  slug: yelp-webhooks-api
+- baseURL: https://partner-api.yelp.com/
+  baseurl_source: declared
+  description: The Access Token API from Yelp — 1 operation(s) for access token.
+  name: Yelp Access Token API
+  slug: yelp-access-token-api
+- baseURL: https://partner-api.yelp.com/syndication/feed
+  baseurl_source: declared
+  description: The Add API from Yelp — 1 operation(s) for add.
+  name: Yelp Add API
+  slug: yelp-add-api
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: The Bookings API from Yelp — 6 operation(s) for bookings.
+  name: Yelp Bookings API
+  slug: yelp-bookings-api
+- baseURL: https://partner-api.yelp.com/checkout
+  baseurl_source: declared
+  description: The Checkout API API from Yelp — 8 operation(s) for checkout api.
+  name: Yelp Checkout API
+  slug: yelp-checkout-api-api
+- baseURL: https://partner-api.yelp.com/analytics
+  baseurl_source: declared
+  description: The Daily Reports API from Yelp — 4 operation(s) for daily reports.
+  name: Yelp Daily Reports API
+  slug: yelp-daily-reports-api
+- baseURL: https://partner_base_url
+  baseurl_source: declared
+  description: The Fulfillment API API from Yelp — 1 operation(s) for fulfillment api.
+  name: Yelp Fulfillment API
+  slug: yelp-fulfillment-api-api
+- baseURL: https://partner-api.yelp.com/syndication/feed
+  baseurl_source: declared
+  description: The List API from Yelp — 1 operation(s) for list.
+  name: Yelp List API
+  slug: yelp-list-api
+- baseURL: https://partner-api.yelp.com/analytics
+  baseurl_source: declared
+  description: The Monthly Reports API from Yelp — 4 operation(s) for monthly reports.
+  name: Yelp Monthly Reports API
+  slug: yelp-monthly-reports-api
+- baseURL: https://api.yelp.com/oauth2
+  baseurl_source: declared
+  description: The OAuth Authorization v3 API from Yelp — 1 operation(s) for oauth authorization v3.
+  name: Yelp OAuth Authorization v3 API
+  slug: yelp-oauth-authorization-v3-api
+- baseURL: https://partner-api.yelp.com/program
+  baseurl_source: declared
+  description: The Portfolio Photo API from Yelp — 2 operation(s) for portfolio photo.
+  name: Yelp Portfolio Photo API
+  slug: yelp-portfolio-photo-api
+- baseURL: https://partner-api.yelp.com/program
+  baseurl_source: declared
+  description: The Portfolio Project API from Yelp — 2 operation(s) for portfolio project.
+  name: Yelp Portfolio Project API
+  slug: yelp-portfolio-project-api
+- baseURL: https://partner-api.yelp.com/syndication/feed
+  baseurl_source: declared
+  description: The Quota API from Yelp — 2 operation(s) for quota.
+  name: Yelp Quota API
+  slug: yelp-quota-api
+- baseURL: https://partner-api.yelp.com/syndication/feed
+  baseurl_source: declared
+  description: The Remove API from Yelp — 1 operation(s) for remove.
+  name: Yelp Remove API
+  slug: yelp-remove-api
+- baseURL: https://partner-api.yelp.com/
+  baseurl_source: declared
+  description: The Token API from Yelp — 1 operation(s) for token.
+  name: Yelp Token API
+  slug: yelp-token-api
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: The Waitlist API from Yelp — 7 operation(s) for waitlist.
+  name: Yelp Waitlist API
+  slug: yelp-waitlist-api
+artifact_total: 136
 collections:
 - collection_type: postman
   name: Yelp Fusion AI API
@@ -105,6 +244,135 @@ collections:
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: design
+  href: https://artifacts.apis.io/yelp/rules/yelp-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/yelp-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/rules/yelp-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/yelp-rules.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/rules/yelp-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/yelp-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/json-ld/yelp-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/yelp-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/yelp/vocabulary/yelp-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/yelp-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/yelp/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/data-model/yelp-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/yelp-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/yelp/changelog/yelp-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/yelp-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/conventions/yelp-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/yelp-conventions.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/yelp?view_policy=true
+- group: operate
+  href: https://artifacts.apis.io/yelp/lifecycle/yelp-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/yelp-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/lifecycle/yelp-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/yelp-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/errors/yelp-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/yelp-error-codes.yml
+- group: design
+  href: https://artifacts.apis.io/yelp/errors/yelp-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/yelp-problem-types.yml
+- group: other
+  href: https://artifacts.apis.io/yelp/overlays/yelp-advertising-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/yelp-advertising-api-overlay.yaml
+- group: agent
+  href: https://artifacts.apis.io/yelp/llms/yelp-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/yelp-llms.txt
+- group: build
+  href: https://artifacts.apis.io/yelp/mcp/yelp-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/yelp-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/yelp/mcp/yelp-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/yelp-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/yelp/well-known/yelp-yelp-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/yelp-yelp-security.txt
+- group: auth
+  href: https://artifacts.apis.io/yelp/well-known/yelp-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/yelp-security.txt
+- group: agent
+  href: https://artifacts.apis.io/yelp/well-known/yelp-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/yelp-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/yelp/hosts/yelp-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/yelp-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/yelp/integrations/yelp-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/yelp-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/yelp/vendors/yelp-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/yelp-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/yelp/packages/yelp-packages.yml
+  title: ''
+  type: Packages
+  url: packages/yelp-packages.yml
+- group: auth
+  href: https://artifacts.apis.io/yelp/scopes/yelp-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/yelp-scopes.yml
 - group: other
   href: https://artifacts.apis.io/yelp/capabilities/yelp-capability-edges.yml
   title: ''
@@ -214,6 +482,14 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/yelp-com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.yelp-support.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.yelp.com/tos/privacy_policy
 - group: agent
   title: ''
   type: LlmsText
@@ -355,6 +631,9 @@ integrations:
 - description: Reviews and Leads webhooks push real-time events to partner endpoints.
   name: Webhooks
 json_schemas:
+- name: AddRemoveBusinessesToAllowListResponse
+  property_count: 1
+  slug: yelp-add-remove-businesses-to-allow-list-response
 - name: AiChatRequest
   property_count: 4
   slug: yelp-ai-chat-request
@@ -365,7 +644,7 @@ json_schemas:
   property_count: 3
   slug: yelp-autocomplete-response
 - name: BusinessDetail
-  property_count: 0
+  property_count: 6
   slug: yelp-business-detail
 - name: BusinessHours
   property_count: 3
@@ -379,6 +658,12 @@ json_schemas:
 - name: Category
   property_count: 5
   slug: yelp-category
+- name: client_id
+  property_count: 0
+  slug: yelp-client-id
+- name: client_secret
+  property_count: 0
+  slug: yelp-client-secret
 - name: Coordinates
   property_count: 2
   slug: yelp-coordinates
@@ -388,15 +673,54 @@ json_schemas:
 - name: EventSearchResponse
   property_count: 2
   slug: yelp-event-search-response
+- name: GenericAttributionWebhookRequest
+  property_count: 9
+  slug: yelp-generic-attribution-webhook-request
+- name: GetEventsResponse
+  property_count: 1
+  slug: yelp-get-events-response
+- name: LeadObject
+  property_count: 13
+  slug: yelp-lead-object
 - name: Location
   property_count: 9
   slug: yelp-location
+- name: MarkLeadAsRepliedRequest
+  property_count: 1
+  slug: yelp-mark-lead-as-replied-request
+- name: MarkLeadEventAsReadRequest
+  property_count: 2
+  slug: yelp-mark-lead-event-as-read-request
+- name: MatchingCriteria
+  property_count: 12
+  slug: yelp-matching-criteria
 - name: Review
   property_count: 6
   slug: yelp-review
 - name: ReviewsResponse
   property_count: 3
   slug: yelp-reviews-response
+- name: Access Token Request
+  property_count: 7
+  slug: yelp-token-authorization-code-request
+- name: Response when calling this endpoint using an authorization code.
+  property_count: 8
+  slug: yelp-token-authorization-code-response
+- name: Refresh Access Token Request
+  property_count: 5
+  slug: yelp-token-refresh-token-request
+- name: Response when calling this endpoint using a refresh token.
+  property_count: 4
+  slug: yelp-token-refresh-token-response
+- name: Update
+  property_count: 2
+  slug: yelp-update
+- name: WebhookKeySet
+  property_count: 1
+  slug: yelp-webhook-key-set
+- name: WriteLeadEventRequest
+  property_count: 2
+  slug: yelp-write-lead-event-request
 json_structures:
 - name: Yelp Ai Chat Request Structure
   property_count: 4
@@ -441,29 +765,37 @@ json_structures:
   property_count: 3
   slug: yelp-reviews-response-structure
 jsonld:
+- class_count: 25
+  name: Yelp Context
+  property_count: 86
+  slug: yelp-context
 - class_count: 13
   name: Yelp Fusion Api Context
   property_count: 80
   slug: yelp-fusion-api-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: MCP server requiring an API key; 1 tool listed.
+  name: Yelp MCP Server
+  slug: yelp-agent
+modified: '2026-11-05'
 name: Yelp
 nav: Providers
 network: true
-overview: 'Yelp is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including AI API, Businesses API, Categories API, and 2 more. Tagged areas include Restaurant, Local Search, Reviews, Business Data, and Location.
+overview: 'Yelp publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Businesses API, Categories API, and 29 more. Tagged areas include Restaurant, Local Search, Reviews, Business Data, and Location.
 
 
-  The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Yelp catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 32 more developer resources.'
+  Yelp''s developer surface includes changelog, authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, and 60 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
   plan_count: 3
   slug: yelp-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 4
+- limit_count: 2
   name: Yelp Rate Limits
   slug: yelp-rate-limits
 rules:
@@ -479,6 +811,18 @@ rules:
     warn: 4
   slug: yelp-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Yelp API Rules
+  rule_count: 61
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 7
+    warn: 14
+  slug: yelp-rules
+- authorship: generated
   effective_rule_count: 80
   extends:
   - spectral:oas
@@ -490,51 +834,60 @@ rules:
     info: 9
     warn: 24
   slug: yelp-spectral-rules
+scopes:
+- name: Yelp Scopes
+  scope_count: 3
+  slug: yelp-scopes
+  summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.1
+  composite: 64.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 84.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 31.0
+    artifact_dirs: 40
+    catalog_earned: 89.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.1
   facets:
-    access_clarity: 65.8
+    access_clarity: 76.3
     contract_governance: 27.3
-    contract_quality: 73.9
-    developer_ergonomics: 77.4
-    discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 65.1
+    contract_quality: 73.0
+    developer_ergonomics: 83.9
+    discoverability: 76.7
+    operational_transparency: 57.9
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 97.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 72.7
+      total: 33
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 37.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/yelp/yelp-2026-06-20T201740.png
 security:
 - kind: authentication
   name: Yelp Authentication
   slug: yelp-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Yelp Domain Security
   slug: yelp-domain-security
@@ -543,6 +896,18 @@ security:
   name: Yelp Vulnerability Disclosure
   slug: yelp-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 5
+skills:
+- name: yelp-ask-yelp-ai
+  slug: yelp-ask-yelp-ai
+- name: yelp-book-a-reservation
+  slug: yelp-book-a-reservation
+- name: yelp-find-and-vet-a-business
+  slug: yelp-find-and-vet-a-business
+- name: yelp-respond-to-a-review
+  slug: yelp-respond-to-a-review
+- name: yelp-work-a-lead
+  slug: yelp-work-a-lead
 slug: yelp
 tags:
 - Restaurant
@@ -550,6 +915,8 @@ tags:
 - Reviews
 - Business Data
 - Location
+- Places
+- Generative AI
 use_cases:
 - description: Power restaurant and food discovery experiences with search, ratings, and photos.
   name: Restaurant Discovery

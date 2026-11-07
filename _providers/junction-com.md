@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Paid
   onboarding: unknown
   pricing: paid
@@ -8,13 +8,15 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -27,17 +29,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-10-31'
+  score: 43.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -966,6 +969,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/junction-com-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.junction.com/blog
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.junction.com/llms.txt
 created: '2026-05-25'
 description: Junction (formerly Vital, and tryVital before that) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKit, Android Health Connect, Oura, Whoop, Garmin, Fitbit, Withings, Dexcom, Freestyle Libre, Withings, Polar, and the rest — through the Vital Link Widget; ingest normalized daily summaries and per-sample timeseries for sleep, activity, body, workouts, heart rate, HRV, glucose, blood pressure, SpO2, ECG, and menstrual cycle; order at-home testkits, at-home phlebotomy, walk-in / Patient Service Center lab collection, and on-site collection across all 50 U.S. states; retrieve structured biomarker results; and run Junction Sense continuous queries to turn raw data into clinically actionable insights. Backed by SOC 2 Type 2, ISO 27001, GDPR-ready, and HIPAA-compliant infrastructure with both
   US and EU regional deployments.
@@ -1098,7 +1109,7 @@ overview: 'Junction publishes 22 API contracts indexed on the [APIs.io](https://
   The Junction catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Junction''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, developer console, and 86 more developer resources.'
+  Junction''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, developer console, and 88 more developer resources.'
 plans:
 - name: Junction Com Plans Pricing
   plan_count: 2
@@ -1146,30 +1157,36 @@ rules:
   slug: vital-rules
 score:
   band: exemplar
-  composite: 73.2
+  composite: 75.2
   coverage:
-    artifact_dirs: 37
+    artifact_dirs: 39
     catalog_earned: 78.8
     catalog_earned_first_party: 16.0
     catalog_gap: 36.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 81.6
     contract_governance: 35.6
-    contract_quality: 70.2
-    developer_ergonomics: 82.1
-    discoverability: 70.0
-    operational_transparency: 76.3
-  previous_composite: 73.2
+    contract_quality: 75.1
+    developer_ergonomics: 78.6
+    discoverability: 80.0
+    operational_transparency: 68.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 85.7
       total: 21
     mcp: first-party
   regulatory:
@@ -1182,13 +1199,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/junction-com/junction-com-2026-06-20T201103.png
 security:
 - kind: authentication

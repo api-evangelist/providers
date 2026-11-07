@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -26,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -112,6 +126,21 @@ asyncapis:
   name: Shipcloud Webhooks
   slug: shipcloud-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-web-2025-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/shipcloud-web-2025-security.txt
+- group: auth
+  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/shipcloud-status-security.txt
+- group: build
+  href: https://artifacts.apis.io/shipcloud/integrations/shipcloud-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/shipcloud-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/shipcloud/capabilities/shipcloud-capability-edges.yml
   title: ''
@@ -207,11 +236,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/shipcloud-support-security.txt
-- group: auth
-  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/shipcloud-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-well-known.yml
   title: ''
@@ -316,7 +340,7 @@ json_schemas:
   property_count: 13
   slug: shipcloud-shipment-put
 - name: shipment_response_object
-  property_count: 0
+  property_count: 27
   slug: shipcloud-shipment-response-object
 - name: shipment
   property_count: 18
@@ -337,7 +361,7 @@ overview: 'shipcloud publishes 14 API contracts indexed on the [APIs.io](https:/
   The shipcloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  shipcloud''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
+  shipcloud''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 1
@@ -345,16 +369,16 @@ rate_limits:
   slug: shipcloud-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 99
   extends:
   - spectral:oas
   name: shipcloud API Rules
-  rule_count: 12
+  rule_count: 58
   severity_counts:
-    error: 10
+    error: 50
     hint: 0
     info: 1
-    warn: 1
+    warn: 7
   slug: shipcloud-rules
 - authorship: provider
   effective_rule_count: 41
@@ -370,35 +394,35 @@ rules:
   slug: shipcloud-shipcloud-developer-portal-spectral-rules
 score:
   band: developing
-  composite: 53.6
+  composite: 48.3
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 31
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 6.6
     contract_governance: 22.0
-    contract_quality: 71.4
-    developer_ergonomics: 69.0
-    discoverability: 66.1
-    operational_transparency: 84.2
+    contract_quality: 78.2
+    developer_ergonomics: 47.6
+    discoverability: 73.2
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 53.6
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 14
     mcp: derived
   regulatory:
@@ -407,13 +431,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/shipcloud/shipcloud-2026-10-11T125804.png
 security:
 - kind: authentication

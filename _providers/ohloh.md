@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The REST API for Black Duck Open Hub (formerly Ohloh). Returns XML wrapped in a <response> root element that always carries a <status> (success/failed) and an <error> on failure. Requests append .xml '
@@ -134,7 +137,7 @@ rate_limits:
   slug: ohloh-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 25.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 40.0
@@ -148,9 +151,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 25.2
+    discoverability: 64.3
+    operational_transparency: 23.7
+  previous_composite: 25.6
   provenance:
     conformance: derived
     mcp: derived
@@ -160,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

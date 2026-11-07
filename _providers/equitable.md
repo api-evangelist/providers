@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: An API capability that acts as a digital bridge between systems, enabling automatic creation and configuration of employee benefits plans for small and medium-sized businesses. Integrated with Employe
@@ -107,7 +109,7 @@ rate_limits:
   slug: equitable-rate-limits
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 43.0
@@ -122,16 +124,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 10.1
+    operational_transparency: 10.5
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

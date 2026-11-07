@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-10-31'
+  score: 52.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -97,7 +98,7 @@ apis:
   description: The Email Seat API from Gojiberry AI — 1 operation(s) for email seat.
   name: Gojiberry AI Email Seat API
   slug: gojiberry-ai-email-seat-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Gojiberry Ai Webhooks
@@ -315,7 +316,7 @@ network: true
 overview: 'Gojiberry AI publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including AppExternal API, Campaigns API, Contacts API, and 7 more. Tagged areas include Company, Sales, Lead Generation, Sales Intelligence, and AI Agents.
 
 
-  The Gojiberry AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Gojiberry AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Gojiberry AI''s developer surface includes engineering blog, developer portal, documentation, API reference, authentication, pricing, signup flow, and 29 more developer resources.'
@@ -331,37 +332,50 @@ rate_limits:
 - limit_count: 1
   name: Gojiberry Ai Rate Limits
   slug: gojiberry-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Gojiberry AI API Rules
+  rule_count: 56
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 4
+    warn: 7
+  slug: gojiberry-ai-rules
 scopes:
 - name: Gojiberry Ai Scopes
   scope_count: 2
   slug: gojiberry-ai-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 56.0
+    artifact_dirs: 30
+    catalog_earned: 60.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: 0.7
   facets:
-    access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 52.8
+    access_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 58.9
     developer_ergonomics: 47.0
-    discoverability: 65.0
-    operational_transparency: 50.0
-  previous_composite: 52.1
+    discoverability: 75.0
+    operational_transparency: 39.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 55.6
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 55.6
       total: 18
     mcp: first-party
     skills: derived
@@ -371,13 +385,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/gojiberry-ai/gojiberry-ai-2026-07-25T220016.png
 security:
 - kind: authentication

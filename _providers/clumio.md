@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Regional REST API for the Clumio backup-as-a-service platform. Manage AWS and GCP connections, backup policies and protection rules, protection groups, organizational units, users, roles, compliance r
@@ -180,9 +181,9 @@ overview: 'Clumio is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 1
 score:
   band: thin
-  composite: 36.4
+  composite: 32.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,10 +194,10 @@ score:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 36.4
+    developer_ergonomics: 45.2
+    discoverability: 71.7
+    operational_transparency: 34.2
+  previous_composite: 32.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -210,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -235,6 +236,7 @@ tags:
 - Data Protection
 - Disaster Recovery
 - Cloud
+- Amazon Web Services
 - Storage
 - Security
 - Compliance

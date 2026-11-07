@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-31'
+  score: 41.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Energy Storage Resource public data, launched May 29, 2025 per the ERCOT Public Data API release notes, beginning with four-second ESR charging MW telemetry (GET /rptesr-m/4_sec_esr_charging_mw). Docu
@@ -236,7 +237,7 @@ apis:
   description: The Versioning API from ERCOT — 1 operation(s) for versioning.
   name: ERCOT Versioning API
   slug: ercot-versioning-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Ercot Ews Notifications
@@ -437,7 +438,7 @@ network: true
 overview: 'ERCOT publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including EMIL Products API, NP3 233 CD API, NP3 565 CD API, and 38 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
-  The ERCOT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ERCOT catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ERCOT''s developer surface includes engineering blog, authentication, changelog, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
@@ -446,6 +447,19 @@ rate_limits:
 - limit_count: 2
   name: Ercot Rate Limits
   slug: ercot-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: ERCOT API Rules
+  rule_count: 53
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 7
+  slug: ercot-rules
 scopes:
 - name: Ercot Scopes
   scope_count: 3
@@ -453,22 +467,22 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: developing
-  composite: 49.8
+  composite: 53.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 38.0
+    artifact_dirs: 26
+    catalog_earned: 42.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 77.0
+    catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 54.3
+    contract_governance: 18.2
+    contract_quality: 59.4
     developer_ergonomics: 58.9
-    discoverability: 53.6
-    operational_transparency: 57.9
+    discoverability: 60.7
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -476,13 +490,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.8
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 37
     mcp: derived
     skills: derived
@@ -492,13 +506,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/ercot/ercot-2026-08-07T164957.png
 security:
 - kind: authentication

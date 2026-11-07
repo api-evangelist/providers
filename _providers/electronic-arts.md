@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Requires approval
-  onboarding: approval
-  pricing: freemium
-  public: false
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Public-facing presence of Electronic Arts. Covers EA's corporate site, consumer game services, the EA app, EA Play subscription, and EA Help support surfaces. EA does not publish a developer API porta
@@ -223,9 +231,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 33.6
+  composite: 32.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -236,10 +244,10 @@ score:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 21.4
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 33.6
+  previous_composite: 32.1
   provenance:
     conformance: first-party
   regulatory:
@@ -248,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

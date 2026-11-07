@@ -11,12 +11,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    agentic_commerce: false
+    agentic_commerce: platform
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-31'
+  score: 31.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -116,7 +117,7 @@ apis:
   description: Player skin and cape texture lookup
   name: Mojang Textures API
   slug: mojang-textures-api
-artifact_total: 143
+artifact_total: 169
 collections:
 - collection_type: open
   name: Minecraft Services Attributes API
@@ -170,6 +171,90 @@ collections:
   name: Minecraft Services Attributes Textures API
   slug: open-mojang-textures-api
 common:
+- group: design
+  href: https://artifacts.apis.io/mojang/rules/mojang-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/mojang-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/rules/mojang-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/mojang-rules.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/rules/mojang-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/mojang-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/json-ld/mojang-session-server-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/mojang-session-server-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/mojang/json-ld/mojang-public-api-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/mojang-public-api-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/mojang/json-ld/mojang-minecraft-services-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/mojang-minecraft-services-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/mojang/json-ld/mojang-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/mojang-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/mojang/vocabulary/mojang-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/mojang-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/data-model/mojang-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/mojang-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/errors/mojang-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/mojang-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/mojang/conformance/mojang-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/mojang-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/mojang/llms/mojang-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/mojang-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/mojang/well-known/mojang-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/mojang-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/mojang/hosts/mojang-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/mojang-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/mojang/integrations/mojang-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/mojang-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/mojang/vendors/mojang-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/mojang-vendors.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.minecraft.net/hc/en-us/articles/360045950932-Minecraft-Getting-Started-with-Redstone
 - group: operate
   title: ''
   type: IssueTracker
@@ -261,6 +346,18 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/mojang-api-context.jsonld
+coverage:
+  checked: '2026-11-05'
+  detail: Mojang runs live public APIs on api.mojang.com, sessionserver.mojang.com and api.minecraftservices.com but publishes no OpenAPI or developer docs of its own; the only reference is the community minecraft.wiki page, so the contracts here remain community-derived.
+  evidence:
+  - status: 404
+    url: https://api.minecraftservices.com/openapi.json
+  - status: 404
+    url: https://sessionserver.mojang.com/openapi.json
+  - status: 404
+    url: https://api.mojang.com/.well-known/agent-card.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-05-28'
 description: 'Mojang Studios is the developer of Minecraft. The Mojang / Minecraft Services API surface covers Minecraft player identity (UUID and profile lookup), skins and capes, name history and name change, server session verification, blocked server lists, player attributes (privacy, chat, friends settings), friends graph, presence, public keys for profile signature verification, and account entitlements. Endpoints span three hosts: the legacy api.mojang.com, the session-server sessionserver.mojang.com (Yggdrasil), and the modern Microsoft-side api.minecraftservices.com. Most read endpoints are public and unauthenticated; player-account endpoints require a Bearer Minecraft access token obtained via the Xbox Live / XSTS authentication chain.'
 examples:
@@ -449,6 +546,78 @@ json_schemas:
 - name: XboxLoginRequest
   property_count: 2
   slug: minecraft-services-xbox-login-request
+- name: AuthenticatedProfile
+  property_count: 5
+  slug: mojang-authenticated-profile
+- name: Blocklist
+  property_count: 1
+  slug: mojang-blocklist
+- name: CapeSelection
+  property_count: 1
+  slug: mojang-cape-selection
+- name: ChangeSkinRequest
+  property_count: 2
+  slug: mojang-change-skin-request
+- name: Entitlements
+  property_count: 3
+  slug: mojang-entitlements
+- name: FriendUpdateRequest
+  property_count: 3
+  slug: mojang-friend-update-request
+- name: FriendsList
+  property_count: 4
+  slug: mojang-friends-list
+- name: JoinRequest
+  property_count: 3
+  slug: mojang-join-request
+- name: MinecraftAccessToken
+  property_count: 5
+  slug: mojang-minecraft-access-token
+- name: NameAvailability
+  property_count: 1
+  slug: mojang-name-availability
+- name: NameChangeInfo
+  property_count: 3
+  slug: mojang-name-change-info
+- name: NameChange
+  property_count: 2
+  slug: mojang-name-change
+- name: PlayerAttributes
+  property_count: 4
+  slug: mojang-player-attributes
+- name: PlayerAttributesUpdate
+  property_count: 2
+  slug: mojang-player-attributes-update
+- name: PlayerCertificates
+  property_count: 5
+  slug: mojang-player-certificates
+- name: PresenceEntry
+  property_count: 3
+  slug: mojang-presence-entry
+- name: PresenceReport
+  property_count: 2
+  slug: mojang-presence-report
+- name: Profile_2
+  property_count: 4
+  slug: mojang-profile-2
+- name: Profile
+  property_count: 2
+  slug: mojang-profile
+- name: PublicKeys
+  property_count: 3
+  slug: mojang-public-keys
+- name: SaleStatisticsRequest
+  property_count: 1
+  slug: mojang-sale-statistics-request
+- name: SaleStatistics
+  property_count: 3
+  slug: mojang-sale-statistics
+- name: SessionProfile
+  property_count: 4
+  slug: mojang-session-profile
+- name: XboxLoginRequest
+  property_count: 2
+  slug: mojang-xbox-login-request
 - name: NameChange
   property_count: 2
   slug: public-api-name-change
@@ -578,6 +747,10 @@ jsonld:
   name: Mojang Api Context
   property_count: 0
   slug: mojang-api-context
+- class_count: 36
+  name: Mojang Context
+  property_count: 75
+  slug: mojang-context
 - class_count: 32
   name: Mojang Minecraft Services Context
   property_count: 55
@@ -598,10 +771,10 @@ network: true
 overview: 'Mojang is listed with 14 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authentication API, Blocklist API, and 11 more. Tagged areas include Minecraft, Gaming, Identity, Player Profiles, and Sessions.
 
 
-  The Mojang catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Mojang catalog on APIs.io includes 5 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Mojang''s developer surface includes authentication, documentation, and 19 more developer resources.'
+  Mojang''s developer surface includes getting-started guide, authentication, documentation, and 35 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 6
@@ -620,6 +793,18 @@ rules:
     warn: 3
   slug: mojang-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 116
+  extends:
+  - spectral:oas
+  name: Mojang API Rules
+  rule_count: 75
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 3
+    warn: 7
+  slug: mojang-rules
+- authorship: generated
   effective_rule_count: 89
   extends:
   - spectral:oas
@@ -632,44 +817,48 @@ rules:
     warn: 24
   slug: mojang-spectral-rules
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 63.0
+    artifact_dirs: 25
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 0.0
-    contract_governance: 27.3
-    contract_quality: 22.0
-    developer_ergonomics: 21.4
+    contract_governance: 31.8
+    contract_quality: 28.1
+    developer_ergonomics: 33.3
     discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 24.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 17
       marker_coverage: 100.0
       total: 17
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mojang/mojang-2026-06-20T185707.png
 security:
 - kind: authentication

@@ -1,11 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-10-31'
+  score: 33.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -890,7 +905,7 @@ modified: '2026-10-30'
 name: api-ninjas-com
 nav: Providers
 network: true
-overview: 'api-ninjas-com publishes 141 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advice API, AI API, Air Quality API, and 138 more. Tagged areas include Company, API, Data, Finance, and Developer.
+overview: 'api-ninjas-com publishes 141 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advice API, AI API, Air Quality API, and 138 more. Tagged areas include Company, Data, Finance, and Developers.
 
 
   The api-ninjas-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -925,34 +940,48 @@ scopes:
   slug: api-ninjas-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.2
+  band: developing
+  composite: 45.4
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 34
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.3
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 61.2
-    developer_ergonomics: 37.4
-    discoverability: 66.1
-    operational_transparency: 36.8
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 64.2
+    developer_ergonomics: 27.9
+    discoverability: 57.1
+    operational_transparency: 18.4
+  previous_composite: 55.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 141
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/api-ninjas-com/api-ninjas-com-2026-11-03T120922.png
 security:
 - kind: authentication
   name: Api Ninjas Com Authentication
@@ -971,9 +1000,8 @@ skills:
 slug: api-ninjas-com
 tags:
 - Company
-- API
 - Data
 - Finance
-- Developer
+- Developers
 website: https://api-ninjas.com/
 ---

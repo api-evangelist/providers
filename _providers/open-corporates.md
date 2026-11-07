@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API providing access to the world's largest open database of companies. Search and retrieve company registration data, officer information, corporate filings, and jurisdiction data across more th
@@ -129,9 +131,9 @@ rate_limits:
   slug: open-corporates-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 20.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -144,16 +146,16 @@ score:
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 21.3
+    operational_transparency: 21.1
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

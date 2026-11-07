@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: http://localhost:3000/api
@@ -64,7 +65,7 @@ apis:
   description: Tenant secrets created by the TSP and stored in the Config Broker
   name: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Vendor API Bridge Configuration Assignment API
@@ -261,33 +262,49 @@ network: true
 overview: 'IronCore Labs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration Assignment API, KMS Configuration API, Tag API, and 2 more. Tagged areas include Company, Encryption, Privacy, Security, and Application-Layer Encryption.
 
 
+  The IronCore Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 30 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: IronCore Labs API Rules
+  rule_count: 61
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 9
+  slug: ironcore-labs-rules
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 32.0
+    artifact_dirs: 26
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 1.3
   facets:
     access_clarity: 47.4
-    contract_governance: 4.5
-    contract_quality: 47.9
+    contract_governance: 18.2
+    contract_quality: 56.7
     developer_ergonomics: 74.4
-    discoverability: 57.1
-    operational_transparency: 55.3
-  previous_composite: 52.2
+    discoverability: 64.3
+    operational_transparency: 52.6
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -297,13 +314,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ironcore-labs/ironcore-labs-2026-07-25T222920.png
 security:
 - kind: authentication

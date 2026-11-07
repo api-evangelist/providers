@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Form-encoded REST API for phone verification and OTP: issue a session token, normalize a phone number, send a pincode over SMS or voice, and verify the user-entered code. Responses carry status plus p'
@@ -162,9 +163,9 @@ overview: 'RingCaptcha (ThriveCom) is listed with 1 API on the [APIs.io](https:/
 random_paper: 17
 score:
   band: thin
-  composite: 29.5
+  composite: 29.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,10 +176,10 @@ score:
     access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 29.5
+    developer_ergonomics: 51.2
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 29.6
   provenance:
     conformance: derived
     mcp: derived
@@ -192,8 +193,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

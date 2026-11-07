@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The HTTP interface of every Urbit ship, served by the Eyre kernel vane. Clients authenticate by POSTing the ship's web login code to /~/login for an urbauth session cookie, then interact through chann
@@ -184,9 +187,9 @@ overview: 'Urbit is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 22
 score:
   band: thin
-  composite: 32.6
+  composite: 32.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -198,9 +201,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 32.6
+    discoverability: 71.7
+    operational_transparency: 18.4
+  previous_composite: 32.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -211,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

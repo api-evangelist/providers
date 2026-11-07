@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: derived
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-31'
+  score: 32.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -82,7 +86,27 @@ apis:
   description: The Workspace API from Absentify — 1 operation(s) for workspace.
   name: Absentify Workspace API
   slug: absentify-workspace-api
-artifact_total: 75
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Allowance Management API from Absentify — 20 operation(s) for allowance management.
+  name: Absentify Allowance Management API
+  slug: absentify-allowance-management-api
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Exports API from Absentify — 2 operation(s) for exports.
+  name: Absentify Exports API
+  slug: absentify-exports-api
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Out of office API from Absentify — 2 operation(s) for out of office.
+  name: Absentify Out of office API
+  slug: absentify-out-of-office-api
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Overtime API from Absentify — 5 operation(s) for overtime.
+  name: Absentify Overtime API
+  slug: absentify-overtime-api
+artifact_total: 79
 collections:
 - collection_type: postman
   name: Absentify Absences API
@@ -350,7 +374,7 @@ modified: '2026-05-19'
 name: Absentify
 nav: Providers
 network: true
-overview: 'Absentify publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 4 more. Tagged areas include Absence Management, Human Resources, Leave Management, and Microsoft Teams.
+overview: 'Absentify publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 8 more. Tagged areas include Absence Management, Human Resources, Leave Management, and Microsoft Teams.
 
 
   The Absentify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -392,23 +416,23 @@ rules:
   slug: absentify-spectral-rules
 score:
   band: strong
-  composite: 54.6
+  composite: 56.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 76.0
     catalog_earned_first_party: 12.0
     catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: -1.0
   facets:
     access_clarity: 71.1
     contract_governance: 27.3
-    contract_quality: 70.2
+    contract_quality: 69.5
     developer_ergonomics: 34.5
     discoverability: 57.1
-    operational_transparency: 34.2
-  previous_composite: 53.3
+    operational_transparency: 26.3
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -422,13 +446,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/absentify/absentify-2026-06-20T163354.png
 security:
 - kind: authentication

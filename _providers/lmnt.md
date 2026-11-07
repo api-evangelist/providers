@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -230,9 +234,9 @@ rules:
   slug: lmnt-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 35.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
@@ -242,11 +246,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 51.8
+    contract_quality: 53.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 35.8
+    operational_transparency: 23.7
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -260,13 +264,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lmnt/lmnt-2026-06-20T184626.png
 security:
 - kind: authentication

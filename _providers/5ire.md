@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -189,9 +190,9 @@ overview: '5ire is listed with 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 13
 score:
   band: emerging
-  composite: 24.2
+  composite: 23.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -202,9 +203,9 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 71.4
-    operational_transparency: 26.3
+    developer_ergonomics: 48.8
+    discoverability: 78.6
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +214,10 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 24.2
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 23.4
   provenance:
     conformance: derived
   regulatory:
@@ -222,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

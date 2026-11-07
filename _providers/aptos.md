@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -360,22 +362,22 @@ json_schemas:
   property_count: 0
   slug: AccountSignature
 - name: AccountSignature_AbstractSignature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_AbstractSignature
 - name: AccountSignature_Ed25519Signature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_Ed25519Signature
 - name: AccountSignature_MultiEd25519Signature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_MultiEd25519Signature
 - name: AccountSignature_MultiKeySignature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_MultiKeySignature
 - name: AccountSignature_NoAccountSignature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_NoAccountSignature
 - name: AccountSignature_SingleKeySignature
-  property_count: 0
+  property_count: 1
   slug: AccountSignature_SingleKeySignature
 - name: Address
   property_count: 0
@@ -411,13 +413,13 @@ json_schemas:
   property_count: 2
   slug: BlockMetadataExtensionRandomnessAndDecKey
 - name: BlockMetadataExtension_BlockMetadataExtensionEmpty
-  property_count: 0
+  property_count: 1
   slug: BlockMetadataExtension_BlockMetadataExtensionEmpty
 - name: BlockMetadataExtension_BlockMetadataExtensionRandomness
-  property_count: 0
+  property_count: 1
   slug: BlockMetadataExtension_BlockMetadataExtensionRandomness
 - name: BlockMetadataExtension_BlockMetadataExtensionRandomnessAndDecKey
-  property_count: 0
+  property_count: 1
   slug: BlockMetadataExtension_BlockMetadataExtensionRandomnessAndDecKey
 - name: BlockMetadataTransaction
   property_count: 19
@@ -477,25 +479,25 @@ json_schemas:
   property_count: 0
   slug: EncryptedTransactionInnerPayload
 - name: EncryptedTransactionInnerPayload_EntryFunctionPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionInnerPayload_EntryFunctionPayload
 - name: EncryptedTransactionInnerPayload_MultisigPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionInnerPayload_MultisigPayload
 - name: EncryptedTransactionInnerPayload_ScriptPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionInnerPayload_ScriptPayload
 - name: EncryptedTransactionPayload
   property_count: 0
   slug: EncryptedTransactionPayload
 - name: EncryptedTransactionPayload_DecryptedPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionPayload_DecryptedPayload
 - name: EncryptedTransactionPayload_EncryptedPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionPayload_EncryptedPayload
 - name: EncryptedTransactionPayload_FailedDecryptionPayload
-  property_count: 0
+  property_count: 1
   slug: EncryptedTransactionPayload_FailedDecryptionPayload
 - name: EntryFunctionId
   property_count: 0
@@ -540,7 +542,7 @@ json_schemas:
   property_count: 0
   slug: GenesisPayload
 - name: GenesisPayload_WriteSetPayload
-  property_count: 0
+  property_count: 1
   slug: GenesisPayload_WriteSetPayload
 - name: GenesisTransaction
   property_count: 12
@@ -648,10 +650,10 @@ json_schemas:
   property_count: 0
   slug: MultisigTransactionPayload
 - name: MultisigTransactionPayload_EntryFunctionPayload
-  property_count: 0
+  property_count: 1
   slug: MultisigTransactionPayload_EntryFunctionPayload
 - name: MultisigTransactionPayload_ScriptPayload
-  property_count: 0
+  property_count: 1
   slug: MultisigTransactionPayload_ScriptPayload
 - name: NoAccountSignature
   property_count: 0
@@ -666,22 +668,22 @@ json_schemas:
   property_count: 0
   slug: PublicKey
 - name: PublicKey_Ed25519
-  property_count: 0
+  property_count: 1
   slug: PublicKey_Ed25519
 - name: PublicKey_FederatedKeyless
-  property_count: 0
+  property_count: 1
   slug: PublicKey_FederatedKeyless
 - name: PublicKey_Keyless
-  property_count: 0
+  property_count: 1
   slug: PublicKey_Keyless
 - name: PublicKey_Secp256k1Ecdsa
-  property_count: 0
+  property_count: 1
   slug: PublicKey_Secp256k1Ecdsa
 - name: PublicKey_Secp256r1Ecdsa
-  property_count: 0
+  property_count: 1
   slug: PublicKey_Secp256r1Ecdsa
 - name: PublicKey_SlhDsa_Sha2_128s
-  property_count: 0
+  property_count: 1
   slug: PublicKey_SlhDsa_Sha2_128s
 - name: RSA_JWK
   property_count: 5
@@ -693,7 +695,7 @@ json_schemas:
   property_count: 0
   slug: ReplayProtector
 - name: ReplayProtector_string(U64)
-  property_count: 0
+  property_count: 1
   slug: ReplayProtector_string(U64)
 - name: RequestedMultipliers
   property_count: 2
@@ -717,19 +719,19 @@ json_schemas:
   property_count: 0
   slug: Signature
 - name: Signature_Ed25519
-  property_count: 0
+  property_count: 1
   slug: Signature_Ed25519
 - name: Signature_Keyless
-  property_count: 0
+  property_count: 1
   slug: Signature_Keyless
 - name: Signature_Secp256k1Ecdsa
-  property_count: 0
+  property_count: 1
   slug: Signature_Secp256k1Ecdsa
 - name: Signature_SlhDsa_Sha2_128s
-  property_count: 0
+  property_count: 1
   slug: Signature_SlhDsa_Sha2_128s
 - name: Signature_WebAuthn
-  property_count: 0
+  property_count: 1
   slug: Signature_WebAuthn
 - name: SingleKeySignature
   property_count: 2
@@ -759,64 +761,64 @@ json_schemas:
   property_count: 0
   slug: TransactionPayload
 - name: TransactionPayload_DeprecatedModuleBundlePayload
-  property_count: 0
+  property_count: 1
   slug: TransactionPayload_DeprecatedModuleBundlePayload
 - name: TransactionPayload_EncryptedTransactionPayload
-  property_count: 0
+  property_count: 1
   slug: TransactionPayload_EncryptedTransactionPayload
 - name: TransactionPayload_EntryFunctionPayload
-  property_count: 0
+  property_count: 1
   slug: TransactionPayload_EntryFunctionPayload
 - name: TransactionPayload_MultisigPayload
-  property_count: 0
+  property_count: 1
   slug: TransactionPayload_MultisigPayload
 - name: TransactionPayload_ScriptPayload
-  property_count: 0
+  property_count: 1
   slug: TransactionPayload_ScriptPayload
 - name: TransactionSignature
   property_count: 0
   slug: TransactionSignature
 - name: TransactionSignature_AccountSignature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_AccountSignature
 - name: TransactionSignature_Ed25519Signature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_Ed25519Signature
 - name: TransactionSignature_FeePayerSignature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_FeePayerSignature
 - name: TransactionSignature_MultiAgentSignature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_MultiAgentSignature
 - name: TransactionSignature_MultiEd25519Signature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_MultiEd25519Signature
 - name: TransactionSignature_NoAccountSignature
-  property_count: 0
+  property_count: 1
   slug: TransactionSignature_NoAccountSignature
 - name: TransactionSummary
   property_count: 4
   slug: TransactionSummary
 - name: Transaction_BlockEpilogueTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_BlockEpilogueTransaction
 - name: Transaction_BlockMetadataTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_BlockMetadataTransaction
 - name: Transaction_GenesisTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_GenesisTransaction
 - name: Transaction_PendingTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_PendingTransaction
 - name: Transaction_StateCheckpointTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_StateCheckpointTransaction
 - name: Transaction_UserTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_UserTransaction
 - name: Transaction_ValidatorTransaction
-  property_count: 0
+  property_count: 1
   slug: Transaction_ValidatorTransaction
 - name: TransactionsBatchSingleSubmissionFailure
   property_count: 2
@@ -843,25 +845,25 @@ json_schemas:
   property_count: 0
   slug: UserTxnLimitsRequest
 - name: UserTxnLimitsRequest_DelegatedVoterLimitsRequest
-  property_count: 0
+  property_count: 1
   slug: UserTxnLimitsRequest_DelegatedVoterLimitsRequest
 - name: UserTxnLimitsRequest_DelegationPoolDelegatorLimitsRequest
-  property_count: 0
+  property_count: 1
   slug: UserTxnLimitsRequest_DelegationPoolDelegatorLimitsRequest
 - name: UserTxnLimitsRequest_StakePoolOwnerLimitsRequest
-  property_count: 0
+  property_count: 1
   slug: UserTxnLimitsRequest_StakePoolOwnerLimitsRequest
 - name: ValidatorTransaction
   property_count: 0
   slug: ValidatorTransaction
 - name: ValidatorTransaction_ChunkyDKGResultTransaction
-  property_count: 0
+  property_count: 1
   slug: ValidatorTransaction_ChunkyDKGResultTransaction
 - name: ValidatorTransaction_DKGResultTransaction
-  property_count: 0
+  property_count: 1
   slug: ValidatorTransaction_DKGResultTransaction
 - name: ValidatorTransaction_JWKUpdateTransaction
-  property_count: 0
+  property_count: 1
   slug: ValidatorTransaction_JWKUpdateTransaction
 - name: VersionedEvent
   property_count: 5
@@ -885,31 +887,31 @@ json_schemas:
   property_count: 0
   slug: WriteSetChange
 - name: WriteSetChange_DeleteModule
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_DeleteModule
 - name: WriteSetChange_DeleteResource
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_DeleteResource
 - name: WriteSetChange_DeleteTableItem
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_DeleteTableItem
 - name: WriteSetChange_WriteModule
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_WriteModule
 - name: WriteSetChange_WriteResource
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_WriteResource
 - name: WriteSetChange_WriteTableItem
-  property_count: 0
+  property_count: 1
   slug: WriteSetChange_WriteTableItem
 - name: WriteSetPayload
   property_count: 1
   slug: WriteSetPayload
 - name: WriteSet_DirectWriteSet
-  property_count: 0
+  property_count: 1
   slug: WriteSet_DirectWriteSet
 - name: WriteSet_ScriptWriteSet
-  property_count: 0
+  property_count: 1
   slug: WriteSet_ScriptWriteSet
 - name: WriteTableItem
   property_count: 5
@@ -963,27 +965,27 @@ score:
   band: strong
   composite: 56.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 69.3
     catalog_earned_first_party: 12.0
     catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.1
   facets:
     access_clarity: 84.2
     contract_governance: 9.8
-    contract_quality: 54.5
+    contract_quality: 58.8
     developer_ergonomics: 77.4
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 55.3
+    operational_transparency: 10.5
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
   regulatory:
     applies: true
@@ -991,13 +993,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/aptos/aptos-2026-06-20T172345.png
 security:
 - kind: domain-security

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
@@ -10,6 +13,7 @@ access_model:
   - authentication
   - rate-limits
   - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -22,23 +26,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-31'
+  score: 34.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -771,16 +776,16 @@ json_schemas:
   property_count: 4
   slug: gzw-data-Capabilities
 - name: MetadataResponse
-  property_count: 0
+  property_count: 1
   slug: gzw-data-MetadataResponse
 - name: ObjectResponse
   property_count: 6
   slug: gzw-data-ObjectResponse
 - name: PaginatedResponse
-  property_count: 0
+  property_count: 6
   slug: gzw-data-PaginatedResponse
 - name: RecordResponse
-  property_count: 0
+  property_count: 1
   slug: gzw-data-RecordResponse
 - name: ammo
   property_count: 13
@@ -1073,30 +1078,30 @@ rules:
   slug: gzw-data-spectral
 score:
   band: strong
-  composite: 57.0
+  composite: 57.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 58.8
     catalog_earned_first_party: 16.0
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
-    contract_quality: 44.8
-    developer_ergonomics: 70.8
+    contract_quality: 49.4
+    developer_ergonomics: 67.3
     discoverability: 83.9
-    operational_transparency: 57.9
-  previous_composite: 57.0
+    operational_transparency: 55.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 95
     mcp: derived
     skills: derived
@@ -1106,13 +1111,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/gzw-data/gzw-data-2026-09-02T145643.png
 security:
 - kind: authentication

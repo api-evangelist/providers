@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Impart Security's v0 REST management API — programmatically manage specs, API/log bindings, connectors, core rules, rule scripts and recipes, lists, labels, tags, event monitors, and notification temp
@@ -133,10 +134,10 @@ overview: 'Impart Security is listed with 1 API on the [APIs.io](https://apis.io
   Impart Security''s developer surface includes documentation, engineering blog, signup flow, support, authentication, and 12 more developer resources.'
 random_paper: 2
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 23.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -147,10 +148,10 @@ score:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 26.4
+    developer_ergonomics: 31.0
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 23.9
   provenance:
     conformance: first-party
   regulatory:
@@ -159,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

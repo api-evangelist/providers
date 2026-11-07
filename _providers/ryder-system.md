@@ -1,13 +1,18 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  gated: partner
+  gated_source:
+  - x-api-posture
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -360,9 +366,9 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 36.5
+  composite: 35.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -372,15 +378,15 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 55.0
+    contract_quality: 53.9
     developer_ergonomics: 45.2
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 36.5
+    operational_transparency: 7.9
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 63.6
       derived: 0
       marker_coverage: 0.0
       total: 11
@@ -390,13 +396,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ryder-system/ryder-system-2026-06-20T193310.png
 security:
 - kind: authentication

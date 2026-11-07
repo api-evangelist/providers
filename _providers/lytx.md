@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.4
-  scored_at: '2026-10-31'
+  score: 48.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -232,7 +233,7 @@ apis:
   description: The Zones (GO9) API from Lytx — 1 operation(s) for zones (go9).
   name: Lytx Zones (GO9) API
   slug: lytx-zones-go9-api
-artifact_total: 83
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Lytx Webhooks
@@ -484,30 +485,43 @@ network: true
 overview: 'Lytx publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consent API, Devices (DriveCam) API, Devices (GO9) API, and 34 more. Tagged areas include Company, Fleet Management, Video Telematics, Vehicle Safety, and GPS Tracking.
 
 
-  The Lytx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lytx catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Lytx''s developer surface includes engineering blog, documentation, getting-started guide, authentication, API reference, support, and 20 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Lytx API Rules
+  rule_count: 56
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 6
+    warn: 17
+  slug: lytx-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 42.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
+    artifact_dirs: 23
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 4.5
-    contract_quality: 57.3
-    developer_ergonomics: 63.7
-    discoverability: 70.0
+    contract_governance: 18.2
+    contract_quality: 58.8
+    developer_ergonomics: 61.3
+    discoverability: 80.0
     operational_transparency: 23.7
-  previous_composite: 40.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -524,13 +538,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lytx/lytx-2026-07-25T225802.png
 security:
 - kind: authentication

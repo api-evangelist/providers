@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -28,6 +29,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -96,7 +98,7 @@ apis:
   description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: 'Real-time AI music detection over WebSocket. The client streams audio and receives per-window vocal AI verdicts as they become available, followed by a final clip-level summary including instrumental '
   name: Velma 2 AI Music Detection Streaming API
@@ -314,7 +316,7 @@ network: true
 overview: 'Modulate publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Velma 2 Accent Batch API, Velma 2 Ai Music Detection Batch API, Velma 2 Batch API, and 8 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech-to-Text, and Transcription.
 
 
-  The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
+  The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
@@ -330,24 +332,37 @@ rate_limits:
 - limit_count: 3
   name: Modulate Rate Limits
   slug: modulate-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Modulate API Rules
+  rule_count: 53
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 2
+    warn: 9
+  slug: modulate-rules
 score:
   band: strong
-  composite: 63.5
+  composite: 64.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 67.0
+    artifact_dirs: 27
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 59.5
     developer_ergonomics: 66.1
-    discoverability: 71.4
-    operational_transparency: 36.8
+    discoverability: 78.6
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -355,7 +370,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 61.9
+  previous_composite: 64.8
   provenance:
     conformance: first-party
     contracts:
@@ -375,13 +390,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 26.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/modulate/modulate-2026-08-07T184031.png
 security:
 - kind: authentication

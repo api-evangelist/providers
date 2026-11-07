@@ -1,20 +1,23 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,21 +28,22 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: true
-    idempotency: false
-    mcp_server: documented
+    idempotency: verified
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.8
-  scored_at: '2026-10-31'
+  score: 71.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -134,7 +138,57 @@ apis:
   description: The Workflows API from Didit — 2 operation(s) for workflows.
   name: Didit Workflows API
   slug: didit-workflows-api
-artifact_total: 46
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The AML Ongoing Monitoring API from Didit — 3 operation(s) for aml ongoing monitoring.
+  name: Didit AML Ongoing Monitoring API
+  slug: didit-aml-ongoing-monitoring-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Biometric Templates API from Didit — 4 operation(s) for biometric templates.
+  name: Didit Biometric Templates API
+  slug: didit-biometric-templates-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Case Assignment API from Didit — 6 operation(s) for case assignment.
+  name: Didit Case Assignment API
+  slug: didit-case-assignment-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Case Management API from Didit — 15 operation(s) for case management.
+  name: Didit Case Management API
+  slug: didit-case-management-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Digital ID wallets API from Didit — 29 operation(s) for digital id wallets.
+  name: Didit Digital ID wallets API
+  slug: didit-digital-id-wallets-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The draft API from Didit — 1 operation(s) for draft.
+  name: Didit Draft API
+  slug: didit-draft-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Fraud Check API from Didit — 3 operation(s) for fraud check.
+  name: Didit Fraud Check API
+  slug: didit-fraud-check-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The history API from Didit — 1 operation(s) for history.
+  name: Didit History API
+  slug: didit-history-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Networks API from Didit — 16 operation(s) for networks.
+  name: Didit Networks API
+  slug: didit-networks-api
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The publish API from Didit — 1 operation(s) for publish.
+  name: Didit Publish API
+  slug: didit-publish-api
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Didit Webhooks
@@ -378,10 +432,10 @@ modified: '2026-07-18'
 name: Didit
 nav: Providers
 network: true
-overview: 'Didit publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Businesses API, Case Blueprints API, and 14 more. Tagged areas include Identity, Identity Verification, KYC, KYB, and AML.
+overview: 'Didit publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Businesses API, Case Blueprints API, and 24 more. Tagged areas include Identity, Identity Verification, KYC, KYB, and AML.
 
 
-  The Didit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Didit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Didit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -393,40 +447,53 @@ plans:
   plan_count: 0
   slug: didit-price-estimates
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Didit API Rules
+  rule_count: 55
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 7
+    warn: 12
+  slug: didit-rules
 scopes:
 - name: Didit Scopes
   scope_count: 5
   slug: didit-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.1
+  band: exemplar
+  composite: 71.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 53.9
+    contract_governance: 31.8
+    contract_quality: 51.6
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 44.7
+    discoverability: 75.0
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 57.3
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 3
       marker_coverage: 6.7
       total: 45
@@ -446,13 +513,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 45.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/didit/didit-2026-07-25T211951.png
 security:
 - kind: authentication

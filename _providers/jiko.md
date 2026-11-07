@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -214,7 +219,7 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.4
+  composite: 52.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -228,9 +233,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 55.3
-  previous_composite: 51.4
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: quarter
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-31'
+  score: 36.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.uxcam.com/v2
@@ -54,7 +55,7 @@ apis:
   description: App users tracked by the UXCam SDK
   name: UXCam Users API
   slug: uxcam-users-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: UXCam Data Access Events API
@@ -231,27 +232,43 @@ network: true
 overview: 'UXCam publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Events API, Sessions API, and Users API. Tagged areas include Company, Product Analytics, Session Replay, Mobile Analytics, and Heatmaps.
 
 
+  The UXCam catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: UXCam API Rules
+  rule_count: 50
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 1
+  slug: uxcam-rules
 score:
   band: developing
-  composite: 42.2
+  composite: 44.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 70.8
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 42.2
+    discoverability: 75.0
+    operational_transparency: 44.7
+  previous_composite: 40.7
   provenance:
     conformance: derived
     contracts:
@@ -271,13 +288,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/uxcam/uxcam-2026-08-17T082703.png
 security:
 - kind: authentication

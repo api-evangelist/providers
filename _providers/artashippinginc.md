@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-31'
+  score: 23.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -267,7 +278,7 @@ rules:
   slug: artashippinginc-rules
 score:
   band: emerging
-  composite: 21.4
+  composite: 21.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -279,11 +290,17 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 19.7
-    contract_quality: 63.2
+    contract_quality: 65.1
     developer_ergonomics: 1.8
     discoverability: 35.7
     operational_transparency: 0.0
-  previous_composite: 21.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: venue_as_website
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,13 +317,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/artashippinginc/artashippinginc-2026-10-11T100404.png
 security:
 - kind: domain-security

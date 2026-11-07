@@ -1,12 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  label: Enterprise
   onboarding: unknown
-  pricing: freemium
+  pricing: enterprise
   public: false
   source:
-  - plans
+  - finops
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-31'
+  score: 23.7
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Iress Sourcing APIs bring the UK mortgage and protection sourcing data behind The Exchange, Xplan Mortgage and Trigold directly into a CRM, platform or website. Access is arranged with Iress; no publi
@@ -214,24 +217,24 @@ rate_limits:
   name: Iress Rate Limits
   slug: iress-rate-limits
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.7
   facets:
-    access_clarity: 42.1
+    access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 64.3
-    operational_transparency: 5.3
-  previous_composite: 26.3
+    contract_quality: 24.0
+    developer_ergonomics: 28.6
+    discoverability: 70.5
+    operational_transparency: 2.6
+  previous_composite: 30.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -240,9 +243,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 26.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

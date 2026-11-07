@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,6 +89,16 @@ asyncapis:
   name: Mailsenpai Webhooks
   slug: mailsenpai-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mailsenpai/finops/mailsenpai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mailsenpai-finops.yml
+- group: build
+  href: https://artifacts.apis.io/mailsenpai/integrations/mailsenpai-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/mailsenpai-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/mailsenpai/capabilities/mailsenpai-capability-edges.yml
   title: ''
@@ -151,11 +174,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/mailsenpai-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/mailsenpai/well-known/mailsenpai-gitlab-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mailsenpai-gitlab-security.txt
 - group: agent
   href: https://artifacts.apis.io/mailsenpai/well-known/mailsenpai-well-known.yml
   title: ''
@@ -279,7 +297,7 @@ overview: 'SMTP Senpai (MailSenpai) publishes 7 API contracts indexed on the [AP
   The SMTP Senpai (MailSenpai) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SMTP Senpai (MailSenpai)''s developer surface includes authentication, signup flow, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+  SMTP Senpai (MailSenpai)''s developer surface includes authentication, signup flow, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
 plans:
 - name: Mailsenpai Plans Pricing
   plan_count: 4
@@ -290,41 +308,41 @@ plans:
 random_paper: 3
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 102
   extends:
   - spectral:oas
   name: SMTP Senpai (MailSenpai) API Rules
-  rule_count: 16
+  rule_count: 61
   severity_counts:
-    error: 14
+    error: 51
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 8
   slug: mailsenpai-rules
 score:
-  band: strong
-  composite: 60.6
+  band: developing
+  composite: 52.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 30
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -8.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 35.6
     contract_quality: 72.2
-    developer_ergonomics: 56.5
-    discoverability: 66.1
+    developer_ergonomics: 38.7
+    discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - italy
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 59.1
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -332,7 +350,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -344,14 +362,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/mailsenpai/mailsenpai-2026-11-03T135252.png
 security:
 - kind: authentication
   name: Mailsenpai Authentication

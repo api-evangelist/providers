@@ -1,10 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-31'
+  score: 29.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -175,7 +187,7 @@ modified: '2026-10-30'
 name: agentbit-app
 nav: Providers
 network: true
-overview: 'agentbit-app publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Google Ads - Account API, Google Ads - Audit API, Google Ads - Query API, and 5 more. Tagged areas include Company, AI, Tools, Pay-per-call, and Data.
+overview: 'agentbit-app publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Google Ads - Account API, Google Ads - Audit API, Google Ads - Query API, and 5 more. Tagged areas include Company, Artificial Intelligence, Tools, Pay-per-call, and Data.
 
 
   The agentbit-app catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -202,34 +214,48 @@ scopes:
   slug: agentbit-app-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.5
+  band: thin
+  composite: 31.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 53.0
+    artifact_dirs: 25
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.8
   facets:
     access_clarity: 0.0
-    contract_governance: 70.9
-    contract_quality: 48.4
-    developer_ergonomics: 58.8
-    discoverability: 63.3
-    operational_transparency: 10.5
+    contract_governance: 19.7
+    contract_quality: 51.4
+    developer_ergonomics: 38.6
+    discoverability: 62.5
+    operational_transparency: 5.3
+  previous_composite: 36.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/agentbit-app/agentbit-app-2026-11-03T120347.png
 security:
 - kind: authentication
   name: Agentbit App Authentication
@@ -246,7 +272,7 @@ skills:
 slug: agentbit-app
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
 - Pay-per-call
 - Data

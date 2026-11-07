@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Commercial sound-effects generation API exposing the OptimizerAI text-to-sfx v2 model. Access is contract-based (annual pre-payment) across Ultra-Fast/Fast (dedicated) and Slow (shared) tiers, each wi
@@ -121,9 +123,9 @@ plans:
 random_paper: 21
 score:
   band: emerging
-  composite: 25.1
+  composite: 23.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -134,18 +136,18 @@ score:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 57.1
+    developer_ergonomics: 23.8
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 25.1
+  previous_composite: 23.9
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

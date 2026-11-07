@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -179,9 +181,9 @@ rules:
   slug: cni-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.9
+  composite: 24.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
@@ -194,16 +196,19 @@ score:
     contract_quality: 22.7
     developer_ergonomics: 9.5
     discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 19.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

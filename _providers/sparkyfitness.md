@@ -1,18 +1,22 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,18 +30,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: derived
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-31'
+  score: 29.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A first-party Model Context Protocol server running in-process inside the SparkyFitness API server, mounted at POST /mcp over a stateless streamable HTTP transport. 56 tools across food, exercise, che
@@ -148,7 +153,7 @@ apis:
   description: Health metrics tracking (weight, measurements, sleep, mood) and fasting.
   name: SparkyFitness Wellness & Metrics API
   slug: sparkyfitness-wellness-metrics-api
-artifact_total: 32
+artifact_total: 33
 common:
 - group: operate
   href: https://artifacts.apis.io/sparkyfitness/rate-limits/sparkyfitness-rate-limits.yml
@@ -272,6 +277,9 @@ network: true
 overview: 'SparkyFitness publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, AI API, AI & Insights API, and 19 more. Tagged areas include Company, Health, Fitness, Nutrition, and Self-Hosted.
 
 
+  The SparkyFitness catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SparkyFitness'' developer surface includes documentation, API reference, getting-started guide, support, FAQ, changelog, and 18 more developer resources.'
 plans:
 - name: Sparkyfitness Plans Pricing
@@ -282,25 +290,38 @@ rate_limits:
 - limit_count: 2
   name: Sparkyfitness Rate Limits
   slug: sparkyfitness-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: SparkyFitness API Rules
+  rule_count: 57
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 2
+    warn: 11
+  slug: sparkyfitness-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 34.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 45.0
+    artifact_dirs: 23
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 4.5
-    contract_quality: 12.1
+    contract_governance: 18.2
+    contract_quality: 15.1
     developer_ergonomics: 56.5
-    discoverability: 65.0
-    operational_transparency: 42.1
-  previous_composite: 29.6
+    discoverability: 68.3
+    operational_transparency: 39.5
+  previous_composite: 34.6
   provenance:
     conformance: derived
     contracts:
@@ -316,13 +337,12 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/sparkyfitness/sparkyfitness-2026-09-02T160339.png
 security:
 - kind: authentication

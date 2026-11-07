@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
@@ -134,9 +136,9 @@ rate_limits:
   slug: intermedia-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 13.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -149,16 +151,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 26.2
     discoverability: 62.5
-    operational_transparency: 13.2
-  previous_composite: 13.4
+    operational_transparency: 10.5
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

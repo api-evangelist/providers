@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'All-in-one REST API for digital investing: onboarding, accounts (GIA/ISA/JISA/SIPP), funding, custody, trading, portfolio management, transfers, cash savings, valuations, performance and reporting. OA'
@@ -178,9 +181,9 @@ overview: 'WealthKernel is listed with 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 14
 score:
   band: developing
-  composite: 44.1
+  composite: 44.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -192,8 +195,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 28.9
+    discoverability: 73.2
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -202,7 +205,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.1
+  previous_composite: 44.4
   provenance:
     conformance: first-party
   regulatory:
@@ -211,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

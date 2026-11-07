@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -30,6 +33,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -40,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
@@ -69,7 +73,7 @@ apis:
   description: OAuth
   name: Playable OAUTH API
   slug: playable-oauth-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Playable Webhooks
@@ -281,7 +285,7 @@ network: true
 overview: 'Playable publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, User API, and 3 more. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
 
 
-  The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Playable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -294,6 +298,19 @@ rate_limits:
 - limit_count: 1
   name: Playable Rate Limits
   slug: playable-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Playable API Rules
+  rule_count: 53
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 3
+    warn: 8
+  slug: playable-rules
 scopes:
 - name: Playable Scopes
   scope_count: 37
@@ -301,29 +318,29 @@ scopes:
   summary_line: 37 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.5
+  composite: 66.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 31
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.3
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 56.0
+    contract_governance: 18.2
+    contract_quality: 61.3
     developer_ergonomics: 73.2
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 44.7
-  previous_composite: 64.0
+  previous_composite: 64.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: site-plugin
     skills: derived
@@ -337,13 +354,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/playable/playable-2026-08-17T080409.png
 security:
 - kind: authentication
@@ -379,6 +395,7 @@ tags:
 - Loyalty
 - MarTech
 - Webhook
+- OAuth
 - Authentication
 website: https://playable.com/
 ---

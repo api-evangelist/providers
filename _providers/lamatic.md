@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Lamatic API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
@@ -280,28 +293,30 @@ rules:
   slug: lamatic-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 41.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 63.8
     catalog_earned_first_party: 12.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.4
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 35.6
     contract_quality: 20.3
-    developer_ergonomics: 54.8
-    discoverability: 57.1
-    operational_transparency: 44.7
+    developer_ergonomics: 40.5
+    discoverability: 64.3
+    operational_transparency: 26.3
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 5
+      derived: 1
       marker_coverage: 100.0
-      total: 5
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -312,13 +327,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/lamatic/lamatic-2026-11-03T134624.png
 security:
 - kind: authentication
   name: Lamatic Authentication

@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -27,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 26.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -139,7 +141,7 @@ arazzos:
 - description: List a terminal, start a card transaction on it, and poll to the outcome.
   name: Paymentsense Pay-At-Counter — take a card payment
   slug: paymentsense-pac-take-payment
-artifact_total: 33
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Paymentsense Connect Events
@@ -342,7 +344,7 @@ network: true
 overview: 'Paymentsense publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Cross Reference Payment API, Hospitality Reports API, and 15 more. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Card Payments.
 
 
-  The Paymentsense catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Paymentsense catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 29 more developer resources.'
@@ -354,24 +356,37 @@ plans:
   plan_count: 0
   slug: paymentsense-price-estimates
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Paymentsense API Rules
+  rule_count: 45
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 1
+    warn: 9
+  slug: paymentsense-rules
 score:
   band: strong
-  composite: 63.8
+  composite: 65.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 55.0
+    artifact_dirs: 30
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.6
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 56.3
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 61.9
     developer_ergonomics: 66.1
-    discoverability: 71.4
-    operational_transparency: 44.7
+    discoverability: 78.6
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -380,14 +395,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 55.9
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 41.2
       total: 17
     mcp: derived
     skills: derived
@@ -397,13 +412,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/paymentsense/paymentsense-2026-08-07T191642.png
 security:
 - kind: authentication

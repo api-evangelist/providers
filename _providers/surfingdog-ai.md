@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.5
-  scored_at: '2026-10-31'
+  score: 65.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 9
@@ -324,7 +339,7 @@ modified: '2026-10-30'
 name: surfingdog-ai
 nav: Providers
 network: true
-overview: 'surfingdog-ai publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Census API, Directory API, Integrations API, and 10 more. Tagged areas include Company, AI, Agent-Ready, Directory, and Inbox.
+overview: 'surfingdog-ai publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Census API, Directory API, Integrations API, and 10 more. Tagged areas include Company, Artificial Intelligence, Agent Ready, Directory, and Inbox.
 
 
   The surfingdog-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -359,22 +374,30 @@ scopes:
   slug: surfingdog-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.2
+  band: developing
+  composite: 49.7
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 34
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.9
   facets:
-    access_clarity: 42.1
+    access_clarity: 21.1
     contract_governance: 35.6
-    contract_quality: 56.2
-    developer_ergonomics: 70.7
-    discoverability: 65.0
-    operational_transparency: 36.8
+    contract_quality: 57.8
+    developer_ergonomics: 48.1
+    discoverability: 75.0
+    operational_transparency: 34.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -390,13 +413,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/surfingdog-ai/surfingdog-ai-2026-11-03T144111.png
 security:
 - kind: authentication
   name: Surfingdog Ai Authentication
@@ -417,8 +441,8 @@ skills:
 slug: surfingdog-ai
 tags:
 - Company
-- AI
-- Agent-Ready
+- Artificial Intelligence
+- Agent Ready
 - Directory
 - Inbox
 website: https://surfingdog.ai/

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -132,9 +144,9 @@ rate_limits:
   slug: agentifai-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 14.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -146,7 +158,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -156,7 +168,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 13.9
+  previous_composite: 14.7
   provenance:
     conformance: first-party
   regulatory:
@@ -165,8 +177,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

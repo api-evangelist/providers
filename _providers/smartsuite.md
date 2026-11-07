@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for managing Solutions, Tables, Records, and Fields in the SmartSuite work management platform. Authentication uses an API Token passed in the Authorization header with the Workspace ID in th
@@ -95,9 +97,9 @@ overview: 'SmartSuite is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 1
 score:
   band: emerging
-  composite: 18.6
+  composite: 16.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -108,18 +110,18 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 14.3
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

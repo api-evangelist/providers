@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: PayJunction offers a payment processing API suite covering transactions, recurring billing, ACH, and card‑on‑file capabilities. Documentation and a sandbox are provided via the developer portal.
@@ -33,6 +45,31 @@ apis:
   slug: payjunction-api
 artifact_total: 11
 common:
+- group: design
+  href: https://artifacts.apis.io/payjunction/rules/payjunction-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/payjunction-rules.yml
+- group: design
+  href: https://artifacts.apis.io/payjunction/json-ld/payjunction-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/payjunction-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/payjunction/vocabulary/payjunction-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/payjunction-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/payjunction/data-model/payjunction-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/payjunction-data-model.yml
+- group: auth
+  href: https://artifacts.apis.io/payjunction/well-known/payjunction-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/payjunction-status-security.txt
 - group: commercial
   href: https://artifacts.apis.io/payjunction/plans/payjunction-plans-pricing.yml
   title: ''
@@ -43,11 +80,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/payjunction-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/payjunction/well-known/payjunction-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/payjunction-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/payjunction/well-known/payjunction-well-known.yml
   title: ''
@@ -153,13 +185,13 @@ modified: '2026-10-27'
 name: PayJunction
 nav: Providers
 network: true
-overview: 'PayJunction is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, FinTech, API, SaaS, and B2B.
+overview: 'PayJunction is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Fintech, Software-as-a-Service, and B2B.
 
 
   The PayJunction catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PayJunction''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
+  PayJunction''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Payjunction Plans Pricing
   plan_count: 3
@@ -167,54 +199,57 @@ plans:
 random_paper: 4
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: PayJunction API Rules
-  rule_count: 10
+  rule_count: 37
   severity_counts:
-    error: 9
+    error: 35
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: payjunction-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 28.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 56.8
+    artifact_dirs: 20
+    catalog_earned: 53.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.3
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.7
   facets:
-    access_clarity: 50.0
-    contract_governance: 29.5
-    contract_quality: 18.2
-    developer_ergonomics: 52.4
-    discoverability: 53.6
-    operational_transparency: 31.6
+    access_clarity: 40.8
+    contract_governance: 35.6
+    contract_quality: 16.3
+    developer_ergonomics: 29.8
+    discoverability: 44.6
+    operational_transparency: 21.1
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 1
       marker_coverage: 100.0
-      total: 9
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/payjunction/payjunction-2026-11-03T141017.png
 security:
 - kind: domain-security
   name: Payjunction Domain Security
@@ -223,9 +258,8 @@ security:
 slug: payjunction
 tags:
 - Payments
-- FinTech
-- API
-- SaaS
+- Fintech
+- Software-as-a-Service
 - B2B
 website: https://payjunction.com/
 ---

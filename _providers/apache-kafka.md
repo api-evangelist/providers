@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -202,6 +204,24 @@ collections:
   slug: open-kafka-rest-proxy
 common:
 - group: other
+  href: https://artifacts.apis.io/apache-kafka/hosts/apache-kafka-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/apache-kafka-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/apache-kafka/vendors/apache-kafka-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/apache-kafka-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.apache.org/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://kafka.apache.org/community/developer/
+- group: other
   href: https://artifacts.apis.io/apache-kafka/capabilities/apache-kafka-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -342,20 +362,10 @@ common:
   type: MCPServer
   url: mcp/apache-kafka-mcp.yml
 - group: agent
-  href: https://artifacts.apis.io/apache-kafka/llms/apache-kafka-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/apache-kafka-llms.txt
-- group: agent
   href: https://artifacts.apis.io/apache-kafka/well-known/apache-kafka-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apache-kafka-well-known.yml
-- group: auth
-  href: https://artifacts.apis.io/apache-kafka/well-known/apache-kafka-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/apache-kafka-security.txt
 - group: design
   href: https://artifacts.apis.io/apache-kafka/errors/apache-kafka-error-codes.yml
   title: ''
@@ -396,10 +406,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/apache-kafka-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/apachekafka
 - group: build
   title: ''
   type: GitHubOrganization
@@ -790,7 +796,7 @@ overview: 'Apache Kafka publishes 16 API contracts indexed on the [APIs.io](http
   The Apache Kafka catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 6 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 57 more developer resources.'
+  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 58 more developer resources.'
 plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
@@ -825,16 +831,16 @@ rules:
     warn: 4
   slug: apache-kafka-jsonschema-spectral-rules
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 94
   extends:
   - spectral:oas
   name: Apache Kafka API Rules
-  rule_count: 10
+  rule_count: 53
   severity_counts:
-    error: 9
+    error: 48
     hint: 0
     info: 1
-    warn: 0
+    warn: 4
   slug: apache-kafka-rules
 - authorship: generated
   effective_rule_count: 61
@@ -850,23 +856,26 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 51.3
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 36
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
     access_clarity: 18.4
     contract_governance: 31.8
     contract_quality: 59.3
-    developer_ergonomics: 38.1
-    discoverability: 56.7
-    operational_transparency: 47.4
-  previous_composite: 42.6
+    developer_ergonomics: 47.6
+    discoverability: 63.3
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -882,13 +891,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/apache-kafka/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security

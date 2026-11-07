@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-31'
+  score: 30.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -184,9 +185,9 @@ rules:
   slug: crisp-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 27.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 39.8
     catalog_earned_first_party: 0.0
     catalog_gap: 75.3
@@ -198,9 +199,9 @@ score:
     contract_governance: 11.4
     contract_quality: 53.9
     developer_ergonomics: 23.8
-    discoverability: 57.1
-    operational_transparency: 18.4
-  previous_composite: 27.9
+    discoverability: 60.0
+    operational_transparency: 15.8
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -215,13 +216,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/crisp/crisp-2026-06-20T175235.png
 security:
 - kind: authentication

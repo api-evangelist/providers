@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -221,9 +224,9 @@ scopes:
   summary_line: 6 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 48.7
+  composite: 49.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -235,7 +238,7 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -245,7 +248,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 48.7
+  previous_composite: 49.4
   provenance:
     conformance: first-party
   regulatory:
@@ -254,8 +257,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -282,9 +285,10 @@ tags:
 - Caller ID
 - Phone Verification
 - Identity
-- Authentication
+- OAuth
 - Spam Detection
 - Communications
 - Mobile SDK
+- Authentication
 website: https://www.truecaller.com
 ---

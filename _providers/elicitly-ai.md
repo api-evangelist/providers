@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Elicitly AI provides AI platform APIs for language model integration, data annotation, and workflow automation as described in the documentation.
@@ -140,7 +153,7 @@ modified: '2026-10-30'
 name: elicitly-ai
 nav: Providers
 network: true
-overview: 'elicitly-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Platform, API, and Automation.
+overview: 'elicitly-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Platform, and Automation.
 
 
   elicitly-ai''s developer surface includes changelog, documentation, pricing, and 17 more developer resources.'
@@ -154,22 +167,30 @@ rate_limits:
   name: Elicitly Ai Rate Limits
   slug: elicitly-ai-rate-limits
 score:
-  band: thin
-  composite: 31.4
+  band: emerging
+  composite: 22.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 52.0
+    artifact_dirs: 12
+    catalog_earned: 47.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 57.1
-    operational_transparency: 47.4
+    developer_ergonomics: 9.5
+    discoverability: 55.4
+    operational_transparency: 34.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 32.1
   provenance:
     mcp: derived
   regulatory:
@@ -177,13 +198,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/elicitly-ai/elicitly-ai-2026-11-03T131427.png
 security:
 - kind: domain-security
   name: Elicitly Ai Domain Security
@@ -196,9 +219,8 @@ security:
 slug: elicitly-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- API
 - Automation
 website: https://elicitly.ai/
 ---

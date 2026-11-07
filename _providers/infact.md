@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The HPZone GraphQL API exposes read access to the HPZone communicable-disease control record — cases, contacts, situations, enquiries, actions and contexts — over a single POST endpoint. Access is by '
@@ -124,7 +139,7 @@ scopes:
   summary_line: 2 scopes · oauth2 client_credentials
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -137,10 +152,10 @@ score:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 13.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -150,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

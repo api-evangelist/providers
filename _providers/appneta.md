@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - rate-limits
   - security
   - '{''url'': ''https://www.appneta.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.broadcom.com/products/software/network-management/appneta — a different registrable domain (appneta.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
@@ -206,9 +208,9 @@ rate_limits:
   slug: appneta-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 42.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -221,16 +223,16 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 57.1
     discoverability: 66.1
-    operational_transparency: 76.3
-  previous_composite: 42.6
+    operational_transparency: 73.7
+  previous_composite: 42.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

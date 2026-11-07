@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -13,6 +16,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -26,7 +30,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-31'
+  score: 41.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -343,7 +348,7 @@ json_schemas:
   property_count: 5
   slug: axiom-co-token-create-request
 - name: TokenCreated
-  property_count: 0
+  property_count: 7
   slug: axiom-co-token-created
 - name: Token
   property_count: 6
@@ -399,9 +404,9 @@ rules:
   slug: axiom-co-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 37.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -411,11 +416,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 19.7
-    contract_quality: 65.9
+    contract_quality: 69.3
     developer_ergonomics: 38.6
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 37.6
+    discoverability: 68.3
+    operational_transparency: 18.4
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,13 +436,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/axiom-co/axiom-co-2026-10-11T181759.png
 security:
 - kind: authentication

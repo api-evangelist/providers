@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-31'
+  score: 32.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://apurata.com
@@ -60,7 +61,7 @@ apis:
   description: Embeddable checkout widgets (HTML)
   name: Apurata Widgets API
   slug: apurata-widgets-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: Outbound webhook events Apurata delivers to a merchant-registered URL as an aCuotaz installment order moves through its lifecycle. Generated from the public webhook documentation at docs.apurata.com/P
   name: Apurata aCuotaz Order Webhooks
@@ -246,29 +247,42 @@ network: true
 overview: 'Apurata publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Buy Now Pay Later.
 
 
-  The Apurata catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Apurata catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Apurata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Apurata API Rules
+  rule_count: 59
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 3
+    warn: 2
+  slug: apurata-rules
 score:
   band: thin
-  composite: 37.5
+  composite: 38.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 32.0
+    artifact_dirs: 25
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 21.7
     developer_ergonomics: 73.2
-    discoverability: 57.1
-    operational_transparency: 23.7
+    discoverability: 64.3
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -276,7 +290,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 37.5
+  previous_composite: 38.8
   provenance:
     conformance: derived
     contracts:
@@ -292,13 +306,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/apurata/apurata-2026-07-25T200944.png
 security:
 - kind: authentication

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -92,7 +93,7 @@ apis:
   description: Internal Pylon users (agents).
   name: Pylon Users API
   slug: pylon-users-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Pylon Accounts API
@@ -200,6 +201,9 @@ network: true
 overview: 'Pylon publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Custom Fields API, and 6 more. Tagged areas include Customer Service, Customer Operations, Ticketing, Knowledge Base, and B2B.
 
 
+  The Pylon catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Pylon''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Pylon Plans Pricing
@@ -210,25 +214,38 @@ rate_limits:
 - limit_count: 3
   name: Pylon Rate Limits
   slug: pylon-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Pylon API Rules
+  rule_count: 60
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 1
+  slug: pylon-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 33.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 17
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 44.7
+    contract_governance: 13.6
+    contract_quality: 48.1
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 28.6
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -242,13 +259,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/pylon/pylon-2026-06-20T192331.png
 security:
 - kind: authentication

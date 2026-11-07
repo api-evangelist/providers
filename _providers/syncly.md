@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,11 +11,13 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,23 +26,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-31'
+  score: 48.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +63,7 @@ apis:
   description: The .well Known API from Syncly — 3 operation(s) for .well known.
   name: Syncly .well Known API
   slug: syncly-well-known-api
-artifact_total: 13
+artifact_total: 14
 common:
 - group: agent
   href: https://artifacts.apis.io/syncly/agentic-access/syncly-agentic-access.yml
@@ -216,6 +222,9 @@ network: true
 overview: 'Syncly publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API and .well Known API. Tagged areas include Company, Social Intelligence, Social Listening, Customer Feedback, and Voice of Customer.
 
 
+  The Syncly catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Syncly''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
 plans:
 - name: Syncly Plans Pricing
@@ -229,6 +238,19 @@ rate_limits:
 - limit_count: 0
   name: Syncly Rate Limits
   slug: syncly-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Syncly API Rules
+  rule_count: 18
+  severity_counts:
+    error: 16
+    hint: 0
+    info: 1
+    warn: 1
+  slug: syncly-rules
 scopes:
 - name: Syncly Scopes
   scope_count: 2
@@ -236,30 +258,30 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.3
+  composite: 50.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.9
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 33.7
+    access_clarity: 78.9
+    contract_governance: 31.8
+    contract_quality: 37.4
     developer_ergonomics: 47.0
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 10.5
-  previous_composite: 48.7
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
     skills: derived
@@ -273,13 +295,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/syncly/syncly-2026-08-17T082226.png
 security:
 - kind: authentication

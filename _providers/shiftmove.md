@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -97,7 +98,7 @@ apis:
   description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
   name: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: Fleet API Specifications Custom fields API
@@ -253,29 +254,45 @@ network: true
 overview: 'Shiftmove publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Custom fields API, Driver assignments API, Drivers API, and 7 more. Tagged areas include Company, Fleet Management, Mobility, Automotive, and Telematics.
 
 
+  The Shiftmove catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Shiftmove''s developer surface includes documentation, API reference, support, signup flow, authentication, changelog, and 18 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Shiftmove Rate Limits
   slug: shiftmove-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Shiftmove API Rules
+  rule_count: 47
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 1
+    warn: 7
+  slug: shiftmove-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 47.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 45.0
+    artifact_dirs: 20
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 42.3
+    contract_governance: 18.2
+    contract_quality: 47.0
     developer_ergonomics: 44.6
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -285,14 +302,14 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 44.6
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 10
     mcp: derived
     skills: derived
@@ -306,13 +323,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/shiftmove/shiftmove-2026-08-17T081831.png
 security:
 - kind: authentication

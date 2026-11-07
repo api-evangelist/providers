@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -26,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,7 +174,7 @@ modified: '2026-10-30'
 name: ffmpeg-api-com
 nav: Providers
 network: true
-overview: 'ffmpeg-api-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: F Fmpeg API. Tagged areas include Video, Audio, MediaProcessing, CloudAPI, and FFmpeg.
+overview: 'ffmpeg-api-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: F Fmpeg API. Tagged areas include Video, Audio, Media Processing, and FFmpeg.
 
 
   The ffmpeg-api-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,43 +205,48 @@ scopes:
   slug: ffmpeg-api-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 31.6
+  band: emerging
+  composite: 24.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 51.8
+    artifact_dirs: 29
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 22.0
-    contract_quality: 17.7
-    developer_ergonomics: 40.5
-    discoverability: 62.5
+    contract_quality: 18.1
+    developer_ergonomics: 26.2
+    discoverability: 53.6
     operational_transparency: 7.9
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
-      derived: 1
+      callable: 50.0
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
     mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/ffmpeg-api-com/ffmpeg-api-com-2026-11-03T131945.png
 security:
 - kind: authentication
   name: Ffmpeg Api Com Authentication
@@ -247,8 +264,7 @@ slug: ffmpeg-api-com
 tags:
 - Video
 - Audio
-- MediaProcessing
-- CloudAPI
+- Media Processing
 - FFmpeg
 website: https://ffmpeg-api.com/
 ---

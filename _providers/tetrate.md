@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -410,10 +414,10 @@ rules:
     warn: 6
   slug: tetrate-service-bridge-rules
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 37.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 66.4
     catalog_earned_first_party: 0.0
     catalog_gap: 48.6
@@ -423,11 +427,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
-    contract_quality: 56.1
-    developer_ergonomics: 47.6
+    contract_quality: 59.5
+    developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 40.3
+    operational_transparency: 23.7
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -441,13 +445,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tetrate/tetrate-2026-06-20T195201.png
 security:
 - kind: authentication

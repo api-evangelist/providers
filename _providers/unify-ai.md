@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.2
-  scored_at: '2026-10-31'
+  score: 21.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -293,9 +298,9 @@ rules:
   slug: unify-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 43.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 70.8
     catalog_earned_first_party: 0.0
     catalog_gap: 44.3
@@ -305,15 +310,15 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 62.2
+    contract_quality: 67.4
     developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 41.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
@@ -323,13 +328,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/unify-ai/unify-ai-2026-06-20T200030.png
 security:
 - kind: authentication

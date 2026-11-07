@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation
@@ -91,9 +93,9 @@ overview: 'CloudConvert is listed with 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 8
 score:
   band: minimal
-  composite: 8.9
+  composite: 9.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -105,9 +107,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 46.7
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 9.2
   provenance:
     mcp: first-party
   regulatory:
@@ -116,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

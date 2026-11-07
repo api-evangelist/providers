@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -12,9 +15,9 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,23 +26,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-31'
+  score: 30.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +62,7 @@ arazzos:
 - description: Build a complete connectivity picture for one UK postcode by calling both Ofcom Connected Nations APIs — fixed broadband availability and mobile coverage across all four UK operators — and joining the
   name: Ofcom postcode connectivity profile
   slug: ofcom-postcode-connectivity-profile
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Ofcom Connected Nations Broadband API
@@ -245,6 +249,9 @@ network: true
 overview: 'Ofcom publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Coverage API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
 
 
+  The Ofcom catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 27 more developer resources.'
 plans:
 - name: Ofcom Plans
@@ -255,20 +262,33 @@ rate_limits:
 - limit_count: 8
   name: Ofcom Rate Limits
   slug: ofcom-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Ofcom API Rules
+  rule_count: 50
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 1
+  slug: ofcom-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 46.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 55.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 48.4
     developer_ergonomics: 51.8
     discoverability: 66.1
@@ -281,7 +301,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.1
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,13 +318,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/ofcom/ofcom-2026-08-07T190010.png
 security:
 - kind: authentication

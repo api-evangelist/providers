@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-10-31'
+  score: 52.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://partners-api.thriveglobal.com
@@ -81,7 +82,7 @@ apis:
   description: Articles, role model stories, and recipes
   name: Thrive Global Stories API
   slug: thrive-global-stories-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Thrive Global Partner audio experiences API
@@ -245,33 +246,49 @@ network: true
 overview: 'Thrive Global publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including audio experiences API, Auth API, Content API, and 5 more. Tagged areas include Company, Consumer, Wellness, Wellbeing, and Behavior Change.
 
 
+  The Thrive Global catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Thrive Global API Rules
+  rule_count: 66
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 5
+  slug: thrive-global-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 41.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 51.9
-    developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 47.7
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 28.0
+    discoverability: 68.3
+    operational_transparency: 18.4
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: derived
@@ -281,13 +298,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/thrive-global/thrive-global-2026-08-17T082348.png
 security:
 - kind: authentication

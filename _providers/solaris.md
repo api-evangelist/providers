@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,13 +42,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
-api_count: 1
+  scored_at: '2026-11-06'
+api_count: 2
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
   name: Solaris Embedded Finance API
   slug: solaris-embedded-finance-api
-artifact_total: 5
+- description: 'solarisBank AG API as documented publicly: 48 operations. Contract generated from the documentation by API Evangelist (2026-10-21); not the provider''s own document.'
+  name: solarisBank AG API
+  slug: solarisbank-api
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Solaris Webhooks
@@ -164,6 +174,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/solaris-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.solarisgroup.com/en/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.solarisgroup.com/en/developers/
 created: '2026-07-17'
 description: 'Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR.'
 image: https://docs.solarisgroup.com/static/solaris-signet-e6f33da6ebaffa690232d6cc1f63ee39.svg
@@ -172,13 +190,13 @@ modified: '2026-10-06'
 name: Solaris
 nav: Providers
 network: true
-overview: 'Solaris is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Embedded Finance.
+overview: 'Solaris is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including solarisBank AG API, and 1 more. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Embedded Finance.
 
 
   The Solaris catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Solaris'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
+  Solaris'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 21 more developer resources.'
 random_paper: 21
 scopes:
 - name: Solaris Scopes
@@ -187,22 +205,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.7
+  composite: 49.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
+    artifact_dirs: 18
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
-    contract_quality: 39.0
+    contract_quality: 50.6
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 52.6
+    discoverability: 73.2
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -211,7 +229,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.7
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -229,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -259,8 +277,11 @@ tags:
 - KYC
 - Lending
 - Compliance
-- Authentication
+- OAuth
 - Webhook
 - Germany
+- Finance
+- Europe
+- Authentication
 website: https://www.solarisgroup.com/
 ---

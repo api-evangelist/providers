@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-31'
+  score: 19.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://snapforge.org
@@ -137,7 +148,7 @@ modified: '2026-10-31'
 name: snapforge-org
 nav: Providers
 network: true
-overview: 'snapforge-org is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Screenshot, PDF, Markdown, and MCP.
+overview: 'snapforge-org is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Screenshots, PDF, Markdown, and MCP.
 
 
   The snapforge-org catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -156,34 +167,46 @@ rules:
     warn: 1
   slug: snapforge-org-rules
 score:
-  band: thin
-  composite: 36.0
+  band: emerging
+  composite: 19.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 77.7
+    artifact_dirs: 16
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.7
   facets:
-    access_clarity: 21.1
-    contract_governance: 79.1
-    contract_quality: 55.7
+    access_clarity: 10.5
+    contract_governance: 22.0
+    contract_quality: 26.2
     developer_ergonomics: 7.1
     discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 21.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 17.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 13.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/snapforge-org/snapforge-org-2026-11-03T143405.png
 security:
 - kind: domain-security
   name: Snapforge Org Domain Security
@@ -191,8 +214,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: snapforge-org
 tags:
-- AI
-- Screenshot
+- Artificial Intelligence
+- Screenshots
 - PDF
 - Markdown
 - MCP

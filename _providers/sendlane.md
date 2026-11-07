@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium (free trial)
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
-  trial: true
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.sendlane.com/v2
@@ -108,7 +113,7 @@ apis:
   description: The Tags API from Sendlane — 3 operation(s) for tags.
   name: Sendlane Tags API
   slug: sendlane-tags-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Sendlane Webhooks
@@ -319,7 +324,7 @@ network: true
 overview: 'Sendlane publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Campaigns API, Contacts API, and 11 more. Tagged areas include Email Marketing, SMS Marketing, E-Commerce, Marketing Automation, and Contacts.
 
 
-  The Sendlane catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
+  The Sendlane catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Sendlane''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, getting-started guide, and 32 more developer resources.'
@@ -335,25 +340,38 @@ rate_limits:
 - limit_count: 1
   name: Sendlane Rate Limits
   slug: sendlane-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Sendlane API Rules
+  rule_count: 57
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 6
+  slug: sendlane-rules
 score:
   band: strong
-  composite: 62.8
+  composite: 64.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 68.0
+    artifact_dirs: 32
+    catalog_earned: 72.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 47.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 58.8
+    contract_governance: 18.2
+    contract_quality: 61.1
     developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 65.8
-  previous_composite: 61.2
+    operational_transparency: 63.2
+  previous_composite: 64.0
   provenance:
     conformance: derived
     contracts:
@@ -369,13 +387,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sendlane/sendlane-2026-06-20T193659.png
 security:
 - kind: authentication

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect protected API surface serving Mudflap's partner, fleet, and merchant dashboards. Discovered via the published RFC 8414 authorization-server metadata; no public OpenAPI refer
@@ -131,7 +134,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/password
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -145,9 +148,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 23.6
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

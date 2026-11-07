@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The SimSpace Portal Suite platform API. SimSpace describes the cyber range platform as built API-first, giving partners and customers programmatic access for custom integrations, automation, advanced '
@@ -212,7 +213,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -224,8 +225,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 65.0
-    operational_transparency: 36.8
+    discoverability: 68.3
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -243,8 +244,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

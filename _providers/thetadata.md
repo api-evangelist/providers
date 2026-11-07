@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
-    idempotency: documented
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-31'
+  score: 30.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:25520/v1/events
@@ -73,7 +74,7 @@ apis:
   description: The Stock API from ThetaData — 15 operation(s) for stock.
   name: ThetaData Stock API
   slug: thetadata-stock-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
@@ -368,7 +369,7 @@ network: true
 overview: 'ThetaData publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Streaming WebSocket API, Calendar API, Index API, and 4 more. Tagged areas include Finance, Market Data, Options, Stocks, and Indices.
 
 
-  The ThetaData catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ThetaData catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 36 more developer resources.'
@@ -384,25 +385,38 @@ rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
   slug: thetadata-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: ThetaData API Rules
+  rule_count: 36
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 1
+    warn: 3
+  slug: thetadata-rules
 score:
   band: strong
-  composite: 62.7
+  composite: 63.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 48.2
-    developer_ergonomics: 74.4
+    developer_ergonomics: 69.6
     discoverability: 66.1
-    operational_transparency: 81.6
-  previous_composite: 61.2
+    operational_transparency: 78.9
+  previous_composite: 63.1
   provenance:
     conformance: derived
     contracts:
@@ -418,13 +432,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/thetadata/thetadata-2026-07-22T202634.png
 security:
 - kind: authentication

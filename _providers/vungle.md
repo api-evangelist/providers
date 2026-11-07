@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -184,9 +185,9 @@ rate_limits:
   slug: vungle-rate-limits
 score:
   band: developing
-  composite: 39.4
+  composite: 39.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -198,9 +199,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 59.5
-    discoverability: 71.4
-    operational_transparency: 34.2
-  previous_composite: 39.4
+    discoverability: 78.6
+    operational_transparency: 31.6
+  previous_composite: 39.8
   provenance:
     conformance: derived
     mcp: derived
@@ -214,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

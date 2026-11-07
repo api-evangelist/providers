@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
+  score: 1.7
+  scored_at: '2026-11-06'
 api_count: 1
 artifact_total: 11
 common:
@@ -103,14 +116,15 @@ rules:
   slug: scanbimlabs-io-rules
 score:
   band: emerging
-  composite: 14.3
+  composite: 13.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 42.5
     catalog_earned_first_party: 12.0
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -118,6 +132,13 @@ score:
     developer_ergonomics: 0.0
     discoverability: 26.8
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 13.6
   provenance:
     conformance: derived
     contracts:
@@ -132,12 +153,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/scanbimlabs-io/scanbimlabs-io-2026-11-03T142751.png
 security:
 - kind: authentication
   name: Scanbimlabs Io Authentication

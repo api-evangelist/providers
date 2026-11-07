@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,23 +21,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-31'
+  score: 32.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.autopass.xyz
@@ -53,7 +56,7 @@ apis:
   description: In-progress parking sessions
   name: Autopass Sessions API
   slug: autopass-sessions-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Autopass Webhooks
@@ -164,11 +167,24 @@ network: true
 overview: 'Autopass publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Locations API, Orders API, and Sessions API. Tagged areas include Company, Mobility, Parking, Payments, and Automotive.
 
 
-  The Autopass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Autopass catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Autopass API Rules
+  rule_count: 61
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 1
+  slug: autopass-rules
 scopes:
 - name: Autopass Scopes
   scope_count: 1
@@ -176,21 +192,21 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.0
+  composite: 37.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 56.4
     developer_ergonomics: 39.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -199,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 35.0
+  previous_composite: 37.4
   provenance:
     contracts:
       callable: 100.0
@@ -214,13 +230,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/autopass/autopass-2026-07-25T201842.png
 security:
 - kind: authentication
@@ -245,7 +261,8 @@ tags:
 - Payments
 - Automotive
 - Financial Services
-- Authentication
+- OAuth
 - Taiwan
+- Authentication
 website: https://en.autopass.xyz
 ---

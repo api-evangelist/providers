@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for automating data mappings and transformations with AI. Create and run Flows, manage target schemas, poll job/run status, and retrieve mapping results. Authenticated with a per-account API '
@@ -152,9 +153,9 @@ overview: 'Lume is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 3
 score:
   band: thin
-  composite: 36.2
+  composite: 36.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -166,9 +167,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 36.2
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 36.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -178,8 +179,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -203,7 +204,7 @@ tags:
 - ETL
 - Data Transformation
 - Artificial Intelligence
-- Schema Mapping
+- Schema-Mapping
 - Data Quality
 - Developer Tools
 website: https://www.lume.ai/

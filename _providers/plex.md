@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-31'
+  score: 59.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -199,7 +200,7 @@ apis:
   description: This describes the API for searching and applying updates to the Plex Media Server. Updates to the status can be observed via the Event API.
   name: Plex Updater API
   slug: plex-updater-api
-artifact_total: 72
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Plex Webhooks
@@ -499,35 +500,48 @@ network: true
 overview: 'Plex publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Butler API, Collections API, and 28 more. Tagged areas include Company, Media, Streaming, Video, and Music.
 
 
-  The Plex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Plex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Plex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Plex API Rules
+  rule_count: 63
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 5
+    warn: 14
+  slug: plex-rules
 scopes:
 - name: Plex Scopes
   scope_count: 7
   slug: plex-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 55.4
+    contract_governance: 18.2
+    contract_quality: 58.1
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 63.2
-  previous_composite: 53.6
+    discoverability: 75.0
+    operational_transparency: 60.5
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -544,13 +558,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/plex/plex-2026-08-17T081305.png
 security:
 - kind: authentication

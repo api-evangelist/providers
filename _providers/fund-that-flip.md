@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://tools.flipperforce.com/api/v1
@@ -116,7 +117,7 @@ apis:
   description: The User API from Fund That Flip — 1 operation(s) for user.
   name: Fund That Flip User API
   slug: fund-that-flip-user-api
-artifact_total: 25
+artifact_total: 26
 common:
 - group: other
   href: https://artifacts.apis.io/fund-that-flip/capabilities/fund-that-flip-capability-edges.yml
@@ -268,6 +269,9 @@ network: true
 overview: 'Fund That Flip publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity Log API, Attachment Upload API, Company API, and 12 more. Tagged areas include Company, Real Estate, Lending, Construction, and Project Management.
 
 
+  The Fund That Flip catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Fund That Flip''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: Fund That Flip Plans Pricing
@@ -281,24 +285,37 @@ rate_limits:
 - limit_count: 0
   name: Fund That Flip Rate Limits
   slug: fund-that-flip-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Fund That Flip API Rules
+  rule_count: 56
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 7
+  slug: fund-that-flip-rules
 score:
   band: developing
-  composite: 52.4
+  composite: 53.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 49.8
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 21.1
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -306,7 +323,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.8
+  previous_composite: 53.7
   provenance:
     conformance: derived
     contracts:
@@ -322,13 +339,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fund-that-flip/fund-that-flip-2026-08-17T080937.png
 security:
 - kind: authentication

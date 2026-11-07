@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: true
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-31'
+  score: 32.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 10
@@ -237,7 +242,7 @@ apis:
   description: Persistent storage volume management
   name: QuantCDN Volumes API
   slug: quantcdn-volumes-api
-artifact_total: 85
+artifact_total: 86
 collections:
 - collection_type: open
   name: QuantCDN AI Agents API
@@ -440,6 +445,9 @@ network: true
 overview: 'QuantCDN publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
 
 
+  The QuantCDN catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   QuantCDN''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Quantcdn Plans Pricing
@@ -453,25 +461,38 @@ rate_limits:
 - limit_count: 0
   name: Quantcdn Rate Limits
   slug: quantcdn-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: QuantCDN API Rules
+  rule_count: 61
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 3
+    warn: 14
+  slug: quantcdn-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 45.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 52.0
+    artifact_dirs: 17
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -1.1
   facets:
-    access_clarity: 50.0
-    contract_governance: 0.0
+    access_clarity: 44.7
+    contract_governance: 13.6
     contract_quality: 47.2
     developer_ergonomics: 59.5
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 41.0
+    operational_transparency: 13.2
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -485,13 +506,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/quantcdn/quantcdn-2026-06-20T192409.png
 security:
 - kind: authentication

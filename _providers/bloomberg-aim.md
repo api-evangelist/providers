@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-31'
+  score: 25.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -1181,9 +1183,9 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.7
+  composite: 45.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
@@ -1194,10 +1196,13 @@ score:
     access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 57.4
-    developer_ergonomics: 70.2
+    developer_ergonomics: 63.1
     discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 47.7
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1211,13 +1216,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bloomberg-aim/bloomberg-aim-2026-06-20T173406.png
 security:
 - kind: authentication

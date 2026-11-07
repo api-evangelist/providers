@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful API for managing Weebly sites, pages, blog posts, e-commerce products, orders, customers, coupons, categories, and form submissions. Supports OAuth 2.0 authentication and JSON data exchange. R
@@ -134,9 +136,9 @@ rate_limits:
   slug: weebly-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 22.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -147,18 +149,18 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 24.1
+  previous_composite: 22.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

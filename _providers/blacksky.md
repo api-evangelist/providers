@@ -5,11 +5,14 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-31'
+  score: 39.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -92,8 +96,13 @@ apis:
   description: The Tasking API from BlackSky — 8 operation(s) for tasking.
   name: BlackSky Tasking API
   slug: blacksky-tasking-api
-artifact_total: 16
+artifact_total: 61
 common:
+- group: build
+  href: https://artifacts.apis.io/blacksky/integrations/blacksky-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/blacksky-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/blacksky/capabilities/blacksky-capability-edges.yml
   title: ''
@@ -272,6 +281,142 @@ created: '2026-05-24'
 description: 'BlackSky Technology (NYSE: BKSY) is a Herndon, Virginia headquartered real-time space-based intelligence company that operates a high-revisit Earth observation constellation and delivers AI-enhanced tactical ISR (intelligence, surveillance, and reconnaissance) imagery and analytics to defense, intelligence, and global security customers. BlackSky''s flagship product is the Spectra platform — a cloud-based intelligence hub that provides on-demand satellite tasking, sub-90-minute imagery delivery, automated AI-driven object detection and change monitoring, archived imagery access, and a secure tasking and delivery API. The company operates Gen-2 satellites at 83 cm resolution and a newer Gen-3 constellation delivering 35 cm class very-high-resolution imagery with infrared sensors, inter-satellite links, and on-board AI processing, manufactured at BlackSky''s facility in Tukwila, Washington. Commercial offerings include BlackSky ON-DEMAND (flexible global tasking) and BlackSky
   ASSURED (dedicated, contracted persistent monitoring capacity). BlackSky''s Spectra tasking and imagery API is integrated into partner platforms including Esri ArcGIS, UP42, and the STAT (Satellite Tasking API) community spec, however the API is access-controlled for vetted defense, intelligence, and enterprise customers and is not exposed as a public self-service developer portal — there is no public Spectra developer documentation site, OpenAPI specification, or open SDKs at the time of this entry. The customer revenue model is subscription-based Spectra ON-DEMAND and ASSURED contracts, Mission Solutions custom engagements, and through marketplace partners.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blacksky.png
+json_schemas:
+- name: AcquisitionDateExtensionRequest
+  property_count: 1
+  slug: blacksky-acquisition-date-extension-request
+- name: AcquisitionDateExtensionResponse
+  property_count: 7
+  slug: blacksky-acquisition-date-extension-response
+- name: areaJobPrice
+  property_count: 4
+  slug: blacksky-area-job-price
+- name: BudgetResponse
+  property_count: 13
+  slug: blacksky-budget-response
+- name: BudgetSettingsResponse
+  property_count: 2
+  slug: blacksky-budget-settings-response
+- name: BudgetUsageResponse
+  property_count: 2
+  slug: blacksky-budget-usage-response
+- name: CollectionFullAggregate
+  property_count: 8
+  slug: blacksky-collection-full-aggregate
+- name: CreateGeometryRequest
+  property_count: 2
+  slug: blacksky-create-geometry-request
+- name: CreateV2OrderRequest
+  property_count: 6
+  slug: blacksky-create-v2-order-request
+- name: CreateV2OrderResponse
+  property_count: 2
+  slug: blacksky-create-v2-order-response
+- name: DataProductAggregate
+  property_count: 6
+  slug: blacksky-data-product-aggregate
+- name: EstimateV2OrderResponse
+  property_count: 3
+  slug: blacksky-estimate-v2-order-response
+- name: EulaDocumentPatchRequest
+  property_count: 1
+  slug: blacksky-eula-document-patch-request
+- name: EulaDocumentResponse
+  property_count: 10
+  slug: blacksky-eula-document-response
+- name: EulaResponse
+  property_count: 11
+  slug: blacksky-eula-response
+- name: execute
+  property_count: 3
+  slug: blacksky-execute
+- name: FeasibilityRequirementsResponse
+  property_count: 2
+  slug: blacksky-feasibility-requirements-response
+- name: GeometryResponse
+  property_count: 7
+  slug: blacksky-geometry-response
+- name: inputs
+  property_count: 1
+  slug: blacksky-inputs
+- name: ItemCollection
+  property_count: 4
+  slug: blacksky-item-collection
+- name: Item
+  property_count: 10
+  slug: blacksky-item
+- name: JobPricinginputs
+  property_count: 1
+  slug: blacksky-job-pricinginputs
+- name: LandingPage
+  property_count: 8
+  slug: blacksky-landing-page
+- name: ListTaskingOrderOpportunitiesV2Response
+  property_count: 2
+  slug: blacksky-list-tasking-order-opportunities-v2-response
+- name: OrderPatchRequest
+  property_count: 2
+  slug: blacksky-order-patch-request
+- name: OrderV2Response
+  property_count: 14
+  slug: blacksky-order-v2-response
+- name: OrdersV2PageResponse
+  property_count: 11
+  slug: blacksky-orders-v2-page-response
+- name: PagableGeometryResponse
+  property_count: 11
+  slug: blacksky-pagable-geometry-response
+- name: PageOfBudgets
+  property_count: 11
+  slug: blacksky-page-of-budgets
+- name: PageOfCollections
+  property_count: 11
+  slug: blacksky-page-of-collections
+- name: PageOfDataProducts
+  property_count: 11
+  slug: blacksky-page-of-data-products
+- name: PageOfEulaDocuments
+  property_count: 11
+  slug: blacksky-page-of-eula-documents
+- name: PageOfEulas
+  property_count: 11
+  slug: blacksky-page-of-eulas
+- name: PageOfProviders
+  property_count: 11
+  slug: blacksky-page-of-providers
+- name: PatchGeometryRequest
+  property_count: 2
+  slug: blacksky-patch-geometry-request
+- name: PreviewResource
+  property_count: 0
+  slug: blacksky-preview-resource
+- name: process
+  property_count: 10
+  slug: blacksky-process
+- name: ProviderWithRoles
+  property_count: 4
+  slug: blacksky-provider-with-roles
+- name: QueryablesResponse
+  property_count: 6
+  slug: blacksky-queryables-response
+- name: SearchPayload
+  property_count: 10
+  slug: blacksky-search-payload
+- name: SearchRequestDto
+  property_count: 7
+  slug: blacksky-search-request-dto
+- name: StacResponse
+  property_count: 3
+  slug: blacksky-stac-response
+- name: Collection
+  property_count: 12
+  slug: blacksky-staccollection
+- name: statusInfo
+  property_count: 13
+  slug: blacksky-status-info
+- name: TaskingQuotation
+  property_count: 13
+  slug: blacksky-tasking-quotation
 jsonld:
 - class_count: 120
   name: Blacksky Context
@@ -288,20 +433,20 @@ overview: 'BlackSky publishes 10 API contracts indexed on the [APIs.io](https://
   The BlackSky catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  BlackSky''s developer surface includes authentication, getting-started guide, documentation, API reference, YouTube channel, engineering blog, and 31 more developer resources.'
+  BlackSky''s developer surface includes authentication, getting-started guide, documentation, API reference, YouTube channel, engineering blog, and 32 more developer resources.'
 random_paper: 12
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 112
   extends:
   - spectral:oas
   name: BlackSky API Rules
-  rule_count: 16
+  rule_count: 71
   severity_counts:
-    error: 10
+    error: 55
     hint: 0
-    info: 3
-    warn: 3
+    info: 9
+    warn: 7
   slug: blacksky-rules
 scopes:
 - name: Blacksky Scopes
@@ -309,24 +454,24 @@ scopes:
   slug: blacksky-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.8
+    artifact_dirs: 23
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
-    contract_quality: 57.5
-    developer_ergonomics: 42.9
-    discoverability: 69.6
+    contract_quality: 70.7
+    developer_ergonomics: 31.0
+    discoverability: 68.8
     operational_transparency: 0.0
-  previous_composite: 42.3
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,14 +486,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/blacksky/blacksky-2026-06-20T173337.png
 security:
 - kind: authentication

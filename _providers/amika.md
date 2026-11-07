@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.amika.dev/api/v0beta1
@@ -128,7 +134,7 @@ apis:
   description: The SandboxServices API from Amika — 2 operation(s) for sandboxservices.
   name: Amika Sandbox Services API
   slug: amika-sandboxservices-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: open
   name: Amika API — v0beta1 API keys API
@@ -342,6 +348,9 @@ network: true
 overview: 'Amika publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including API keys API, Docker registries API, Downloads API, and 15 more. Tagged areas include Company, AI Agents, Coding Agents, Developer Tools, and Sandbox.
 
 
+  The Amika catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Amika''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, CLI, pricing, and 28 more developer resources.'
 plans:
 - name: Amika Plans Pricing
@@ -351,31 +360,47 @@ plans:
   plan_count: 0
   slug: amika-price-estimates
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Amika API Rules
+  rule_count: 53
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 2
+    warn: 15
+  slug: amika-rules
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 61.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.8
+  delta: 0.6
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 41.0
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 44.7
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 45.9
+    discoverability: 73.2
+    operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 60.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 60.0
       total: 30
     mcp: derived
     skills: derived
@@ -385,13 +410,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/amika/amika-2026-07-25T200103.png
 security:
 - kind: authentication
@@ -418,6 +442,6 @@ tags:
 - Infrastructure
 - CI/CD
 - Automation
-- Software Factory
+- SoftwareFactory
 website: https://www.amika.dev
 ---

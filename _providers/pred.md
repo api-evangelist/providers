@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-31'
+  score: 31.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -84,7 +90,7 @@ arazzos:
 - description: End-to-end signed-order trading flow on the Pred prediction exchange.
   name: PRED trading workflows
   slug: pred-trading
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: Real-time market and order data for the Pred prediction exchange, delivered over Ably WebSocket. Obtain an Ably token via POST /api/v1/auth/ably (use it as Ably authCallback). The private user channel
   name: PRED Real-Time API (Ably WebSocket)
@@ -254,30 +260,43 @@ network: true
 overview: 'Pred publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Market Discovery API, Orders API, and 4 more. Tagged areas include Company, Fintech, Prediction Markets, Sports, and Trading.
 
 
-  The Pred catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Pred catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
 random_paper: 19
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Pred API Rules
+  rule_count: 63
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 6
+    warn: 1
+  slug: pred-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 43.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 55.5
     developer_ergonomics: 56.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,13 +313,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pred/pred-2026-08-17T081353.png
 security:
 - kind: authentication

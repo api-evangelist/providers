@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Paid · Requires approval
   onboarding: approval
   pricing: paid
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Logical grouping for creating and managing appointments, provider availability, patient self-scheduling, rescheduling, and automated appointment reminders. Mend documents these capabilities in its cus
@@ -104,7 +108,7 @@ score:
   band: minimal
   composite: 9.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -125,8 +129,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,16 +85,16 @@ modified: '2026-07-18'
 name: Caribou
 nav: Providers
 network: true
-overview: 'Caribou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Auto Refinance, Lending, and Consumer Finance.
+overview: 'Caribou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Auto-Refinance, Lending, and Consumer Finance.
 
 
   Caribou''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
 random_paper: 21
 score:
-  band: emerging
-  composite: 12.9
+  band: minimal
+  composite: 10.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,10 +102,10 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 6.0
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -113,15 +115,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.9
+  previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -137,7 +139,7 @@ slug: caribou
 tags:
 - Company
 - Fintech
-- Auto Refinance
+- Auto-Refinance
 - Lending
 - Consumer Finance
 - Auto Loans

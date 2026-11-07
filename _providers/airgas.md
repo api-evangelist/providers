@@ -1,12 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -251,7 +254,7 @@ rules:
   slug: airgas-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 30.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 50.8
@@ -265,9 +268,9 @@ score:
     contract_governance: 41.7
     contract_quality: 14.7
     developer_ergonomics: 38.1
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 29.3
+  previous_composite: 30.0
   provenance:
     conformance: first-party
   regulatory:
@@ -276,8 +279,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -11,9 +11,9 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-31'
+  score: 38.5
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -50,6 +51,35 @@ apis:
   slug: result-support-widget
 artifact_total: 11
 common:
+- group: commercial
+  href: https://artifacts.apis.io/result/finops/result-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/result-finops.yml
+- group: operate
+  href: https://artifacts.apis.io/result/lifecycle/result-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/result-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/result/a2a/result-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/result-a2a.yml
+- group: other
+  href: https://artifacts.apis.io/result/hosts/result-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/result-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/result/vendors/result-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/result-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://result.dev/support
 - group: company
   title: ''
   type: Website
@@ -72,24 +102,12 @@ common:
   url: https://docs.result.dev/
 - group: commercial
   title: ''
-  type: Pricing
-  url: https://result.dev/pricing
-- group: start
-  title: ''
-  type: SignUp
-  url: https://result.dev/login
-- group: commercial
-  title: ''
   type: TermsOfService
   url: https://result.dev/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
   url: https://result.dev/privacy
-- group: other
-  title: ''
-  type: RefundPolicy
-  url: https://result.dev/refund
 - group: agent
   href: https://artifacts.apis.io/result/llms/result-llms.txt
   title: ''
@@ -204,7 +222,7 @@ network: true
 overview: 'Result is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, Software-as-a-Service, Entrepreneurship, and Payments.
 
 
-  Result''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 21 more developer resources.'
+  Result''s developer surface includes support, documentation, API reference, getting-started guide, CLI, authentication, sandbox, and 24 more developer resources.'
 plans:
 - name: Result Plans Pricing
   plan_count: 3
@@ -224,23 +242,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.5
+  composite: 42.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 24
     catalog_earned: 63.0
     catalog_earned_first_party: 20.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -2.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 70.0
-    operational_transparency: 21.1
-  previous_composite: 42.9
+    developer_ergonomics: 76.2
+    discoverability: 80.0
+    operational_transparency: 28.9
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -250,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

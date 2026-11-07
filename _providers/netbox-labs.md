@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://demo.netbox.dev/api/
@@ -104,7 +106,7 @@ apis:
   description: The wireless API from NetBox Labs — 6 operation(s) for wireless.
   name: NetBox Labs Wireless API
   slug: netbox-labs-wireless-api
-artifact_total: 35
+artifact_total: 36
 collections:
 - collection_type: open
   name: NetBox REST authentication-check API
@@ -302,31 +304,47 @@ network: true
 overview: 'NetBox Labs publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication Check API, Circuits API, Core API, and 10 more. Tagged areas include Company, Networking, DCIM, IPAM, and Infrastructure.
 
 
+  The NetBox Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   NetBox Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
 plans:
 - name: Netbox Labs Plans Pricing
   plan_count: 3
   slug: netbox-labs-plans-pricing
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: NetBox Labs API Rules
+  rule_count: 54
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 5
+    warn: 9
+  slug: netbox-labs-rules
 score:
   band: strong
-  composite: 59.8
+  composite: 62.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 43.7
+    contract_governance: 18.2
+    contract_quality: 47.1
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 55.3
-  previous_composite: 59.8
+    discoverability: 75.0
+    operational_transparency: 52.6
+  previous_composite: 62.3
   provenance:
     conformance: derived
     contracts:
@@ -342,13 +360,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/netbox-labs/netbox-labs-2026-08-07T184929.png
 security:
 - kind: authentication

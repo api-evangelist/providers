@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://erpnext.com'', ''status'': 301, ''note'': ''declared website redirects to https://frappe.io/erpnext — a different registrable domain (erpnext.com -> frappe.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -222,9 +224,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.2
+  composite: 34.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
@@ -238,7 +240,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 35.2
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -252,13 +254,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/erpnext/erpnext-2026-06-20T180820.png
 security:
 - kind: authentication

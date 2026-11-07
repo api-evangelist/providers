@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Concentriq REST API exposes whole-slide images, annotations, regions of interest, users, and clinical/case data on Proscia's open, API-first digital pathology platform. Authentication is via a Con
@@ -153,10 +155,10 @@ overview: 'Proscia is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
   Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 14 more developer resources.'
 random_paper: 9
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -167,10 +169,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 26.2
+    developer_ergonomics: 40.5
+    discoverability: 71.7
+    operational_transparency: 18.4
+  previous_composite: 25.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -186,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

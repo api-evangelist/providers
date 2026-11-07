@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.7
-  scored_at: '2026-10-31'
+  score: 12.9
+  scored_at: '2026-11-06'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -166,7 +168,7 @@ rate_limits:
   slug: gem-com-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 14.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -180,9 +182,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 71.4
+    discoverability: 73.3
     operational_transparency: 15.8
-  previous_composite: 13.9
+  previous_composite: 14.1
   provenance:
     mcp: first-party
   regulatory:
@@ -191,8 +193,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

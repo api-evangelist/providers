@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -136,7 +140,7 @@ apis:
   description: The Teams API from Valimail — 2 operation(s) for teams.
   name: Valimail Teams API
   slug: valimail-teams-api
-artifact_total: 46
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Valimail Webhooks
@@ -398,7 +402,7 @@ network: true
 overview: 'Valimail publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 15 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
 
 
-  The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
@@ -414,32 +418,45 @@ rate_limits:
 - limit_count: 0
   name: Valimail Rate Limits
   slug: valimail-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Valimail API Rules
+  rule_count: 57
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 3
+    warn: 13
+  slug: valimail-rules
 score:
-  band: strong
-  composite: 63.3
+  band: exemplar
+  composite: 67.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.9
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 54.1
+    contract_governance: 18.2
+    contract_quality: 63.5
     developer_ergonomics: 67.3
-    discoverability: 71.4
-    operational_transparency: 55.3
-  previous_composite: 63.1
+    discoverability: 78.6
+    operational_transparency: 52.6
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 64.7
       total: 17
     mcp: derived
     skills: derived
@@ -453,13 +470,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/valimail/valimail-2026-08-17T082710.png
 security:
 - kind: authentication

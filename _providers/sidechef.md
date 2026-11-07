@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.0
-  scored_at: '2026-10-31'
+  score: 7.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The live REST surface behind SideChef's embeddable partner widgets. Observed endpoints include /v3/widget/recipes/ (shoppable recipe lookup and cart hand-off) and /v3/widget/events/ (widget telemetry)
@@ -169,9 +170,9 @@ rate_limits:
   slug: sidechef-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 27.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,9 +184,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 23.7
-  previous_composite: 26.3
+  previous_composite: 27.0
   provenance:
     conformance: first-party
     mcp: unknown
@@ -195,8 +196,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

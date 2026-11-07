@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://astroapi-5.divineapi.com
@@ -141,7 +157,7 @@ modified: '2026-10-29'
 name: divineapi-com
 nav: Providers
 network: true
-overview: 'divineapi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: DivineAPI. Tagged areas include Astrology, API, Data, Developer, and Platform.
+overview: 'divineapi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: DivineAPI. Tagged areas include Astrology, Data, Developers, and Platform.
 
 
   The divineapi-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,42 +188,45 @@ scopes:
   slug: divineapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.9
+  band: thin
+  composite: 33.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 63.8
+    artifact_dirs: 30
+    catalog_earned: 58.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 15.9
-    contract_quality: 19.6
-    developer_ergonomics: 23.8
-    discoverability: 66.1
-    operational_transparency: 31.6
+    contract_quality: 32.6
+    developer_ergonomics: 11.9
+    discoverability: 64.3
+    operational_transparency: 15.8
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 8
-      marker_coverage: 100.0
-      total: 8
+      derived: 1
+      marker_coverage: 50.0
+      total: 2
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 33.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/divineapi-com/divineapi-com-2026-11-03T130816.png
 security:
 - kind: authentication
   name: Divineapi Com Authentication
@@ -220,9 +239,8 @@ security:
 slug: divineapi-com
 tags:
 - Astrology
-- API
 - Data
-- Developer
+- Developers
 - Platform
 website: https://divineapi.com/
 ---

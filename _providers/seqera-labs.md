@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-31'
+  score: 25.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.cloud.seqera.io
@@ -179,7 +181,7 @@ apis:
   description: Workspaces in an organization context
   name: Seqera Labs Workspaces API
   slug: seqera-labs-workspaces-api
-artifact_total: 63
+artifact_total: 64
 collections:
 - collection_type: open
   name: Seqera actions API
@@ -451,37 +453,53 @@ network: true
 overview: 'Seqera Labs publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Admin API, Agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipeline, and Scientific Computing.
 
 
+  The Seqera Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
 plans:
 - name: Seqera Labs Plans Pricing
   plan_count: 8
   slug: seqera-labs-plans-pricing
 random_paper: 0
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Seqera Labs API Rules
+  rule_count: 61
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 19
+  slug: seqera-labs-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 61.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 1.2
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 45.0
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 53.4
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 55.3
-  previous_composite: 59.5
+    discoverability: 73.2
+    operational_transparency: 52.6
+  previous_composite: 60.6
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 28
     mcp: derived
     skills: derived
@@ -491,13 +509,12 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/seqera-labs/seqera-labs-2026-08-17T081807.png
 security:
 - kind: authentication

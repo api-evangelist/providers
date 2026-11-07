@@ -1,32 +1,49 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: verified
-    event_surface_described: unknown
+    error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
-    operation_distinctiveness: distinct
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 67.8
-  scored_at: '2026-10-31'
+  score: 49.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -36,62 +53,15 @@ agentic_access:
   summary_line: 100 operations · 26 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Account API from sochain-com — 2 operation(s) for account.
-  name: sochain-com Account API
-  slug: sochain-com-account-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Addresses API from sochain-com — 12 operation(s) for addresses.
-  name: sochain-com Addresses API
-  slug: sochain-com-addresses-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Blocks API from sochain-com — 3 operation(s) for blocks.
-  name: sochain-com Blocks API
-  slug: sochain-com-blocks-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Buckets API from sochain-com — 11 operation(s) for buckets.
-  name: sochain-com Buckets API
-  slug: sochain-com-buckets-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Charts API from sochain-com — 1 operation(s) for charts.
-  name: sochain-com Charts API
-  slug: sochain-com-charts-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Network & price API from sochain-com — 4 operation(s) for network & price.
-  name: sochain-com Network & price API
-  slug: sochain-com-network-price-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The SoChain API API from sochain-com — 1 operation(s) for sochain api.
-  name: sochain-com SoChain API
-  slug: sochain-com-sochain-api-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Transactions API from sochain-com — 2 operation(s) for transactions.
-  name: sochain-com Transactions API
-  slug: sochain-com-transactions-api
-- baseURL: https://sochain.com/api/v3
-  baseurl_source: declared
-  description: The Webhooks API from sochain-com — 6 operation(s) for webhooks.
-  name: sochain-com Webhooks API
-  slug: sochain-com-webhooks-api
-artifact_total: 29
+- description: Balances, transactions, blocks, mempool, prices and charts for Bitcoin, Litecoin, Dogecoin, Zcash and testnets.
+  name: SoChain API
+  slug: sochain-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Sochain Com Webhooks
   slug: sochain-com-webhooks
 common:
-- group: agent
-  href: https://artifacts.apis.io/sochain-com/agentic-access/sochain-com-agentic-access.yml
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/sochain-com-agentic-access.yml
 - group: operate
   href: https://artifacts.apis.io/sochain-com/rate-limits/sochain-com-rate-limits.yml
   title: ''
@@ -102,21 +72,6 @@ common:
   title: ''
   type: Plans
   url: plans/sochain-com-plans-pricing.yml
-- group: design
-  href: https://artifacts.apis.io/sochain-com/rules/sochain-com-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/sochain-com-rules.yml
-- group: design
-  href: https://artifacts.apis.io/sochain-com/json-ld/sochain-com-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/sochain-com-context.jsonld
-- group: design
-  href: https://artifacts.apis.io/sochain-com/vocabulary/sochain-com-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/sochain-com-vocabulary.yml
 - group: agent
   href: https://artifacts.apis.io/sochain-com/skills/_index.yml
   title: ''
@@ -127,11 +82,6 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/sochain-com-webhooks.yml
-- group: design
-  href: https://artifacts.apis.io/sochain-com/data-model/sochain-com-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/sochain-com-data-model.yml
 - group: build
   href: https://artifacts.apis.io/sochain-com/cli/sochain-com-cli.yml
   title: ''
@@ -142,11 +92,6 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/sochain-com-changelog.yml
-- group: design
-  href: https://artifacts.apis.io/sochain-com/conventions/sochain-com-conventions.yml
-  title: ''
-  type: Conventions
-  url: conventions/sochain-com-conventions.yml
 - group: auth
   href: https://artifacts.apis.io/sochain-com/security/sochain-com-vulnerability-disclosure.yml
   title: ''
@@ -157,11 +102,16 @@ common:
   title: ''
   type: Authentication
   url: authentication/sochain-com-authentication.yml
-- group: design
-  href: https://artifacts.apis.io/sochain-com/errors/sochain-com-problem-types.yml
+- group: operate
+  href: https://artifacts.apis.io/sochain-com/lifecycle/sochain-com-lifecycle.yml
   title: ''
-  type: ErrorCatalog
-  url: errors/sochain-com-problem-types.yml
+  type: Deprecation
+  url: lifecycle/sochain-com-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/sochain-com/lifecycle/sochain-com-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sochain-com-lifecycle.yml
 - group: design
   href: https://artifacts.apis.io/sochain-com/conformance/sochain-com-conformance.yml
   title: ''
@@ -172,11 +122,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/sochain-com-llms.txt
-- group: build
-  href: https://artifacts.apis.io/sochain-com/mcp/sochain-com-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/sochain-com-tool-crosswalk.yml
 - group: agent
   href: https://artifacts.apis.io/sochain-com/mcp/sochain-com-mcp.yml
   title: ''
@@ -207,28 +152,46 @@ common:
   title: ''
   type: Vendors
   url: vendors/sochain-com-vendors.yml
-- group: build
-  href: https://artifacts.apis.io/sochain-com/packages/sochain-com-packages.yml
+- group: commercial
   title: ''
-  type: SDKs
-  url: packages/sochain-com-packages.yml
-- group: build
-  href: https://artifacts.apis.io/sochain-com/packages/sochain-com-packages.yml
+  type: TermsOfService
+  url: https://sochain.com/terms
+- group: operate
   title: ''
-  type: Packages
-  url: packages/sochain-com-packages.yml
+  type: Support
+  url: https://sochain.com/support
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.sochain.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sochain.com/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://sochain.com/pricing
 - group: start
   title: ''
-  type: DeveloperPortal
-  url: https://dev.sochain.com/
+  type: Login
+  url: https://sochain.com/signin
 - group: operate
   title: ''
   type: ChangeLog
   url: https://sochain.com/docs/changelog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://sochain.com/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dev.sochain.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sochain.com/llms.txt
 - group: auth
   href: https://artifacts.apis.io/sochain-com/security/sochain-com-vulnerability-disclosure.yml
   title: ''
@@ -243,44 +206,8 @@ common:
   title: ''
   type: Website
   url: https://sochain.com/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://sochain.com/docs
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://sochain.com/api/v3/openapi.json
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://sochain.com/docs
-- group: operate
-  title: ''
-  type: Support
-  url: https://sochain.com/support
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/BlockIo
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://sochain.com/pricing
-- group: start
-  title: ''
-  type: SignUp
-  url: https://sochain.com/signin
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://sochain.com/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://sochain.com/privacy
 created: '2026-10-31'
-description: SoChain provides a blockchain explorer and a robust API for querying Bitcoin, Litecoin, Dogecoin, and Zcash networks. Users can retrieve address balances, transaction details, block information, and price data. The platform offers both free and paid plans, with rate limits and API keys for higher usage. Documentation includes quickstart guides, authentication details, and SDKs, enabling developers to integrate cryptocurrency data into applications, services, and AI agents.
+description: SoChain provides a blockchain explorer and API for Bitcoin, Litecoin, Dogecoin, and Zcash. Users can look up addresses, transactions, and blocks in real time, and developers can integrate blockchain data into applications via the SoChain API. The service offers comprehensive data access across multiple cryptocurrencies, supporting both web interfaces and programmatic access for building financial tools, analytics, and AI agents.
 image: https://sochain.com/og/home.png
 json_schemas:
 - name: AccountInfo
@@ -315,20 +242,20 @@ modified: '2026-10-31'
 name: sochain-com
 nav: Providers
 network: true
-overview: 'sochain-com publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Addresses API, Blocks API, and 6 more. Tagged areas include Company, Blockchain, Explorer, API, and Cryptocurrency.
+overview: 'sochain-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Explorer, Bitcoin, Litecoin, and Dogecoin.
 
 
   The sochain-com catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  sochain-com''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, support, and 34 more developer resources.'
+  sochain-com''s developer surface includes CLI, changelog, authentication, support, pricing, getting-started guide, documentation, and 24 more developer resources.'
 plans:
 - name: Sochain Com Plans Pricing
   plan_count: 5
   slug: sochain-com-plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 6
+- limit_count: 2
   name: Sochain Com Rate Limits
   slug: sochain-com-rate-limits
 rules:
@@ -350,39 +277,53 @@ scopes:
   slug: sochain-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 77.2
+  band: developing
+  composite: 54.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 31
+    catalog_earned: 72.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.4
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 67.2
-    developer_ergonomics: 75.5
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 59.1
+    developer_ergonomics: 42.1
     discoverability: 65.0
-    operational_transparency: 83.7
+    operational_transparency: 63.2
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: unknown
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/sochain-com/sochain-com-2026-11-03T143439.png
 security:
 - kind: authentication
   name: Sochain Com Authentication
   slug: sochain-com-authentication
-  summary_line: 2 schemes
+  summary_line: 1 scheme
 - kind: domain-security
   name: Sochain Com Domain Security
   slug: sochain-com-domain-security
@@ -401,11 +342,11 @@ skills:
   slug: sochain-com-transaction-details
 slug: sochain-com
 tags:
-- Company
 - Blockchain
 - Explorer
-- API
-- Cryptocurrency
-- Finance
+- Bitcoin
+- Litecoin
+- Dogecoin
+- Zcash
 website: https://sochain.com/
 ---

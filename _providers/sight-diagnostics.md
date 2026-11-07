@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,7 +110,7 @@ overview: Sight Diagnostics is profiled on the [APIs.io](https://apis.io/) netwo
 random_paper: 12
 score:
   band: minimal
-  composite: 4.4
+  composite: 5.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -123,8 +124,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 48.3
-    operational_transparency: 5.3
+    discoverability: 58.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -133,7 +134,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 4.4
+  previous_composite: 5.0
   provenance:
     mcp: platform-generated
   regulatory:
@@ -142,8 +143,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,14 +35,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 8.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
   name: Mienvío Shipping API
   slug: mienvío-shipping-api
-artifact_total: 3
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -89,10 +91,6 @@ created: '2026-07-17'
 description: Mienvío is a Mexican logistics control-tower platform that unifies multiple parcel carriers behind a single multi-carrier shipping API and dashboard for e-commerce, retail, marketplace, and fintech shippers across Latin America. It compares carrier rates, automates routing by cost, SLA, and coverage zone, generates shipping labels, and provides real-time tracking, delivery-incident management, and post-purchase customer notifications. Merchants integrate through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce connectors, shipping nationally, internationally, and locally across Mexico, Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.
 image: https://cdn.prod.website-files.com/65b146ad7d71aced5d8ce108/66215bcd108d7fa4e58d0d3b_icono-256.jpg
 layout: provider
-mcp_servers:
-- description: Remote MCP server at api.mienvio.mx over HTTP.
-  name: Mienvío MCP Server
-  slug: mienv-o
 modified: '2026-07-20'
 name: Mienvío
 nav: Providers
@@ -104,7 +102,7 @@ overview: 'Mienvío is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: emerging
-  composite: 13.8
+  composite: 12.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -114,11 +112,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 66.1
+    developer_ergonomics: 19.0
+    discoverability: 75.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -127,7 +125,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 13.8
+  previous_composite: 12.9
   provenance:
     mcp: first-party
   regulatory:
@@ -136,8 +134,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

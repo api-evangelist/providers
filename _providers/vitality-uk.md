@@ -1,11 +1,11 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   gated: partner
   gated_source:
   - tag:Partner Gated
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -143,7 +144,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 20.1
+  composite: 20.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -157,8 +158,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.1
-    operational_transparency: 5.3
+    discoverability: 73.2
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +168,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 20.1
+  previous_composite: 20.4
   provenance:
     conformance: first-party
   regulatory:
@@ -176,8 +177,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

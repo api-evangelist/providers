@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -26,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://proxy.atlasburn.com
@@ -186,7 +197,7 @@ modified: '2026-10-30'
 name: atlasburn-com
 nav: Providers
 network: true
-overview: 'atlasburn-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Cost Management, Monitoring, and SDK.
+overview: 'atlasburn-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Cost Management, Monitoring, and SDK.
 
 
   The atlasburn-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -208,34 +219,46 @@ rules:
     warn: 0
   slug: atlasburn-com-rules
 score:
-  band: developing
-  composite: 49.1
+  band: thin
+  composite: 27.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 75.0
+    artifact_dirs: 20
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.7
   facets:
-    access_clarity: 31.6
-    contract_governance: 70.9
-    contract_quality: 55.2
-    developer_ergonomics: 50.0
+    access_clarity: 15.8
+    contract_governance: 19.7
+    contract_quality: 26.0
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 10.5
+  previous_composite: 35.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/atlasburn-com/atlasburn-com-2026-11-03T121451.png
 security:
 - kind: domain-security
   name: Atlasburn Com Domain Security
@@ -244,7 +267,7 @@ security:
 slug: atlasburn-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cost Management
 - Monitoring
 - SDK

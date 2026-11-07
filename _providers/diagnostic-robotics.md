@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
@@ -103,7 +104,7 @@ apis:
   description: The Widgets API API from Diagnostic Robotics — 4 operation(s) for widgets api.
   name: Diagnostic Robotics Widgets API
   slug: diagnostic-robotics-widgets-api-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Diagnostic Robotics API
@@ -285,6 +286,9 @@ network: true
 overview: 'Diagnostic Robotics publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Auth API, Dataset Upload API, Default API, and 9 more. Tagged areas include Health, Healthcare, Clinical AI, Population Health, and Risk Adjustment.
 
 
+  The Diagnostic Robotics catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Diagnostic Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Diagnostic Robotics Plans Pricing
@@ -295,6 +299,19 @@ rate_limits:
 - limit_count: 0
   name: Diagnostic Robotics Rate Limits
   slug: diagnostic-robotics-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Diagnostic Robotics API Rules
+  rule_count: 51
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 4
+    warn: 11
+  slug: diagnostic-robotics-rules
 scopes:
 - name: Diagnostic Robotics Scopes
   scope_count: 0
@@ -302,23 +319,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.1
+  composite: 48.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 28
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 36.8
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 43.2
     developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 48.1
+    operational_transparency: 18.4
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     contracts:
@@ -338,13 +355,12 @@ score:
     regime: Health
     regime_id: health
     score: 43.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/diagnostic-robotics/diagnostic-robotics-2026-08-17T080902.png
 security:
 - kind: authentication

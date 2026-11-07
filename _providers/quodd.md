@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -89,7 +90,7 @@ apis:
 - description: Cloud Streaming pushes changing quote and trade fields continuously rather than requiring repeated REST polling, for live market data in servers, web, and mobile apps. QUODD's own developer platform d
   name: QUODD Cloud Streaming API
   slug: quodd-cloud-streaming-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: QUODD Market Data API (Modeled) Authentication API
@@ -231,6 +232,9 @@ network: true
 overview: 'QUODD publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Snap API, Batch Snaps API, Options Snaps API, and 7 more. Tagged areas include Market Data, Real-Time Data, Financial Data, Streaming, and Historical Data.
 
 
+  The QUODD catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   QUODD''s developer surface includes authentication, documentation, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Quodd Plans Pricing
@@ -241,25 +245,38 @@ rate_limits:
 - limit_count: 4
   name: Quodd Rate Limits
   slug: quodd-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: QUODD API Rules
+  rule_count: 59
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 1
+  slug: quodd-rules
 score:
-  band: emerging
-  composite: 24.1
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 42.0
+    artifact_dirs: 28
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 26.3
-    contract_governance: 4.5
-    contract_quality: 0.0
+    contract_governance: 18.2
+    contract_quality: 48.4
     developer_ergonomics: 47.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 24.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,13 +293,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/quodd/quodd-2026-07-22T202600.png
 security:
 - kind: authentication

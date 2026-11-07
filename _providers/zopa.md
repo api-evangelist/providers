@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -105,7 +111,7 @@ apis:
   description: The Transactions API from zopa — 1 operation(s) for transactions.
   name: zopa Transactions API
   slug: zopa-transactions-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Account and Transaction API Specification Account Access API
@@ -294,31 +300,47 @@ network: true
 overview: 'zopa publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 9 more. Tagged areas include Company, Banking, Fintech, Open Banking, and PSD2.
 
 
+  The zopa catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 25 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: zopa API Rules
+  rule_count: 57
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 2
+    warn: 2
+  slug: zopa-rules
 scopes:
 - name: Zopa Scopes
   scope_count: 2
   slug: zopa-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 42.4
+  band: thin
+  composite: 36.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 4.5
+    access_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 44.9
-    developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 10.5
+    developer_ergonomics: 38.7
+    discoverability: 73.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,7 +349,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 42.4
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,14 +369,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 52.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 47.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/zopa/zopa-2026-08-17T083118.png
 security:
 - kind: authentication

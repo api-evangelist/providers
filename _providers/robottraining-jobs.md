@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-31'
+  score: 24.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,10 +169,10 @@ description: RobotTraining.jobs is a job board focused on robot‑training and r
 image: https://robottraining.jobs/opengraph-image
 json_schemas:
 - name: PayDocument
-  property_count: 0
+  property_count: 8
   slug: robottraining-jobs-pay-document
 - name: RolesDocument
-  property_count: 0
+  property_count: 11
   slug: robottraining-jobs-roles-document
 jsonld:
 - class_count: 2
@@ -200,23 +211,23 @@ rules:
   slug: robottraining-jobs-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 29.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 54.8
     catalog_earned_first_party: 0.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
     contract_quality: 56.3
-    developer_ergonomics: 35.7
-    discoverability: 56.7
+    developer_ergonomics: 17.9
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,14 +242,15 @@ score:
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 17.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 13.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/robottraining-jobs/robottraining-jobs-2026-11-03T142353.png
 security:
 - kind: domain-security
   name: Robottraining Jobs Domain Security

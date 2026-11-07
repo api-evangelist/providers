@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC node API for the Cypherium Layer-1 mainnet — eth, web3, net, personal, miner, txpool and admin namespaces over HTTP, WebSocket and IPC. EVM chain ID 16166, native currency
@@ -105,9 +107,9 @@ overview: 'Cypherium is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 22
 score:
   band: emerging
-  composite: 12.6
+  composite: 13.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -119,9 +121,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 12.6
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 13.0
   provenance:
     conformance: first-party
   regulatory:
@@ -130,8 +132,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

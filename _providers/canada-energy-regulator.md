@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Canada Energy Regulator operates its own ArcGIS Online organization (portal neb-gis.maps.arcgis.com, organization id vNzamREXvX2WcX6d) and hosts 23 public feature services on it. This is the one g
@@ -177,9 +178,9 @@ overview: 'Canada Energy Regulator is listed with 3 APIs on the [APIs.io](https:
 random_paper: 17
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 50.4
     catalog_earned_first_party: 5.0
     catalog_gap: 64.6
@@ -192,7 +193,7 @@ score:
     contract_quality: 7.2
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +201,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.1
+  previous_composite: 25.7
   provenance:
     conformance: first-party
   regulatory:
@@ -209,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

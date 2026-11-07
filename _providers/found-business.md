@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated_conflict: 'x-api-posture: private but 5 published API entries'
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.0
-  scored_at: '2026-10-31'
+  score: 22.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Free business checking with a Mastercard business debit card, team cards with spend controls, check and cash deposits, wires, check payments, contractor payments, and sub-accounts. App feature only; n
@@ -140,9 +143,9 @@ rate_limits:
   slug: found-business-rate-limits
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -154,9 +157,9 @@ score:
     contract_governance: 0.0
     contract_quality: 29.7
     developer_ergonomics: 11.9
-    discoverability: 57.1
+    discoverability: 60.0
     operational_transparency: 10.5
-  previous_composite: 19.0
+  previous_composite: 19.3
   provenance:
     mcp: first-party
   regulatory:
@@ -165,13 +168,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/found-business/found-business-2026-06-20T181457.png
 security:
 - kind: domain-security

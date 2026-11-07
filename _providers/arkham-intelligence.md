@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -126,7 +128,7 @@ modified: '2026-05-29'
 name: Arkham Intelligence
 nav: Providers
 network: true
-overview: 'Arkham Intelligence is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Arkham Entity Intelligence API, and 5 more. Tagged areas include Onchain Intelligence, Entity Resolution, Cryptocurrency Exchange, Trading, and Market Data.
+overview: 'Arkham Intelligence is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Arkham Entity Intelligence API, and 5 more. Tagged areas include On-Chain Intelligence, Entity Resolution, Cryptocurrency Exchange, Trading, and Market Data.
 
 
   The Arkham Intelligence catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -180,8 +182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -195,7 +197,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: arkham-intelligence
 tags:
-- Onchain Intelligence
+- On-Chain Intelligence
 - Entity Resolution
 - Cryptocurrency Exchange
 - Trading

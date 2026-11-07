@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
@@ -353,9 +355,9 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 27.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -365,11 +367,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 53.0
+    contract_quality: 56.4
     developer_ergonomics: 16.7
-    discoverability: 58.9
+    discoverability: 58.0
     operational_transparency: 5.3
-  previous_composite: 27.3
+  previous_composite: 27.4
   provenance:
     contracts:
       callable: 0.0
@@ -382,13 +384,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/a10-networks/a10-networks-2026-06-20T162934.png
 security:
 - kind: domain-security

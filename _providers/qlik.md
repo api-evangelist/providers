@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - plans
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-31'
+  score: 30.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -229,9 +232,9 @@ rules:
   slug: qlik-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 43.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 43.5
     catalog_earned_first_party: 0.0
     catalog_gap: 71.5
@@ -241,11 +244,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 55.0
-    developer_ergonomics: 64.3
-    discoverability: 40.0
+    contract_quality: 58.4
+    developer_ergonomics: 52.4
+    discoverability: 39.3
     operational_transparency: 44.7
-  previous_composite: 45.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,13 +265,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/qlik/qlik-2026-06-20T192340.png
 security:
 - kind: authentication

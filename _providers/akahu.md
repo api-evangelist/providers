@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +28,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-31'
+  score: 33.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 5
@@ -481,7 +495,7 @@ modified: '2026-10-26'
 name: Akahu
 nav: Providers
 network: true
-overview: 'Akahu publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Auth API, and 24 more. Tagged areas include Company, Finance, Open Banking, New Zealand, and API.
+overview: 'Akahu publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Auth API, and 24 more. Tagged areas include Company, Finance, Open Banking, and New Zealand.
 
 
   The Akahu catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -511,21 +525,22 @@ rules:
     warn: 3
   slug: akahu-rules
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 47.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 81.8
+    artifact_dirs: 26
+    catalog_earned: 76.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 33.3
+    catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 72.9
-    developer_ergonomics: 58.9
-    discoverability: 71.4
+    contract_quality: 78.7
+    developer_ergonomics: 39.9
+    discoverability: 69.6
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -534,13 +549,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 55.6
+      marker_coverage: 100.0
       total: 27
     mcp: derived
     skills: derived
@@ -549,13 +565,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 22.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/akahu/akahu-2026-11-03T120554.png
 security:
 - kind: authentication
   name: Akahu Authentication
@@ -583,6 +600,5 @@ tags:
 - Finance
 - Open Banking
 - New Zealand
-- API
 website: https://www.akahu.nz/
 ---

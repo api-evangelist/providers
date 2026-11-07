@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -25,7 +32,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.3
-  scored_at: '2026-10-31'
+  score: 50.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -76,7 +84,7 @@ apis:
   description: Snippet tag management
   name: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Mixmax Webhooks
@@ -260,7 +268,7 @@ network: true
 overview: 'Mixmax publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Software-as-a-Service, MCP, Agents, and Webhook.
 
 
-  The Mixmax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mixmax catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mixmax''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -276,6 +284,19 @@ rate_limits:
 - limit_count: 1
   name: Mixmax Rate Limits
   slug: mixmax-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Mixmax API Rules
+  rule_count: 52
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 2
+  slug: mixmax-rules
 scopes:
 - name: Mixmax Scopes
   scope_count: 3
@@ -283,23 +304,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 60.5
+  composite: 59.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 1.9
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 21.6
-    developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 65.8
-  previous_composite: 59.0
+    contract_governance: 31.8
+    contract_quality: 25.0
+    developer_ergonomics: 61.9
+    discoverability: 73.2
+    operational_transparency: 55.3
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,13 +343,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mixmax/mixmax-2026-08-07T183824.png
 security:
 - kind: authentication
@@ -358,7 +378,7 @@ tags:
 - MCP
 - Agents
 - Webhook
-- Authentication
+- OAuth
 - Sales Engagement
 - Email
 - Sales
@@ -366,5 +386,6 @@ tags:
 - Productivity
 - Meetings
 - Sequences
+- Authentication
 website: https://www.mixmax.com/
 ---

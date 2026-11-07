@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.3
-  scored_at: '2026-10-31'
+  score: 45.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 4
@@ -275,7 +290,7 @@ modified: '2026-10-29'
 name: tenzro-xyz
 nav: Providers
 network: true
-overview: 'tenzro-xyz publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, API keys API, Audio API, and 21 more. Tagged areas include Company, AI, Machine-Learning, MCP, and Platform.
+overview: 'tenzro-xyz publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, API keys API, Audio API, and 21 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MCP, and Platform.
 
 
   The tenzro-xyz catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -310,22 +325,30 @@ scopes:
   slug: tenzro-xyz-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.5
+  band: thin
+  composite: 37.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 30
     catalog_earned: 63.8
     catalog_earned_first_party: 16.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.8
   facets:
-    access_clarity: 31.6
+    access_clarity: 26.3
     contract_governance: 22.0
-    contract_quality: 51.0
-    developer_ergonomics: 42.1
-    discoverability: 65.0
-    operational_transparency: 26.3
+    contract_quality: 51.3
+    developer_ergonomics: 30.2
+    discoverability: 68.3
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,12 +365,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/tenzro-xyz/tenzro-xyz-2026-11-03T144443.png
 security:
 - kind: authentication
   name: Tenzro Xyz Authentication
@@ -364,8 +388,8 @@ skills:
 slug: tenzro-xyz
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - MCP
 - Platform
 - OpenAI-Compatible

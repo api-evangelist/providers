@@ -1,18 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -24,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -34,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 61.9
-  scored_at: '2026-10-31'
+  score: 61.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -110,7 +115,7 @@ apis:
   description: The Users API from Monaco — 1 operation(s) for users.
   name: Monaco Users API
   slug: monaco-users-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: Monaco Public Accounts API
@@ -316,6 +321,9 @@ network: true
 overview: 'Monaco publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Audiences API, Auth API, and 10 more. Tagged areas include Company, CRM, Sales, Revenue Operations, and Artificial Intelligence.
 
 
+  The Monaco catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Monaco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
 plans:
 - name: Monaco Plans Pricing
@@ -326,30 +334,43 @@ rate_limits:
 - limit_count: 0
   name: Monaco Rate Limits
   slug: monaco-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Monaco API Rules
+  rule_count: 50
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 2
+    warn: 8
+  slug: monaco-rules
 scopes:
 - name: Monaco Scopes
   scope_count: 0
   slug: monaco-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 57.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 30
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.0
   facets:
-    access_clarity: 71.1
-    contract_governance: 18.2
-    contract_quality: 48.8
+    access_clarity: 57.9
+    contract_governance: 31.8
+    contract_quality: 50.8
     developer_ergonomics: 54.2
-    discoverability: 65.0
-    operational_transparency: 26.3
-  previous_composite: 47.6
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,13 +387,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/monaco/monaco-2026-08-07T184130.png
 security:
 - kind: authentication

@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.eu1.fullview.io
@@ -45,7 +46,7 @@ apis:
   description: The Bug Report API from Fullview — 2 operation(s) for bug report.
   name: Fullview Bug Report API
   slug: fullview-bug-report-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: Fullview Bug Report API
@@ -208,12 +209,28 @@ network: true
 overview: 'Fullview publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer Service, Co-Browsing, Session Replay, and Customer Experience.
 
 
+  The Fullview catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
 plans:
 - name: Fullview Plans Pricing
   plan_count: 0
   slug: fullview-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Fullview API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: fullview-rules
 scopes:
 - name: Fullview Scopes
   scope_count: 12
@@ -221,23 +238,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.9
+  composite: 48.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
-    contract_governance: 18.2
+    access_clarity: 32.9
+    contract_governance: 31.8
     contract_quality: 49.0
     developer_ergonomics: 56.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 44.9
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     contracts:
@@ -257,13 +274,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/fullview/fullview-2026-07-25T215258.png
 security:
 - kind: authentication

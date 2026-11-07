@@ -6,6 +6,8 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - authentication
+  - security
   - '{''url'': ''https://www.alkemics.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.salsify.com/ — a different registrable domain (alkemics.com -> salsify.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -315,28 +318,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.6
+  composite: 36.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 34.5
     catalog_earned_first_party: 0.0
     catalog_gap: 80.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 47.6
-    developer_ergonomics: 35.7
-    discoverability: 55.4
+    contract_quality: 56.3
+    developer_ergonomics: 33.3
+    discoverability: 54.5
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 35.6
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,21 +347,20 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 17
+      total: 22
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/alkemics/alkemics-2026-07-25T195632.png
 security:
 - kind: authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol server that Affinity Solutions serves from its own corporate site at www.affinity.solutions, advertised by an RFC 8414 authorization-server document and an RF
@@ -150,9 +164,9 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 21.6
+  composite: 22.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,9 +178,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 21.6
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -176,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
@@ -104,7 +105,7 @@ apis:
   description: The Users API from Elemental Machines — 2 operation(s) for users.
   name: Elemental Machines Users API
   slug: elemental-machines-users-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Elemental Machines API
@@ -266,6 +267,9 @@ network: true
 overview: 'Elemental Machines publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 10 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
 
 
+  The Elemental Machines catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 22 more developer resources.'
 plans:
 - name: Elemental Machines Plans Pricing
@@ -276,6 +280,19 @@ rate_limits:
 - limit_count: 0
   name: Elemental Machines Rate Limits
   slug: elemental-machines-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Elemental Machines API Rules
+  rule_count: 59
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 2
+    warn: 4
+  slug: elemental-machines-rules
 scopes:
 - name: Elemental Machines Scopes
   scope_count: 0
@@ -283,23 +300,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
+  composite: 47.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 27
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 42.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 41.1
     developer_ergonomics: 47.0
-    discoverability: 70.0
-    operational_transparency: 36.8
-  previous_composite: 46.3
+    discoverability: 73.3
+    operational_transparency: 34.2
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -315,13 +332,12 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/elemental-machines/elemental-machines-2026-08-17T080912.png
 security:
 - kind: authentication

@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The self-hosted administrative REST API for the new LucidLink platform, delivered as the lucidlink/lucidlink-api Docker image and run on customer infrastructure so that LucidLink's zero-knowledge mode
@@ -64,7 +65,7 @@ apis:
   description: Filespace operations.
   name: LucidLink Filespace API
   slug: lucidlink-filespace-api
-artifact_total: 17
+artifact_total: 18
 common:
 - group: other
   href: https://artifacts.apis.io/lucidlink/capabilities/lucidlink-capability-edges.yml
@@ -258,6 +259,9 @@ network: true
 overview: 'LucidLink publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Domain API, Filespace API, and 2 more. Tagged areas include Company, Cloud Storage, File Streaming, File Collaboration, and Media and Entertainment.
 
 
+  The LucidLink catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   LucidLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Lucidlink Plans Pricing
@@ -271,6 +275,19 @@ rate_limits:
 - limit_count: 0
   name: Lucidlink Rate Limits
   slug: lucidlink-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: LucidLink API Rules
+  rule_count: 49
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 2
+    warn: 3
+  slug: lucidlink-rules
 scopes:
 - name: Lucidlink Scopes
   scope_count: 0
@@ -278,23 +295,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.4
+  composite: 61.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 37.1
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 43.3
     developer_ergonomics: 80.4
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 60.9
+    discoverability: 71.7
+    operational_transparency: 34.2
+  previous_composite: 61.6
   provenance:
     conformance: first-party
     contracts:
@@ -309,14 +326,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 34.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lucidlink/lucidlink-2026-09-02T150334.png
 security:
 - kind: authentication

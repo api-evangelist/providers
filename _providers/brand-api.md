@@ -1,19 +1,27 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -26,6 +34,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -35,8 +44,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.2
-  scored_at: '2026-10-31'
+  score: 50.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
@@ -76,7 +85,7 @@ apis:
   description: The agents API from Brand API (Brandfetch) — 1 operation(s) for agents.
   name: Brand API (Brandfetch) Agents API
   slug: brand-api-agents-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Brand Api Webhooks
@@ -307,7 +316,7 @@ network: true
 overview: 'Brand API (Brandfetch) publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Context API, Search API, and 6 more. Tagged areas include Brands, Logo, Brand Assets, Company Data, and Firmographics.
 
 
-  The Brand API (Brandfetch) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Brand API (Brandfetch) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 37 more developer resources.'
@@ -323,6 +332,19 @@ rate_limits:
 - limit_count: 6
   name: Brand Api Rate Limits
   slug: brand-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Brand API (Brandfetch) API Rules
+  rule_count: 64
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 6
+  slug: brand-api-rules
 scopes:
 - name: Brand Api Scopes
   scope_count: 1
@@ -330,29 +352,29 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 69.2
+  composite: 69.6
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 64.0
+    artifact_dirs: 35
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.5
   facets:
     access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 63.3
+    contract_governance: 31.8
+    contract_quality: 65.4
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 76.3
-  previous_composite: 68.2
+    discoverability: 75.0
+    operational_transparency: 65.8
+  previous_composite: 69.1
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 41.7
       total: 12
     mcp: first-party
     skills: first-party
@@ -362,13 +384,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/brand-api/brand-api-2026-06-20T173632.png
 security:
 - kind: authentication

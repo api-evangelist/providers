@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
@@ -169,7 +171,7 @@ rules:
   slug: shipping-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 56.8
@@ -182,7 +184,7 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.2
-    developer_ergonomics: 19.0
+    developer_ergonomics: 17.9
     discoverability: 62.5
     operational_transparency: 7.9
   jurisdiction:
@@ -192,15 +194,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.1
+  previous_composite: 18.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

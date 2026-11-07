@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: EchoWare is Echodyne's software platform for MESA radar. It manages a network of Echodyne radars as a single radar instance with one Track ID per object, and supports headless operation in which a com
@@ -166,7 +167,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -180,9 +181,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 23.5
   provenance:
     conformance: first-party
   regulatory:
@@ -191,8 +192,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

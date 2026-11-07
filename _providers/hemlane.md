@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,14 +36,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 11.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Internal REST API powering the Hemlane property management platform, providing access to rental listings, tenant applications, lease tracking, rent payments, maintenance requests, and owner financial '
   name: Hemlane API
   slug: hemlane-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://artifacts.apis.io/hemlane/security/hemlane-domain-security.yml
@@ -99,10 +101,6 @@ finops:
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hemlane.png
 layout: provider
-mcp_servers:
-- description: Remote MCP server at api.hemlane.com over HTTP.
-  name: Hemlane MCP Server
-  slug: hemlane
 modified: '2026-06-13'
 name: Hemlane
 nav: Providers
@@ -122,7 +120,7 @@ rate_limits:
   slug: hemlane-rate-limits
 score:
   band: emerging
-  composite: 11.3
+  composite: 11.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -136,9 +134,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 11.3
+  previous_composite: 11.5
   provenance:
     mcp: first-party
   regulatory:
@@ -147,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

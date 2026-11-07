@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service for the M.Gemi store, exposed over Model Context Protocol at https://mgemi.com/api/ucp/mcp. An anonymous tools/list returns 13 tools with full JS
@@ -179,7 +180,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.5
+  composite: 23.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -193,7 +194,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 56.7
+    discoverability: 66.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -202,7 +203,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.5
+  previous_composite: 23.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -213,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

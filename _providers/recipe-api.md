@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -9,6 +12,7 @@ access_model:
   - plans
   - authentication
   - rate-limits
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -27,7 +31,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-31'
+  score: 57.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://recipe-api.com
@@ -66,7 +71,7 @@ apis:
   description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
   name: Recipe API Recipes API
   slug: recipe-api-recipes-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Recipe Discovery API
@@ -172,6 +177,9 @@ network: true
 overview: 'Recipe API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, Image Generation API, Ingredients API, and 2 more. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
 
 
+  The Recipe API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Recipe API''s developer surface includes engineering blog, documentation, pricing, signup flow, authentication, and 10 more developer resources.'
 plans:
 - name: Recipe Api Plans
@@ -185,30 +193,43 @@ rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
   slug: recipe-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: Recipe API API Rules
+  rule_count: 67
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 7
+    warn: 3
+  slug: recipe-api-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 46.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 59.0
+    artifact_dirs: 16
+    catalog_earned: 63.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 1.4
   facets:
-    access_clarity: 84.2
-    contract_governance: 0.0
-    contract_quality: 51.8
+    access_clarity: 77.6
+    contract_governance: 13.6
+    contract_quality: 57.6
     developer_ergonomics: 23.8
-    discoverability: 63.3
+    discoverability: 66.7
     operational_transparency: 31.6
-  previous_composite: 43.5
+  previous_composite: 45.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: first-party
   regulatory:
@@ -217,13 +238,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/recipe-api/recipe-api-2026-08-17T081456.png
 security:
 - kind: authentication

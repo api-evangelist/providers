@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -29,18 +29,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.8
-  scored_at: '2026-10-31'
+  score: 62.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -393,7 +394,7 @@ json_schemas:
   property_count: 7
   slug: memo-bank-attachment
 - name: AuthorizationCodeGrant
-  property_count: 0
+  property_count: 5
   slug: memo-bank-authorization-code-grant
 - name: BulkCollections
   property_count: 6
@@ -414,7 +415,7 @@ json_schemas:
   property_count: 16
   slug: memo-bank-collection
 - name: CompletedAccountAssessment
-  property_count: 0
+  property_count: 8
   slug: memo-bank-completed-account-assessment
 - name: CreateAccountAssessment
   property_count: 2
@@ -429,7 +430,7 @@ json_schemas:
   property_count: 9
   slug: memo-bank-create-collection
 - name: CreateEmailMandateSignatureRequest
-  property_count: 0
+  property_count: 8
   slug: memo-bank-create-email-mandate-signature-request
 - name: CreateIban
   property_count: 3
@@ -441,7 +442,7 @@ json_schemas:
   property_count: 6
   slug: memo-bank-create-incoming-transfer
 - name: CreateRedirectMandateSignatureRequest
-  property_count: 0
+  property_count: 8
   slug: memo-bank-create-redirect-mandate-signature-request
 - name: CreateTransferV2
   property_count: 12
@@ -453,10 +454,10 @@ json_schemas:
   property_count: 9
   slug: memo-bank-create-wire-transfer
 - name: EmailMandateSignatureRequest
-  property_count: 0
+  property_count: 11
   slug: memo-bank-email-mandate-signature-request
 - name: FailedAccountAssessment
-  property_count: 0
+  property_count: 4
   slug: memo-bank-failed-account-assessment
 - name: IbanPage
   property_count: 5
@@ -480,13 +481,13 @@ json_schemas:
   property_count: 8
   slug: memo-bank-payment-initiation-with-status-response
 - name: PendingAccountAssessment
-  property_count: 0
+  property_count: 3
   slug: memo-bank-pending-account-assessment
 - name: RedirectMandateSignatureRequest
-  property_count: 0
+  property_count: 12
   slug: memo-bank-redirect-mandate-signature-request
 - name: RefreshTokenGrant
-  property_count: 0
+  property_count: 5
   slug: memo-bank-refresh-token-grant
 - name: TransactionPage
   property_count: 5
@@ -565,22 +566,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.3
+  composite: 71.4
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 76.8
     catalog_earned_first_party: 8.0
     catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.0
   facets:
     access_clarity: 81.6
     contract_governance: 35.6
-    contract_quality: 68.1
+    contract_quality: 73.0
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 63.2
+    discoverability: 80.8
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -589,14 +590,14 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 69.7
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 80.0
       total: 15
     mcp: first-party
     skills: derived
@@ -616,13 +617,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/memo-bank/memo-bank-2026-09-02T150506.png
 security:
 - kind: authentication

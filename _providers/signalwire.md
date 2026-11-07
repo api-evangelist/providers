@@ -1,17 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -29,6 +33,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -38,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
@@ -440,7 +445,7 @@ apis:
   description: Create and manage the Meta-approved templates required to start WhatsApp conversations.
   name: SignalWire WhatsApp Templates API
   slug: signalwire-whatsapp-templates-api
-artifact_total: 97
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Signalwire Webhooks
@@ -677,7 +682,7 @@ network: true
 overview: 'SignalWire publishes 80 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI Agents: Custom API, and 77 more. Tagged areas include Company, Communications, CPaaS, Voice, and Messaging.
 
 
-  The SignalWire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The SignalWire catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   SignalWire''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
@@ -693,25 +698,38 @@ rate_limits:
 - limit_count: 10
   name: Signalwire Rate Limits
   slug: signalwire-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: SignalWire API Rules
+  rule_count: 72
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 17
+  slug: signalwire-rules
 score:
   band: exemplar
-  composite: 75.0
+  composite: 77.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 32
+    catalog_earned: 70.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.4
+  delta: 0.8
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 59.6
+    contract_governance: 37.9
+    contract_quality: 62.9
     developer_ergonomics: 90.5
-    discoverability: 65.0
-    operational_transparency: 86.8
-  previous_composite: 67.6
+    discoverability: 75.0
+    operational_transparency: 76.3
+  previous_composite: 76.4
   provenance:
     conformance: first-party
     contracts:
@@ -727,13 +745,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/signalwire/signalwire-2026-09-02T155435.png
 security:
 - kind: authentication

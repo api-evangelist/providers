@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-31'
+  score: 27.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -288,9 +290,9 @@ rules:
   slug: panopto-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.7
+  composite: 27.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 44.3
     catalog_earned_first_party: 0.0
     catalog_gap: 70.8
@@ -300,11 +302,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 37.5
-    developer_ergonomics: 23.8
+    contract_quality: 40.9
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 29.7
+    operational_transparency: 28.9
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +320,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/panopto/panopto-2026-06-20T191340.png
 security:
 - kind: domain-security

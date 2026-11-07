@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Open access
   onboarding: open
   pricing: paid
@@ -8,10 +11,11 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-31'
+  score: 30.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -377,9 +382,9 @@ rules:
   slug: when-i-work-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 38.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 66.8
     catalog_earned_first_party: 0.0
     catalog_gap: 48.3
@@ -389,11 +394,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 60.7
-    developer_ergonomics: 23.8
+    contract_quality: 64.1
+    developer_ergonomics: 14.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 38.5
+    operational_transparency: 23.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -407,13 +412,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/when-i-work/when-i-work-2026-06-20T201428.png
 security:
 - kind: authentication

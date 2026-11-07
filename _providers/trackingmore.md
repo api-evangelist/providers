@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -249,9 +253,9 @@ rules:
   slug: trackingmore-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 38.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 46.3
     catalog_earned_first_party: 0.0
     catalog_gap: 68.8
@@ -265,7 +269,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 38.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -279,13 +283,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/trackingmore/trackingmore-2026-06-20T195521.png
 security:
 - kind: authentication

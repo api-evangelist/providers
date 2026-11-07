@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Free
-  onboarding: unknown
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
   - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Griffith's SAML 2.0 Shibboleth Identity Provider, entityID https://idp1.griffith.edu.au/idp/shibboleth, registered in the Australian Access Federation on 2023-03-06 and exported to eduGAIN as entity 6
@@ -196,9 +202,9 @@ rate_limits:
   slug: griffith-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 18.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -211,7 +217,7 @@ score:
     contract_quality: 18.0
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -219,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 18.6
+  previous_composite: 18.3
   provenance:
     conformance: first-party
   regulatory:
@@ -228,8 +234,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

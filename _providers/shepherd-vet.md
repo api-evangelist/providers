@@ -1,6 +1,19 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -15,17 +28,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-31'
+  score: 29.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 133
@@ -565,8 +579,18 @@ apis:
   description: The Product Category API from Shepherd Veterinary Software — 1 operation(s) for product category.
   name: Shepherd Veterinary Software Product Category API
   slug: shepherd-vet-product-category-api
-artifact_total: 113
+artifact_total: 174
 common:
+- group: design
+  href: https://artifacts.apis.io/shepherd-vet/json-ld/shepherd-vet-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/shepherd-vet-context.jsonld
+- group: auth
+  href: https://artifacts.apis.io/shepherd-vet/well-known/shepherd-vet-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/shepherd-vet-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/shepherd-vet/agentic-access/shepherd-vet-agentic-access.yml
   title: ''
@@ -627,11 +651,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/shepherd-vet-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/shepherd-vet/well-known/shepherd-vet-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/shepherd-vet-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/shepherd-vet/well-known/shepherd-vet-help-security.txt
   title: ''
@@ -696,18 +715,204 @@ common:
 created: '2026-10-28'
 description: Shepherd Veterinary Software provides cloud-based veterinary practice management solutions, offering an intuitive SOAP medical record workflow, effortless inventory tracking, and invoice automation. The platform streamlines clinic operations, enabling veterinarians to focus on care while the software handles appointments, patient records, billing, and payments through a modern REST API.
 image: https://developer.shepherd.vet/og.png
+json_schemas:
+- name: OpenApiAppointmentCancellationReasonController.AppointmentCancellationReasonFilter
+  property_count: 12
+  slug: shepherd-vet-open-api-appointment-cancellation-reason-controller-appointment-cancellation-reason-filter
+- name: OpenApiAppointmentController.AppointmentFilterModel
+  property_count: 22
+  slug: shepherd-vet-open-api-appointment-controller-appointment-filter-model
+- name: OpenApiAppointmentController.AppointmentUpdateModel
+  property_count: 12
+  slug: shepherd-vet-open-api-appointment-controller-appointment-update-model
+- name: OpenApiAppointmentController.AppointmentWriteModel
+  property_count: 13
+  slug: shepherd-vet-open-api-appointment-controller-appointment-write-model
+- name: OpenApiAppointmentNoteController.AppointmentNoteWriteModel
+  property_count: 2
+  slug: shepherd-vet-open-api-appointment-note-controller-appointment-note-write-model
+- name: OpenApiAppointmentPatientController.AppointmentPatientFilterModel
+  property_count: 16
+  slug: shepherd-vet-open-api-appointment-patient-controller-appointment-patient-filter-model
+- name: OpenApiAppointmentStatusController.AppointmentStatusFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-appointment-status-controller-appointment-status-filter-model
+- name: OpenApiAppointmentTypeController.AppointmentTypeFilterModel
+  property_count: 12
+  slug: shepherd-vet-open-api-appointment-type-controller-appointment-type-filter-model
+- name: OpenApiAttitudeController.AttitudeFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-attitude-controller-attitude-filter-model
+- name: OpenApiBreedController.BreedFilterModel
+  property_count: 16
+  slug: shepherd-vet-open-api-breed-controller-breed-filter-model
+- name: OpenApiCapillaryRefillTimeController.CapillaryRefillTimeFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-capillary-refill-time-controller-capillary-refill-time-filter-model
+- name: OpenApiClientBalanceController.ClientBalanceFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-client-balance-controller-client-balance-filter-model
+- name: OpenApiClientBalanceController.ClientClinicBalanceFilterModel
+  property_count: 13
+  slug: shepherd-vet-open-api-client-balance-controller-client-clinic-balance-filter-model
+- name: OpenApiClientBalanceController.ClientClinicCreditBalanceAgingFilterModel
+  property_count: 5
+  slug: shepherd-vet-open-api-client-balance-controller-client-clinic-credit-balance-aging-filter-model
+- name: OpenApiClientBalanceController.ClientClinicOutstandingBalanceAgingFilterModel
+  property_count: 4
+  slug: shepherd-vet-open-api-client-balance-controller-client-clinic-outstanding-balance-aging-filter-model
+- name: OpenApiClientCoOwnerController.ClientCoOwnerFilterModel
+  property_count: 14
+  slug: shepherd-vet-open-api-client-co-owner-controller-client-co-owner-filter-model
+- name: OpenApiClientController.ClientFilterModel
+  property_count: 28
+  slug: shepherd-vet-open-api-client-controller-client-filter-model
+- name: OpenApiClientController.Client
+  property_count: 39
+  slug: shepherd-vet-open-api-client-controller-client
+- name: OpenApiClientController.ClientUpdateModel
+  property_count: 24
+  slug: shepherd-vet-open-api-client-controller-client-update-model
+- name: OpenApiClientController.ClientWriteModel
+  property_count: 22
+  slug: shepherd-vet-open-api-client-controller-client-write-model
+- name: OpenApiClientDiscountController.ClientDiscountFilterModel
+  property_count: 13
+  slug: shepherd-vet-open-api-client-discount-controller-client-discount-filter-model
+- name: OpenApiClientNoteController.ClientNoteFilterModel
+  property_count: 13
+  slug: shepherd-vet-open-api-client-note-controller-client-note-filter-model
+- name: OpenApiClientNoteController.ClientNoteWriteModel
+  property_count: 2
+  slug: shepherd-vet-open-api-client-note-controller-client-note-write-model
+- name: OpenApiClientPatientController.ClientPatientFilterModel
+  property_count: 14
+  slug: shepherd-vet-open-api-client-patient-controller-client-patient-filter-model
+- name: OpenApiClientPhoneController.ClientPhoneFilterModel
+  property_count: 12
+  slug: shepherd-vet-open-api-client-phone-controller-client-phone-filter-model
+- name: OpenApiClientReferralSourceController.ClientReferralSourceFilterModel
+  property_count: 13
+  slug: shepherd-vet-open-api-client-referral-source-controller-client-referral-source-filter-model
+- name: OpenApiClientTypeController.ClientTypeFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-client-type-controller-client-type-filter-model
+- name: OpenApiClinicController.ClinicFilterModel
+  property_count: 12
+  slug: shepherd-vet-open-api-clinic-controller-clinic-filter-model
+- name: OpenApiClinicUserController.ClinicUserFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-clinic-user-controller-clinic-user-filter-model
+- name: OpenApiClinicZipCodeTaxRateController.ClinicZipCodeTaxRateFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-clinic-zip-code-tax-rate-controller-clinic-zip-code-tax-rate-filter-model
+- name: OpenApiConversationController.ConversationFilterModel
+  property_count: 17
+  slug: shepherd-vet-open-api-conversation-controller-conversation-filter-model
+- name: OpenApiCountryController.CountryFilterModel
+  property_count: 11
+  slug: shepherd-vet-open-api-country-controller-country-filter-model
+- name: OpenApiDiagnosisDischargeInstructionController.DiagnosisDischargeInstructionFilterModel
+  property_count: 12
+  slug: shepherd-vet-open-api-diagnosis-discharge-instruction-controller-diagnosis-discharge-instruction-filter-model
+- name: OpenApiGroupController.GroupFilterModel
+  property_count: 13
+  slug: shepherd-vet-open-api-group-controller-group-filter-model
+- name: RESTCollectionModelBase_OpenApiAppointmentCancellationReasonController.AppointmentCancellationReason
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-cancellation-reason-controller-appointment-cancellation-reason
+- name: RESTCollectionModelBase_OpenApiAppointmentController.Appointment
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-controller-appointment
+- name: RESTCollectionModelBase_OpenApiAppointmentNoteController.AppointmentNote
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-note-controller-appointment-note
+- name: RESTCollectionModelBase_OpenApiAppointmentPatientController.AppointmentPatient
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-patient-controller-appointment-patient
+- name: RESTCollectionModelBase_OpenApiAppointmentStatusController.AppointmentStatus
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-status-controller-appointment-status
+- name: RESTCollectionModelBase_OpenApiAppointmentTypeController.AppointmentType
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-appointment-type-controller-appointment-type
+- name: RESTCollectionModelBase_OpenApiAttitudeController.Attitude
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-attitude-controller-attitude
+- name: RESTCollectionModelBase_OpenApiBreedController.Breed
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-breed-controller-breed
+- name: RESTCollectionModelBase_OpenApiCapillaryRefillTimeController.CapillaryRefillTime
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-capillary-refill-time-controller-capillary-refill-time
+- name: RESTCollectionModelBase_OpenApiClientBalanceController.ClientClinicCreditBalanceAging
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-balance-controller-client-clinic-credit-balance-aging
+- name: RESTCollectionModelBase_OpenApiClientBalanceController.ClientClinicOutstandingBalanceAging
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-balance-controller-client-clinic-outstanding-balance-aging
+- name: RESTCollectionModelBase_OpenApiClientCoOwnerController.ClientCoOwner
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-co-owner-controller-client-co-owner
+- name: RESTCollectionModelBase_OpenApiClientController.Client
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-controller-client
+- name: RESTCollectionModelBase_OpenApiClientDiscountController.ClientDiscount
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-discount-controller-client-discount
+- name: RESTCollectionModelBase_OpenApiClientNoteController.ClientNote
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-note-controller-client-note
+- name: RESTCollectionModelBase_OpenApiClientPatientController.ClientPatient
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-patient-controller-client-patient
+- name: RESTCollectionModelBase_OpenApiClientPhoneController.ClientPhone
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-phone-controller-client-phone
+- name: RESTCollectionModelBase_OpenApiClientReferralSourceController.ClientReferralSource
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-referral-source-controller-client-referral-source
+- name: RESTCollectionModelBase_OpenApiClientTypeController.ClientType
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-client-type-controller-client-type
+- name: RESTCollectionModelBase_OpenApiClinicController.Clinic
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-clinic-controller-clinic
+- name: RESTCollectionModelBase_OpenApiClinicUserController.ClinicUser
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-clinic-user-controller-clinic-user
+- name: RESTCollectionModelBase_OpenApiClinicZipCodeTaxRateController.ClinicZipCodeTaxRate
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-clinic-zip-code-tax-rate-controller-clinic-zip-code-tax-rate
+- name: RESTCollectionModelBase_OpenApiConversationController.Conversation
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-conversation-controller-conversation
+- name: RESTCollectionModelBase_OpenApiCountryController.Country
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-country-controller-country
+- name: RESTCollectionModelBase_OpenApiDiagnosisDischargeInstructionController.DiagnosisDischargeInstruction
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-diagnosis-discharge-instruction-controller-diagnosis-discharge-instruction
+- name: RESTCollectionModelBase_OpenApiGroupController.Group
+  property_count: 7
+  slug: shepherd-vet-restcollection-model-base-open-api-group-controller-group
+jsonld:
+- class_count: 120
+  name: Shepherd Vet Context
+  property_count: 237
+  slug: shepherd-vet-context
 layout: provider
 modified: '2026-10-28'
 name: Shepherd Veterinary Software
 nav: Providers
 network: true
-overview: 'Shepherd Veterinary Software publishes 106 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointment API, Appointment Cancellation Reason API, Appointment Note API, and 103 more. Tagged areas include Veterinary, Software, Cloud, API, and PracticeManagement.
+overview: 'Shepherd Veterinary Software publishes 106 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointment API, Appointment Cancellation Reason API, Appointment Note API, and 103 more. Tagged areas include Veterinary, Software, Cloud, and Practice Management.
 
 
-  The Shepherd Veterinary Software catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Shepherd Veterinary Software catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Shepherd Veterinary Software''s developer surface includes sandbox, authentication, pricing, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
+  Shepherd Veterinary Software''s developer surface includes sandbox, authentication, pricing, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -715,16 +920,16 @@ rate_limits:
   slug: shepherd-vet-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 98
   extends:
   - spectral:oas
   name: Shepherd Veterinary Software API Rules
-  rule_count: 12
+  rule_count: 57
   severity_counts:
-    error: 8
+    error: 39
     hint: 0
-    info: 1
-    warn: 3
+    info: 3
+    warn: 15
   slug: shepherd-vet-rules
 scopes:
 - name: Shepherd Vet Scopes
@@ -733,21 +938,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.9
+  composite: 39.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 50.8
+    artifact_dirs: 33
+    catalog_earned: 65.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.1
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 22.0
-    contract_quality: 42.2
-    developer_ergonomics: 70.7
-    discoverability: 66.1
-    operational_transparency: 47.4
+    contract_quality: 55.8
+    developer_ergonomics: 48.1
+    discoverability: 64.3
+    operational_transparency: 39.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -764,12 +977,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/shepherd-vet/shepherd-vet-2026-11-03T143116.png
 security:
 - kind: authentication
   name: Shepherd Vet Authentication
@@ -788,7 +1002,6 @@ tags:
 - Veterinary
 - Software
 - Cloud
-- API
-- PracticeManagement
+- Practice Management
 website: https://shepherd.vet/
 ---

@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-31'
+  score: 31.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported clients include DuckDB CLI, Python, Node.js, JDBC,
@@ -130,9 +132,9 @@ rate_limits:
   slug: motherduck-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 20.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -144,9 +146,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 39.8
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 20.2
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 20.0
   provenance:
     mcp: first-party
   regulatory:
@@ -155,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -259,9 +260,9 @@ rate_limits:
   slug: dealer-com-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 47.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
@@ -273,9 +274,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 64.3
-    operational_transparency: 78.9
-  previous_composite: 47.2
+    discoverability: 69.2
+    operational_transparency: 76.3
+  previous_composite: 47.3
   provenance:
     conformance: derived
     mcp: third-party
@@ -285,8 +286,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

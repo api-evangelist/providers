@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-31'
+  score: 15.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -172,7 +173,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,10 +183,10 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 65.0
-    operational_transparency: 21.1
+    contract_quality: 5.3
+    developer_ergonomics: 47.6
+    discoverability: 75.0
+    operational_transparency: 18.4
   previous_composite: 34.7
   provenance:
     conformance: first-party
@@ -196,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://web.voiceitt.com/socket.io
@@ -54,7 +55,7 @@ apis:
   description: The Rec API from Voiceitt — 1 operation(s) for rec.
   name: Voiceitt Rec API
   slug: voiceitt-rec-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: Socket.IO WebSockets API for real-time speech recognition of non-standard speech. Clients authenticate with a JWT (token + refresh_token in the Socket.IO auth option, obtained from the Voiceitt HTTP A
   name: Voiceitt WebSockets API
@@ -191,30 +192,43 @@ network: true
 overview: 'Voiceitt publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: WebSockets API, Auth API, and Rec API. Tagged areas include Speech Recognition, Speech-to-Text, Voice, Accessibility, and Assistive Technology.
 
 
-  The Voiceitt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Voiceitt catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Voiceitt''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Voiceitt API Rules
+  rule_count: 42
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 1
+  slug: voiceitt-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 41.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
-    access_clarity: 52.6
-    contract_governance: 18.2
+    access_clarity: 39.5
+    contract_governance: 31.8
     contract_quality: 48.3
-    developer_ergonomics: 56.5
-    discoverability: 66.1
+    developer_ergonomics: 47.0
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 44.5
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     contracts:
@@ -230,13 +244,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/voiceitt/voiceitt-2026-08-17T082826.png
 security:
 - kind: authentication

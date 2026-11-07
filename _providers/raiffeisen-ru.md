@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +29,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 42.2
-  scored_at: '2026-10-31'
+  score: 46.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 28
@@ -845,13 +859,13 @@ json_schemas:
   property_count: 3
   slug: raiffeisen-ru-agreements-filter-request
 - name: AgreementsResponse
-  property_count: 1
+  property_count: 4
   slug: raiffeisen-ru-agreements-response
 - name: ApiProcessImportDto
-  property_count: 8
+  property_count: 9
   slug: raiffeisen-ru-api-process-import-dto
 - name: ApiProcessImportFullDto
-  property_count: 8
+  property_count: 9
   slug: raiffeisen-ru-api-process-import-full-dto
 - name: ApiShortProcessImportDto
   property_count: 1
@@ -872,7 +886,7 @@ json_schemas:
   property_count: 6
   slug: raiffeisen-ru-bill-request
 - name: Buyer
-  property_count: 0
+  property_count: 10
   slug: raiffeisen-ru-buyer
 - name: ClientInfoResponse
   property_count: 2
@@ -950,10 +964,10 @@ json_schemas:
   property_count: 12
   slug: raiffeisen-ru-create1-creport-request-v2
 - name: CurrencyContractRequest
-  property_count: 0
+  property_count: 13
   slug: raiffeisen-ru-currency-contract-request
 - name: CurrencyContractResponse
-  property_count: 0
+  property_count: 20
   slug: raiffeisen-ru-currency-contract-response
 - name: DeactivateCodeRequest
   property_count: 1
@@ -998,7 +1012,7 @@ json_schemas:
   property_count: 2
   slug: raiffeisen-ru-file-upload-request
 - name: FileUploadResponse
-  property_count: 0
+  property_count: 8
   slug: raiffeisen-ru-file-upload-response
 - name: ForeignTradeContract
   property_count: 29
@@ -1028,7 +1042,7 @@ json_schemas:
   property_count: 3
   slug: raiffeisen-ru-guarantee-beneficiary-filter-request
 - name: GuaranteeBeneficiaryResponse
-  property_count: 1
+  property_count: 4
   slug: raiffeisen-ru-guarantee-beneficiary-response
 - name: GuaranteeChangeLogDto
   property_count: 11
@@ -1046,7 +1060,7 @@ json_schemas:
   property_count: 2
   slug: raiffeisen-ru-guarantee-short-dto
 - name: GuaranteesResponse
-  property_count: 1
+  property_count: 4
   slug: raiffeisen-ru-guarantees-response
 - name: LoginStepRequestDTO
   property_count: 5
@@ -1067,7 +1081,7 @@ json_schemas:
   property_count: 4
   slug: raiffeisen-ru-operation-dto-v2
 - name: OrderResponse
-  property_count: 0
+  property_count: 17
   slug: raiffeisen-ru-order-response
 - name: PacketResponse
   property_count: 10
@@ -1184,7 +1198,7 @@ json_schemas:
   property_count: 1
   slug: raiffeisen-ru-update-code-request
 - name: UPDRequest
-  property_count: 0
+  property_count: 8
   slug: raiffeisen-ru-updrequest
 - name: UserEligibleCompaniesResponse
   property_count: 4
@@ -1257,22 +1271,22 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 57.8
+  composite: 54.8
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 79.3
     catalog_earned_first_party: 18.0
     catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 23.7
+    access_clarity: 11.8
     contract_governance: 76.5
-    contract_quality: 70.9
-    developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 36.8
+    contract_quality: 71.3
+    developer_ergonomics: 42.3
+    discoverability: 80.8
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1281,7 +1295,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 57.8
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1297,14 +1311,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 29.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 28.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/raiffeisen-ru/raiffeisen-ru-2026-10-11T113117.png
 security:
 - kind: authentication

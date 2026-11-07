@@ -24,6 +24,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -441,9 +442,9 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 27.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -456,8 +457,11 @@ score:
     contract_quality: 58.5
     developer_ergonomics: 26.2
     discoverability: 51.8
-    operational_transparency: 21.1
-  previous_composite: 29.5
+    operational_transparency: 5.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -471,13 +475,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/statsd/statsd-2026-06-20T194527.png
 slug: statsd
 tags:

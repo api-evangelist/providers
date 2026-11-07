@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Simbe's cloud platform API, which feeds Tally-captured shelf, inventory, pricing and out-of-stock data into a retailer's existing systems. Its existence is confirmed by Simbe's own public status page,
@@ -146,9 +147,9 @@ rate_limits:
   slug: simbe-robotics-rate-limits
 score:
   band: emerging
-  composite: 16.0
+  composite: 15.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -161,16 +162,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 16.0
+    operational_transparency: 18.4
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

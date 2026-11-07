@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -225,9 +227,9 @@ rules:
   slug: debezium-kafka-connect-api-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 27.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 57.4
     catalog_earned_first_party: 0.0
     catalog_gap: 57.6
@@ -238,10 +240,10 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 43.2
-    developer_ergonomics: 28.6
+    developer_ergonomics: 26.2
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 28.2
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -255,13 +257,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/debezium/debezium-2026-06-20T175745.png
 security:
 - kind: domain-security

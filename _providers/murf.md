@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium (free trial)
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: true
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -80,7 +82,7 @@ apis:
   description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
   name: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Reference subpackage_auth API
@@ -186,6 +188,9 @@ network: true
 overview: 'Murf publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Auth API, subpackage_dubbing.subpackage_dubbing/jobs API, Subpackage Dubbing.subpackage Dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Voiceover, and Dubbing.
 
 
+  The Murf catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Murf''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Murf Plans Pricing
@@ -196,25 +201,38 @@ rate_limits:
 - limit_count: 4
   name: Murf Rate Limits
   slug: murf-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Murf API Rules
+  rule_count: 45
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 1
+  slug: murf-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 30.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 17
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 39.5
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 43.6
     developer_ergonomics: 11.9
     discoverability: 73.2
     operational_transparency: 13.2
-  previous_composite: 29.0
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -228,13 +246,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/murf/murf-2026-06-20T185902.png
 security:
 - kind: domain-security

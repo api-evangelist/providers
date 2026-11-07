@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-31'
+  score: 21.8
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The Forest Inventory and Analysis Database API, the machine surface behind the EVALIDator web application. A single GET or POST to /fullreport returns population estimates with standard errors, varian
@@ -174,9 +175,9 @@ rate_limits:
   slug: forest-service-rate-limits
 score:
   band: thin
-  composite: 28.8
+  composite: 34.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -186,16 +187,16 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 54.2
     discoverability: 71.4
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.8
+  previous_composite: 34.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -206,8 +207,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

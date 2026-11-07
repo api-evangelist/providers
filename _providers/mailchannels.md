@@ -1,34 +1,78 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 11
 common:
+- group: operate
+  href: https://artifacts.apis.io/mailchannels/rate-limits/mailchannels-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mailchannels-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/mailchannels/rules/mailchannels-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/mailchannels-rules.yml
+- group: design
+  href: https://artifacts.apis.io/mailchannels/json-ld/mailchannels-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/mailchannels-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/mailchannels/vocabulary/mailchannels-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/mailchannels-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/mailchannels/data-model/mailchannels-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/mailchannels-data-model.yml
+- group: auth
+  href: https://artifacts.apis.io/mailchannels/well-known/mailchannels-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/mailchannels-status-security.txt
 - group: start
   title: ''
   type: GettingStarted
@@ -63,11 +107,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/mailchannels-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/mailchannels/well-known/mailchannels-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mailchannels-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/mailchannels/well-known/mailchannels-security.txt
   title: ''
@@ -195,13 +234,13 @@ modified: '2026-10-27'
 name: MailChannels
 nav: Providers
 network: true
-overview: 'MailChannels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, API, SMTP, and Platform.
+overview: 'MailChannels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, SMTP, and Platform.
 
 
   The MailChannels catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MailChannels'' developer surface includes getting-started guide, authentication, documentation, API reference, support, engineering blog, pricing, and 22 more developer resources.'
+  MailChannels'' developer surface includes getting-started guide, authentication, documentation, API reference, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Mailchannels Plans Pricing
   plan_count: 4
@@ -213,42 +252,44 @@ rate_limits:
   slug: mailchannels-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: MailChannels API Rules
-  rule_count: 10
+  rule_count: 43
   severity_counts:
-    error: 9
+    error: 39
     hint: 0
     info: 1
-    warn: 0
+    warn: 3
   slug: mailchannels-rules
 score:
-  band: developing
-  composite: 43.0
+  band: thin
+  composite: 34.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.8
+    artifact_dirs: 24
+    catalog_earned: 52.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 59.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.7
   facets:
-    access_clarity: 63.2
-    contract_governance: 29.5
+    access_clarity: 47.4
+    contract_governance: 35.6
     contract_quality: 8.3
-    developer_ergonomics: 64.3
-    discoverability: 48.2
-    operational_transparency: 36.8
+    developer_ergonomics: 41.7
+    discoverability: 46.4
+    operational_transparency: 34.2
+  previous_composite: 43.0
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 1
       marker_coverage: 100.0
-      total: 9
-    mcp: unknown
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -258,13 +299,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/mailchannels/mailchannels-2026-11-03T135241.png
 security:
 - kind: authentication
   name: Mailchannels Authentication
@@ -282,7 +324,6 @@ slug: mailchannels
 tags:
 - Company
 - Email
-- API
 - SMTP
 - Platform
 website: https://mailchannels.com/

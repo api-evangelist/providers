@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -175,9 +176,9 @@ overview: 'Hashflow is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 20
 score:
   band: thin
-  composite: 27.3
+  composite: 26.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -188,10 +189,10 @@ score:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 27.3
+    developer_ergonomics: 61.3
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 26.7
   provenance:
     conformance: derived
     mcp: derived
@@ -202,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

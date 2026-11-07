@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -21,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-31'
+  score: 50.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -177,7 +179,7 @@ apis:
   description: The void API from Spreedly — 1 operation(s) for void.
   name: Spreedly Void API
   slug: spreedly-void-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Spreedly Webhooks
@@ -419,7 +421,7 @@ network: true
 overview: 'Spreedly publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Secrets API, Authorize API, Capture API, and 23 more. Tagged areas include Payments, United States, Payment Gateway, Payment Orchestration, and Payment Processing.
 
 
-  The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 38 more developer resources.'
@@ -431,24 +433,37 @@ plans:
   plan_count: 0
   slug: spreedly-price-estimates
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Spreedly API Rules
+  rule_count: 55
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 2
+    warn: 18
+  slug: spreedly-rules
 score:
-  band: exemplar
-  composite: 68.0
+  band: strong
+  composite: 64.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 48.0
+    artifact_dirs: 33
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 4.2
   facets:
-    access_clarity: 89.5
-    contract_governance: 18.2
+    access_clarity: 71.1
+    contract_governance: 31.8
     contract_quality: 58.7
-    developer_ergonomics: 78.0
-    discoverability: 65.0
-    operational_transparency: 63.2
+    developer_ergonomics: 72.0
+    discoverability: 75.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -456,7 +471,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 62.2
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,14 +487,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 37.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spreedly/spreedly-2026-08-17T082042.png
 security:
 - kind: authentication

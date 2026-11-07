@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 16
@@ -80,7 +85,7 @@ apis:
   description: Workspace Management
   name: Cosmo Tech Workspace API
   slug: cosmo-tech-workspace-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Cosmo Tech Manager dataset API
@@ -244,8 +249,24 @@ network: true
 overview: 'Cosmo Tech publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dataset API, Meta API, Organization API, and 4 more. Tagged areas include Company, Simulation, Digital Twin, Artificial Intelligence, and Supply Chain.
 
 
+  The Cosmo Tech catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Cosmo Tech''s developer surface includes engineering blog, documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
 random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Cosmo Tech API Rules
+  rule_count: 61
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 4
+    warn: 9
+  slug: cosmo-tech-rules
 scopes:
 - name: Cosmo Tech Scopes
   scope_count: 0
@@ -253,22 +274,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.4
+  composite: 44.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 4.5
-    contract_quality: 40.6
-    developer_ergonomics: 61.3
-    discoverability: 71.4
-    operational_transparency: 21.1
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 44.1
+    developer_ergonomics: 57.7
+    discoverability: 78.6
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,7 +298,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 44.4
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,14 +314,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/cosmo-tech/cosmo-tech-2026-07-25T210455.png
 security:
 - kind: authentication

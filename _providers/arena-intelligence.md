@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,10 +36,44 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
+- group: auth
+  href: https://artifacts.apis.io/arena-intelligence/well-known/arena-intelligence-clarity-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/arena-intelligence-clarity-security.txt
+- group: build
+  href: https://artifacts.apis.io/arena-intelligence/integrations/arena-intelligence-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/arena-intelligence-integration-edges.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://platform.arena.ai/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.arena.ai/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.arena.ai/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.arena.ai/signup?returnTo=%2Fdashboard
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://platform.arena.ai/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lmarena
 - group: company
   title: ''
   type: Blog
@@ -38,11 +83,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/arena-intelligence-security.txt
-- group: auth
-  href: https://artifacts.apis.io/arena-intelligence/well-known/arena-intelligence-clarity-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/arena-intelligence-clarity-security.txt
 - group: agent
   href: https://artifacts.apis.io/arena-intelligence/well-known/arena-intelligence-well-known.yml
   title: ''
@@ -77,7 +117,7 @@ common:
   type: Website
   url: https://arena.ai
 coverage:
-  checked: 2026-09-25
+  checked: '2026-09-25'
   detail: No OpenAPI, AsyncAPI, GraphQL, or other machine-readable contract found on discovered hosts.
   evidence:
   - status: 404
@@ -97,36 +137,36 @@ network: true
 overview: 'Arena Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Policy, Advocacy, Campaign, and Government.
 
 
-  Arena Intelligence''s developer surface includes engineering blog and 9 more developer resources.'
+  Arena Intelligence''s developer surface includes support, signup flow, engineering blog, and 14 more developer resources.'
 random_paper: 7
 score:
-  band: minimal
-  composite: 6.4
+  band: emerging
+  composite: 17.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

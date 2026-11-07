@@ -1,15 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -192,9 +193,9 @@ rules:
   slug: hailuo-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.0
+  composite: 38.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 55.8
     catalog_earned_first_party: 12.0
     catalog_gap: 59.3
@@ -213,7 +214,7 @@ score:
     countries:
     - china
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 39.0
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +228,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hailuo-ai/hailuo-ai-2026-07-25T220530.png
 security:
 - kind: authentication

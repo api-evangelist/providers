@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -539,9 +541,9 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 54.4
+  composite: 54.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 58.4
     catalog_earned_first_party: 0.0
     catalog_gap: 56.6
@@ -551,7 +553,7 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 64.4
+    contract_quality: 67.8
     developer_ergonomics: 78.6
     discoverability: 57.1
     operational_transparency: 42.1
@@ -560,7 +562,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 54.4
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -574,13 +576,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sailpoint/sailpoint-2026-06-20T193336.png
 security:
 - kind: authentication

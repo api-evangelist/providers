@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -97,6 +99,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/catalyst-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.catalyst.io/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.catalyst.io
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.totango.com/blog
 created: '2026-07-17'
 description: Catalyst is a customer success platform for SaaS companies, giving customer success and revenue teams a single workspace to unify product usage, CRM, and support data, track customer health scores, automate playbooks, and drive retention and expansion. Catalyst merged with Totango to form a combined customer growth platform. This is an Accel-backed cloud-SaaS company profile in the API Evangelist network; Catalyst runs a customer-facing web application (app.catalyst.io) but does not currently publish a public developer API, OpenAPI, or SDKs.
 image: https://cdn.prod.website-files.com/61cb60ab7b41408bfa98cabf/63f627553debba6e57001d51_ctl-share.jpg
@@ -108,11 +122,11 @@ network: true
 overview: 'Catalyst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Customer Success, Software-as-a-Service, and Customer Growth.
 
 
-  Catalyst''s developer surface includes support, engineering blog, and 12 more developer resources.'
+  Catalyst''s developer surface includes support, engineering blog, documentation, and 14 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 21.1
+  composite: 20.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -120,23 +134,23 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 26.3
-  previous_composite: 21.1
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -165,5 +179,7 @@ tags:
 - Customer Growth
 - Retention
 - Revenue
+- Platform
+- Automation
 website: https://catalyst.io
 ---

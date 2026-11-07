@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: ITB's campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol and running on ITB's own host login.itb.ac.id. The CAS 2.0 and CAS 3.0 ticket-validation endpoints a
@@ -146,9 +148,9 @@ rate_limits:
   slug: itb-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 21.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -161,7 +163,7 @@ score:
     contract_quality: 17.3
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -169,7 +171,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 21.7
+  previous_composite: 21.4
   provenance:
     conformance: first-party
   regulatory:
@@ -178,8 +180,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

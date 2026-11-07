@@ -1,17 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid (free trial) · Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
   - security
-  - '{''url'': ''https://dev.azure.com'', ''status'': 302, ''note'': ''declared website redirects to https://azure.microsoft.com/en-us/products/devops/?nav=min — a different registrable domain (azure.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
-  trial: true
-  try_now: true
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -1641,23 +1642,26 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.4
+  composite: 76.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 79.0
     catalog_earned_first_party: 24.0
     catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 68.2
+    contract_quality: 71.5
     developer_ergonomics: 82.1
     discoverability: 68.3
-    operational_transparency: 78.9
-  previous_composite: 72.9
+    operational_transparency: 76.3
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1671,13 +1675,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-devops/microsoft-azure-devops-2026-06-20T185413.png
 security:
 - kind: authentication

@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -95,7 +99,7 @@ apis:
   description: The OAuth2 API from Flock Safety — 1 operation(s) for oauth2.
   name: Flock Safety O Auth2 API
   slug: flock-safety-oauth2-api
-artifact_total: 34
+artifact_total: 35
 asyncapis:
 - description: Real-time webhook that delivers Flock Safety LPR (license plate recognition) hotlist alert events. An alert fires when a plate captured by a Flock LPR camera (owned by, or shared within the First Resp
   name: Flock Safety LPR Hotlist Alerts Webhook
@@ -322,7 +326,7 @@ network: true
 overview: 'Flock Safety publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, CAD Events API, Custom Hotlists API, and 7 more. Tagged areas include Company, American Dynamism, Public Safety, Law Enforcement, and License Plate Recognition.
 
 
-  The Flock Safety catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Flock Safety catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 30 more developer resources.'
@@ -335,30 +339,43 @@ rate_limits:
 - limit_count: 0
   name: Flock Safety Rate Limits
   slug: flock-safety-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Flock Safety API Rules
+  rule_count: 60
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 3
+    warn: 9
+  slug: flock-safety-rules
 scopes:
 - name: Flock Safety Scopes
   scope_count: 5
   slug: flock-safety-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 56.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 37.0
+    artifact_dirs: 30
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 47.4
-    contract_governance: 4.5
-    contract_quality: 55.8
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 52.4
+    contract_governance: 18.2
+    contract_quality: 57.8
+    developer_ergonomics: 55.4
+    discoverability: 73.2
+    operational_transparency: 50.0
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +392,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/flock-safety/flock-safety-2026-07-25T214812.png
 security:
 - kind: authentication

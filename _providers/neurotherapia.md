@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'A remote, anonymous Model Context Protocol server served from the NeuroTherapia corporate domain at /_api/mcp. It is provisioned by the Wix website platform rather than authored by NeuroTherapia, and '
@@ -142,9 +143,9 @@ rate_limits:
   slug: neurotherapia-rate-limits
 score:
   band: emerging
-  composite: 18.2
+  composite: 19.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -156,7 +157,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -165,7 +166,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.2
+  previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -176,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

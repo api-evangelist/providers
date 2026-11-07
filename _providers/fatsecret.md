@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,10 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -351,10 +359,10 @@ scopes:
   slug: fatsecret-scopes
   summary_line: 7 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.2
+  band: developing
+  composite: 53.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 73.3
     catalog_earned_first_party: 24.0
     catalog_gap: 41.8
@@ -365,10 +373,10 @@ score:
     access_clarity: 76.3
     contract_governance: 14.4
     contract_quality: 45.2
-    developer_ergonomics: 58.9
+    developer_ergonomics: 56.5
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 55.2
+    operational_transparency: 34.2
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,13 +393,12 @@ score:
     regime: Health
     regime_id: health
     score: 36.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fatsecret/fatsecret-2026-06-20T181056.png
 security:
 - kind: authentication

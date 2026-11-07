@@ -1,15 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Enterprise
+  label: Paid
   onboarding: unknown
-  pricing: enterprise
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
-  - '{''url'': ''https://www.talend.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.qlik.com/us/qlik-talend — a different registrable domain (talend.com -> qlik.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -29,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 8
@@ -261,7 +261,7 @@ apis:
   description: 'The workspaces :: permissions API from Talend — 3 operation(s) for workspaces :: permissions.'
   name: 'Talend workspaces :: permissions API'
   slug: talend-workspaces-permissions-api
-artifact_total: 110
+artifact_total: 170
 collections:
 - collection_type: open
   name: Talend Cloud Orchestration Artifacts API
@@ -312,6 +312,20 @@ collections:
   name: Talend Cloud Orchestration Artifacts Workspaces API
   slug: open-talend-workspaces-api
 common:
+- group: auth
+  href: https://artifacts.apis.io/talend/well-known/talend-apis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/talend-apis-security.txt
+- group: build
+  href: https://artifacts.apis.io/talend/integrations/talend-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/talend-integration-edges.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.qlik.com/us/roadmap
 - group: other
   href: https://artifacts.apis.io/talend/capabilities/talend-capability-edges.yml
   title: ''
@@ -382,16 +396,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/talend-llms.txt
-- group: other
-  href: https://artifacts.apis.io/talend/a2a/talend-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/talend-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/talend/well-known/talend-apis-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/talend-apis-security.txt
 - group: agent
   href: https://artifacts.apis.io/talend/well-known/talend-well-known.yml
   title: ''
@@ -508,14 +512,6 @@ common:
   title: ''
   type: Help
   url: https://help.qlik.com/en-US/cloud-services/Content/Sense_Helpsites/Home-talend-cloud.htm
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/json-schema/talend-task-schema.json
-- group: design
-  title: ''
-  type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/vocabulary/talend-vocabulary.yml
 created: '2026-03-16'
 description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing remote engines, configuring connections, monitoring execution history, and administering identities, workspaces, and environments.
 examples:
@@ -535,15 +531,90 @@ json_schemas:
 - name: Artifact
   property_count: 5
   slug: talend-artifact
+- name: AttributeValuePutRequest
+  property_count: 1
+  slug: talend-attribute-value-put-request
+- name: BulkSharingSetRequest
+  property_count: 1
+  slug: talend-bulk-sharing-set-request
+- name: CertificationRequest
+  property_count: 1
+  slug: talend-certification-request
+- name: ColumnDescription
+  property_count: 2
+  slug: talend-column-description
+- name: ColumnDescriptionUpdateRequest
+  property_count: 1
+  slug: talend-column-description-update-request
+- name: CommandSuccess
+  property_count: 2
+  slug: talend-command-success
+- name: ComponentQueryRequest
+  property_count: 8
+  slug: talend-component-query-request
 - name: ConnectionCreate
   property_count: 4
   slug: talend-connection-create
+- name: ConnectionScan
+  property_count: 3
+  slug: talend-connection-scan
 - name: Connection
   property_count: 5
   slug: talend-connection
 - name: ConnectionCreate
   property_count: 4
   slug: talend-connectioncreate
+- name: CreateCrawlerRequest
+  property_count: 5
+  slug: talend-create-crawler-request
+- name: CreateCrawlerResponse
+  property_count: 1
+  slug: talend-create-crawler-response
+- name: CreateDynamicEngineEnvironmentRequest
+  property_count: 6
+  slug: talend-create-dynamic-engine-environment-request
+- name: CreateDynamicEngineRequest
+  property_count: 2
+  slug: talend-create-dynamic-engine-request
+- name: CustomAttributeCreateRequest
+  property_count: 6
+  slug: talend-custom-attribute-create-request
+- name: CustomAttributeCreateResponse
+  property_count: 1
+  slug: talend-custom-attribute-create-response
+- name: CustomAttributeDefinition
+  property_count: 10
+  slug: talend-custom-attribute-definition
+- name: CustomAttributeUpdateRequest
+  property_count: 5
+  slug: talend-custom-attribute-update-request
+- name: CustomAttributeValueDatasetResponse
+  property_count: 2
+  slug: talend-custom-attribute-value-dataset-response
+- name: DatasetResponse
+  property_count: 23
+  slug: talend-dataset-response
+- name: DEEnvironmentPage
+  property_count: 4
+  slug: talend-deenvironment-page
+- name: DEEnvironment
+  property_count: 14
+  slug: talend-deenvironment
+- name: DownloadRequest
+  property_count: 6
+  slug: talend-download-request
+- name: DynamicEngineDetailsResponse
+  property_count: 9
+  slug: talend-dynamic-engine-details-response
+- name: DynamicEngineVersion
+  property_count: 6
+  slug: talend-dynamic-engine-version
+- name: Eligibles
+  property_count: 2
+  slug: talend-eligibles
+- name: EntitlementsResponse
+  property_count: 2
+  slug: talend-entitlements-response
 - name: EnvironmentCreate
   property_count: 2
   slug: talend-environment-create
@@ -553,9 +624,60 @@ json_schemas:
 - name: EnvironmentCreate
   property_count: 2
   slug: talend-environmentcreate
+- name: ExecutionComponentMetrics
+  property_count: 14
+  slug: talend-execution-component-metrics
+- name: ExecutionPage
+  property_count: 4
+  slug: talend-execution-page
 - name: Task Execution
   property_count: 12
   slug: talend-execution
+- name: GenerateDeploymentOptions
+  property_count: 2
+  slug: talend-generate-deployment-options
+- name: GenericScimResource
+  property_count: 5
+  slug: talend-generic-scim-resource
+- name: GroupResource
+  property_count: 6
+  slug: talend-group-resource
+- name: IpAllowlist
+  property_count: 3
+  slug: talend-ip-allowlist
+- name: IpAllowlistSettings
+  property_count: 1
+  slug: talend-ip-allowlist-settings
+- name: IpEntry
+  property_count: 2
+  slug: talend-ip-entry
+- name: LevelResponse
+  property_count: 3
+  slug: talend-level-response
+- name: ListResponseGenericScimResource
+  property_count: 8
+  slug: talend-list-response-generic-scim-resource
+- name: PaginatedResources_CrawledDataset
+  property_count: 4
+  slug: talend-paginated-resources-crawled-dataset
+- name: PaginatedResources_CrawlerModel
+  property_count: 4
+  slug: talend-paginated-resources-crawler-model
+- name: PatchCrawlerRequest
+  property_count: 2
+  slug: talend-patch-crawler-request
+- name: PatchRequest
+  property_count: 5
+  slug: talend-patch-request
+- name: PermissionDeleteResult
+  property_count: 3
+  slug: talend-permission-delete-result
+- name: PermissionResult
+  property_count: 3
+  slug: talend-permission-result
+- name: Permission
+  property_count: 3
+  slug: talend-permission
 - name: PlanCreate
   property_count: 4
   slug: talend-plan-create
@@ -577,6 +699,9 @@ json_schemas:
 - name: PlanExecutionRequest
   property_count: 3
   slug: talend-planexecutionrequest
+- name: RawComponentMetricPage
+  property_count: 4
+  slug: talend-raw-component-metric-page
 - name: RemoteEngineCreate
   property_count: 3
   slug: talend-remote-engine-create
@@ -589,6 +714,12 @@ json_schemas:
 - name: RemoteEngineCreate
   property_count: 3
   slug: talend-remoteenginecreate
+- name: RoleMapping
+  property_count: 2
+  slug: talend-role-mapping
+- name: RoleResource
+  property_count: 6
+  slug: talend-role-resource
 - name: RunProfileCreate
   property_count: 4
   slug: talend-run-profile-create
@@ -604,6 +735,33 @@ json_schemas:
 - name: ScheduleCreate
   property_count: 3
   slug: talend-schedulecreate
+- name: ScimResource
+  property_count: 4
+  slug: talend-scim-resource
+- name: SearchDynamicEngineEnvironmentsRequest
+  property_count: 7
+  slug: talend-search-dynamic-engine-environments-request
+- name: SearchRequest
+  property_count: 6
+  slug: talend-search-request
+- name: ServiceAccountCount
+  property_count: 2
+  slug: talend-service-account-count
+- name: ServiceAccount
+  property_count: 8
+  slug: talend-service-account
+- name: SharingResponse
+  property_count: 9
+  slug: talend-sharing-response
+- name: SharingSetKey
+  property_count: 2
+  slug: talend-sharing-set-key
+- name: StatusResponse
+  property_count: 6
+  slug: talend-status-response
+- name: Subscription
+  property_count: 8
+  slug: talend-subscription
 - name: TaskCreate
   property_count: 4
   slug: talend-task-create
@@ -625,6 +783,24 @@ json_schemas:
 - name: TaskExecutionRequest
   property_count: 3
   slug: talend-taskexecutionrequest
+- name: TokenRequest
+  property_count: 2
+  slug: talend-token-request
+- name: TokenResponse
+  property_count: 3
+  slug: talend-token-response
+- name: UpdateCrawlerRequest
+  property_count: 3
+  slug: talend-update-crawler-request
+- name: UpdateDynamicEngineEnvironmentRequest
+  property_count: 4
+  slug: talend-update-dynamic-engine-environment-request
+- name: UpdateDynamicEngineRequest
+  property_count: 2
+  slug: talend-update-dynamic-engine-request
+- name: UserResource
+  property_count: 25
+  slug: talend-user-resource
 - name: WorkspaceCreate
   property_count: 2
   slug: talend-workspace-create
@@ -657,7 +833,7 @@ overview: 'Talend publishes 44 API contracts indexed on the [APIs.io](https://ap
   The Talend catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Talend''s developer surface includes support, pricing, engineering blog, authentication, developer portal, documentation, getting-started guide, and 38 more developer resources.'
+  Talend''s developer surface includes support, pricing, engineering blog, authentication, developer portal, documentation, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Talend Plans Pricing
   plan_count: 4
@@ -692,41 +868,41 @@ rules:
     warn: 3
   slug: talend-jsonschema-spectral-rules
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 105
   extends:
   - spectral:oas
   name: Talend API Rules
-  rule_count: 14
+  rule_count: 64
   severity_counts:
-    error: 6
+    error: 42
     hint: 0
     info: 4
-    warn: 4
+    warn: 18
   slug: talend-rules
 score:
   band: strong
-  composite: 56.6
+  composite: 59.9
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 34
     catalog_earned: 79.8
     catalog_earned_first_party: 12.0
     catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: -2.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 60.5
     contract_governance: 22.0
-    contract_quality: 62.4
+    contract_quality: 65.8
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 80.4
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 54.5
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -742,14 +918,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/talend/talend-2026-06-20T194901.png
 security:
 - kind: authentication

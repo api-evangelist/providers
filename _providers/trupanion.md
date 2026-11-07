@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Requires approval
   onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Partner API for generating and retrieving Trupanion pet insurance quotes (species, breed, age, location, and coverage inputs) so partners can surface a monthly premium in their own enrollment flow. Na
@@ -98,8 +103,8 @@ overview: 'Trupanion is listed with 4 APIs on the [APIs.io](https://apis.io/) ne
   Trupanion''s developer surface includes documentation, getting-started guide, signup flow, and 4 more developer resources.'
 random_paper: 8
 score:
-  band: emerging
-  composite: 11.5
+  band: minimal
+  composite: 9.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -112,18 +117,18 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 11.5
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

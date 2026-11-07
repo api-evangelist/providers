@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -117,7 +118,7 @@ apis:
   description: The Users API from Vector Solutions — 4 operation(s) for users.
   name: Vector Solutions Users API
   slug: vectorsolutions-users-api
-artifact_total: 33
+artifact_total: 34
 collections:
 - collection_type: open
   name: TargetSolutions Courses API
@@ -294,27 +295,43 @@ network: true
 overview: 'Vector Solutions publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Courses API, Credential Assignment API, Credential Categories API, and 11 more. Tagged areas include Training, LMS, Compliance, Public Safety, and Workforce Management.
 
 
+  The Vector Solutions catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Vector Solutions'' developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 20 more developer resources.'
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: Vector Solutions API Rules
+  rule_count: 67
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 1
+    warn: 1
+  slug: vectorsolutions-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 36.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 42.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 13.9
     developer_ergonomics: 66.1
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 35.6
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,13 +348,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vectorsolutions/vectorsolutions-2026-09-02T165542.png
 security:
 - kind: authentication

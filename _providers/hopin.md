@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -325,10 +330,10 @@ scopes:
   slug: hopin-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 40.9
+  band: thin
+  composite: 33.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 56.7
     catalog_earned_first_party: 0.0
     catalog_gap: 58.4
@@ -339,10 +344,10 @@ score:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 56.5
-    developer_ergonomics: 42.9
+    developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 40.9
+    operational_transparency: 2.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -356,13 +361,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hopin/hopin-2026-06-20T182829.png
 security:
 - kind: authentication

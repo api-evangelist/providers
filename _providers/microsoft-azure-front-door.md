@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,7 +61,7 @@ apis:
   description: Profiles operations
   name: Azure Front Door Profiles API
   slug: microsoft-azure-front-door-profiles-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Azure Front Door REST Operations API
@@ -164,6 +169,9 @@ network: true
 overview: 'Azure Front Door is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Profiles API. Tagged areas include CDN, Edge, Global Routing, Load Balancing, and WAF.
 
 
+  The Azure Front Door catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure Front Door''s developer surface includes authentication, developer portal, pricing, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure Front Door Plans Pricing
@@ -174,6 +182,19 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Azure Front Door Rate Limits
   slug: microsoft-azure-front-door-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Azure Front Door API Rules
+  rule_count: 47
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-azure-front-door-rules
 scopes:
 - name: Microsoft Azure Front Door Scopes
   scope_count: 1
@@ -181,23 +202,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 35.7
+  composite: 38.5
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 40.0
+    artifact_dirs: 16
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 31.6
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 44.1
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 35.7
+    operational_transparency: 10.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -211,13 +232,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-front-door/microsoft-azure-front-door-2026-06-20T185415.png
 security:
 - kind: authentication

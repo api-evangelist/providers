@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-31'
+  score: 54.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +59,7 @@ apis:
   description: The Consumer Pricing API from Turquoise Health — 15 operation(s) for consumer pricing.
   name: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
-artifact_total: 16
+artifact_total: 17
 common:
 - group: other
   href: https://artifacts.apis.io/turquoise-health/capabilities/turquoise-health-capability-edges.yml
@@ -254,7 +255,7 @@ network: true
 overview: 'Turquoise Health publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consumer Pricing API, and 2 more. Tagged areas include Healthcare, Price Transparency, Hospital Rates, Payer Rates, and Machine-Readable Files.
 
 
-  The Turquoise Health catalog on APIs.io includes 1 JSON-LD context.
+  The Turquoise Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Turquoise Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
@@ -267,6 +268,19 @@ rate_limits:
 - limit_count: 0
   name: Turquoise Health Rate Limits
   slug: turquoise-health-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Turquoise Health API Rules
+  rule_count: 55
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 3
+    warn: 2
+  slug: turquoise-health-rules
 scopes:
 - name: Turquoise Health Scopes
   scope_count: 2
@@ -274,23 +288,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.5
+  composite: 56.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
+    access_clarity: 77.6
+    contract_governance: 31.8
     contract_quality: 59.0
     developer_ergonomics: 61.3
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 58.5
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,14 +324,13 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/turquoise-health/turquoise-health-2026-08-17T082500.png
 security:
 - kind: authentication

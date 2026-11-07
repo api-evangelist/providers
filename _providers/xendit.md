@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -87,7 +88,7 @@ apis:
   description: List and retrieve money-movement transactions.
   name: Xendit Transactions API
   slug: xendit-transactions-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Xendit Balance API
@@ -191,6 +192,9 @@ network: true
 overview: 'Xendit publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balance API, Customers API, Invoices API, and 5 more. Tagged areas include Payments, Fintech, Payment Gateway, Southeast Asia, and Indonesia.
 
 
+  The Xendit catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Xendit''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Xendit Plans Pricing
@@ -201,24 +205,37 @@ rate_limits:
 - limit_count: 4
   name: Xendit Rate Limits
   slug: xendit-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Xendit API Rules
+  rule_count: 61
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 4
+  slug: xendit-rules
 score:
   band: thin
-  composite: 26.8
+  composite: 30.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 17
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 50.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -227,7 +244,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 26.8
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +258,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/xendit/xendit-2026-09-02T171119.png
 security:
 - kind: authentication

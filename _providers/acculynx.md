@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-31'
+  score: 46.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -116,12 +129,32 @@ apis:
   description: The Webhooks API API from AccuLynx — 0 operation(s) for webhooks api.
   name: AccuLynx Webhooks API
   slug: acculynx-webhooks-api-api
-artifact_total: 38
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Acculynx Webhooks
   slug: acculynx-webhooks
 common:
+- group: design
+  href: https://artifacts.apis.io/acculynx/conventions/acculynx-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/acculynx-conventions.yml
+- group: auth
+  href: https://artifacts.apis.io/acculynx/well-known/acculynx-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/acculynx-status-security.txt
+- group: build
+  href: https://artifacts.apis.io/acculynx/packages/acculynx-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/acculynx-packages.yml
+- group: build
+  href: https://artifacts.apis.io/acculynx/packages/acculynx-packages.yml
+  title: ''
+  type: Packages
+  url: packages/acculynx-packages.yml
 - group: agent
   href: https://artifacts.apis.io/acculynx/agentic-access/acculynx-agentic-access.yml
   title: ''
@@ -177,11 +210,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/acculynx-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/acculynx/well-known/acculynx-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/acculynx-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/acculynx/well-known/acculynx-well-known.yml
   title: ''
@@ -267,24 +295,129 @@ created: '2026-10-28'
 description: AccuLynx provides a cloud‑based roofing CRM and business management platform that helps roofing contractors manage sales pipelines, production, finance, crew coordination, and customer relationships. The SaaS solution includes mobile field apps, integrated payment processing, document automation, and extensive reporting, targeting the construction and roofing industry.
 image: https://acculynx.com/wp-content/uploads/2020/06/AcculynxLogoStack-RGB-1.png
 json_schemas:
+- name: calendarCollection
+  property_count: 4
+  slug: acculynx-calendar-collection
 - name: calendarEvent
   property_count: 11
   slug: acculynx-calendar-event
+- name: calendarSearchEventCollection
+  property_count: 4
+  slug: acculynx-calendar-search-event-collection
+- name: companyAccountType
+  property_count: 4
+  slug: acculynx-company-account-type
+- name: companySettings
+  property_count: 4
+  slug: acculynx-company-settings
+- name: companyUserCollection
+  property_count: 4
+  slug: acculynx-company-user-collection
+- name: companyUser
+  property_count: 11
+  slug: acculynx-company-user
+- name: contactJobCollection
+  property_count: 4
+  slug: acculynx-contact-job-collection
+- name: contactPost
+  property_count: 12
+  slug: acculynx-contact-post
+- name: contact
+  property_count: 13
+  slug: acculynx-contact
+- name: contactSearchPost
+  property_count: 5
+  slug: acculynx-contact-search-post
+- name: countryCollection
+  property_count: 1
+  slug: acculynx-country-collection
+- name: country
+  property_count: 4
+  slug: acculynx-country
+- name: customField
+  property_count: 8
+  slug: acculynx-custom-field
+- name: date
+  property_count: 1
+  slug: acculynx-date
+- name: estimateCollection
+  property_count: 4
+  slug: acculynx-estimate-collection
+- name: estimateItemCollection
+  property_count: 1
+  slug: acculynx-estimate-item-collection
 - name: estimateItem
   property_count: 19
   slug: acculynx-estimate-item
+- name: estimate
+  property_count: 16
+  slug: acculynx-estimate
+- name: estimateSectionCollection
+  property_count: 1
+  slug: acculynx-estimate-section-collection
+- name: estimateSection
+  property_count: 12
+  slug: acculynx-estimate-section
+- name: financials
+  property_count: 8
+  slug: acculynx-financials
+- name: idPost
+  property_count: 1
+  slug: acculynx-id-post
 - name: invoice
-  property_count: 0
+  property_count: 16
   slug: acculynx-invoice
 - name: jobContact
-  property_count: 0
+  property_count: 5
   slug: acculynx-job-contact
 - name: jobMeasurementsPostFiles
   property_count: 11
   slug: acculynx-job-measurements-post-files
+- name: jobPhotoVideoFormPost
+  property_count: 6
+  slug: acculynx-job-photo-video-form-post
+- name: jobPost
+  property_count: 8
+  slug: acculynx-job-post
 - name: job
-  property_count: 0
+  property_count: 18
   slug: acculynx-job
+- name: leadActionCollection
+  property_count: 1
+  slug: acculynx-lead-action-collection
+- name: leadSourceChild
+  property_count: 4
+  slug: acculynx-lead-source-child
+- name: leadSource
+  property_count: 4
+  slug: acculynx-lead-source
+- name: leadSourcesCollection
+  property_count: 4
+  slug: acculynx-lead-sources-collection
+- name: paymentReceived
+  property_count: 6
+  slug: acculynx-payment-received
+- name: phoneNumber
+  property_count: 7
+  slug: acculynx-phone-number
+- name: reportInstanceCollection
+  property_count: 4
+  slug: acculynx-report-instance-collection
+- name: reportInstanceRecipientCollection
+  property_count: 4
+  slug: acculynx-report-instance-recipient-collection
+- name: reportInstanceRecipient
+  property_count: 5
+  slug: acculynx-report-instance-recipient
+- name: reportInstance
+  property_count: 4
+  slug: acculynx-report-instance
+- name: stateCollection
+  property_count: 1
+  slug: acculynx-state-collection
+- name: state
+  property_count: 4
+  slug: acculynx-state
 - name: subscriptionBodyPost
   property_count: 4
   slug: acculynx-subscription-body-post
@@ -292,17 +425,50 @@ json_schemas:
   property_count: 2
   slug: acculynx-subscription-body-put
 - name: subscriptionCollection
-  property_count: 0
+  property_count: 4
   slug: acculynx-subscription-collection
+- name: subscriptionPostResponseOk
+  property_count: 1
+  slug: acculynx-subscription-post-response-ok
 - name: subscription
-  property_count: 0
+  property_count: 9
   slug: acculynx-subscription
+- name: supplementCollection
+  property_count: 4
+  slug: acculynx-supplement-collection
+- name: supplementItemCollection
+  property_count: 4
+  slug: acculynx-supplement-item-collection
+- name: supplementNotationCollection
+  property_count: 4
+  slug: acculynx-supplement-notation-collection
+- name: supplement
+  property_count: 17
+  slug: acculynx-supplement
 - name: testEventBodyPost
   property_count: 1
   slug: acculynx-test-event-body-post
 - name: topicCollection
-  property_count: 0
+  property_count: 4
   slug: acculynx-topic-collection
+- name: unitOfMeasureCollection
+  property_count: 1
+  slug: acculynx-unit-of-measure-collection
+- name: workflowMilestoneStatusItem
+  property_count: 2
+  slug: acculynx-workflow-milestone-status-item
+- name: worksheetAmendmentCollection
+  property_count: 4
+  slug: acculynx-worksheet-amendment-collection
+- name: worksheetAmendment
+  property_count: 9
+  slug: acculynx-worksheet-amendment
+- name: worksheetItemPost
+  property_count: 9
+  slug: acculynx-worksheet-item-post
+- name: worksheet
+  property_count: 7
+  slug: acculynx-worksheet
 jsonld:
 - class_count: 120
   name: Acculynx Context
@@ -313,13 +479,13 @@ modified: '2026-10-28'
 name: AccuLynx
 nav: Providers
 network: true
-overview: 'AccuLynx publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accu Lynx Common API, Calendar API, Company API, and 13 more. Tagged areas include Company, Roofing, CRM, SaaS, and Construction.
+overview: 'AccuLynx publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accu Lynx Common API, Calendar API, Company API, and 13 more. Tagged areas include Company, Roofing, CRM, Software-as-a-Service, and Construction.
 
 
   The AccuLynx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  AccuLynx''s developer surface includes changelog, API reference, documentation, authentication, getting-started guide, pricing, engineering blog, and 22 more developer resources.'
+  AccuLynx''s developer surface includes changelog, API reference, documentation, authentication, getting-started guide, pricing, engineering blog, and 25 more developer resources.'
 plans:
 - name: Acculynx Plans Pricing
   plan_count: 0
@@ -331,34 +497,42 @@ rate_limits:
   slug: acculynx-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 100
   extends:
   - spectral:oas
   name: AccuLynx API Rules
-  rule_count: 17
+  rule_count: 59
   severity_counts:
-    error: 13
+    error: 46
     hint: 0
-    info: 1
-    warn: 3
+    info: 4
+    warn: 9
   slug: acculynx-rules
 score:
   band: strong
-  composite: 54.3
+  composite: 54.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.8
+    artifact_dirs: 31
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 14.5
     contract_governance: 22.0
-    contract_quality: 69.6
-    developer_ergonomics: 49.4
-    discoverability: 57.1
-    operational_transparency: 86.8
+    contract_quality: 83.3
+    developer_ergonomics: 38.7
+    discoverability: 64.3
+    operational_transparency: 68.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -374,13 +548,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
+screenshot: https://apis.io/screenshots/acculynx/acculynx-2026-11-03T120202.png
 security:
 - kind: authentication
   name: Acculynx Authentication
@@ -401,7 +576,7 @@ tags:
 - Company
 - Roofing
 - CRM
-- SaaS
+- Software-as-a-Service
 - Construction
 website: https://acculynx.com/
 ---

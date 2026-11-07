@@ -1,31 +1,45 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-31'
+  score: 50.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 3
@@ -201,6 +215,26 @@ asyncapis:
   name: Portbase Webhooks
   slug: portbase-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/portbase/well-known/portbase-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/portbase-status-security.txt
+- group: auth
+  href: https://artifacts.apis.io/portbase/well-known/portbase-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/portbase-security.txt
+- group: auth
+  href: https://artifacts.apis.io/portbase/well-known/portbase-portbase-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/portbase-portbase-security.txt
+- group: build
+  href: https://artifacts.apis.io/portbase/integrations/portbase-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/portbase-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/portbase/agentic-access/portbase-agentic-access.yml
   title: ''
@@ -271,11 +305,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/portbase-cargo-controller-export-overlay.yaml
-- group: auth
-  href: https://artifacts.apis.io/portbase/well-known/portbase-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/portbase-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/portbase/well-known/portbase-well-known.yml
   title: ''
@@ -410,7 +439,7 @@ json_schemas:
   property_count: 5
   slug: portbase-get-road-voyage-updates
 - name: ImportConsignment
-  property_count: 0
+  property_count: 10
   slug: portbase-import-consignment
 - name: Shipment
   property_count: 6
@@ -446,7 +475,7 @@ overview: 'Portbase publishes 32 API contracts indexed on the [APIs.io](https://
   The Portbase catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Portbase''s developer surface includes changelog, authentication, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Portbase''s developer surface includes changelog, authentication, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Portbase Plans Pricing
   plan_count: 0
@@ -458,16 +487,16 @@ rate_limits:
   slug: portbase-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 101
   extends:
   - spectral:oas
   name: Portbase API Rules
-  rule_count: 11
+  rule_count: 60
   severity_counts:
-    error: 8
+    error: 42
     hint: 0
-    info: 1
-    warn: 2
+    info: 3
+    warn: 15
   slug: portbase-rules
 scopes:
 - name: Portbase Scopes
@@ -475,29 +504,45 @@ scopes:
   slug: portbase-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.1
+  band: developing
+  composite: 45.5
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 36
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 70.3
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 50.0
+    contract_quality: 70.9
+    developer_ergonomics: 32.7
+    discoverability: 72.3
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 6.3
       total: 32
     mcp: derived
     skills: derived
@@ -506,13 +551,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/portbase/portbase-2026-11-03T141413.png
 security:
 - kind: authentication
   name: Portbase Authentication

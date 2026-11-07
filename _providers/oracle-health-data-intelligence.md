@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-31'
+  score: 31.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +55,7 @@ apis:
   description: 'The Populations API from Oracle Health Data Intelligence — population-scoped read access to a patient''s aggregated allergy record within the longitudinal patient record. Two operations, listAllergies '
   name: Oracle Health Data Intelligence Populations API
   slug: oracle-health-data-intelligence-populations-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Oracle Health Data Intelligence - Allergy Populations API
@@ -226,6 +227,9 @@ network: true
 overview: 'Oracle Health Data Intelligence publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Populations API, and 1 more. Tagged areas include Genomic, Health Records, Healthcare, Population Health, and Longitudinal Record.
 
 
+  The Oracle Health Data Intelligence catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Oracle Health Data Intelligence''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
 plans:
 - name: Oracle Health Data Intelligence Plans Pricing
@@ -236,25 +240,38 @@ rate_limits:
 - limit_count: 0
   name: Oracle Health Data Intelligence Rate Limits
   slug: oracle-health-data-intelligence-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Oracle Health Data Intelligence API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: oracle-health-data-intelligence-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 48.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
+    access_clarity: 43.4
+    contract_governance: 31.8
     contract_quality: 47.8
-    developer_ergonomics: 63.7
+    developer_ergonomics: 55.4
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 49.7
+    operational_transparency: 21.1
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,13 +288,13 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/oracle-health-data-intelligence/oracle-health-data-intelligence-2026-06-20T191145.png
 security:
 - kind: authentication

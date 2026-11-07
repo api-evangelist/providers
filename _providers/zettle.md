@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://www.zettle.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.paypal.com/us/business/pos-system — a different registrable domain (zettle.com -> paypal.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -21,23 +25,24 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-31'
+  score: 36.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,9 +232,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.5
+  composite: 34.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -239,15 +244,15 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 55.6
-    developer_ergonomics: 31.0
+    contract_quality: 52.6
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 35.5
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -257,13 +262,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/zettle/zettle-2026-06-20T201853.png
 security:
 - kind: authentication

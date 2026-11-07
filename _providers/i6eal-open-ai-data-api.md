@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -20,23 +23,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-31'
+  score: 23.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://i6eal.de
@@ -124,7 +128,7 @@ apis:
   description: Inspectable system profiles and source-evidenced links to repositories and technical inventories only.
   name: i6eal Open AI Data API Public AI System Evidence Pass API
   slug: i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: i6eal Open AI Data AI Enforcement Monitor Germany & EU API
@@ -318,29 +322,42 @@ network: true
 overview: 'i6eal Open AI Data API publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Enforcement Monitor Germany & EU API, AI Parliamentary Accountability Monitor API, Catalogue API, and 14 more. Tagged areas include Artificial Intelligence, Open Data, Public Policy, Regulations, and Compliance.
 
 
-  The i6eal Open AI Data API catalog on APIs.io includes 1 JSON-LD context.
+  The i6eal Open AI Data API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 20 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: i6eal Open AI Data API API Rules
+  rule_count: 54
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 4
+  slug: i6eal-open-ai-data-api-rules
 score:
-  band: thin
-  composite: 35.1
+  band: developing
+  composite: 45.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
+    catalog_gap: 58.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 52.7
+    access_clarity: 57.1
+    contract_governance: 18.2
+    contract_quality: 57.8
     developer_ergonomics: 47.0
-    discoverability: 57.1
-    operational_transparency: 5.3
+    discoverability: 64.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -349,13 +366,13 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 35.1
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 17
     mcp: derived
     skills: derived
@@ -365,13 +382,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/i6eal-open-ai-data-api/i6eal-open-ai-data-api-2026-09-02T145815.png
 security:
 - kind: authentication

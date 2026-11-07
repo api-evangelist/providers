@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -267,10 +269,10 @@ rules:
     warn: 4
   slug: volcano-rules
 score:
-  band: thin
-  composite: 35.7
+  band: developing
+  composite: 41.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 58.4
     catalog_earned_first_party: 0.0
     catalog_gap: 56.6
@@ -280,11 +282,14 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 53.0
-    developer_ergonomics: 35.7
+    contract_quality: 56.4
+    developer_ergonomics: 33.3
     discoverability: 69.6
-    operational_transparency: 36.8
-  previous_composite: 35.7
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -298,13 +303,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/volcano/volcano-2026-06-20T201130.png
 security:
 - kind: domain-security

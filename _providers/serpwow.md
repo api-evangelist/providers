@@ -22,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-31'
+  score: 33.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +57,7 @@ apis:
   description: The real-time Search API from SerpWow — GET /search, /places, /shopping, /news, /product and /place_reviews against https://api.serpwow.com/live, authenticated with an api_key query parameter and mete
   name: SerpWow Search API
   slug: serpwow-search-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Serpwow Batches Webhooks
@@ -240,7 +241,7 @@ network: true
 overview: 'SerpWow publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Search API, and 1 more. Tagged areas include Search, SERP, Web Data, Web Scraping, and SEO.
 
 
-  The SerpWow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The SerpWow catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   SerpWow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -256,25 +257,38 @@ rate_limits:
 - limit_count: 6
   name: Serpwow Rate Limits
   slug: serpwow-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: SerpWow API Rules
+  rule_count: 39
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 1
+  slug: serpwow-rules
 score:
   band: strong
-  composite: 64.7
+  composite: 63.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
+    access_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 48.5
-    developer_ergonomics: 78.0
-    discoverability: 66.1
+    developer_ergonomics: 75.6
+    discoverability: 73.2
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +309,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/serpwow/serpwow-2026-06-20T193727.png
 security:
 - kind: authentication

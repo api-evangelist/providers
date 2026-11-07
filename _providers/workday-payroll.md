@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1192,9 +1193,9 @@ rules:
   slug: workday-payroll-spectral-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 42.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -1204,11 +1205,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 27.3
-    contract_quality: 72.7
-    developer_ergonomics: 53.6
+    contract_quality: 74.5
+    developer_ergonomics: 22.6
     discoverability: 62.5
-    operational_transparency: 31.6
-  previous_composite: 51.0
+    operational_transparency: 13.2
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1222,13 +1223,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/workday-payroll/workday-payroll-2026-06-20T201609.png
 security:
 - kind: authentication

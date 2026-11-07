@@ -15,7 +15,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-31'
+  score: 42.2
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - baseURL: https://api.copper.co/platform
@@ -131,7 +132,7 @@ apis:
   description: The wallets API from Copper.co — 2 operation(s) for wallets.
   name: Copper.co Wallets API
   slug: copper-co-wallets-api
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Copper Co Webhooks
@@ -364,7 +365,7 @@ network: true
 overview: 'Copper.co publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Address Book API, Blockchain API, and 15 more. Tagged areas include Company, Digital Asset Custody, Cryptocurrency, Financial Services, and Institutional Finance.
 
 
-  The Copper.co catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Copper.co catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
@@ -373,24 +374,37 @@ rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits
   slug: copper-co-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Copper.co API Rules
+  rule_count: 46
+  severity_counts:
+    error: 29
+    hint: 0
+    info: 3
+    warn: 14
+  slug: copper-co-rules
 score:
   band: strong
-  composite: 56.8
+  composite: 56.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
-    contract_governance: 4.5
+    access_clarity: 36.8
+    contract_governance: 18.2
     contract_quality: 53.0
-    developer_ergonomics: 76.2
-    discoverability: 70.0
-    operational_transparency: 78.9
+    developer_ergonomics: 71.4
+    discoverability: 80.0
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -399,7 +413,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 56.8
+  previous_composite: 56.4
   provenance:
     conformance: derived
     contracts:
@@ -415,13 +429,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/copper-co/copper-co-2026-08-07T163810.png
 security:
 - kind: authentication

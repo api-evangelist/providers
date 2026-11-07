@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and spec violations. It detects server crashes, schema violation
@@ -189,10 +191,10 @@ rules:
     warn: 4
   slug: schemathesis-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.5
+  band: thin
+  composite: 30.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 59.2
     catalog_earned_first_party: 0.0
     catalog_gap: 55.9
@@ -203,18 +205,21 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
-    developer_ergonomics: 23.8
+    developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 25.5
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 30.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Paid · Requires approval
   onboarding: approval
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Partner-gated API that lets authorized integrators programmatically read vehicle information and update list price for inventory in the vAuto ecosystem. Listed as vAuto Inventory API 1.x on the Cox Au
@@ -105,10 +110,10 @@ plans:
   slug: vauto-plans-pricing
 random_paper: 7
 score:
-  band: emerging
-  composite: 14.4
+  band: minimal
+  composite: 10.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -119,18 +124,18 @@ score:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 0.0
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 14.4
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

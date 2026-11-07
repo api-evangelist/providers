@@ -31,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -41,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -146,7 +147,7 @@ apis:
   description: The (Scim) Groups API from Authenticx — 2 operation(s) for (scim) groups.
   name: Authenticx (Scim) Groups API
   slug: authenticx-scim-groups-api
-artifact_total: 49
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Authenticx Emissions Webhooks
@@ -378,7 +379,7 @@ network: true
 overview: 'Authenticx publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 16 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
 
 
-  The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Authenticx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 27 more developer resources.'
@@ -391,6 +392,19 @@ rate_limits:
 - limit_count: 0
   name: Authenticx Rate Limits
   slug: authenticx-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Authenticx API Rules
+  rule_count: 52
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 5
+    warn: 5
+  slug: authenticx-rules
 scopes:
 - name: Authenticx Scopes
   scope_count: 1
@@ -398,30 +412,30 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 51.0
+  composite: 52.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 37.0
+    artifact_dirs: 30
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.6
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 58.1
-    developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 51.6
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 65.2
+    developer_ergonomics: 47.0
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 47.5
       total: 40
     mcp: derived
     skills: derived
@@ -431,13 +445,12 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/authenticx/authenticx-2026-08-07T161942.png
 security:
 - kind: authentication
@@ -473,6 +486,7 @@ tags:
 - Transcription
 - Life Sciences
 - SCIM
+- OAuth
 - Authentication
 website: https://authenticx.com/
 ---

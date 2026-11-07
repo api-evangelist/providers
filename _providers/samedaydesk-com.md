@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -26,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -265,7 +280,7 @@ modified: '2026-10-30'
 name: samedaydesk-com
 nav: Providers
 network: true
-overview: 'samedaydesk-com publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2A API, Agent Operations API, Agent Readiness API, and 17 more. Tagged areas include Company, AgentCommerce, SaaS, Scheduling, and Analytics.
+overview: 'samedaydesk-com publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2A API, Agent Operations API, Agent Readiness API, and 17 more. Tagged areas include Company, Agentic Commerce, Software-as-a-Service, Scheduling, and Analytics.
 
 
   The samedaydesk-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -301,21 +316,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.2
+  composite: 31.6
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 32
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 58.7
-    developer_ergonomics: 21.4
-    discoverability: 70.0
+    developer_ergonomics: 10.7
+    discoverability: 80.0
     operational_transparency: 10.5
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,7 +340,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 20
     mcp: first-party
     skills: unknown
   regulatory:
@@ -331,13 +348,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/samedaydesk-com/samedaydesk-com-2026-11-03T142657.png
 security:
 - kind: authentication
   name: Samedaydesk Com Authentication
@@ -354,8 +372,8 @@ skills:
 slug: samedaydesk-com
 tags:
 - Company
-- AgentCommerce
-- SaaS
+- Agentic Commerce
+- Software-as-a-Service
 - Scheduling
 - Analytics
 website: https://samedaydesk.com/

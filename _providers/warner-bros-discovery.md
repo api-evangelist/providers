@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Enterprise · Requires approval
   onboarding: approval
   pricing: enterprise
@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -236,9 +238,9 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.9
+  composite: 32.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 66.4
     catalog_earned_first_party: 0.0
     catalog_gap: 48.6
@@ -249,10 +251,10 @@ score:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 58.8
-    developer_ergonomics: 31.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 34.9
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -266,13 +268,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/warner-bros-discovery/warner-bros-discovery-2026-06-20T201227.png
 security:
 - kind: authentication

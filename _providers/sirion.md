@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Enterprise · Self-serve signup
   onboarding: self-serve
   pricing: enterprise
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -76,7 +81,7 @@ apis:
   description: Outbound webhook subscriptions for event notifications (MODELED).
   name: Sirion Webhooks API
   slug: sirion-webhooks-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Sirion CLM API (Modeled) Contract Requests API
@@ -166,6 +171,9 @@ network: true
 overview: 'Sirion publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contract Requests API, Contracts API, Metadata & Clauses API, and 3 more. Tagged areas include Contract Management, Contract Lifecycle Management, Contracts, Artificial Intelligence, and Enterprise.
 
 
+  The Sirion catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Sirion''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Sirion Plans Pricing
@@ -176,25 +184,38 @@ rate_limits:
 - limit_count: 3
   name: Sirion Rate Limits
   slug: sirion-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Sirion API Rules
+  rule_count: 66
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sirion-rules
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 26.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 42.0
+    artifact_dirs: 15
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 42.2
-    developer_ergonomics: 29.8
+    developer_ergonomics: 22.6
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 25.2
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -208,13 +229,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/sirion/sirion-2026-09-02T155648.png
 security:
 - kind: authentication

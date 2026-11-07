@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The tenant-scoped REST API behind the MontyCloud DAY2 platform. Requests are authenticated with an API key and API secret key issued in the DAY2 platform and are scoped to a tenant via the x-tenant-id
@@ -171,7 +175,7 @@ modified: '2026-08-26'
 name: MontyCloud
 nav: Providers
 network: true
-overview: 'MontyCloud is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Cloud Operations, Managed Service Providers, Governance, and Compliance.
+overview: 'MontyCloud is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Cloud Operations, Amazon Web Services, Managed Service Providers, and Governance.
 
 
   MontyCloud''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
@@ -189,23 +193,23 @@ rate_limits:
   slug: montycloud-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 41.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 66.7
-    operational_transparency: 15.8
-  previous_composite: 40.5
+    discoverability: 75.8
+    operational_transparency: 13.2
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -248,6 +252,7 @@ slug: montycloud
 tags:
 - Cloud
 - Cloud Operations
+- Amazon Web Services
 - Managed Service Providers
 - Governance
 - Compliance

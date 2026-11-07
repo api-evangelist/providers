@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.quo.com
@@ -84,7 +86,7 @@ apis:
   description: Operations related to webhooks
   name: Quo Webhooks API
   slug: quo-webhooks-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Quo Webhooks
@@ -227,6 +229,14 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.quo.com/docs/mdx/api-reference/error-codes
+- group: company
+  title: ''
+  type: Website
+  url: https://www.quo.com/
 created: '2026-07-17'
 description: Quo (formerly OpenPhone) is an AI-powered business communication platform that unifies calls, texts, and contacts in one shared workspace for startups and small businesses. Its REST Public API (https://api.quo.com/v1) lets developers send and receive SMS, manage contacts, conversations, and tasks, retrieve AI-generated call summaries and transcripts, and subscribe to Standard-Webhooks-signed events for messages and calls. Authentication is via a workspace API key sent in the Authorization header. This profile was added to the API Evangelist network from VC portfolio discovery and enriched from Quo's live developer documentation and published OpenAPI.
 finops:
@@ -246,34 +256,47 @@ network: true
 overview: 'Quo publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Contact Custom Fields API, Contacts API, and 6 more. Tagged areas include Company, Communications, Messaging, SMS, and Voice.
 
 
-  The Quo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Quo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Quo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 17 more developer resources.'
+  Quo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
 plans:
 - name: Quo Plans Pricing
   plan_count: 2
   slug: quo-plans-pricing
 random_paper: 5
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Quo API Rules
+  rule_count: 66
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 1
+    warn: 1
+  slug: quo-rules
 score:
-  band: developing
-  composite: 51.0
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 48.0
+    artifact_dirs: 27
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
-    contract_governance: 4.5
-    contract_quality: 58.6
+    contract_governance: 18.2
+    contract_quality: 61.5
     developer_ergonomics: 58.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 31.6
-  previous_composite: 49.5
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -295,13 +318,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 21.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/quo/quo-2026-08-17T081432.png
 security:
 - kind: authentication
@@ -339,5 +361,12 @@ tags:
 - Business Phone
 - CPaaS
 - Contact Center
+- Phone System
+- Shared Numbers
+- AI Agents
+- Small Business
+- Integration
+- CRM
+- Call Routing
 website: https://quo.com
 ---

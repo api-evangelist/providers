@@ -22,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-31'
+  score: 34.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +94,7 @@ arazzos:
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: ACMA Spectrum Licensing API
@@ -291,6 +292,9 @@ network: true
 overview: 'ACMA publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access areas API, Antennas API, Clients API, and 5 more. Tagged areas include Telecommunications, Australia, Regulator, Spectrum, and Broadcasting.
 
 
+  The ACMA catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   ACMA''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Acma Plans
@@ -304,24 +308,37 @@ rate_limits:
 - limit_count: 6
   name: Acma Rate Limits
   slug: acma-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: ACMA API Rules
+  rule_count: 65
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 1
+    warn: 2
+  slug: acma-rules
 score:
-  band: strong
-  composite: 56.4
+  band: developing
+  composite: 51.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
+    access_clarity: 73.7
+    contract_governance: 18.2
     contract_quality: 52.3
-    developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 42.1
+    developer_ergonomics: 35.1
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -329,7 +346,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 54.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,14 +362,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/acma/acma-2026-08-17T082235.png
 security:
 - kind: authentication

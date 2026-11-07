@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: medium
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
@@ -26,8 +26,9 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-10-31'
+  score: 48.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -48,6 +49,9 @@ agentic_access:
   summary_line: 221 operations · 139 acting · 10 human-in-the-loop
 api_count: 9
 apis:
+- description: Managed remote MCP server from Google Maps Platform (Maps Experience agent tools) exposing search_places, lookup_weather, compute_routes, resolve_names and resolve_maps_urls tools to AI agents; tools/
+  name: Google Maps Grounding Lite MCP Server
+  slug: google-maps-grounding-lite-mcp-server
 - description: API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services, regardless of the service implementation. Clie
   name: Google Cloud API Gateway
   slug: google-cloud-api-gateway
@@ -518,7 +522,7 @@ apis:
   description: The Volumes API from Google — 2 operation(s) for volumes.
   name: Google Volumes API
   slug: google-volumes-api
-artifact_total: 378
+artifact_total: 441
 asyncapis:
 - description: ''
   name: Google Webhooks
@@ -792,6 +796,45 @@ collections:
   name: Google Books About Watch API
   slug: open-google-watch-api
 common:
+- group: build
+  href: https://artifacts.apis.io/google/cli/google-cli.yml
+  title: ''
+  type: CLI
+  url: cli/google-cli.yml
+- group: design
+  href: https://artifacts.apis.io/google/conventions/google-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/google-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/google/conventions/google-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/google-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://cloud.google.com/terms/deprecation
+- group: design
+  href: https://artifacts.apis.io/google/lifecycle/google-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-lifecycle.yml
+- group: agent
+  href: https://artifacts.apis.io/google/llms/google-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/google-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/google/mcp/google-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/google-mcp.yml
+- group: build
+  href: https://artifacts.apis.io/google/integrations/google-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-integration-edges.yml
 - group: commercial
   href: https://artifacts.apis.io/google/finops/google-finops.yml
   title: ''
@@ -847,11 +890,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/google-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/google/well-known/google-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/google-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/google/well-known/google-well-known.yml
   title: ''
@@ -999,14 +1037,6 @@ common:
   title: ''
   type: RateLimits
   url: https://ai.google.dev/gemini-api/docs/rate-limits#current-rate-limits
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.google.com/get-started
-- group: operate
-  title: ''
-  type: Support
-  url: https://developers.google.com/support
 - group: operate
   title: ''
   type: StatusPage
@@ -1031,6 +1061,14 @@ common:
   title: ''
   type: Signup
   url: https://console.cloud.google.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.cloud.google.com/mcp/overview
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cloud.google.com/sdk/gcloud
 - group: other
   title: ''
   type: APIExplorer
@@ -1266,12 +1304,48 @@ json_schemas:
 - name: GmailUsersLabelsPostResponse
   property_count: 10
   slug: google-gmail-users-labels-post-response
+- name: GmailUsersMessagesGetResponse
+  property_count: 3
+  slug: google-gmail-users-messages-get-response
 - name: GmailUsersMessagesPostRequest
   property_count: 0
   slug: google-gmail-users-messages-post-request
 - name: GmailUsersThreadsGetResponse
   property_count: 4
   slug: google-gmail-users-threads-get-response
+- name: GmailUsersThreadsGetResponse1
+  property_count: 3
+  slug: google-gmail-users-threads-get-response1
+- name: GmailUsersWatchPostRequest
+  property_count: 0
+  slug: google-gmail-users-watch-post-request
+- name: GmailUsersWatchPostResponse
+  property_count: 2
+  slug: google-gmail-users-watch-post-response
+- name: GoogleAppsDriveLabelsV2DeltaUpdateLabelRequest
+  property_count: 5
+  slug: google-google-apps-drive-labels-v2-delta-update-label-request
+- name: GoogleAppsDriveLabelsV2DisableLabelRequest
+  property_count: 5
+  slug: google-google-apps-drive-labels-v2-disable-label-request
+- name: GoogleAppsDriveLabelsV2LabelLimits
+  property_count: 7
+  slug: google-google-apps-drive-labels-v2-label-limits
+- name: GoogleAppsDriveLabelsV2LabelPermission
+  property_count: 6
+  slug: google-google-apps-drive-labels-v2-label-permission
+- name: GoogleAppsDriveLabelsV2Label
+  property_count: 22
+  slug: google-google-apps-drive-labels-v2-label
+- name: GoogleAppsDriveLabelsV2PublishLabelRequest
+  property_count: 3
+  slug: google-google-apps-drive-labels-v2-publish-label-request
+- name: GoogleAppsDriveLabelsV2UpdateLabelCopyModeRequest
+  property_count: 4
+  slug: google-google-apps-drive-labels-v2-update-label-copy-mode-request
+- name: GoogleAppsDriveLabelsV2UserCapabilities
+  property_count: 5
+  slug: google-google-apps-drive-labels-v2-user-capabilities
 - name: ImageGenerationRequest
   property_count: 2
   slug: google-image-generation-request
@@ -1281,6 +1355,12 @@ json_schemas:
 - name: LabelList
   property_count: 3
   slug: google-label-list
+- name: MeSettingsWatchPostRequest
+  property_count: 0
+  slug: google-me-settings-watch-post-request
+- name: MeSettingsWatchPostResponse
+  property_count: 10
+  slug: google-me-settings-watch-post-response
 - name: ModelsPostRequest
   property_count: 1
   slug: google-models-post-request
@@ -1290,21 +1370,54 @@ json_schemas:
 - name: ModifyLabelsRequest
   property_count: 2
   slug: google-modify-labels-request
+- name: PermissionList
+  property_count: 3
+  slug: google-permission-list
+- name: Permission
+  property_count: 15
+  slug: google-permission
 - name: QueryDriveActivityRequest
   property_count: 6
   slug: google-query-drive-activity-request
 - name: QueryDriveActivityResponse
   property_count: 2
   slug: google-query-drive-activity-response
+- name: ReplyList
+  property_count: 3
+  slug: google-reply-list
+- name: Reply
+  property_count: 9
+  slug: google-reply
+- name: RevisionList
+  property_count: 3
+  slug: google-revision-list
+- name: Revision
+  property_count: 14
+  slug: google-revision
+- name: SettingsCseIdentitiesGetResponse
+  property_count: 2
+  slug: google-settings-cse-identities-get-response
+- name: SettingsCseIdentitiesPatchRequest
+  property_count: 0
+  slug: google-settings-cse-identities-patch-request
+- name: SettingsCseIdentitiesPatchResponse
+  property_count: 3
+  slug: google-settings-cse-identities-patch-response
 - name: SettingsCseKeypairsGetResponse
   property_count: 7
   slug: google-settings-cse-keypairs-get-response
+- name: SettingsCseKeypairsGetResponse1
+  property_count: 2
+  slug: google-settings-cse-keypairs-get-response1
 - name: SettingsCseKeypairsPostRequest
   property_count: 0
   slug: google-settings-cse-keypairs-post-request
 - name: SettingsCseKeypairsPostRequest1
   property_count: 0
   slug: google-settings-cse-keypairs-post-request1
+- name: SettingsCseKeypairsPostRequest2
+  property_count: 0
+  slug: google-settings-cse-keypairs-post-request2
 - name: SettingsCseKeypairsPostRequest3
   property_count: 0
   slug: google-settings-cse-keypairs-post-request3
@@ -1326,6 +1439,12 @@ json_schemas:
 - name: SettingsSendAsSmimeInfoPostResponse
   property_count: 7
   slug: google-settings-send-as-smime-info-post-response
+- name: SpeechGenerationRequest
+  property_count: 2
+  slug: google-speech-generation-request
+- name: SpeechGenerationResponse
+  property_count: 2
+  slug: google-speech-generation-response
 - name: SpreadsheetsDeveloperMetadataGetResponse
   property_count: 5
   slug: google-spreadsheets-developer-metadata-get-response
@@ -1374,6 +1493,12 @@ json_schemas:
 - name: SpreadsheetsValuesPostResponse1
   property_count: 2
   slug: google-spreadsheets-values-post-response1
+- name: SpreadsheetsValuesPutRequest
+  property_count: 0
+  slug: google-spreadsheets-values-put-request
+- name: SpreadsheetsValuesPutResponse
+  property_count: 0
+  slug: google-spreadsheets-values-put-response
 - name: SpreadsheetsValuesbatchClearByDataFilterPostRequest
   property_count: 0
   slug: google-spreadsheets-valuesbatch-clear-by-data-filter-post-request
@@ -1398,12 +1523,39 @@ json_schemas:
 - name: StartPageToken
   property_count: 2
   slug: google-start-page-token
+- name: TeamDriveList
+  property_count: 3
+  slug: google-team-drive-list
+- name: TeamDrive
+  property_count: 11
+  slug: google-team-drive
+- name: UsersCalendarListGetResponse
+  property_count: 5
+  slug: google-users-calendar-list-get-response
 - name: UsersDraftsSendPostRequest
   property_count: 0
   slug: google-users-drafts-send-post-request
 - name: UsersDraftsSendPostResponse
   property_count: 9
   slug: google-users-drafts-send-post-response
+- name: UsersMeCalendarListPatchRequest
+  property_count: 0
+  slug: google-users-me-calendar-list-patch-request
+- name: UsersMeCalendarListPatchResponse
+  property_count: 19
+  slug: google-users-me-calendar-list-patch-response
+- name: UsersMeCalendarListPostRequest
+  property_count: 0
+  slug: google-users-me-calendar-list-post-request
+- name: UsersMeCalendarListPostResponse
+  property_count: 19
+  slug: google-users-me-calendar-list-post-response
+- name: UsersMeCalendarListPutRequest
+  property_count: 0
+  slug: google-users-me-calendar-list-put-request
+- name: UsersMeSettingsGetResponse
+  property_count: 5
+  slug: google-users-me-settings-get-response
 - name: UsersMessagesAttachmentsGetResponse
   property_count: 3
   slug: google-users-messages-attachments-get-response
@@ -1416,6 +1568,24 @@ json_schemas:
 - name: UsersMessagesImportPostResponse
   property_count: 9
   slug: google-users-messages-import-post-response
+- name: UsersMessagesModifyPostRequest
+  property_count: 0
+  slug: google-users-messages-modify-post-request
+- name: UsersMessagesModifyPostResponse
+  property_count: 9
+  slug: google-users-messages-modify-post-response
+- name: UsersMessagesSendPostRequest
+  property_count: 0
+  slug: google-users-messages-send-post-request
+- name: UsersMessagesSendPostResponse
+  property_count: 9
+  slug: google-users-messages-send-post-response
+- name: UsersMessagesTrashPostResponse
+  property_count: 9
+  slug: google-users-messages-trash-post-response
+- name: UsersMessagesUntrashPostResponse
+  property_count: 9
+  slug: google-users-messages-untrash-post-response
 - name: UsersSettingsAutoForwardingGetResponse
   property_count: 3
   slug: google-users-settings-auto-forwarding-get-response
@@ -1431,6 +1601,9 @@ json_schemas:
 - name: UsersSettingsDelegatesGetResponse1
   property_count: 1
   slug: google-users-settings-delegates-get-response1
+- name: UsersSettingsFiltersGetResponse1
+  property_count: 1
+  slug: google-users-settings-filters-get-response1
 - name: UsersSettingsFiltersPostRequest
   property_count: 0
   slug: google-users-settings-filters-post-request
@@ -1446,12 +1619,60 @@ json_schemas:
 - name: UsersSettingsForwardingAddressesPostResponse
   property_count: 2
   slug: google-users-settings-forwarding-addresses-post-response
+- name: UsersSettingsImapPutRequest
+  property_count: 0
+  slug: google-users-settings-imap-put-request
+- name: UsersSettingsImapPutResponse
+  property_count: 4
+  slug: google-users-settings-imap-put-response
+- name: UsersSettingsLanguagePutRequest
+  property_count: 0
+  slug: google-users-settings-language-put-request
+- name: UsersSettingsLanguagePutResponse
+  property_count: 1
+  slug: google-users-settings-language-put-response
+- name: UsersSettingsPopPutRequest
+  property_count: 0
+  slug: google-users-settings-pop-put-request
+- name: UsersSettingsPopPutResponse
+  property_count: 2
+  slug: google-users-settings-pop-put-response
 - name: UsersSettingsSendAsGetResponse
   property_count: 9
   slug: google-users-settings-send-as-get-response
 - name: UsersSettingsSendAsGetResponse1
   property_count: 1
   slug: google-users-settings-send-as-get-response1
+- name: UsersSettingsSendAsPatchRequest
+  property_count: 0
+  slug: google-users-settings-send-as-patch-request
+- name: UsersSettingsSendAsPatchResponse
+  property_count: 9
+  slug: google-users-settings-send-as-patch-response
+- name: UsersSettingsSendAsPutRequest
+  property_count: 0
+  slug: google-users-settings-send-as-put-request
+- name: UsersSettingsSendAsPutResponse
+  property_count: 9
+  slug: google-users-settings-send-as-put-response
+- name: UsersSettingsVacationPutRequest
+  property_count: 0
+  slug: google-users-settings-vacation-put-request
+- name: UsersSettingsVacationPutResponse
+  property_count: 8
+  slug: google-users-settings-vacation-put-response
+- name: UsersThreadsModifyPostRequest
+  property_count: 0
+  slug: google-users-threads-modify-post-request
+- name: UsersThreadsModifyPostResponse
+  property_count: 4
+  slug: google-users-threads-modify-post-response
+- name: UsersThreadsTrashPostResponse
+  property_count: 4
+  slug: google-users-threads-trash-post-response
+- name: Volume
+  property_count: 9
+  slug: google-volume
 - name: VolumesResponse
   property_count: 3
   slug: google-volumes-response
@@ -1461,17 +1682,21 @@ jsonld:
   property_count: 259
   slug: google-context
 layout: provider
+mcp_servers:
+- description: Google publishes managed remote MCP servers. Google Cloud documents remote MCP servers (supporting MCP version 2026-07-28) at docs.cloud.google.com/mcp/overview; Google Maps Platform documents the Map
+  name: Google MCP servers
+  slug: google-mcp-servers
 modified: '2026-09-16'
 name: Google
 nav: Providers
 network: true
-overview: 'Google publishes 112 API contracts indexed on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 109 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
+overview: 'Google publishes 113 API contracts indexed on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 110 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
   The Google catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Google''s developer surface includes changelog, documentation, pricing, authentication, engineering blog, developer console, developer portal, and 50 more developer resources.'
+  Google''s developer surface includes CLI, changelog, documentation, pricing, authentication, engineering blog, developer console, and 57 more developer resources.'
 plans:
 - name: Google Plans Pricing
   plan_count: 10
@@ -1483,46 +1708,46 @@ rate_limits:
   slug: google-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 111
   extends:
   - spectral:oas
   name: Google API Rules
-  rule_count: 17
+  rule_count: 70
   severity_counts:
-    error: 9
+    error: 50
     hint: 0
-    info: 3
-    warn: 5
+    info: 4
+    warn: 16
   slug: google-rules
 scopes:
 - name: Google Scopes
   scope_count: 18
   slug: google-scopes
-  summary_line: 18 scopes · authorizationCode/implicit
+  summary_line: 18 scopes · implicit/authorizationCode
 score:
   band: exemplar
-  composite: 68.9
+  composite: 68.8
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 73.8
+    artifact_dirs: 37
+    catalog_earned: 63.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 41.3
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -1.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 77.6
     contract_governance: 22.0
-    contract_quality: 64.1
-    developer_ergonomics: 73.2
-    discoverability: 71.4
-    operational_transparency: 60.5
+    contract_quality: 67.4
+    developer_ergonomics: 80.4
+    discoverability: 53.6
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 67.3
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1531,7 +1756,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 80
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -1539,13 +1764,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/google/google-2026-06-20T182002.png
 security:
 - kind: authentication

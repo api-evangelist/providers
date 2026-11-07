@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for accessing openIDL resources and frameworks for standardized, blockchain-based insurance data sharing between carriers and regulators.
@@ -116,7 +118,7 @@ score:
   band: minimal
   composite: 8.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
@@ -137,8 +139,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

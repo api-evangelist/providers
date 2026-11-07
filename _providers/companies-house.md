@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -246,7 +251,7 @@ json_schemas:
   property_count: 11
   slug: advancedcompany
 - name: A list of companies
-  property_count: 0
+  property_count: 5
   slug: advancedcompanysearch
 - name: alphabetical_top_hit
   property_count: 0
@@ -255,7 +260,7 @@ json_schemas:
   property_count: 7
   slug: alphabeticalcompany
 - name: List of companies
-  property_count: 0
+  property_count: 3
   slug: alphabeticalcompanysearch
 - name: alterationsDesc
   property_count: 3
@@ -372,7 +377,7 @@ json_schemas:
   property_count: 10
   slug: dissolvedcompany
 - name: List of dissolved companies
-  property_count: 0
+  property_count: 5
   slug: dissolvedcompanysearch
 - name: exemptionItem
   property_count: 2
@@ -638,13 +643,13 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 62.2
     catalog_earned_first_party: 0.0
     catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
@@ -652,7 +657,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 39.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -666,13 +671,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: falling
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/companies-house/companies-house-2026-06-20T174828.png
 security:
 - kind: authentication

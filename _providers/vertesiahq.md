@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.6
-  scored_at: '2026-10-31'
+  score: 40.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 244
   human_in_the_loop: 12
@@ -286,6 +298,10 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/vertesiahq-vertesia-security.txt
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://vertesiahq.com/getting-started
 - group: agent
   href: https://artifacts.apis.io/vertesiahq/agentic-access/vertesiahq-agentic-access.yml
   title: ''
@@ -355,11 +371,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/vertesiahq-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/vertesiahq/well-known/vertesiahq-aws-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/vertesiahq-aws-security.txt
 - group: agent
   href: https://artifacts.apis.io/vertesiahq/well-known/vertesiahq-well-known.yml
   title: ''
@@ -487,20 +498,20 @@ overview: 'Vertesia publishes 48 API contracts indexed on the [APIs.io](https://
   The Vertesia catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Vertesia''s developer surface includes changelog, support, engineering blog, documentation, authentication, and 31 more developer resources.'
+  Vertesia''s developer surface includes getting-started guide, changelog, support, engineering blog, documentation, authentication, and 30 more developer resources.'
 random_paper: 4
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 114
   extends:
   - spectral:oas
   name: Vertesia API Rules
-  rule_count: 16
+  rule_count: 73
   severity_counts:
-    error: 12
+    error: 57
     hint: 0
     info: 2
-    warn: 2
+    warn: 14
   slug: vertesiahq-rules
 scopes:
 - name: Vertesiahq Scopes
@@ -508,22 +519,24 @@ scopes:
   slug: vertesiahq-scopes
   summary_line: 33 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 29
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 76.0
-    developer_ergonomics: 37.5
-    discoverability: 67.9
-    operational_transparency: 55.3
+    contract_quality: 78.8
+    developer_ergonomics: 41.1
+    discoverability: 74.1
+    operational_transparency: 31.6
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -539,13 +552,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
+screenshot: https://apis.io/screenshots/vertesiahq/vertesiahq-2026-11-03T145730.png
 security:
 - kind: authentication
   name: Vertesiahq Authentication

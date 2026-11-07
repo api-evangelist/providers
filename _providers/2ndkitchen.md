@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - baseURL: https://auth-staging.2ndkitchen.com
@@ -100,7 +101,7 @@ apis:
   description: The Users API from 2ndKitchen — 4 operation(s) for users.
   name: 2ndKitchen Users API
   slug: 2ndkitchen-users-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: 2ndKitchen - Service Authentication API
@@ -182,23 +183,39 @@ network: true
 overview: '2ndKitchen publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Brand API, Business API, and 9 more. Tagged areas include Company, Food Technology, Ghost Kitchen, Restaurant, and Food Delivery.
 
 
+  The 2ndKitchen catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 4 more developer resources.'
 random_paper: 18
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: 2ndKitchen API Rules
+  rule_count: 54
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 5
+  slug: 2ndkitchen-rules
 score:
-  band: emerging
-  composite: 22.1
+  band: thin
+  composite: 27.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 40.0
+    artifact_dirs: 11
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 42.3
+    contract_governance: 13.6
+    contract_quality: 47.0
     developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 0.0
@@ -209,12 +226,12 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.1
+  previous_composite: 25.8
   provenance:
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 12
   regulatory:
     applies: true
@@ -222,13 +239,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/2ndkitchen/2ndkitchen-2026-07-25T181134.png
 security:
 - kind: authentication

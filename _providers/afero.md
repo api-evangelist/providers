@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -66,7 +67,7 @@ apis:
   description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
   name: Afero Cloud OTA Firmware API
   slug: ota-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Afero Cloud Authentication API
@@ -246,32 +247,48 @@ network: true
 overview: 'Afero publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cloud Authentication API, Cloud Users API, Cloud Devices API, and 1 more. Tagged areas include Company, IoT, IoT Platform, Connected Devices, and Device Management.
 
 
+  The Afero catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 27 more developer resources.'
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: Afero API Rules
+  rule_count: 73
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 1
+    warn: 7
+  slug: afero-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 38.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 14.9
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 38.3
+    contract_governance: 18.2
+    contract_quality: 14.1
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 4
       marker_coverage: 100.0
       total: 4
@@ -283,13 +300,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/afero/afero-2026-08-07T161019.png
 security:
 - kind: authentication

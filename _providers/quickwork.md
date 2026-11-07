@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -42,6 +55,16 @@ apis:
   slug: quickwork-embedded-api
 artifact_total: 8
 common:
+- group: design
+  href: https://artifacts.apis.io/quickwork/vocabulary/quickwork-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/quickwork-vocabulary.yml
+- group: auth
+  href: https://artifacts.apis.io/quickwork/well-known/quickwork-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/quickwork-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/quickwork/agentic-access/quickwork-agentic-access.yml
   title: ''
@@ -81,11 +104,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/quickwork-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/quickwork/well-known/quickwork-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/quickwork-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/quickwork/well-known/quickwork-security.txt
   title: ''
@@ -180,7 +198,7 @@ overview: 'Quickwork publishes 1 API contract indexed on the [APIs.io](https://a
   The Quickwork catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Quickwork''s developer surface includes authentication, documentation, engineering blog, support, and 23 more developer resources.'
+  Quickwork''s developer surface includes authentication, documentation, engineering blog, support, and 24 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 1
@@ -188,34 +206,36 @@ rate_limits:
   slug: quickwork-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 94
   extends:
   - spectral:oas
   name: Quickwork API Rules
-  rule_count: 12
+  rule_count: 53
   severity_counts:
-    error: 10
+    error: 45
     hint: 0
     info: 1
-    warn: 1
+    warn: 7
   slug: quickwork-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 40.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 50.5
+    artifact_dirs: 19
+    catalog_earned: 51.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.5
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.4
   facets:
-    access_clarity: 36.8
-    contract_governance: 31.8
-    contract_quality: 47.1
-    developer_ergonomics: 38.1
-    discoverability: 67.9
-    operational_transparency: 47.4
+    access_clarity: 22.4
+    contract_governance: 35.6
+    contract_quality: 52.4
+    developer_ergonomics: 25.0
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,13 +250,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/quickwork/quickwork-2026-11-03T141853.png
 security:
 - kind: authentication
   name: Quickwork Authentication

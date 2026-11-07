@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://dashboard.streetmetrics.io/v3/public/
@@ -96,7 +97,7 @@ apis:
   description: The Reporting API from StreetMetrics — 8 operation(s) for reporting.
   name: StreetMetrics Reporting API
   slug: streetmetrics-reporting-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: StreetMetrics Public API
@@ -264,6 +265,9 @@ network: true
 overview: 'StreetMetrics publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ad Groups API, Assets API, Attribution Studies API, and 8 more. Tagged areas include Company, Advertising, Out-of-Home, Measurements, and Attribution.
 
 
+  The StreetMetrics catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   StreetMetrics'' developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, changelog, and 25 more developer resources.'
 plans:
 - name: Streetmetrics Plans Pricing
@@ -274,25 +278,38 @@ rate_limits:
 - limit_count: 0
   name: Streetmetrics Rate Limits
   slug: streetmetrics-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: StreetMetrics API Rules
+  rule_count: 56
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 3
+    warn: 8
+  slug: streetmetrics-rules
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 43.5
-    developer_ergonomics: 58.9
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 44.9
+    developer_ergonomics: 49.4
     discoverability: 71.7
-    operational_transparency: 21.1
-  previous_composite: 41.4
+    operational_transparency: 18.4
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -308,13 +325,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/streetmetrics/streetmetrics-2026-08-17T082138.png
 security:
 - kind: authentication

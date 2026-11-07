@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -20,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.7
-  scored_at: '2026-10-31'
+  score: 22.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -252,7 +254,7 @@ modified: '2026-06-20'
 name: Amazon App Studio
 nav: Providers
 network: true
-overview: 'Amazon App Studio publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Generative AI, Internal Tools, Low-Code, and No-Code.
+overview: 'Amazon App Studio publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Amazon Web Services, Generative AI, Internal Tools, Low-Code, and No-Code.
 
 
   The Amazon App Studio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -293,23 +295,23 @@ rules:
   slug: amazon-app-studio-spectral-rules
 score:
   band: developing
-  composite: 54.1
+  composite: 53.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 66.0
+    artifact_dirs: 25
+    catalog_earned: 71.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 49.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.9
   facets:
     access_clarity: 81.6
     contract_governance: 31.8
     contract_quality: 59.7
-    developer_ergonomics: 45.2
-    discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 48.3
+    developer_ergonomics: 35.7
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,13 +327,13 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/amazon-app-studio/amazon-app-studio-2026-07-25T195916.png
 security:
 - kind: authentication
@@ -352,6 +354,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-app-studio
 tags:
+- Amazon Web Services
 - Generative AI
 - Internal Tools
 - Low-Code

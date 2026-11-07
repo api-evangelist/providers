@@ -1,31 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-31'
+  score: 28.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API reference for Integrate.io data integration platform.
@@ -40,6 +56,11 @@ asyncapis:
   name: Xplenty Webhooks
   slug: xplenty-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/xplenty/well-known/xplenty-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/xplenty-status-security.txt
 - group: commercial
   href: https://artifacts.apis.io/xplenty/plans/xplenty-plans-pricing.yml
   title: ''
@@ -75,11 +96,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/xplenty-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/xplenty/well-known/xplenty-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/xplenty-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/xplenty/well-known/xplenty-well-known.yml
   title: ''
@@ -184,54 +200,58 @@ plans:
 random_paper: 20
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 72
   extends:
   - spectral:oas
   name: Integrate.io API Rules
-  rule_count: 10
+  rule_count: 31
   severity_counts:
-    error: 8
+    error: 29
     hint: 0
     info: 1
     warn: 1
   slug: xplenty-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 31.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 21
     catalog_earned: 45.8
     catalog_earned_first_party: 8.0
     catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 22.0
     contract_quality: 18.5
-    developer_ergonomics: 47.6
-    discoverability: 57.1
-    operational_transparency: 39.5
+    developer_ergonomics: 33.3
+    discoverability: 64.3
+    operational_transparency: 23.7
+  previous_composite: 40.0
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/xplenty/xplenty-2026-11-03T150309.png
 security:
 - kind: authentication
   name: Xplenty Authentication

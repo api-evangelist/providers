@@ -1,10 +1,22 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium (free trial)
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,16 +27,26 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 67.1
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 70.6
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 25
+  human_in_the_loop: 0
+  name: Arcmira Agentic Access
+  operation_count: 69
+  slug: arcmira-agentic-access
+  summary_line: 69 operations · 25 acting
+api_count: 2
 apis:
 - baseURL: https://api.arcmira.com
   baseurl_source: declared
@@ -81,100 +103,130 @@ apis:
   description: The Transcripts API from Arcmira — 2 operation(s) for transcripts.
   name: Arcmira Transcripts API
   slug: arcmira-transcripts-api
-artifact_total: 24
+- baseURL: https://api.arcmira.com
+  baseurl_source: declared
+  description: The Channels API from Arcmira — 2 operation(s) for channels.
+  name: Arcmira Channels API
+  slug: arcmira-channels-api
+artifact_total: 34
 common:
+- group: agent
+  href: https://artifacts.apis.io/arcmira/agentic-access/arcmira-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/arcmira-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/plans/arcmira-plans-pricing.yml
+  href: https://artifacts.apis.io/arcmira/finops/arcmira-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arcmira-finops.yml
+- group: build
+  href: https://artifacts.apis.io/arcmira/mcp/arcmira-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/arcmira-tool-crosswalk.yml
+- group: build
+  href: https://artifacts.apis.io/arcmira/integrations/arcmira-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/arcmira-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/arcmira/capabilities/arcmira-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arcmira-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/arcmira/plans/arcmira-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arcmira-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/rules/arcmira-rules.yml
+  href: https://artifacts.apis.io/arcmira/rules/arcmira-rules.yml
   title: ''
   type: Spectral
   url: rules/arcmira-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/json-ld/arcmira-context.jsonld
+  href: https://artifacts.apis.io/arcmira/json-ld/arcmira-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/arcmira-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/vocabulary/arcmira-vocabulary.yml
+  href: https://artifacts.apis.io/arcmira/vocabulary/arcmira-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/arcmira-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/data-model/arcmira-data-model.yml
+  href: https://artifacts.apis.io/arcmira/data-model/arcmira-data-model.yml
   title: ''
   type: DataModel
   url: data-model/arcmira-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/cli/arcmira-cli.yml
+  href: https://artifacts.apis.io/arcmira/cli/arcmira-cli.yml
   title: ''
   type: CLI
   url: cli/arcmira-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/changelog/arcmira-changelog.yml
+  href: https://artifacts.apis.io/arcmira/changelog/arcmira-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/arcmira-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/conventions/arcmira-conventions.yml
+  href: https://artifacts.apis.io/arcmira/conventions/arcmira-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/arcmira-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/conventions/arcmira-conventions.yml
+  href: https://artifacts.apis.io/arcmira/conventions/arcmira-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arcmira-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/authentication/arcmira-authentication.yml
+  href: https://artifacts.apis.io/arcmira/authentication/arcmira-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arcmira-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/errors/arcmira-problem-types.yml
+  href: https://artifacts.apis.io/arcmira/errors/arcmira-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arcmira-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/conformance/arcmira-conformance.yml
+  href: https://artifacts.apis.io/arcmira/conformance/arcmira-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arcmira-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/llms/arcmira-llms.txt
+  href: https://artifacts.apis.io/arcmira/llms/arcmira-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arcmira-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/a2a/arcmira-a2a.yml
+  href: https://artifacts.apis.io/arcmira/a2a/arcmira-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/arcmira-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/well-known/arcmira-well-known.yml
+  href: https://artifacts.apis.io/arcmira/well-known/arcmira-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arcmira-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/hosts/arcmira-hosts.yml
+  href: https://artifacts.apis.io/arcmira/hosts/arcmira-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arcmira-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/vendors/arcmira-vendors.yml
+  href: https://artifacts.apis.io/arcmira/vendors/arcmira-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arcmira-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/packages/arcmira-packages.yml
+  href: https://artifacts.apis.io/arcmira/packages/arcmira-packages.yml
   title: ''
   type: SDKs
   url: packages/arcmira-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/packages/arcmira-packages.yml
+  href: https://artifacts.apis.io/arcmira/packages/arcmira-packages.yml
   title: ''
   type: Packages
   url: packages/arcmira-packages.yml
@@ -215,7 +267,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/arcmira
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/security/arcmira-domain-security.yml
+  href: https://artifacts.apis.io/arcmira/security/arcmira-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arcmira-domain-security.yml
@@ -228,7 +280,7 @@ common:
   type: Documentation
   url: https://arcmira.com/docs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/mcp/arcmira-mcp.yml
+  href: https://artifacts.apis.io/arcmira/mcp/arcmira-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/arcmira-mcp.yml
@@ -249,7 +301,7 @@ common:
   type: MCPServer
   url: https://arcmira.com/docs/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arcmira/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -263,6 +315,14 @@ common:
   url: https://api.arcmira.com/v1/openapi.json
 created: '2026-10-03'
 description: Arcmira provides AI-powered search of YouTube transcript data, enabling developers to retrieve timestamped passages, speaker mentions, sponsors, and ad reads. Their platform offers JavaScript and Python SDKs, a CLI, and an OAuth-enabled remote MCP for integrating spoken web insights into applications. The service includes monitoring capabilities and commercial intelligence features, targeting developers building conversational AI and analytics tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Arcmira Finops
+  primary_unit: credit
+  service_category: ''
+  slug: arcmira-finops
+  template: false
 image: https://arcmira.com/arcmira-cover.png?v=20261002
 json_schemas:
 - name: ChannelSponsorsResponse
@@ -300,17 +360,20 @@ modified: '2026-10-05'
 name: Arcmira
 nav: Providers
 network: true
-overview: 'Arcmira publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channels API, Entities API, Feedback API, and 8 more. Tagged areas include Artificial Intelligence, Search, YouTube, Transcripts, and SDK.
+overview: 'Arcmira publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channels API, Entities API, Feedback API, and 9 more. Tagged areas include Artificial Intelligence, Search, YouTube, Transcripts, and SDK.
 
 
   The Arcmira catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arcmira''s developer surface includes CLI, changelog, authentication, pricing, getting-started guide, API reference, documentation, and 32 more developer resources.'
+  Arcmira''s developer surface includes CLI, changelog, authentication, pricing, getting-started guide, API reference, documentation, and 37 more developer resources.'
 plans:
 - name: Arcmira Plans Pricing
-  plan_count: 5
+  plan_count: 4
   slug: arcmira-plans-pricing
+- name: Arcmira Price Estimates
+  plan_count: 0
+  slug: arcmira-price-estimates
 random_paper: 15
 rules:
 - authorship: generated
@@ -327,29 +390,30 @@ rules:
   slug: arcmira-rules
 score:
   band: strong
-  composite: 64.3
+  composite: 57.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 74.8
+    artifact_dirs: 31
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: -8.7
   facets:
-    access_clarity: 76.3
+    access_clarity: 61.8
     contract_governance: 22.0
-    contract_quality: 70.3
-    developer_ergonomics: 71.4
+    contract_quality: 76.2
+    developer_ergonomics: 52.4
     discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 68.1
+    operational_transparency: 10.5
+  previous_composite: 65.9
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 11
     mcp: first-party
     skills: first-party
@@ -358,10 +422,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: true
     score: 38.9
@@ -375,6 +439,20 @@ security:
   name: Arcmira Domain Security
   slug: arcmira-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: company-watch
+  slug: arcmira-company-watch
+- name: compare-shows
+  slug: arcmira-compare-shows
+- name: find-quotes
+  slug: arcmira-find-quotes
+- name: person-research
+  slug: arcmira-person-research
+- name: sponsor-research
+  slug: arcmira-sponsor-research
+- name: arcmira
+  slug: arcmira
 slug: arcmira
 tags:
 - Artificial Intelligence

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Cuvva''s fleet of public single-purpose service APIs — auth (OAuth 2.0), vehicle lookup, MOT status, motor-coverage quotes/policies, billing, promo, profile, upload, terms, notification and more. Most '
@@ -167,9 +170,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 31.4
+  composite: 31.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,8 +184,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 31.6
+    discoverability: 73.2
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -191,7 +194,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 31.4
+  previous_composite: 31.8
   provenance:
     conformance: first-party
   regulatory:
@@ -200,8 +203,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -229,7 +232,8 @@ tags:
 - Car Insurance
 - Financial Services
 - Mobile
-- Authentication
+- OAuth
 - United Kingdom
+- Authentication
 website: https://www.cuvva.com
 ---

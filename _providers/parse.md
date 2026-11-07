@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
@@ -192,9 +193,9 @@ overview: 'Parse is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 11
 score:
   band: thin
-  composite: 37.0
+  composite: 37.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,9 +207,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 47.4
-  previous_composite: 37.0
+    discoverability: 73.2
+    operational_transparency: 44.7
+  previous_composite: 37.4
   provenance:
     conformance: derived
     mcp: derived
@@ -218,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -36,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -121,7 +128,7 @@ apis:
   description: Endpoints to check if given entity has anything unresolved
   name: Salv Unresolved Alerts API
   slug: salv-unresolved-alerts-api
-artifact_total: 40
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Salv Webhooks
@@ -333,7 +340,7 @@ network: true
 overview: 'Salv publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert API, Alerts API, Aml API, and 12 more. Tagged areas include Company, AML, Financial Crime, Compliance, and RegTech.
 
 
-  The Salv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Salv catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
@@ -342,6 +349,19 @@ rate_limits:
 - limit_count: 1
   name: Salv Rate Limits
   slug: salv-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Salv API Rules
+  rule_count: 52
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 4
+    warn: 3
+  slug: salv-rules
 scopes:
 - name: Salv Scopes
   scope_count: 1
@@ -349,28 +369,28 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 49.8
+  composite: 43.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 26
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 56.0
-    developer_ergonomics: 66.1
-    discoverability: 66.1
+    developer_ergonomics: 28.0
+    discoverability: 73.2
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - estonia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 49.8
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,13 +411,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/salv/salv-2026-08-17T081716.png
 security:
 - kind: authentication

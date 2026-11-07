@@ -1,13 +1,15 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -95,7 +98,7 @@ apis:
   description: Manage inbound and outbound deliveries, goods receipts, goods issues, and production orders.
   name: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: SAP Business ByDesign OData Analytics API
@@ -227,7 +230,7 @@ network: true
 overview: 'SAP Business ByDesign publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 8 more. Tagged areas include ERP, Cloud, Mid-Market, Finance, and CRM.
 
 
-  The SAP Business ByDesign catalog on APIs.io includes 1 JSON-LD context.
+  The SAP Business ByDesign catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   SAP Business ByDesign''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
@@ -240,6 +243,19 @@ rate_limits:
 - limit_count: 3
   name: Sap Bydesign Rate Limits
   slug: sap-bydesign-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: SAP Business ByDesign API Rules
+  rule_count: 70
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 6
+  slug: sap-bydesign-rules
 scopes:
 - name: Sap Bydesign Scopes
   scope_count: 1
@@ -247,23 +263,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/saml2Bearer
 score:
   band: thin
-  composite: 35.6
+  composite: 36.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 48.0
+    artifact_dirs: 18
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 51.4
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 35.6
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -277,13 +293,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sap-bydesign/sap-bydesign-2026-06-20T193421.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -22,10 +33,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.bymason.com
@@ -35,6 +46,11 @@ apis:
   slug: by-mason-api
 artifact_total: 7
 common:
+- group: auth
+  href: https://artifacts.apis.io/by-mason/well-known/by-mason-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/by-mason-status-security.txt
 - group: design
   href: https://artifacts.apis.io/by-mason/rules/by-mason-rules.yml
   title: ''
@@ -69,11 +85,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/by-mason-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/by-mason/well-known/by-mason-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/by-mason-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/by-mason/well-known/by-mason-well-known.yml
   title: ''
@@ -170,54 +181,63 @@ overview: 'By Mason is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: By Mason API Rules
-  rule_count: 12
+  rule_count: 41
   severity_counts:
-    error: 10
+    error: 39
     hint: 0
     info: 1
     warn: 1
   slug: by-mason-rules
 score:
-  band: thin
-  composite: 35.1
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 51.2
     catalog_earned_first_party: 0.0
     catalog_gap: 63.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.2
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 18.3
-    developer_ergonomics: 35.7
+    developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 42.1
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/by-mason/by-mason-2026-11-03T122842.png
 security:
 - kind: domain-security
   name: By Mason Domain Security

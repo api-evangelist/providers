@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OAuth2-secured REST API for consuming Dataminr real-time alerts and managing watchlists/lists. Token flow at /auth/2/token; alert polling at /api/3/alerts; account and list management at /account/2/*.
@@ -157,9 +162,9 @@ overview: 'Dataminr is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 8
 score:
   band: thin
-  composite: 28.3
+  composite: 28.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,9 +176,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 28.3
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 28.7
   provenance:
     conformance: first-party
   regulatory:
@@ -188,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

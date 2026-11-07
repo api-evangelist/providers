@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://workflowy.com/api/v1
@@ -49,7 +50,7 @@ apis:
   description: System targets and user-defined shortcuts that point at nodes.
   name: Workflowy Targets API
   slug: workflowy-targets-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: Workflowy Nodes API
@@ -204,27 +205,43 @@ network: true
 overview: 'Workflowy is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Nodes API and Targets API. Tagged areas include Productivity, Notes, Outliner, Task Management, and List.
 
 
+  The Workflowy catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Workflowy API Rules
+  rule_count: 57
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 4
+    warn: 1
+  slug: workflowy-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 36.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 14.1
+    contract_governance: 18.2
+    contract_quality: 17.5
     developer_ergonomics: 56.5
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 33.9
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 36.3
   provenance:
     conformance: derived
     contracts:
@@ -240,13 +257,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/workflowy/workflowy-2026-08-17T083141.png
 security:
 - kind: authentication

@@ -5,7 +5,10 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
@@ -213,9 +217,9 @@ rate_limits:
   slug: pulsemcp-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 35.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -227,9 +231,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 65.0
-    operational_transparency: 52.6
-  previous_composite: 35.5
+    discoverability: 71.7
+    operational_transparency: 50.0
+  previous_composite: 35.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -240,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

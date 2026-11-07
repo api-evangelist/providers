@@ -7,10 +7,12 @@ access_model:
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
-    openapi_examples: false
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-31'
+  score: 34.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://market-api.metadao.fi
@@ -58,7 +61,37 @@ apis:
   description: Aggregate trading volume
   name: MetaDAO Volume API
   slug: metadao-volume-api
-artifact_total: 13
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: CoinGecko DEX integration (strings for numeric values).
+  name: MetaDAO Coin Gecko API
+  slug: metadao-coingecko-api
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: CoinMarketCap DEX integration [Section C] (JSON numbers). Also served under `/cmc/v1`.
+  name: MetaDAO Coin Market Cap API
+  slug: metadao-coinmarketcap-api
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: DexScreener HTTP adapter v1.1. Block numbers are Solana slots.
+  name: MetaDAO Dex Screener API
+  slug: metadao-dexscreener-api
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: Health checks, container probes and Prometheus metrics.
+  name: MetaDAO Health API
+  slug: metadao-health-api
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: Launchpad raises currently accepting commitments.
+  name: MetaDAO Launches API
+  slug: metadao-launches-api
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: Daily volume and fee history from the served ETL.
+  name: MetaDAO Market data API
+  slug: metadao-market-data-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: MetaDAO Futarchy DEX Meta API
@@ -165,7 +198,10 @@ modified: '2026-07-20'
 name: MetaDAO
 nav: Providers
 network: true
-overview: 'MetaDAO publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Meta API, Supply API, Tickers API, and 1 more. Tagged areas include Company, Crypto Tools, DeFi, Solana, and Decentralized Exchange.
+overview: 'MetaDAO publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Meta API, Supply API, Tickers API, and 7 more. Tagged areas include Company, Crypto Tools, DeFi, Solana, and Decentralized Exchange.
+
+
+  The MetaDAO catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   MetaDAO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
@@ -174,25 +210,38 @@ rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits
   slug: metadao-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: MetaDAO API Rules
+  rule_count: 55
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 3
+    warn: 5
+  slug: metadao-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 35.6
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.0
+    artifact_dirs: 19
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 1.2
   facets:
     access_clarity: 0.0
-    contract_governance: 18.2
-    contract_quality: 42.4
+    contract_governance: 31.8
+    contract_quality: 46.9
     developer_ergonomics: 51.8
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 33.5
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     contracts:
@@ -208,13 +257,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/metadao/metadao-2026-08-07T172641.png
 security:
 - kind: authentication

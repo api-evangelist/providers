@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Token-authenticated JSON API for the Parsable Connected Worker platform. All calls are HTTP POSTs to https://api.parsable.net/api/<MODULE> carrying a `{ "method", "arguments" }` envelope and an Author
@@ -170,9 +171,9 @@ overview: 'Parsable is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 2
 score:
   band: thin
-  composite: 32.9
+  composite: 33.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,9 +185,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 32.9
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 33.3
   provenance:
     conformance: first-party
   regulatory:
@@ -199,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

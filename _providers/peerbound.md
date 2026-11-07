@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -9,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-31'
+  score: 37.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +72,13 @@ apis:
   description: The Stories API from Peerbound — 2 operation(s) for stories.
   name: Peerbound Stories API
   slug: peerbound-stories-api
-artifact_total: 10
+artifact_total: 20
 common:
+- group: auth
+  href: https://artifacts.apis.io/peerbound/well-known/peerbound-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/peerbound-status-security.txt
 - group: other
   href: https://artifacts.apis.io/peerbound/vendors/peerbound-vendors.yml
   title: ''
@@ -122,11 +139,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/peerbound-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/peerbound/well-known/peerbound-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/peerbound-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/peerbound/well-known/peerbound-well-known.yml
   title: ''
@@ -181,6 +193,37 @@ common:
 created: '2026-10-29'
 description: Peerbound provides a platform to centralize customer proof, uncover advocates and insights, and empower sales teams to win deals. Trusted by companies such as Canva, Gong, and Lattice, it helps turn customer testimonials into revenue-driving assets. The service aggregates case studies, reviews, and success stories, offering analytics and integration with CRM tools to streamline sales enablement.
 image: https://framerusercontent.com/assets/LUuLhKnV3Hemd6HrgHfUf2fGDY.png
+json_schemas:
+- name: Activity
+  property_count: 10
+  slug: peerbound-activity
+- name: ListResponse[Activity]
+  property_count: 2
+  slug: peerbound-list-response-activity
+- name: ListResponse[Moment]
+  property_count: 2
+  slug: peerbound-list-response-moment
+- name: ListResponse[Note]
+  property_count: 2
+  slug: peerbound-list-response-note
+- name: ListResponse[Review]
+  property_count: 2
+  slug: peerbound-list-response-review
+- name: ListResponse[Story]
+  property_count: 2
+  slug: peerbound-list-response-story
+- name: Moment
+  property_count: 11
+  slug: peerbound-moment
+- name: Note
+  property_count: 10
+  slug: peerbound-note
+- name: Review
+  property_count: 12
+  slug: peerbound-review
+- name: Story
+  property_count: 9
+  slug: peerbound-story
 jsonld:
 - class_count: 22
   name: Peerbound Context
@@ -191,7 +234,7 @@ modified: '2026-10-29'
 name: Peerbound
 nav: Providers
 network: true
-overview: 'Peerbound publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Moments API, Notes API, and 2 more. Tagged areas include Company, SaaS, Sales Enablement, Customer Proof, and Analytics.
+overview: 'Peerbound publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Moments API, Notes API, and 2 more. Tagged areas include Company, Software-as-a-Service, Sales Enablement, Customer Proof, and Analytics.
 
 
   The Peerbound catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -201,34 +244,42 @@ overview: 'Peerbound publishes 5 API contracts indexed on the [APIs.io](https://
 random_paper: 4
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 89
   extends:
   - spectral:oas
   name: Peerbound API Rules
-  rule_count: 15
+  rule_count: 48
   severity_counts:
-    error: 13
+    error: 46
     hint: 0
     info: 1
     warn: 1
   slug: peerbound-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 40.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 43.8
+    artifact_dirs: 25
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.3
-    catalog_max: 115.0
+    catalog_gap: 47.3
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.3
     contract_governance: 22.0
-    contract_quality: 51.0
-    developer_ergonomics: 42.1
-    discoverability: 48.2
-    operational_transparency: 31.6
+    contract_quality: 57.1
+    developer_ergonomics: 30.2
+    discoverability: 55.4
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,13 +295,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/peerbound/peerbound-2026-11-03T141105.png
 security:
 - kind: authentication
   name: Peerbound Authentication
@@ -263,7 +316,7 @@ security:
 slug: peerbound
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Customer Proof
 - Analytics

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-10-31'
+  score: 37.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Hooklayer MCP provides 14 AI tools via a Model Context Protocol server.
@@ -165,7 +180,7 @@ modified: '2026-10-30'
 name: hooklayer-dev
 nav: Providers
 network: true
-overview: 'hooklayer-dev is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI, Video, Marketing, and Analytics.
+overview: 'hooklayer-dev is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Artificial Intelligence, Video, Marketing, and Analytics.
 
 
   The hooklayer-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,34 +215,46 @@ scopes:
   slug: hooklayer-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 46.1
+  band: emerging
+  composite: 23.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 63.1
+    artifact_dirs: 29
+    catalog_earned: 48.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.9
+    catalog_gap: 66.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.1
   facets:
-    access_clarity: 44.7
-    contract_governance: 79.1
-    contract_quality: 45.0
-    developer_ergonomics: 31.0
+    access_clarity: 22.4
+    contract_governance: 22.0
+    contract_quality: 17.6
+    developer_ergonomics: 15.5
     discoverability: 56.7
-    operational_transparency: 15.8
+    operational_transparency: 7.9
+  previous_composite: 32.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/hooklayer-dev/hooklayer-dev-2026-11-03T133445.png
 security:
 - kind: authentication
   name: Hooklayer Dev Authentication
@@ -240,7 +267,7 @@ security:
 slug: hooklayer-dev
 tags:
 - MCP
-- AI
+- Artificial Intelligence
 - Video
 - Marketing
 - Analytics

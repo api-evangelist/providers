@@ -1,32 +1,47 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 44.9
-  scored_at: '2026-10-31'
+  score: 20.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://assets.requestly.com
@@ -36,6 +51,10 @@ apis:
   slug: requestly-api
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://requestly.com/terms
 - group: commercial
   href: https://artifacts.apis.io/requestly/plans/requestly-plans-pricing.yml
   title: ''
@@ -129,10 +148,6 @@ common:
   title: ''
   type: Documentation
   url: https://docs.requestly.com/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://requestly.com/
 - group: docs
   title: ''
   type: APIReference
@@ -189,7 +204,7 @@ modified: '2026-10-21'
 name: Requestly
 nav: Providers
 network: true
-overview: 'Requestly is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API, Platform, Testing, Development, and Collaboration.
+overview: 'Requestly is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Platform, Testing, Development, Collaboration, and Security.
 
 
   The Requestly catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -203,54 +218,63 @@ plans:
 random_paper: 22
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: Requestly API Rules
-  rule_count: 11
+  rule_count: 42
   severity_counts:
-    error: 9
+    error: 39
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: requestly-rules
 score:
-  band: developing
-  composite: 42.8
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 25
     catalog_earned: 71.8
     catalog_earned_first_party: 12.0
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.2
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
-    contract_quality: 23.3
-    developer_ergonomics: 71.4
-    discoverability: 66.1
+    contract_quality: 26.7
+    developer_ergonomics: 44.0
+    discoverability: 73.2
     operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 43.6
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 20
+      derived: 1
       marker_coverage: 100.0
-      total: 20
-    mcp: unknown
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/requestly/requestly-2026-11-03T142203.png
 security:
 - kind: authentication
   name: Requestly Authentication
@@ -262,7 +286,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: requestly
 tags:
-- API
 - Platform
 - Testing
 - Development

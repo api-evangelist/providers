@@ -1,15 +1,21 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -20,23 +26,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 72.7
-  scored_at: '2026-10-31'
+  score: 79.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 550
   human_in_the_loop: 61
@@ -1161,7 +1168,77 @@ apis:
   description: The x402 API from Telnyx — 3 operation(s) for x402.
   name: Telnyx X402 API
   slug: telnyx-x402-api
-artifact_total: 814
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: 'Execute browser actions: navigate, observe, click, fill, select, press, scroll, wait_for, screenshot, batch.'
+  name: Telnyx Actions API
+  slug: telnyx-actions-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage and report AI Gateway traffic.
+  name: Telnyx AI Gateway API
+  slug: telnyx-ai-gateway-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Test agents, evaluator scenarios, metrics, and run results for the AI test framework.
+  name: Telnyx AI Tests API
+  slug: telnyx-ai-tests-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Download screenshots and other artifacts.
+  name: Telnyx Artifacts API
+  slug: telnyx-artifacts-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Create and manage real-time AI avatars
+  name: Telnyx Avatars API
+  slug: telnyx-avatars-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Create, list, get, and close browser sessions.
+  name: Telnyx Browser Sessions API
+  slug: telnyx-browser-sessions-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Purchase and manage dedicated sending IP addresses for your Telnyx email traffic.
+  name: Telnyx Dedicated IPs API
+  slug: telnyx-dedicated-ips-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Group dedicated IPs into pools for sending.
+  name: Telnyx IP Pools API
+  slug: telnyx-ip-pools-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Routes on a Network that send a CIDR to a next hop, such as a tunnel.
+  name: Telnyx Network Routes API
+  slug: telnyx-network-routes-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Generic payment connector configuration.
+  name: Telnyx Pay Connectors API
+  slug: telnyx-pay-connectors-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Inspect Stateful Actor types
+  name: Telnyx stateful actors API
+  slug: telnyx-stateful-actors-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Tailscale Subnet Router operations
+  name: Telnyx Tailscale Subnet Routers API
+  slug: telnyx-tailscale-subnet-routers-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Tunnels connect a Network to hosts behind a tunnel process within the user's network.
+  name: Telnyx Tunnels API
+  slug: telnyx-tunnels-api
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Whatsapp Signup API from Telnyx — 4 operation(s) for whatsapp signup.
+  name: Telnyx Whatsapp Signup API
+  slug: telnyx-whatsapp-signup-api
+artifact_total: 828
 asyncapis:
 - description: ''
   name: Telnyx Webhooks
@@ -2420,7 +2497,7 @@ json_schemas:
   property_count: 1
   slug: telnyx-created-verification-codes-response
 - name: DefaultGateway
-  property_count: 0
+  property_count: 7
   slug: telnyx-default-gateway
 - name: DetailRecordsSearchResponse
   property_count: 2
@@ -2429,7 +2506,7 @@ json_schemas:
   property_count: 48
   slug: telnyx-dial-conference-participant-request
 - name: DocServiceDocument
-  property_count: 0
+  property_count: 11
   slug: telnyx-doc-service-document
 - name: DynamicEmergencyAddress
   property_count: 17
@@ -2513,16 +2590,16 @@ json_schemas:
   property_count: 16
   slug: telnyx-generate-speech-request
 - name: GlobalIpAssignment
-  property_count: 0
+  property_count: 10
   slug: telnyx-global-ip-assignment
 - name: GlobalIpAssignmentUpdate
-  property_count: 0
+  property_count: 10
   slug: telnyx-global-ip-assignment-update
 - name: GlobalIP
-  property_count: 0
+  property_count: 8
   slug: telnyx-global-ip
 - name: GlobalIPHealthCheck
-  property_count: 0
+  property_count: 7
   slug: telnyx-global-iphealth-check
 - name: ImportExternalVetting
   property_count: 3
@@ -2678,7 +2755,7 @@ json_schemas:
   property_count: 1
   slug: telnyx-monthly-charges-summary-response
 - name: NetworkCreate
-  property_count: 0
+  property_count: 5
   slug: telnyx-network-create
 - name: NewBillingGroup
   property_count: 1
@@ -2834,7 +2911,7 @@ json_schemas:
   property_count: 1
   slug: telnyx-pronunciation-dict-response
 - name: PublicInternetGatewayCreate
-  property_count: 0
+  property_count: 9
   slug: telnyx-public-internet-gateway-create
 - name: PublicTextClusteringRequest
   property_count: 5
@@ -3185,10 +3262,10 @@ json_schemas:
   property_count: 1
   slug: telnyx-verified-number-response-data-wrapper
 - name: VirtualCrossConnectCreate
-  property_count: 0
+  property_count: 22
   slug: telnyx-virtual-cross-connect-create
 - name: VirtualCrossConnectPatch
-  property_count: 0
+  property_count: 6
   slug: telnyx-virtual-cross-connect-patch
 - name: VoiceCloneListResponse
   property_count: 2
@@ -3263,10 +3340,10 @@ json_schemas:
   property_count: 1
   slug: telnyx-whatsapp-verify-code-request
 - name: WireguardInterfaceCreate
-  property_count: 0
+  property_count: 11
   slug: telnyx-wireguard-interface-create
 - name: WireguardPeerCreate
-  property_count: 0
+  property_count: 8
   slug: telnyx-wireguard-peer-create
 - name: WireguardPeerPatch
   property_count: 1
@@ -3306,7 +3383,7 @@ modified: '2026-10-08'
 name: Telnyx
 nav: Providers
 network: true
-overview: 'Telnyx publishes 223 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 220 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
+overview: 'Telnyx publishes 237 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 234 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
 
 
   The Telnyx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -3345,28 +3422,28 @@ scopes:
   summary_line: 33 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 87.6
+  composite: 79.4
   coverage:
-    artifact_dirs: 37
+    artifact_dirs: 39
     catalog_earned: 92.8
     catalog_earned_first_party: 24.0
     catalog_gap: 22.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.9
+  delta: -16.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 73.7
     contract_governance: 35.6
-    contract_quality: 74.9
-    developer_ergonomics: 92.9
-    discoverability: 86.7
-    operational_transparency: 94.7
+    contract_quality: 77.9
+    developer_ergonomics: 59.5
+    discoverability: 90.0
+    operational_transparency: 67.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 78.7
+  previous_composite: 95.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3374,7 +3451,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 223
+      total: 237
     mcp: first-party
     skills: first-party
   regulatory:
@@ -3382,14 +3459,13 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 53.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 48.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 77.8
 screenshot: https://apis.io/screenshots/telnyx/telnyx-2026-06-20T195051.png
 security:
 - kind: authentication

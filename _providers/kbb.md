@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Requires approval
   onboarding: approval
   pricing: unknown
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: RESTful API providing access to Kelley Blue Book vehicle data, values, and content. Endpoints cover vehicle information, new and used pricing, expert and consumer ratings and reviews, cost-of-ownershi
@@ -132,9 +134,9 @@ rate_limits:
   slug: kbb-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 14.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -145,18 +147,18 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 2.4
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 18.8
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

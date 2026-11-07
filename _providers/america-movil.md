@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -29,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,7 +113,7 @@ arazzos:
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: ''
   name: America Movil Webhooks
@@ -350,7 +354,7 @@ network: true
 overview: 'América Móvil publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Check SIM swap API, Device Locations API, Location verification API, and 13 more. Tagged areas include Telecommunications, Mexico, Latin America, Mobile Network Operator, and Network APIs.
 
 
-  The América Móvil catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The América Móvil catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   América Móvil''s developer surface includes authentication, documentation, signup flow, FAQ, privacy policy, engineering blog, changelog, and 38 more developer resources.'
@@ -363,28 +367,41 @@ rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits
   slug: america-movil-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: América Móvil API Rules
+  rule_count: 54
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 2
+  slug: america-movil-rules
 scopes:
 - name: America Movil Scopes
   scope_count: 2
   slug: america-movil-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 55.0
+    artifact_dirs: 33
+    catalog_earned: 59.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 56.5
     developer_ergonomics: 54.2
-    discoverability: 62.5
+    discoverability: 69.6
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -393,7 +410,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 53.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,13 +427,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/america-movil/america-movil-2026-08-07T161348.png
 security:
 - kind: authentication

@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,19 +25,24 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-31'
-api_count: 0
-artifact_total: 1
+  score: 12.9
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: The files API from Bunch — 2 operation(s) for files.
+  name: Bunch Files API
+  slug: joinbunch-com-files-api
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -79,6 +85,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/bunch-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.bunch.capital/library-category/guides
 created: '2026-07-17'
 description: Bunch is a Berlin-based financial technology company building AI-native infrastructure for private markets. Its all-in-one platform combines secure data infrastructure, AI-powered workflows, and expert fund services so venture capital and private equity funds and investors can seamlessly transact, close, and securely operate — spanning fund administration, SPV and vehicle setup, investor onboarding and KYC, capital calls, and reporting. Bunch was surfaced as a portfolio company of 500 Global and Northzone and profiled into the API Evangelist network. Bunch operates a private, customer-facing product at app.bunch.capital and does not publish a public API, developer portal, or SDKs at this time.
 image: https://cdn.prod.website-files.com/66768f27014cdc6878a27095/68f1ef65b00c7d1da8e88167_bunch.capital.webp
@@ -87,29 +97,29 @@ modified: '2026-10-06'
 name: Bunch
 nav: Providers
 network: true
-overview: 'Bunch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Fund Administration, and Fund Operations.
+overview: 'Bunch is listed with 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Company, Fintech, Private Markets, Fund Administration, and Fund Operations.
 
 
-  Bunch''s developer surface includes engineering blog and 9 more developer resources.'
+  Bunch''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 12.6
+  composite: 22.5
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
+    artifact_dirs: 5
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 48.2
-    operational_transparency: 5.3
+    contract_quality: 36.0
+    developer_ergonomics: 7.1
+    discoverability: 66.1
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -118,16 +128,16 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 12.6
+  previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 12.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -148,5 +158,7 @@ tags:
 - Venture Capital
 - Private Equity
 - SPV
+- Artificial Intelligence
+- Fund Management
 website: https://www.bunch.capital/
 ---

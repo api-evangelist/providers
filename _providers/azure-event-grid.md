@@ -1,12 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -68,7 +71,7 @@ apis:
   description: Topics operations
   name: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Azure Event Grid Publisher Namespace Topics API
@@ -169,12 +172,28 @@ network: true
 overview: 'Azure Event Grid publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Namespace Topics API, Publish API, Operations API, and 2 more. Tagged areas include Eventing, Event-Driven, Pub/Sub, Messaging, and Webhook.
 
 
+  The Azure Event Grid catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure Event Grid''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, and 10 more developer resources.'
 plans:
 - name: Azure Event Grid Plans Pricing
   plan_count: 2
   slug: azure-event-grid-plans-pricing
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Azure Event Grid API Rules
+  rule_count: 51
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 2
+    warn: 1
+  slug: azure-event-grid-rules
 scopes:
 - name: Azure Event Grid Scopes
   scope_count: 1
@@ -182,23 +201,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 44.8
+  composite: 47.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 45.0
+    artifact_dirs: 14
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 45.6
     developer_ergonomics: 35.7
     discoverability: 80.4
-    operational_transparency: 15.8
-  previous_composite: 40.6
+    operational_transparency: 13.2
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +231,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/azure-event-grid/azure-event-grid-2026-06-20T172903.png
 security:
 - kind: authentication

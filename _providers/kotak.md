@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   - '{''url'': ''https://kotak.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.kotak.bank.in/en/home.html — a different registrable domain (kotak.com -> bank.in), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Kotak Mahindra Bank enterprise open-banking API platform. A curated corporate banking API stack of 39 published API products across six categories — Account Services, Payment Services, Collection '
@@ -157,7 +160,7 @@ overview: 'Kotak Mahindra Bank is listed with 1 API on the [APIs.io](https://api
 random_paper: 10
 score:
   band: thin
-  composite: 27.9
+  composite: 26.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -170,8 +173,8 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 66.1
+    developer_ergonomics: 52.4
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -180,7 +183,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 27.9
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -193,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

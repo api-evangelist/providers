@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The AWS CLI v2 is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal with auto-completion, AWS SSO support, and improved perfor
@@ -162,7 +164,7 @@ modified: '2026-04-19'
 name: AWS CLI
 nav: Providers
 network: true
-overview: 'AWS CLI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Cloud Computing, Command Line Interface, DevOps, and Open Source.
+overview: 'AWS CLI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Amazon Web Services, CLI, Cloud Computing, Command Line Interface, and DevOps.
 
 
   AWS CLI''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 14 more developer resources.'
@@ -176,8 +178,8 @@ rate_limits:
   name: Aws Cli Rate Limits
   slug: aws-cli-rate-limits
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 25.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 38.0
@@ -192,16 +194,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 26.3
+    operational_transparency: 36.8
+  previous_composite: 25.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -223,6 +225,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: aws-cli
 tags:
+- Amazon Web Services
 - CLI
 - Cloud Computing
 - Command Line Interface

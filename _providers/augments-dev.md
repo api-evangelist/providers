@@ -1,32 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: conformant
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.2
-  scored_at: '2026-10-31'
+  score: 25.4
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: MCP provides a server delivering TypeScript type signatures, documentation, and code examples for npm packages via a Model Context Protocol.
@@ -49,6 +60,11 @@ apis:
   slug: draft-api
 artifact_total: 10
 common:
+- group: auth
+  href: https://artifacts.apis.io/augments-dev/well-known/augments-dev-modelcontextprotocol-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/augments-dev-modelcontextprotocol-security.txt
 - group: design
   href: https://artifacts.apis.io/augments-dev/rules/augments-dev-rules.yml
   title: ''
@@ -104,11 +120,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/augments-dev-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/augments-dev/well-known/augments-dev-modelcontextprotocol-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/augments-dev-modelcontextprotocol-security.txt
 - group: agent
   href: https://artifacts.apis.io/augments-dev/well-known/augments-dev-well-known.yml
   title: ''
@@ -192,7 +203,7 @@ modified: '2026-10-30'
 name: augments-dev
 nav: Providers
 network: true
-overview: 'augments-dev is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including 2026 07 28 API, core API, draft API, and 1 more. Tagged areas include Company, AI, TypeScript, npm, and Documentation.
+overview: 'augments-dev is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including 2026 07 28 API, core API, draft API, and 1 more. Tagged areas include Company, Artificial Intelligence, TypeScript, npm, and Documentation.
 
 
   The augments-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -202,46 +213,58 @@ overview: 'augments-dev is listed with 4 APIs on the [APIs.io](https://apis.io/)
 random_paper: 8
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: augments-dev API Rules
-  rule_count: 11
+  rule_count: 42
   severity_counts:
-    error: 10
+    error: 40
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: augments-dev-rules
 score:
-  band: developing
-  composite: 41.5
+  band: thin
+  composite: 26.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.4
+    artifact_dirs: 22
+    catalog_earned: 51.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 63.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.2
   facets:
     access_clarity: 0.0
-    contract_governance: 70.9
-    contract_quality: 47.0
-    developer_ergonomics: 59.5
+    contract_governance: 22.0
+    contract_quality: 19.0
+    developer_ergonomics: 48.8
     discoverability: 62.5
-    operational_transparency: 23.7
+    operational_transparency: 21.1
+  previous_composite: 28.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/augments-dev/augments-dev-2026-11-03T121322.png
 security:
 - kind: authentication
   name: Augments Dev Authentication
@@ -254,10 +277,10 @@ security:
 slug: augments-dev
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - TypeScript
 - npm
 - Documentation
-- CodeExamples
+- Code Examples
 website: https://augments.dev/
 ---

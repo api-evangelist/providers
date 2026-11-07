@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: false
@@ -26,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.3
-  scored_at: '2026-10-31'
+  score: 52.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 1
@@ -281,7 +284,27 @@ apis:
   description: Pre-release preview (2026-07-01) of the Revolut Wallet Partner API, which lets onboarded partners create and manage passes in Revolut Wallet. Published by Revolut in the revolut-engineering/revolut-op
   name: Revolut Wallet Partner API
   slug: revolut-wallet-partner-api
-artifact_total: 271
+- baseURL: https://passes.partner.example/revolut-wallet
+  baseurl_source: declared
+  description: Auto-apply loyalty cards to Revolut-card transactions. :::warning [Pre-release preview] This is a pre-release preview of upcoming documentation. The features, workflows, and UI described here are subj
+  name: Revolut Loyalty API
+  slug: revolut-loyalty-api
+- baseURL: https://passes.partner.example/revolut-wallet
+  baseurl_source: declared
+  description: Return the current state of a pass on request. :::warning [Pre-release preview] This is a pre-release preview of upcoming documentation. The features, workflows, and UI described here are subject to c
+  name: Revolut [PREVIEW] Passes API
+  slug: revolut-preview-passes-api
+- baseURL: https://partner.wallet.revolut.com
+  baseurl_source: declared
+  description: Create, update, and manage the pass templates that give passes their branding, barcodes, layout, and default behaviour. :::warning [Pre-release preview] This is a pre-release preview of upcoming docum
+  name: Revolut [PREVIEW] Templates API
+  slug: revolut-preview-templates-api
+- baseURL: https://passes.partner.example/revolut-wallet
+  baseurl_source: declared
+  description: Return what a Revolut-card transaction produced. :::warning [Pre-release preview] This is a pre-release preview of upcoming documentation. The features, workflows, and UI described here are subject to
+  name: Revolut [PREVIEW] Transaction outcomes API
+  slug: revolut-preview-transaction-outcomes-api
+artifact_total: 275
 asyncapis:
 - description: ''
   name: Revolut Webhooks
@@ -714,7 +737,7 @@ json_schemas:
   property_count: 3
   slug: revolut-create-payment-draft-request
 - name: CreateTaxRateRequest
-  property_count: 0
+  property_count: 2
   slug: revolut-create-tax-rate-request
 - name: CreateWebhookRequest
   property_count: 2
@@ -1158,7 +1181,7 @@ modified: '2026-10-06'
 name: Revolut
 nav: Providers
 network: true
-overview: 'Revolut publishes 47 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting API, Accounting categories API, Accounts API, and 44 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
+overview: 'Revolut publishes 51 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting API, Accounting categories API, Accounts API, and 48 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
 
 
   The Revolut catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -1197,31 +1220,36 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 70.0
+  composite: 68.8
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 80.8
     catalog_earned_first_party: 12.0
     catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -2.7
   facets:
-    access_clarity: 68.4
+    access_clarity: 57.9
     contract_governance: 22.0
-    contract_quality: 75.5
-    developer_ergonomics: 78.6
+    contract_quality: 78.0
+    developer_ergonomics: 72.6
     discoverability: 71.4
-    operational_transparency: 47.4
-  previous_composite: 68.4
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - lithuania
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 90.2
       derived: 0
-      marker_coverage: 0.0
-      total: 50
+      marker_coverage: 3.9
+      total: 51
     mcp: derived
     skills: first-party
   regulatory:
@@ -1233,14 +1261,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 59.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 57.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/revolut/revolut-2026-08-17T081548.png
 security:
 - kind: authentication

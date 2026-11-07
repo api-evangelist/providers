@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Willow API allows programmatic management of MCP servers and other resources.
@@ -232,28 +248,25 @@ rules:
   slug: webrix-rules
 score:
   band: developing
-  composite: 53.2
+  composite: 47.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 47.4
     contract_governance: 35.6
-    contract_quality: 56.7
-    developer_ergonomics: 35.7
-    discoverability: 66.1
-    operational_transparency: 34.2
+    contract_quality: 57.3
+    developer_ergonomics: 23.8
+    discoverability: 73.2
+    operational_transparency: 22.4
+  previous_composite: 58.8
   provenance:
     conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 13
     mcp: derived
   regulatory:
     applies: true
@@ -266,13 +279,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
+screenshot: https://apis.io/screenshots/webrix/webrix-2026-11-03T150110.png
 security:
 - kind: authentication
   name: Webrix Authentication

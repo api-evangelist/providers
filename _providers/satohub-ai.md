@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -142,6 +154,11 @@ apis:
   slug: satohub-ai-x402-merchants-api
 artifact_total: 36
 common:
+- group: auth
+  href: https://artifacts.apis.io/satohub-ai/well-known/satohub-ai-ethereum-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/satohub-ai-ethereum-security.txt
 - group: agent
   href: https://artifacts.apis.io/satohub-ai/agentic-access/satohub-ai-agentic-access.yml
   title: ''
@@ -207,11 +224,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/satohub-ai-security.txt
-- group: auth
-  href: https://artifacts.apis.io/satohub-ai/well-known/satohub-ai-ethereum-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/satohub-ai-ethereum-security.txt
 - group: agent
   href: https://artifacts.apis.io/satohub-ai/well-known/satohub-ai-well-known.yml
   title: ''
@@ -343,7 +355,7 @@ modified: '2026-10-30'
 name: satohub-ai
 nav: Providers
 network: true
-overview: 'satohub-ai publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Economy API, Badges API, Check API, and 18 more. Tagged areas include Company, AI, Blockchain, Crypto, and Agent.
+overview: 'satohub-ai publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Economy API, Badges API, Check API, and 18 more. Tagged areas include Company, Artificial Intelligence, Blockchain, Cryptocurrency, and Agents.
 
 
   The satohub-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -353,16 +365,16 @@ overview: 'satohub-ai publishes 21 API contracts indexed on the [APIs.io](https:
 random_paper: 21
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 108
   extends:
   - spectral:oas
   name: satohub-ai API Rules
-  rule_count: 14
+  rule_count: 67
   severity_counts:
-    error: 10
+    error: 53
     hint: 0
     info: 2
-    warn: 2
+    warn: 12
   slug: satohub-ai-rules
 scopes:
 - name: Satohub Ai Scopes
@@ -370,22 +382,30 @@ scopes:
   slug: satohub-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 42.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 30
     catalog_earned: 59.8
     catalog_earned_first_party: 0.0
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 61.0
-    developer_ergonomics: 56.5
-    discoverability: 66.7
-    operational_transparency: 47.4
+    developer_ergonomics: 38.7
+    discoverability: 75.8
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,13 +421,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/satohub-ai/satohub-ai-2026-11-03T142735.png
 security:
 - kind: authentication
   name: Satohub Ai Authentication
@@ -428,9 +449,9 @@ skills:
 slug: satohub-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Blockchain
-- Crypto
-- Agent
+- Cryptocurrency
+- Agents
 website: https://satohub.ai/
 ---

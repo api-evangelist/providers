@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.7
-  scored_at: '2026-10-31'
+  score: 12.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The ScaleOps Platform API provides programmatic access to Kubernetes cost optimization features including workload resource recommendations, real-time optimization controls, cost monitoring dashboards
@@ -136,7 +138,7 @@ modified: '2026-05-02'
 name: ScaleOps
 nav: Providers
 network: true
-overview: 'ScaleOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microsoft Azure, Cost Optimization, FinOps, GCP, and Helm.
+overview: 'ScaleOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Amazon Web Services, Microsoft Azure, Cost Optimization, FinOps, and GCP.
 
 
   The ScaleOps catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -166,9 +168,9 @@ rules:
   slug: scaleops-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.7
+  composite: 18.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 53.8
     catalog_earned_first_party: 0.0
     catalog_gap: 61.3
@@ -179,10 +181,10 @@ score:
     access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 10.7
-    developer_ergonomics: 23.8
-    discoverability: 57.1
+    developer_ergonomics: 13.1
+    discoverability: 60.0
     operational_transparency: 13.2
-  previous_composite: 20.7
+  previous_composite: 18.9
   provenance:
     mcp: first-party
   regulatory:
@@ -191,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -206,6 +208,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: scaleops
 tags:
+- Amazon Web Services
 - Microsoft Azure
 - Cost Optimization
 - FinOps

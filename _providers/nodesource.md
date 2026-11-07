@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-31'
+  score: 20.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: NodeSource provides APIs for its N|Solid runtime, monitoring, and services, documented at the NodeSource documentation site.
@@ -155,42 +167,46 @@ rules:
     warn: 1
   slug: nodesource-rules
 score:
-  band: thin
-  composite: 29.5
+  band: emerging
+  composite: 23.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 49.8
     catalog_earned_first_party: 12.0
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 10.7
-    developer_ergonomics: 35.7
-    discoverability: 58.9
-    operational_transparency: 5.3
+    developer_ergonomics: 17.9
+    discoverability: 58.0
+    operational_transparency: 2.6
+  previous_composite: 29.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 5
+      derived: 1
       marker_coverage: 100.0
-      total: 5
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/nodesource/nodesource-2026-11-03T140243.png
 security:
 - kind: domain-security
   name: Nodesource Domain Security

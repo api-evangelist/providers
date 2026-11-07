@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The external Operator Rounds (mRounds) REST API on the Innovapptive Connected Business Operations host. It lets a tenant programmatically list published round plans, read a specific round plan with it
@@ -199,9 +200,9 @@ overview: 'Innovapptive is listed with 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 19
 score:
   band: thin
-  composite: 30.8
+  composite: 31.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -213,8 +214,8 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 66.1
-    operational_transparency: 36.8
+    discoverability: 73.2
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -222,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.8
+  previous_composite: 31.2
   provenance:
     conformance: derived
   regulatory:
@@ -231,8 +232,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

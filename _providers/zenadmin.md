@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-31'
+  score: 33.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://console.zenadmin.ai/api/external
@@ -69,7 +70,7 @@ apis:
   description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Zenadmin Webhooks
@@ -167,30 +168,43 @@ network: true
 overview: 'ZenAdmin publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Context API, Devices API, and 3 more. Tagged areas include Company, IT Management, Device Management, Mobile Device Management, and IT Asset Management.
 
 
-  The ZenAdmin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ZenAdmin catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 11 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: ZenAdmin API Rules
+  rule_count: 57
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 1
+  slug: zenadmin-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 31.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 21.5
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 24.9
     developer_ergonomics: 42.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 30.3
+  previous_composite: 31.4
   provenance:
     conformance: derived
     contracts:
@@ -206,13 +220,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/zenadmin/zenadmin-2026-09-02T171553.png
 security:
 - kind: authentication

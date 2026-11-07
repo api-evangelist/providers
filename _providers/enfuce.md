@@ -1,8 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -70,7 +83,7 @@ apis:
   description: Endpoints for updating a card
   name: Enfuce Update card API
   slug: enfuce-update-card-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: commercial
   href: https://artifacts.apis.io/enfuce/plans/enfuce-plans-pricing.yml
@@ -222,6 +235,9 @@ network: true
 overview: 'Enfuce publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorisation Request API, Create Card API, Create PIN Control access token API, and 4 more. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
 
 
+  The Enfuce catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Enfuce''s developer surface includes changelog, pricing, authentication, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
 plans:
 - name: Enfuce Plans Pricing
@@ -232,25 +248,38 @@ rate_limits:
 - limit_count: 2
   name: Enfuce Rate Limits
   slug: enfuce-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Enfuce API Rules
+  rule_count: 62
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 3
+    warn: 9
+  slug: enfuce-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 39.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 26
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -11.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 18.2
+    access_clarity: 22.4
+    contract_governance: 31.8
     contract_quality: 49.9
-    developer_ergonomics: 49.4
-    discoverability: 67.9
-    operational_transparency: 57.9
-  previous_composite: 49.3
+    developer_ergonomics: 31.5
+    discoverability: 74.1
+    operational_transparency: 39.5
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,14 +295,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 29.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 25.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/enfuce/enfuce-2026-10-11T104207.png
 security:
 - kind: authentication

@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-31'
+  score: 27.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,9 +223,9 @@ rules:
   slug: springer-nature-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 36.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -237,8 +238,8 @@ score:
     contract_quality: 58.6
     developer_ergonomics: 45.2
     discoverability: 65.0
-    operational_transparency: 10.5
-  previous_composite: 36.6
+    operational_transparency: 7.9
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -252,13 +253,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/springer-nature/springer-nature-2026-06-20T194417.png
 security:
 - kind: authentication

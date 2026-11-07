@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -295,9 +297,9 @@ rules:
   slug: tikv-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 38.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
@@ -308,10 +310,13 @@ score:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 45.7
-    developer_ergonomics: 45.2
+    developer_ergonomics: 42.9
     discoverability: 57.1
-    operational_transparency: 42.1
-  previous_composite: 33.7
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -325,13 +330,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tikv/tikv-2026-06-20T195351.png
 security:
 - kind: domain-security

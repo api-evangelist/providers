@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The production GraphQL API behind the Wellth member mobile app and the Wellth internal dashboard. Confirmed live at https://api.wellthapp.com/graphql: the endpoint is an Apollo Server deployment (stac'
@@ -143,9 +144,9 @@ overview: 'Wellth is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: emerging
-  composite: 19.7
+  composite: 19.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,8 +159,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 19.7
+    operational_transparency: 18.4
+  previous_composite: 19.4
   provenance:
     conformance: first-party
   regulatory:
@@ -174,8 +175,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

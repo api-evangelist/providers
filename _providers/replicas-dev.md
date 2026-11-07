@@ -1,9 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -15,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -23,10 +38,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 39.1
-  scored_at: '2026-10-31'
+  score: 27.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Create and control workspaces, and manage the environments, automations, and learnings they run with.
@@ -82,11 +97,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/replicas-dev-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/replicas-dev/well-known/replicas-dev-platform-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/replicas-dev-platform-security.txt
 - group: agent
   href: https://artifacts.apis.io/replicas-dev/well-known/replicas-dev-well-known.yml
   title: ''
@@ -176,13 +186,13 @@ modified: '2026-10-29'
 name: Replicas
 nav: Providers
 network: true
-overview: 'Replicas is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Cloud, Platform, and Development.
+overview: 'Replicas is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Cloud, Platform, and Development.
 
 
   The Replicas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Replicas'' developer surface includes CLI, changelog, authentication, support, documentation, API reference, getting-started guide, and 22 more developer resources.'
+  Replicas'' developer surface includes CLI, changelog, authentication, support, documentation, API reference, getting-started guide, and 21 more developer resources.'
 plans:
 - name: Replicas Dev Plans Pricing
   plan_count: 3
@@ -190,21 +200,23 @@ plans:
 random_paper: 15
 score:
   band: developing
-  composite: 52.6
+  composite: 42.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.2
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 54.8
-    discoverability: 64.3
-    operational_transparency: 50.0
+    developer_ergonomics: 36.9
+    discoverability: 70.5
+    operational_transparency: 28.9
+  previous_composite: 53.3
   provenance:
     conformance: derived
     mcp: unknown
@@ -213,13 +225,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/replicas-dev/replicas-dev-2026-11-03T142155.png
 security:
 - kind: authentication
   name: Replicas Dev Authentication
@@ -240,7 +254,7 @@ security:
 slug: replicas-dev
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Platform
 - Development

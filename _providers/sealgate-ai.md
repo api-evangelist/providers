@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 20
@@ -587,7 +603,7 @@ json_schemas:
   property_count: 14
   slug: sealgate-ai-policy-rule
 - name: ServerDetail
-  property_count: 0
+  property_count: 27
   slug: sealgate-ai-server-detail
 - name: SessionDetail
   property_count: 21
@@ -612,7 +628,7 @@ modified: '2026-10-30'
 name: sealgate-ai
 nav: Providers
 network: true
-overview: 'sealgate-ai publishes 65 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control API, Add Mcp API, Add To Edison API, and 62 more. Tagged areas include AI, Data Governance, Security, DLP, and Platform.
+overview: 'sealgate-ai publishes 65 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control API, Add Mcp API, Add To Edison API, and 62 more. Tagged areas include Artificial Intelligence, Data Governance, Security, DLP, and Platform.
 
 
   The sealgate-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -630,16 +646,16 @@ rate_limits:
   slug: sealgate-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 111
   extends:
   - spectral:oas
   name: sealgate-ai API Rules
-  rule_count: 14
+  rule_count: 70
   severity_counts:
-    error: 5
+    error: 46
     hint: 0
-    info: 5
-    warn: 4
+    info: 8
+    warn: 16
   slug: sealgate-ai-rules
 scopes:
 - name: Sealgate Ai Scopes
@@ -647,22 +663,30 @@ scopes:
   slug: sealgate-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.1
+  band: developing
+  composite: 53.5
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 34
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 35.6
-    contract_quality: 56.6
-    developer_ergonomics: 70.7
-    discoverability: 66.7
-    operational_transparency: 15.8
+    contract_quality: 57.0
+    developer_ergonomics: 48.1
+    discoverability: 75.8
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -678,13 +702,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/sealgate-ai/sealgate-ai-2026-11-03T142903.png
 security:
 - kind: authentication
   name: Sealgate Ai Authentication
@@ -704,7 +729,7 @@ skills:
   slug: sealgate-ai-servers
 slug: sealgate-ai
 tags:
-- AI
+- Artificial Intelligence
 - Data Governance
 - Security
 - DLP

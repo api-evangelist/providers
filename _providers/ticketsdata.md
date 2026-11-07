@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +25,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-31'
+  score: 22.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Unified API providing real-time event and ticketing data across major marketplaces. Documentation is at https://ticketsdata.com/docs.
@@ -202,42 +219,46 @@ rules:
     warn: 1
   slug: ticketsdata-rules
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 33.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 69.8
     catalog_earned_first_party: 20.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 23.3
-    developer_ergonomics: 42.9
+    contract_quality: 22.4
+    developer_ergonomics: 31.0
     discoverability: 48.2
-    operational_transparency: 42.1
+    operational_transparency: 31.6
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 4
+      callable: 0.0
+      derived: 1
       marker_coverage: 100.0
-      total: 4
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/ticketsdata/ticketsdata-2026-11-03T144732.png
 security:
 - kind: authentication
   name: Ticketsdata Authentication

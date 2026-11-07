@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Partner-facing REST API to provision and manage brands, users, packages, sites, custom domains, SSL certificates and webhook subscriptions on the BaseKit platform. HTTP Basic auth (recommended) or OAu
@@ -163,10 +164,10 @@ overview: 'Basekit is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   Basekit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 16 more developer resources.'
 random_paper: 19
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 38.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -177,10 +178,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 40.8
+    developer_ergonomics: 52.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 38.7
   provenance:
     conformance: derived
   regulatory:
@@ -189,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

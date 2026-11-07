@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -28,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -93,7 +95,7 @@ apis:
   description: The Sonar API from Riot — 0 operation(s) for sonar.
   name: Riot Sonar API
   slug: riot-sonar-api
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Riot Webhooks
@@ -336,7 +338,7 @@ network: true
 overview: 'Riot publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 6 more. Tagged areas include Cybersecurity, Security Awareness, Human Risk Management, Phishing Simulation, and employee-security.
 
 
-  The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 31 more developer resources.'
@@ -352,6 +354,19 @@ rate_limits:
 - limit_count: 0
   name: Riot Rate Limits
   slug: riot-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Riot API Rules
+  rule_count: 61
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 3
+    warn: 8
+  slug: riot-rules
 scopes:
 - name: Riot Scopes
   scope_count: 4
@@ -359,22 +374,22 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 62.3
+  composite: 59.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 30
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.0
   facets:
-    access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 58.1
+    access_clarity: 69.7
+    contract_governance: 31.8
+    contract_quality: 57.8
     developer_ergonomics: 47.0
     discoverability: 66.1
-    operational_transparency: 55.3
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -383,12 +398,12 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 56.5
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -399,14 +414,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 38.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/riot/riot-2026-08-17T081610.png
 security:
 - kind: authentication

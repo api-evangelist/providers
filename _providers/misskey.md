@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.1
-  scored_at: '2026-10-31'
+  score: 28.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 408
   human_in_the_loop: 6
@@ -727,7 +731,7 @@ json_schemas:
   property_count: 21
   slug: misskey-reversigamelite
 - name: Role
-  property_count: 0
+  property_count: 12
   slug: misskey-role
 - name: RoleCondFormulaFollowersOrFollowingOrNotes
   property_count: 3
@@ -833,9 +837,9 @@ rules:
   slug: misskey-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.4
+  composite: 44.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 53.8
     catalog_earned_first_party: 0.0
     catalog_gap: 61.3
@@ -848,8 +852,11 @@ score:
     contract_quality: 57.4
     developer_ergonomics: 47.6
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 39.4
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -863,13 +870,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/misskey/misskey-2026-06-20T185633.png
 security:
 - kind: authentication

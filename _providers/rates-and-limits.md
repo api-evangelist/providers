@@ -1,6 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.9
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Keyless, unauthenticated REST-style JSON API serving US tax, payroll, benefits, and wage figures with bundled provenance. Includes a self-describing catalog (index.json) and a bulk current-figures end
@@ -63,7 +79,7 @@ modified: '2026-09-14'
 name: Rates and Limits
 nav: Providers
 network: true
-overview: Rates and Limits is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax, Payroll, Benefits, IRS, and minimum-wage.
+overview: Rates and Limits is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax, Payroll, Benefits, IRS, and Minimum Wage.
 plans:
 - name: Rates And Limits Plans Pricing
   plan_count: 0
@@ -75,7 +91,7 @@ rate_limits:
   slug: rates-and-limits-rate-limits
 score:
   band: emerging
-  composite: 18.2
+  composite: 18.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -89,9 +105,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 63.3
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 18.3
   provenance:
     mcp: derived
   regulatory:
@@ -100,8 +116,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +139,7 @@ tags:
 - Payroll
 - Benefits
 - IRS
-- minimum-wage
+- Minimum Wage
 - Open Data
 - Government
 - Compliance
@@ -131,6 +147,6 @@ tags:
 - Human Resources
 - Reference Data
 - JSON
-- llms-txt
+- Llms.txt
 website: https://ratesandlimits.com/
 ---

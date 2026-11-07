@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -87,7 +89,7 @@ apis:
   description: The Visits Reports API from Placer — 7 operation(s) for visits reports.
   name: Placer Visits Reports API
   slug: placer-visits-reports-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: papi Account Info API
@@ -269,6 +271,9 @@ network: true
 overview: 'Placer publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Info API, Loyalty Reports API, Manage POIs API, and 5 more. Tagged areas include Company, Location Analytics, Foot Traffic, Geospatial, and Retail Analytics.
 
 
+  The Placer catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Placer Plans Pricing
@@ -279,25 +284,38 @@ rate_limits:
 - limit_count: 7
   name: Placer Rate Limits
   slug: placer-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Placer API Rules
+  rule_count: 57
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 2
+    warn: 5
+  slug: placer-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 52.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
+    artifact_dirs: 28
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 5.4
   facets:
-    access_clarity: 65.8
-    contract_governance: 4.5
-    contract_quality: 49.5
-    developer_ergonomics: 58.9
-    discoverability: 66.1
+    access_clarity: 59.2
+    contract_governance: 18.2
+    contract_quality: 49.9
+    developer_ergonomics: 54.2
+    discoverability: 73.2
     operational_transparency: 55.3
-  previous_composite: 48.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,13 +332,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/placer/placer-2026-08-17T081250.png
 security:
 - kind: authentication

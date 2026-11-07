@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,8 +30,9 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
-    operation_distinctiveness: na
+    mcp_tool_quality: na
+    openapi_examples: verified
+    operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-31'
+  score: 35.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -40,10 +56,25 @@ apis:
   slug: html-to-image-api
 - baseURL: https://app.html2img.com/api
   baseurl_source: declared
-  description: Convert HTML, CSS or any public URL into a PNG image or a vector PDF, rendered in real headless Chrome. JSON in, a CDN URL out.
-  name: HTML to Image API API
-  slug: html-to-image-api-api
-artifact_total: 18
+  description: Read the plan and credit balance behind a key. Costs nothing.
+  name: html2img-com Account API
+  slug: html2img-com-account-api
+- baseURL: https://app.html2img.com/api
+  baseurl_source: declared
+  description: Render markup you generate yourself into an image or PDF.
+  name: html2img-com HTML rendering API
+  slug: html2img-com-html-rendering-api
+- baseURL: https://app.html2img.com/api
+  baseurl_source: declared
+  description: Capture a public URL in a real browser.
+  name: html2img-com Screenshots API
+  slug: html2img-com-screenshots-api
+- baseURL: https://app.html2img.com/api
+  baseurl_source: declared
+  description: Post a JSON payload to a named design and skip writing markup.
+  name: html2img-com Templates API
+  slug: html2img-com-templates-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Html2Img Com Webhooks
@@ -194,7 +225,7 @@ modified: '2026-10-30'
 name: html2img-com
 nav: Providers
 network: true
-overview: 'html2img-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including HTML to Image API API, and 1 more. Tagged areas include Company, API, Screenshot, PDF, and Rendering.
+overview: 'html2img-com publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, HTML rendering API, Screenshots API, and 2 more. Tagged areas include Company, Screenshots, PDF, Rendering, and Headless Chrome.
 
 
   The html2img-com catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -225,37 +256,48 @@ scopes:
   slug: html2img-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 48.8
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 32
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
-    contract_quality: 64.9
-    developer_ergonomics: 47.6
+    contract_quality: 73.7
+    developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
+  previous_composite: 56.3
   provenance:
+    agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: unknown
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/html2img-com/html2img-com-2026-11-03T133504.png
 security:
 - kind: authentication
   name: Html2Img Com Authentication
@@ -276,10 +318,9 @@ skills:
 slug: html2img-com
 tags:
 - Company
-- API
-- Screenshot
+- Screenshots
 - PDF
 - Rendering
-- HeadlessChrome
+- Headless Chrome
 website: https://html2img.com/
 ---

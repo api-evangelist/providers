@@ -1,19 +1,24 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,17 +33,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-10-31'
+  score: 40.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -532,9 +538,9 @@ rules:
   slug: super-payments-rules
 score:
   band: exemplar
-  composite: 72.0
+  composite: 70.7
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 36
     catalog_earned: 85.0
     catalog_earned_first_party: 20.0
     catalog_gap: 30.0
@@ -544,10 +550,10 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 33.3
-    contract_quality: 74.7
-    developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 73.7
+    contract_quality: 76.0
+    developer_ergonomics: 55.4
+    discoverability: 75.0
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -556,7 +562,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 70.4
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -573,13 +579,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/super-payments/super-payments-2026-08-17T082158.png
 security:
 - kind: authentication

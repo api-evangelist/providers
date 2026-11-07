@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -26,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-31'
+  score: 55.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -122,7 +124,7 @@ apis:
   description: Perform and Manage card validations
   name: Moneris Validations API
   slug: moneris-validations-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Moneris Subscriptions Webhooks
@@ -320,7 +322,7 @@ network: true
 overview: 'Moneris publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3D Secure API, Customers API, Disputes API, and 12 more. Tagged areas include Financial Services, Payments, Payment Processing, Card Payments, and Merchant Services.
 
 
-  The Moneris catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Moneris catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 29 more developer resources.'
@@ -332,6 +334,19 @@ plans:
   plan_count: 0
   slug: moneris-price-estimates
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: Moneris API Rules
+  rule_count: 68
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 5
+    warn: 9
+  slug: moneris-rules
 scopes:
 - name: Moneris Scopes
   scope_count: 14
@@ -339,22 +354,22 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.2
+  composite: 65.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 14.4
   facets:
     access_clarity: 81.6
-    contract_governance: 18.2
-    contract_quality: 59.6
-    developer_ergonomics: 70.8
-    discoverability: 65.0
-    operational_transparency: 44.7
+    contract_governance: 31.8
+    contract_quality: 61.0
+    developer_ergonomics: 68.5
+    discoverability: 75.0
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -362,7 +377,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 56.3
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,13 +394,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/moneris/moneris-2026-08-07T184149.png
 security:
 - kind: authentication

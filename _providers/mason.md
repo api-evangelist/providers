@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
-  trial: false
-  try_now: false
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -85,7 +91,7 @@ apis:
   description: The Webhooks API from Mason — 2 operation(s) for webhooks.
   name: Mason Webhooks API
   slug: mason-webhooks-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Mason Webhooks
@@ -282,7 +288,7 @@ network: true
 overview: 'Mason publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Create Image API, Images API, and 5 more. Tagged areas include Company, E-Commerce, Commerce, Artificial Intelligence, and Agents.
 
 
-  The Mason catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mason catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mason''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 25 more developer resources.'
@@ -294,6 +300,19 @@ plans:
   plan_count: 0
   slug: mason-price-estimates
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Mason API Rules
+  rule_count: 51
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 3
+  slug: mason-rules
 scopes:
 - name: Mason Scopes
   scope_count: 0
@@ -303,21 +322,21 @@ score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 55.0
+    artifact_dirs: 29
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 4.9
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
+    access_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 53.8
     developer_ergonomics: 54.2
-    discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 55.7
+    discoverability: 78.6
+    operational_transparency: 36.8
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,13 +353,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mason/mason-2026-07-25T230331.png
 security:
 - kind: authentication

@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: quarter
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-31'
+  score: 42.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: Normalized House and Senate securities transactions.
   name: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Bargo Congress Trades Members API
@@ -242,38 +244,54 @@ network: true
 overview: 'Bargo Congress Trades API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Members API, Statistics API, Trades API, and 1 more. Tagged areas include Congress, Finance, Stocks, Government, and stock-act.
 
 
+  The Bargo Congress Trades API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 23 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Bargo Congress Trades Api Rate Limits
   slug: bargo-congress-trades-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Bargo Congress Trades API API Rules
+  rule_count: 58
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 4
+    warn: 1
+  slug: bargo-congress-trades-api-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 51.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.3
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 51.7
+    contract_governance: 18.2
+    contract_quality: 57.1
     developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 48.0
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
     mcp: first-party
     skills: first-party
@@ -283,13 +301,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/bargo-congress-trades-api/bargo-congress-trades-api-2026-08-17T080629.png
 security:
 - kind: authentication

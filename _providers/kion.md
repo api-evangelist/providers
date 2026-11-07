@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -433,9 +437,9 @@ rules:
   slug: kion-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.3
+  composite: 37.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -445,11 +449,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 59.4
+    contract_quality: 62.7
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 36.3
+    operational_transparency: 10.5
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -463,13 +467,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/kion/kion-2026-06-20T184046.png
 security:
 - kind: authentication

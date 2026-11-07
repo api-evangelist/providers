@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.8
-  scored_at: '2026-10-31'
+  score: 30.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -607,10 +609,10 @@ scopes:
   slug: sap-brim-billing-and-revenue-innovation-management-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 56.6
+  band: developing
+  composite: 53.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
@@ -620,11 +622,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 27.3
-    contract_quality: 60.2
-    developer_ergonomics: 72.6
+    contract_quality: 63.3
+    developer_ergonomics: 44.0
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 56.6
+    operational_transparency: 34.2
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -638,13 +640,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/sap-brim-billing-and-revenue-innovation-management/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:
 - kind: authentication

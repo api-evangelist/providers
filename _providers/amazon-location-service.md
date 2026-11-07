@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-31'
+  score: 33.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -373,7 +377,7 @@ modified: '2026-09-16'
 name: Amazon Location Service
 nav: Providers
 network: true
-overview: 'Amazon Location Service publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Maps API, Location Service Geofencing API, Location Service Metadata API, and 6 more. Tagged areas include Geocoding, Geofencing, Location, Maps, and Routing.
+overview: 'Amazon Location Service publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Maps API, Location Service Geofencing API, Location Service Metadata API, and 6 more. Tagged areas include Amazon Web Services, Geocoding, Geofencing, Location, and Maps.
 
 
   The Amazon Location Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -418,28 +422,28 @@ rules:
   slug: amazon-location-service-spectral-rules
 score:
   band: exemplar
-  composite: 67.4
+  composite: 67.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 78.0
     catalog_earned_first_party: 12.0
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 1.2
   facets:
-    access_clarity: 92.1
+    access_clarity: 85.5
     contract_governance: 27.3
-    contract_quality: 62.8
+    contract_quality: 71.2
     developer_ergonomics: 72.6
     discoverability: 73.2
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 65.2
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -453,13 +457,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-location-service/amazon-location-service-2026-06-20T171726.png
 security:
 - kind: authentication
@@ -480,6 +483,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-location-service
 tags:
+- Amazon Web Services
 - Geocoding
 - Geofencing
 - Location

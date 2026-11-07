@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Organize contacts on iPhone - In this handy guide, you’ll discover everything you need to know about using CircleBack, whether it’s effortlessly updating outdated contacts, discovering new contacts, d
@@ -110,22 +121,22 @@ overview: 'CircleBack is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 19
 score:
   band: emerging
-  composite: 15.8
+  composite: 11.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 14.3
     discoverability: 39.3
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 15.8
   provenance:
     conformance: first-party
@@ -135,14 +146,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/circleback/circleback-2026-11-03T124202.png
 security:
 - kind: domain-security
   name: Circleback Domain Security

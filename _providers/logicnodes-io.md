@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 138
   human_in_the_loop: 4
@@ -257,7 +272,7 @@ modified: '2026-10-30'
 name: logicnodes-io
 nav: Providers
 network: true
-overview: 'logicnodes-io publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2a API, Aptos API, Audit trail API, and 15 more. Tagged areas include Company, Blockchain, AI, GasPrices, and OpenAPI.
+overview: 'logicnodes-io publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2a API, Aptos API, Audit trail API, and 15 more. Tagged areas include Company, Blockchain, Artificial Intelligence, Gas Prices, and OpenAPI.
 
 
   The logicnodes-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -284,21 +299,23 @@ rules:
   slug: logicnodes-io-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 33.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 65.8
     catalog_earned_first_party: 8.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.9
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 59.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 26.3
+    operational_transparency: 18.4
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,12 +331,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/logicnodes-io/logicnodes-io-2026-11-03T135028.png
 security:
 - kind: domain-security
   name: Logicnodes Io Domain Security
@@ -333,8 +352,8 @@ slug: logicnodes-io
 tags:
 - Company
 - Blockchain
-- AI
-- GasPrices
+- Artificial Intelligence
+- Gas Prices
 - OpenAPI
 website: https://logicnodes.io/
 ---

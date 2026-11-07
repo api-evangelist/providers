@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-31'
+  score: 31.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.dyno-agents.app
@@ -124,7 +125,7 @@ apis:
   description: The workflows API from Dyno — 9 operation(s) for workflows.
   name: Dyno Workflows API
   slug: dyno-workflows-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Phi — Protein Design API
@@ -309,6 +310,9 @@ network: true
 overview: 'Dyno publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Artifacts API, and 14 more. Tagged areas include Company, Biotechnology, Gene Therapy, Genetic Medicine, and Gene Delivery.
 
 
+  The Dyno catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Dyno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 28 more developer resources.'
 plans:
 - name: Dyno Plans Pricing
@@ -319,24 +323,37 @@ rate_limits:
 - limit_count: 0
   name: Dyno Rate Limits
   slug: dyno-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Dyno API Rules
+  rule_count: 50
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 2
+    warn: 11
+  slug: dyno-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 48.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 37.0
+    artifact_dirs: 29
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.3
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 43.6
+    contract_governance: 18.2
+    contract_quality: 49.1
     developer_ergonomics: 85.0
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -344,13 +361,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.1
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 17
     mcp: derived
     skills: unknown
@@ -360,13 +377,12 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/dyno/dyno-2026-08-17T080911.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,10 +36,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.croivalve.com
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.croivalve.com/our-team/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.croivalve.com/news/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.croivalve.com/careers/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.croivalve.com/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.croivalve.com/privacy-policy/
 - group: other
   href: https://artifacts.apis.io/croivalve/hosts/croivalve-hosts.yml
   title: ''
@@ -44,42 +79,72 @@ common:
   title: ''
   type: DomainSecurity
   url: security/croivalve-domain-security.yml
+coverage:
+  checked: '2026-11-04'
+  detail: CroíValve is a Dublin-based clinical-stage medical device company developing the DUO Adapt transcatheter tricuspid valve therapy (under clinical investigation, not commercially available); its only web presence is a WordPress marketing site with no developer portal, API host, docs, GitHub org, Postman workspace or MCP server advertised.
+  evidence:
+  - status: 200
+    url: https://www.croivalve.com/
+  - status: 200
+    url: https://www.croivalve.com/our-team/
+  - status: 200
+    url: https://www.croivalve.com/news/
+  reason: not-a-software-company
+  state: none
 created: '2026-10-11'
-description: 'Croívalve is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: CroíValve is a Dublin, Ireland-based clinical-stage medical device company developing the DUO Adapt™ System, a minimally invasive transcatheter device designed to treat patients suffering from tricuspid regurgitation (TR) by assisting the native tricuspid valve rather than replacing it. The company's stated mission is to shorten the learning curve for practitioners, preserve native anatomy and extend lives. The DUO Adapt™ System is under clinical investigation and not commercially available in any geography.
+image: https://www.croivalve.com/wp-content/uploads/2025/09/logo-1-1.png
 layout: provider
-modified: '2026-10-11'
-name: Croívalve
+modified: '2026-11-04'
+name: CroíValve
 nav: Providers
 network: true
-overview: Croívalve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: 'CroíValve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Heart Valve, Tricuspid Regurgitation, and Structural Heart.
+
+
+  CroíValve''s developer surface includes support and 8 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 1.3
+  composite: 5.7
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 15.0
+    artifact_dirs: 7
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.4
   facets:
-    access_clarity: 0.0
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 26.8
+    developer_ergonomics: 2.4
+    discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - ireland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 1.3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 6.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -93,4 +158,13 @@ security:
 slug: croivalve
 tags:
 - Company
+- Medical Devices
+- Heart Valve
+- Tricuspid Regurgitation
+- Structural Heart
+- Cardiovascular
+- Clinical Stage
+- Dublin
+- Ireland
+website: https://www.croivalve.com
 ---

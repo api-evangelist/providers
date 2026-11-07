@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Open access
+  onboarding: open
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 6
 common:
@@ -193,9 +198,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 22.1
+  composite: 21.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -208,8 +213,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 48.3
-    operational_transparency: 21.1
-  previous_composite: 22.1
+    operational_transparency: 18.4
+  previous_composite: 21.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

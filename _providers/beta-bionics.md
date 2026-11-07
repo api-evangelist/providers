@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The private cloud API behind the Beta Bionics Bionic (HCP) Portal and the iLet / Bionic Circle mobile apps. Observed as an Amazon API Gateway deployment at us-main-prod.betabionicsapi.com, authenticat
@@ -141,7 +142,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.1
+  composite: 22.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -155,9 +156,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -170,8 +171,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

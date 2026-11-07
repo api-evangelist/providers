@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Paid · Requires approval
   onboarding: approval
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.2
-  scored_at: '2026-10-31'
+  score: 15.4
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
@@ -96,6 +101,10 @@ common:
   title: ''
   type: Blog
   url: https://www.awardco.com/blog
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.awardco.com/
 created: '2026-07-10'
 description: Awardco is an all-in-one employee recognition, rewards, and engagement platform built around a global rewards marketplace that includes a native Amazon Business integration, gift cards, service awards, and swag. Awardco exposes a documented public REST API at https://api.awardco.com/api for administrators and integration partners - callers authenticate with a permission-scoped API key passed as a request header, all responses are JSON with a success flag, and all timestamps are ISO 8601. The API is not open self-serve - it is gated behind an Awardco account and the API Key Management permission, and partners additionally send an X-Partner-Id header. Documented capabilities cover user provisioning (create, import, reset password), recognizing employees and awarding points, and retrieving or scheduling reports. Awardco also ships prebuilt HRIS, SSO/SAML, Slack, and Microsoft Teams integrations plus Awardco Connect for custom flows. Exact request and response schemas for individual
   methods are not published on the open web, so the API surfaces below are modeled from Awardco's public documentation and help center rather than a released OpenAPI definition.
@@ -120,7 +129,7 @@ network: true
 overview: 'Awardco is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Recognition, Rewards, Engagement, Human Resources, and Incentives.
 
 
-  Awardco''s developer surface includes documentation, authentication, engineering blog, and 6 more developer resources.'
+  Awardco''s developer surface includes documentation, authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Awardco Plans Pricing
   plan_count: 6
@@ -132,7 +141,7 @@ rate_limits:
   slug: awardco-rate-limits
 score:
   band: emerging
-  composite: 12.4
+  composite: 11.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 43.0
@@ -145,10 +154,10 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 71.4
+    developer_ergonomics: 17.9
+    discoverability: 73.3
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 11.4
   provenance:
     mcp: first-party
   regulatory:
@@ -157,8 +166,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -179,5 +188,8 @@ tags:
 - Incentives
 - Points
 - Loyalty & Incentives
+- Software-as-a-Service
+- Employee Engagement
+- Recognition
 website: https://www.awardco.com
 ---

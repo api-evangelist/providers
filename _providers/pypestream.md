@@ -29,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -39,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-31'
+  score: 44.4
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - baseURL: https://reporting.pypestream.com/api/v2/
@@ -178,7 +179,7 @@ apis:
   description: The Transcript API from Pypestream — 2 operation(s) for transcript.
   name: Pypestream Transcript API
   slug: pypestream-transcript-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Pypestream Contact Center Webhooks
@@ -384,7 +385,7 @@ network: true
 overview: 'Pypestream publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Advanced API, Agent API, and 24 more. Tagged areas include Company, Conversational AI, AI Agents, Contact Center, and Customer Service.
 
 
-  The Pypestream catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Pypestream catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Pypestream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
@@ -397,25 +398,38 @@ rate_limits:
 - limit_count: 2
   name: Pypestream Rate Limits
   slug: pypestream-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Pypestream API Rules
+  rule_count: 55
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 7
+    warn: 11
+  slug: pypestream-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 48.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 48.0
+    artifact_dirs: 27
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
-    access_clarity: 39.5
-    contract_governance: 4.5
-    contract_quality: 54.2
-    developer_ergonomics: 73.2
-    discoverability: 70.0
-    operational_transparency: 60.5
-  previous_composite: 52.6
+    access_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 54.8
+    developer_ergonomics: 70.8
+    discoverability: 80.0
+    operational_transparency: 57.9
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -430,14 +444,13 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/pypestream/pypestream-2026-09-02T152407.png
 security:
 - kind: authentication

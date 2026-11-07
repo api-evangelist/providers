@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -23,10 +36,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 49.2
-  scored_at: '2026-10-31'
+  score: 39.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 8
@@ -141,11 +154,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/ayhire-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/ayhire-com/well-known/ayhire-com-cal-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/ayhire-com-cal-security.txt
 - group: agent
   href: https://artifacts.apis.io/ayhire-com/well-known/ayhire-com-well-known.yml
   title: ''
@@ -233,13 +241,13 @@ modified: '2026-10-30'
 name: ayhire-com
 nav: Providers
 network: true
-overview: 'ayhire-com publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Company maps API, Integrations API, and 5 more. Tagged areas include Company, Hiring, DeveloperTools, Recruitment, and OpenSource.
+overview: 'ayhire-com publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Company maps API, Integrations API, and 5 more. Tagged areas include Company, Hiring, Developer Tools, Recruiting, and Open Source.
 
 
   The ayhire-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ayhire-com''s developer surface includes documentation, API reference, authentication, pricing, engineering blog, and 19 more developer resources.'
+  ayhire-com''s developer surface includes documentation, API reference, authentication, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Ayhire Com Plans Pricing
   plan_count: 4
@@ -247,46 +255,60 @@ plans:
 random_paper: 22
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 109
   extends:
   - spectral:oas
   name: ayhire-com API Rules
-  rule_count: 17
+  rule_count: 68
   severity_counts:
-    error: 13
+    error: 54
     hint: 0
-    info: 1
-    warn: 3
+    info: 5
+    warn: 9
   slug: ayhire-com-rules
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 44.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 24
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 62.0
-    developer_ergonomics: 37.4
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 65.0
+    developer_ergonomics: 27.9
     discoverability: 66.1
     operational_transparency: 10.5
+  previous_composite: 51.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/ayhire-com/ayhire-com-2026-11-03T121451.png
 security:
 - kind: authentication
   name: Ayhire Com Authentication
@@ -304,8 +326,8 @@ slug: ayhire-com
 tags:
 - Company
 - Hiring
-- DeveloperTools
-- Recruitment
-- OpenSource
+- Developer Tools
+- Recruiting
+- Open Source
 website: https://ayhire.com/
 ---

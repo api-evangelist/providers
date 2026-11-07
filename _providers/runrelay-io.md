@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 8.5
-  scored_at: '2026-10-31'
+  score: 5.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Search and book flights from any AI agent. One URL. Real prices. Human backup.
@@ -106,7 +122,7 @@ modified: '2026-10-31'
 name: runrelay-io
 nav: Providers
 network: true
-overview: 'runrelay-io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Fintech, API, and Concierge.
+overview: 'runrelay-io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Fintech, Concierge, and Banking.
 
 
   runrelay-io''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, pricing, support, and 6 more developer resources.'
@@ -117,33 +133,39 @@ plans:
 random_paper: 15
 score:
   band: emerging
-  composite: 23.3
+  composite: 18.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 42.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.2
+    artifact_dirs: 12
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.1
   facets:
-    access_clarity: 38.9
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 36.9
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 23.9
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/runrelay-io/runrelay-io-2026-11-03T142551.png
 security:
 - kind: authentication
   name: Runrelay Io Authentication
@@ -158,7 +180,6 @@ tags:
 - Company
 - Travel
 - Fintech
-- API
 - Concierge
 - Banking
 website: https://runrelay.io/

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -226,23 +227,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.9
+  composite: 44.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 67.0
     catalog_earned_first_party: 24.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 70.0
-    operational_transparency: 47.4
-  previous_composite: 47.3
+    developer_ergonomics: 28.6
+    discoverability: 80.0
+    operational_transparency: 44.7
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -252,8 +253,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

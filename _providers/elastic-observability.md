@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-31'
+  score: 28.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,7 +73,7 @@ apis:
   description: The OpenTelemetry intake API uses the OpenTelemetry Protocol (OTLP) to send traces, metrics, and logs to APM Server. OTLP is the default transfer protocol for OpenTelemetry and is supported natively b
   name: Elastic Observability opentelemetry intake API
   slug: elastic-observability-opentelemetry-intake-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: Elastic Observability (APM Server) Agent Configuration API
@@ -307,6 +308,9 @@ network: true
 overview: 'Elastic Observability publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Server Info API, agent config API, event intake API, and 2 more. Tagged areas include AIOps, Observability, APM, Logging, and Metrics.
 
 
+  The Elastic Observability catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Elastic Observability''s developer surface includes authentication, documentation, changelog, CLI, sandbox, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Elastic Observability Plans Pricing
@@ -320,30 +324,43 @@ rate_limits:
 - limit_count: 0
   name: Elastic Observability Rate Limits
   slug: elastic-observability-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Elastic Observability API Rules
+  rule_count: 54
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 2
+  slug: elastic-observability-rules
 score:
   band: strong
-  composite: 65.0
+  composite: 63.3
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 47.0
+    artifact_dirs: 31
+    catalog_earned: 51.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.7
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
+    access_clarity: 86.8
+    contract_governance: 31.8
     contract_quality: 43.4
     developer_ergonomics: 80.4
-    discoverability: 56.7
-    operational_transparency: 55.3
+    discoverability: 60.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 61.3
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -360,13 +377,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/elastic-observability/elastic-observability-2026-06-20T180529.png
 security:
 - kind: authentication

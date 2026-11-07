@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'VIA''s OpenID Connect / OAuth 2.0 identity layer, operated on a VIA-run Keycloak server. It is the only machine-readable contract VIA publishes: each product realm serves an anonymous OIDC discovery do'
@@ -178,10 +194,10 @@ scopes:
   slug: via-science-scopes
   summary_line: 12 scopes
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 35.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -192,10 +208,10 @@ score:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
+    developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 40.1
+    operational_transparency: 2.6
+  previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -205,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

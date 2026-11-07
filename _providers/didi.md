@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: DiDi Enterprise Services (DDES) Open API for corporate employee travel management — approval, bills, budget/cost centers, city info, company entities, single sign-on, users, orders, ranks, regulations
@@ -113,9 +118,9 @@ overview: 'Didi is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 2
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -127,9 +132,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 19.5
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 19.9
   provenance:
     conformance: derived
   regulatory:
@@ -138,8 +143,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -163,6 +168,7 @@ tags:
 - Transportation
 - Enterprise Travel
 - Expense Management
+- OAuth
 - Authentication
 website: https://www.didiglobal.com
 ---

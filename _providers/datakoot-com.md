@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -227,7 +243,7 @@ modified: '2026-10-29'
 name: datakoot-com
 nav: Providers
 network: true
-overview: 'datakoot-com publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Base Intel API, Domain Intel API, Economy Intel API, and 7 more. Tagged areas include Company, Data, AI, Real-time, and MCP.
+overview: 'datakoot-com publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Base Intel API, Domain Intel API, Economy Intel API, and 7 more. Tagged areas include Company, Data, Artificial Intelligence, Real-Time, and MCP.
 
 
   The datakoot-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -258,22 +274,30 @@ scopes:
   slug: datakoot-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.6
+  band: thin
+  composite: 37.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 50.8
     catalog_earned_first_party: 8.0
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 49.6
-    developer_ergonomics: 49.3
-    discoverability: 65.0
-    operational_transparency: 36.8
+    developer_ergonomics: 27.9
+    discoverability: 75.0
+    operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,13 +313,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/datakoot-com/datakoot-com-2026-11-03T130218.png
 security:
 - kind: authentication
   name: Datakoot Com Authentication
@@ -321,8 +346,8 @@ slug: datakoot-com
 tags:
 - Company
 - Data
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - MCP
 - Security
 website: https://datakoot.com/

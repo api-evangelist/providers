@@ -1,18 +1,21 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-31'
+  score: 32.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -305,10 +309,10 @@ rules:
     warn: 0
   slug: sauce-labs-sauce-docs-spectral-rules
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 63.5
     catalog_earned_first_party: 8.0
     catalog_gap: 51.5
@@ -320,9 +324,9 @@ score:
     contract_governance: 37.9
     contract_quality: 55.9
     developer_ergonomics: 32.1
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 41.3
+    discoverability: 68.3
+    operational_transparency: 26.3
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +341,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sauce-labs/sauce-labs-2026-06-20T193442.png
 security:
 - kind: authentication

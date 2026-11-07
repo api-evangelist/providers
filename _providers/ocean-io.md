@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-31'
+  score: 44.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -86,7 +91,7 @@ apis:
   description: The Segmentation API from Ocean.io — 4 operation(s) for segmentation.
   name: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Ocean Io Webhooks
@@ -261,7 +266,7 @@ network: true
 overview: 'Ocean.io publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autocomplete API, Enrich API, Lookup API, and 5 more. Tagged areas include Sales Intelligence, B2B, Data Enrichment, Lookalike, and Account Based Marketing.
 
 
-  The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 25 more developer resources.'
@@ -277,30 +282,43 @@ rate_limits:
 - limit_count: 6
   name: Ocean Io Rate Limits
   slug: ocean-io-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Ocean.io API Rules
+  rule_count: 53
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 4
+    warn: 5
+  slug: ocean-io-rules
 scopes:
 - name: Ocean Io Scopes
   scope_count: 0
   slug: ocean-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 28
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.0
+  delta: 5.7
   facets:
     access_clarity: 65.8
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 51.8
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 55.3
-  previous_composite: 45.6
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,7 +326,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 8
     mcp: first-party
     skills: derived
   regulatory:
@@ -317,13 +335,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ocean-io/ocean-io-2026-06-20T190601.png
 security:
 - kind: authentication

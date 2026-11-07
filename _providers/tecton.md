@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Low-latency online feature serving for model inference — read single or batched feature vectors, wildcard queries, and feature-service metadata. Authenticated with an Authorization Tecton-key header b
@@ -157,7 +158,7 @@ overview: 'Tecton is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 5
 score:
   band: thin
-  composite: 27.7
+  composite: 26.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -170,10 +171,10 @@ score:
     access_clarity: 15.8
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 27.7
+    developer_ergonomics: 57.1
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 26.6
   provenance:
     conformance: derived
     mcp: derived
@@ -187,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

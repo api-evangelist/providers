@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
@@ -145,7 +147,7 @@ rate_limits:
   slug: occ-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 50.0
@@ -158,18 +160,18 @@ score:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 9.5
     discoverability: 71.4
     operational_transparency: 21.1
-  previous_composite: 16.3
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

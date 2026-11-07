@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Smithy Interface Definition Language (IDL) is a specification for defining API models using shapes and traits. Models can be written in the Smithy IDL syntax or the JSON AST representation. Smithy
@@ -162,7 +164,7 @@ modified: '2026-05-02'
 name: Smithy
 nav: Providers
 network: true
-overview: 'Smithy is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, IDL, SDK, API Design, and Interface Definition Language.
+overview: 'Smithy is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Amazon Web Services, Code Generation, IDL, SDK, and API Design.
 
 
   The Smithy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -204,9 +206,9 @@ rules:
   slug: smithy-rules
 score:
   band: emerging
-  composite: 21.1
+  composite: 25.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
@@ -219,16 +221,19 @@ score:
     contract_quality: 17.2
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 21.1
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 25.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -242,6 +247,7 @@ security:
   summary_line: TLSv1.3
 slug: smithy
 tags:
+- Amazon Web Services
 - Code Generation
 - IDL
 - SDK

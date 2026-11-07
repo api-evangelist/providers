@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.3
-  scored_at: '2026-10-31'
+  score: 37.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Use MotaWord API to post and track your translation projects.
@@ -191,7 +203,7 @@ json_schemas:
   property_count: 26
   slug: motaword-user
 - name: UserUpdateContent
-  property_count: 0
+  property_count: 24
   slug: motaword-user-update-content
 jsonld:
 - class_count: 120
@@ -203,7 +215,7 @@ modified: '2026-10-28'
 name: MotaWord
 nav: Providers
 network: true
-overview: 'MotaWord publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including API API, and 1 more. Tagged areas include Translation, Localization, AI, SaaS, and Enterprise.
+overview: 'MotaWord publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including API API, and 1 more. Tagged areas include Translation, Localization, Artificial Intelligence, Software-as-a-Service, and Enterprise.
 
 
   The MotaWord catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,41 +242,45 @@ rules:
   slug: motaword-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 39.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.9
   facets:
-    access_clarity: 65.8
+    access_clarity: 43.4
     contract_governance: 22.0
-    contract_quality: 47.9
-    developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 5.3
+    contract_quality: 45.5
+    developer_ergonomics: 29.8
+    discoverability: 73.2
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 50.4
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 24
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/motaword/motaword-2026-11-03T135849.png
 security:
 - kind: domain-security
   name: Motaword Domain Security
@@ -274,8 +290,8 @@ slug: motaword
 tags:
 - Translation
 - Localization
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Enterprise
 website: https://motaword.com/
 ---

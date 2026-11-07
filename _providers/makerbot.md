@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
@@ -152,9 +154,9 @@ overview: 'Makerbot is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 13
 score:
   band: thin
-  composite: 29.8
+  composite: 29.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -166,9 +168,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 29.8
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -178,8 +180,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

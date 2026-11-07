@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,7 +76,7 @@ apis:
   description: Subscriptions for pushed biometric data and alert events.
   name: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: VivaLNK Biometrics Data Platform API (Modeled) Devices API
@@ -172,6 +176,9 @@ network: true
 overview: 'VivaLNK publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Devices API, FHIR API, Subjects API, and 2 more. Tagged areas include Connected Health, Remote Patient Monitoring, RPM, Wearables, and Biosensors.
 
 
+  The VivaLNK catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   VivaLNK''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
 plans:
 - name: Vivalink Plans Pricing
@@ -182,25 +189,38 @@ rate_limits:
 - limit_count: 5
   name: Vivalink Rate Limits
   slug: vivalink-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: VivaLNK API Rules
+  rule_count: 58
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 2
+    warn: 1
+  slug: vivalink-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 33.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 17
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 0.0
-    contract_quality: 47.0
+    contract_governance: 13.6
+    contract_quality: 50.4
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 28.8
+    operational_transparency: 10.5
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -214,13 +234,12 @@ score:
     regime: Health
     regime_id: health
     score: 9.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/vivalink/vivalink-2026-09-02T170130.png
 security:
 - kind: authentication

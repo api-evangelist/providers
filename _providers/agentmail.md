@@ -1,15 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -24,8 +29,9 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
-    mcp_server: documented
+    idempotency: verified
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -35,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.7
-  scored_at: '2026-10-31'
+  score: 67.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -188,10 +194,50 @@ apis:
   slug: agentmail-webhooks-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
-  description: The API Reference API from AgentMail — 0 operation(s) for api reference.
-  name: AgentMail API Reference API
-  slug: agentmail-api-reference-api
-artifact_total: 70
+  description: The accounts API from AgentMail — 3 operation(s) for accounts.
+  name: AgentMail Accounts API
+  slug: agentmail-accounts-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The apps API from AgentMail — 5 operation(s) for apps.
+  name: AgentMail Apps API
+  slug: agentmail-apps-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > accounts API from AgentMail — 2 operation(s) for inboxes > accounts.
+  name: AgentMail inboxes > accounts API
+  slug: agentmail-inboxes-accounts-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > calendar API from AgentMail — 6 operation(s) for inboxes > calendar.
+  name: AgentMail inboxes > calendar API
+  slug: agentmail-inboxes-calendar-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > files API from AgentMail — 3 operation(s) for inboxes > files.
+  name: AgentMail inboxes > files API
+  slug: agentmail-inboxes-files-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > webhooks > polling API from AgentMail — 2 operation(s) for inboxes > webhooks > polling.
+  name: AgentMail inboxes > webhooks > polling API
+  slug: agentmail-inboxes-webhooks-polling-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > accounts API from AgentMail — 2 operation(s) for pods > accounts.
+  name: AgentMail pods > accounts API
+  slug: agentmail-pods-accounts-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > webhooks > polling API from AgentMail — 2 operation(s) for pods > webhooks > polling.
+  name: AgentMail pods > webhooks > polling API
+  slug: agentmail-pods-webhooks-polling-api
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The webhooks > polling API from AgentMail — 2 operation(s) for webhooks > polling.
+  name: AgentMail webhooks > polling API
+  slug: agentmail-webhooks-polling-api
+artifact_total: 79
 asyncapis:
 - description: ''
   name: API Reference
@@ -479,10 +525,10 @@ modified: '2026-07-17'
 name: AgentMail
 nav: Providers
 network: true
-overview: 'AgentMail publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, API Keys API, Auth API, and 26 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
+overview: 'AgentMail publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, API Keys API, Auth API, and 34 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
 
 
-  The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
@@ -498,25 +544,38 @@ rate_limits:
 - limit_count: 3
   name: Agentmail Rate Limits
   slug: agentmail-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: AgentMail API Rules
+  rule_count: 54
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 3
+    warn: 11
+  slug: agentmail-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 64.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 64.0
+    artifact_dirs: 34
+    catalog_earned: 70.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 1.1
   facets:
     access_clarity: 78.9
-    contract_governance: 4.5
-    contract_quality: 56.1
+    contract_governance: 24.2
+    contract_quality: 60.9
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 60.5
-  previous_composite: 59.9
+    discoverability: 75.0
+    operational_transparency: 57.9
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -533,13 +592,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/agentmail/agentmail-2026-07-25T195240.png
 security:
 - kind: authentication

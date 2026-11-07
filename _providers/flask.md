@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -139,7 +141,7 @@ modified: '2026-04-28'
 name: Flask
 nav: Providers
 network: true
-overview: 'Flask is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Lightweight, Microframework, pallets, and Python.
+overview: 'Flask is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Microframework, pallets, Python, and Web Framework.
 
 
   The Flask catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -169,9 +171,9 @@ rules:
   slug: flask-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.4
+  composite: 21.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 46.7
     catalog_earned_first_party: 0.0
     catalog_gap: 68.4
@@ -184,16 +186,19 @@ score:
     contract_quality: 7.2
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 17.4
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 21.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +213,6 @@ security:
 slug: flask
 tags:
 - Framework
-- Lightweight
 - Microframework
 - pallets
 - Python

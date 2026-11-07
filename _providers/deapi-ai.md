@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.0
-  scored_at: '2026-10-31'
+  score: 55.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -52,6 +65,11 @@ asyncapis:
   name: Deapi Ai Webhooks
   slug: deapi-ai-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/deapi-ai/well-known/deapi-ai-n8n-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/deapi-ai-n8n-security.txt
 - group: agent
   href: https://artifacts.apis.io/deapi-ai/agentic-access/deapi-ai-agentic-access.yml
   title: ''
@@ -127,11 +145,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/deapi-ai-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/deapi-ai/well-known/deapi-ai-n8n-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/deapi-ai-n8n-security.txt
 - group: agent
   href: https://artifacts.apis.io/deapi-ai/well-known/deapi-ai-well-known.yml
   title: ''
@@ -242,7 +255,7 @@ modified: '2026-10-30'
 name: deapi-ai
 nav: Providers
 network: true
-overview: 'deapi-ai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Client API and Client API v2 API. Tagged areas include AI, Generative AI, API, Open-source, and Image Generation.
+overview: 'deapi-ai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Client API and Client API v2 API. Tagged areas include Artificial Intelligence, Generative AI, Open Source, Image Generation, and Text-to-Speech.
 
 
   The deapi-ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -260,16 +273,16 @@ rate_limits:
   slug: deapi-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 109
   extends:
   - spectral:oas
   name: deapi-ai API Rules
-  rule_count: 18
+  rule_count: 68
   severity_counts:
-    error: 16
+    error: 55
     hint: 0
-    info: 1
-    warn: 1
+    info: 4
+    warn: 9
   slug: deapi-ai-rules
 scopes:
 - name: Deapi Ai Scopes
@@ -277,34 +290,48 @@ scopes:
   slug: deapi-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 70.8
+  band: developing
+  composite: 52.5
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 37
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.6
   facets:
-    access_clarity: 44.7
-    contract_governance: 79.1
-    contract_quality: 75.1
-    developer_ergonomics: 70.7
+    access_clarity: 22.4
+    contract_governance: 22.0
+    contract_quality: 78.1
+    developer_ergonomics: 44.5
     discoverability: 65.0
-    operational_transparency: 83.7
+    operational_transparency: 68.4
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/deapi-ai/deapi-ai-2026-11-03T130356.png
 security:
 - kind: authentication
   name: Deapi Ai Authentication
@@ -324,10 +351,9 @@ skills:
   slug: image-to-video
 slug: deapi-ai
 tags:
-- AI
+- Artificial Intelligence
 - Generative AI
-- API
-- Open-source
+- Open Source
 - Image Generation
 - Text-to-Speech
 - Video Transcription

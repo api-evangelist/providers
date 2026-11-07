@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-31'
+  score: 25.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -106,7 +111,7 @@ apis:
   description: The Kafka Clusters API from Artie — 19 operation(s) for kafka clusters.
   name: Artie Kafka Clusters API
   slug: artie-kafka-clusters-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: Webhook event surface for Artie, derived from the webhook payload schemas published in the Artie OpenAPI. Artie POSTs an Event Payload (PayloadsWebhookEnvelope / discriminated by the `event` field) to
   name: Artie Webhooks
@@ -315,7 +320,7 @@ network: true
 overview: 'Artie publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Column Hashing Salts API, Connectors API, Data Catalog API, and 9 more. Tagged areas include Company, Data Replication, Change Data Capture, Data Integration, and ETL.
 
 
-  The Artie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Artie catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
@@ -327,33 +332,46 @@ plans:
   plan_count: 0
   slug: artie-price-estimates
 random_paper: 5
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Artie API Rules
+  rule_count: 53
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 3
+    warn: 7
+  slug: artie-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 59.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.0
+  delta: 2.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 57.5
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 51.1
+    contract_governance: 18.2
+    contract_quality: 63.4
+    developer_ergonomics: 56.5
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 21
+      marker_coverage: 50.0
+      total: 22
     mcp: derived
     skills: derived
   regulatory:
@@ -362,13 +380,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/artie/artie-2026-07-25T201330.png
 security:
 - kind: authentication

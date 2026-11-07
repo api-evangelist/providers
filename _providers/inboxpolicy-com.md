@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +171,7 @@ modified: '2026-10-30'
 name: inboxpolicy-com
 nav: Providers
 network: true
-overview: 'inboxpolicy-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Company, EmailVerification, API, AI, and Payments.
+overview: 'inboxpolicy-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Company, Email Verification, Artificial Intelligence, Payments, and Pricing.
 
 
   The inboxpolicy-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,22 +206,24 @@ scopes:
   slug: inboxpolicy-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.6
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 55.2
-    developer_ergonomics: 37.4
+    developer_ergonomics: 27.9
     discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,13 +239,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 29.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/inboxpolicy-com/inboxpolicy-com-2026-11-03T133725.png
 security:
 - kind: authentication
   name: Inboxpolicy Com Authentication
@@ -253,9 +270,8 @@ skills:
 slug: inboxpolicy-com
 tags:
 - Company
-- EmailVerification
-- API
-- AI
+- Email Verification
+- Artificial Intelligence
 - Payments
 - Pricing
 website: https://inboxpolicy.com/

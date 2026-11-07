@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Freemium
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Early-access v2 REST API that replaces product-photo backgrounds with AI-generated scenes and upscales images — the same functionality as the Mokker web app. Documented with a POST /v2/replace-backgro
@@ -103,7 +106,7 @@ plans:
 random_paper: 11
 score:
   band: emerging
-  composite: 24.4
+  composite: 25.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 49.0
@@ -117,9 +120,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 25.1
   provenance:
     mcp: derived
   regulatory:
@@ -128,8 +131,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

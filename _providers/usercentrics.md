@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.2
-  scored_at: '2026-10-31'
+  score: 18.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -98,7 +100,7 @@ apis:
   description: The UI API from Usercentrics — 2 operation(s) for ui.
   name: Usercentrics UI API
   slug: usercentrics-ui-api
-artifact_total: 87
+artifact_total: 88
 collections:
 - collection_type: open
   name: Usercentrics App CMP SDK API
@@ -298,6 +300,9 @@ network: true
 overview: 'Usercentrics publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including CCPA API, Consent API, Consent Mode API, and 8 more. Tagged areas include Privacy, Consent, CMP, Compliance, and GDPR.
 
 
+  The Usercentrics catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Usercentrics'' developer surface includes developer portal, signup flow, pricing, engineering blog, support, documentation, and 12 more developer resources.'
 plans:
 - name: Usercentrics Plans Pricing
@@ -308,24 +313,37 @@ rate_limits:
 - limit_count: 4
   name: Usercentrics Rate Limits
   slug: usercentrics-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: Usercentrics API Rules
+  rule_count: 38
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 2
+    warn: 4
+  slug: usercentrics-rules
 score:
   band: thin
-  composite: 39.1
+  composite: 38.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 43.3
-    developer_ergonomics: 50.0
+    developer_ergonomics: 42.9
     discoverability: 62.5
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -334,7 +352,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 39.1
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -348,13 +366,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/usercentrics/usercentrics-2026-06-20T200655.png
 security:
 - kind: domain-security

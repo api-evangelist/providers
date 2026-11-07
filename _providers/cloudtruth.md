@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-31'
+  score: 35.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -333,23 +346,23 @@ rules:
   slug: cloudtruth-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 42.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 25
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: -8.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 63.9
-    developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 45.5
+    contract_quality: 67.3
+    developer_ergonomics: 33.9
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,14 +378,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/cloudtruth/cloudtruth-2026-11-03T124604.png
 security:
 - kind: authentication
   name: Cloudtruth Authentication

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -103,7 +108,7 @@ apis:
   description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: ''
   name: The Mobile First Company Webhooks
@@ -327,7 +332,7 @@ network: true
 overview: 'The Mobile First Company publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Calls API, Contacts API, and 10 more. Tagged areas include Company, Communications, Telephony, Voice, and SMS.
 
 
-  The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 26 more developer resources.'
@@ -343,6 +348,19 @@ rate_limits:
 - limit_count: 2
   name: The Mobile First Company Rate Limits
   slug: the-mobile-first-company-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: The Mobile First Company API Rules
+  rule_count: 66
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 13
+  slug: the-mobile-first-company-rules
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 22
@@ -350,28 +368,28 @@ scopes:
   summary_line: 22 scopes
 score:
   band: strong
-  composite: 62.3
+  composite: 65.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
+    artifact_dirs: 29
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 60.9
+    access_clarity: 77.6
+    contract_governance: 31.8
+    contract_quality: 62.6
     developer_ergonomics: 58.9
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 60.7
+  previous_composite: 65.2
   provenance:
     conformance: first-party
     contracts:
@@ -387,13 +405,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/the-mobile-first-company/the-mobile-first-company-2026-08-17T082339.png
 security:
 - kind: authentication

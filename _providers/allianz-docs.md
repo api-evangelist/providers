@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -389,7 +394,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.0
+  composite: 31.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 64.0
@@ -405,7 +410,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 32.0
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +426,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/allianz-docs/allianz-docs-2026-07-25T195659.png
 security:
 - kind: authentication

@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -84,7 +85,7 @@ apis:
 - description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
   name: CloudHealth Platform API
   slug: cloudhealth-platform-api
-artifact_total: 28
+artifact_total: 30
 collections:
 - collection_type: open
   name: CloudHealth REST AWS Accounts API
@@ -105,6 +106,47 @@ collections:
   name: CloudHealth REST API
   slug: open-cloudhealth
 common:
+- group: design
+  href: https://artifacts.apis.io/cloudhealth/vocabulary/cloudhealth-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/cloudhealth-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/cloudhealth/data-model/cloudhealth-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/cloudhealth-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/cloudhealth/lifecycle/cloudhealth-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/cloudhealth-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/cloudhealth/hosts/cloudhealth-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/cloudhealth-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/cloudhealth/vendors/cloudhealth-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/cloudhealth-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.broadcom.com/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.broadcom.com/products/mainframe/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.broadcom.com/products/cybersecurity/endpoint/management/it-management-suite
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.broadcom.com/
 - group: commercial
   href: https://artifacts.apis.io/cloudhealth/finops/cloudhealth-finops.yml
   title: ''
@@ -240,21 +282,11 @@ common:
   title: ''
   type: Plans
   url: plans/cloudhealth-plans-pricing.yml
-- group: build
-  href: https://artifacts.apis.io/cloudhealth/packages/cloudhealth-packages.yml
-  title: ''
-  type: Packages
-  url: packages/cloudhealth-packages.yml
 - group: design
   href: https://artifacts.apis.io/cloudhealth/conformance/cloudhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudhealth-conformance.yml
-- group: agent
-  href: https://artifacts.apis.io/cloudhealth/llms/cloudhealth-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/cloudhealth-llms.txt
 - group: agent
   href: https://artifacts.apis.io/cloudhealth/skills/_index.yml
   title: ''
@@ -275,6 +307,13 @@ graphqls:
   name: CloudHealth GraphQL API
   slug: cloudhealth-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudhealth.png
+json_schemas:
+- name: GenericRequest
+  property_count: 0
+  slug: cloudhealth-generic-request
+- name: GenericResponse
+  property_count: 0
+  slug: cloudhealth-generic-response
 jsonld:
 - class_count: 0
   name: Cloudhealth Context
@@ -295,7 +334,7 @@ overview: 'CloudHealth is listed with 8 APIs on the [APIs.io](https://apis.io/) 
   The CloudHealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CloudHealth''s developer surface includes authentication, documentation, engineering blog, API reference, support, pricing, and 28 more developer resources.'
+  CloudHealth''s developer surface includes authentication, documentation, engineering blog, API reference, support, pricing, and 35 more developer resources.'
 plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
@@ -328,23 +367,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.2
+  composite: 62.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 75.8
+    artifact_dirs: 35
+    catalog_earned: 86.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 39.3
+    catalog_gap: 29.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 8.3
   facets:
-    access_clarity: 84.2
-    contract_governance: 29.5
-    contract_quality: 54.8
-    developer_ergonomics: 37.5
-    discoverability: 70.0
-    operational_transparency: 36.8
-  previous_composite: 54.7
+    access_clarity: 77.6
+    contract_governance: 33.3
+    contract_quality: 63.3
+    developer_ergonomics: 41.1
+    discoverability: 75.0
+    operational_transparency: 68.4
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -361,13 +400,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cloudhealth/cloudhealth-2026-06-20T174608.png
 security:
 - kind: authentication

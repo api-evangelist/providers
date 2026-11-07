@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 23.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.overlay.market
@@ -53,7 +55,7 @@ apis:
   description: Market catalog and metadata.
   name: Overlay Markets API
   slug: overlay-markets-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Overlay Market Data Aggregator API
@@ -174,27 +176,43 @@ network: true
 overview: 'Overlay publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Aggregator API, Charts API, and Markets API. Tagged areas include Company, DeFi, Perpetual Futures, Derivatives, and Trading.
 
 
+  The Overlay catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
 random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Overlay API Rules
+  rule_count: 40
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 1
+  slug: overlay-rules
 score:
   band: thin
-  composite: 29.7
+  composite: 33.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
+    catalog_gap: 58.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 44.7
+    contract_governance: 18.2
+    contract_quality: 49.7
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 29.7
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 31.7
   provenance:
     conformance: derived
     contracts:
@@ -210,13 +228,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/overlay/overlay-2026-08-07T191129.png
 security:
 - kind: authentication

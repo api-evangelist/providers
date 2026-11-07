@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -261,9 +265,9 @@ rules:
   slug: uptrace-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 34.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
@@ -273,11 +277,14 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 55.9
+    contract_quality: 59.3
     developer_ergonomics: 23.8
     discoverability: 71.7
-    operational_transparency: 28.9
-  previous_composite: 33.1
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -291,13 +298,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/uptrace/uptrace-2026-06-20T200501.png
 security:
 - kind: authentication

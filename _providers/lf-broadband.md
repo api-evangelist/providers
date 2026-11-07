@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON) hardware, exposing a vendor-agnostic gRPC API for '
@@ -140,10 +142,10 @@ rate_limits:
   name: Lf Broadband Rate Limits
   slug: lf-broadband-rate-limits
 score:
-  band: minimal
-  composite: 10.0
+  band: emerging
+  composite: 11.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -154,18 +156,21 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 10.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

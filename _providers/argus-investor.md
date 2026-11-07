@@ -1,16 +1,21 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  gated: private
+  gated_source:
+  - apis
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Argus Research Company''s coverage and ratings surface: analyst BUY/HOLD/SELL recommendations and target prices on 500+ US equities across 60+ industries, A6 quantitative ratings on 1,100+ companies, a'
@@ -170,7 +176,7 @@ rate_limits:
   slug: argus-investor-rate-limits
 score:
   band: emerging
-  composite: 13.8
+  composite: 12.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -180,13 +186,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 12.4
   provenance:
     mcp: first-party
   regulatory:
@@ -195,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

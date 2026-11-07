@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
+  - rate-limits
   - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -95,7 +97,7 @@ apis:
   description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
   name: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
-artifact_total: 47
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Artifact Hub Webhooks
@@ -352,7 +354,7 @@ network: true
 overview: 'Artifact Hub publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 7 more. Tagged areas include Cloud-Native, CNCF, Helm Charts, Package Registry, and Discovery.
 
 
-  The Artifact Hub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Artifact Hub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Artifact Hub''s developer surface includes authentication, documentation, developer portal, release notes, CLI, changelog, sandbox, and 32 more developer resources.'
@@ -365,32 +367,48 @@ rate_limits:
 - limit_count: 0
   name: Artifact Hub Rate Limits
   slug: artifact-hub-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Artifact Hub API Rules
+  rule_count: 53
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 2
+    warn: 4
+  slug: artifact-hub-rules
 score:
   band: developing
-  composite: 43.1
+  composite: 51.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 37.0
+    artifact_dirs: 32
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 18.4
-    contract_governance: 4.5
-    contract_quality: 50.7
+    contract_governance: 18.2
+    contract_quality: 57.0
     developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 43.1
+    discoverability: 73.2
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 11.1
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 90.0
       total: 10
     mcp: derived
     skills: derived
@@ -400,13 +418,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/artifact-hub/artifact-hub-2026-06-20T172443.png
 security:
 - kind: authentication

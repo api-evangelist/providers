@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Granica REST API (v1) lets you programmatically manage all aspects of the Granica platform, including table onboarding, compaction scheduling, catalog connections, query optimization (Optimus), va
@@ -186,9 +187,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.9
+  composite: 32.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -200,9 +201,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 31.9
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 32.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -212,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

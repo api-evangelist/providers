@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,7 +31,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-31'
+  score: 46.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -60,7 +64,7 @@ apis:
   description: The Notes API from Levitate — 2 operation(s) for notes.
   name: Levitate Notes API
   slug: levitate-notes-api
-artifact_total: 17
+artifact_total: 18
 common:
 - group: other
   href: https://artifacts.apis.io/levitate/capabilities/levitate-capability-edges.yml
@@ -252,6 +256,9 @@ network: true
 overview: 'Levitate publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Contacts API, Notes API, and 1 more. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
 
 
+  The Levitate catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
 plans:
 - name: Levitate Plans Pricing
@@ -262,6 +269,19 @@ rate_limits:
 - limit_count: 0
   name: Levitate Rate Limits
   slug: levitate-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Levitate API Rules
+  rule_count: 53
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 2
+  slug: levitate-rules
 scopes:
 - name: Levitate Scopes
   scope_count: 2
@@ -269,28 +289,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.2
+  composite: 58.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 49.0
+    access_clarity: 85.5
+    contract_governance: 31.8
+    contract_quality: 51.6
     developer_ergonomics: 49.4
-    discoverability: 65.0
-    operational_transparency: 42.1
+    discoverability: 68.3
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 59.2
+  previous_composite: 58.8
   provenance:
     conformance: first-party
     contracts:
@@ -306,13 +326,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/levitate/levitate-2026-09-02T150252.png
 security:
 - kind: authentication

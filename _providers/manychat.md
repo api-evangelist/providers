@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Open access
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
   onboarding: open
-  pricing: unknown
+  pricing: freemium
   public: true
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -67,7 +72,7 @@ apis:
   description: White-label profile / template management (Profile API)
   name: ManyChat Template API
   slug: manychat-template-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Manychat Dynamic Block Webhooks
@@ -270,7 +275,7 @@ network: true
 overview: 'ManyChat publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Page API, Sending API, Subscriber API, and 1 more. Tagged areas include Chat Marketing, Messenger Marketing, Conversational Commerce, Marketing Automation, and Instagram.
 
 
-  The ManyChat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ManyChat catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ManyChat''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 28 more developer resources.'
@@ -286,25 +291,38 @@ rate_limits:
 - limit_count: 35
   name: Manychat Rate Limits
   slug: manychat-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: ManyChat API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: manychat-rules
 score:
   band: strong
-  composite: 57.0
+  composite: 56.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 72.0
+    artifact_dirs: 30
+    catalog_earned: 76.5
     catalog_earned_first_party: 29.0
-    catalog_gap: 43.0
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 63.2
-    contract_governance: 19.7
+    contract_governance: 33.3
     contract_quality: 55.4
     developer_ergonomics: 56.5
     discoverability: 71.4
-    operational_transparency: 71.1
-  previous_composite: 49.1
+    operational_transparency: 60.5
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,13 +339,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/manychat/manychat-2026-06-20T184935.png
 security:
 - kind: authentication

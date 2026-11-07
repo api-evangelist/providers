@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -20,23 +23,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-31'
+  score: 27.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://www.oeb.ca
@@ -99,7 +103,7 @@ apis:
   description: The machine-readable query vocabulary the RDS search form itself loads.
   name: Ontario Energy Board Search Metadata API
   slug: ontario-energy-board-search-metadata-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: OEB Open Data
@@ -289,22 +293,38 @@ network: true
 overview: 'Ontario Energy Board publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications before the OEB API, Current Electricity Rates (General Service < 50 kW Rate Class) API, Current Electricity Rates (Residential Rate Class) API, and 9 more. Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
 
 
+  The Ontario Energy Board catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 28 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Ontario Energy Board API Rules
+  rule_count: 58
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 4
+    warn: 4
+  slug: ontario-energy-board-rules
 score:
   band: developing
-  composite: 40.1
+  composite: 45.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 42.4
+    artifact_dirs: 26
+    catalog_earned: 46.9
     catalog_earned_first_party: 5.0
-    catalog_gap: 72.6
-    catalog_max: 115.0
+    catalog_gap: 53.1
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 10.5
-    contract_governance: 33.3
+    access_clarity: 28.6
+    contract_governance: 47.0
     contract_quality: 51.6
     developer_ergonomics: 58.9
     discoverability: 57.1
@@ -316,7 +336,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.1
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -332,13 +352,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/ontario-energy-board/ontario-energy-board-2026-08-07T190420.png
 security:
 - kind: authentication

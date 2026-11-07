@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -15,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.4
-  scored_at: '2026-10-31'
+  score: 54.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 4
@@ -1039,25 +1053,25 @@ json_schemas:
   property_count: 5
   slug: emporix-agent-analytics-response
 - name: AgentResponse
-  property_count: 0
+  property_count: 21
   slug: emporix-agent-response
 - name: AgentTemplateResponse
-  property_count: 0
+  property_count: 12
   slug: emporix-agent-template-response
 - name: approvalId
   property_count: 1
   slug: emporix-approval-id
 - name: Asset Create Link Payload
-  property_count: 3
+  property_count: 7
   slug: emporix-asset-create-link
 - name: Asset Update Link Payload
-  property_count: 3
+  property_count: 6
   slug: emporix-asset-update-link
 - name: authorizeFrontendPaymentRequest
-  property_count: 0
+  property_count: 6
   slug: emporix-authorize-frontend-payment-request
 - name: authorizePaymentRequest
-  property_count: 0
+  property_count: 8
   slug: emporix-authorize-payment-request
 - name: AvailabilityBulkDto
   property_count: 8
@@ -1093,16 +1107,16 @@ json_schemas:
   property_count: 5
   slug: emporix-bulk-response
 - name: bundleProductWithId
-  property_count: 0
+  property_count: 22
   slug: emporix-bundle-product-with-id
 - name: cartItemRequest
   property_count: 16
   slug: emporix-cart-item-request
 - name: cartItemResponse
-  property_count: 0
+  property_count: 25
   slug: emporix-cart-item-response
 - name: cart
-  property_count: 0
+  property_count: 38
   slug: emporix-cart
 - name: Catalog
   property_count: 8
@@ -1132,10 +1146,10 @@ json_schemas:
   property_count: 5
   slug: emporix-changelog-history-response
 - name: ClientConfiguration
-  property_count: 0
+  property_count: 10
   slug: emporix-client-configuration
 - name: Configuration
-  property_count: 0
+  property_count: 8
   slug: emporix-configuration
 - name: Contact Assignment create payload
   property_count: 7
@@ -1165,7 +1179,7 @@ json_schemas:
   property_count: 17
   slug: emporix-coupon-creation
 - name: coupon
-  property_count: 0
+  property_count: 20
   slug: emporix-coupon
 - name: createCart
   property_count: 13
@@ -1189,13 +1203,13 @@ json_schemas:
   property_count: 2
   slug: emporix-currency-update
 - name: CustomerAssignmentB2CResponse
-  property_count: 0
+  property_count: 4
   slug: emporix-customer-assignment-b2-cresponse
 - name: CustomerBulkItemResponse
   property_count: 6
   slug: emporix-customer-bulk-item-response
 - name: CustomerForSellerDto
-  property_count: 0
+  property_count: 26
   slug: emporix-customer-for-seller-dto
 - name: Customer
   property_count: 20
@@ -1222,7 +1236,7 @@ json_schemas:
   property_count: 2
   slug: emporix-dynamic-variant-recalculation-response
 - name: employeeShoppingListCreateRequest
-  property_count: 3
+  property_count: 5
   slug: emporix-employee-shopping-list-create-request
 - name: ExchangeAuthTokenResponse
   property_count: 10
@@ -1267,7 +1281,7 @@ json_schemas:
   property_count: 20
   slug: emporix-import-stream
 - name: IndexConfiguration
-  property_count: 0
+  property_count: 8
   slug: emporix-index-configuration
 - name: IndexCreationResponse
   property_count: 1
@@ -1279,7 +1293,7 @@ json_schemas:
   property_count: 3
   slug: emporix-initialize-payment-request
 - name: ItemAssignmentResponse
-  property_count: 0
+  property_count: 5
   slug: emporix-item-assignment-response
 - name: ItemFeeCreationResponse
   property_count: 2
@@ -1300,7 +1314,7 @@ json_schemas:
   property_count: 3
   slug: emporix-job-status-response
 - name: labelCreation
-  property_count: 0
+  property_count: 4
   slug: emporix-label-creation
 - name: label
   property_count: 8
@@ -1354,19 +1368,19 @@ json_schemas:
   property_count: 1
   slug: emporix-order-entries-dto
 - name: Order
-  property_count: 0
+  property_count: 35
   slug: emporix-order
 - name: Order Update DTO
-  property_count: 0
+  property_count: 35
   slug: emporix-order-update-dto
 - name: ownShoppingListCreateRequest
   property_count: 4
   slug: emporix-own-shopping-list-create-request
 - name: ownShoppingListUpdateRequest
-  property_count: 1
+  property_count: 4
   slug: emporix-own-shopping-list-update-request
 - name: parentVariantProductWithId
-  property_count: 0
+  property_count: 22
   slug: emporix-parent-variant-product-with-id
 - name: PasswordMigrationRetentionConfigRequest
   property_count: 3
@@ -1420,7 +1434,7 @@ json_schemas:
   property_count: 0
   slug: emporix-quote-update-request
 - name: RagEmporixNativeToolResponse
-  property_count: 0
+  property_count: 6
   slug: emporix-rag-emporix-native-tool-response
 - name: CouponCode
   property_count: 1
@@ -1435,7 +1449,7 @@ json_schemas:
   property_count: 5
   slug: emporix-redemption-creation
 - name: Coupon Redemption
-  property_count: 2
+  property_count: 7
   slug: emporix-redemption
 - name: Coupon
   property_count: 17
@@ -1471,10 +1485,10 @@ json_schemas:
   property_count: 1
   slug: emporix-return-id
 - name: Order Creation DTO
-  property_count: 0
+  property_count: 33
   slug: emporix-sales-order-creation-dto
 - name: salesOrder
-  property_count: 0
+  property_count: 40
   slug: emporix-sales-order
 - name: SearchItemFee
   property_count: 4
@@ -1507,7 +1521,7 @@ json_schemas:
   property_count: 4
   slug: emporix-tax-retrieval
 - name: taxUpdate
-  property_count: 0
+  property_count: 3
   slug: emporix-tax-update
 - name: Brand
   property_count: 5
@@ -1522,10 +1536,10 @@ json_schemas:
   property_count: 6
   slug: emporix-update-catalog
 - name: UpdateUnit
-  property_count: 0
+  property_count: 7
   slug: emporix-update-unit
 - name: Upload Session Request
-  property_count: 0
+  property_count: 8
   slug: emporix-upload-session-request
 - name: Upload Session
   property_count: 5
@@ -1591,22 +1605,35 @@ scopes:
   slug: emporix-scopes
   summary_line: 170 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 68.8
+  band: strong
+  composite: 59.3
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 36
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 28.9
     contract_governance: 35.6
-    contract_quality: 71.8
-    developer_ergonomics: 78.0
-    discoverability: 78.3
-    operational_transparency: 73.7
+    contract_quality: 75.1
+    developer_ergonomics: 53.0
+    discoverability: 74.2
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1622,13 +1649,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/emporix/emporix-2026-11-03T131505.png
 security:
 - kind: authentication
   name: Emporix Authentication

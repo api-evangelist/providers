@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Provides statistical data and APIs for interest rates, exchange rates, and financial market statistics.
@@ -89,9 +100,9 @@ overview: 'Riksbank is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 13
 score:
   band: minimal
-  composite: 6.7
+  composite: 5.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -102,7 +113,7 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
@@ -113,7 +124,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 7.7
+  previous_composite: 6.7
   provenance:
     mcp: unknown
   regulatory:
@@ -122,8 +133,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

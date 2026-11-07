@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,6 +83,10 @@ common:
   title: ''
   type: Conformance
   url: conformance/hybird-conformance.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://hybird.ai/
 created: '2026-07-17'
 description: HyBird is an industrial software company behind Clarity, a modular Industrial Operating System built on a self-updating, photorealistic living digital twin. Clarity unifies 3D twin and document management, engineering and management of change, P&ID management, intelligent (preventive, predictive, reactive) maintenance, EHS, robotic inspection with AI defect detection, structural integrity, asset performance monitoring, and an AR-guided connected workforce for heavy industries such as oil & gas, cement and building materials, energy, terminals, and nuclear. It integrates with EAM/CMMS platforms including SAP PM, S/4HANA, Microsoft Dynamics, and IBM Maximo. HyBird is a Techstars-backed company profiled in the API Evangelist network; it publishes no public API, developer portal, or SDKs at this time.
 image: https://cdn.prod.website-files.com/686c29e8a1f8500d532e1314/68c14ab39b6f85f3dec958ae_Hybird-opengraph.png
@@ -92,11 +98,11 @@ network: true
 overview: 'HyBird is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Twin, Industrial Operating System, Asset Management, and Maintenance Management.
 
 
-  HyBird''s developer surface includes support, signup flow, and 8 more developer resources.'
+  HyBird''s developer surface includes support, signup flow, and 9 more developer resources.'
 random_paper: 18
 score:
   band: emerging
-  composite: 17.4
+  composite: 18.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -110,9 +116,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 0.0
-  previous_composite: 17.4
+  previous_composite: 18.1
   provenance:
     conformance: first-party
   regulatory:
@@ -121,8 +127,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -145,5 +151,10 @@ tags:
 - Environment Health and Safety
 - Reality Capture
 - Heavy Industry
+- IoT
+- Integration
+- Automation
+- Cloud
+- Edge
 website: https://www.hybird.ai/
 ---

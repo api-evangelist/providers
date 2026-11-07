@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 26.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 232
   human_in_the_loop: 7
@@ -347,7 +348,7 @@ apis:
   description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
-artifact_total: 129
+artifact_total: 130
 collections:
 - collection_type: open
   name: Alianza Account API
@@ -686,26 +687,42 @@ network: true
 overview: 'Alianza publishes 60 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Account Device API, Account Device Line API, and 57 more. Tagged areas include Company, Communications, Cloud Communications, Voice, and VoIP.
 
 
+  The Alianza catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 24 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Alianza API Rules
+  rule_count: 59
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 5
+    warn: 14
+  slug: alianza-rules
 score:
-  band: developing
-  composite: 41.9
+  band: thin
+  composite: 37.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.2
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 45.1
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 21.1
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 53.4
+    developer_ergonomics: 51.8
+    discoverability: 73.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -713,14 +730,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.4
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 95.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 98.3
       total: 60
     mcp: derived
     skills: derived
@@ -729,14 +746,13 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/alianza/alianza-2026-08-07T161200.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +11,15 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -26,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-31'
+  score: 36.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +50,7 @@ agentic_access:
   operation_count: 10
   slug: google-forms-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 3
+api_count: 1
 apis:
 - baseURL: https://forms.googleapis.com/v1
   baseurl_source: declared
@@ -86,7 +92,7 @@ arazzos:
 - description: List the watches registered on a form and delete one to stop its notification delivery.
   name: Google Forms Unsubscribe Form Watches
   slug: google-forms-unsubscribe-form-watches-workflow
-artifact_total: 57
+artifact_total: 62
 collections:
 - collection_type: postman
   name: Google Forms API
@@ -107,6 +113,72 @@ collections:
   name: Google Forms Watches API
   slug: open-google-forms-watches-api
 common:
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://cloud.google.com/apis/design/deprecation
+- group: operate
+  href: https://artifacts.apis.io/google-forms/rate-limits/google-forms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-forms-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/google-forms/rules/google-forms-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-forms-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-forms/rules/google-forms-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-forms-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-forms/rules/google-forms-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-forms-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-forms/json-ld/google-forms-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/google-forms-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/google-forms/vocabulary/google-forms-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-forms-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/google-forms/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://artifacts.apis.io/google-forms/hosts/google-forms-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-forms-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/google-forms/integrations/google-forms-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-forms-integration-edges.yml
+- group: build
+  href: https://artifacts.apis.io/google-forms/packages/google-forms-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/google-forms-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://accounts.google.com/ServiceLogin?hl=en-US&continue=https://myaccount.google.com/intro/security
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2043119298:1793821632712499
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/
 - group: commercial
   href: https://artifacts.apis.io/google-forms/plans/google-forms-plans-pricing.yml
   title: ''
@@ -120,7 +192,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://workspace.google.com/products/forms/
 - group: other
   href: https://artifacts.apis.io/google-forms/overlays/google-forms-api-overlay.yaml
   title: ''
@@ -236,7 +308,7 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: https://developers.google.com/forms/api/guides/quota
+  url: https://developers.google.com/workspace/forms/api/limits
 - group: operate
   title: ''
   type: Support
@@ -377,18 +449,22 @@ jsonld:
   name: Google Forms Api Context
   property_count: 17
   slug: google-forms-api-context
+- class_count: 59
+  name: Google Forms Context
+  property_count: 127
+  slug: google-forms-context
 layout: provider
 modified: '2026-09-16'
 name: Google Forms
 nav: Providers
 network: true
-overview: 'Google Forms is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Watches API, and 1 more. Tagged areas include Data Collection, Forms, Google, Google Workspace, and Questionnaire.
+overview: 'Google Forms publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Responses API, Watches API, and 1 more. Tagged areas include Data Collection, Forms, Google, Google Workspace, and Questionnaire.
 
 
-  The Google Forms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Google Forms catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Google Forms'' developer surface includes changelog, authentication, developer console, getting-started guide, support, and 35 more developer resources.'
+  Google Forms'' developer surface includes documentation, changelog, authentication, developer console, getting-started guide, support, and 48 more developer resources.'
 plans:
 - name: Google Forms Plans Pricing
   plan_count: 3
@@ -411,6 +487,18 @@ rules:
     warn: 3
   slug: google-forms-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: Google Forms API Rules
+  rule_count: 72
+  severity_counts:
+    error: 67
+    hint: 0
+    info: 1
+    warn: 4
+  slug: google-forms-rules
+- authorship: generated
   effective_rule_count: 73
   extends:
   - spectral:oas
@@ -429,23 +517,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
+  composite: 50.8
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 75.0
+    artifact_dirs: 37
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 31.8
     contract_quality: 31.3
-    developer_ergonomics: 53.6
-    discoverability: 78.6
-    operational_transparency: 55.3
-  previous_composite: 47.0
+    developer_ergonomics: 58.9
+    discoverability: 80.4
+    operational_transparency: 60.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -455,19 +543,19 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/google-forms/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication
@@ -482,6 +570,14 @@ security:
   name: Google Forms Vulnerability Disclosure
   slug: google-forms-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: google-forms-create-and-publish-form
+  slug: google-forms-create-and-publish-form
+- name: google-forms-harvest-responses
+  slug: google-forms-harvest-responses
+- name: google-forms-manage-watches
+  slug: google-forms-manage-watches
 slug: google-forms
 tags:
 - Data Collection
@@ -502,5 +598,5 @@ use_cases:
   name: Quiz and Assessment Automation
 - description: Integrate forms into data collection pipelines for research or operations.
   name: Data Collection Pipelines
-website: https://www.google.com/
+website: https://workspace.google.com/products/forms/
 ---

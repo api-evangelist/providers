@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-31'
+  score: 25.4
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: Kryptos provides a Crypto Tax, Portfolio Tracker & Finance API that connects to over 5,000 integrations across exchanges, wallets, and blockchains.
@@ -266,7 +281,7 @@ modified: '2026-10-30'
 name: kryptos-io
 nav: Providers
 network: true
-overview: 'kryptos-io is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including api API, authentication API, core API, and 3 more. Tagged areas include Crypto, Finance, API, Portfolio, and Tax.
+overview: 'kryptos-io is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including api API, authentication API, core API, and 3 more. Tagged areas include Cryptocurrency, Finance, Portfolio, and Tax.
 
 
   The kryptos-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -293,34 +308,46 @@ scopes:
   slug: kryptos-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.9
+  band: thin
+  composite: 35.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 75.7
+    artifact_dirs: 27
+    catalog_earned: 55.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -13.1
   facets:
-    access_clarity: 60.5
-    contract_governance: 79.1
-    contract_quality: 53.3
-    developer_ergonomics: 64.3
-    discoverability: 64.3
-    operational_transparency: 31.6
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 25.5
+    developer_ergonomics: 41.7
+    discoverability: 54.5
+    operational_transparency: 21.1
+  previous_composite: 48.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/kryptos-io/kryptos-io-2026-11-03T134538.png
 security:
 - kind: authentication
   name: Kryptos Io Authentication
@@ -336,9 +363,8 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: kryptos-io
 tags:
-- Crypto
+- Cryptocurrency
 - Finance
-- API
 - Portfolio
 - Tax
 website: https://kryptos.io/

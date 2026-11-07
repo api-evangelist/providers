@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Open access
   onboarding: open
   pricing: freemium
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -275,9 +280,9 @@ rules:
   slug: spacex-api-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 29.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 62.2
     catalog_earned_first_party: 0.0
     catalog_gap: 52.9
@@ -288,10 +293,13 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 55.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 31.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -305,13 +313,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/spacex-api/spacex-api-2026-06-20T194252.png
 security:
 - kind: domain-security

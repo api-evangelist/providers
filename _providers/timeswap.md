@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.timeswap.io
@@ -63,7 +68,7 @@ apis:
   description: The Token API from Timeswap — 1 operation(s) for token.
   name: Timeswap Token API
   slug: timeswap-token-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Fast FastAPI API
@@ -206,27 +211,43 @@ network: true
 overview: 'Timeswap publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including FastAPI API, Paulygon API, Pools API, and 2 more. Tagged areas include Company, Web3, DeFi, Lending, and Borrowing.
 
 
+  The Timeswap catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Timeswap''s developer surface includes engineering blog, documentation, support, authentication, and 21 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 75
+  extends:
+  - spectral:oas
+  name: Timeswap API Rules
+  rule_count: 34
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 1
+    warn: 1
+  slug: timeswap-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 33.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 34.4
     developer_ergonomics: 44.6
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 32.2
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     contracts:
@@ -242,13 +263,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/timeswap/timeswap-2026-09-02T163804.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Enterprise · Self-serve signup
   onboarding: self-serve
   pricing: enterprise
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -289,9 +294,9 @@ rules:
   slug: thermo-fisher-scientific-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 26.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -305,7 +310,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 27.5
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +324,12 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/thermo-fisher-scientific/thermo-fisher-scientific-2026-06-20T195253.png
 security:
 - kind: authentication

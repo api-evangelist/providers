@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - plans
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,12 +21,13 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.1
-  scored_at: '2026-10-31'
+  score: 49.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 9
@@ -406,9 +409,9 @@ rules:
   slug: redis-rules
 score:
   band: developing
-  composite: 47.0
+  composite: 47.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
@@ -418,11 +421,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 31.8
-    contract_quality: 41.0
+    contract_quality: 44.4
     developer_ergonomics: 54.8
-    discoverability: 64.3
+    discoverability: 66.7
     operational_transparency: 39.5
-  previous_composite: 47.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -439,13 +442,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/redis/redis-2026-06-20T192736.png
 security:
 - kind: authentication

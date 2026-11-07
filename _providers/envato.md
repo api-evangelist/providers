@@ -1,13 +1,15 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: quarter
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -36,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.6
-  scored_at: '2026-10-31'
+  score: 47.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -402,23 +405,23 @@ scopes:
   slug: envato-scopes
   summary_line: 18 scopes · implicit
 score:
-  band: strong
-  composite: 61.2
+  band: developing
+  composite: 51.7
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 31
     catalog_earned: 82.8
     catalog_earned_first_party: 20.0
     catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 35.6
-    contract_quality: 44.7
-    developer_ergonomics: 66.1
-    discoverability: 66.7
-    operational_transparency: 52.6
+    contract_quality: 48.3
+    developer_ergonomics: 51.8
+    discoverability: 69.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -426,15 +429,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 61.2
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 2
-      marker_coverage: 40.0
-      total: 5
+      marker_coverage: 28.6
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -442,14 +445,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/envato/envato-2026-06-20T180736.png
 security:
 - kind: authentication

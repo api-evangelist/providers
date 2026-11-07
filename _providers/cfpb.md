@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -290,9 +291,9 @@ rules:
   slug: cfpb-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 34.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -311,7 +312,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.0
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -325,13 +326,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cfpb/cfpb-2026-06-20T174148.png
 security:
 - kind: authentication

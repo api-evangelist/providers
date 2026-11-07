@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -22,23 +25,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.3
-  scored_at: '2026-10-31'
+  score: 20.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
@@ -80,7 +84,7 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Halifax SME API
   slug: halifax-sme-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Open Data API
@@ -213,30 +217,46 @@ network: true
 overview: 'Halifax publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 6 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
+  The Halifax catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Halifax''s developer surface includes engineering blog, documentation, support, getting-started guide, authentication, sandbox, and 19 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Halifax API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: halifax-rules
 scopes:
 - name: Halifax Scopes
   scope_count: 4
   slug: halifax-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 39.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
+    catalog_gap: 58.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
-    contract_governance: 18.2
+    access_clarity: 21.4
+    contract_governance: 31.8
     contract_quality: 35.5
-    developer_ergonomics: 66.1
-    discoverability: 66.1
+    developer_ergonomics: 58.9
+    discoverability: 73.2
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -246,7 +266,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 40.6
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     contracts:
@@ -267,14 +287,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/halifax/halifax-2026-07-25T220540.png
 security:
 - kind: authentication

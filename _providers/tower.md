@@ -1,17 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -22,23 +26,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-10-31'
+  score: 45.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.tower.dev/v1
@@ -176,7 +181,7 @@ apis:
   description: The Whoami API from Tower — 1 operation(s) for whoami.
   name: Tower Whoami API
   slug: tower-whoami-api
-artifact_total: 66
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Tower Webhooks
@@ -440,7 +445,7 @@ network: true
 overview: 'Tower publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Api Keys API, and 24 more. Tagged areas include Data Infrastructure, Data Engineering, Python, Apache Iceberg, and Lakehouse.
 
 
-  The Tower catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tower catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 26 more developer resources.'
@@ -452,6 +457,19 @@ plans:
   plan_count: 0
   slug: tower-price-estimates
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Tower API Rules
+  rule_count: 63
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 2
+    warn: 12
+  slug: tower-rules
 scopes:
 - name: Tower Scopes
   scope_count: 53
@@ -459,27 +477,27 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 62.6
+  composite: 64.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 55.2
+    contract_governance: 18.2
+    contract_quality: 55.6
     developer_ergonomics: 81.0
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 44.7
-  previous_composite: 54.7
+  previous_composite: 64.3
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 27
@@ -491,13 +509,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tower/tower-2026-08-17T082413.png
 security:
 - kind: authentication

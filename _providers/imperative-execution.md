@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://s3.amazonaws.com/iqx.imperativex.com/
@@ -167,9 +168,9 @@ overview: 'Imperative Execution is listed with 2 APIs on the [APIs.io](https://a
 random_paper: 15
 score:
   band: thin
-  composite: 35.4
+  composite: 36.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,9 +182,9 @@ score:
     contract_governance: 18.2
     contract_quality: 36.4
     developer_ergonomics: 42.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 35.4
+  previous_composite: 36.1
   provenance:
     conformance: first-party
   regulatory:
@@ -192,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

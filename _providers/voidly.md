@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -24,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.9
-  scored_at: '2026-10-31'
+  score: 12.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
@@ -96,9 +97,9 @@ overview: 'Voidly is listed with 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 15
 score:
   band: minimal
-  composite: 8.8
+  composite: 9.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
@@ -110,9 +111,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 42.9
+    discoverability: 46.7
     operational_transparency: 10.5
-  previous_composite: 8.8
+  previous_composite: 9.2
   provenance:
     mcp: first-party
   regulatory:
@@ -121,8 +122,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

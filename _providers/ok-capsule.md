@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -30,7 +30,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -40,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-31'
+  score: 51.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
@@ -257,7 +258,7 @@ apis:
   description: Routes to manage client users
   name: OK Capsule Users API
   slug: ok-capsule-users-api
-artifact_total: 53
+artifact_total: 54
 common:
 - group: other
   href: https://artifacts.apis.io/ok-capsule/capabilities/ok-capsule-capability-edges.yml
@@ -438,6 +439,9 @@ network: true
 overview: 'OK Capsule publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assemblies API, Authentication API, Batches API, and 40 more. Tagged areas include Supplements, Nutrition, Health, Manufacturing, and Fulfillment.
 
 
+  The OK Capsule catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   OK Capsule''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Ok Capsule Plans Pricing
@@ -448,6 +452,19 @@ rate_limits:
 - limit_count: 0
   name: Ok Capsule Rate Limits
   slug: ok-capsule-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: OK Capsule API Rules
+  rule_count: 63
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 13
+  slug: ok-capsule-rules
 scopes:
 - name: Ok Capsule Scopes
   scope_count: 16
@@ -455,23 +472,23 @@ scopes:
   summary_line: 16 scopes · authorization_code/refresh_token
 score:
   band: strong
-  composite: 58.7
+  composite: 59.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 49.6
-    developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 57.1
+    contract_governance: 31.8
+    contract_quality: 53.0
+    developer_ergonomics: 58.9
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 59.7
   provenance:
     conformance: first-party
     contracts:
@@ -487,13 +504,12 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ok-capsule/ok-capsule-2026-09-02T150831.png
 security:
 - kind: authentication

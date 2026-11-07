@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -26,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -343,36 +356,36 @@ rules:
     warn: 1
   slug: fxmacrodata-rules
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 46.3
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 30
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: -9.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 50.4
-    developer_ergonomics: 61.3
-    discoverability: 56.7
-    operational_transparency: 57.9
+    developer_ergonomics: 44.6
+    discoverability: 66.7
+    operational_transparency: 38.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.5
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 45.5
+      derived: 4
+      marker_coverage: 36.4
       total: 11
     mcp: first-party
     skills: derived
@@ -381,14 +394,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/fxmacrodata/fxmacrodata-2026-11-03T132417.png
 security:
 - kind: authentication
   name: Fxmacrodata Authentication

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-31'
+  score: 33.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Taizen's remote Model Context Protocol server — the company's only machine-callable surface. Per the provider's own manifest it lets an agent connect once instead of wiring fifteen-plus individual MCP
@@ -157,9 +158,9 @@ rate_limits:
   slug: taizen-rate-limits
 score:
   band: thin
-  composite: 29.6
+  composite: 30.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,9 +172,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 29.6
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 30.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -184,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -262,9 +266,9 @@ rules:
   slug: fatcat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.4
+  composite: 27.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -275,10 +279,10 @@ score:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 55.9
-    developer_ergonomics: 21.4
+    developer_ergonomics: 16.7
     discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 29.4
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -292,13 +296,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Fatcat Authentication

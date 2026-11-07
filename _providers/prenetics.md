@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the IM8 Health (Prenetics) Shopify storefront, implemented with the Universal Commerce Protocol (UCP, 2026-04-08) over MCP. Agents discover capabilities at /.well-kno
@@ -119,7 +121,7 @@ overview: 'Prenetics is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 13
 score:
   band: emerging
-  composite: 13.8
+  composite: 14.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -132,10 +134,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 65.0
+    developer_ergonomics: 1.2
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 14.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -145,8 +147,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

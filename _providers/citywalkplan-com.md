@@ -1,0 +1,160 @@
+---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.5
+  scored_at: '2026-11-06'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/citywalkplan-com/security/citywalkplan-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/citywalkplan-com-domain-security.yml
+- group: agent
+  href: https://artifacts.apis.io/citywalkplan-com/llms/citywalkplan-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/citywalkplan-com-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/citywalkplan-com/mcp/citywalkplan-com-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/citywalkplan-com-mcp.yml
+- group: other
+  href: https://artifacts.apis.io/citywalkplan-com/hosts/citywalkplan-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/citywalkplan-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/citywalkplan-com/vendors/citywalkplan-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/citywalkplan-com-vendors.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://citywalkplan.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://citywalkplan.com/guide
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://citywalkplan.com/api/mcp
+- group: company
+  title: ''
+  type: Blog
+  url: https://citywalkplan.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://citywalkplan.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://citywalkplan.com/privacy
+coverage:
+  checked: '2026-11-04'
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on the provider's API or docs hosts.
+  evidence:
+  - status: 200
+    url: https://citywalkplan.com/api/mcp
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-11-03'
+description: CityWalk Plan offers a free web-based walking itinerary planner covering 50+ global cities. Users can select destinations, set trip length and pace, and generate day‑by‑day walking routes with curated real‑world stops. The service is fully free, requires no account, supports multiple languages, and allows editing, sharing, or exporting plans as HTML or PDF. It aims to help travelers focus on walkable neighborhoods, reducing back‑and‑forth travel time while discovering local attractions.
+image: https://citywalkplan.com/og-image.png
+layout: provider
+mcp_servers:
+- description: Remote MCP server at citywalkplan.com.
+  name: CityWalk Plan MCP Server
+  slug: citywalkplan-com-mcp-yml
+modified: '2026-11-03'
+name: CityWalk Plan
+nav: Providers
+network: true
+overview: 'CityWalk Plan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Planning, Walking, and Free.
+
+
+  CityWalk Plan''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
+random_paper: 7
+score:
+  band: minimal
+  composite: 7.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 22.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 93.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 40.0
+    operational_transparency: 0.0
+  provenance:
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Citywalkplan Com Domain Security
+  slug: citywalkplan-com-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: citywalkplan-com
+tags:
+- Travel
+- Planning
+- Walking
+- Free
+website: https://citywalkplan.com/
+---

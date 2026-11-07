@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-31'
+  score: 26.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +52,7 @@ apis:
   description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
   name: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: PSA Public PSA Public API Methods API
@@ -164,34 +165,50 @@ network: true
 overview: 'Collectors publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: PSA Public API Methods API. Tagged areas include Company, Marketplace, Collectibles, Authentication, and Grading.
 
 
+  The Collectors catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Collectors'' developer surface includes documentation, API reference, signup flow, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Collectors API Rules
+  rule_count: 40
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 1
+  slug: collectors-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 35.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 38.6
+    contract_governance: 18.2
+    contract_quality: 42.9
     developer_ergonomics: 42.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
@@ -201,13 +218,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/collectors/collectors-2026-07-25T210048.png
 security:
 - kind: authentication

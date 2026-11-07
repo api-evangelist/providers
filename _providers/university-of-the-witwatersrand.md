@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-31'
+  score: 24.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -290,9 +291,9 @@ rules:
   slug: university-of-the-witwatersrand-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 34.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 58.9
     catalog_earned_first_party: 0.0
     catalog_gap: 56.1
@@ -305,7 +306,7 @@ score:
     contract_quality: 56.7
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -313,7 +314,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 35.0
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -328,13 +329,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/university-of-the-witwatersrand/university-of-the-witwatersrand-2026-08-17T082627.png
 security:
 - kind: authentication

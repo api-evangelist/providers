@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: low
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -88,7 +90,7 @@ apis:
   description: Typed decisions over one state with Microsoft-Decision-1.
   name: Microsoft Azure AI Foundry Decisions API
   slug: azure-ai-foundry-decisions-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Azure AI Foundry Model Inference REST Chat Completions API
@@ -219,12 +221,28 @@ network: true
 overview: 'Microsoft Azure AI Foundry publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 6 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine Learning.
 
 
+  The Microsoft Azure AI Foundry catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Microsoft Azure AI Foundry''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 13 more developer resources.'
 plans:
 - name: Azure Ai Foundry Plans Pricing
   plan_count: 0
   slug: azure-ai-foundry-plans-pricing
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Microsoft Azure AI Foundry API Rules
+  rule_count: 59
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 4
+    warn: 3
+  slug: azure-ai-foundry-rules
 scopes:
 - name: Azure Ai Foundry Scopes
   scope_count: 1
@@ -232,23 +250,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 43.2
+  composite: 45.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
+    artifact_dirs: 18
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 44.7
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 38.4
-    developer_ergonomics: 52.4
+    developer_ergonomics: 51.2
     discoverability: 78.3
-    operational_transparency: 31.6
-  previous_composite: 43.2
+    operational_transparency: 28.9
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +280,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/azure-ai-foundry/azure-ai-foundry-2026-06-20T172847.png
 security:
 - kind: authentication

@@ -1,18 +1,26 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,18 +32,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 66.7
-  scored_at: '2026-10-31'
+  score: 64.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 261
   human_in_the_loop: 5
@@ -1008,7 +1017,7 @@ apis:
     question: How do I stop webhook deliveries to an endpoint I no longer use?
   phrasing_ops: 3
   slug: scope3-webhook-subscriptions-api
-artifact_total: 80
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Scope3 Webhooks
@@ -1292,7 +1301,7 @@ network: true
 overview: 'Scope3 publishes 51 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Impact Measurement API, Benchmarks API, Creative API, and 48 more. Tagged areas include Company, Enterprise, Advertising, Carbon Emissions, and Sustainability.
 
 
-  The Scope3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Scope3 catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 38 more developer resources.'
@@ -1308,6 +1317,19 @@ rate_limits:
 - limit_count: 4
   name: Scope3 Rate Limits
   slug: scope3-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Scope3 API Rules
+  rule_count: 59
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 6
+    warn: 20
+  slug: scope3-rules
 scopes:
 - name: Scope3 Scopes
   scope_count: 4
@@ -1315,23 +1337,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.2
+  composite: 73.8
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 67.0
+    artifact_dirs: 34
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.8
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 54.5
+    access_clarity: 77.6
+    contract_governance: 31.8
+    contract_quality: 56.4
     developer_ergonomics: 85.7
-    discoverability: 70.0
-    operational_transparency: 68.4
-  previous_composite: 66.6
+    discoverability: 78.6
+    operational_transparency: 65.8
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1348,13 +1370,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/scope3/scope3-2026-08-17T080422.png
 security:
 - kind: authentication

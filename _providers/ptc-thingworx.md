@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -266,9 +268,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.3
+  composite: 35.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
@@ -279,10 +281,10 @@ score:
     access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 60.1
-    developer_ergonomics: 40.5
+    developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +298,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ptc-thingworx/ptc-thingworx-2026-10-11T112926.png
 security:
 - kind: authentication

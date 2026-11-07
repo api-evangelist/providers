@@ -1,32 +1,44 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 57.5
-  scored_at: '2026-10-31'
+  score: 32.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -102,6 +114,10 @@ asyncapis:
   name: Gnosis Pay Webhooks
   slug: gnosis-pay-webhooks
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://app.gnosispay.com/signin
 - group: other
   href: https://artifacts.apis.io/gnosis-pay/vendors/gnosis-pay-vendors.yml
   title: ''
@@ -259,44 +275,52 @@ modified: '2026-10-27'
 name: Gnosis Pay
 nav: Providers
 network: true
-overview: 'Gnosis Pay publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Cards API, Health API, and 9 more. Tagged areas include Company, Payments, Crypto, Stablecoin, and API.
+overview: 'Gnosis Pay publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Cards API, Health API, and 9 more. Tagged areas include Company, Payments, Cryptocurrency, and Stablecoins.
 
 
   The Gnosis Pay catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Gnosis Pay''s developer surface includes sandbox, support, changelog, getting-started guide, documentation, API reference, authentication, and 20 more developer resources.'
+  Gnosis Pay''s developer surface includes sandbox, support, changelog, getting-started guide, documentation, API reference, authentication, and 21 more developer resources.'
 random_paper: 2
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 97
   extends:
   - spectral:oas
   name: Gnosis Pay API Rules
-  rule_count: 15
+  rule_count: 56
   severity_counts:
-    error: 7
+    error: 41
     hint: 0
-    info: 4
-    warn: 4
+    info: 6
+    warn: 9
   slug: gnosis-pay-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 39.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 62.8
+    artifact_dirs: 26
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.3
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 22.0
     contract_quality: 70.9
-    developer_ergonomics: 56.5
-    discoverability: 67.9
-    operational_transparency: 44.7
+    developer_ergonomics: 38.7
+    discoverability: 65.2
+    operational_transparency: 26.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +329,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-    mcp: unknown
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
@@ -313,12 +337,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/gnosis-pay/gnosis-pay-2026-11-03T132853.png
 security:
 - kind: authentication
   name: Gnosis Pay Authentication
@@ -342,8 +367,7 @@ slug: gnosis-pay
 tags:
 - Company
 - Payments
-- Crypto
-- Stablecoin
-- API
+- Cryptocurrency
+- Stablecoins
 website: https://gnosispay.com/
 ---

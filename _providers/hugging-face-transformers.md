@@ -1,15 +1,17 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -26,18 +28,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.9
-  scored_at: '2026-10-31'
+  score: 48.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 2
@@ -174,7 +177,7 @@ apis:
   description: The following endpoints are for use with OAuth.
   name: Hugging Face Transformers OAUTH API
   slug: hugging-face-transformers-oauth-api
-artifact_total: 62
+artifact_total: 63
 collections:
 - collection_type: open
   name: Hub API Endpoints agentic-provisioning API
@@ -459,6 +462,9 @@ network: true
 overview: 'Hugging Face Transformers publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agentic Provisioning API, Auth API, Buckets API, and 24 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
 
 
+  The Hugging Face Transformers catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 34 more developer resources.'
 plans:
 - name: Hugging Face Transformers Plans Pricing
@@ -472,35 +478,51 @@ rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
   slug: hugging-face-transformers-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Hugging Face Transformers API Rules
+  rule_count: 53
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 11
+  slug: hugging-face-transformers-rules
 scopes:
 - name: Hugging Face Transformers Scopes
   scope_count: 15
   slug: hugging-face-transformers-scopes
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
-  band: developing
-  composite: 52.9
+  band: strong
+  composite: 65.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 50.0
+    artifact_dirs: 31
+    catalog_earned: 54.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 46.2
+    contract_governance: 18.2
+    contract_quality: 50.4
     developer_ergonomics: 49.3
-    discoverability: 56.7
-    operational_transparency: 39.5
+    discoverability: 60.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 51.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -516,13 +538,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/hugging-face-transformers/hugging-face-transformers-2026-06-20T182926.png
 security:
 - kind: authentication

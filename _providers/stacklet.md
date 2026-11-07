@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The Stacklet Platform GraphQL API is the control plane for the governance platform: cloud accounts and account groups, policies and policy collections, bindings (the deployment of a policy collection '
@@ -181,9 +182,9 @@ rate_limits:
   slug: stacklet-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 23.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,10 +195,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 33.3
     discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 25.6
+    operational_transparency: 18.4
+  previous_composite: 23.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -207,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -237,6 +238,7 @@ tags:
 - Terraform
 - GraphQL
 - MCP
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Agents

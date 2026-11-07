@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -72,7 +74,7 @@ apis:
   description: The Webhooks API from Luxury Presence — 3 operation(s) for webhooks.
   name: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: Outbound webhooks that deliver lead-activity events from Luxury Presence websites. Currently the `leads` event is supported. Subscriptions are managed through the Public API webhook endpoints (/crm/v1
   name: Luxury Presence Lead Activity Webhooks
@@ -245,7 +247,7 @@ network: true
 overview: 'Luxury Presence publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Media API, Offices API, and 2 more. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and CRM.
 
 
-  The Luxury Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Luxury Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -254,25 +256,38 @@ plans:
   plan_count: 5
   slug: luxury-presence-plans-pricing
 random_paper: 11
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Luxury Presence API Rules
+  rule_count: 55
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 2
+    warn: 5
+  slug: luxury-presence-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 50.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 53.9
-    developer_ergonomics: 66.1
-    discoverability: 65.0
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 57.2
+    developer_ergonomics: 47.0
+    discoverability: 71.7
     operational_transparency: 7.9
-  previous_composite: 45.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,13 +304,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/luxury-presence/luxury-presence-2026-07-25T225740.png
 security:
 - kind: authentication

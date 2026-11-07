@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-31'
+  score: 58.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -81,7 +82,7 @@ apis:
   description: Service status endpoints.
   name: Poggio Labs System API
   slug: poggio-labs-system-api
-artifact_total: 21
+artifact_total: 22
 common:
 - group: other
   href: https://artifacts.apis.io/poggio-labs/capabilities/poggio-labs-capability-edges.yml
@@ -289,6 +290,9 @@ network: true
 overview: 'Poggio Labs publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Tokens API, Authentication API, Goals API, and 5 more. Tagged areas include Company, Artificial Intelligence, Revenue Intelligence, Sales, and Account Intelligence.
 
 
+  The Poggio Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Poggio Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
 plans:
 - name: Poggio Labs Plans Pricing
@@ -302,6 +306,19 @@ rate_limits:
 - limit_count: 0
   name: Poggio Labs Rate Limits
   slug: poggio-labs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Poggio Labs API Rules
+  rule_count: 60
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 9
+    warn: 6
+  slug: poggio-labs-rules
 scopes:
 - name: Poggio Labs Goalkeeper Scopes
   scope_count: 6
@@ -309,23 +326,23 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 59.0
+  composite: 58.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 42.2
+    access_clarity: 92.1
+    contract_governance: 31.8
+    contract_quality: 44.1
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 57.4
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,14 +358,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/poggio-labs/poggio-labs-2026-08-17T081318.png
 security:
 - kind: authentication
@@ -387,5 +403,7 @@ tags:
 - Goals
 - Gong
 - Slack
+- Revenue
+- Automation
 website: https://poggio.io/
 ---

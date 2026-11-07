@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,6 +77,10 @@ common:
   title: ''
   type: TrustCenter
   url: https://security.milo.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.milo.io/api
 created: '2026-07-17'
 description: Milo (formerly Milo Credit) is a Miami-based financial technology company and licensed mortgage lender that pioneered crypto-backed lending. Milo lets cryptocurrency holders access cash or finance U.S. real estate without selling their digital assets, offering crypto-backed mortgages with up to 100% financing, self-custody mortgages, and crypto-backed loans funded in as little as 24 hours, with rates starting around 7%. The company was an early portfolio investment of QED Investors and operates as a consumer-facing lending platform rather than a developer/API-first company. As of this enrichment pass Milo publishes no public API, developer portal, SDKs, or API documentation; its public surface is a consumer web application (app.milo.io), a marketing site, a blog, an FAQ, and a hosted trust/security center. This profile is maintained in the API Evangelist network as a company record.
 image: https://www.milo.io/favicon.ico
@@ -86,24 +92,24 @@ network: true
 overview: 'Milo Credit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Mortgage, and Cryptocurrency.
 
 
-  Milo Credit''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
+  Milo Credit''s developer surface includes signup flow, engineering blog, support, API reference, and 6 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 15.2
+  composite: 15.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 10.7
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -120,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,19 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Freemium (free trial)
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
-  trial: false
+  - security
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-31'
+  score: 39.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
@@ -556,29 +558,29 @@ rules:
   slug: coralogix-rules
 score:
   band: strong
-  composite: 63.1
+  composite: 58.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 75.8
     catalog_earned_first_party: 12.0
     catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.4
+  delta: -8.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 73.7
     contract_governance: 35.6
-    contract_quality: 66.2
-    developer_ergonomics: 52.4
-    discoverability: 58.9
-    operational_transparency: 28.9
-  previous_composite: 60.7
+    contract_quality: 73.6
+    developer_ergonomics: 35.7
+    discoverability: 65.2
+    operational_transparency: 26.3
+  previous_composite: 67.4
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 4
-      marker_coverage: 7.4
+      marker_coverage: 100.0
       total: 54
     mcp: derived
   regulatory:
@@ -586,14 +588,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/coralogix/coralogix-2026-06-20T175022.png
 security:
 - kind: domain-security

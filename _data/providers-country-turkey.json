@@ -1,6 +1,6 @@
 {
- "total": 19,
- "shown": 19,
+ "total": 22,
+ "shown": 22,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 7,
-   "shown": 7,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Paraşüt",
@@ -20,15 +20,15 @@
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 41.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 58.9,
-      "access_clarity": 84.2
+      "access_clarity": 77.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -36,12 +36,12 @@
       "score": 34.3,
       "matched_via": "fallback"
      },
-     "agent_score": 24.7,
+     "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "negotiable",
       "idempotency": false,
@@ -59,7 +59,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": false,
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 1
     },
@@ -68,19 +69,19 @@
      "slug": "kolayik",
      "description": "Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources and human-capital-management SaaS platform serving more than 4,500 companies and 300,000+ employees, predominantly in Türkiye. The product covers employee/personnel records (özlük), payroll (bordro), performance evaluation, shift management (vardiya), compensation review, applicant tracking, HR analytics, time and attendance (PDKS), leave management, expense and asset tracking, and training. Kolay publishes an official public REST API — the \"Kolay Public API\" (v2, https://api.kolayik.com) — documented as a public Postman collection at apidocs.kolayik.com, covering person, unit, leave, timelog, transaction, approval, calendar, training, expense and payroll resources, authenticated with a bearer API token created from the in-product developer settings.",
      "screenshot": "https://artifacts.apis.io/kolayik/screenshots/kolayik-2026-07-25T224126.png",
-     "score": 49.7,
+     "score": 49.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 49.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
+      "contract_governance": 31.8,
+      "operational_transparency": 36.8,
       "developer_ergonomics": 51.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Employment & Payroll",
@@ -111,7 +112,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 2
     },
@@ -120,19 +122,19 @@
      "slug": "iyzico",
      "description": "iyzico is a Turkish payment service provider (part of PayU / Prosus) that gives online businesses a single API and hosted payment surface to accept cards and alternative payment methods across Turkey and cross-border. Its developer platform (docs.iyzico.com, api.iyzipay.com) covers NON-3DS and 3D Secure card payments, the hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions/recurring billing, a marketplace/submerchant model with payouts, card storage/tokenization, installment and BIN services, reporting, and server-to-server webhooks. Authentication uses an HMACSHA256-signed IYZWSv2 scheme with an apiKey/secretKey pair, and a full sandbox (sandbox-api.iyzipay.com) with published test cards mirrors production. First party SDKs are published for PHP, Python, Node.js, Java, Ruby and .NET plus e-commerce plugins (WooCommerce, Magento 2, PrestaShop, OpenCart).",
      "screenshot": "https://artifacts.apis.io/iyzico/screenshots/iyzico-2026-07-25T223026.png",
-     "score": 49.1,
+     "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 39.0,
       "contract_governance": 4.5,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 76.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 72.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -163,7 +165,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 3
     },
@@ -171,19 +174,20 @@
      "name": "lovefengis-com",
      "slug": "lovefengis-com",
      "description": "lovefengis provides digital advertising management and SEO services for businesses across Turkey. The company offers campaign creation and management on Google, Meta, and emerging ChatGPT Ads platforms, as well as technical SEO audits, on‑page optimization, and AI‑assisted content creation. Services are delivered remotely with free 15‑minute consultations, transparent pricing, and ongoing performance reporting. The platform also exposes a public OpenAPI specification at /openapi.json for programmatic access to its service catalog.",
-     "score": 46.2,
+     "screenshot": "https://artifacts.apis.io/lovefengis-com/screenshots/lovefengis-com-2026-11-03T135056.png",
+     "score": 41.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 65.0,
+      "discoverability": 75.0,
       "contract_quality": 63.4,
       "contract_governance": 22.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 58.8,
-      "access_clarity": 10.5
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 39.8,
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -214,80 +218,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "paginated",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
      "rank": 4
-    },
-    {
-     "name": "Getir",
-     "slug": "getir",
-     "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
-     "screenshot": "https://artifacts.apis.io/getir/screenshots/getir-2026-08-07T165703.png",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 43.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 63.7,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "mostly"
-     },
-     "rank": 5
     },
     {
      "name": "Trendyol",
      "slug": "trendyol",
      "description": "Trendyol is Turkey's largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId.",
      "screenshot": "https://artifacts.apis.io/trendyol/screenshots/trendyol-2026-08-17T082435.png",
-     "score": 41.3,
+     "score": 40.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 39.0,
       "contract_governance": 4.5,
-      "operational_transparency": 84.2,
+      "operational_transparency": 73.7,
       "developer_ergonomics": 66.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -318,28 +271,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 6
-    },
+     "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "Adgager",
      "slug": "adgager",
      "description": "Adgager is an Istanbul-based market research platform founded in 2016 with support from Istanbul Technical University (ITU). It runs end-to-end research studies for brands over a verified member community (\"Gagers\"), combining survey, mobile-community (ADTEAMS), neuroscience and ethnographic methods with an AI-assisted analysis stack. Its AdQ product scores advertising effectiveness across traditional and digital channels and benchmarks a brand against category, competitor and market averages. Clients run projects, target groups, question groups and reports through the dashboard at dash.adgager.com, which is backed by a single first-party GraphQL API at api.adgager.com/graphql (Laravel Lighthouse, Sanctum bearer auth). Adgager reports serving 200+ brands including L'Oreal, Nestle, Bioderma, ING Bank, Reckitt Benckiser and Oriflame.",
      "screenshot": "https://artifacts.apis.io/adgager/screenshots/adgager-2026-10-11T092756.png",
-     "score": 39.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 73.2,
       "contract_quality": 35.1,
       "contract_governance": 4.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 20.8,
-      "access_clarity": 76.3
+      "access_clarity": 69.7
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -370,39 +335,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 7
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
+     "rank": 6
+    },
     {
      "name": "Ikas",
      "slug": "ikas-ikas-teknoloji-as",
      "description": "ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, headquartered in Turkey and backed by 500 Global, that lets merchants build online stores, manage products, inventory, orders, customers, and campaigns, and sell across multiple sales channels. For developers and partners, ikas exposes a public GraphQL Admin API at api.myikas.com that covers products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhooks. Apps authenticate with OAuth 2.0 (client_credentials for private/store apps and authorization_code for public admin apps) using scoped permissions such as read_products/write_products and read_orders/write_orders. ikas also ships a TypeScript SDK, an ikas CLI, an App Bridge for embedded dashboard apps, a theme development kit, and an official MCP server for its code components.",
      "screenshot": "https://artifacts.apis.io/ikas-ikas-teknoloji-as/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png",
-     "score": 38.1,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.7,
       "contract_quality": 39.0,
       "contract_governance": 4.5,
-      "operational_transparency": 21.1,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 73.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -433,9 +388,115 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 7
+    },
+    {
+     "name": "Getir",
+     "slug": "getir",
+     "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
+     "screenshot": "https://artifacts.apis.io/getir/screenshots/getir-2026-08-07T165703.png",
+     "score": 35.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.7,
+      "contract_quality": 43.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 31.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
      "rank": 8
+    },
+    {
+     "name": "AntalyaTransfers.co",
+     "slug": "antalyatransfers-co",
+     "description": "AntalyaTransfers.co is an online booking platform for private airport, hotel and medical transfers in Antalya, Turkey. Operated by Dmitry Kulish, an individual entrepreneur in Georgia, the service offers fixed-price rides in over 20 languages, flight tracking, 24/7 WhatsApp support, and coverage across Antalya and nearby resort areas such as Belek, Side, Alanya, Kemer, Kaş, Lara Beach and Konyaaltı. Customers can book via voice or text, pay the driver on arrival, and choose from a fleet of vetted drivers. The platform also provides a blog with travel guides and a 2026 price list.",
+     "score": 31.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 55.1,
+      "contract_governance": 22.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.7,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 34.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "unknown",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 9
     },
     {
      "name": "RuhAN",
@@ -453,8 +514,8 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -485,9 +546,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -497,31 +559,32 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "servicebox-io",
      "slug": "servicebox-io",
      "description": "ServiceBox.io provides a suite of APIs delivering global and local data for Europe and Turkey, covering markets, weather, geography, and more. The platform offers developers easy access to real-time and historical datasets, with comprehensive documentation, sandbox environments, and flexible pricing plans, enabling integration into applications across industries.",
-     "score": 22.3,
+     "screenshot": "https://artifacts.apis.io/servicebox-io/screenshots/servicebox-io-2026-11-03T143048.png",
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 39.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 62.6
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 48.7
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 15.7,
+      "score": 13.7,
       "matched_via": "fallback"
      },
      "agent_score": 18.2,
@@ -547,32 +610,34 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Midas",
      "slug": "getmidas-com",
      "description": "Midas, kullanıcıların Borsa İstanbul, Amerikan borsaları, Avrupa borsaları, yatırım fonları, kripto varlıklar, VİOP, opsiyon piyasası, varantlar ve emtialar gibi farklı yatırım araçlarına tek bir uygulama üzerinden erişmesini sağlayan bir yatırım platformudur. 2020 yılında kurulmuş ve İstanbul, Türkiye merkezli bir fintech şirketidir. Platform, hem bireysel hem kurumsal yatırımcılara kapsamlı piyasa verileri, alım satım hizmetleri ve eğitim içerikleri sunar.",
-     "score": 19.8,
+     "screenshot": "https://artifacts.apis.io/getmidas-com/screenshots/getmidas-com-2026-11-03T132729.png",
+     "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.1,
+      "discoverability": 64.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 44.7
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 8.3,
+      "access_clarity": 22.4
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
-      "score": 27.8,
+      "score": 24.1,
       "matched_via": "weak_tags"
      },
      "agent_score": 2.5,
@@ -598,58 +663,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 11
-    },
-    {
-     "name": "Butterball",
-     "slug": "butterball",
-     "description": "Butterball is a leading turkey producer in the United States, offering a wide range of turkey products for holidays and everyday meals. The company provides recipes, cooking guides, and product information through its website, helping consumers prepare delicious turkey dishes. Butterball emphasizes quality, sustainability, and community involvement, with resources for food safety, cooking tips, and charitable initiatives.",
-     "score": 12.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 44.6,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 3.1,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 12
     }
@@ -660,27 +675,27 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Fazla Gida",
      "slug": "fazla-gida",
      "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
      "screenshot": "https://artifacts.apis.io/fazla-gida/screenshots/fazla-gida-2026-07-25T214323.png",
-     "score": 10.2,
+     "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 23.7
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -711,16 +726,70 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 13
+    },
+    {
+     "name": "Butterball",
+     "slug": "butterball",
+     "description": "Butterball is a leading turkey producer in the United States, offering a wide range of turkey products for holidays and everyday meals. The company provides recipes, cooking guides, and product information through its website, helping consumers prepare delicious turkey dishes. Butterball emphasizes quality, sustainability, and community involvement, with resources for food safety, cooking tips, and charitable initiatives.",
+     "screenshot": "https://artifacts.apis.io/butterball/screenshots/butterball-2026-11-03T122822.png",
+     "score": 7.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.7,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 14
     },
     {
      "name": "KAMI",
      "slug": "kami",
      "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
      "screenshot": "https://artifacts.apis.io/kami/screenshots/kami-2026-07-25T223440.png",
-     "score": 9.2,
+     "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -729,10 +798,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "access_clarity": 23.7
+      "access_clarity": 17.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -763,9 +832,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Peoplise",
@@ -783,8 +853,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Employment & Payroll",
@@ -815,15 +885,69 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 15
+     "rank": 16
+    },
+    {
+     "name": "AHM Transfer",
+     "slug": "ahmtransfer-com",
+     "description": "AHM Transfer provides VIP airport transfer services in Alanya, Antalya, and Gazipaşa, offering fixed per‑vehicle pricing for routes such as Gazipaşa Airport to Alanya Center (€45) and Antalya Airport to Side (€45). Customers can quickly reserve via WhatsApp, with 24/7 service and a fleet of comfortable vehicles. The company emphasizes reliable, door‑to‑door transportation for travelers seeking convenient, premium transfers between major Turkish airports and resort destinations.",
+     "score": 6.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 3.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 17
     },
     {
      "name": "Boruspanprecision",
      "slug": "boruspanprecision",
      "description": "Boruspanprecision is a precision engineering subsidiary of Borusan Holding, specializing in high‑accuracy pipe and component manufacturing for industrial and automotive sectors. The company offers advanced machining services, custom‑made precision profiles, and engineering consultancy, leveraging Borusan’s extensive manufacturing network and sustainability initiatives. It serves global clients with a focus on quality, innovation, and environmental responsibility.",
-     "score": 6.3,
+     "screenshot": "https://artifacts.apis.io/boruspanprecision/screenshots/boruspanprecision-2026-11-03T122330.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -831,16 +955,68 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
       "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 18
+    },
+    {
+     "name": "BOZFIX",
+     "slug": "bozfix-com",
+     "description": "BOZFIX is a free service platform based in Antalya, Turkey, connecting customers with verified local craftsmen, service providers, and motorcycle couriers. The platform offers transparent pricing, 24/7 emergency assistance, and a 30‑day guarantee on work. It supports multiple languages and provides a searchable marketplace for services like electricians, plumbers, and more, without taking a commission from providers.",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 1.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
       "matched_via": "fallback"
      },
      "agent_score": 3.1,
@@ -866,9 +1042,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 16
+     "rank": 19
     },
     {
      "name": "Rasyonet",
@@ -886,8 +1063,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -918,14 +1095,16 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 17
+     "rank": 20
     },
     {
      "name": "Meteoroloji Genel Mudurlugu",
      "slug": "mgm",
      "description": "Meteoroloji Genel Müdürlüğü (MGM) is Turkey’s national meteorological service, providing weather forecasts, climate data, and atmospheric observations for the public, aviation, maritime, agriculture, and emergency management sectors. The agency offers real‑time weather maps, forecasts, warnings, and historical climate datasets through its web portal and APIs, supporting developers and researchers in building weather‑aware applications.",
+     "screenshot": "https://artifacts.apis.io/mgm/screenshots/mgm-2026-11-03T135555.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -937,8 +1116,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -946,13 +1125,13 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 3.1,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -969,28 +1148,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 18
+     "rank": 21
     },
     {
      "name": "MNT-Halan",
      "slug": "mnt-halan",
      "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
      "screenshot": "https://artifacts.apis.io/mnt-halan/screenshots/mnt-halan-2026-06-20T185648.png",
-     "score": 3.4,
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1021,9 +1201,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 19
+     "rank": 22
     }
    ]
   }

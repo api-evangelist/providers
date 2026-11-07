@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.5
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: HTTP surface exposed by the AgentSea NestJS module (@lov3kaizen/agentsea-nestjs) when enableRestApi/enableWebSocket are set. Documented operations are GET /agents, GET /agents/:name, POST /agents/:nam
@@ -176,9 +177,9 @@ rate_limits:
   slug: agentsea-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,8 +192,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 69.0
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 25.4
+    operational_transparency: 18.4
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -202,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

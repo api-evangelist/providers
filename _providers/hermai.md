@@ -1,8 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -14,8 +26,9 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
-    openapi_examples: verified
+    mcp_server: false
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
@@ -24,13 +37,11 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-31'
+  score: 30.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
-- baseURL: https://api.hermai.ai
-  baseurl_source: declared
-  description: Branding and marketing tools API
+- description: Branding and marketing tools API
   name: Hermai Brand API
   slug: hermai-brand-api
 - baseURL: https://api.hermai.ai
@@ -182,7 +193,7 @@ modified: '2026-10-17'
 name: Hermai Brand API
 nav: Providers
 network: true
-overview: 'Hermai Brand API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Hermai Brand API and Hermai Agent-Native API API. Tagged areas include Company, Branding, Marketing, and Software-as-a-Service.
+overview: 'Hermai Brand API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Hermai Agent-Native API API, and 1 more. Tagged areas include Company, Branding, Marketing, and Software-as-a-Service.
 
 
   The Hermai Brand API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -209,41 +220,39 @@ rules:
   slug: hermai-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 40.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 22.0
-    contract_quality: 60.5
-    developer_ergonomics: 50.0
-    discoverability: 57.1
-    operational_transparency: 5.3
+    contract_quality: 51.0
+    developer_ergonomics: 31.0
+    discoverability: 64.3
+    operational_transparency: 2.6
+  previous_composite: 53.2
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
     mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/hermai/hermai-2026-11-03T133352.png
 security:
 - kind: authentication
   name: Hermai Authentication

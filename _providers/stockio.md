@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://www.stockio.com'', ''status'': 301, ''note'': ''declared website redirects to https://urbanfonts.com/ — a different registrable domain (stockio.com -> urbanfonts.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for searching and downloading free stock photos, vectors, icons, videos, and fonts for commercial and personal use projects without attribution requirements.
@@ -123,32 +125,32 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 12.6
+  band: minimal
+  composite: 9.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 15.8
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 6.0
     discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 12.6
+    operational_transparency: 13.2
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

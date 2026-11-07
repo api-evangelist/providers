@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-31'
+  score: 15.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: An undocumented Model Context Protocol server operated by Copper at mcp.getcopper.com. The host publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at /.well-known/oauth-authorization-server de
@@ -137,7 +141,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.8
+  composite: 21.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -151,7 +155,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -160,7 +164,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.8
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,8 +174,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

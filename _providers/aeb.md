@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +24,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.5
-  scored_at: '2026-10-31'
+  score: 25.1
+  scored_at: '2026-11-06'
 api_count: 11
 apis:
 - baseURL: https://rz3.aeb.de/test2ici/rest
@@ -363,7 +373,7 @@ apis:
   description: All Haufe x360 specific APIs to interact with the BSM.
   name: AEB X360 API
   slug: aeb-x360-api
-artifact_total: 78
+artifact_total: 79
 collections:
 - collection_type: open
   name: BSM (TEST2) HTTP API
@@ -468,26 +478,42 @@ network: true
 overview: 'AEB publishes 67 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delivery API, Billing API, Billing Scenario API, and 64 more. Tagged areas include Logistics, Supply Chain, Germany, Customs, and Trade Compliance.
 
 
+  The AEB catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   AEB''s developer surface includes documentation, changelog, engineering blog, pricing, and 10 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: AEB API Rules
+  rule_count: 54
+  severity_counts:
+    error: 32
+    hint: 0
+    info: 1
+    warn: 21
+  slug: aeb-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 35.1
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 40.0
+    artifact_dirs: 10
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
-    contract_quality: 46.8
+    contract_governance: 13.6
+    contract_quality: 48.6
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 21.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -496,12 +522,12 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 29.0
+  previous_composite: 32.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 32.8
       total: 67
   regulatory:
     applies: true
@@ -509,13 +535,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/aeb/aeb-2026-08-07T160936.png
 slug: aeb
 tags:

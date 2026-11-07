@@ -1,8 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
@@ -24,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-31'
+  score: 28.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -219,7 +233,7 @@ modified: '2026-10-30'
 name: imbawallet-com
 nav: Providers
 network: true
-overview: 'imbawallet-com publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Balance API, Cards API, and 3 more. Tagged areas include FinTech, Payments, Cryptocurrency, VirtualCards, and Wallet.
+overview: 'imbawallet-com publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Balance API, Cards API, and 3 more. Tagged areas include Fintech, Payments, Cryptocurrency, Virtual Cards, and Wallets.
 
 
   The imbawallet-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -254,22 +268,30 @@ scopes:
   slug: imbawallet-com-scopes
   summary_line: 16 scopes
 score:
-  band: developing
-  composite: 42.7
+  band: thin
+  composite: 35.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 63.8
     catalog_earned_first_party: 12.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 17.4
     contract_quality: 51.7
-    developer_ergonomics: 54.8
-    discoverability: 66.1
+    developer_ergonomics: 33.3
+    discoverability: 73.2
     operational_transparency: 31.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -282,13 +304,14 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/imbawallet-com/imbawallet-com-2026-11-03T133659.png
 security:
 - kind: authentication
   name: Imbawallet Com Authentication
@@ -300,10 +323,10 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: imbawallet-com
 tags:
-- FinTech
+- Fintech
 - Payments
 - Cryptocurrency
-- VirtualCards
-- Wallet
+- Virtual Cards
+- Wallets
 website: https://imbawallet.com/
 ---

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,7 +126,7 @@ modified: '2026-10-25'
 name: Octa
 nav: Providers
 network: true
-overview: 'Octa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Accounting, SaaS, and Workforce.
+overview: 'Octa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, Software-as-a-Service, and Workforce.
 
 
   Octa''s developer surface includes support, pricing, changelog, engineering blog, and 12 more developer resources.'
@@ -124,22 +136,24 @@ plans:
   slug: weareocta-com-plans-pricing
 random_paper: 23
 score:
-  band: thin
-  composite: 29.3
+  band: emerging
+  composite: 22.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 13
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 48.2
-    operational_transparency: 31.6
+    developer_ergonomics: 3.6
+    discoverability: 55.4
+    operational_transparency: 15.8
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -152,13 +166,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/weareocta-com/weareocta-com-2026-11-03T150025.png
 security:
 - kind: domain-security
   name: Weareocta Com Domain Security
@@ -171,9 +187,9 @@ security:
 slug: weareocta-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Workforce
 website: https://weareocta.com
 ---

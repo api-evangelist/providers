@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -25,7 +26,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-31'
+  score: 35.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -91,7 +93,7 @@ apis:
   description: The Video API from Algebras AI Inc. — 2 operation(s) for video.
   name: Algebras AI Inc. Video API
   slug: algebras-ai-inc-video-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: Algebras Authentication API
@@ -276,6 +278,9 @@ network: true
 overview: 'Algebras AI publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Inc. Authentication API, Inc. Common API, Inc. Glossaries API, and 6 more. Tagged areas include Company, Translation, Localization, Internationalization, and Artificial Intelligence.
 
 
+  The Algebras AI catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Algebras AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Algebras Ai Inc Plans Pricing
@@ -285,25 +290,38 @@ plans:
   plan_count: 0
   slug: algebras-ai-inc-price-estimates
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Algebras AI API Rules
+  rule_count: 51
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 3
+    warn: 7
+  slug: algebras-ai-inc-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 51.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.4
   facets:
-    access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 47.8
-    developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 51.2
+    access_clarity: 67.1
+    contract_governance: 18.2
+    contract_quality: 48.6
+    developer_ergonomics: 69.0
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,13 +338,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/algebras-ai-inc/algebras-ai-inc-2026-07-25T195603.png
 security:
 - kind: authentication

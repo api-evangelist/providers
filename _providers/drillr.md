@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.1
-  scored_at: '2026-10-31'
+  score: 54.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,7 +111,7 @@ apis:
   description: Industry inflections, enterprise AI adoption and cross-source news search
   name: drillr Public Data API Signal API
   slug: drillr-signal-api
-artifact_total: 22
+artifact_total: 23
 common:
 - group: other
   href: https://artifacts.apis.io/drillr/capabilities/drillr-capability-edges.yml
@@ -248,6 +265,9 @@ network: true
 overview: 'drillr publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Public Data API Analyst API, Public Data API Company API, Public Data API Contract API, and 9 more. Tagged areas include Financial Data, Stocks, SEC Filings, Fundamentals, and Earnings.
 
 
+  The drillr catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   drillr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 21 more developer resources.'
 plans:
 - name: Drillr Plans Pricing
@@ -261,32 +281,45 @@ rate_limits:
 - limit_count: 1
   name: Drillr Rate Limits
   slug: drillr-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 116
+  extends:
+  - spectral:oas
+  name: drillr API Rules
+  rule_count: 75
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 1
+    warn: 10
+  slug: drillr-rules
 score:
   band: strong
-  composite: 56.4
+  composite: 57.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 58.0
+    artifact_dirs: 30
+    catalog_earned: 62.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.5
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 53.8
+    access_clarity: 71.1
+    contract_governance: 31.8
+    contract_quality: 59.7
     developer_ergonomics: 58.9
-    discoverability: 61.7
+    discoverability: 71.7
     operational_transparency: 36.8
-  previous_composite: 54.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 11
     mcp: first-party
     skills: derived
@@ -296,13 +329,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/drillr/drillr-2026-10-11T103916.png
 security:
 - kind: authentication

@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -27,18 +31,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.1
-  scored_at: '2026-10-31'
+  score: 60.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -73,7 +78,7 @@ apis:
   description: The webhooks API from Airweave — 5 operation(s) for webhooks.
   name: Airweave Webhooks API
   slug: airweave-webhooks-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Airweave Webhooks
@@ -271,7 +276,7 @@ network: true
 overview: 'Airweave publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, collections > search API, Source Connections API, and 2 more. Tagged areas include Company, Artificial Intelligence, Search, RAG, and Retrieval.
 
 
-  The Airweave catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Airweave catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Airweave''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 26 more developer resources.'
@@ -287,32 +292,45 @@ rate_limits:
 - limit_count: 3
   name: Airweave Rate Limits
   slug: airweave-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Airweave API Rules
+  rule_count: 53
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 2
+    warn: 7
+  slug: airweave-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 59.2
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 64.0
+    artifact_dirs: 33
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 54.6
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 63.1
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 44.7
-  previous_composite: 57.5
+    discoverability: 75.0
+    operational_transparency: 42.1
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: first-party
     skills: derived
@@ -322,13 +340,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/airweave/airweave-2026-07-25T195446.png
 security:
 - kind: authentication

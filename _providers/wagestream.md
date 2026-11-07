@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,7 +73,7 @@ apis:
   description: Operations relating to Shifts
   name: Wagestream Shifts API
   slug: wagestream-shifts-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Wagestream Integrations Absences API
@@ -241,26 +242,42 @@ network: true
 overview: 'Wagestream publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Employees API, Enrollment API, and 2 more. Tagged areas include Financial Wellbeing, Earned Wage Access, Fintech, Payroll, and Human Resources.
 
 
+  The Wagestream catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Wagestream API Rules
+  rule_count: 61
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 3
+    warn: 3
+  slug: wagestream-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 50.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
+    access_clarity: 42.1
+    contract_governance: 31.8
     contract_quality: 49.8
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 21.1
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -269,7 +286,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 48.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,13 +303,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/wagestream/wagestream-2026-08-17T082831.png
 security:
 - kind: authentication

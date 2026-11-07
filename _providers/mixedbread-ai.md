@@ -27,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.7
-  scored_at: '2026-10-31'
+  score: 51.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -466,9 +467,9 @@ rules:
   slug: mixedbread-ai-rules
 score:
   band: developing
-  composite: 49.1
+  composite: 53.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 73.5
     catalog_earned_first_party: 12.0
     catalog_gap: 41.5
@@ -478,9 +479,9 @@ score:
   facets:
     access_clarity: 63.2
     contract_governance: 13.6
-    contract_quality: 56.8
+    contract_quality: 59.5
     developer_ergonomics: 63.1
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -490,7 +491,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 49.1
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -505,13 +506,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/mixedbread-ai/mixedbread-ai-2026-08-17T124213.png
 security:
 - kind: authentication

@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,10 +37,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
+- group: other
+  href: https://artifacts.apis.io/gannett/hosts/gannett-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/gannett-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/gannett/vendors/gannett-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/gannett-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.usatodayco.com/leadership/
 - group: auth
   href: https://artifacts.apis.io/gannett/security/gannett-vulnerability-disclosure.yml
   title: ''
@@ -57,11 +74,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/gannett-well-known.yml
-- group: auth
-  href: https://artifacts.apis.io/gannett/well-known/gannett-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/gannett-security.txt
 - group: agent
   href: https://artifacts.apis.io/gannett/llms/gannett-llms.txt
   title: ''
@@ -82,10 +94,6 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/gannett-rate-limits.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/gannett
 - group: company
   title: ''
   type: Website
@@ -164,7 +172,7 @@ network: true
 overview: 'Gannett is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, News, Publishing, Journalism, and Digital Marketing.
 
 
-  Gannett''s developer surface includes engineering blog, product news, and 20 more developer resources.'
+  Gannett''s developer surface includes engineering blog, product news, and 21 more developer resources.'
 plans:
 - name: Gannett Plans Pricing
   plan_count: 0
@@ -176,23 +184,23 @@ rate_limits:
   slug: gannett-rate-limits
 score:
   band: emerging
-  composite: 17.3
+  composite: 16.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 58.0
     operational_transparency: 10.5
-  previous_composite: 17.3
+  previous_composite: 16.6
   provenance:
     conformance: first-party
   regulatory:
@@ -201,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,4 +1,22 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-31'
+  score: 30.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST over Datafordeler — BBR ejendom (BFE-keyed), Matriklen, DAGI, DHM, Stednavne, DAR address resolution, and CVR company lookup; translated kodelister, WGS84 geometry, and a property-keyed batch.
@@ -210,7 +229,7 @@ modified: '2026-10-30'
 name: grundfast-dk
 nav: Providers
 network: true
-overview: 'grundfast-dk publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Grundfast API. Tagged areas include RealEstate, Geodata, API, Denmark, and Compatibility.
+overview: 'grundfast-dk publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Grundfast API. Tagged areas include Real Estate, Geodata, Denmark, and Compatibility.
 
 
   The grundfast-dk catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -245,34 +264,50 @@ scopes:
   slug: grundfast-dk-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.6
+  band: developing
+  composite: 45.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 90.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 24.7
+    artifact_dirs: 29
+    catalog_earned: 72.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.5
   facets:
-    access_clarity: 38.9
-    contract_governance: 79.1
+    access_clarity: 36.8
+    contract_governance: 22.0
     contract_quality: 38.7
-    developer_ergonomics: 68.3
-    discoverability: 65.0
-    operational_transparency: 75.8
+    developer_ergonomics: 46.9
+    discoverability: 56.7
+    operational_transparency: 60.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - denmark
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 53.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/grundfast-dk/grundfast-dk-2026-11-03T133109.png
 security:
 - kind: authentication
   name: Grundfast Dk Authentication
@@ -292,9 +327,8 @@ skills:
   slug: grundfast-SKILL
 slug: grundfast-dk
 tags:
-- RealEstate
+- Real Estate
 - Geodata
-- API
 - Denmark
 - Compatibility
 website: https://grundfast.dk/

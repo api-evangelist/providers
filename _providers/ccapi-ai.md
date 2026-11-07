@@ -1,11 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -16,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-10-31'
+  score: 36.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -241,7 +252,7 @@ modified: '2026-10-30'
 name: ccapi-ai
 nav: Providers
 network: true
-overview: 'ccapi-ai publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including CCAPI Image Upscale API, Claude / Anthropic LLM Integration API, DeepSeek LLM Integration API, and 17 more. Tagged areas include Company, AI, API, Gateway, and Models.
+overview: 'ccapi-ai publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including CCAPI Image Upscale API, Claude / Anthropic LLM Integration API, DeepSeek LLM Integration API, and 17 more. Tagged areas include Company, Artificial Intelligence, Gateways, Models, and Platform.
 
 
   The ccapi-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -276,34 +287,47 @@ scopes:
   slug: ccapi-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.3
+  band: thin
+  composite: 32.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 68.7
+    artifact_dirs: 29
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.6
   facets:
-    access_clarity: 34.2
-    contract_governance: 79.1
-    contract_quality: 53.4
-    developer_ergonomics: 31.0
+    access_clarity: 17.1
+    contract_governance: 22.0
+    contract_quality: 56.5
+    developer_ergonomics: 21.4
     discoverability: 65.0
     operational_transparency: 0.0
+  previous_composite: 38.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/ccapi-ai/ccapi-ai-2026-11-03T123539.png
 security:
 - kind: authentication
   name: Ccapi Ai Authentication
@@ -316,9 +340,8 @@ security:
 slug: ccapi-ai
 tags:
 - Company
-- AI
-- API
-- Gateway
+- Artificial Intelligence
+- Gateways
 - Models
 - Platform
 website: https://ccapi.ai/

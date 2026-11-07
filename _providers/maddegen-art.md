@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 35.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -40,7 +52,57 @@ apis:
   description: The Pump Cortex API from maddegen-art — 4 operation(s) for pump cortex.
   name: maddegen-art Pump Cortex API
   slug: maddegen-art-pump-cortex-api
-artifact_total: 10
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Chain Cortex API from maddegen-art — 17 operation(s) for chain cortex.
+  name: maddegen-art Chain Cortex API
+  slug: maddegen-art-chain-cortex-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Forensics Lobe API from maddegen-art — 4 operation(s) for forensics lobe.
+  name: maddegen-art Forensics Lobe API
+  slug: maddegen-art-forensics-lobe-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Hub API from maddegen-art — 5 operation(s) for hub.
+  name: maddegen-art Hub API
+  slug: maddegen-art-hub-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Knowledge Cortex API from maddegen-art — 7 operation(s) for knowledge cortex.
+  name: maddegen-art Knowledge Cortex API
+  slug: maddegen-art-knowledge-cortex-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Liquidity Lobe API from maddegen-art — 3 operation(s) for liquidity lobe.
+  name: maddegen-art Liquidity Lobe API
+  slug: maddegen-art-liquidity-lobe-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Market Stem API from maddegen-art — 7 operation(s) for market stem.
+  name: maddegen-art Market Stem API
+  slug: maddegen-art-market-stem-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Risk Amygdala API from maddegen-art — 6 operation(s) for risk amygdala.
+  name: maddegen-art Risk Amygdala API
+  slug: maddegen-art-risk-amygdala-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Utility Cerebellum API from maddegen-art — 10 operation(s) for utility cerebellum.
+  name: maddegen-art Utility Cerebellum API
+  slug: maddegen-art-utility-cerebellum-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The Web Senses API from maddegen-art — 8 operation(s) for web senses.
+  name: maddegen-art Web Senses API
+  slug: maddegen-art-web-senses-api
+- baseURL: https://augur-trade.com
+  baseurl_source: declared
+  description: The World Map API from maddegen-art — 8 operation(s) for world map.
+  name: maddegen-art World Map API
+  slug: maddegen-art-world-map-api
+artifact_total: 20
 common:
 - group: agent
   href: https://artifacts.apis.io/maddegen-art/agentic-access/maddegen-art-agentic-access.yml
@@ -118,7 +180,7 @@ modified: '2026-10-29'
 name: maddegen-art
 nav: Providers
 network: true
-overview: 'maddegen-art publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Pump Cortex API. Tagged areas include Company.
+overview: 'maddegen-art publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Pump Cortex API, Chain Cortex API, Forensics Lobe API, and 8 more. Tagged areas include Company.
 
 
   The maddegen-art catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -146,7 +208,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 27.0
+  composite: 26.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 32.8
@@ -154,13 +216,21 @@ score:
     catalog_gap: 82.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.3
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 49.0
-    developer_ergonomics: 27.9
-    discoverability: 48.2
+    contract_quality: 51.5
+    developer_ergonomics: 23.1
+    discoverability: 55.4
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,12 +247,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Maddegen Art Authentication

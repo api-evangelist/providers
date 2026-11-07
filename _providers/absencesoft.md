@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API-first REST API powering leave and accommodations case management, employee data, employer configuration, and communications. OpenAPI 3.1, OAuth2 (password and client credentials flows), HTTPS-only
@@ -145,9 +150,9 @@ overview: 'AbsenceSoft is listed with 1 API on the [APIs.io](https://apis.io/) n
 random_paper: 13
 score:
   band: thin
-  composite: 37.5
+  composite: 38.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -159,9 +164,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 38.2
   provenance:
     conformance: first-party
   regulatory:
@@ -170,8 +175,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

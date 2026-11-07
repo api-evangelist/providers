@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +28,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-31'
+  score: 39.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -1030,7 +1034,7 @@ apis:
   description: The Secrets API from Laravel — 3 operation(s) for secrets.
   name: Laravel Secrets API
   slug: laravel-secrets-api
-artifact_total: 139
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Laravel Webhooks
@@ -1506,7 +1510,7 @@ network: true
 overview: 'Laravel publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Background Processes API, Backups API, and 42 more. Tagged areas include Company, Cloud Saas, PHP, Developer Tools, and Platform-as-a-Service.
 
 
-  The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 38 more developer resources.'
@@ -1522,6 +1526,19 @@ rate_limits:
 - limit_count: 1
   name: Laravel Rate Limits
   slug: laravel-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Laravel API Rules
+  rule_count: 56
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 5
+    warn: 11
+  slug: laravel-rules
 scopes:
 - name: Laravel Scopes
   scope_count: 62
@@ -1529,29 +1546,29 @@ scopes:
   summary_line: 62 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.9
+  composite: 72.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 60.0
+    artifact_dirs: 32
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.4
   facets:
-    access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 58.1
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 61.3
     developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 84.2
-  previous_composite: 70.3
+    discoverability: 73.2
+    operational_transparency: 81.6
+  previous_composite: 72.4
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 40.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 31.7
       total: 60
     mcp: first-party
     skills: derived
@@ -1561,13 +1578,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/laravel/laravel-2026-07-25T224538.png
 security:
 - kind: authentication

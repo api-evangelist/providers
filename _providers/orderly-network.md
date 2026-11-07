@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,18 +26,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-31'
+  score: 36.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 4
@@ -65,7 +68,7 @@ apis:
   description: The public API from Orderly Network — 97 operation(s) for public.
   name: Orderly Network Public API
   slug: orderly-network-public-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: Real-time WebSocket streams for Orderly Network. Public streams carry market data (orderbook, trades, ticker, klines); private streams carry authenticated account, balance, position, and execution-rep
   name: Orderly Network WebSocket API
@@ -239,30 +242,43 @@ network: true
 overview: 'Orderly Network publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Client API, Private API, and 1 more. Tagged areas include Company, Cryptocurrency, DeFi, Trading, and Perpetual Futures.
 
 
-  The Orderly Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Orderly Network catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 23 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Orderly Network API Rules
+  rule_count: 45
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 1
+    warn: 10
+  slug: orderly-network-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 45.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 49.9
+    contract_governance: 18.2
+    contract_quality: 50.3
     developer_ergonomics: 80.4
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 43.9
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,13 +295,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/orderly-network/orderly-network-2026-08-07T190918.png
 security:
 - kind: authentication

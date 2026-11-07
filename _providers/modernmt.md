@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -26,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Lara is an adaptive translation AI platform offering translation, audio, document, and language detection APIs.
@@ -193,7 +205,7 @@ modified: '2026-10-27'
 name: ModernMT
 nav: Providers
 network: true
-overview: 'ModernMT is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Translation, API, and Multilingual.
+overview: 'ModernMT is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Translation, and Multilingual.
 
 
   The ModernMT catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -221,28 +233,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.8
+  composite: 27.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.8
+    artifact_dirs: 28
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 24.7
-    developer_ergonomics: 59.5
-    discoverability: 56.7
+    contract_quality: 26.8
+    developer_ergonomics: 36.9
+    discoverability: 51.7
     operational_transparency: 0.0
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 9
+      derived: 1
       marker_coverage: 100.0
-      total: 9
+      total: 1
     mcp: first-party
     skills: unknown
   regulatory:
@@ -250,13 +264,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/modernmt/modernmt-2026-11-03T135747.png
 security:
 - kind: authentication
   name: Modernmt Authentication
@@ -275,9 +290,8 @@ skills:
 slug: modernmt
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Translation
-- API
 - Multilingual
 website: https://www.modernmt.com/
 ---

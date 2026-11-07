@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Freemium
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: The Traceloop SDK is the developer-facing entry point for OpenLLMetry. A single Traceloop.init() call configures OpenTelemetry, registers all available LLM/vector-DB/framework instrumentations, and st
@@ -149,8 +152,8 @@ plans:
   slug: openllmetry-plans-pricing
 random_paper: 11
 score:
-  band: emerging
-  composite: 23.9
+  band: thin
+  composite: 29.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 43.0
@@ -163,18 +166,21 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 33.3
     discoverability: 62.5
     operational_transparency: 31.6
-  previous_composite: 23.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 29.1
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

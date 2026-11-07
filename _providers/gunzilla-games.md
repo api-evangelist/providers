@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The public Ethereum-compatible JSON-RPC endpoint for the GUNZ L1 chain, an Avalanche subnet running Subnet-EVM. It inherits the full EVM API surface of an Ethereum node (eth_*, net_*, web3_*), plus th
@@ -211,7 +212,7 @@ rate_limits:
   slug: gunzilla-games-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 44.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -225,9 +226,9 @@ score:
     contract_governance: 18.2
     contract_quality: 51.0
     developer_ergonomics: 54.2
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 44.0
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -238,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

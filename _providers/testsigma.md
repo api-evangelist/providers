@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API to manage Testsigma entities (projects, applications, environments, elements, uploads, test plans) and to trigger and poll test-plan executions remotely. Authenticated with a Bearer API Key.
@@ -215,9 +217,9 @@ plans:
 random_paper: 17
 score:
   band: developing
-  composite: 48.2
+  composite: 47.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -230,8 +232,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 66.1
-    operational_transparency: 47.4
-  previous_composite: 48.2
+    operational_transparency: 44.7
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -247,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

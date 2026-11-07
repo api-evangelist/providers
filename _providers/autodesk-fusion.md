@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 3
@@ -225,7 +230,7 @@ apis:
   description: The Versions API from Autodesk Fusion — 8 operation(s) for versions.
   name: Autodesk Fusion Versions API
   slug: autodesk-fusion-versions-api
-artifact_total: 79
+artifact_total: 80
 collections:
 - collection_type: open
   name: Construction.Account.Admin Account Management API
@@ -441,6 +446,9 @@ network: true
 overview: 'Autodesk Fusion publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Management API, Account Users API, Buckets API, and 34 more. Tagged areas include CAD, CAM, CAE, Manufacturing, and Design Automation.
 
 
+  The Autodesk Fusion catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Autodesk Fusion''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Autodesk Fusion Plans Pricing
@@ -451,6 +459,19 @@ rate_limits:
 - limit_count: 2
   name: Autodesk Fusion Rate Limits
   slug: autodesk-fusion-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Autodesk Fusion API Rules
+  rule_count: 62
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 5
+    warn: 17
+  slug: autodesk-fusion-rules
 scopes:
 - name: Autodesk Fusion Scopes
   scope_count: 14
@@ -458,23 +479,23 @@ scopes:
   summary_line: 14 scopes · clientCredentials/implicit/authorizationCode
 score:
   band: thin
-  composite: 33.1
+  composite: 36.6
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.0
+    artifact_dirs: 19
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
-    contract_quality: 48.5
+    contract_governance: 13.6
+    contract_quality: 50.0
     developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 26.3
-  previous_composite: 33.1
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -488,13 +509,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/autodesk-fusion/autodesk-fusion-2026-06-20T172708.png
 security:
 - kind: authentication

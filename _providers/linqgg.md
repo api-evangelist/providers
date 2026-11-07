@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
   public: true
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.4
-  scored_at: '2026-10-31'
+  score: 20.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
@@ -196,10 +202,10 @@ overview: 'Linq.gg is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 23 more developer resources.'
 random_paper: 18
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 41.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -209,11 +215,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 36.6
+    contract_quality: 24.0
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 31.6
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-31'
+  score: 23.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +97,7 @@ overview: 'Ergatta is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 0
 score:
   band: emerging
-  composite: 11.1
+  composite: 11.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -109,9 +111,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
+    discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 11.1
+  previous_composite: 11.5
   provenance:
     mcp: first-party
   regulatory:
@@ -120,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

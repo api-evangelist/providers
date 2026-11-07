@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: GraphQL API for programmatically querying and mutating content in BaseHub repositories. Authenticated via x-basehub-token header, with a TypeScript-native SDK that generates type-safe clients from the
@@ -98,7 +100,7 @@ modified: 2026-06-14
 name: BaseHub
 nav: Providers
 network: true
-overview: 'BaseHub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, AI-Native, and TypeScript.
+overview: 'BaseHub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, AI-native, and TypeScript.
 
 
   BaseHub''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -107,7 +109,7 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -128,8 +130,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -146,7 +148,7 @@ tags:
 - GraphQL
 - Headless CMS
 - Content Management
-- AI-Native
+- AI-native
 - TypeScript
 website: https://basehub.com
 ---

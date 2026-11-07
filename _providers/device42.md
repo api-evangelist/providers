@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 290
   human_in_the_loop: 1
@@ -418,7 +430,7 @@ finops:
 image: https://www.device42.com/wp-content/uploads/2024/06/D42-Freshworks.jpg
 json_schemas:
 - name: AppGroupCalcRuleGet
-  property_count: 0
+  property_count: 22
   slug: device42-app-group-calc-rule-get
 - name: AppGroupCalcTemplate
   property_count: 15
@@ -472,23 +484,23 @@ rules:
   slug: device42-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 39.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 62.7
-    developer_ergonomics: 54.2
-    discoverability: 69.6
-    operational_transparency: 5.3
-  previous_composite: 41.8
+    contract_quality: 64.1
+    developer_ergonomics: 33.9
+    discoverability: 67.9
+    operational_transparency: 2.6
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,14 +516,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 18.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
+screenshot: https://apis.io/screenshots/device42/device42-2026-11-03T130610.png
 security:
 - kind: authentication
   name: Device42 Authentication

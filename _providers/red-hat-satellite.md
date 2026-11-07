@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -568,9 +570,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
+  composite: 46.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -580,11 +582,14 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
-    contract_quality: 58.4
+    contract_quality: 61.8
     developer_ergonomics: 65.5
     discoverability: 48.2
-    operational_transparency: 52.6
-  previous_composite: 48.6
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -598,13 +603,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/red-hat-satellite/red-hat-satellite-2026-06-20T192721.png
 security:
 - kind: authentication

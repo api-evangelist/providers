@@ -1,32 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-31'
+  score: 35.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -76,6 +87,15 @@ apis:
   slug: woox-trade-api
 artifact_total: 20
 common:
+- group: build
+  href: https://artifacts.apis.io/woox/integrations/woox-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/woox-integration-edges.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://woox.io/login
 - group: other
   href: https://artifacts.apis.io/woox/capabilities/woox-capability-edges.yml
   title: ''
@@ -216,22 +236,22 @@ description: WOO X is a centralized cryptocurrency exchange offering spot, margi
 image: https://oss.woonetwork.org/static/woox/SEO_20240724.png
 json_schemas:
 - name: AccountInfoResponse
-  property_count: 0
+  property_count: 3
   slug: woox-account-info-response
 - name: CreateOrder
   property_count: 14
   slug: woox-create-order
 - name: GetAlgoOrderResponse
-  property_count: 0
+  property_count: 3
   slug: woox-get-algo-order-response
 - name: GetBalancesResponse
-  property_count: 0
+  property_count: 3
   slug: woox-get-balances-response
 - name: Stop bracket
-  property_count: 0
+  property_count: 15
   slug: woox-stop-bracket-stop-bracket
 - name: WalletHistoryResponse
-  property_count: 0
+  property_count: 3
   slug: woox-wallet-history-response
 jsonld:
 - class_count: 21
@@ -253,47 +273,47 @@ overview: 'WOO X publishes 8 API contracts indexed on the [APIs.io](https://apis
   The WOO X catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WOO X''s developer surface includes authentication, API reference, documentation, getting-started guide, changelog, engineering blog, support, and 20 more developer resources.'
+  WOO X''s developer surface includes authentication, API reference, documentation, getting-started guide, changelog, engineering blog, support, and 22 more developer resources.'
 random_paper: 5
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 103
   extends:
   - spectral:oas
   name: WOO X API Rules
-  rule_count: 11
+  rule_count: 62
   severity_counts:
-    error: 9
+    error: 53
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 7
   slug: woox-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 39.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 23
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 23.7
     contract_governance: 22.0
-    contract_quality: 61.4
-    developer_ergonomics: 57.1
-    discoverability: 66.7
-    operational_transparency: 15.8
-  previous_composite: 42.7
+    contract_quality: 69.0
+    developer_ergonomics: 34.5
+    discoverability: 75.8
+    operational_transparency: 7.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 7
     mcp: first-party
   regulatory:
@@ -301,14 +321,14 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/woox/woox-2026-11-03T150233.png
 security:
 - kind: authentication
   name: Woox Authentication

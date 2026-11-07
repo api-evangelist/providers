@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - baseURL: https://web.trailapp.com/api
@@ -78,7 +82,7 @@ apis:
   description: The Tasks API from Trail — 1 operation(s) for tasks.
   name: Trail Tasks API
   slug: trail-tasks-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: Areas API
@@ -265,6 +269,9 @@ network: true
 overview: 'Trail publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Areas API, Scores API, Sites API, and 5 more. Tagged areas include Company, Hospitality, Checklists, Task Management, and Compliance.
 
 
+  The Trail catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
 plans:
 - name: Trail Plans Pricing
@@ -275,6 +282,19 @@ rate_limits:
 - limit_count: 1
   name: Trail Rate Limits
   slug: trail-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Trail API Rules
+  rule_count: 58
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 2
+  slug: trail-rules
 scopes:
 - name: Trail Scopes
   scope_count: 4
@@ -282,29 +302,29 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.6
+  composite: 54.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 63.0
+    artifact_dirs: 27
+    catalog_earned: 67.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.0
   facets:
     access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 49.9
+    contract_governance: 18.2
+    contract_quality: 53.9
     developer_ergonomics: 49.4
-    discoverability: 71.4
-    operational_transparency: 57.9
-  previous_composite: 46.7
+    discoverability: 78.6
+    operational_transparency: 39.5
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 75.0
       total: 8
     mcp: derived
     skills: derived
@@ -314,13 +334,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/trail/trail-2026-08-17T082424.png
 security:
 - kind: authentication

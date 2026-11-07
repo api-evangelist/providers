@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
@@ -177,9 +178,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 28.1
+  composite: 28.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,9 +192,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 28.1
+    discoverability: 71.7
+    operational_transparency: 13.2
+  previous_composite: 28.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -203,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -237,8 +238,9 @@ tags:
 - Sales
 - Go-To-Market
 - MCP
-- Authentication
+- OAuth
 - Sales Intelligence
 - Enterprise Software
+- Authentication
 website: https://www.actively.ai/
 ---

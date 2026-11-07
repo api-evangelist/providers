@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-31'
+  score: 40.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +57,7 @@ apis:
   description: The CrimeoMeter Sex Offenders API — 2 published operations (record search and radius search) over US state sex offender registry data, transcribed from CrimeoMeter's public Postman collection.
   name: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Crimeometer Sex Offenders API
@@ -221,6 +222,9 @@ network: true
 overview: 'Sex Offenders API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Sex Offenders API, and 1 more. Tagged areas include Sex Offenders, Public Safety, Crime, Background Checks, and Criminal Justice.
 
 
+  The Sex Offenders API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Sex Offenders API''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Sex Offenders Api Plans Pricing
@@ -231,25 +235,38 @@ rate_limits:
 - limit_count: 0
   name: Sex Offenders Api Rate Limits
   slug: sex-offenders-api-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Sex Offenders API API Rules
+  rule_count: 62
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sex-offenders-api-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 46.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 65.8
-    contract_governance: 4.5
+    access_clarity: 59.2
+    contract_governance: 18.2
     contract_quality: 53.9
-    developer_ergonomics: 51.8
-    discoverability: 65.0
+    developer_ergonomics: 49.4
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 45.7
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,13 +283,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/sex-offenders-api/sex-offenders-api-2026-06-20T193740.png
 security:
 - kind: authentication

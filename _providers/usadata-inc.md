@@ -5,7 +5,11 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -23,18 +27,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.5
-  scored_at: '2026-10-31'
+  score: 19.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -187,10 +192,10 @@ rate_limits:
   name: Usadata Inc Rate Limits
   slug: usadata-inc-rate-limits
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 31.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -200,9 +205,9 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 35.1
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -211,7 +216,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.6
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -228,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -236,9 +241,9 @@ rate_limits:
   slug: waystar-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 43.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -251,8 +256,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 63.2
-  previous_composite: 44.3
+    operational_transparency: 60.5
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -262,8 +267,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -5,7 +5,11 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Artera's outbound SMS API, marketed to health systems and Artera Marketplace vendors as the SendMessage API. It sends real-time text messages to patients from the health system's trusted Artera number
@@ -246,9 +251,9 @@ rate_limits:
   slug: artera-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 50.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -259,10 +264,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 66.1
+    developer_ergonomics: 56.0
+    discoverability: 73.2
     operational_transparency: 57.9
-  previous_composite: 51.3
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -280,8 +285,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

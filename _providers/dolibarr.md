@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on an
@@ -139,9 +141,9 @@ rate_limits:
   slug: dolibarr-rate-limits
 score:
   band: emerging
-  composite: 15.3
+  composite: 15.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -152,18 +154,18 @@ score:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 10.7
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 15.3
+  previous_composite: 15.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

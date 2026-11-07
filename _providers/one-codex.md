@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-31'
+  score: 31.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -171,7 +172,7 @@ apis:
   description: The Workflows API from One Codex — 9 operation(s) for workflows.
   name: One Codex Workflows API
   slug: one-codex-workflows-api
-artifact_total: 60
+artifact_total: 61
 asyncapis:
 - description: ''
   name: One Codex Webhooks
@@ -436,7 +437,7 @@ network: true
 overview: 'One Codex publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Alignments API, Analyses API, and 22 more. Tagged areas include Company, Genomics, Microbiome, Bioinformatics, and Metagenomics.
 
 
-  The One Codex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The One Codex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   One Codex''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, authentication, and 29 more developer resources.'
@@ -445,32 +446,45 @@ plans:
   plan_count: 0
   slug: one-codex-plans-pricing
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: One Codex API Rules
+  rule_count: 54
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 2
+    warn: 3
+  slug: one-codex-rules
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 58.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 52.6
-    contract_governance: 18.2
-    contract_quality: 51.0
+    contract_governance: 31.8
+    contract_quality: 56.4
     developer_ergonomics: 68.5
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 53.3
+    discoverability: 73.2
+    operational_transparency: 36.8
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 25
     mcp: derived
     skills: derived
@@ -484,13 +498,12 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/one-codex/one-codex-2026-08-07T190241.png
 security:
 - kind: authentication

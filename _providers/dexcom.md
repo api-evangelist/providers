@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -529,10 +534,10 @@ scopes:
   slug: dexcom-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 32.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 70.0
     catalog_earned_first_party: 0.0
     catalog_gap: 45.0
@@ -543,10 +548,10 @@ score:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 30.8
-    developer_ergonomics: 63.1
+    developer_ergonomics: 25.0
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 40.6
+    operational_transparency: 7.9
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -560,13 +565,12 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dexcom/dexcom-2026-06-20T175957.png
 security:
 - kind: authentication

@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: medium
-  label: Enterprise
+  label: Paid
   onboarding: unknown
-  pricing: enterprise
+  pricing: paid
   public: false
   source:
   - plans
@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-31'
+  score: 20.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,7 +83,7 @@ apis:
   description: Real-time location updates and status milestones on a shipment.
   name: Turvo Tracking API
   slug: turvo-tracking-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Turvo Public Accounts API
@@ -187,6 +188,9 @@ network: true
 overview: 'Turvo publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Carriers API, and 4 more. Tagged areas include Logistics, Transportation Management System, TMS, Supply Chain, and Freight.
 
 
+  The Turvo catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Turvo''s developer surface includes engineering blog, pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Turvo Plans Pricing
@@ -200,25 +204,38 @@ rate_limits:
 - limit_count: 3
   name: Turvo Rate Limits
   slug: turvo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Turvo API Rules
+  rule_count: 59
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 3
+  slug: turvo-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 31.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 48.0
+    artifact_dirs: 17
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 31.6
-    contract_governance: 0.0
-    contract_quality: 51.5
-    developer_ergonomics: 32.1
+    access_clarity: 26.3
+    contract_governance: 13.6
+    contract_quality: 53.2
+    developer_ergonomics: 27.4
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 31.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -232,13 +249,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/turvo/turvo-2026-09-02T164550.png
 security:
 - kind: authentication

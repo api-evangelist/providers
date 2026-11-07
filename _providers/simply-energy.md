@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +94,7 @@ apis:
   description: Energy Plan endpoints
   name: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
-artifact_total: 20
+artifact_total: 41
 collections:
 - collection_type: open
   name: CDR Common API
@@ -102,6 +103,31 @@ collections:
   name: CDR Energy API
   slug: open-simply-energy-cds-energy
 common:
+- group: design
+  href: https://artifacts.apis.io/simply-energy/rules/simply-energy-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/simply-energy-rules.yml
+- group: design
+  href: https://artifacts.apis.io/simply-energy/json-ld/simply-energy-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/simply-energy-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/simply-energy/vocabulary/simply-energy-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/simply-energy-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/simply-energy/hosts/simply-energy-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/simply-energy-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/simply-energy/vendors/simply-energy-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/simply-energy-vendors.yml
 - group: other
   href: https://artifacts.apis.io/simply-energy/overlays/simply-energy-cds-energy-overlay.yaml
   title: ''
@@ -235,21 +261,11 @@ common:
   title: ''
   type: DataModel
   url: data-model/simply-energy-data-model.yml
-- group: build
-  href: https://artifacts.apis.io/simply-energy/packages/simply-energy-packages.yml
-  title: ''
-  type: Packages
-  url: packages/simply-energy-packages.yml
 - group: agent
   href: https://artifacts.apis.io/simply-energy/well-known/simply-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simply-energy-well-known.yml
-- group: auth
-  href: https://artifacts.apis.io/simply-energy/well-known/simply-energy-engie-group-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/simply-energy-engie-group-security.txt
 - group: auth
   href: https://artifacts.apis.io/simply-energy/security/simply-energy-vulnerability-disclosure.yml
   title: ''
@@ -260,11 +276,6 @@ common:
   type: Security
   url: https://www.engie.com/en/cert/
 - group: agent
-  href: https://artifacts.apis.io/simply-energy/llms/simply-energy-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/simply-energy-llms.txt
-- group: agent
   href: https://artifacts.apis.io/simply-energy/skills/_index.yml
   title: ''
   type: AgentSkill
@@ -272,6 +283,69 @@ common:
 created: '2026-07-27'
 description: Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live
   CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.
+json_schemas:
+- name: EnergyAccountDetailResponseV4
+  property_count: 3
+  slug: simply-energy-energy-account-detail-response-v4
+- name: EnergyAccountListResponseV2
+  property_count: 3
+  slug: simply-energy-energy-account-list-response-v2
+- name: EnergyBalanceListResponse
+  property_count: 3
+  slug: simply-energy-energy-balance-list-response
+- name: EnergyBalanceResponse
+  property_count: 3
+  slug: simply-energy-energy-balance-response
+- name: EnergyBillingListResponseV3
+  property_count: 3
+  slug: simply-energy-energy-billing-list-response-v3
+- name: EnergyConcessionsResponse
+  property_count: 3
+  slug: simply-energy-energy-concessions-response
+- name: EnergyDerDetailResponse
+  property_count: 3
+  slug: simply-energy-energy-der-detail-response
+- name: EnergyDerListResponse
+  property_count: 3
+  slug: simply-energy-energy-der-list-response
+- name: EnergyInvoiceListResponse
+  property_count: 3
+  slug: simply-energy-energy-invoice-list-response
+- name: EnergyPaymentScheduleResponse
+  property_count: 3
+  slug: simply-energy-energy-payment-schedule-response
+- name: EnergyPlanListResponse
+  property_count: 3
+  slug: simply-energy-energy-plan-list-response
+- name: EnergyPlanResponseV3
+  property_count: 3
+  slug: simply-energy-energy-plan-response-v3
+- name: EnergyServicePointDetailResponseV2
+  property_count: 3
+  slug: simply-energy-energy-service-point-detail-response-v2
+- name: EnergyServicePointListResponseV2
+  property_count: 3
+  slug: simply-energy-energy-service-point-list-response-v2
+- name: EnergyUsageListResponse
+  property_count: 3
+  slug: simply-energy-energy-usage-list-response
+- name: ResponseCommonCustomerDetailV2
+  property_count: 3
+  slug: simply-energy-response-common-customer-detail-v2
+- name: ResponseCommonCustomer
+  property_count: 3
+  slug: simply-energy-response-common-customer
+- name: ResponseCommonDiscoveryStatus
+  property_count: 3
+  slug: simply-energy-response-common-discovery-status
+- name: ResponseDiscoveryOutagesList
+  property_count: 3
+  slug: simply-energy-response-discovery-outages-list
+jsonld:
+- class_count: 120
+  name: Simply Energy Context
+  property_count: 302
+  slug: simply-energy-context
 layout: provider
 modified: '2026-09-16'
 name: Simply Energy
@@ -280,12 +354,28 @@ network: true
 overview: 'Simply Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 31 more developer resources.'
+  The Simply Energy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 33 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits
   slug: simply-energy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Simply Energy API Rules
+  rule_count: 66
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 8
+  slug: simply-energy-rules
 scopes:
 - name: Simply Energy Scopes
   scope_count: 13
@@ -293,22 +383,22 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.9
+  composite: 49.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 47.0
+    artifact_dirs: 30
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 21.1
-    contract_governance: 18.2
-    contract_quality: 44.7
+    contract_governance: 35.6
+    contract_quality: 58.3
     developer_ergonomics: 37.5
     discoverability: 62.5
-    operational_transparency: 81.6
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -316,7 +406,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 45.9
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,13 +423,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/simply-energy/simply-energy-2026-08-17T125320.png
 security:
 - kind: authentication

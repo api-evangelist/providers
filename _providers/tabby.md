@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise
-  onboarding: unknown
-  pricing: enterprise
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -12,12 +15,12 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -29,18 +32,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-31'
+  score: 41.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -640,21 +644,21 @@ rules:
   slug: tabby-rules
 score:
   band: exemplar
-  composite: 74.9
+  composite: 75.6
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 37
     catalog_earned: 87.0
     catalog_earned_first_party: 24.0
     catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -0.1
   facets:
     access_clarity: 84.2
     contract_governance: 45.5
-    contract_quality: 70.3
+    contract_quality: 72.3
     developer_ergonomics: 92.9
-    discoverability: 66.7
+    discoverability: 75.8
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -665,7 +669,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 76.5
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -682,13 +686,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tabby/tabby-2026-06-20T194846.png
 security:
 - kind: authentication

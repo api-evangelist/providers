@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +61,7 @@ apis:
   description: The Lookup API from Placekey — 1 operation(s) for lookup.
   name: Placekey Lookup API
   slug: placekey-lookup-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Placekey Bulk API
@@ -138,6 +142,9 @@ network: true
 overview: 'Placekey publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Bulk API and Lookup API. Tagged areas include Location, Geocoding, Address Matching, Identifiers, and POI.
 
 
+  The Placekey catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Placekey''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Placekey Plans Pricing
@@ -148,25 +155,38 @@ rate_limits:
 - limit_count: 4
   name: Placekey Rate Limits
   slug: placekey-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Placekey API Rules
+  rule_count: 55
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 1
+    warn: 1
+  slug: placekey-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 30.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 16
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 54.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 29.5
+    operational_transparency: 10.5
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -180,13 +200,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/placekey/placekey-2026-09-02T151351.png
 security:
 - kind: authentication

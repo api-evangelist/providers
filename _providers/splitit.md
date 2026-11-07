@@ -26,18 +26,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-31'
+  score: 37.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -295,9 +296,9 @@ rules:
   slug: splitit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.9
+  composite: 49.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 66.3
     catalog_earned_first_party: 12.0
     catalog_gap: 48.8
@@ -309,9 +310,9 @@ score:
     contract_governance: 9.8
     contract_quality: 59.0
     developer_ergonomics: 63.1
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 15.8
-  previous_composite: 49.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -326,13 +327,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/splitit/splitit-2026-06-20T194331.png
 security:
 - kind: authentication

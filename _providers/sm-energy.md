@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -174,9 +176,9 @@ rate_limits:
   slug: sm-energy-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 10.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 45.5
     catalog_earned_first_party: 0.0
     catalog_gap: 69.5
@@ -188,7 +190,7 @@ score:
     contract_governance: 13.6
     contract_quality: 6.7
     developer_ergonomics: 0.0
-    discoverability: 58.9
+    discoverability: 58.0
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -197,15 +199,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.3
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

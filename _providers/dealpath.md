@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.1
-  scored_at: '2026-10-31'
+  score: 17.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
@@ -142,9 +143,9 @@ rate_limits:
   slug: dealpath-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 28.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -156,9 +157,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 27.7
+    discoverability: 75.0
+    operational_transparency: 23.7
+  previous_composite: 28.3
   provenance:
     mcp: first-party
   regulatory:
@@ -167,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

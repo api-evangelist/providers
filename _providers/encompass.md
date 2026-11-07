@@ -1,13 +1,15 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - security
   - '{''url'': ''https://www.icemortgagetechnology.com/'', ''status'': 302, ''note'': ''declared website redirects to https://mortgagetech.ice.com/index — a different registrable domain (icemortgagetechnology.com -> ice.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -27,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -97,7 +100,7 @@ apis:
   description: Event subscriptions, resources, events, and custom auth functions.
   name: Encompass Webhooks API
   slug: encompass-webhooks-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Encompass Developer Connect Authentication API
@@ -224,6 +227,9 @@ network: true
 overview: 'Encompass publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Borrower Pairs API, Conditions API, and 7 more. Tagged areas include Mortgage, Loan Origination, LOS, Fintech, and ICE Mortgage Technology.
 
 
+  The Encompass catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Encompass'' developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Encompass Plans Pricing
@@ -234,6 +240,19 @@ rate_limits:
 - limit_count: 4
   name: Encompass Rate Limits
   slug: encompass-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Encompass API Rules
+  rule_count: 61
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 2
+  slug: encompass-rules
 scopes:
 - name: Encompass Scopes
   scope_count: 1
@@ -243,21 +262,21 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 17
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 46.2
-    developer_ergonomics: 40.5
+    contract_governance: 13.6
+    contract_quality: 48.7
+    developer_ergonomics: 34.5
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 30.0
+    operational_transparency: 10.5
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -271,13 +290,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/encompass/encompass-2026-07-25T213304.png
 security:
 - kind: authentication

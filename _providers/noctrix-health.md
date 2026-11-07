@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A live Model Context Protocol server operated by Noctrix Health on the Nidra product site. Discovered anonymously from RFC 9728 OAuth 2.0 Protected Resource Metadata at https://nidrarls.com/.well-know
@@ -157,7 +161,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 21.4
+  composite: 22.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -171,9 +175,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 22.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -183,8 +187,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

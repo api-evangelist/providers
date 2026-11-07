@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-31'
+  score: 25.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -215,7 +232,7 @@ modified: '2026-10-31'
 name: quantsonar-com
 nav: Providers
 network: true
-overview: 'quantsonar-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: 分红送股 API, ETF API, and Health API. Tagged areas include Company, Finance, Data, API, and China.
+overview: 'quantsonar-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: 分红送股 API, ETF API, and Health API. Tagged areas include Company, Finance, Data, China, and Stock Market.
 
 
   The quantsonar-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -245,34 +262,54 @@ rules:
     warn: 3
   slug: quantsonar-com-rules
 score:
-  band: strong
-  composite: 60.7
+  band: developing
+  composite: 46.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 88.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.7
+    artifact_dirs: 26
+    catalog_earned: 75.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.2
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 48.3
-    developer_ergonomics: 52.4
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 51.4
+    developer_ergonomics: 38.1
     discoverability: 61.7
-    operational_transparency: 49.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/quantsonar-com/quantsonar-com-2026-11-03T141817.png
 security:
 - kind: authentication
   name: Quantsonar Com Authentication
@@ -287,8 +324,7 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - China
-- Stock-Market
+- Stock Market
 website: https://quantsonar.com/
 ---

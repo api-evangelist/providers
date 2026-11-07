@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -82,7 +84,7 @@ apis:
   description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Spycloud Breach API
@@ -298,6 +300,9 @@ network: true
 overview: 'SpyCloud publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Breach API, Check API, Compass API, and 4 more. Tagged areas include Cybersecurity, Threat Intelligence, Identity, Fraud Prevention, and Account Takeover.
 
 
+  The SpyCloud catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Spycloud Plans Pricing
@@ -308,25 +313,38 @@ rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits
   slug: spycloud-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: SpyCloud API Rules
+  rule_count: 47
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 1
+    warn: 13
+  slug: spycloud-rules
 score:
   band: strong
-  composite: 58.3
+  composite: 55.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 7.8
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
+    access_clarity: 84.2
+    contract_governance: 18.2
     contract_quality: 47.7
-    developer_ergonomics: 58.9
-    discoverability: 71.4
-    operational_transparency: 42.1
-  previous_composite: 52.0
+    developer_ergonomics: 49.4
+    discoverability: 78.6
+    operational_transparency: 36.8
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,13 +361,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spycloud/spycloud-2026-08-17T082052.png
 security:
 - kind: authentication

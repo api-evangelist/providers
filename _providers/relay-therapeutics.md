@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,7 +122,7 @@ overview: 'Relay Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 11
 score:
   band: minimal
-  composite: 4.9
+  composite: 4.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -133,18 +135,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 1.2
     discoverability: 48.2
     operational_transparency: 5.3
-  previous_composite: 4.9
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

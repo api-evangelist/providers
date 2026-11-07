@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
+  confidence: low
+  label: Freemium
   onboarding: unknown
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Auto-generated GraphQL API providing schema-based access to Craft CMS content including entries, assets, categories, tags, and custom fields. Access is controlled via bearer token authentication tied '
@@ -155,9 +157,9 @@ rate_limits:
   slug: craft-cms-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 27.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -170,16 +172,16 @@ score:
     contract_quality: 42.6
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 28.3
+    operational_transparency: 26.3
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

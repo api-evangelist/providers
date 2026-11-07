@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated_conflict: 'x-api-posture: private but 2 published API entries'
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -189,7 +192,7 @@ score:
   band: emerging
   composite: 21.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -217,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

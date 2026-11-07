@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -29,7 +29,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -39,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.4
-  scored_at: '2026-10-31'
+  score: 55.3
+  scored_at: '2026-11-06'
 api_count: 27
 apis:
 - baseURL: https://api.thousandeyes.com/v7
@@ -1680,7 +1681,7 @@ apis:
     question: How do I send alert notifications to my own webhook?
   phrasing_ops: 5
   slug: thousandeyes-webhook-operations-api
-artifact_total: 112
+artifact_total: 113
 asyncapis:
 - description: ''
   name: Thousandeyes Webhooks
@@ -2059,7 +2060,7 @@ network: true
 overview: 'ThousandEyes publishes 98 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Groups API, Agent Proxies API, Agent to Agent Instant Tests API, and 95 more. Tagged areas include Monitoring, Network Visibility, Digital Experience, Observability, and Networking.
 
 
-  The ThousandEyes catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ThousandEyes catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ThousandEyes'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, quickstart, support, and 68 more developer resources.'
@@ -2072,6 +2073,19 @@ rate_limits:
 - limit_count: 4
   name: Thousandeyes Rate Limits
   slug: thousandeyes-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: ThousandEyes API Rules
+  rule_count: 62
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 5
+    warn: 14
+  slug: thousandeyes-rules
 scopes:
 - name: Thousandeyes Scopes
   scope_count: 2
@@ -2079,28 +2093,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode/deviceCode
 score:
   band: exemplar
-  composite: 74.2
+  composite: 80.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 67.0
+    artifact_dirs: 30
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.4
   facets:
-    access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 57.0
-    developer_ergonomics: 78.0
-    discoverability: 70.0
-    operational_transparency: 94.7
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 68.5
+    developer_ergonomics: 75.6
+    discoverability: 80.0
+    operational_transparency: 92.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 72.6
+  previous_composite: 78.8
   provenance:
     conformance: derived
     contracts:
@@ -2116,13 +2130,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/thousandeyes/thousandeyes-2026-09-02T163600.png
 security:
 - kind: authentication

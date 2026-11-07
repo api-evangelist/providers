@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -24,18 +31,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.8
-  scored_at: '2026-10-31'
+  score: 63.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,7 +133,7 @@ apis:
   description: The Shipping Countries API from Goody — 1 operation(s) for shipping countries.
   name: Goody Shipping Countries API
   slug: goody-shipping-countries-api
-artifact_total: 52
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Goody Webhooks
@@ -396,7 +404,7 @@ network: true
 overview: 'Goody publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Cards API, Collections API, and 13 more. Tagged areas include Company, Retail, Gifting, Gift Cards, and E-Commerce.
 
 
-  The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Goody''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 30 more developer resources.'
@@ -408,6 +416,19 @@ plans:
   plan_count: 0
   slug: goody-price-estimates
 random_paper: 18
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Goody API Rules
+  rule_count: 56
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 2
+    warn: 6
+  slug: goody-rules
 scopes:
 - name: Goody Scopes
   scope_count: 4
@@ -415,30 +436,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.7
+  composite: 63.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.6
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 53.4
+    contract_governance: 31.8
+    contract_quality: 56.1
     developer_ergonomics: 67.3
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 60.2
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 55.2
       total: 29
     mcp: first-party
     skills: derived
@@ -448,13 +469,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/goody/goody-2026-07-25T220106.png
 security:
 - kind: authentication

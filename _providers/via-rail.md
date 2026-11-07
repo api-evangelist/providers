@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: VIA Rail's complete national timetable published as a static General Transit Feed Specification (GTFS) archive, offered for download from the VIA Rail Developer Resources page with no registration, no
@@ -202,7 +203,7 @@ overview: 'VIA Rail Canada is listed with 1 API on the [APIs.io](https://apis.io
 random_paper: 21
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 42.4
@@ -216,8 +217,8 @@ score:
     contract_governance: 4.5
     contract_quality: 7.2
     developer_ergonomics: 38.1
-    discoverability: 67.9
-    operational_transparency: 5.3
+    discoverability: 67.0
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -225,7 +226,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.3
+  previous_composite: 22.9
   provenance:
     conformance: derived
   regulatory:
@@ -234,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

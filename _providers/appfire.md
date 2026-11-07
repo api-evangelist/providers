@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 26.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -429,7 +430,7 @@ apis:
   description: Configure webhook target URLs for receiving OKR change notifications. Used by BigPicture to register its callback endpoint for real-time OKR synchronization.
   name: Appfire Webhook Configuration API
   slug: appfire-webhook-configuration-api
-artifact_total: 88
+artifact_total: 89
 collections:
 - collection_type: open
   name: OKR API query methods API
@@ -595,34 +596,50 @@ network: true
 overview: 'Appfire publishes 77 API contracts indexed on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 74 more. Tagged areas include Atlassian, Jira, Confluence, Project Portfolio Management, and Work Management.
 
 
+  The Appfire catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 23 more developer resources.'
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Appfire API Rules
+  rule_count: 49
+  severity_counts:
+    error: 31
+    hint: 0
+    info: 6
+    warn: 12
+  slug: appfire-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 45.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 38.0
+    artifact_dirs: 25
+    catalog_earned: 42.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 4.6
   facets:
-    access_clarity: 36.8
-    contract_governance: 4.5
-    contract_quality: 42.6
-    developer_ergonomics: 61.3
-    discoverability: 67.9
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 49.0
+    developer_ergonomics: 60.1
+    discoverability: 75.0
     operational_transparency: 31.6
-  previous_composite: 45.9
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 97.4
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 94.9
       total: 78
     mcp: derived
     skills: derived
@@ -631,14 +648,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/appfire/appfire-2026-08-07T161502.png
 security:
 - kind: authentication
@@ -672,7 +688,7 @@ tags:
 - OKRs
 - Workflow Automation
 - Azure DevOps
-- marketplace-apps
+- Marketplace Apps
 - Document Workflow
 - Enterprise Software
 website: https://appfire.com

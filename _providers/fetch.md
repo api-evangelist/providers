@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,6 +96,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/fetch-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://fetch.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://fetch.com/blog
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://fetch.com/
 created: '2026-07-17'
 description: Fetch (formerly Fetch Rewards) is a consumer rewards and loyalty platform that lets shoppers earn points by scanning receipts and shopping at more than 600 partner brands in-store and online, playing mobile games, and redeeming offers, then exchange those points for gift cards to retailers such as Amazon, Target, and Uber. Its Fetch for Business arm turns verified purchase data into full-funnel brand engagement, consumer spending insights, and campaign tooling (including the Fetch Ad Manager) for CPG, retail, restaurant, and agency partners. Fetch is a private, venture-backed company; it operates a consumer mobile app plus a Chrome extension and does not publish a public developer API.
 image: https://fetch.com/assets/images/share-images/fetch-com-share-image.jpg
@@ -105,35 +119,35 @@ network: true
 overview: 'Fetch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Rewards, Loyalty, and Shopping.
 
 
-  Fetch''s developer surface includes engineering blog, support, and 11 more developer resources.'
+  Fetch''s developer surface includes engineering blog, support, documentation, and 13 more developer resources.'
 random_paper: 18
 score:
   band: emerging
-  composite: 13.2
+  composite: 13.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 11.9
     discoverability: 48.2
-    operational_transparency: 15.8
-  previous_composite: 13.2
+    operational_transparency: 13.2
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -160,5 +174,8 @@ tags:
 - Mobile App
 - Advertising
 - Consumer Packaged Goods
+- ConsumerRewards
+- Retail
+- Fintech
 website: https://www.fetch.com/
 ---

@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,7 +61,7 @@ apis:
   description: Operations operations
   name: Azure Load Balancer Operations API
   slug: microsoft-azure-load-balancer-operations-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: Azure Load Balancer REST Load Balancers API
@@ -191,6 +196,9 @@ network: true
 overview: 'Azure Load Balancer is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Load Balancers API and Operations API. Tagged areas include Microsoft Azure, High Availability, Layer 4, Load Balancing, and Networks.
 
 
+  The Azure Load Balancer catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure Load Balancer''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure Load Balancer Plans Pricing
@@ -201,6 +209,19 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Azure Load Balancer Rate Limits
   slug: microsoft-azure-load-balancer-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Azure Load Balancer API Rules
+  rule_count: 46
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-azure-load-balancer-rules
 scopes:
 - name: Microsoft Azure Load Balancer Scopes
   scope_count: 1
@@ -208,23 +229,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.5
+  composite: 53.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 52.0
+    artifact_dirs: 17
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 63.2
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 44.1
     developer_ergonomics: 64.3
     discoverability: 80.4
-    operational_transparency: 28.9
-  previous_composite: 50.5
+    operational_transparency: 26.3
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -238,13 +259,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-load-balancer/microsoft-azure-load-balancer-2026-06-20T185420.png
 security:
 - kind: authentication

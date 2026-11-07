@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: GraphQL queries and mutations over the Semble patient record — patients, demographics, phone numbers, relationships, labels, memberships, access groups, allergy records, free-text records, patient doc
@@ -202,9 +203,9 @@ rate_limits:
   slug: semble-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 49.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -215,8 +216,8 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 58.9
-    discoverability: 71.4
+    developer_ergonomics: 39.9
+    discoverability: 78.6
     operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -226,7 +227,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 52.5
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     skills: derived
@@ -240,8 +241,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

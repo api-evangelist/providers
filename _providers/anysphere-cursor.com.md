@@ -1,6 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -22,10 +36,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-31'
+  score: 40.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -46,6 +60,16 @@ asyncapis:
   name: Anysphere Cursor.Com Webhooks
   slug: anysphere-cursor.com-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/anysphere-cursor.com/finops/anysphere-cursor.com-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/anysphere-cursor.com-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/anysphere-cursor.com/well-known/anysphere-cursor.com-clarity-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/anysphere-cursor.com-clarity-security.txt
 - group: other
   href: https://artifacts.apis.io/anysphere-cursor.com/capabilities/anysphere-cursor.com-capability-edges.yml
   title: ''
@@ -55,11 +79,6 @@ common:
   title: ''
   type: Compliance
   url: https://cursor.com/security
-- group: auth
-  href: https://artifacts.apis.io/anysphere-cursor.com/well-known/anysphere-cursor.com-api-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/anysphere-cursor.com-api-security.txt
 - group: commercial
   title: ''
   type: TermsOfService
@@ -86,11 +105,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/anysphere-cursor.com-security.txt
-- group: auth
-  href: https://artifacts.apis.io/anysphere-cursor.com/well-known/anysphere-cursor.com-clarity-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/anysphere-cursor.com-clarity-security.txt
 - group: agent
   href: https://artifacts.apis.io/anysphere-cursor.com/agentic-access/anysphere-cursor.com-agentic-access.yml
   title: ''
@@ -166,11 +180,6 @@ common:
   type: LLMsTxt
   url: llms/anysphere-cursor.com-llms.txt
 - group: auth
-  href: https://artifacts.apis.io/anysphere-cursor.com/well-known/anysphere-cursor.com-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/anysphere-cursor.com-status-security.txt
-- group: auth
   href: https://artifacts.apis.io/anysphere-cursor.com/well-known/anysphere-cursor.com-cursor-security.txt
   title: ''
   type: SecurityTxt
@@ -229,7 +238,7 @@ common:
   type: Website
   url: https://cursor.com
 coverage:
-  checked: 2026-09-25
+  checked: '2026-09-25'
   detail: No OpenAPI, AsyncAPI, GraphQL or other machine-readable contract was found despite probing documented API pages.
   evidence:
   - status: 404
@@ -284,7 +293,7 @@ overview: 'Anysphere Cursor.com publishes 1 API contract indexed on the [APIs.io
   The Anysphere Cursor.com catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Anysphere Cursor.com''s developer surface includes support, pricing, changelog, authentication, getting-started guide, documentation, API reference, and 32 more developer resources.'
+  Anysphere Cursor.com''s developer surface includes support, pricing, changelog, authentication, getting-started guide, documentation, API reference, and 31 more developer resources.'
 plans:
 - name: Anysphere Cursor.Com Plans Pricing
   plan_count: 7
@@ -295,36 +304,36 @@ plans:
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 96
   extends:
   - spectral:oas
   name: Anysphere Cursor.com API Rules
-  rule_count: 16
+  rule_count: 55
   severity_counts:
-    error: 13
+    error: 44
     hint: 0
     info: 1
-    warn: 2
+    warn: 10
   slug: anysphere-cursor.com-rules
 score:
-  band: exemplar
-  composite: 66.6
+  band: strong
+  composite: 63.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -12.7
   facets:
-    access_clarity: 100.0
+    access_clarity: 60.5
     contract_governance: 22.0
     contract_quality: 73.8
-    developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 65.1
+    developer_ergonomics: 36.3
+    discoverability: 73.2
+    operational_transparency: 36.8
+  previous_composite: 76.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -340,14 +349,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 100.0
 screenshot: https://apis.io/screenshots/anysphere-cursor.com/anysphere-cursor.com-2026-10-11T095836.png
 security:
 - kind: authentication

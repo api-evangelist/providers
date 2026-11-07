@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -30,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-31'
+  score: 49.1
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - baseURL: https://{engage-host}/api/rest/v19
@@ -872,7 +873,7 @@ apis:
     question: Can I check a whiteboard for errors before saving or publishing it?
   phrasing_ops: 8
   slug: mapp-whiteboard-api
-artifact_total: 59
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Mapp Data Streams
@@ -1120,7 +1121,7 @@ network: true
 overview: 'Mapp Marketing Cloud publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address Attributes API, Analysis API, Async API, and 34 more. Tagged areas include Company, Marketing, Marketing Automation, Email, and Analytics.
 
 
-  The Mapp Marketing Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mapp Marketing Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mapp Marketing Cloud''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 38 more developer resources.'
@@ -1136,6 +1137,19 @@ rate_limits:
 - limit_count: 1
   name: Mapp Rate Limits
   slug: mapp-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Mapp Marketing Cloud API Rules
+  rule_count: 56
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 7
+    warn: 9
+  slug: mapp-rules
 scopes:
 - name: Mapp Scopes
   scope_count: 2
@@ -1143,28 +1157,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 68.7
+  composite: 74.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 63.0
+    artifact_dirs: 30
+    catalog_earned: 67.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 53.4
+    contract_governance: 31.8
+    contract_quality: 58.4
     developer_ergonomics: 70.8
-    discoverability: 70.0
-    operational_transparency: 65.8
+    discoverability: 80.0
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 67.1
+  previous_composite: 73.6
   provenance:
     conformance: first-party
     contracts:
@@ -1190,13 +1204,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/mapp/mapp-2026-08-17T080404.png
 security:
 - kind: authentication

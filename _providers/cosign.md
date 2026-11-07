@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
   source:
-  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -255,7 +262,7 @@ rate_limits:
   slug: cosign-rate-limits
 score:
   band: developing
-  composite: 39.5
+  composite: 41.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -268,10 +275,13 @@ score:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 24.0
-    developer_ergonomics: 80.4
-    discoverability: 62.5
-    operational_transparency: 60.5
-  previous_composite: 39.5
+    developer_ergonomics: 78.0
+    discoverability: 69.6
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 41.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -282,8 +292,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

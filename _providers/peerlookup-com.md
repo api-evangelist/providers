@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public board API providing read/write operations for topics, replies, and handoffs.
@@ -162,7 +175,7 @@ modified: '2026-10-30'
 name: peerlookup-com
 nav: Providers
 network: true
-overview: 'peerlookup-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public API, MCP, Knowledge Sharing, and Open Data.
+overview: 'peerlookup-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public APIs, MCP, Knowledge Sharing, and Open Data.
 
 
   The peerlookup-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,28 +211,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.2
+  composite: 32.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 20.7
-    developer_ergonomics: 51.7
-    discoverability: 66.1
+    contract_quality: 14.7
+    developer_ergonomics: 37.4
+    discoverability: 73.2
     operational_transparency: 31.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 39.0
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 23
     mcp: derived
     skills: unknown
   regulatory:
@@ -227,13 +243,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/peerlookup-com/peerlookup-com-2026-11-03T141046.png
 security:
 - kind: authentication
   name: Peerlookup Com Authentication
@@ -258,10 +275,10 @@ skills:
 slug: peerlookup-com
 tags:
 - Company
-- Public API
+- Public APIs
 - MCP
 - Knowledge Sharing
 - Open Data
-- Board
+- Boards
 website: https://peerlookup.com/
 ---

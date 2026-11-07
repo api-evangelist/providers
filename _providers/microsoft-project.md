@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -22,10 +26,11 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-31'
+  score: 26.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -135,7 +140,7 @@ apis:
 - description: Client-side object model for programmatically interacting with Microsoft Project desktop applications.
   name: Microsoft Project Desktop CSOM API
   slug: microsoft-project-desktop-csom-api
-artifact_total: 109
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Microsoft Project Online REST Assignments API
@@ -216,6 +221,96 @@ collections:
   name: Microsoft Project Online REST Assignments Workflow Activities API
   slug: open-microsoft-project-workflow-activities-api
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/rules/microsoft-project-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-project-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/rules/microsoft-project-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-project-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/rules/microsoft-project-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-project-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/json-ld/microsoft-project-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-project-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/vocabulary/microsoft-project-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-project-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/data-model/microsoft-project-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-project-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/errors/microsoft-project-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-project-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-project/conformance/microsoft-project-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-project-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-project/llms/microsoft-project-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-project-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/microsoft-project/well-known/microsoft-project-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-project-security.txt
+- group: agent
+  href: https://artifacts.apis.io/microsoft-project/well-known/microsoft-project-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-project-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-project/hosts/microsoft-project-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-project-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-project/vendors/microsoft-project-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-project-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/docs/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.microsoft.com/en-us/changelog
+- group: auth
+  href: https://artifacts.apis.io/microsoft-project/security/microsoft-project-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-project-trust-center.yml
 - group: commercial
   href: https://artifacts.apis.io/microsoft-project/plans/microsoft-project-plans-pricing.yml
   title: ''
@@ -482,6 +577,10 @@ json_structures:
   property_count: 5
   slug: rest-api-time-sheet-structure
 jsonld:
+- class_count: 54
+  name: Microsoft Project Context
+  property_count: 77
+  slug: microsoft-project-context
 - class_count: 11
   name: Microsoft Project Rest Api Context
   property_count: 47
@@ -494,10 +593,10 @@ network: true
 overview: 'Microsoft Project is listed with 21 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendars API, Custom Fields API, and 18 more. Tagged areas include Budgeting, Gantt Charts, Microsoft, Project Management, and Resource Management.
 
 
-  The Microsoft Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Project catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Project''s developer surface includes authentication, developer portal, engineering blog, pricing, support, Stack Overflow tag, training material, and 26 more developer resources.'
+  Microsoft Project''s developer surface includes documentation, changelog, authentication, developer portal, engineering blog, pricing, support, and 45 more developer resources.'
 plans:
 - name: Microsoft Project Plans Pricing
   plan_count: 6
@@ -520,6 +619,18 @@ rules:
     warn: 4
   slug: microsoft-project-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Microsoft Project API Rules
+  rule_count: 64
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-project-rules
+- authorship: generated
   effective_rule_count: 83
   extends:
   - spectral:oas
@@ -538,43 +649,44 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.2
+  composite: 53.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 31
     catalog_earned: 78.0
     catalog_earned_first_party: 0.0
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 6.6
   facets:
-    access_clarity: 47.4
-    contract_governance: 27.3
+    access_clarity: 57.9
+    contract_governance: 31.8
     contract_quality: 30.4
     developer_ergonomics: 65.5
-    discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 48.6
+    discoverability: 80.4
+    operational_transparency: 44.7
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 14
       marker_coverage: 100.0
       total: 14
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-project/microsoft-project-2026-06-20T185526.png
 security:
 - kind: authentication
@@ -589,6 +701,10 @@ security:
   name: Microsoft Project Vulnerability Disclosure
   slug: microsoft-project-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Project Trust Center
+  slug: microsoft-project-trust-center
+  summary_line: GDPR
 slug: microsoft-project
 tags:
 - Budgeting

@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -22,10 +39,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-31'
+  score: 21.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API documentation is provided at the developer portal but no machine‑readable contract was found.
@@ -40,6 +57,15 @@ asyncapis:
   name: Like Magic Webhooks
   slug: like-magic-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/like-magic/well-known/like-magic-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/like-magic-status-security.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.likemagic.tech
 - group: operate
   href: https://artifacts.apis.io/like-magic/rate-limits/like-magic-rate-limits.yml
   title: ''
@@ -95,11 +121,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/like-magic-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/like-magic/well-known/like-magic-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/like-magic-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/like-magic/well-known/like-magic-well-known.yml
   title: ''
@@ -198,7 +219,7 @@ overview: 'LIKE MAGIC is listed with 2 APIs on the [APIs.io](https://apis.io/) n
   The LIKE MAGIC catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  LIKE MAGIC''s developer surface includes changelog, authentication, getting-started guide, documentation, pricing, engineering blog, and 18 more developer resources.'
+  LIKE MAGIC''s developer surface includes support, changelog, authentication, getting-started guide, documentation, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Like Magic Plans Pricing
   plan_count: 2
@@ -210,54 +231,68 @@ rate_limits:
   slug: like-magic-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: LIKE MAGIC API Rules
-  rule_count: 10
+  rule_count: 42
   severity_counts:
-    error: 8
+    error: 37
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 3
   slug: like-magic-rules
 score:
-  band: developing
-  composite: 42.2
+  band: thin
+  composite: 36.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 24
     catalog_earned: 73.8
     catalog_earned_first_party: 16.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.9
   facets:
-    access_clarity: 42.1
+    access_clarity: 31.6
     contract_governance: 22.0
     contract_quality: 32.7
-    developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 71.1
+    developer_ergonomics: 28.6
+    discoverability: 64.3
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 13
+      derived: 1
       marker_coverage: 100.0
-      total: 13
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/like-magic/like-magic-2026-11-03T134859.png
 security:
 - kind: authentication
   name: Like Magic Authentication

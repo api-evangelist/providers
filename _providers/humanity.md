@@ -1,13 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
-  - '{''url'': ''https://www.humanity.com'', ''status'': 302, ''note'': ''declared website redirects to https://tcpsoftware.com/products/humanity/ — a different registrable domain (humanity.com -> tcpsoftware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -393,26 +398,26 @@ score:
   band: developing
   composite: 53.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 59.5
     catalog_earned_first_party: 12.0
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 2.8
   facets:
     access_clarity: 84.2
     contract_governance: 31.8
-    contract_quality: 48.6
-    developer_ergonomics: 57.1
-    discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 45.7
+    contract_quality: 54.0
+    developer_ergonomics: 53.6
+    discoverability: 78.6
+    operational_transparency: 5.3
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 100.0
       total: 37
@@ -423,13 +428,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/humanity/humanity-2026-07-25T221658.png
 security:
 - kind: authentication

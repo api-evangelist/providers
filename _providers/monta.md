@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -74,7 +76,7 @@ apis:
   description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
   name: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Monta Public Authentication API
@@ -169,6 +171,9 @@ network: true
 overview: 'Monta publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 3 more. Tagged areas include EV Charging, Electric Vehicles, Energy, and Mobility.
 
 
+  The Monta catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Monta''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Monta Plans Pricing
@@ -179,25 +184,38 @@ rate_limits:
 - limit_count: 4
   name: Monta Rate Limits
   slug: monta-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Monta API Rules
+  rule_count: 59
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 1
+  slug: monta-rules
 score:
   band: thin
-  composite: 26.4
+  composite: 27.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
+    artifact_dirs: 17
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 1.6
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 48.2
     developer_ergonomics: 32.1
     discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 27.3
+    operational_transparency: 10.5
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     contracts:
@@ -211,13 +229,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/monta/monta-2026-08-07T184221.png
 security:
 - kind: authentication

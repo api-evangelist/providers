@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -107,7 +111,7 @@ apis:
   description: The Zen API from Aikido Security — 2 operation(s) for zen.
   name: Aikido Security Zen API
   slug: aikido-security-zen-api
-artifact_total: 33
+artifact_total: 34
 collections:
 - collection_type: open
   name: Aikido Security Public REST Clouds API
@@ -269,6 +273,9 @@ network: true
 overview: 'Aikido Security publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clouds API, Code Repositories API, Compliance API, and 9 more. Tagged areas include AI Pentesting, API Security, Application Security, Cloud Security, and Compliance.
 
 
+  The Aikido Security catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Aikido Security''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Aikido Security Plans Pricing
@@ -279,25 +286,38 @@ rate_limits:
 - limit_count: 2
   name: Aikido Security Rate Limits
   slug: aikido-security-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Aikido Security API Rules
+  rule_count: 48
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 1
+  slug: aikido-security-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 33.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 36.0
+    artifact_dirs: 18
+    catalog_earned: 40.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 74.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 36.8
-    contract_governance: 0.0
-    contract_quality: 45.3
-    developer_ergonomics: 31.0
+    access_clarity: 26.3
+    contract_governance: 13.6
+    contract_quality: 46.3
+    developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 36.8
-  previous_composite: 37.2
+    operational_transparency: 26.3
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -310,14 +330,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/aikido-security/aikido-security-2026-06-20T170912.png
 security:
 - kind: authentication

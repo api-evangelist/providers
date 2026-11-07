@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-31'
+  score: 54.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://mcp-server.metadata.io
@@ -50,7 +51,7 @@ apis:
   description: The Mcp API from Metadata — 1 operation(s) for mcp.
   name: Metadata MCP API
   slug: metadata-mcp-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: MCP Metadata Server
@@ -181,6 +182,9 @@ network: true
 overview: 'Metadata publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API and MCP API. Tagged areas include Company, Marketing, Marketing Automation, Demand Generation, and Advertising.
 
 
+  The Metadata catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Metadata''s developer surface includes support, engineering blog, pricing, documentation, API reference, getting-started guide, and 17 more developer resources.'
 plans:
 - name: Metadata Plans Pricing
@@ -191,6 +195,19 @@ rate_limits:
 - limit_count: 0
   name: Metadata Rate Limits
   slug: metadata-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: Metadata API Rules
+  rule_count: 23
+  severity_counts:
+    error: 21
+    hint: 0
+    info: 1
+    warn: 1
+  slug: metadata-rules
 scopes:
 - name: Metadata Scopes
   scope_count: 7
@@ -198,29 +215,29 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 45.5
+  composite: 47.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 37.3
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 41.5
     developer_ergonomics: 58.9
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 45.5
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
     skills: derived
@@ -230,13 +247,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/metadata/metadata-2026-08-07T172641.png
 security:
 - kind: authentication

@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Elk''s own server surface, served by its Nuxt runtime at https://elk.zone/api. Four endpoints: list the Mastodon-compatible instances offered in the sign-in picker, build the instance authorize URL, co'
@@ -171,10 +172,10 @@ scopes:
   slug: elk-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.5
+  band: thin
+  composite: 29.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,9 +187,12 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 24.5
+    discoverability: 80.4
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 29.1
   provenance:
     conformance: derived
     mcp: derived
@@ -199,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -229,6 +233,7 @@ tags:
 - Social Media
 - Web-Client
 - Progressive Web App
+- OAuth
 - Authentication
 website: https://elk.zone
 ---

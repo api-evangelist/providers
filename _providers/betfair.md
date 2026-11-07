@@ -1,16 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 22.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -194,9 +198,9 @@ rules:
   slug: betfair-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 29.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.5
     catalog_earned_first_party: 0.0
     catalog_gap: 67.5
@@ -210,7 +214,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 30.6
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -224,13 +228,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/betfair/betfair-2026-08-17T122904.png
 security:
 - kind: authentication

@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: high
-  label: Free
-  onboarding: unknown
-  pricing: free
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
   public: true
   source:
-  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-31'
+  score: 20.9
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Access ERS data products in machine-readable formats for analysis or integration into your own applications. Delivered via api.data.gov as REST endpoints. Requires an api.data.gov key.
@@ -200,8 +207,8 @@ rate_limits:
   name: Economic Research Service Rate Limits
   slug: economic-research-service-rate-limits
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -213,16 +220,16 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 52.4
     discoverability: 73.2
-    operational_transparency: 52.6
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.3
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -232,8 +239,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

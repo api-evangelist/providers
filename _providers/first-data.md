@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -207,9 +214,9 @@ rate_limits:
   slug: first-data-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 16.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -220,10 +227,10 @@ score:
     access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 35.7
     discoverability: 57.1
-    operational_transparency: 18.4
-  previous_composite: 21.3
+    operational_transparency: 15.8
+  previous_composite: 16.7
   provenance:
     conformance: derived
   regulatory:
@@ -232,8 +239,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

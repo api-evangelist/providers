@@ -1,11 +1,21 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,7 +25,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.4
-  scored_at: '2026-10-31'
+  score: 33.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -185,7 +196,7 @@ json_schemas:
   property_count: 6
   slug: snaplab-dev-api-key
 - name: CaptureRequest
-  property_count: 2
+  property_count: 34
   slug: snaplab-dev-capture-request
 - name: Capture
   property_count: 22
@@ -209,7 +220,7 @@ modified: '2026-10-31'
 name: snaplab-dev
 nav: Providers
 network: true
-overview: 'snaplab-dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Billing API, Captures API, and 3 more. Tagged areas include Company, Screenshot, PDF, OpenGraph, and API.
+overview: 'snaplab-dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Billing API, Captures API, and 3 more. Tagged areas include Company, Screenshots, PDF, and OpenGraph.
 
 
   The snaplab-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,34 +242,47 @@ rules:
     warn: 1
   slug: snaplab-dev-rules
 score:
-  band: developing
-  composite: 46.5
+  band: thin
+  composite: 33.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 77.7
+    artifact_dirs: 21
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.7
   facets:
-    access_clarity: 21.1
-    contract_governance: 79.1
-    contract_quality: 58.9
-    developer_ergonomics: 50.0
-    discoverability: 66.1
+    access_clarity: 10.5
+    contract_governance: 22.0
+    contract_quality: 62.0
+    developer_ergonomics: 34.5
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 40.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/snaplab-dev/snaplab-dev-2026-11-03T143407.png
 security:
 - kind: authentication
   name: Snaplab Dev Authentication
@@ -271,9 +295,8 @@ security:
 slug: snaplab-dev
 tags:
 - Company
-- Screenshot
+- Screenshots
 - PDF
 - OpenGraph
-- API
 website: https://snaplab.dev/
 ---

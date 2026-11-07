@@ -14,19 +14,20 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.0
-  scored_at: '2026-10-31'
+  score: 58.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -359,7 +360,7 @@ apis:
     question: Which web search results do AI engines pull up for my category's prompts?
   phrasing_ops: 62
   slug: profound-reports-api
-artifact_total: 28
+artifact_total: 29
 common:
 - group: other
   href: https://artifacts.apis.io/profound/capabilities/profound-capability-edges.yml
@@ -590,6 +591,9 @@ network: true
 overview: 'Profound publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 13 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AI Search, and Generative Engine Optimization.
 
 
+  The Profound catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
 plans:
 - name: Profound Plans Pricing
@@ -603,6 +607,19 @@ rate_limits:
 - limit_count: 1
   name: Profound Rate Limits
   slug: profound-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Profound API Rules
+  rule_count: 53
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 11
+  slug: profound-rules
 scopes:
 - name: Profound Scopes
   scope_count: 4
@@ -610,30 +627,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: exemplar
-  composite: 66.8
+  composite: 71.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 1.3
   facets:
-    access_clarity: 89.5
-    contract_governance: 4.5
-    contract_quality: 49.1
+    access_clarity: 82.9
+    contract_governance: 18.2
+    contract_quality: 54.7
     developer_ergonomics: 81.0
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 65.7
+    discoverability: 75.0
+    operational_transparency: 65.8
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 15
     mcp: first-party
     skills: first-party
@@ -643,13 +660,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/profound/profound-2026-08-17T080414.png
 security:
 - kind: authentication

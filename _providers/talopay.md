@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://sandbox-api.talo.com.ar
@@ -176,7 +192,7 @@ modified: '2026-10-27'
 name: Talo Pay
 nav: Providers
 network: true
-overview: 'Talo Pay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Payments, Argentina, E-commerce, and Bank Transfers.
+overview: 'Talo Pay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Payments, Argentina, E-Commerce, and Bank Transfers.
 
 
   The Talo Pay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -199,41 +215,57 @@ rules:
   slug: talopay-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 30.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
     contract_quality: 26.3
-    developer_ergonomics: 47.6
-    discoverability: 66.1
+    developer_ergonomics: 36.9
+    discoverability: 73.2
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - argentina
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 1
       marker_coverage: 100.0
-      total: 8
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/talopay/talopay-2026-11-03T144312.png
 security:
 - kind: authentication
   name: Talopay Authentication
@@ -248,7 +280,7 @@ tags:
 - Fintech
 - Payments
 - Argentina
-- E-commerce
+- E-Commerce
 - Bank Transfers
 website: https://talopay.com
 ---

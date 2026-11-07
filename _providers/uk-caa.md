@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.1
-  scored_at: '2026-10-31'
+  score: 24.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +56,7 @@ arazzos:
 - description: Search the UK Civil Aviation Authority's published consultation activities, then pull the full detail record for the first match.
   name: Track UK CAA consultations
   slug: uk-caa-track-consultations
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: CAA Consultations API (Citizen Space 2.4)
@@ -290,25 +291,41 @@ network: true
 overview: 'UK Civil Aviation Authority is listed with 1 API on the [APIs.io](https://apis.io/) network: CAA Consultations API. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Airports.
 
 
+  The UK Civil Aviation Authority catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 38 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: UK Civil Aviation Authority API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: uk-caa-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 44.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 47.3
+    artifact_dirs: 28
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 8.3
+    contract_governance: 22.0
     contract_quality: 56.6
     developer_ergonomics: 49.4
-    discoverability: 76.8
+    discoverability: 83.9
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -318,7 +335,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 42.3
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,13 +352,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/uk-caa/uk-caa-2026-09-02T164750.png
 security:
 - kind: authentication

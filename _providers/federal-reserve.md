@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -22,23 +25,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-31'
+  score: 50.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,7 +92,7 @@ apis:
   description: The Tags API from Federal Reserve — 1 operation(s) for tags.
   name: Federal Reserve Tags API
   slug: federal-reserve-tags-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: Federal Reserve FRED Category API
@@ -118,6 +122,49 @@ collections:
   name: Federal Reserve FRED Category Tags API
   slug: open-federal-reserve-tags-api
 common:
+- group: design
+  href: https://artifacts.apis.io/federal-reserve/rules/federal-reserve-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/federal-reserve-rules.yml
+- group: design
+  href: https://artifacts.apis.io/federal-reserve/vocabulary/federal-reserve-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/federal-reserve-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/federal-reserve/conformance/federal-reserve-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/federal-reserve-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/federal-reserve/mcp/federal-reserve-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/federal-reserve-mcp.yml
+- group: agent
+  href: https://artifacts.apis.io/federal-reserve/well-known/federal-reserve-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/federal-reserve-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/federal-reserve/hosts/federal-reserve-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/federal-reserve-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/federal-reserve/vendors/federal-reserve-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/federal-reserve-vendors.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.federalreserve.gov/privacy.htm
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.federalreserve.gov/releases/cp/
 - group: commercial
   href: https://artifacts.apis.io/federal-reserve/plans/federal-reserve-plans-pricing.yml
   title: ''
@@ -187,7 +234,10 @@ network: true
 overview: 'Federal Reserve publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Category API, Related Tags API, Release API, and 5 more. Tagged areas include Economics, Federal Government, and Finance.
 
 
-  Federal Reserve''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  The Federal Reserve catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Federal Reserve''s developer surface includes changelog, authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Federal Reserve Plans Pricing
   plan_count: 3
@@ -197,32 +247,46 @@ rate_limits:
 - limit_count: 5
   name: Federal Reserve Rate Limits
   slug: federal-reserve-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Federal Reserve API Rules
+  rule_count: 48
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 1
+  slug: federal-reserve-rules
 score:
-  band: emerging
-  composite: 23.4
+  band: thin
+  composite: 31.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 38.0
+    artifact_dirs: 22
+    catalog_earned: 43.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 7.9
-    contract_governance: 0.0
+    access_clarity: 18.4
+    contract_governance: 22.0
     contract_quality: 42.2
     developer_ergonomics: 23.8
-    discoverability: 57.1
-    operational_transparency: 7.9
+    discoverability: 60.0
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.4
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -234,14 +298,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/federal-reserve/federal-reserve-2026-06-20T181129.png
 security:
 - kind: authentication

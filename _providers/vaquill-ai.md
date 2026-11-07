@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.0
-  scored_at: '2026-10-31'
+  score: 67.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -171,6 +187,30 @@ asyncapis:
   name: Vaquill Ai Webhooks
   slug: vaquill-ai-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/vaquill-ai/finops/vaquill-ai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vaquill-ai-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/vaquill-ai/well-known/vaquill-ai-vaquill-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/vaquill-ai-vaquill-security.txt
+- group: auth
+  href: https://artifacts.apis.io/vaquill-ai/well-known/vaquill-ai-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/vaquill-ai-security.txt
+- group: build
+  href: https://artifacts.apis.io/vaquill-ai/integrations/vaquill-ai-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/vaquill-ai-integration-edges.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.vaquill.ai/
 - group: design
   href: https://artifacts.apis.io/vaquill-ai/asyncapi/vaquill-ai-webhooks.yml
   title: ''
@@ -491,7 +531,7 @@ overview: 'Vaquill AI publishes 26 API contracts indexed on the [APIs.io](https:
   The Vaquill AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Vaquill AI''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 43 more developer resources.'
+  Vaquill AI''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 48 more developer resources.'
 plans:
 - name: Vaquill Ai Plans Pricing
   plan_count: 1
@@ -506,16 +546,16 @@ rate_limits:
   slug: vaquill-ai-workspace-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 114
   extends:
   - spectral:oas
   name: Vaquill AI API Rules
-  rule_count: 17
+  rule_count: 73
   severity_counts:
-    error: 13
+    error: 52
     hint: 0
-    info: 1
-    warn: 3
+    info: 5
+    warn: 16
   slug: vaquill-ai-rules
 scopes:
 - name: Vaquill Ai Scopes
@@ -523,22 +563,22 @@ scopes:
   slug: vaquill-ai-scopes
   summary_line: 38 scopes
 score:
-  band: exemplar
-  composite: 70.7
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 35
     catalog_earned: 81.8
     catalog_earned_first_party: 16.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: -9.7
   facets:
-    access_clarity: 73.7
+    access_clarity: 51.3
     contract_governance: 22.0
-    contract_quality: 71.9
-    developer_ergonomics: 73.2
-    discoverability: 70.0
+    contract_quality: 76.9
+    developer_ergonomics: 47.0
+    discoverability: 80.0
     operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -547,14 +587,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 70.8
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 3.8
+      derived: 0
+      marker_coverage: 19.2
       total: 26
     mcp: first-party
     skills: derived
@@ -563,14 +603,13 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 41.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vaquill-ai/vaquill-ai-2026-10-11T132844.png
 security:
 - kind: authentication

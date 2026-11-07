@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,7 +88,7 @@ apis:
   description: The Verticals API from SkimBit — 2 operation(s) for verticals.
   name: SkimBit Verticals API
   slug: skimbit-verticals-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: 'The Skimlinks Data Pipe is the event-level data surface behind the Skimlinks affiliate platform: impressions, clicks, commissions and products purchased, cleaned and exported daily to a customer-owned'
   name: Skimlinks Data Pipe
@@ -287,7 +288,7 @@ network: true
 overview: 'SkimBit publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commissions API, Domains API, Merchants API, and 5 more. Tagged areas include Company, Affiliate Marketing, Content Monetization, Commerce, and Publishers.
 
 
-  The SkimBit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The SkimBit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 26 more developer resources.'
@@ -300,30 +301,43 @@ rate_limits:
 - limit_count: 6
   name: Skimbit Rate Limits
   slug: skimbit-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: SkimBit API Rules
+  rule_count: 60
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 4
+    warn: 1
+  slug: skimbit-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 46.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 55.2
+    contract_governance: 18.2
+    contract_quality: 57.0
     developer_ergonomics: 47.0
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 39.5
-  previous_composite: 44.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 100.0
       total: 8
@@ -335,13 +349,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/skimbit/skimbit-2026-08-17T081913.png
 security:
 - kind: authentication

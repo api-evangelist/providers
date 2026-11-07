@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,8 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +31,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -443,9 +449,9 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.4
+  composite: 42.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
@@ -456,10 +462,10 @@ score:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 74.9
-    developer_ergonomics: 36.9
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 45.4
+    operational_transparency: 10.5
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -473,13 +479,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tripleseat/tripleseat-2026-06-20T195730.png
 security:
 - kind: authentication

@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Provides JSON and CSV endpoints for Irish grocery prices across major supermarkets, including catalogue, movers, promotions, barcode lookup and nutrition.
@@ -148,7 +159,7 @@ modified: '2026-10-30'
 name: basketwatchireland-com
 nav: Providers
 network: true
-overview: 'basketwatchireland-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery, Price Intelligence, API, and Ireland.
+overview: 'basketwatchireland-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery, Price Intelligence, and Ireland.
 
 
   The basketwatchireland-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -170,34 +181,54 @@ rules:
     warn: 1
   slug: basketwatchireland-com-rules
 score:
-  band: thin
-  composite: 39.2
+  band: emerging
+  composite: 19.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 72.7
+    artifact_dirs: 17
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.0
   facets:
-    access_clarity: 31.6
-    contract_governance: 79.1
-    contract_quality: 53.8
-    developer_ergonomics: 14.3
-    discoverability: 57.1
+    access_clarity: 15.8
+    contract_governance: 22.0
+    contract_quality: 24.8
+    developer_ergonomics: 7.1
+    discoverability: 48.2
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - ireland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 25.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/basketwatchireland-com/basketwatchireland-com-2026-11-03T121604.png
 security:
 - kind: domain-security
   name: Basketwatchireland Com Domain Security
@@ -208,7 +239,6 @@ tags:
 - Company
 - Grocery
 - Price Intelligence
-- API
 - Ireland
 website: https://basketwatchireland.com/
 ---

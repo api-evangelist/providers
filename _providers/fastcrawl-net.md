@@ -1,10 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: near-conformant
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -14,7 +30,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-31'
+  score: 30.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -245,7 +262,7 @@ modified: '2026-10-30'
 name: fastcrawl-net
 nav: Providers
 network: true
-overview: 'fastcrawl-net publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Crawl API, Email API, and 13 more. Tagged areas include Web Scraping, AI, Content Extraction, REST API, and MCP.
+overview: 'fastcrawl-net publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Crawl API, Email API, and 13 more. Tagged areas include Web Scraping, Artificial Intelligence, Content Extraction, REST API, and MCP.
 
 
   The fastcrawl-net catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -276,33 +293,47 @@ rules:
   slug: fastcrawl-net-rules
 score:
   band: developing
-  composite: 54.1
+  composite: 40.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 67.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.4
+    artifact_dirs: 25
+    catalog_earned: 57.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.2
   facets:
-    access_clarity: 63.7
-    contract_governance: 65.5
-    contract_quality: 39.7
-    developer_ergonomics: 56.4
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 42.8
+    developer_ergonomics: 41.0
     discoverability: 66.1
-    operational_transparency: 34.7
+    operational_transparency: 28.9
+  previous_composite: 49.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/fastcrawl-net/fastcrawl-net-2026-11-03T131900.png
 security:
 - kind: authentication
   name: Fastcrawl Net Authentication
@@ -319,7 +350,7 @@ skills:
 slug: fastcrawl-net
 tags:
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Content Extraction
 - REST API
 - MCP

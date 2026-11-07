@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -239,9 +241,9 @@ rules:
   slug: spring-cloud-gateway-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 34.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 60.4
     catalog_earned_first_party: 0.0
     catalog_gap: 54.6
@@ -251,11 +253,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 47.3
+    contract_quality: 50.7
     developer_ergonomics: 28.6
     discoverability: 64.3
-    operational_transparency: 39.5
-  previous_composite: 34.2
+    operational_transparency: 36.8
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -269,13 +271,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spring-cloud-gateway/spring-cloud-gateway-2026-06-20T194410.png
 security:
 - kind: domain-security

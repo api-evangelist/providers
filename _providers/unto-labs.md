@@ -7,10 +7,12 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,18 +26,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.7
-  scored_at: '2026-10-31'
+  score: 29.8
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: High-performance proto3 gRPC API (with gRPC-Web for browsers) for the Thru blockchain. QueryService exposes 24 read operations over accounts, blocks, transactions, events, state proofs, and node statu
@@ -185,9 +188,9 @@ overview: 'Unto Labs is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 5
 score:
   band: thin
-  composite: 27.7
+  composite: 31.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,11 +200,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 78.0
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 27.7
+    contract_quality: 24.0
+    developer_ergonomics: 62.5
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 31.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -212,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

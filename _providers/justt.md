@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -30,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -40,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -108,7 +109,7 @@ arazzos:
 - description: 'List open chargebacks, enrich one with additional merchant data, and override whether Justt should represent it. Acceptance is deliberately NOT part of this workflow — it is irreversible and requires '
   name: Triage Justt chargebacks and set the representment decision
   slug: justt-triage-and-decide
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Justt Webhook Events
@@ -303,7 +304,7 @@ network: true
 overview: 'Justt publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chargebacks API, Data Subjects API, Evidence API, and 6 more. Tagged areas include Company, Payments, Chargebacks, Disputes, and Fraud Prevention.
 
 
-  The Justt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Justt catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Justt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 30 more developer resources.'
@@ -316,6 +317,19 @@ rate_limits:
 - limit_count: 1
   name: Justt Rate Limits
   slug: justt-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Justt API Rules
+  rule_count: 57
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 3
+    warn: 8
+  slug: justt-rules
 scopes:
 - name: Justt Scopes
   scope_count: 1
@@ -323,23 +337,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.0
+  composite: 57.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 45.0
+    artifact_dirs: 31
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
+    access_clarity: 43.4
+    contract_governance: 31.8
     contract_quality: 56.4
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 55.0
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,13 +370,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/justt/justt-2026-09-02T150010.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-31'
+  score: 36.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,7 +99,7 @@ apis:
   description: OGC Web Map Service 1.3.0
   name: Landgate WMS API
   slug: landgate-wms-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Data WA CKAN Action API (operated by Landgate)
@@ -278,8 +282,24 @@ network: true
 overview: 'Landgate is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Discovery API, Organizations API, and 7 more. Tagged areas include Real Estate, Australia, Land Registry, Title, and Valuation.
 
 
+  The Landgate catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 26 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Landgate API Rules
+  rule_count: 52
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 2
+    warn: 5
+  slug: landgate-rules
 scopes:
 - name: Landgate Scopes
   scope_count: 6
@@ -287,22 +307,22 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.1
+  composite: 37.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 11.8
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 14.5
     developer_ergonomics: 47.0
     discoverability: 82.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -310,7 +330,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 37.2
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,13 +347,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/landgate/landgate-2026-07-27T125338.png
 security:
 - kind: authentication

@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 2.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful API for partners and integrators to retrieve and update Navan expense data, including card transactions, reimbursements, fees, and more.
@@ -140,7 +152,7 @@ modified: '2026-10-25'
 name: Navan
 nav: Providers
 network: true
-overview: 'Navan is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Expense Management, SaaS, and Corporate.
+overview: 'Navan is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Expense Management, Software-as-a-Service, and Corporate.
 
 
   Navan''s developer surface includes pricing, getting-started guide, documentation, changelog, engineering blog, and 16 more developer resources.'
@@ -150,22 +162,30 @@ plans:
   slug: tripactions-com-plans-pricing
 random_paper: 4
 score:
-  band: thin
-  composite: 34.9
+  band: emerging
+  composite: 24.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.5
   facets:
-    access_clarity: 81.6
+    access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 69.6
-    operational_transparency: 42.1
+    developer_ergonomics: 11.9
+    discoverability: 75.0
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 35.6
   provenance:
     mcp: unknown
   regulatory:
@@ -173,13 +193,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/tripactions-com/tripactions-com-2026-11-03T145103.png
 security:
 - kind: domain-security
   name: Tripactions Com Domain Security
@@ -198,7 +220,7 @@ tags:
 - Company
 - Travel
 - Expense Management
-- SaaS
+- Software-as-a-Service
 - Corporate
 website: https://tripactions.com
 ---

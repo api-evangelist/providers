@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Web API for submitting files (PE, PDF, Office documents, Flash, Java applets, Android applications, archives) and URLs to the Lastline analysis cloud for high-resolution behavioral malware analysis, t
@@ -128,7 +129,7 @@ overview: 'Lastline is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 20
 score:
   band: emerging
-  composite: 23.2
+  composite: 23.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -141,10 +142,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 69.0
-    discoverability: 66.1
+    developer_ergonomics: 66.7
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 23.2
+  previous_composite: 23.5
   provenance:
     conformance: derived
   regulatory:
@@ -153,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

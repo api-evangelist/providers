@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'fineconomy API as documented publicly: 29 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
@@ -33,6 +48,11 @@ apis:
   slug: banksapi-api
 artifact_total: 13
 common:
+- group: auth
+  href: https://artifacts.apis.io/banksapi/well-known/banksapi-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/banksapi-status-security.txt
 - group: design
   href: https://artifacts.apis.io/banksapi/rules/banksapi-rules.yml
   title: ''
@@ -77,11 +97,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/banksapi-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/banksapi/well-known/banksapi-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/banksapi-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/banksapi/well-known/banksapi-well-known.yml
   title: ''
@@ -175,7 +190,7 @@ modified: '2026-10-20'
 name: fineconomy
 nav: Providers
 network: true
-overview: 'fineconomy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, API, FinTech, Payments, and DataAnalytics.
+overview: 'fineconomy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Fintech, Payments, and Data Analytics.
 
 
   The fineconomy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -185,16 +200,16 @@ overview: 'fineconomy is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 1
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: fineconomy API Rules
-  rule_count: 10
+  rule_count: 41
   severity_counts:
-    error: 9
+    error: 39
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: banksapi-rules
 scopes:
 - name: Banksapi Scopes
@@ -203,28 +218,36 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.3
+  composite: 27.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 57.0
+    artifact_dirs: 19
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 15.8
-    contract_governance: 19.7
+    access_clarity: 11.8
+    contract_governance: 22.0
     contract_quality: 24.7
-    developer_ergonomics: 61.2
-    discoverability: 57.1
-    operational_transparency: 31.6
+    developer_ergonomics: 39.8
+    discoverability: 55.4
+    operational_transparency: 15.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 35.3
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
     skills: unknown
   regulatory:
@@ -232,13 +255,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 30.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/banksapi/banksapi-2026-11-03T121624.png
 security:
 - kind: authentication
   name: Banksapi Authentication
@@ -255,9 +279,8 @@ security:
 slug: banksapi
 tags:
 - Banking
-- API
-- FinTech
+- Fintech
 - Payments
-- DataAnalytics
+- Data Analytics
 website: https://banksapi.de/
 ---

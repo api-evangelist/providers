@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Official read-only MCP agent surface for the Shelter budgeting product — ten tools covering status, runway, forecast, alerts, opportunities, context, affordability, coaching, and Guardian Q&A, shipped
@@ -161,9 +178,9 @@ rate_limits:
   slug: shelter-money-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 40.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -175,9 +192,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 61.7
-    operational_transparency: 47.4
-  previous_composite: 39.7
+    discoverability: 68.3
+    operational_transparency: 44.7
+  previous_composite: 40.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -187,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: S3-compatible REST API exposed by every Alluxio worker (HTTP port 29998, HTTPS 29996) that lets applications built for Amazon S3 read and write cached data without code changes. Path-style requests on
@@ -152,9 +157,9 @@ plans:
 random_paper: 22
 score:
   band: thin
-  composite: 29.6
+  composite: 30.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -166,17 +171,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 29.6
+    discoverability: 64.3
+    operational_transparency: 18.4
+  previous_composite: 30.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

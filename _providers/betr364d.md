@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API documentation for Betr platform
@@ -102,7 +113,7 @@ overview: 'Betr364d is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: emerging
-  composite: 11.2
+  composite: 12.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -116,9 +127,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 11.2
+  previous_composite: 12.0
   provenance:
     mcp: unknown
   regulatory:
@@ -127,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

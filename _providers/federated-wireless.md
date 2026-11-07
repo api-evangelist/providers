@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -241,9 +245,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -255,8 +259,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 71.7
-    operational_transparency: 5.3
+    discoverability: 80.8
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -264,7 +268,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.8
+  previous_composite: 25.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -274,8 +278,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

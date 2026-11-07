@@ -28,6 +28,7 @@ tags:
 - Cloud Security
 - Cloud Security Posture Management
 - Compliance
+- Amazon Web Services
 - DevSecOps
 - Acquired
 ---

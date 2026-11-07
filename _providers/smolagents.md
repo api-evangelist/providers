@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The core smolagents Python library providing CodeAgent and ToolCallingAgent classes for building AI agents that write Python code or structured JSON to call tools and orchestrate multi-agent systems. '
@@ -179,8 +181,8 @@ rate_limits:
   name: Smolagents Rate Limits
   slug: smolagents-rate-limits
 score:
-  band: emerging
-  composite: 23.1
+  band: thin
+  composite: 29.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 46.0
@@ -195,16 +197,19 @@ score:
     contract_quality: 10.7
     developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 55.3
-  previous_composite: 23.1
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 29.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

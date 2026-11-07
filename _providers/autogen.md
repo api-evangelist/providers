@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: AutoGen is a Microsoft framework for building multi-agent conversational AI systems.
@@ -43,6 +44,16 @@ apis:
   slug: autogen
 artifact_total: 4
 common:
+- group: other
+  href: https://artifacts.apis.io/autogen/hosts/autogen-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/autogen-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/autogen/vendors/autogen-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/autogen-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/autogen/plans/autogen-plans-pricing.yml
   title: ''
@@ -69,9 +80,33 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://microsoft.github.io/autogen/docs/
+  url: https://microsoft.github.io/autogen/stable/index.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://microsoft.github.io/autogen/stable/reference/index.html
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/microsoft/autogen
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
+coverage:
+  checked: '2026-11-04'
+  detail: AutoGen is an open-source Python/.NET library documented at microsoft.github.io/autogen with no hosted HTTP API, OpenAPI, llms.txt (404) or MCP endpoint; its surface is the PyPI packages.
+  evidence:
+  - status: 200
+    url: https://microsoft.github.io/autogen/stable/index.html
+  - status: 404
+    url: https://microsoft.github.io/autogen/llms.txt
+  - status: 200
+    url: https://microsoft.github.io/autogen/stable/reference/index.html
+  reason: no-developer-program
+  state: none
 created: '2026-03-27'
-description: AutoGen is a Microsoft framework for building multi-agent conversational AI systems.
+description: 'AutoGen is an open-source Microsoft framework for building multi-agent conversational AI systems, distributed as Python packages (autogen-agentchat, autogen-core, autogen-ext, autogenstudio) and a .NET preview. It is a library, not a hosted service: there is no public HTTP API, OpenAPI contract or hosted MCP endpoint.'
 finops:
 - has_sources: false
   method: generated
@@ -82,14 +117,14 @@ finops:
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autogen.png
 layout: provider
-modified: '2026-03-27'
+modified: '2026-11-04'
 name: AutoGen
 nav: Providers
 network: true
-overview: 'AutoGen is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents and AI Automation.
+overview: 'AutoGen is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Automation, Multi-Agent Systems, Open Source, and Python.
 
 
-  AutoGen''s developer surface includes engineering blog, documentation, and 4 more developer resources.'
+  AutoGen''s developer surface includes engineering blog, documentation, API reference, and 8 more developer resources.'
 plans:
 - name: Autogen Plans Pricing
   plan_count: 3
@@ -101,31 +136,31 @@ rate_limits:
   slug: autogen-rate-limits
 score:
   band: minimal
-  composite: 6.7
+  composite: 8.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 28.0
+    artifact_dirs: 10
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 87.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 39.3
-    operational_transparency: 7.9
-  previous_composite: 6.7
+    developer_ergonomics: 9.5
+    discoverability: 57.1
+    operational_transparency: 13.2
+  previous_composite: 4.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -136,5 +171,9 @@ slug: autogen
 tags:
 - AI Agents
 - AI Automation
+- Multi-Agent Systems
+- Open Source
+- Python
+- Framework
 website: https://microsoft.github.io/autogen/
 ---

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -305,9 +307,9 @@ rules:
   slug: wasmcloud-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 41.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 70.0
     catalog_earned_first_party: 0.0
     catalog_gap: 45.0
@@ -318,18 +320,21 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 63.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 33.3
     discoverability: 76.8
-    operational_transparency: 39.5
-  previous_composite: 39.9
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 41.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

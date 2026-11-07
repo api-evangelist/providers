@@ -1,12 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +33,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.3
-  scored_at: '2026-10-31'
+  score: 40.9
+  scored_at: '2026-11-06'
 api_count: 12
 apis:
 - baseURL: https://api.podium.com/v4/
@@ -173,7 +182,7 @@ apis:
   description: The Webhook API from Podium — 2 operation(s) for webhook.
   name: Podium Webhook API
   slug: podium-webhook-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Podium Webhooks
@@ -469,7 +478,7 @@ network: true
 overview: 'Podium publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointment API, Call API, Campaign API, and 24 more. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Web Chat.
 
 
-  The Podium catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
+  The Podium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Podium''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, sandbox, API reference, and 43 more developer resources.'
@@ -482,6 +491,19 @@ rate_limits:
 - limit_count: 1
   name: Podium Rate Limits
   slug: podium-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Podium API Rules
+  rule_count: 51
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 5
+  slug: podium-rules
 scopes:
 - name: Podium Scopes
   scope_count: 25
@@ -489,23 +511,23 @@ scopes:
   summary_line: 25 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.5
+  composite: 57.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 32
+    catalog_earned: 68.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 4.5
   facets:
-    access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 56.3
-    developer_ergonomics: 78.0
+    access_clarity: 56.6
+    contract_governance: 18.2
+    contract_quality: 59.5
+    developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 65.8
-  previous_composite: 59.2
+    operational_transparency: 55.3
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -520,14 +542,13 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/podium/podium-2026-06-20T191840.png
 security:
 - kind: authentication

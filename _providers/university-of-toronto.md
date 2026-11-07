@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -299,9 +300,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.0
+  composite: 30.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 59.8
     catalog_earned_first_party: 16.0
     catalog_gap: 55.3
@@ -314,7 +315,7 @@ score:
     contract_quality: 23.8
     developer_ergonomics: 28.6
     discoverability: 64.3
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -322,7 +323,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.0
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     contracts:
@@ -336,13 +337,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/university-of-toronto/university-of-toronto-2026-06-20T200245.png
 security:
 - kind: authentication

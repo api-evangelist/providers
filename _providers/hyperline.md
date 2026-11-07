@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Open access
   onboarding: open
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,18 +30,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-31'
+  score: 45.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -82,7 +87,7 @@ apis:
   description: The Webhooks API from Hyperline — 3 operation(s) for webhooks.
   name: Hyperline Webhooks API
   slug: hyperline-webhooks-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Hyperline Billable Events API
@@ -188,6 +193,9 @@ network: true
 overview: 'Hyperline publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billable Events API, Customers API, Invoices API, and 4 more. Tagged areas include Billing, Subscription, Usage-Based, Metering, and Payments.
 
 
+  The Hyperline catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Hyperline''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Hyperline Plans Pricing
@@ -198,25 +206,38 @@ rate_limits:
 - limit_count: 2
   name: Hyperline Rate Limits
   slug: hyperline-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Hyperline API Rules
+  rule_count: 55
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 2
+  slug: hyperline-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 28.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 42.0
+    artifact_dirs: 20
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 44.1
+    contract_governance: 13.6
+    contract_quality: 46.1
     developer_ergonomics: 32.1
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 5.3
-  previous_composite: 27.3
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -231,13 +252,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hyperline/hyperline-2026-06-20T183050.png
 security:
 - kind: authentication

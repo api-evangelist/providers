@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.7
-  scored_at: '2026-10-31'
+  score: 12.9
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Partner-gated REST API used to trigger test runs, manage suites, and retrieve execution results from the Functionize Test Cloud. Endpoint surface, base URL, and authentication mechanism are documented
@@ -120,9 +122,9 @@ rate_limits:
   slug: functionize-rate-limits
 score:
   band: minimal
-  composite: 9.5
+  composite: 9.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -134,9 +136,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 62.5
+    discoverability: 65.0
     operational_transparency: 5.3
-  previous_composite: 9.5
+  previous_composite: 9.7
   provenance:
     mcp: first-party
   regulatory:
@@ -145,8 +147,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

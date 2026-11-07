@@ -1,14 +1,21 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,6 +32,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API for managing email campaigns, mailing lists, subscribers, templates, and analytics in Zoho Campaigns. Supports campaign creation, scheduling, sending, cloning, and reporting as well as contac
@@ -272,9 +280,9 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.2
+  composite: 63.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -285,10 +293,10 @@ score:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 59.5
     discoverability: 66.1
-    operational_transparency: 86.8
-  previous_composite: 64.2
+    operational_transparency: 84.2
+  previous_composite: 63.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -298,8 +306,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

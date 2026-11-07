@@ -1,6 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.1
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted MCP server that stores uploaded documents and provides searchable AI-powered access via a streamable HTTP endpoint.
@@ -111,7 +127,7 @@ modified: '2026-10-30'
 name: docs2mcp-com
 nav: Providers
 network: true
-overview: 'docs2mcp-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Document Management, MCP, Integration, and Cloud.
+overview: 'docs2mcp-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document Management, MCP, Integration, and Cloud.
 
 
   docs2mcp-com''s developer surface includes authentication, support, pricing, documentation, and 10 more developer resources.'
@@ -130,34 +146,41 @@ scopes:
   slug: docs2mcp-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 31.7
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.8
   facets:
-    access_clarity: 73.2
-    contract_governance: 16.4
+    access_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 5.3
+    operational_transparency: 2.6
+  previous_composite: 32.5
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/docs2mcp-com/docs2mcp-com-2026-11-03T130846.png
 security:
 - kind: authentication
   name: Docs2Mcp Com Authentication
@@ -169,7 +192,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: docs2mcp-com
 tags:
-- AI
+- Artificial Intelligence
 - Document Management
 - MCP
 - Integration

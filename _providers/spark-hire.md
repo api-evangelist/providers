@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -82,7 +83,7 @@ apis:
   description: Event subscriptions for interview and job lifecycle changes.
   name: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Spark Hire Account API
@@ -179,6 +180,9 @@ network: true
 overview: 'Spark Hire publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Interview Questions API, Interviews API, and 4 more. Tagged areas include Video Interviewing, Recruiting, Hiring, Human Resources, and Talent Assessment.
 
 
+  The Spark Hire catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Spark Hire''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Spark Hire Plans Pricing
@@ -189,25 +193,38 @@ rate_limits:
 - limit_count: 2
   name: Spark Hire Rate Limits
   slug: spark-hire-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Spark Hire API Rules
+  rule_count: 50
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 2
+  slug: spark-hire-rules
 score:
   band: emerging
-  composite: 13.8
+  composite: 23.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 17
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 29.8
+    contract_governance: 13.6
+    contract_quality: 49.4
+    developer_ergonomics: 13.1
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 13.8
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +238,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/spark-hire/spark-hire-2026-09-02T160328.png
 security:
 - kind: authentication

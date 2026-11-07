@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'GNU Wget is a free command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS. It supports recursive downloading, resume of aborted downloads, website '
@@ -171,7 +173,7 @@ rules:
   slug: wget-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.1
+  composite: 21.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 67.8
@@ -184,18 +186,18 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 22.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 15.5
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 24.1
+    operational_transparency: 18.4
+  previous_composite: 21.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

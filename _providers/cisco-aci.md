@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The Application Policy Infrastructure Controller REST API is the single programmatic interface into the ACI Management Information Tree. GET, POST and DELETE against /api/mo/<distinguished-name>.json '
@@ -288,7 +289,7 @@ rate_limits:
   slug: cisco-aci-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 55.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -301,10 +302,10 @@ score:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 90.5
-    discoverability: 65.0
-    operational_transparency: 68.4
-  previous_composite: 55.8
+    developer_ergonomics: 88.1
+    discoverability: 71.7
+    operational_transparency: 65.8
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -315,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

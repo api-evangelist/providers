@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -97,6 +98,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/waiv-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://waiv.com/blog/towards-tumor-agnostic-ihc-ai
 coverage:
   checked: '2026-08-17'
   detail: Waiv advertises a "Destra API" for wiring its CE-IVD marked AI pathology tests into a laboratory IMS, but the "Get Destra API" button on the Destra product page links to a single general "Get in contact" sales form with no developer or integration option, and no docs host, developer portal, or specification exists on any Waiv domain.
@@ -127,7 +132,7 @@ network: true
 overview: 'Waiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Artificial Intelligence, Healthcare, and Digital Pathology.
 
 
-  Waiv''s developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
+  Waiv''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Waiv Plans Pricing
   plan_count: 0
@@ -139,9 +144,9 @@ rate_limits:
   slug: waiv-rate-limits
 score:
   band: emerging
-  composite: 17.6
+  composite: 17.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -154,7 +159,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -163,7 +168,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 17.6
+  previous_composite: 17.3
   provenance:
     conformance: first-party
   regulatory:
@@ -172,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -199,5 +204,7 @@ tags:
 - Machine Learning
 - Life Sciences
 - Medical Imaging
+- Pathology
+- Diagnostics
 website: https://waiv.com/
 ---

@@ -1,19 +1,20 @@
 ---
 access_model:
-  confidence: high
-  label: Paid membership or per-document purchase · Registry API requires accredited certificate
-  onboarding: unknown
-  pricing: paid
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
-  - https://www.naesb.org/ESPI_Standards.asp
-  - https://www.naesb.org//misc/naesb_matl_order_espi_standards.pdf
-  - https://www.naesb.org//misc/NAESB_Nonmember_Evaluation.pdf
-  - https://www.naesb.org/pdf4/eir_webregistry_technical_guide_v6.1_1018.pdf
-  trial: true
+  - authentication
+  - security
+  trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 17.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
@@ -193,9 +195,9 @@ overview: 'NAESB is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 17
 score:
   band: thin
-  composite: 28.2
+  composite: 34.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -205,9 +207,9 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 47.0
-    discoverability: 58.9
+    discoverability: 65.2
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -216,7 +218,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.2
+  previous_composite: 34.8
   provenance:
     conformance: derived
     mcp: derived
@@ -227,8 +229,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

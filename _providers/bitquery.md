@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.8
-  scored_at: '2026-10-31'
+  score: 42.0
+  scored_at: '2026-11-06'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -176,10 +179,10 @@ rules:
     warn: 6
   slug: bitquery-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
@@ -191,9 +194,9 @@ score:
     contract_governance: 11.4
     contract_quality: 43.8
     developer_ergonomics: 23.8
-    discoverability: 71.4
+    discoverability: 73.3
     operational_transparency: 10.5
-  previous_composite: 26.1
+  previous_composite: 26.2
   provenance:
     mcp: first-party
   regulatory:
@@ -202,8 +205,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

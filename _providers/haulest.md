@@ -1,6 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 7.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Remote streamable-HTTP MCP server (no auth) exposing moving cost estimates, route facts, mover search, mover profiles, licence checks, guide search, checklists and quote requests.
@@ -139,7 +150,7 @@ overview: 'Haulest is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 14
 score:
   band: emerging
-  composite: 17.5
+  composite: 13.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -147,15 +158,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 73.3
-    operational_transparency: 26.3
-  previous_composite: 17.5
+    developer_ergonomics: 4.8
+    discoverability: 75.8
+    operational_transparency: 18.4
+  previous_composite: 17.9
   provenance:
     mcp: first-party
   regulatory:
@@ -163,9 +174,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

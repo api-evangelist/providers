@@ -1,9 +1,22 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.0
-  scored_at: '2026-10-31'
+  score: 13.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Developer utility APIs providing IP geolocation, WHOIS, email validation, DNS lookup, and many other tools.
@@ -202,7 +216,7 @@ modified: '2026-10-30'
 name: botoi-com
 nav: Providers
 network: true
-overview: 'botoi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, Tools, Developer, and Free.
+overview: 'botoi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tools, Developers, and Free.
 
 
   The botoi-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -220,34 +234,40 @@ rate_limits:
   slug: botoi-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 98
   extends:
   - spectral:oas
   name: botoi-com API Rules
-  rule_count: 17
+  rule_count: 57
   severity_counts:
-    error: 10
+    error: 42
     hint: 0
     info: 1
-    warn: 6
+    warn: 14
   slug: botoi-com-rules
 score:
-  band: developing
-  composite: 51.6
+  band: thin
+  composite: 36.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 80.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 34.3
+    artifact_dirs: 25
+    catalog_earned: 62.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.6
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
+    access_clarity: 53.9
+    contract_governance: 35.6
     contract_quality: 6.7
-    developer_ergonomics: 54.0
-    discoverability: 66.7
-    operational_transparency: 53.2
+    developer_ergonomics: 35.1
+    discoverability: 57.5
+    operational_transparency: 50.0
+  previous_composite: 46.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -257,9 +277,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -288,9 +309,8 @@ skills:
 slug: botoi-com
 tags:
 - Company
-- API
 - Tools
-- Developer
+- Developers
 - Free
 website: https://botoi.com/
 ---

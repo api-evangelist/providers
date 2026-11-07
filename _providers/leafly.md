@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Requires approval
+  confidence: medium
+  label: Freemium · Requires approval
   onboarding: approval
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: The Status API from Leafly — 1 operation(s) for status.
   name: Leafly Status API
   slug: leafly-status-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Leafly Integration Menu API
@@ -151,6 +153,9 @@ network: true
 overview: 'Leafly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Menu API, Status API, and 1 more. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
 
 
+  The Leafly catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Leafly''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Leafly Plans Pricing
@@ -161,6 +166,19 @@ rate_limits:
 - limit_count: 3
   name: Leafly Rate Limits
   slug: leafly-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Leafly API Rules
+  rule_count: 50
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 1
+  slug: leafly-rules
 scopes:
 - name: Leafly Scopes
   scope_count: 0
@@ -168,29 +186,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.8
+  composite: 34.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 42.0
+    artifact_dirs: 18
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 18.4
-    contract_governance: 0.0
-    contract_quality: 45.3
-    developer_ergonomics: 35.7
+    contract_governance: 13.6
+    contract_quality: 50.3
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 30.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
   regulatory:
     applies: true
@@ -198,13 +216,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/leafly/leafly-2026-07-25T224732.png
 security:
 - kind: authentication

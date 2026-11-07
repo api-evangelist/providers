@@ -16,24 +16,24 @@
      "slug": "royal-caribbean",
      "description": "Royal Caribbean Group is a global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal Caribbean does not publish a public developer API. Travel partner and agent integration is operated through the CruisingPower B2B portal (cruisingpower.com), which requires authenticated agent access. The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface.",
      "screenshot": "https://artifacts.apis.io/royal-caribbean/screenshots/royal-caribbean-2026-06-20T193231.png",
-     "score": 10.6,
+     "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 3.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 10.5
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 14.7,
+      "score": 12.7,
       "matched_via": "fallback"
      },
      "agent_score": 2.9,
@@ -59,61 +59,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 1
-    },
-    {
-     "name": "Norwegian Cruise Line Holdings",
-     "slug": "norwegian-cruise-line",
-     "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
-     "screenshot": "https://artifacts.apis.io/norwegian-cruise-line/screenshots/norwegian-cruise-line-2026-06-20T190419.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 2
     },
     {
      "name": "Carnival",
@@ -131,8 +80,8 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -163,7 +112,61 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 2
+    },
+    {
+     "name": "Norwegian Cruise Line Holdings",
+     "slug": "norwegian-cruise-line",
+     "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
+     "screenshot": "https://artifacts.apis.io/norwegian-cruise-line/screenshots/norwegian-cruise-line-2026-06-20T190419.png",
+     "score": 6.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 3
     }

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: The Starknet full-node JSON-RPC API (OpenRPC), covering read methods (blocks, transactions, state, classes, events, fees), write methods (add invoke/declare/deploy-account transactions), trace methods
@@ -198,9 +199,9 @@ overview: 'Starkware is listed with 4 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 20
 score:
   band: thin
-  composite: 37.4
+  composite: 37.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -212,9 +213,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 75.6
-    discoverability: 70.0
-    operational_transparency: 36.8
-  previous_composite: 37.4
+    discoverability: 76.7
+    operational_transparency: 34.2
+  previous_composite: 37.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -225,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

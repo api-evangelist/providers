@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +83,7 @@ overview: BioProtonics is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: minimal
-  composite: 3.3
+  composite: 4.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -86,9 +97,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.6
+    discoverability: 51.8
     operational_transparency: 0.0
-  previous_composite: 3.3
+  previous_composite: 4.0
   provenance:
     mcp: unknown
   regulatory:
@@ -97,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Shopify Storefront GraphQL API as deployed on Kate Farms' own host. Anonymous introspection succeeded on 2026-08-04, returning 424 types, 35 root query fields and 41 mutations covering products, c
@@ -202,7 +203,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.8
+  composite: 31.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -216,9 +217,9 @@ score:
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 49.4
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 30.8
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -229,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

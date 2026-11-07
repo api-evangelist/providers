@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-31'
+  score: 44.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -231,9 +232,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 47.6
+  composite: 47.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,10 +245,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 38.1
-    discoverability: 65.0
-    operational_transparency: 39.5
-  previous_composite: 47.6
+    developer_ergonomics: 33.3
+    discoverability: 75.0
+    operational_transparency: 36.8
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -263,8 +264,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

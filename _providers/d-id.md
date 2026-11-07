@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Paid (free trial) · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -311,9 +315,9 @@ rules:
   slug: d-id-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 40.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 70.8
     catalog_earned_first_party: 0.0
     catalog_gap: 44.3
@@ -323,11 +327,11 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 66.7
-    developer_ergonomics: 32.1
+    contract_quality: 70.1
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 41.8
+    operational_transparency: 26.3
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -341,13 +345,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 19.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/d-id/d-id-2026-06-20T175418.png
 security:
 - kind: authentication

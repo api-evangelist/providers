@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Developer APIs for the KGeN Esports and Loyalty protocols — sessions, tournaments, leaderboards, wallets (KCash), rewards, and rewardable events for game developers.
@@ -137,9 +138,9 @@ overview: 'KGeN is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 13
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,9 +152,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 19.7
   provenance:
     mcp: derived
   regulatory:
@@ -162,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

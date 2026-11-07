@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 22.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -312,9 +313,9 @@ rules:
   slug: tsys-spectral-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 27.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 53.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
@@ -327,8 +328,8 @@ score:
     contract_quality: 51.9
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 28.5
+    operational_transparency: 7.9
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -342,13 +343,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/total-system-services/total-system-services-2026-10-11T194546.png
 security:
 - kind: authentication

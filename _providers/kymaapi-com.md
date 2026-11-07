@@ -1,10 +1,22 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 65.5
-  scored_at: '2026-10-31'
+  score: 61.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -284,7 +297,7 @@ modified: '2026-10-30'
 name: kymaapi-com
 nav: Providers
 network: true
-overview: 'kymaapi-com publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Chat API, and 8 more. Tagged areas include LLM, API Gateway, AI, Machine Learning, and Developer Tools.
+overview: 'kymaapi-com publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Chat API, and 8 more. Tagged areas include LLM, API Gateway, Artificial Intelligence, Machine Learning, and Developer Tools.
 
 
   The kymaapi-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -302,16 +315,16 @@ rate_limits:
   slug: kymaapi-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 109
   extends:
   - spectral:oas
   name: kymaapi-com API Rules
-  rule_count: 14
+  rule_count: 68
   severity_counts:
-    error: 12
+    error: 62
     hint: 0
     info: 1
-    warn: 1
+    warn: 5
   slug: kymaapi-com-rules
 scopes:
 - name: Kymaapi Com Scopes
@@ -319,34 +332,48 @@ scopes:
   slug: kymaapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.4
+  band: developing
+  composite: 46.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 84.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 30.1
+    artifact_dirs: 34
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.9
   facets:
-    access_clarity: 63.7
-    contract_governance: 79.1
-    contract_quality: 62.5
-    developer_ergonomics: 63.6
+    access_clarity: 43.4
+    contract_governance: 22.0
+    contract_quality: 65.5
+    developer_ergonomics: 41.0
     discoverability: 65.0
-    operational_transparency: 36.8
+    operational_transparency: 18.4
+  previous_composite: 58.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/kymaapi-com/kymaapi-com-2026-11-03T134617.png
 security:
 - kind: authentication
   name: Kymaapi Com Authentication
@@ -364,7 +391,7 @@ slug: kymaapi-com
 tags:
 - LLM
 - API Gateway
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Developer Tools
 website: https://kymaapi.com/

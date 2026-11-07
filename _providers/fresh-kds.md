@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Fresh KDS API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-10-27); not the provider''s own document.'
@@ -171,7 +183,7 @@ modified: '2026-10-27'
 name: Fresh KDS
 nav: Providers
 network: true
-overview: 'Fresh KDS is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Kitchen Display System, Restaurants, POS Integration, Enterprise, and Tablet-based.
+overview: 'Fresh KDS is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Kitchen Display System, Restaurant, POS Integration, Enterprise, and Tablet-based.
 
 
   The Fresh KDS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -197,42 +209,45 @@ rules:
     warn: 1
   slug: fresh-kds-rules
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 31.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 63.8
     catalog_earned_first_party: 12.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.9
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
     contract_quality: 26.7
-    developer_ergonomics: 38.1
+    developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 18.4
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/fresh-kds/fresh-kds-2026-11-03T132340.png
 security:
 - kind: domain-security
   name: Fresh Kds Domain Security
@@ -241,7 +256,7 @@ security:
 slug: fresh-kds
 tags:
 - Kitchen Display System
-- Restaurants
+- Restaurant
 - POS Integration
 - Enterprise
 - Tablet-based

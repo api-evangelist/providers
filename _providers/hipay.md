@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -146,7 +148,7 @@ apis:
   description: Request a withdrawal from a HiPay account
   name: HiPay Withdrawal API
   slug: hipay-withdrawal-api
-artifact_total: 46
+artifact_total: 47
 collections:
 - collection_type: open
   name: Hipay Payment Gateway balance API
@@ -287,6 +289,9 @@ network: true
 overview: 'HiPay publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balance API, Bank Info API, Captcha Generation API, and 17 more. Tagged areas include Payments, Fintech, Europe, Omnichannel, and Point-of-Sale.
 
 
+  The HiPay catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   HiPay''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Plans
@@ -297,24 +302,37 @@ rate_limits:
 - limit_count: 4
   name: Rate Limits
   slug: rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: HiPay API Rules
+  rule_count: 52
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 5
+    warn: 13
+  slug: hipay-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 29.6
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 45.0
+    artifact_dirs: 17
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 46.7
+    contract_governance: 13.6
+    contract_quality: 47.2
     developer_ergonomics: 38.1
     discoverability: 71.4
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -322,13 +340,13 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 28.9
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 10.0
       total: 20
   regulatory:
     applies: true
@@ -336,13 +354,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hipay/hipay-2026-06-20T182747.png
 security:
 - kind: authentication

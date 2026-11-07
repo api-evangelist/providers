@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -88,7 +89,7 @@ apis:
   description: The Verification API from Verisoul — 3 operation(s) for verification.
   name: Verisoul Verification API
   slug: verisoul-verification-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: Asynchronous results for the Verisoul Email Intelligence API are delivered to your configured endpoint as signed webhooks. When an email submitted via POST /email (or the batch endpoint) finishes anal
   name: Verisoul Email Intelligence Webhooks
@@ -300,7 +301,7 @@ network: true
 overview: 'Verisoul publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Email API, Enrollment API, and 5 more. Tagged areas include Company, Fraud Prevention, Identity Verification, Fake Account Detection, and Device Fingerprinting.
 
 
-  The Verisoul catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Verisoul catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Verisoul''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -309,32 +310,45 @@ rate_limits:
 - limit_count: 0
   name: Verisoul Rate Limits
   slug: verisoul-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Verisoul API Rules
+  rule_count: 65
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 2
+    warn: 7
+  slug: verisoul-rules
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 53.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 59.2
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 63.5
     developer_ergonomics: 73.2
-    discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 55.1
+    discoverability: 78.6
+    operational_transparency: 18.4
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 75.0
       total: 8
     mcp: derived
     skills: derived
@@ -344,13 +358,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/verisoul/verisoul-2026-08-17T082730.png
 security:
 - kind: authentication

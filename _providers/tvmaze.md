@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -566,7 +567,7 @@ json_schemas:
   property_count: 23
   slug: tvmaze-public-show
 - name: WebChannel
-  property_count: 0
+  property_count: 4
   slug: tvmaze-public-webchannel
 json_structures:
 - name: Tvmaze Premium Bulkresponse Structure
@@ -717,29 +718,29 @@ rules:
   slug: tvmaze-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 50.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.7
   facets:
-    access_clarity: 52.6
+    access_clarity: 46.1
     contract_governance: 27.3
-    contract_quality: 63.2
+    contract_quality: 68.3
     developer_ergonomics: 51.2
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 52.5
+    operational_transparency: 23.7
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 58.8
       total: 17
   regulatory:
     applies: true
@@ -747,13 +748,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tvmaze/tvmaze-2026-06-20T195842.png
 security:
 - kind: authentication

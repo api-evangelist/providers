@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -232,9 +233,9 @@ overview: 'LetsGetChecked is listed with 5 APIs on the [APIs.io](https://apis.io
 random_paper: 7
 score:
   band: developing
-  composite: 51.3
+  composite: 48.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 5.0
     catalog_gap: 75.0
@@ -242,13 +243,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 33.3
     contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 39.5
-  previous_composite: 51.3
+    operational_transparency: 31.6
+  previous_composite: 48.1
   provenance:
     conformance: first-party
   regulatory:
@@ -256,9 +257,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 34.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -7,10 +7,11 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-31'
+  score: 15.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public Cosmos SDK REST (LCD / gRPC-gateway), gRPC, and Tendermint RPC interface to the Provenance Blockchain. Query and broadcast transactions against the marker, metadata, exchange, ledger, name, att
@@ -149,10 +151,10 @@ overview: 'Provenance is listed with 1 API on the [APIs.io](https://apis.io/) ne
   Provenance''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 23.0
+  band: thin
+  composite: 29.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,11 +164,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 23.0
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 29.4
   provenance:
     conformance: derived
     mcp: derived
@@ -176,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

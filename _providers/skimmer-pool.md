@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: Repair and service jobs, and work order types.
   name: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: Skimmer Public Bodies of Water API
@@ -199,6 +201,9 @@ network: true
 overview: 'Skimmer publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bodies of Water API, Customers API, Invoices API, and 6 more. Tagged areas include Pool Service, Field Service Management, Pool Maintenance, Scheduling, and Routes.
 
 
+  The Skimmer catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Skimmer''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Skimmer Pool Plans Pricing
@@ -209,25 +214,38 @@ rate_limits:
 - limit_count: 1
   name: Skimmer Pool Rate Limits
   slug: skimmer-pool-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Skimmer API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: skimmer-pool-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 30.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 42.0
+    artifact_dirs: 15
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 0.0
-    contract_quality: 44.5
+    contract_governance: 13.6
+    contract_quality: 47.9
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 28.6
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +259,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/skimmer-pool/skimmer-pool-2026-09-02T155727.png
 security:
 - kind: authentication

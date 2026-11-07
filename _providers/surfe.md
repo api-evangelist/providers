@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,9 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,7 +32,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.6
-  scored_at: '2026-10-31'
+  score: 53.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -105,7 +112,7 @@ apis:
     question: Which new accounts look like my best-fit customers?
   phrasing_ops: 2
   slug: surfe-recommendations-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Surfe Webhooks
@@ -342,7 +349,7 @@ network: true
 overview: 'Surfe publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Companies API, People API, and 1 more. Tagged areas include B2B Data, Contact Data, Sales Intelligence, Data Enrichment, and Lead Generation.
 
 
-  The Surfe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Surfe catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Surfe''s developer surface includes documentation, authentication, engineering blog, API reference, getting-started guide, support, pricing, and 35 more developer resources.'
@@ -358,6 +365,19 @@ rate_limits:
 - limit_count: 10
   name: Surfe Rate Limits
   slug: surfe-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Surfe API Rules
+  rule_count: 61
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 2
+  slug: surfe-rules
 scopes:
 - name: Surfe Scopes
   scope_count: 1
@@ -365,23 +385,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 72.4
+  composite: 77.3
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 32
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 58.9
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 86.8
-  previous_composite: 70.8
+    discoverability: 68.3
+    operational_transparency: 76.3
+  previous_composite: 77.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,13 +418,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/surfe/surfe-2026-08-17T080426.png
 security:
 - kind: authentication

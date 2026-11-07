@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
-  - '{''url'': ''https://www.buildingconnected.com/'', ''status'': 301, ''note'': ''declared website redirects to https://construction.autodesk.com/products/buildingconnected/ — a different registrable domain (buildingconnected.com -> autodesk.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2 and secured with Autodesk OAuth 2.0.
@@ -44,6 +46,25 @@ apis:
   slug: buildingconnected-api
 artifact_total: 5
 common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://construction.autodesk.com/products/buildingconnected/
+- group: other
+  href: https://artifacts.apis.io/buildingconnected/hosts/buildingconnected-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/buildingconnected-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/buildingconnected/integrations/buildingconnected-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/buildingconnected-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/buildingconnected/vendors/buildingconnected-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/buildingconnected-vendors.yml
 - group: auth
   href: https://artifacts.apis.io/buildingconnected/security/buildingconnected-trust-center.yml
   title: ''
@@ -123,11 +144,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/buildingconnected-domain-security.yml
-- group: agent
-  href: https://artifacts.apis.io/buildingconnected/llms/buildingconnected-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/buildingconnected-llms.txt
 created: '2026-07-17'
 description: BuildingConnected is a preconstruction and bid-management platform for the commercial construction industry, now part of Autodesk Construction Cloud. Its products — Bid Board Pro for general contractors and subcontractors, and TradeTapp for subcontractor risk qualification — help teams send, track, and manage bid invitations across the largest construction network in North America. Autodesk acquired BuildingConnected in 2018, and its data is accessible programmatically through the BuildingConnected API on Autodesk Platform Services (APS), a REST API secured with Autodesk's OAuth 2.0 (two-legged and three-legged) authentication and versioned under a /v2 URI path.
 image: https://construction.autodesk.com/products/buildingconnected/
@@ -139,7 +155,7 @@ network: true
 overview: 'Buildingconnected is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Preconstruction, Bid Management, and Construction Technology.
 
 
-  Buildingconnected''s developer surface includes getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
+  Buildingconnected''s developer surface includes getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
 random_paper: 17
 scopes:
 - name: Buildingconnected Scopes
@@ -148,23 +164,23 @@ scopes:
   summary_line: 16 scopes
 score:
   band: thin
-  composite: 37.1
+  composite: 35.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 37.1
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -173,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

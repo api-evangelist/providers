@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Powerline provides AI-accessible email and DNS utilities via an MCP JSON‑RPC endpoint. Tools include domain health checks, DNS record validation, blacklist lookup, email header analysis, and spam‑word
@@ -110,7 +126,7 @@ modified: '2026-10-30'
 name: powerline-ai
 nav: Providers
 network: true
-overview: 'powerline-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, APIs, Automation, and Email.
+overview: 'powerline-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automation, Email, and Productivity.
 
 
   powerline-ai''s developer surface includes getting-started guide and 11 more developer resources.'
@@ -130,21 +146,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 15.5
+  composite: 14.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.5
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 18.3
-    discoverability: 65.0
+    developer_ergonomics: 12.4
+    discoverability: 75.0
     operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 16.5
   provenance:
     conformance: unknown
     mcp: first-party
@@ -154,13 +178,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 16.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/powerline-ai/powerline-ai-2026-11-03T141428.png
 security:
 - kind: authentication
   name: Powerline Ai Authentication
@@ -173,8 +199,7 @@ security:
 slug: powerline-ai
 tags:
 - Company
-- AI
-- APIs
+- Artificial Intelligence
 - Automation
 - Email
 - Productivity

@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.2
-  scored_at: '2026-10-31'
+  score: 54.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.candis.io
@@ -68,7 +72,7 @@ apis:
   description: The Reimbursements API from Candis — 1 operation(s) for reimbursements.
   name: Candis Reimbursements API
   slug: candis-reimbursements-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Candis Core Data API
@@ -247,12 +251,28 @@ network: true
 overview: 'Candis publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Core Data API, Exports API, Invoices API, and 3 more. Tagged areas include Company, Fintech, Accounts Payable, Spend Management, and Invoice Management.
 
 
+  The Candis catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Candis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Candis Rate Limits
   slug: candis-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Candis API Rules
+  rule_count: 59
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 2
+  slug: candis-rules
 scopes:
 - name: Candis Scopes
   scope_count: 13
@@ -260,22 +280,22 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
+  composite: 51.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 23.7
-    contract_governance: 18.2
-    contract_quality: 50.8
+    access_clarity: 17.1
+    contract_governance: 31.8
+    contract_quality: 56.5
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 57.9
+    discoverability: 75.0
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -284,7 +304,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 47.7
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     contracts:
@@ -300,13 +320,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/candis/candis-2026-07-25T204341.png
 security:
 - kind: authentication

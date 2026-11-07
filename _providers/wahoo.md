@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -283,9 +288,9 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.3
+  composite: 46.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -295,11 +300,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
-    contract_quality: 64.2
-    developer_ergonomics: 45.2
+    contract_quality: 67.6
+    developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 45.3
+    operational_transparency: 17.1
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -313,13 +318,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/wahoo/wahoo-2026-06-20T201201.png
 security:
 - kind: authentication
@@ -345,6 +349,7 @@ tags:
 - Hardware
 - FIT Files
 - Webhook
+- OAuth
 - Authentication
 website: https://www.wahoofitness.com/
 ---

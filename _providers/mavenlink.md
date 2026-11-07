@@ -1,12 +1,11 @@
 ---
 access_model:
   confidence: medium
-  label: Requires approval
-  onboarding: approval
-  pricing: unknown
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - plans
   - authentication
   - scopes
   - rate-limits
@@ -29,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.1
-  scored_at: '2026-10-31'
+  score: 61.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 11
@@ -561,7 +561,7 @@ apis:
   description: Workweeks in Kantata OX are owned by an Account. They can be used as the default for an Account or can be associated to a User through a Workweek Membership.
   name: Mavenlink Workweeks API
   slug: mavenlink-workweeks-api
-artifact_total: 119
+artifact_total: 120
 asyncapis:
 - description: ''
   name: Mavenlink Event Surface
@@ -775,7 +775,7 @@ network: true
 overview: 'Mavenlink publishes 103 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Group Memberships API, Account Colors API, Account Invitations API, and 100 more. Tagged areas include Professional Services Automation, Project Management, Resource Management, Time Tracking, and Expense Management.
 
 
-  The Mavenlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mavenlink catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mavenlink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 32 more developer resources.'
@@ -788,30 +788,43 @@ rate_limits:
 - limit_count: 0
   name: Mavenlink Rate Limits
   slug: mavenlink-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 117
+  extends:
+  - spectral:oas
+  name: Mavenlink API Rules
+  rule_count: 76
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 15
+  slug: mavenlink-rules
 scopes:
 - name: Mavenlink Scopes
   scope_count: 6
   slug: mavenlink-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 56.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 37.0
+    artifact_dirs: 31
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 52.6
-    contract_governance: 4.5
-    contract_quality: 52.7
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 56.1
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 36.8
-  previous_composite: 53.0
+    discoverability: 75.0
+    operational_transparency: 34.2
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -828,13 +841,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/mavenlink/mavenlink-2026-09-02T150445.png
 security:
 - kind: authentication

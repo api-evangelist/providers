@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,15 +37,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-31'
-api_count: 1
+  scored_at: '2026-11-06'
+api_count: 2
 apis:
 - baseURL: https://api.getnoded.ai
   baseurl_source: declared
   description: 'Noded AI API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-10-25); not the provider''s own document.'
   name: Noded AI API
   slug: noded-so-api
-artifact_total: 12
+- description: 'The Noded (Apollo) GraphQL API behind the Customer Context Graph. One POST endpoint serving people and accounts (both modelled as tags), the unified activity timeline (blocks: notes, emails, tasks, me'
+  name: Noded GraphQL API
+  slug: noded-graphql-api
+artifact_total: 14
 common:
 - group: commercial
   href: https://artifacts.apis.io/noded-so/plans/noded-so-plans-pricing.yml
@@ -135,6 +150,14 @@ common:
   title: ''
   type: Blog
   url: https://www.getnoded.ai/blog
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.getnoded.ai/developers#reference
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Notify-AI
 coverage:
   checked: '2026-10-25'
   detail: API spec endpoints return HTTP 403, indicating authentication is required.
@@ -171,17 +194,21 @@ jsonld:
   property_count: 46
   slug: noded-so-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Noded AI MCP Server
+  slug: noded-ai-mcp-yml
 modified: '2026-10-25'
 name: Noded AI
 nav: Providers
 network: true
-overview: 'Noded AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Customer-Data, Context-Graph, Integration, and Automation.
+overview: 'Noded AI is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Customer Data, Context Graph, Integration, and Automation.
 
 
   The Noded AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Noded AI''s developer surface includes getting-started guide, documentation, pricing, engineering blog, and 18 more developer resources.'
+  Noded AI''s developer surface includes getting-started guide, documentation, pricing, engineering blog, API reference, and 19 more developer resources.'
 plans:
 - name: Noded So Plans Pricing
   plan_count: 2
@@ -202,28 +229,30 @@ rules:
   slug: noded-so-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 45.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 70.0
     catalog_earned_first_party: 8.0
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 64.5
     contract_governance: 33.3
-    contract_quality: 26.1
-    developer_ergonomics: 33.3
-    discoverability: 66.1
-    operational_transparency: 10.5
+    contract_quality: 25.2
+    developer_ergonomics: 40.5
+    discoverability: 73.2
+    operational_transparency: 7.9
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 10
+      callable: 0.0
+      derived: 1
       marker_coverage: 100.0
-      total: 10
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -234,13 +263,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
+screenshot: https://apis.io/screenshots/noded-so/noded-so-2026-11-03T140244.png
 security:
 - kind: domain-security
   name: Noded So Domain Security
@@ -252,9 +282,9 @@ security:
   summary_line: SOC 2, GDPR
 slug: noded-so
 tags:
-- AI
-- Customer-Data
-- Context-Graph
+- Artificial Intelligence
+- Customer Data
+- Context Graph
 - Integration
 - Automation
 - Company

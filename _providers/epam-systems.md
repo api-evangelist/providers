@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The EPAM Systems API provides access to platform services and data for enterprise integration and automation.
@@ -110,9 +112,9 @@ rate_limits:
   slug: epam-systems-rate-limits
 score:
   band: minimal
-  composite: 9.1
+  composite: 8.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -125,16 +127,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 9.1
+    operational_transparency: 7.9
+  previous_composite: 8.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

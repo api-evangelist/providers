@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-31'
+  score: 32.9
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - baseURL: https://api.eu.corti.app/v2
@@ -269,9 +273,9 @@ scopes:
   summary_line: 44 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.7
+  composite: 57.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -283,9 +287,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.6
     developer_ergonomics: 73.2
-    discoverability: 70.0
+    discoverability: 78.6
     operational_transparency: 57.9
-  previous_composite: 56.7
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -296,8 +300,8 @@ score:
     regime: Health
     regime_id: health
     score: 34.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

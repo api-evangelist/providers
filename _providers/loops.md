@@ -20,12 +20,13 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.3
-  scored_at: '2026-10-31'
+  score: 65.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -377,7 +378,7 @@ apis:
   description: 'Events Loops sends to your configured webhook endpoint when certain events happen in your account. Configure an endpoint in Settings → Webhooks. Each account supports one webhook endpoint. Events are '
   name: Loops Webhooks API
   slug: loops-webhooks-api
-artifact_total: 47
+artifact_total: 48
 asyncapis:
 - description: Event catalog for the Loops webhook surface, derived operation-for-operation from the `webhooks` block of the Loops OpenAPI 3.1 document (info.version 1.21.6, published at https://app.loops.so/openapi
   name: Loops Webhooks
@@ -652,7 +653,7 @@ network: true
 overview: 'Loops publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including API key API, Audience segments API, Campaign groups API, and 18 more. Tagged areas include Email, Email API, Marketing Automation, Transactional Email, and Lifecycle Email.
 
 
-  The Loops catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Loops catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Loops'' developer surface includes authentication, code examples, CLI, changelog, documentation, API reference, getting-started guide, and 39 more developer resources.'
@@ -668,6 +669,19 @@ rate_limits:
 - limit_count: 8
   name: Loops Rate Limits
   slug: loops-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Loops API Rules
+  rule_count: 56
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 2
+    warn: 9
+  slug: loops-rules
 scopes:
 - name: Loops Scopes
   scope_count: 1
@@ -675,30 +689,30 @@ scopes:
   summary_line: 1 scope
 score:
   band: exemplar
-  composite: 72.7
+  composite: 76.6
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 64.0
+    artifact_dirs: 34
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.7
+  delta: 1.2
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 59.0
+    contract_governance: 31.8
+    contract_quality: 63.7
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 69.0
+    discoverability: 75.0
+    operational_transparency: 73.7
+  previous_composite: 75.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 94.7
       total: 19
     mcp: first-party
     skills: first-party
@@ -708,13 +722,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/loops/loops-2026-06-20T184718.png
 security:
 - kind: authentication

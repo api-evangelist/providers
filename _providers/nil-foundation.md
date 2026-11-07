@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -159,9 +161,9 @@ overview: '=nil; Foundation is listed with 1 API on the [APIs.io](https://apis.i
 random_paper: 7
 score:
   band: thin
-  composite: 27.2
+  composite: 26.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,9 +175,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 27.2
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 26.5
   provenance:
     conformance: derived
     mcp: derived
@@ -185,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

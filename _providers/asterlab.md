@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created in the inference console and set the base U
@@ -133,7 +135,7 @@ plans:
 random_paper: 6
 score:
   band: thin
-  composite: 32.3
+  composite: 33.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 49.0
@@ -147,17 +149,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 32.3
+  previous_composite: 33.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

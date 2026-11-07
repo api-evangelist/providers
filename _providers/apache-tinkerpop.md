@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The Gremlin Server provides WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database. The HTTP API accepts POST requests with Gremlin traversal strings or bytecode at '
@@ -179,8 +181,8 @@ rate_limits:
   name: Apache Tinkerpop Rate Limits
   slug: apache-tinkerpop-rate-limits
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 30.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 38.0
@@ -196,15 +198,18 @@ score:
     developer_ergonomics: 52.4
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 25.1
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 30.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

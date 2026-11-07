@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'On-demand last-mile delivery: generate binding shipment promises (price + ETA), create deliveries, calculate venueless delivery fees, cancel before courier acceptance, retrieve handshake PINs, and rec'
@@ -199,9 +203,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 39.0
+  composite: 38.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -213,9 +217,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 63.7
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 39.0
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -226,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -261,9 +265,10 @@ tags:
 - Last Mile Delivery
 - Logistics
 - Webhook
-- Authentication
+- OAuth
 - Point-of-Sale
 - Restaurant
 - Delivery
+- Authentication
 website: https://wolt.com
 ---

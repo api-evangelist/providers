@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
@@ -161,7 +165,7 @@ apis:
   description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
   name: Measurabl Waste Meters API
   slug: measurabl-waste-meters-api
-artifact_total: 39
+artifact_total: 40
 collections:
 - collection_type: open
   name: Measurabl Core API
@@ -364,12 +368,28 @@ network: true
 overview: 'Measurabl publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buildings API, Carbon Estimates API, Certification Lookups API, and 21 more. Tagged areas include ESG, Real Estate, Sustainability, Carbon Accounting, and Energy Management.
 
 
+  The Measurabl catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Measurabl Rate Limits
   slug: measurabl-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Measurabl API Rules
+  rule_count: 52
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 14
+  slug: measurabl-rules
 scopes:
 - name: Measurabl Scopes
   scope_count: 0
@@ -377,29 +397,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.4
+  composite: 49.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 39.5
-    contract_governance: 4.5
-    contract_quality: 43.9
-    developer_ergonomics: 63.7
+    access_clarity: 32.9
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 61.3
     discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 49.4
+    operational_transparency: 50.0
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 91.7
       total: 24
     mcp: derived
     skills: derived
@@ -413,13 +433,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/measurabl/measurabl-2026-08-07T172304.png
 security:
 - kind: authentication

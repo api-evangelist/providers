@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,7 +66,7 @@ arazzos:
 - description: Screen a property, request a Homeward Offer Estimate, and fetch the full offer breakdown.
   name: Homeward cash offer — buybox to finalized estimate
   slug: homeward-cash-offer
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Homeward Offer Estimate Buybox API
@@ -199,25 +200,41 @@ network: true
 overview: 'Homeward is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Buybox API, Finalization API, and Offer Requests API. Tagged areas include Company, Real Estate, Home Finance, Mortgage, and PropTech.
 
 
+  The Homeward catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Homeward''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Homeward API Rules
+  rule_count: 58
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 5
+    warn: 1
+  slug: homeward-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 28.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 13.6
     developer_ergonomics: 51.8
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -226,7 +243,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.1
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,13 +260,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/homeward/homeward-2026-07-25T221350.png
 security:
 - kind: authentication

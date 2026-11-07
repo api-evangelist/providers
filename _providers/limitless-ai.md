@@ -1,16 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
   pricing: free
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +30,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-31'
+  score: 30.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -74,7 +81,7 @@ apis:
   description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Developer API
   slug: limitless-ai-limitless-developer-api-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Limitless Developer Chats API
@@ -294,6 +301,9 @@ network: true
 overview: 'Limitless publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 4 more. Tagged areas include Artificial Intelligence, Wearables, Pendant, Meeting Notes, and Lifelogs.
 
 
+  The Limitless catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Limitless'' developer surface includes GitHub presence, documentation, API reference, getting-started guide, signup flow, support, privacy policy, and 33 more developer resources.'
 plans:
 - name: Limitless Ai Plans Pricing
@@ -304,6 +314,19 @@ rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
   slug: limitless-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 83
+  extends:
+  - spectral:oas
+  name: Limitless API Rules
+  rule_count: 42
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 3
+    warn: 1
+  slug: limitless-ai-rules
 scopes:
 - name: Limitless Ai Scopes
   scope_count: 4
@@ -311,30 +334,30 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.4
+  composite: 42.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 36.0
+    artifact_dirs: 27
+    catalog_earned: 40.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 74.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.1
   facets:
-    access_clarity: 39.5
-    contract_governance: 4.5
-    contract_quality: 44.5
+    access_clarity: 26.3
+    contract_governance: 18.2
+    contract_quality: 49.1
     developer_ergonomics: 56.5
-    discoverability: 56.7
-    operational_transparency: 18.4
-  previous_composite: 41.9
+    discoverability: 66.7
+    operational_transparency: 15.8
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
@@ -344,13 +367,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/limitless-ai/limitless-ai-2026-07-25T225205.png
 security:
 - kind: authentication

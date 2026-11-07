@@ -1,14 +1,16 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Commercial onboarding required · Public documentation
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: paid
+  pricing: unknown
   public: false
   source:
-  - documentation
   - authentication
-  trial: true
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -27,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -106,7 +109,7 @@ arazzos:
 - description: Register a callback endpoint for Secure Panel Network valuation milestones, update its configuration, then remove it.
   name: Subscribe to valuation milestone notifications
   slug: landmark-information-subscribe-valuation-milestones
-artifact_total: 30
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Landmark Information Webhooks
@@ -351,7 +354,7 @@ network: true
 overview: 'Landmark Information Group publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Cases API, Document Vaults API, and 7 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
 
 
-  The Landmark Information Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Landmark Information Group catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 38 more developer resources.'
@@ -360,6 +363,19 @@ rate_limits:
 - limit_count: 2
   name: Landmark Information Rate Limits
   slug: landmark-information-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Landmark Information Group API Rules
+  rule_count: 66
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 8
+    warn: 12
+  slug: landmark-information-rules
 scopes:
 - name: Landmark Information Scopes
   scope_count: 0
@@ -367,22 +383,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
+  composite: 54.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 43.0
+    artifact_dirs: 29
+    catalog_earned: 47.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 58.8
+    contract_governance: 18.2
+    contract_quality: 60.1
     developer_ergonomics: 66.1
     discoverability: 62.5
-    operational_transparency: 50.0
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -391,7 +407,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.9
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,13 +424,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/landmark-information/landmark-information-2026-08-07T171441.png
 security:
 - kind: authentication

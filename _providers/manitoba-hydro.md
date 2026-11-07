@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Anonymous, no registration, no documentation
-  onboarding: self-serve
-  pricing: free
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
   public: true
   source:
-  - documentation
-  - probes
+  - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: A hosted Esri feature service published by Manitoba Hydro's ArcGIS Online organization (org id QoeQkfdOG126FqSi, org name "Manitoba Hydro", item owner dcarpenter@hydro.mb.ca) carrying live unplanned p
@@ -211,9 +215,9 @@ overview: 'Manitoba Hydro is listed with 4 APIs on the [APIs.io](https://apis.io
 random_paper: 22
 score:
   band: thin
-  composite: 30.9
+  composite: 31.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 42.5
     catalog_earned_first_party: 0.0
     catalog_gap: 72.5
@@ -223,7 +227,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 9.9
+    contract_quality: 15.2
     developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 10.5
@@ -234,7 +238,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.9
+  previous_composite: 31.9
   provenance:
     conformance: first-party
   regulatory:
@@ -242,9 +246,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

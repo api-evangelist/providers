@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -115,7 +117,7 @@ apis:
   description: The Transaction Extension API from European Space Agency (ESA) — 4 operation(s) for transaction extension.
   name: European Space Agency (ESA) Transaction Extension API
   slug: esa-transaction-extension-api
-artifact_total: 33
+artifact_total: 34
 collections:
 - collection_type: open
   name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension API
@@ -225,7 +227,7 @@ network: true
 overview: 'European Space Agency (ESA) publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk Transaction Extension API, Collections API, Conformance API, and 15 more. Tagged areas include Earth Observation, Copernicus, Sentinel, Space Weather, and Astronomy.
 
 
-  The European Space Agency (ESA) catalog on APIs.io includes 1 JSON-LD context.
+  The European Space Agency (ESA) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   European Space Agency (ESA)''s developer surface includes documentation, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -238,21 +240,34 @@ rate_limits:
 - limit_count: 9
   name: Esa Rate Limits
   slug: esa-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: European Space Agency (ESA) API Rules
+  rule_count: 46
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 3
+    warn: 7
+  slug: esa-rules
 score:
   band: emerging
-  composite: 23.0
+  composite: 25.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 50.0
+    artifact_dirs: 16
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 47.4
+    contract_governance: 13.6
+    contract_quality: 53.5
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 13.2
@@ -261,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 23.0
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     contracts:
@@ -275,13 +290,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/esa/esa-2026-06-20T180819.png
 security:
 - kind: domain-security

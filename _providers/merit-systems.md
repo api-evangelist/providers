@@ -17,7 +17,7 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    agentic_commerce: false
+    agentic_commerce: self
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-31'
+  score: 32.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -77,7 +78,7 @@ apis:
   description: The Send API from Merit Systems — 1 operation(s) for send.
   name: Merit Systems Send API
   slug: merit-systems-send-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: AgentCash Balances API
@@ -255,34 +256,50 @@ network: true
 overview: 'Merit Systems publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balances API, Invite Codes API, Organizations API, and 3 more. Tagged areas include Company, Agentic Commerce, Payments, x402, and Micropayments.
 
 
+  The Merit Systems catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Merit Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Merit Systems API Rules
+  rule_count: 54
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 2
+    warn: 1
+  slug: merit-systems-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 47.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.9
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 36.0
+    contract_governance: 18.2
+    contract_quality: 39.5
     developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 31.6
-  previous_composite: 45.9
+    discoverability: 75.0
+    operational_transparency: 28.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 2
-      marker_coverage: 33.3
+      marker_coverage: 100.0
       total: 6
     mcp: first-party
     skills: first-party
@@ -292,13 +309,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/merit-systems/merit-systems-2026-08-07T172603.png
 security:
 - kind: authentication

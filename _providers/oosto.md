@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served from the customer's own OnWatch server under th
@@ -107,10 +110,10 @@ overview: 'Oosto is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
   Oosto''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 24.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -121,9 +124,9 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -132,15 +135,15 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 27.1
+  previous_composite: 24.8
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 17.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

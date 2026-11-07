@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: As a Kroger subsidiary, Roundy's stores (Pick 'n Save, Metro Market, Mariano's) are accessible through the Kroger Developer Platform product catalog API. The API enables searching and browsing product
@@ -188,7 +190,7 @@ rules:
   slug: roundys-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.6
+  composite: 19.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 53.8
@@ -201,18 +203,18 @@ score:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 30.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 4.8
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 20.6
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

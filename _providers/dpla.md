@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,7 +74,7 @@ apis:
   description: Utility endpoints for health checks and random item retrieval
   name: Digital Public Library of America Utilities API
   slug: dpla-utilities-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Digital Public Library of America (DPLA) Authentication API
@@ -176,7 +180,7 @@ network: true
 overview: 'Digital Public Library of America publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Items API, Primary Source Sets API, and 2 more. Tagged areas include Cultural Heritage, Library, Archives, Museums, and Open Data.
 
 
-  The Digital Public Library of America catalog on APIs.io includes 1 JSON-LD context.
+  The Digital Public Library of America catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Digital Public Library of America''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
@@ -189,25 +193,38 @@ rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Digital Public Library of America API Rules
+  rule_count: 65
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 2
+    warn: 4
+  slug: dpla-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 31.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.0
+    artifact_dirs: 16
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 56.7
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 31.3
+    operational_transparency: 2.6
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +238,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dpla/dpla-2026-10-11T184318.png
 security:
 - kind: authentication

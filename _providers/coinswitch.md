@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Professional REST + WebSocket trading API for Spot (INR/USDT), USDT-margined Perpetual Futures, HFT, and Options on the CoinSwitch PRO venue. Ed25519 request signing; v2 base path /trade/api/v2.
@@ -175,9 +176,9 @@ rate_limits:
   slug: coinswitch-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 41.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -189,8 +190,8 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 78.9
+    discoverability: 73.2
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -198,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 41.9
+  previous_composite: 41.6
   provenance:
     mcp: derived
   regulatory:
@@ -207,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

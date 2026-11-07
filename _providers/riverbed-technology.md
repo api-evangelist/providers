@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,9 +116,9 @@ overview: 'Riverbed Technology is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 12
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -128,9 +130,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 10.5
-  previous_composite: 23.1
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -139,8 +141,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

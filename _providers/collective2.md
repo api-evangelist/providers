@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-31'
+  score: 28.5
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: API for integrating strategy management, signal submission, and white‑label solutions.
@@ -249,28 +262,28 @@ rules:
     warn: 1
   slug: collective2-rules
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 30.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 64.8
     catalog_earned_first_party: 12.0
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 23.6
-    developer_ergonomics: 57.1
-    discoverability: 53.6
-    operational_transparency: 36.8
-  previous_composite: 40.3
+    contract_quality: 22.8
+    developer_ergonomics: 34.5
+    discoverability: 60.7
+    operational_transparency: 34.2
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 4
       marker_coverage: 100.0
       total: 4
@@ -280,14 +293,14 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/collective2/collective2-2026-11-03T124848.png
 security:
 - kind: authentication
   name: Collective2 Authentication

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -163,7 +164,7 @@ rate_limits:
   slug: muse-finance-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 36.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
@@ -177,7 +178,7 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -187,7 +188,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.1
+  previous_composite: 36.8
   provenance:
     conformance: derived
     mcp: derived
@@ -197,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,16 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -28,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://rhizomeai.com/api
@@ -46,7 +51,7 @@ apis:
   description: Search and retrieve regulatory and clinical documents.
   name: Rhizome Ai Documents API
   slug: rhizome-ai-documents-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Rhizome AI Documents API
@@ -189,6 +194,9 @@ network: true
 overview: 'Rhizome Ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Company, Regulatory, Pharmaceuticals, Medical Devices, and Life Sciences.
 
 
+  The Rhizome Ai catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Rhizome Ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, pricing, and 19 more developer resources.'
 plans:
 - name: Rhizome Ai Plans Pricing
@@ -202,25 +210,38 @@ rate_limits:
 - limit_count: 1
   name: Rhizome Ai Rate Limits
   slug: rhizome-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Rhizome Ai API Rules
+  rule_count: 55
+  severity_counts:
+    error: 53
+    hint: 0
+    info: 1
+    warn: 1
+  slug: rhizome-ai-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 43.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 60.0
+    artifact_dirs: 24
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
+    access_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 15.5
     developer_ergonomics: 58.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 41.8
+  previous_composite: 43.7
   provenance:
     conformance: derived
     contracts:
@@ -236,13 +257,12 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rhizome-ai/rhizome-ai-2026-08-17T081552.png
 security:
 - kind: authentication

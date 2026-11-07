@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,20 +36,28 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
-- group: agent
-  href: https://artifacts.apis.io/diffusely-formerly-meero/llms/diffusely-formerly-meero-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/diffusely-formerly-meero-llms.txt
 - group: auth
   href: https://artifacts.apis.io/diffusely-formerly-meero/well-known/diffusely-formerly-meero-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/diffusely-formerly-meero-clarity-security.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.carcutter.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.carcutter.com/privacy-policy/
+- group: agent
+  href: https://artifacts.apis.io/diffusely-formerly-meero/llms/diffusely-formerly-meero-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/diffusely-formerly-meero-llms.txt
 - group: agent
   href: https://artifacts.apis.io/diffusely-formerly-meero/well-known/diffusely-formerly-meero-well-known.yml
   title: ''
@@ -86,33 +105,37 @@ overview: Diffusely Formerly Meero is profiled on the [APIs.io](https://apis.io/
 random_paper: 5
 score:
   band: minimal
-  composite: 5.6
+  composite: 10.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.6
-    operational_transparency: 10.5
+    discoverability: 51.8
+    operational_transparency: 5.3
+  previous_composite: 6.3
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/diffusely-formerly-meero/diffusely-formerly-meero-2026-11-03T130648.png
 security:
 - kind: domain-security
   name: Diffusely Formerly Meero Domain Security

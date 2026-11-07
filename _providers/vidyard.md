@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -280,28 +287,28 @@ rate_limits:
   slug: vidyard-rate-limits
 score:
   band: exemplar
-  composite: 71.8
+  composite: 71.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 78.0
     catalog_earned_first_party: 24.0
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 76.2
-    discoverability: 71.4
-    operational_transparency: 86.8
+    discoverability: 78.6
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 70.2
+  previous_composite: 71.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -315,8 +322,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

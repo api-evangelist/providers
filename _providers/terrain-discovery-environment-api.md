@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -270,9 +274,9 @@ rules:
   slug: terrain-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 30.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
@@ -282,15 +286,15 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 54.6
-    developer_ergonomics: 33.3
+    contract_quality: 51.6
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 34.1
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -300,13 +304,12 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/terrain-discovery-environment-api/terrain-discovery-environment-api-2026-06-20T195131.png
 security:
 - kind: authentication

@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -27,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Aramis Group publishes the machine-readable contracts behind the Aramisauto vehicle catalog as ten JSON Schema 2020-12 documents at https://schemas.aramis.group/ — a search request envelope (criteria/
@@ -227,9 +229,9 @@ rate_limits:
   slug: aramisauto-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 18.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 44.3
     catalog_earned_first_party: 6.0
     catalog_gap: 70.8
@@ -241,8 +243,8 @@ score:
     contract_governance: 8.3
     contract_quality: 14.5
     developer_ergonomics: 7.1
-    discoverability: 66.1
-    operational_transparency: 5.3
+    discoverability: 73.2
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -251,7 +253,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 18.1
+  previous_composite: 18.4
   provenance:
     conformance: derived
   regulatory:
@@ -260,8 +262,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

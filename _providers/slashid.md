@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 6
@@ -271,7 +275,7 @@ json_schemas:
   property_count: 0
   slug: credential
 - name: OrganizationResponse
-  property_count: 0
+  property_count: 4
   slug: organization-response
 - name: PersonHandle
   property_count: 2
@@ -283,7 +287,7 @@ json_schemas:
   property_count: 0
   slug: post-o-auth2-token-request
 - name: Webhook
-  property_count: 0
+  property_count: 1
   slug: webhook
 - name: WorkflowWithConfiguration
   property_count: 0
@@ -327,10 +331,10 @@ rules:
     warn: 4
   slug: slashid-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 58.8
     catalog_earned_first_party: 0.0
     catalog_gap: 56.3
@@ -340,11 +344,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
-    contract_quality: 56.9
+    contract_quality: 60.3
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 38.9
+    operational_transparency: 18.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -358,13 +362,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/slashid/slashid-2026-06-20T194022.png
 security:
 - kind: authentication
@@ -388,6 +391,7 @@ tags:
 - Passkeys
 - User Management
 - CIAM
+- OAuth
 - OpenID Connect
 - SSO
 - RBAC

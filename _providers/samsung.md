@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -22,10 +23,11 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-31'
+  score: 37.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -94,7 +96,7 @@ apis:
   description: Device event subscriptions.
   name: Samsung Subscriptions API
   slug: samsung-subscriptions-api
-artifact_total: 49
+artifact_total: 54
 collections:
 - collection_type: open
   name: Samsung SmartThings Apps API
@@ -118,6 +120,61 @@ collections:
   name: Samsung SmartThings Apps Subscriptions API
   slug: open-samsung-subscriptions-api
 common:
+- group: design
+  href: https://artifacts.apis.io/samsung/rules/samsung-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/samsung-rules.yml
+- group: design
+  href: https://artifacts.apis.io/samsung/rules/samsung-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/samsung-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/samsung/json-ld/samsung-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/samsung-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/samsung/data-model/samsung-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/samsung-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/samsung/errors/samsung-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/samsung-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/samsung/conformance/samsung-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/samsung-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/samsung/mcp/samsung-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/samsung-mcp.yml
+- group: agent
+  href: https://artifacts.apis.io/samsung/well-known/samsung-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/samsung-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/samsung/hosts/samsung-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/samsung-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/samsung/integrations/samsung-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/samsung-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/samsung/vendors/samsung-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/samsung-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/samsung/plans/samsung-plans-pricing.yml
   title: ''
@@ -243,6 +300,15 @@ json_schemas:
   slug: samsung-app
 - name: CreateLocationRequest
   property_count: 8
+  slug: samsung-create-location-request
+- name: CreateRuleRequest
+  property_count: 3
+  slug: samsung-create-rule-request
+- name: CreateSubscriptionRequest
+  property_count: 2
+  slug: samsung-create-subscription-request
+- name: CreateLocationRequest
+  property_count: 8
   slug: samsung-createlocationrequest
 - name: CreateRuleRequest
   property_count: 3
@@ -250,9 +316,15 @@ json_schemas:
 - name: CreateSubscriptionRequest
   property_count: 2
   slug: samsung-createsubscriptionrequest
+- name: DeviceCommandRequest
+  property_count: 1
+  slug: samsung-device-command-request
 - name: Device
   property_count: 10
   slug: samsung-device
+- name: DeviceStatus
+  property_count: 1
+  slug: samsung-device-status
 - name: DeviceCommandRequest
   property_count: 1
   slug: samsung-devicecommandrequest
@@ -310,7 +382,7 @@ overview: 'Samsung publishes 12 API contracts indexed on the [APIs.io](https://a
   The Samsung catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Samsung''s developer surface includes authentication, engineering blog, documentation, code examples, and 17 more developer resources.'
+  Samsung''s developer surface includes authentication, engineering blog, documentation, code examples, and 28 more developer resources.'
 plans:
 - name: Samsung Plans Pricing
   plan_count: 1
@@ -346,22 +418,22 @@ rules:
   slug: samsung-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 34.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.0
+    artifact_dirs: 28
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 5.3
-    contract_governance: 27.3
-    contract_quality: 59.3
+    contract_governance: 31.8
+    contract_quality: 68.8
     developer_ergonomics: 23.8
-    discoverability: 64.3
-    operational_transparency: 10.5
+    discoverability: 66.7
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -370,6 +442,7 @@ score:
   previous_composite: 32.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -382,13 +455,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/samsung/samsung-2026-06-20T193400.png
 security:
 - kind: authentication

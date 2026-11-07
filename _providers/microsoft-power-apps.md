@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,10 +11,13 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -22,10 +28,11 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -33,10 +40,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-31'
+  score: 38.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -97,7 +104,7 @@ apis:
 - description: Custom connectors allow you to create wrappers around REST or SOAP APIs for use in Power Apps, Power Automate, Logic Apps, and Copilot Studio, enabling integration with services not available as prebu
   name: Custom Connectors API
   slug: custom-connectors-api
-artifact_total: 77
+artifact_total: 78
 collections:
 - collection_type: postman
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
@@ -121,6 +128,60 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: open-microsoft-power-apps-entities-api
 common:
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/rules/microsoft-power-apps-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-apps-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/rules/microsoft-power-apps-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-apps-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/rules/microsoft-power-apps-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-power-apps-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/json-ld/microsoft-power-apps-dataverse-web-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-power-apps-dataverse-web-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/vocabulary/microsoft-power-apps-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-power-apps-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/data-model/microsoft-power-apps-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-power-apps-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/errors/microsoft-power-apps-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-power-apps-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-power-apps/conformance/microsoft-power-apps-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-power-apps-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-power-apps/llms/microsoft-power-apps-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-power-apps-llms.txt
+- group: build
+  href: https://artifacts.apis.io/microsoft-power-apps/packages/microsoft-power-apps-packages.yml
+  title: ''
+  type: Packages
+  url: packages/microsoft-power-apps-packages.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
 - group: other
   href: https://artifacts.apis.io/microsoft-power-apps/capabilities/microsoft-power-apps-capability-edges.yml
   title: ''
@@ -430,10 +491,10 @@ network: true
 overview: 'Microsoft Power Apps publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Entities API, and 12 more. Tagged areas include Business Applications, Cloud, Enterprise, Low-Code, and Microsoft.
 
 
-  The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Power Apps'' developer surface includes developer portal, getting-started guide, changelog, authentication, engineering blog, pricing, support, and 33 more developer resources.'
+  Microsoft Power Apps'' developer surface includes developer portal, getting-started guide, changelog, authentication, engineering blog, pricing, support, and 44 more developer resources.'
 plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 5
@@ -459,6 +520,18 @@ rules:
     warn: 5
   slug: microsoft-power-apps-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 116
+  extends:
+  - spectral:oas
+  name: Microsoft Power Apps API Rules
+  rule_count: 75
+  severity_counts:
+    error: 73
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-power-apps-rules
+- authorship: generated
   effective_rule_count: 57
   extends:
   - spectral:oas
@@ -477,43 +550,44 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.6
+  composite: 66.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 64.9
-    catalog_earned_first_party: 12.0
-    catalog_gap: 50.1
+    artifact_dirs: 31
+    catalog_earned: 78.4
+    catalog_earned_first_party: 24.0
+    catalog_gap: 36.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 5.4
   facets:
-    access_clarity: 71.1
-    contract_governance: 13.6
-    contract_quality: 62.0
-    developer_ergonomics: 79.0
-    discoverability: 63.3
-    operational_transparency: 55.3
-  previous_composite: 63.0
+    access_clarity: 60.5
+    contract_governance: 31.8
+    contract_quality: 64.7
+    developer_ergonomics: 76.7
+    discoverability: 65.0
+    operational_transparency: 68.4
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-power-apps/microsoft-power-apps-2026-06-20T185522.png
 security:
 - kind: authentication

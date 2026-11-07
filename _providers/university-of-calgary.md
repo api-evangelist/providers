@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 28.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -403,9 +407,9 @@ rules:
   slug: university-of-calgary-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 35.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 56.8
     catalog_earned_first_party: 0.0
     catalog_gap: 58.3
@@ -415,10 +419,10 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 28.0
-    contract_quality: 53.8
+    contract_quality: 54.3
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -426,7 +430,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.2
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -441,13 +445,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/university-of-calgary/university-of-calgary-2026-06-20T200144.png
 security:
 - kind: authentication

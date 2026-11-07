@@ -1,8 +1,9 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -29,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
@@ -194,23 +196,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: developing
-  composite: 47.3
+  composite: 49.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 39.0
+    contract_quality: 44.2
     developer_ergonomics: 28.6
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 45.7
+  previous_composite: 49.3
   provenance:
     conformance: first-party
   regulatory:
@@ -223,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -252,8 +254,9 @@ tags:
 - Lead Generation
 - Automation
 - Identity
-- Authentication
+- OAuth
 - Software-as-a-Service
 - Identity Federation
+- Authentication
 website: https://easywebinar.com/
 ---

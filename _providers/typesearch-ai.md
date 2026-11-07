@@ -1,11 +1,24 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -25,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-31'
+  score: 33.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -253,7 +267,7 @@ modified: '2026-10-31'
 name: typesearch-ai
 nav: Providers
 network: true
-overview: 'typesearch-ai publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Charts API, Contents API, Embed API, and 5 more. Tagged areas include Company, AI, Search, API, and SaaS.
+overview: 'typesearch-ai publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Charts API, Contents API, Embed API, and 5 more. Tagged areas include Company, Artificial Intelligence, Search, Software-as-a-Service, and Data.
 
 
   The typesearch-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -288,34 +302,48 @@ scopes:
   slug: typesearch-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.2
+  band: developing
+  composite: 49.4
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 93.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 22.0
+    artifact_dirs: 30
+    catalog_earned: 82.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.5
   facets:
-    access_clarity: 73.2
-    contract_governance: 70.9
+    access_clarity: 53.9
+    contract_governance: 19.7
     contract_quality: 57.5
-    developer_ergonomics: 70.7
+    developer_ergonomics: 48.1
     discoverability: 65.0
-    operational_transparency: 34.7
+    operational_transparency: 28.9
+  previous_composite: 59.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/typesearch-ai/typesearch-ai-2026-11-03T145333.png
 security:
 - kind: authentication
   name: Typesearch Ai Authentication
@@ -328,10 +356,9 @@ security:
 slug: typesearch-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Search
-- API
-- SaaS
+- Software-as-a-Service
 - Data
 website: https://typesearch.ai/
 ---

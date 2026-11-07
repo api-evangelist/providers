@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.vksapp.com
@@ -192,9 +194,9 @@ rules:
   slug: vks-integrations-rules
 score:
   band: thin
-  composite: 31.1
+  composite: 30.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -208,7 +210,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 31.1
+  previous_composite: 30.4
   provenance:
     contracts:
       callable: 0.0
@@ -221,13 +223,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vks-integrations/vks-integrations-2026-06-20T201113.png
 security:
 - kind: domain-security

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -44,6 +45,26 @@ apis:
   slug: kiota
 artifact_total: 9
 common:
+- group: design
+  href: https://artifacts.apis.io/kiota/rules/kiota-validation-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/kiota-validation-rules.yml
+- group: other
+  href: https://artifacts.apis.io/kiota/hosts/kiota-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/kiota-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/kiota/integrations/kiota-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/kiota-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/kiota/vendors/kiota-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/kiota-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/kiota/plans/kiota-plans-pricing.yml
   title: ''
@@ -243,7 +264,7 @@ overview: 'Kiota is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Kiota catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 31 more developer resources.'
+  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 35 more developer resources.'
 plans:
 - name: Kiota Plans Pricing
   plan_count: 3
@@ -266,10 +287,10 @@ rules:
     warn: 0
   slug: kiota-validation-rules
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 45.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 43.0
     catalog_earned_first_party: 5.0
     catalog_gap: 72.0
@@ -281,9 +302,12 @@ score:
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 57.1
-    operational_transparency: 47.4
-  previous_composite: 38.2
+    discoverability: 64.3
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 45.0
   provenance:
     conformance: first-party
   regulatory:
@@ -292,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -304,7 +328,7 @@ security:
 - kind: authentication
   name: Kiota Authentication
   slug: kiota-authentication
-  summary_line: oauth2-device-code/apiKey/http-bearer/anonymous · 0 schemes
+  summary_line: oauth2-device-code/apiKey/http-bearer/anonymous · 6 schemes
 - kind: domain-security
   name: Kiota Domain Security
   slug: kiota-domain-security

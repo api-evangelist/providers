@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-31'
+  score: 33.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: PasteSheet provides a REST API that turns Google Sheets into live JSON endpoints, with pagination, filtering, and rate‑limit controls.
@@ -136,7 +153,7 @@ modified: '2026-10-30'
 name: pastesheet-com
 nav: Providers
 network: true
-overview: 'pastesheet-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, GoogleSheets, NoCode, and AI.
+overview: 'pastesheet-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Google Sheets, No-Code, and Artificial Intelligence.
 
 
   The pastesheet-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -171,34 +188,46 @@ scopes:
   slug: pastesheet-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.2
+  band: thin
+  composite: 30.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 74.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.7
+    artifact_dirs: 18
+    catalog_earned: 56.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 35.5
-    developer_ergonomics: 21.4
-    discoverability: 57.1
-    operational_transparency: 28.4
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 9.9
+    developer_ergonomics: 16.7
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 37.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/pastesheet-com/pastesheet-com-2026-11-03T140953.png
 security:
 - kind: authentication
   name: Pastesheet Com Authentication
@@ -211,9 +240,8 @@ security:
 slug: pastesheet-com
 tags:
 - Company
-- API
-- GoogleSheets
-- NoCode
-- AI
+- Google Sheets
+- No-Code
+- Artificial Intelligence
 website: https://pastesheet.com/
 ---

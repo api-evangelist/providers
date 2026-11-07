@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-31'
+  score: 46.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Unified generation API for image, video, audio, 3D, training and LLM models. Most generation endpoints are asynchronous: a request returns either a completed result or a "processing" status with an id'
@@ -230,7 +244,7 @@ modified: '2026-10-29'
 name: modelslab-com
 nav: Providers
 network: true
-overview: 'modelslab-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including ModelsLab Generation API API, and 1 more. Tagged areas include Company, AI, GenerativeAI, Image, and Video.
+overview: 'modelslab-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including ModelsLab Generation API API, and 1 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Image, and Video.
 
 
   The modelslab-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -265,29 +279,32 @@ scopes:
   slug: modelslab-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.0
+  band: developing
+  composite: 53.5
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 29
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -14.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 35.6
-    contract_quality: 56.7
-    developer_ergonomics: 70.7
-    discoverability: 66.1
-    operational_transparency: 78.9
+    contract_quality: 50.7
+    developer_ergonomics: 48.1
+    discoverability: 73.2
+    operational_transparency: 55.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 68.0
   provenance:
     conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 24
     mcp: derived
     skills: unknown
   regulatory:
@@ -298,16 +315,17 @@ score:
     - jurisdiction: US
       standard: ccpa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 33.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/modelslab-com/modelslab-com-2026-11-03T135746.png
 security:
 - kind: authentication
   name: Modelslab Com Authentication
@@ -324,8 +342,8 @@ security:
 slug: modelslab-com
 tags:
 - Company
-- AI
-- GenerativeAI
+- Artificial Intelligence
+- Generative AI
 - Image
 - Video
 - Audio

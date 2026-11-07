@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-31'
+  score: 32.9
+  scored_at: '2026-11-06'
 api_count: 30
 apis:
 - baseURL: https://{sensors_data_url}/api/v3/analytics/v1
@@ -181,7 +182,7 @@ apis:
   description: The Web Sections API from Sensors Data — 4 operation(s) for web sections.
   name: Sensors Data Web Sections API
   slug: sensors-data-web-sections-api
-artifact_total: 68
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Sensors Data Webhooks
@@ -478,7 +479,7 @@ network: true
 overview: 'Sensors Data publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Channel API, Dashboard API, and 25 more. Tagged areas include Company, Enterprise, Analytics, Customer Data Platform, and Product Analytics.
 
 
-  The Sensors Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Sensors Data catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Sensors Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 33 more developer resources.'
@@ -491,25 +492,38 @@ rate_limits:
 - limit_count: 0
   name: Sensors Data Rate Limits
   slug: sensors-data-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Sensors Data API Rules
+  rule_count: 44
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 7
+  slug: sensors-data-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 44.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 26.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 44.5
-    developer_ergonomics: 66.1
-    discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 42.6
+    developer_ergonomics: 60.1
+    discoverability: 78.6
+    operational_transparency: 26.3
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -525,13 +539,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/sensors-data/sensors-data-2026-08-17T081809.png
 security:
 - kind: authentication

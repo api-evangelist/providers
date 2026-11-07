@@ -1,9 +1,26 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,17 +33,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.2
-  scored_at: '2026-10-31'
+  score: 54.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 3
@@ -427,16 +445,16 @@ rate_limits:
   slug: hud-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: HUD API Rules
-  rule_count: 14
+  rule_count: 46
   severity_counts:
-    error: 12
+    error: 33
     hint: 0
     info: 1
-    warn: 1
+    warn: 12
   slug: hud-ai-rules
 scopes:
 - name: Hud Ai Scopes
@@ -445,21 +463,29 @@ scopes:
   summary_line: 5 scopes
 score:
   band: strong
-  composite: 61.4
+  composite: 59.8
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 35
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 46.1
     contract_governance: 22.0
-    contract_quality: 55.2
-    developer_ergonomics: 73.2
-    discoverability: 71.7
-    operational_transparency: 60.5
+    contract_quality: 56.6
+    developer_ergonomics: 47.0
+    discoverability: 75.0
+    operational_transparency: 57.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -475,13 +501,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 77.8
+screenshot: https://apis.io/screenshots/hud-ai/hud-ai-2026-11-03T133528.png
 security:
 - kind: authentication
   name: Hud Ai Authentication

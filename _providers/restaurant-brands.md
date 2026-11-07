@@ -1,13 +1,17 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -447,7 +452,7 @@ json_schemas:
   property_count: 5
   slug: channel-commit-order
 - name: ConfigOfferEntry
-  property_count: 0
+  property_count: 2
   slug: channel-config-offer-entry
 - name: Currency
   property_count: 0
@@ -627,7 +632,7 @@ json_schemas:
   property_count: 0
   slug: channel-region
 - name: RewardEntry
-  property_count: 0
+  property_count: 5
   slug: channel-reward-entry
 - name: ServiceHour
   property_count: 3
@@ -648,7 +653,7 @@ json_schemas:
   property_count: 0
   slug: channel-store-status
 - name: SystemWideOfferEntry
-  property_count: 0
+  property_count: 4
   slug: channel-system-wide-offer-entry
 - name: Terminal
   property_count: 0
@@ -675,7 +680,7 @@ json_schemas:
   property_count: 3
   slug: menu-v2-calories
 - name: ConfigOfferEntry
-  property_count: 0
+  property_count: 2
   slug: menu-v2-config-offer-entry
 - name: DayPartSchedule
   property_count: 14
@@ -717,13 +722,13 @@ json_schemas:
   property_count: 3
   slug: menu-v2-option
 - name: PaperCouponEntry
-  property_count: 0
+  property_count: 8
   slug: menu-v2-paper-coupon-entry
 - name: Quantity
   property_count: 3
   slug: menu-v2-quantity
 - name: RewardEntry
-  property_count: 0
+  property_count: 2
   slug: menu-v2-reward-entry
 - name: ServiceMode
   property_count: 0
@@ -732,7 +737,7 @@ json_schemas:
   property_count: 0
   slug: menu-v2-store-id
 - name: SystemWideOfferEntry
-  property_count: 0
+  property_count: 2
   slug: menu-v2-system-wide-offer-entry
 json_structures:
 - name: Channel Address Structure
@@ -1109,9 +1114,9 @@ rules:
   slug: restaurant-brands-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 33.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
@@ -1122,10 +1127,10 @@ score:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 60.7
-    developer_ergonomics: 38.1
-    discoverability: 67.9
+    developer_ergonomics: 31.0
+    discoverability: 67.0
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1139,13 +1144,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/restaurant-brands/restaurant-brands-2026-08-17T081601.png
 security:
 - kind: authentication

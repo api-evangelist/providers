@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -204,9 +208,9 @@ rules:
   slug: nokia-netact-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 30.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 57.7
     catalog_earned_first_party: 0.0
     catalog_gap: 57.4
@@ -220,7 +224,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 57.1
     operational_transparency: 18.4
-  previous_composite: 31.5
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +238,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nokia-netact/nokia-netact-2026-06-20T190353.png
 security:
 - kind: authentication

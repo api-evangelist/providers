@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,7 +73,7 @@ apis:
   description: The General API from ScrapingAnt — 1 operation(s) for general.
   name: ScrapingAnt General API
   slug: scrapingant-general-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: ScrapingAnt Scraping API
@@ -251,6 +255,9 @@ network: true
 overview: 'ScrapingAnt publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Scraping API, Usage API, General API, and 2 more. Tagged areas include Data Extraction, Proxies, Web Scraping, Browser Automation, and AI Agents.
 
 
+  The ScrapingAnt catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   ScrapingAnt''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Scrapingant Plans Pricing
@@ -264,24 +271,37 @@ rate_limits:
 - limit_count: 7
   name: Scrapingant Rate Limits
   slug: scrapingant-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: ScrapingAnt API Rules
+  rule_count: 51
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 3
+  slug: scrapingant-rules
 score:
   band: developing
-  composite: 54.0
+  composite: 53.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 64.0
+    artifact_dirs: 27
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.8
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 43.9
-    developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 36.8
+    access_clarity: 72.4
+    contract_governance: 18.2
+    contract_quality: 50.5
+    developer_ergonomics: 63.7
+    discoverability: 68.3
+    operational_transparency: 34.2
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -289,7 +309,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 66.7
       total: 3
     mcp: first-party
     skills: derived
@@ -299,13 +319,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/scrapingant/scrapingant-2026-06-20T193558.png
 security:
 - kind: authentication

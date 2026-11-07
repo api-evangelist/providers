@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1613,7 +1614,7 @@ modified: '2026-09-16'
 name: Amazon Managed Blockchain
 nav: Providers
 network: true
-overview: 'Amazon Managed Blockchain publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessors API, Invitations API, Networks API, and 1 more. Tagged areas include Blockchain, Distributed Ledger, Hyperledger Fabric, and Ethereum.
+overview: 'Amazon Managed Blockchain publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessors API, Invitations API, Networks API, and 1 more. Tagged areas include Amazon Web Services, Blockchain, Distributed Ledger, Hyperledger Fabric, and Ethereum.
 
 
   The Amazon Managed Blockchain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1655,23 +1656,23 @@ rules:
   slug: amazon-managed-blockchain-spectral-rules
 score:
   band: strong
-  composite: 62.6
+  composite: 62.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 75.4
+    artifact_dirs: 22
+    catalog_earned: 80.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 39.6
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.9
   facets:
-    access_clarity: 92.1
+    access_clarity: 85.5
     contract_governance: 27.3
     contract_quality: 63.5
     developer_ergonomics: 56.0
-    discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 61.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1685,13 +1686,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/amazon-managed-blockchain/amazon-managed-blockchain-2026-06-20T171732.png
 security:
 - kind: authentication
@@ -1712,6 +1712,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-managed-blockchain
 tags:
+- Amazon Web Services
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

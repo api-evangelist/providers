@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-31'
+  score: 32.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -307,9 +311,9 @@ rules:
   slug: openzeppelin-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 52.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -319,11 +323,14 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 50.0
-    developer_ergonomics: 54.8
-    discoverability: 58.9
+    contract_quality: 53.4
+    developer_ergonomics: 52.4
+    discoverability: 58.0
     operational_transparency: 39.5
-  previous_composite: 47.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +344,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/openzeppelin/openzeppelin-2026-06-20T191058.png
 security:
 - kind: authentication

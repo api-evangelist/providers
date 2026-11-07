@@ -1,0 +1,172 @@
+---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.1
+  scored_at: '2026-11-06'
+api_count: 0
+artifact_total: 2
+common:
+- group: commercial
+  href: https://artifacts.apis.io/carmotif-com/plans/carmotif-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/carmotif-com-plans-pricing.yml
+- group: agent
+  href: https://artifacts.apis.io/carmotif-com/llms/carmotif-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/carmotif-com-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/carmotif-com/well-known/carmotif-com-ai-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/carmotif-com-ai-security.txt
+- group: agent
+  href: https://artifacts.apis.io/carmotif-com/well-known/carmotif-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/carmotif-com-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/carmotif-com/hosts/carmotif-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/carmotif-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/carmotif-com/vendors/carmotif-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/carmotif-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.carmotif.com/terms
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://www.carmotif.com/c/parametric/Console
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.carmotif.com/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://ai.carmotif.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.carmotif.com/blog/
+- group: auth
+  href: https://artifacts.apis.io/carmotif-com/security/carmotif-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/carmotif-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://carmotif.com/
+coverage:
+  checked: '2026-11-03'
+  detail: GraphQL endpoint https://api.carmotif.com/graphql returns 401 Unauthorized, indicating authentication is required for API access.
+  evidence:
+  - status: 401
+    url: https://api.carmotif.com/graphql
+  reason: auth-required
+  state: gated
+created: '2026-11-03'
+description: 'carmotif-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+image: https://www.carmotif.com/og.jpg
+layout: provider
+modified: '2026-11-03'
+name: carmotif-com
+nav: Providers
+network: true
+overview: 'carmotif-com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Car Design, Automotive Design, Design Library, Visual Reference, and AI Design.
+
+
+  carmotif-com''s developer surface includes sandbox, pricing, engineering blog, and 10 more developer resources.'
+plans:
+- name: Carmotif Com Plans Pricing
+  plan_count: 1
+  slug: carmotif-com-plans-pricing
+random_paper: 17
+score:
+  band: emerging
+  composite: 12.3
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 30.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 39.3
+    operational_transparency: 10.5
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 9.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Carmotif Com Domain Security
+  slug: carmotif-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: carmotif-com
+tags:
+- Car Design
+- Automotive Design
+- Design Library
+- Visual Reference
+- AI Design
+website: https://carmotif.com/
+---

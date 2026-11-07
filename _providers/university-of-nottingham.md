@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Keyless, read-only HAL+JSON REST API of the university's self-hosted DSpace 8.2 / DSpace-CRIS (cris-2024.02.04) institutional repository, served from the university's own domain at repository.nottingh
@@ -197,9 +199,9 @@ rate_limits:
   slug: university-of-nottingham-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 23.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -212,7 +214,7 @@ score:
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +223,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 24.1
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -230,8 +232,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

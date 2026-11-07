@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +54,7 @@ apis:
   description: The Integrations API from Expensify — 1 operation(s) for integrations.
   name: Expensify Integrations API
   slug: expensify-integrations-api
-artifact_total: 6
+artifact_total: 7
 collections:
 - collection_type: open
   name: Expensify Integration Server Integrations API
@@ -118,27 +120,43 @@ network: true
 overview: 'Expensify publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Integrations API, and 1 more. Tagged areas include Expense Management, Expense Reporting, Receipt Scanning, Corporate Cards, and Bill Pay.
 
 
+  The Expensify catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Expensify''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Expensify API Rules
+  rule_count: 44
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 1
+  slug: expensify-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 28.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 37.0
+    artifact_dirs: 11
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 23.7
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 49.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 27.9
+    operational_transparency: 2.6
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -152,13 +170,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/expensify/expensify-2026-06-20T180939.png
 security:
 - kind: domain-security

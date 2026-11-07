@@ -1,6 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-31'
+  score: 28.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -243,7 +254,7 @@ modified: '2026-09-27'
 name: BackBase
 nav: Providers
 network: true
-overview: 'BackBase publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approve API, Bbt API, Patch API, and 5 more. Tagged areas include Banking, Fintech, Digital Banking, API Platform, and AI-Native.
+overview: 'BackBase publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approve API, Bbt API, Patch API, and 5 more. Tagged areas include Banking, Fintech, Digital Banking, API Platform, and AI-native.
 
 
   The BackBase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -278,30 +289,30 @@ rules:
   slug: backbase-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 30.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: -3.6
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 22.0
-    contract_quality: 54.2
-    developer_ergonomics: 32.7
-    discoverability: 67.9
-    operational_transparency: 15.8
-  previous_composite: 33.6
+    contract_quality: 62.2
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 7.9
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: derived
     skills: derived
@@ -310,14 +321,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 16.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/backbase/backbase-2026-10-11T101427.png
 security:
 - kind: domain-security
@@ -338,6 +348,6 @@ tags:
 - Fintech
 - Digital Banking
 - API Platform
-- AI-Native
+- AI-native
 website: https://www.backbase.com
 ---

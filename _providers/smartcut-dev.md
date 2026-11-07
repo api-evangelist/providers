@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +24,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.8
-  scored_at: '2026-10-31'
+  score: 13.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Cutting optimisation for sheet, linear and roll
@@ -151,7 +162,7 @@ modified: '2026-10-31'
 name: smartcut-dev
 nav: Providers
 network: true
-overview: 'smartcut-dev publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including SmartCut API V3 Openapi API, and 1 more. Tagged areas include Company, Developer Tools, Automation, CI/CD, and APIs.
+overview: 'smartcut-dev publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including SmartCut API V3 Openapi API, and 1 more. Tagged areas include Company, Developer Tools, Automation, and CI/CD.
 
 
   The smartcut-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -173,34 +184,41 @@ rules:
     warn: 1
   slug: smartcut-dev-rules
 score:
-  band: thin
-  composite: 39.0
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 77.7
+    artifact_dirs: 16
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 31.6
-    contract_governance: 79.1
+    access_clarity: 15.8
+    contract_governance: 22.0
     contract_quality: 50.7
-    developer_ergonomics: 16.7
-    discoverability: 66.1
+    developer_ergonomics: 8.3
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 32.1
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 14.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/smartcut-dev/smartcut-dev-2026-11-03T143337.png
 security:
 - kind: domain-security
   name: Smartcut Dev Domain Security
@@ -212,6 +230,5 @@ tags:
 - Developer Tools
 - Automation
 - CI/CD
-- APIs
 website: https://smartcut.dev/
 ---

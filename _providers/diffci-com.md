@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: DiffCI provides AI‑agent enabled CI analysis APIs as described in their documentation.
@@ -103,28 +114,36 @@ modified: '2026-10-30'
 name: diffci-com
 nav: Providers
 network: true
-overview: 'diffci-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CI, TestSelection, OpenSource, and SaaS.
+overview: 'diffci-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CI, Test Selection, Open Source, and Software-as-a-Service.
 
 
   diffci-com''s developer surface includes CLI, documentation, getting-started guide, and 8 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 13.4
+  band: minimal
+  composite: 10.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.8
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 56.7
-    operational_transparency: 5.3
+    developer_ergonomics: 17.9
+    discoverability: 66.7
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 14.4
   provenance:
     mcp: first-party
   regulatory:
@@ -132,13 +151,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 7.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/diffci-com/diffci-com-2026-11-03T130646.png
 security:
 - kind: domain-security
   name: Diffci Com Domain Security
@@ -148,8 +169,8 @@ slug: diffci-com
 tags:
 - Company
 - CI
-- TestSelection
-- OpenSource
-- SaaS
+- Test Selection
+- Open Source
+- Software-as-a-Service
 website: https://diffci.com/
 ---

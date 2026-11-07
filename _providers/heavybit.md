@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  generated: '2026-11-06'
+  label: Unknown
+  method: derived
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 api_count: 0
 artifact_total: 0
 created: '2026-10-18'
@@ -18,7 +29,7 @@ tags:
 - Series A
 - Developer Tools
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Open Source
 - DevOps
 ---

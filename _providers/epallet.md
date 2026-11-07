@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: ePallet provides an online wholesale marketplace API (details not publicly documented).
@@ -96,7 +111,7 @@ modified: '2026-10-29'
 name: ePallet
 nav: Providers
 network: true
-overview: 'ePallet is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include e-commerce, wholesale, marketplace, bulk-buying, and logistics.
+overview: 'ePallet is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Wholesale, Marketplace, bulk-buying, and Logistics.
 
 
   ePallet''s developer surface includes support, engineering blog, pricing, signup flow, and 7 more developer resources.'
@@ -116,21 +131,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 18.0
+  composite: 11.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 3.6
     discoverability: 57.1
-    operational_transparency: 5.3
+    operational_transparency: 2.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 18.0
   provenance:
     conformance: unknown
     mcp: derived
@@ -139,13 +162,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/epallet/epallet-2026-11-03T131557.png
 security:
 - kind: authentication
   name: Epallet Authentication
@@ -157,12 +182,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: epallet
 tags:
-- e-commerce
-- wholesale
-- marketplace
+- E-Commerce
+- Wholesale
+- Marketplace
 - bulk-buying
-- logistics
+- Logistics
 - B2B
-- retail
+- Retail
 website: https://epallet.com/
 ---

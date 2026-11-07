@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Jake Gaylor's resume, links and website text as resources and tools, structured screening preferences, an LLM-backed role-fit assessment and interview-question generator, li
@@ -157,9 +174,9 @@ rate_limits:
   slug: jakegaylor-com-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 18.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -171,9 +188,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 71.7
+    discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 18.1
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -184,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

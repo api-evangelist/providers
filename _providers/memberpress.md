@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-31'
+  score: 37.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: WordPress MCP server shipped by the MemberPress AI Foundation add-on. It exposes membership, subscription, transaction, coupon, access-rule and reporting tools — MemberPress states 41 tools on a stand
@@ -99,7 +100,7 @@ apis:
   description: Subscribe callback URLs to MemberPress events.
   name: MemberPress Webhooks API
   slug: memberpress-webhooks-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Memberpress Webhooks
@@ -282,7 +283,7 @@ network: true
 overview: 'MemberPress publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Coupons API, Events API, and 9 more. Tagged areas include Company, Membership, Subscription, WordPress, and Payments.
 
 
-  The MemberPress catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The MemberPress catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   MemberPress'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -298,25 +299,38 @@ rate_limits:
 - limit_count: 0
   name: Memberpress Rate Limits
   slug: memberpress-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 116
+  extends:
+  - spectral:oas
+  name: MemberPress API Rules
+  rule_count: 75
+  severity_counts:
+    error: 71
+    hint: 0
+    info: 1
+    warn: 3
+  slug: memberpress-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 49.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 21.6
+    contract_governance: 18.2
+    contract_quality: 25.0
     developer_ergonomics: 70.4
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 46.0
+    discoverability: 71.7
+    operational_transparency: 26.3
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -332,13 +346,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/memberpress/memberpress-2026-08-17T081042.png
 security:
 - kind: authentication

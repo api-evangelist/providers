@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-31'
+  score: 21.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Dataimporter provides a Salesforce data migration API documented at the Help Center. No machine‑readable contract was found despite probing known OpenAPI locations.
@@ -153,21 +165,23 @@ plans:
 random_paper: 20
 score:
   band: thin
-  composite: 38.0
+  composite: 26.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.4
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 57.1
-    operational_transparency: 26.3
+    developer_ergonomics: 22.6
+    discoverability: 64.3
+    operational_transparency: 13.2
+  previous_composite: 38.7
   provenance:
     mcp: unknown
   regulatory:
@@ -175,13 +189,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/dataimporter/dataimporter-2026-11-03T130204.png
 security:
 - kind: domain-security
   name: Dataimporter Domain Security

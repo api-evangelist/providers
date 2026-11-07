@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -347,9 +348,9 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 42.1
+  composite: 39.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 71.0
     catalog_earned_first_party: 25.0
     catalog_gap: 44.0
@@ -360,7 +361,7 @@ score:
     access_clarity: 44.7
     contract_governance: 40.9
     contract_quality: 22.4
-    developer_ergonomics: 38.1
+    developer_ergonomics: 28.6
     discoverability: 76.8
     operational_transparency: 36.8
   jurisdiction:
@@ -368,7 +369,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 42.1
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,13 +384,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hku/hku-2026-06-20T182806.png
 security:
 - kind: authentication

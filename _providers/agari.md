@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   - '{''url'': ''https://agari.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.fortra.com/platform/email-security — a different registrable domain (agari.com -> fortra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari Platform, secured with OAuth 2.0 Client Credentials. Provides access to Agari email-security telemetry — alerts, domain tracking, DMARC policy-enforcement reporting, and
@@ -118,7 +123,7 @@ overview: 'Agari is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: emerging
-  composite: 19.5
+  composite: 20.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -126,15 +131,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 16.4
   provenance:
     conformance: first-party
   regulatory:
@@ -143,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 8
 common:
@@ -217,9 +231,9 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 32.1
+  composite: 30.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 32.0
     catalog_earned_first_party: 5.0
     catalog_gap: 83.0
@@ -227,12 +241,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 50.0
-    operational_transparency: 31.6
+    discoverability: 52.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -243,7 +257,7 @@ score:
     - dach
     - europe
     - north-america
-  previous_composite: 32.1
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -257,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

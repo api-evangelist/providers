@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Tuum's modular, API-first core banking platform. Per-module REST APIs (auth, person, employee, account, payment, card, loan, deposit, data-import, notification) versioned independently in the URL path
@@ -152,9 +155,9 @@ overview: 'Tuum is listed with 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 3
 score:
   band: thin
-  composite: 35.5
+  composite: 32.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -165,10 +168,10 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 66.1
+    developer_ergonomics: 47.6
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 35.5
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -177,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

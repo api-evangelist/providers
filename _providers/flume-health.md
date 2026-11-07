@@ -24,23 +24,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-31'
+  score: 53.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
@@ -171,7 +172,7 @@ apis:
   description: The knowledge API from Flume Health — 3 operation(s) for knowledge.
   name: Flume Health Knowledge API
   slug: flume-health-knowledge-api
-artifact_total: 38
+artifact_total: 39
 common:
 - group: other
   href: https://artifacts.apis.io/flume-health/capabilities/flume-health-capability-edges.yml
@@ -341,6 +342,9 @@ network: true
 overview: 'Flume Health publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 23 more. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
 
 
+  The Flume Health catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Flume Health''s developer surface includes documentation, API reference, support, authentication, and 27 more developer resources.'
 plans:
 - name: Flume Health Plans Pricing
@@ -351,6 +355,19 @@ rate_limits:
 - limit_count: 0
   name: Flume Health Rate Limits
   slug: flume-health-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Flume Health API Rules
+  rule_count: 58
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 5
+    warn: 12
+  slug: flume-health-rules
 scopes:
 - name: Flume Health Scopes
   scope_count: 14
@@ -358,29 +375,29 @@ scopes:
   summary_line: 14 scopes · implicit
 score:
   band: developing
-  composite: 45.7
+  composite: 47.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 44.5
+    access_clarity: 43.4
+    contract_governance: 31.8
+    contract_quality: 48.4
     developer_ergonomics: 44.6
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 45.7
+    discoverability: 68.3
+    operational_transparency: 18.4
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 54.3
       total: 46
     mcp: first-party
     skills: derived
@@ -390,13 +407,12 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/flume-health/flume-health-2026-08-17T080932.png
 security:
 - kind: authentication
@@ -434,8 +450,9 @@ tags:
 - Knowledge Graph
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - Data Engineering
 - Interoperability
+- Authentication
 website: https://www.flumehealth.com/
 ---

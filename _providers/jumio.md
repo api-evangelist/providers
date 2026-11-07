@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -186,7 +188,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 49.5
     catalog_earned_first_party: 0.0
     catalog_gap: 65.5
@@ -207,8 +209,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

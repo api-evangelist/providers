@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -258,9 +260,9 @@ rules:
   slug: krakend-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 35.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 40.7
     catalog_earned_first_party: 0.0
     catalog_gap: 74.4
@@ -271,10 +273,13 @@ score:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 46.9
-    developer_ergonomics: 35.7
-    discoverability: 40.0
-    operational_transparency: 39.5
-  previous_composite: 29.6
+    developer_ergonomics: 33.3
+    discoverability: 46.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -288,13 +293,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/krakend/krakend-2026-06-20T184150.png
 security:
 - kind: domain-security

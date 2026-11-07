@@ -1,32 +1,44 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.1
-  scored_at: '2026-10-31'
+  score: 28.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -267,7 +279,7 @@ modified: '2026-10-29'
 name: Hacktron
 nav: Providers
 network: true
-overview: 'Hacktron publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including REST API - Cost Estimations API, REST API - Findings API, REST API - HFW API, and 2 more. Tagged areas include AI, Automation, Integration, IoT, and Enterprise.
+overview: 'Hacktron publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including REST API - Cost Estimations API, REST API - Findings API, REST API - HFW API, and 2 more. Tagged areas include Artificial Intelligence, Automation, Integration, IoT, and Enterprise.
 
 
   The Hacktron catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -281,34 +293,42 @@ rate_limits:
   slug: hacktron-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 91
   extends:
   - spectral:oas
   name: Hacktron API Rules
-  rule_count: 12
+  rule_count: 50
   severity_counts:
-    error: 10
+    error: 47
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: hacktron-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 40.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 28
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 14.5
     contract_governance: 35.6
     contract_quality: 56.7
-    developer_ergonomics: 44.6
-    discoverability: 69.6
-    operational_transparency: 52.6
+    developer_ergonomics: 29.2
+    discoverability: 75.0
+    operational_transparency: 36.8
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,13 +344,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/hacktron/hacktron-2026-11-03T133331.png
 security:
 - kind: authentication
   name: Hacktron Authentication
@@ -354,7 +375,7 @@ skills:
   slug: hacktron-run-scan-and-fetch-findings
 slug: hacktron
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Integration
 - IoT

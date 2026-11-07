@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +31,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +42,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.0
-  scored_at: '2026-10-31'
+  score: 7.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Screenshot API Documentation — Getting Started
@@ -122,7 +140,7 @@ modified: '2026-10-30'
 name: i2dev-com
 nav: Providers
 network: true
-overview: 'i2dev-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeveloperTools, VisualRegression, CI, and OpenSource.
+overview: 'i2dev-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Visual Regression, CI, and Open Source.
 
 
   i2dev-com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, and 10 more developer resources.'
@@ -142,33 +160,40 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 24.8
+  composite: 20.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 46.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.6
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.8
   facets:
-    access_clarity: 29.5
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 24.2
+    operational_transparency: 23.7
+  previous_composite: 25.5
+  provenance:
+    conformance: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/i2dev-com/i2dev-com-2026-11-03T133558.png
 security:
 - kind: authentication
   name: I2Dev Com Authentication
@@ -181,10 +206,10 @@ security:
 slug: i2dev-com
 tags:
 - Company
-- DeveloperTools
-- VisualRegression
+- Developer Tools
+- Visual Regression
 - CI
-- OpenSource
-- SaaS
+- Open Source
+- Software-as-a-Service
 website: https://i2dev.com/
 ---

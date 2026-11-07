@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -138,9 +139,9 @@ rate_limits:
   slug: bitstack-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -152,8 +153,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
-    operational_transparency: 5.3
+    discoverability: 55.4
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -162,7 +163,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 23.6
+  previous_composite: 24.0
   provenance:
     conformance: first-party
   regulatory:
@@ -175,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

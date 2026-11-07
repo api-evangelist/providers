@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -256,29 +269,29 @@ rules:
     warn: 1
   slug: bright-mls-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 43.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 75.8
     catalog_earned_first_party: 12.0
     catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: -10.2
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 35.6
-    contract_quality: 61.7
-    developer_ergonomics: 38.1
-    discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 46.7
+    contract_quality: 59.9
+    developer_ergonomics: 19.0
+    discoverability: 69.6
+    operational_transparency: 10.5
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 40.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -288,14 +301,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/bright-mls/bright-mls-2026-11-03T122612.png
 security:
 - kind: authentication
   name: Bright Mls Authentication

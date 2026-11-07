@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -223,9 +224,9 @@ rate_limits:
   slug: binance.us-rate-limits
 score:
   band: developing
-  composite: 51.5
+  composite: 49.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -236,10 +237,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 42.2
-    developer_ergonomics: 57.1
-    discoverability: 71.4
-    operational_transparency: 47.4
-  previous_composite: 51.5
+    developer_ergonomics: 47.6
+    discoverability: 78.6
+    operational_transparency: 44.7
+  previous_composite: 49.9
   provenance:
     conformance: first-party
   regulatory:
@@ -248,8 +249,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

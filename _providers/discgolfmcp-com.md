@@ -1,0 +1,137 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.6
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: Model Context Protocol (MCP) server exposing PDGA data for AI agents.
+  name: Disc Golf MCP
+  slug: disc-golf-mcp
+artifact_total: 2
+common:
+- group: agent
+  href: https://artifacts.apis.io/discgolfmcp-com/llms/discgolfmcp-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/discgolfmcp-com-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/discgolfmcp-com/well-known/discgolfmcp-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/discgolfmcp-com-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/discgolfmcp-com/hosts/discgolfmcp-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/discgolfmcp-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/discgolfmcp-com/vendors/discgolfmcp-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/discgolfmcp-com-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/discgolfmcp-com/security/discgolfmcp-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/discgolfmcp-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://discgolfmcp.com/
+coverage:
+  checked: '2026-11-05'
+  detail: Provider's site is open but offers no public machine‑readable API specification.
+  evidence:
+  - status: 200
+    url: https://discgolfmcp.com/
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-11-05'
+description: Disc Golf MCP provides a Model Context Protocol (MCP) server exposing comprehensive PDGA data for AI agents, including players, events, courses, season statistics, and results. The service offers free, non‑commercial access and connects via a streamable HTTP endpoint, supporting detailed queries such as player statistics, event information, and course locations. It aims to facilitate AI‑driven disc golf analytics and applications.
+image: https://discgolfmcp.com/og.png
+layout: provider
+modified: '2026-11-05'
+name: Disc Golf MCP
+nav: Providers
+network: true
+overview: Disc Golf MCP is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Disc Golf, Sports, Data, and PDGA.
+random_paper: 15
+score:
+  band: minimal
+  composite: 3.4
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 48.2
+    operational_transparency: 0.0
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Discgolfmcp Com Domain Security
+  slug: discgolfmcp-com-domain-security
+  summary_line: TLSv1.3
+slug: discgolfmcp-com
+tags:
+- Disc Golf
+- Sports
+- Data
+- PDGA
+website: https://discgolfmcp.com/
+---

@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-31'
+  score: 24.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
@@ -99,7 +100,7 @@ apis:
   description: The client-api-webhook-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust (Protecht) Client API Webhook Rest Resource API
   slug: viso-trust-protecht-client-api-webhook-rest-resource-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Viso Trust Protecht Webhooks
@@ -272,30 +273,43 @@ network: true
 overview: 'VISO Trust (Protecht) publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, GRC, and Cybersecurity.
 
 
-  The VISO Trust (Protecht) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The VISO Trust (Protecht) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   VISO Trust (Protecht)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, support, and 18 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: VISO Trust (Protecht) API Rules
+  rule_count: 52
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 7
+  slug: viso-trust-protecht-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 42.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 51.2
-    developer_ergonomics: 49.4
-    discoverability: 65.0
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 51.8
+    developer_ergonomics: 44.6
+    discoverability: 73.2
     operational_transparency: 50.0
-  previous_composite: 39.7
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -311,13 +325,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/viso-trust-protecht/viso-trust-protecht-2026-08-17T082805.png
 security:
 - kind: authentication

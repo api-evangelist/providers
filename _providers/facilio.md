@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +28,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-31'
+  score: 52.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -351,7 +355,7 @@ apis:
   description: Work permits authorize and control high-risk work (hot work, confined space, working at height, and similar). A permit is raised against a permit type, auto-populated with a safety checklist, and adva
   name: Facilio Work Permits API
   slug: facilio-work-permits-api
-artifact_total: 107
+artifact_total: 108
 collections:
 - collection_type: open
   name: Facilio REST Assets API
@@ -643,43 +647,59 @@ network: true
 overview: 'Facilio publishes 61 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 58 more. Tagged areas include Company, Artificial Intelligence, Facility Management, CMMS, and Property Operations.
 
 
+  The Facilio catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 28 more developer resources.'
 plans:
 - name: Facilio Plans Pricing
   plan_count: 3
   slug: facilio-plans-pricing
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Facilio API Rules
+  rule_count: 71
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 4
+    warn: 8
+  slug: facilio-rules
 scopes:
 - name: Facilio Scopes
   scope_count: 7
   slug: facilio-scopes
   summary_line: 7 scopes · authorizationCode/password
 score:
-  band: developing
-  composite: 53.2
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 29
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.8
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 45.9
+    contract_governance: 31.8
+    contract_quality: 52.5
     developer_ergonomics: 54.2
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 53.3
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 62.9
       total: 97
     mcp: first-party
     skills: derived
@@ -689,13 +709,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/facilio/facilio-2026-07-25T214135.png
 security:
 - kind: authentication

@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-31'
+  score: 32.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 4
@@ -1459,7 +1464,7 @@ json_schemas:
   property_count: 0
   slug: AbuseStateSet
 - name: Account
-  property_count: 0
+  property_count: 3
   slug: Account
 - name: AccountBlock
   property_count: 3
@@ -1579,10 +1584,10 @@ json_schemas:
   property_count: 2
   slug: OAuthClient
 - name: OAuthToken-password
-  property_count: 0
+  property_count: 4
   slug: OAuthToken-password
 - name: OAuthToken-refresh_token
-  property_count: 0
+  property_count: 2
   slug: OAuthToken-refresh_token
 - name: PlaybackMetricCreate
   property_count: 12
@@ -1633,7 +1638,7 @@ json_schemas:
   property_count: 14
   slug: RunnerJob
 - name: RunnerJobAdmin
-  property_count: 0
+  property_count: 1
   slug: RunnerJobAdmin
 - name: RunnerJobPayload
   property_count: 0
@@ -1714,7 +1719,7 @@ json_schemas:
   property_count: 2
   slug: UserRegistrationAcceptOrReject
 - name: UserRegistrationRequest
-  property_count: 0
+  property_count: 1
   slug: UserRegistrationRequest
 - name: UserRegistrationState
   property_count: 0
@@ -1726,7 +1731,7 @@ json_schemas:
   property_count: 6
   slug: UserViewingVideo
 - name: UserWithStats
-  property_count: 0
+  property_count: 5
   slug: UserWithStats
 - name: Video
   property_count: 37
@@ -1741,7 +1746,7 @@ json_schemas:
   property_count: 0
   slug: VideoCategorySet
 - name: VideoChannel
-  property_count: 0
+  property_count: 7
   slug: VideoChannel
 - name: VideoChannelActivityAction
   property_count: 0
@@ -1756,7 +1761,7 @@ json_schemas:
   property_count: 0
   slug: VideoChannelCollaboratorState
 - name: VideoChannelCreate
-  property_count: 0
+  property_count: 1
   slug: VideoChannelCreate
 - name: VideoChannelEdit
   property_count: 3
@@ -1777,7 +1782,7 @@ json_schemas:
   property_count: 2
   slug: VideoChannelSyncList
 - name: VideoChannelUpdate
-  property_count: 0
+  property_count: 1
   slug: VideoChannelUpdate
 - name: VideoChapters
   property_count: 1
@@ -1813,7 +1818,7 @@ json_schemas:
   property_count: 0
   slug: VideoCreateImport
 - name: VideoDetails
-  property_count: 0
+  property_count: 12
   slug: VideoDetails
 - name: VideoEmbedPrivacy
   property_count: 0
@@ -1912,7 +1917,7 @@ json_schemas:
   property_count: 4
   slug: VideoStreamingPlaylists-HLS
 - name: VideoStreamingPlaylists
-  property_count: 0
+  property_count: 2
   slug: VideoStreamingPlaylists
 - name: VideoStudioCreateTask
   property_count: 0
@@ -1927,10 +1932,10 @@ json_schemas:
   property_count: 21
   slug: VideoUploadRequestCommon
 - name: VideoUploadRequestLegacy
-  property_count: 0
+  property_count: 1
   slug: VideoUploadRequestLegacy
 - name: VideoUploadRequestResumable
-  property_count: 0
+  property_count: 3
   slug: VideoUploadRequestResumable
 - name: VideoUploadResponse
   property_count: 1
@@ -2001,9 +2006,9 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: thin
-  composite: 33.2
+  composite: 30.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
@@ -2011,13 +2016,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 5.3
     contract_governance: 9.8
-    contract_quality: 48.6
+    contract_quality: 52.5
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 33.2
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -2030,14 +2035,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/peertube/peertube-2026-06-20T191525.png
 security:
 - kind: authentication

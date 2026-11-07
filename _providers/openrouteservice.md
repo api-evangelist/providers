@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 21.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -325,9 +329,9 @@ rules:
   slug: openrouteservice-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 34.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -341,7 +345,10 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 36.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -355,13 +362,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/openrouteservice/openrouteservice-2026-06-20T191029.png
 security:
 - kind: authentication

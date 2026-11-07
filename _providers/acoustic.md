@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-31'
+  score: 52.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -206,7 +207,7 @@ apis:
   description: 'Use the Content webhook service Rest APIs to work with webhook profiles. You can create, retrieve and update webhook profiles in a database. ### Webhook Timeouts and Retry policy Webhooks will automat'
   name: Acoustic Webhook profiles API
   slug: acoustic-webhook-profiles-api
-artifact_total: 57
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Acoustic Webhooks
@@ -456,7 +457,7 @@ network: true
 overview: 'Acoustic publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaign REST API, Campaign XML API, Administering user profiles API, and 30 more. Tagged areas include Company, MarTech, Marketing, Marketing Automation, and Customer Engagement.
 
 
-  The Acoustic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Acoustic catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Acoustic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 33 more developer resources.'
@@ -469,32 +470,45 @@ rate_limits:
 - limit_count: 4
   name: Acoustic Rate Limits
   slug: acoustic-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Acoustic API Rules
+  rule_count: 56
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 13
+  slug: acoustic-rules
 score:
-  band: strong
-  composite: 63.1
+  band: exemplar
+  composite: 68.0
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 56.0
+    artifact_dirs: 33
+    catalog_earned: 60.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 59.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 1.2
   facets:
-    access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 49.0
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 56.9
     developer_ergonomics: 78.0
-    discoverability: 57.1
-    operational_transparency: 76.3
-  previous_composite: 63.7
+    discoverability: 64.3
+    operational_transparency: 65.8
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 29
     mcp: derived
     skills: derived
@@ -508,13 +522,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/acoustic/acoustic-2026-07-25T181511.png
 security:
 - kind: authentication

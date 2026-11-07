@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-31'
+  score: 26.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -307,9 +308,9 @@ rules:
   slug: university-of-geneva-rules
 score:
   band: emerging
-  composite: 25.7
+  composite: 25.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
@@ -319,7 +320,7 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
-    contract_quality: 28.5
+    contract_quality: 31.8
     developer_ergonomics: 39.3
     discoverability: 57.1
     operational_transparency: 10.5
@@ -331,7 +332,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 25.7
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,13 +347,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/university-of-geneva/university-of-geneva-2026-06-20T200151.png
 security:
 - kind: authentication

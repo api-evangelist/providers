@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -331,7 +332,7 @@ json_schemas:
   property_count: 10
   slug: planetscale-password
 - name: PasswordWithPlaintext
-  property_count: 0
+  property_count: 2
   slug: planetscale-passwordwithplaintext
 - name: QueryPatternsReport
   property_count: 4
@@ -352,7 +353,7 @@ json_schemas:
   property_count: 4
   slug: planetscale-servicetokenaccess
 - name: ServiceTokenWithPlaintext
-  property_count: 0
+  property_count: 1
   slug: planetscale-servicetokenwithplaintext
 - name: Team
   property_count: 7
@@ -416,9 +417,9 @@ rules:
   slug: planetscale-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 28.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 42.5
     catalog_earned_first_party: 0.0
     catalog_gap: 72.5
@@ -429,10 +430,10 @@ score:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 64.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 19.0
     discoverability: 42.9
-    operational_transparency: 13.2
-  previous_composite: 30.3
+    operational_transparency: 10.5
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -446,13 +447,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/planetscale/planetscale-2026-06-20T191803.png
 security:
 - kind: authentication

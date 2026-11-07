@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
@@ -166,9 +171,9 @@ plans:
 random_paper: 0
 score:
   band: thin
-  composite: 35.3
+  composite: 35.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -180,8 +185,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 66.1
-    operational_transparency: 36.8
+    discoverability: 71.7
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -190,7 +195,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 35.3
+  previous_composite: 35.5
   provenance:
     mcp: third-party
   regulatory:
@@ -199,8 +204,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

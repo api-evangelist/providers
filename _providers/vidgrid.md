@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -82,7 +83,7 @@ apis:
   description: The Webhook API allows you to trigger webhook events.
   name: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Vidgrid Webhooks
@@ -237,7 +238,7 @@ network: true
 overview: 'VidGrid publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Caption API, Folder API, Search API, and 4 more. Tagged areas include Video, Screen Recording, Captions, Video Hosting, and Webhook.
 
 
-  The VidGrid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The VidGrid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
@@ -246,25 +247,38 @@ rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits
   slug: vidgrid-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: VidGrid API Rules
+  rule_count: 73
+  severity_counts:
+    error: 71
+    hint: 0
+    info: 1
+    warn: 1
+  slug: vidgrid-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 41.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 45.0
+    artifact_dirs: 23
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 58.1
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 60.6
     developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 41.1
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,13 +295,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vidgrid/vidgrid-2026-08-17T082745.png
 security:
 - kind: authentication

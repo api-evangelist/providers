@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
@@ -73,10 +74,6 @@ common:
   title: ''
   type: Support
   url: https://www.nymcard.com/company/contact
-- group: start
-  title: ''
-  type: SignUp
-  url: https://portal.sand.platform.nymcard.com/default/login
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -188,32 +185,32 @@ overview: 'Nymcard is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Nymcard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nymcard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
+  Nymcard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 19 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 45.6
+  composite: 42.7
   coverage:
     artifact_dirs: 17
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 70.8
-    discoverability: 66.1
+    discoverability: 64.3
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 45.6
+  previous_composite: 42.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

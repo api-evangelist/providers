@@ -26,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
-    operation_distinctiveness: distinct
-    pagination_ratio: na
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-10-31'
+  score: 32.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -96,7 +97,17 @@ apis:
   description: The targets API from Method Security — 3 operation(s) for targets.
   name: Method Security Targets API
   slug: method-security-targets-api
-artifact_total: 31
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The finding_definitions API from Method Security — 3 operation(s) for finding_definitions.
+  name: Method Security Finding Definitions API
+  slug: method-security-finding-definitions-api
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The findings API from Method Security — 2 operation(s) for findings.
+  name: Method Security Findings API
+  slug: method-security-findings-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Method Security Webhooks
@@ -301,33 +312,46 @@ modified: '2026-07-20'
 name: Method Security
 nav: Providers
 network: true
-overview: 'Method Security publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Auth API, Blueprints API, and 7 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
+overview: 'Method Security publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Auth API, Blueprints API, and 9 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
 
 
-  The Method Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Method Security catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 26 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 86
+  extends:
+  - spectral:oas
+  name: Method Security API Rules
+  rule_count: 45
+  severity_counts:
+    error: 35
+    hint: 0
+    info: 1
+    warn: 9
+  slug: method-security-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 51.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.3
   facets:
     access_clarity: 36.8
-    contract_governance: 18.2
-    contract_quality: 48.3
+    contract_governance: 31.8
+    contract_quality: 49.6
     developer_ergonomics: 68.5
-    discoverability: 65.0
-    operational_transparency: 39.5
-  previous_composite: 50.4
+    discoverability: 71.7
+    operational_transparency: 36.8
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,13 +368,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/method-security/method-security-2026-08-07T172708.png
 security:
 - kind: authentication

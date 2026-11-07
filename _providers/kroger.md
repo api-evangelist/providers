@@ -1,14 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
-  onboarding: unknown
-  pricing: free
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,6 +33,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +44,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -267,9 +276,9 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 41.0
+  composite: 41.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -281,9 +290,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 71.4
-    operational_transparency: 47.4
-  previous_composite: 41.0
+    discoverability: 78.6
+    operational_transparency: 44.7
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -293,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -324,8 +333,9 @@ tags:
 - Store Locations
 - Shopping Cart
 - Loyalty
-- Authentication
+- OAuth
 - Partner API
 - Fortune 100
+- Authentication
 website: https://kroger.com
 ---

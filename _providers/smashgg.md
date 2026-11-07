@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing start.gg (smash.gg) tournaments, events, entrants, sets, standings, players, and users, with mutations for reporting results and managing brackets.
@@ -157,6 +161,14 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.start.gg/about/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.start.gg/ggu/home
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.smash.gg/
 created: '2026-07-17'
 description: Smashgg (now start.gg, following its acquisition by Microsoft) is a competitive-gaming and esports platform for running tournaments, brackets, and leagues across fighting games and other titles. Its public developer API is a single GraphQL endpoint (https://api.start.gg/gql/alpha) exposing tournaments, events, entrants, sets, phases, standings, players, and users, plus mutations for reporting set results and managing seeding and brackets. Authentication is via personal access tokens (Bearer, 1-year expiry) or OAuth 2.0 authorization-code tokens scoped to a user. The original smash.gg domain now redirects to start.gg.
 image: https://www.start.gg/favicon.ico
@@ -168,7 +180,7 @@ network: true
 overview: 'Smashgg is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Esports, Gaming, and Tournaments.
 
 
-  Smashgg''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
+  Smashgg''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 21 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 2
@@ -181,9 +193,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.7
+  composite: 31.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -191,13 +203,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 33.7
+    developer_ergonomics: 51.8
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -208,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

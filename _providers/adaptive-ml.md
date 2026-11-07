@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,7 +92,7 @@ apis:
   description: Recipe operations
   name: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Adaptive Ml Webhooks
@@ -275,30 +276,43 @@ network: true
 overview: 'Adaptive ML publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including artifacts::rest API, Chunked Upload API, Completions API, and 6 more. Tagged areas include Company, Artificial Intelligence, LLM, Fine-Tuning, and Reinforcement Learning.
 
 
-  The Adaptive ML catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Adaptive ML catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Adaptive ML''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 23 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Adaptive ML API Rules
+  rule_count: 40
+  severity_counts:
+    error: 34
+    hint: 0
+    info: 3
+    warn: 3
+  slug: adaptive-ml-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 41.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 46.2
-    developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 42.4
+    developer_ergonomics: 61.3
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,13 +329,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/adaptive-ml/adaptive-ml-2026-07-25T181557.png
 security:
 - kind: authentication

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Public REST API for Starburst Galaxy, secured with the OAuth2 client-credentials flow. Manages clusters, catalogs, users, roles, privileges, access-control policies, tags, row filters, column masks, d
@@ -157,6 +159,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/starburst-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.starburstdata.com/
 created: '2026-07-17'
 description: Starburst is an enterprise data analytics and intelligence platform built on Trino, the open-source distributed SQL query engine. It lets organizations access and query data across disparate systems through a unified context layer — federated analytics with no pipelines or data movement required. Its products include Starburst Galaxy (a fully managed cloud service on AWS, GCP, and Azure), Starburst Enterprise (self-managed for hybrid and on-premises), Icehouse (Apache Iceberg plus Trino for the lakehouse), and AIDA, a conversational AI data assistant. Starburst Galaxy exposes a public REST API secured with OAuth2 client credentials for managing clusters, catalogs, users, roles, privileges, access policies, data products, and SQL jobs.
 image: https://www.starburst.io/wp-content/uploads/2021/01/starburst-og.jpg
@@ -168,13 +174,13 @@ network: true
 overview: 'Starburst is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Data Lakehouse, SQL Query Engine, and Trino.
 
 
-  Starburst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Starburst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 37.5
+  composite: 37.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,9 +192,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 37.5
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 37.8
   provenance:
     conformance: derived
     mcp: derived
@@ -198,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -229,5 +235,8 @@ tags:
 - Federated Query
 - Data Governance
 - Business Intelligence
+- Data Platform
+- Analytics
+- Apache Iceberg
 website: https://www.starburst.io/
 ---

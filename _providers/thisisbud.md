@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 2
@@ -236,6 +252,15 @@ asyncapis:
   name: Thisisbud Webhooks
   slug: thisisbud-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/thisisbud/well-known/thisisbud-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/thisisbud-status-security.txt
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.thisisbud.com/signup
 - group: agent
   href: https://artifacts.apis.io/thisisbud/agentic-access/thisisbud-agentic-access.yml
   title: ''
@@ -310,11 +335,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/thisisbud-trust-security.txt
-- group: auth
-  href: https://artifacts.apis.io/thisisbud/well-known/thisisbud-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/thisisbud-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/thisisbud/well-known/thisisbud-console-us-security.txt
   title: ''
@@ -446,20 +466,20 @@ overview: 'Bud Financial Limited publishes 39 API contracts indexed on the [APIs
   The Bud Financial Limited catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bud Financial Limited''s developer surface includes changelog, sandbox, authentication, support, engineering blog, API reference, getting-started guide, and 29 more developer resources.'
+  Bud Financial Limited''s developer surface includes signup flow, changelog, sandbox, authentication, support, engineering blog, API reference, and 30 more developer resources.'
 random_paper: 15
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 102
   extends:
   - spectral:oas
   name: Bud Financial Limited API Rules
-  rule_count: 17
+  rule_count: 61
   severity_counts:
-    error: 11
+    error: 41
     hint: 0
-    info: 4
-    warn: 2
+    info: 5
+    warn: 15
   slug: thisisbud-rules
 scopes:
 - name: Thisisbud Scopes
@@ -468,21 +488,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.6
+  composite: 47.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 26
     catalog_earned: 63.8
     catalog_earned_first_party: 0.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 23.7
     contract_governance: 17.4
-    contract_quality: 73.9
-    developer_ergonomics: 56.5
-    discoverability: 69.6
-    operational_transparency: 63.2
+    contract_quality: 75.3
+    developer_ergonomics: 38.7
+    discoverability: 75.9
+    operational_transparency: 40.8
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -497,13 +519,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 36.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 33.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/thisisbud/thisisbud-2026-11-03T144700.png
 security:
 - kind: authentication
   name: Thisisbud Authentication

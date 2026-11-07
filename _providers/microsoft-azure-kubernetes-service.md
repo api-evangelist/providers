@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -1125,9 +1130,9 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 67.5
+  composite: 72.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 66.9
     catalog_earned_first_party: 12.0
     catalog_gap: 48.1
@@ -1141,7 +1146,10 @@ score:
     developer_ergonomics: 82.1
     discoverability: 73.2
     operational_transparency: 55.3
-  previous_composite: 67.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1155,13 +1163,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-kubernetes-service/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:
 - kind: authentication

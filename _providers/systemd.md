@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,17 +25,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.0
-  scored_at: '2026-10-31'
+  score: 17.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 10
@@ -569,9 +571,9 @@ rules:
   slug: systemd-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 30.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -582,10 +584,13 @@ score:
     access_clarity: 0.0
     contract_governance: 27.3
     contract_quality: 45.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 28.5
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -599,13 +604,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/systemd/systemd-2026-06-20T194839.png
 security:
 - kind: domain-security

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -22,10 +35,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-31'
+  score: 32.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.avo.app
@@ -193,7 +206,7 @@ modified: '2026-10-29'
 name: Avo
 nav: Providers
 network: true
-overview: 'Avo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Governance, Analytics, AI, and SaaS.
+overview: 'Avo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Governance, Analytics, Artificial Intelligence, and Software-as-a-Service.
 
 
   The Avo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,54 +220,57 @@ plans:
 random_paper: 20
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 86
   extends:
   - spectral:oas
   name: Avo API Rules
-  rule_count: 12
+  rule_count: 45
   severity_counts:
-    error: 11
+    error: 43
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: avo-app-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 39.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 71.0
+    artifact_dirs: 21
+    catalog_earned: 71.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 44.0
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.7
   facets:
-    access_clarity: 92.1
-    contract_governance: 19.7
+    access_clarity: 65.8
+    contract_governance: 22.0
     contract_quality: 23.6
-    developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 15.8
+    developer_ergonomics: 45.2
+    discoverability: 73.2
+    operational_transparency: 7.9
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 1
       marker_coverage: 100.0
-      total: 4
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/avo-app/avo-app-2026-11-03T121429.png
 security:
 - kind: authentication
   name: Avo App Authentication
@@ -273,7 +289,7 @@ tags:
 - Company
 - Data Governance
 - Analytics
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 website: https://www.avo.app
 ---

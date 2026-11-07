@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: JSON-based "A-REST" API for SUSE Manager (SUMA), used to manage systems, channels, configuration, errata, and users across Linux infrastructure. Calls use GET for retrievals, POST for changes, and POS
@@ -78,9 +81,9 @@ overview: 'SUSE is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: minimal
-  composite: 9.9
+  composite: 10.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -92,9 +95,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 9.9
+  previous_composite: 10.6
   provenance:
     mcp: derived
   regulatory:
@@ -103,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

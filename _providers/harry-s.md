@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'Anonymous Model Context Protocol server exposed by the Harry''s storefront at /api/mcp. Five tools — search_catalog, get_product_details, get_cart, update_cart and search_shop_policies_and_faqs — each '
@@ -152,7 +153,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -166,9 +167,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 23.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -179,8 +180,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

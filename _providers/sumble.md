@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.3
-  scored_at: '2026-10-31'
+  score: 62.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -98,7 +99,7 @@ apis:
   description: The technologies API from Sumble — 3 operation(s) for technologies.
   name: Sumble Technologies API
   slug: sumble-technologies-api
-artifact_total: 90
+artifact_total: 91
 collections:
 - collection_type: open
   name: Sumble contact-lists API
@@ -488,6 +489,9 @@ network: true
 overview: 'Sumble publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contact Lists API, Jobs API, Organization Lists API, and 7 more. Tagged areas include Company, Account Intelligence, Sales Intelligence, Data Enrichment, and Go-To-Market.
 
 
+  The Sumble catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
 plans:
 - name: Sumble Plans Pricing
@@ -501,25 +505,38 @@ rate_limits:
 - limit_count: 1
   name: Sumble Rate Limits
   slug: sumble-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Sumble API Rules
+  rule_count: 59
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 4
+  slug: sumble-rules
 score:
   band: strong
-  composite: 63.0
+  composite: 60.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
+    artifact_dirs: 29
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 2.1
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
+    access_clarity: 85.5
+    contract_governance: 31.8
     contract_quality: 55.4
     developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 42.1
-  previous_composite: 61.4
+    discoverability: 75.0
+    operational_transparency: 31.6
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -540,13 +557,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sumble/sumble-2026-08-17T082151.png
 security:
 - kind: authentication

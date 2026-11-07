@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +22,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-31'
+  score: 36.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,12 +88,36 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Mettle SME API
   slug: mettle-sme-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-mettle-open-data-api
 common:
+- group: design
+  href: https://artifacts.apis.io/mettle/rules/mettle-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/mettle-rules.yml
+- group: design
+  href: https://artifacts.apis.io/mettle/vocabulary/mettle-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/mettle-vocabulary.yml
+- group: start
+  href: https://artifacts.apis.io/mettle/sandbox/mettle-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/mettle-sandbox.yml
+- group: other
+  href: https://artifacts.apis.io/mettle/hosts/mettle-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/mettle-hosts.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.mettle.co.uk/blog/register-as-a-sole-trader-customer/
 - group: other
   href: https://artifacts.apis.io/mettle/capabilities/mettle-capability-edges.yml
   title: ''
@@ -163,11 +191,6 @@ common:
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mettle-mcp.yml
-- group: agent
-  href: https://artifacts.apis.io/mettle/llms/mettle-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/mettle-llms.txt
 - group: other
   href: https://artifacts.apis.io/mettle/overlays/mettle-open-data-api-overlay.yaml
   title: ''
@@ -230,8 +253,24 @@ network: true
 overview: 'Mettle publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 6 more. Tagged areas include Financial Services, Banking, Business Banking, Open Banking, and PSD2.
 
 
-  Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
+  The Mettle catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Mettle''s developer surface includes sandbox, signup flow, authentication, documentation, engineering blog, support, and 26 more developer resources.'
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Mettle API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: mettle-rules
 scopes:
 - name: Mettle Scopes
   scope_count: 4
@@ -239,22 +278,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 41.5
+  composite: 39.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 42.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
+    catalog_gap: 57.3
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 28.9
-    contract_governance: 18.2
+    access_clarity: 57.1
+    contract_governance: 35.6
     contract_quality: 35.5
-    developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 23.7
+    developer_ergonomics: 20.8
+    discoverability: 73.2
+    operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -263,7 +302,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 41.5
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,14 +324,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 48.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 44.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/mettle/mettle-2026-08-07T172804.png
 security:
 - kind: authentication

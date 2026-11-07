@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-31'
+  score: 33.1
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API reference for Metal Build Token API as described in the Quick Start Guide.
@@ -38,6 +50,11 @@ apis:
   slug: metal-api
 artifact_total: 12
 common:
+- group: auth
+  href: https://artifacts.apis.io/metal/well-known/metal-calendly-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/metal-calendly-security.txt
 - group: design
   href: https://artifacts.apis.io/metal/rules/metal-rules.yml
   title: ''
@@ -73,16 +90,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/metal-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/metal/well-known/metal-calendly-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/metal-calendly-security.txt
-- group: auth
-  href: https://artifacts.apis.io/metal/well-known/metal-api-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/metal-api-security.txt
 - group: agent
   href: https://artifacts.apis.io/metal/well-known/metal-well-known.yml
   title: ''
@@ -177,61 +184,61 @@ overview: 'Metal is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
   The Metal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Metal''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 15 more developer resources.'
+  Metal''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 14 more developer resources.'
 random_paper: 3
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: Metal API Rules
-  rule_count: 12
+  rule_count: 46
   severity_counts:
-    error: 9
+    error: 42
     hint: 0
-    info: 2
+    info: 3
     warn: 1
   slug: metal-rules
 score:
-  band: thin
-  composite: 29.0
+  band: emerging
+  composite: 23.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 22.0
-    contract_quality: 26.5
-    developer_ergonomics: 45.2
-    discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 29.0
+    contract_quality: 25.6
+    developer_ergonomics: 28.6
+    discoverability: 64.3
+    operational_transparency: 13.2
+  previous_composite: 28.8
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 5
+      callable: 0.0
+      derived: 1
       marker_coverage: 100.0
-      total: 5
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 18.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/metal/metal-2026-11-03T135520.png
 security:
 - kind: authentication
   name: Metal Authentication

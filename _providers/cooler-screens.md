@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: A live, OAuth-protected Model Context Protocol endpoint served by CoolerX from its own apex host and discovered through the RFC 9728 protected-resource metadata document at https://coolerx.com/.well-k
@@ -140,7 +141,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 16.1
+  composite: 15.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -153,10 +154,10 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 65.0
+    developer_ergonomics: 14.3
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 15.9
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -166,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

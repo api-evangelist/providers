@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.7
-  scored_at: '2026-10-31'
+  score: 17.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint serving the Data API (browse IP-NFTs, IPTs, and market data), the Tokenization API (mint IP-NFTs and fractionalize into IPTs), and the Labs API (manage research datarooms, file
@@ -149,9 +150,9 @@ overview: 'Molecule is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: emerging
-  composite: 23.4
+  composite: 22.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -163,9 +164,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 15.8
-  previous_composite: 23.4
+    discoverability: 75.0
+    operational_transparency: 2.6
+  previous_composite: 22.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -176,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

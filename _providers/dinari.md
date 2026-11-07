@@ -1,18 +1,22 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,17 +31,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-31'
+  score: 29.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -104,7 +109,7 @@ arazzos:
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
@@ -368,7 +373,7 @@ network: true
 overview: 'Dinari publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Corporate Actions API, Entities API, and 7 more. Tagged areas include Company, Tokenized Securities, Stocks, ETFs, and Brokerage.
 
 
-  The Dinari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Dinari catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 32 more developer resources.'
@@ -380,25 +385,38 @@ plans:
   plan_count: 0
   slug: dinari-price-estimates
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Dinari API Rules
+  rule_count: 66
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 6
+  slug: dinari-rules
 score:
   band: strong
-  composite: 63.3
+  composite: 64.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.8
+  delta: 10.2
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 60.6
     developer_ergonomics: 74.4
-    discoverability: 66.1
-    operational_transparency: 55.3
-  previous_composite: 54.5
+    discoverability: 73.2
+    operational_transparency: 52.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,13 +433,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dinari/dinari-2026-07-25T212044.png
 security:
 - kind: authentication

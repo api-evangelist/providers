@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-31'
+  score: 30.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.instock.com/v1
@@ -70,7 +71,7 @@ apis:
   description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
   name: Instock Sites API
   slug: instock-sites-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Instock API reference Articles API
@@ -212,27 +213,43 @@ network: true
 overview: 'Instock publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Articles API, Inventory API, Moves API, and 3 more. Tagged areas include Company, Robotics, Warehouse Automation, Fulfillment, and Logistics.
 
 
+  The Instock catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 17 more developer resources.'
 random_paper: 19
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Instock API Rules
+  rule_count: 64
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 2
+    warn: 2
+  slug: instock-rules
 score:
   band: developing
-  composite: 39.8
+  composite: 40.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
-    access_clarity: 23.7
-    contract_governance: 4.5
+    access_clarity: 17.1
+    contract_governance: 18.2
     contract_quality: 55.4
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 39.8
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -248,13 +265,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/instock/instock-2026-07-25T222617.png
 security:
 - kind: authentication

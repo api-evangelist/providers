@@ -1,20 +1,29 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: platform
     auth_clarity: served
     consent_identity: false
@@ -25,18 +34,26 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: false
-    operation_distinctiveness: na
+    operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-31'
-api_count: 9
+  score: 40.1
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 67
+  human_in_the_loop: 0
+  name: Google Pay Agentic Access
+  operation_count: 99
+  slug: google-pay-agentic-access
+  summary_line: 99 operations · 67 acting
+api_count: 28
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
   name: Google Pay API
@@ -44,9 +61,6 @@ apis:
 - description: Enables integration of Google Pay into Android applications, allowing users to pay with cards saved to their Google Account. The API provides methods to check payment readiness and load payment data f
   name: Google Pay API for Android
   slug: google-pay-api-for-android
-- description: APIs for creating and managing digital passes for Google Wallet, including loyalty cards, event tickets, boarding passes, transit tickets, gift cards, offers, and generic passes. Issuers can define pa
-  name: Google Wallet API
-  slug: google-wallet-api
 - description: Provides services hosted by Google for processing facilitated payment events as part of Google Standard Payments. Payment integrators use this API to report and manage transaction events within the Go
   name: Google Pay Facilitated Transaction Event API
   slug: google-pay-facilitated-transaction-event-api
@@ -65,8 +79,143 @@ apis:
 - description: A standard for securely and efficiently exchanging commerce data between merchant and platform systems to enable checkout experiences directly on Google surfaces including Search and Gemini. Merchants
   name: Google Universal Commerce Protocol
   slug: google-universal-commerce-protocol
-artifact_total: 21
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The eventticketclass API from Google Pay — 3 operation(s) for eventticketclass.
+  name: Google Pay Eventticketclass API
+  slug: google-pay-eventticketclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The eventticketobject API from Google Pay — 4 operation(s) for eventticketobject.
+  name: Google Pay Eventticketobject API
+  slug: google-pay-eventticketobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The flightclass API from Google Pay — 3 operation(s) for flightclass.
+  name: Google Pay Flightclass API
+  slug: google-pay-flightclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The flightobject API from Google Pay — 3 operation(s) for flightobject.
+  name: Google Pay Flightobject API
+  slug: google-pay-flightobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The genericclass API from Google Pay — 3 operation(s) for genericclass.
+  name: Google Pay Genericclass API
+  slug: google-pay-genericclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The genericobject API from Google Pay — 3 operation(s) for genericobject.
+  name: Google Pay Genericobject API
+  slug: google-pay-genericobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The giftcardclass API from Google Pay — 3 operation(s) for giftcardclass.
+  name: Google Pay Giftcardclass API
+  slug: google-pay-giftcardclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The giftcardobject API from Google Pay — 3 operation(s) for giftcardobject.
+  name: Google Pay Giftcardobject API
+  slug: google-pay-giftcardobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The issuer API from Google Pay — 2 operation(s) for issuer.
+  name: Google Pay Issuer API
+  slug: google-pay-issuer-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The jwt API from Google Pay — 2 operation(s) for jwt.
+  name: Google Pay JWT API
+  slug: google-pay-jwt-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The loyaltyclass API from Google Pay — 3 operation(s) for loyaltyclass.
+  name: Google Pay Loyaltyclass API
+  slug: google-pay-loyaltyclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The loyaltyobject API from Google Pay — 4 operation(s) for loyaltyobject.
+  name: Google Pay Loyaltyobject API
+  slug: google-pay-loyaltyobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The media API from Google Pay — 2 operation(s) for media.
+  name: Google Pay Media API
+  slug: google-pay-media-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The offerclass API from Google Pay — 3 operation(s) for offerclass.
+  name: Google Pay Offerclass API
+  slug: google-pay-offerclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The offerobject API from Google Pay — 3 operation(s) for offerobject.
+  name: Google Pay Offerobject API
+  slug: google-pay-offerobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The permissions API from Google Pay — 1 operation(s) for permissions.
+  name: Google Pay Permissions API
+  slug: google-pay-permissions-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The smarttap API from Google Pay — 1 operation(s) for smarttap.
+  name: Google Pay Smarttap API
+  slug: google-pay-smarttap-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The transitclass API from Google Pay — 3 operation(s) for transitclass.
+  name: Google Pay Transitclass API
+  slug: google-pay-transitclass-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The transitobject API from Google Pay — 3 operation(s) for transitobject.
+  name: Google Pay Transitobject API
+  slug: google-pay-transitobject-api
+- baseURL: https://walletobjects.googleapis.com
+  baseurl_source: declared
+  description: The walletobjects API from Google Pay — 1 operation(s) for walletobjects.
+  name: Google Pay Walletobjects API
+  slug: google-pay-walletobjects-api
+artifact_total: 49
 common:
+- group: agent
+  href: https://artifacts.apis.io/google-pay/agentic-access/google-pay-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-pay-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/google-pay/rules/google-pay-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-pay-rules.yml
+- group: design
+  href: https://artifacts.apis.io/google-pay/json-ld/google-pay-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/google-pay-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/google-pay/vocabulary/google-pay-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-pay-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/google-pay/data-model/google-pay-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/google-pay-data-model.yml
+- group: other
+  href: https://artifacts.apis.io/google-pay/hosts/google-pay-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-pay-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/google-pay/integrations/google-pay-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/google-pay-integration-edges.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -270,9 +419,32 @@ finops:
   template: true
 image: https://developers.google.com/pay/api/images/brand-guidelines/google-pay-mark.png
 json_schemas:
+- name: EventTicketClass
+  property_count: 47
+  slug: google-pay-event-ticket-class
+- name: FlightClass
+  property_count: 42
+  slug: google-pay-flight-class
+- name: LoyaltyClass
+  property_count: 47
+  slug: google-pay-loyalty-class
+- name: OfferClass
+  property_count: 44
+  slug: google-pay-offer-class
+- name: TransitClass
+  property_count: 56
+  slug: google-pay-transit-class
+- name: TransitObject
+  property_count: 43
+  slug: google-pay-transit-object
 - name: Google Pay Payment Handler Configuration
   property_count: 5
   slug: google-pay-ucp-payment-handler-config
+jsonld:
+- class_count: 120
+  name: Google Pay Context
+  property_count: 324
+  slug: google-pay-context
 layout: provider
 mcp_servers:
 - description: 'Google''s first-party remote MCP server for Google Pay and Google Wallet developers. It exposes documentation search over the official Google Pay and Google Wallet docs plus live read and write access '
@@ -282,10 +454,13 @@ modified: '2026-09-12'
 name: Google Pay
 nav: Providers
 network: true
-overview: 'Google Pay is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agentic Commerce, Checkout, Contactless Payments, Digital Wallet, and Merchants.
+overview: 'Google Pay is listed with 28 APIs on the [APIs.io](https://apis.io/) network, including Eventticketclass API, Eventticketobject API, Flightclass API, and 25 more. Tagged areas include Agentic Commerce, Checkout, Contactless Payments, Digital Wallet, and Merchants.
 
 
-  Google Pay''s developer surface includes pricing, developer portal, getting-started guide, developer console, support, engineering blog, changelog, and 35 more developer resources.'
+  The Google Pay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Pay''s developer surface includes pricing, developer portal, getting-started guide, developer console, support, engineering blog, changelog, and 42 more developer resources.'
 plans:
 - name: Google Pay Plans Pricing
   plan_count: 1
@@ -295,32 +470,51 @@ rate_limits:
 - limit_count: 1
   name: Google Pay Rate Limits
   slug: google-pay-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Google Pay API Rules
+  rule_count: 56
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 4
+  slug: google-pay-rules
 scopes:
 - name: Google Pay Scopes
   scope_count: 3
   slug: google-pay-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 49.1
+  band: strong
+  composite: 66.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 56.0
+    artifact_dirs: 34
+    catalog_earned: 81.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 16.4
   facets:
-    access_clarity: 65.8
-    contract_governance: 18.2
-    contract_quality: 0.0
+    access_clarity: 60.5
+    contract_governance: 35.6
+    contract_quality: 61.7
     developer_ergonomics: 73.2
-    discoverability: 76.7
-    operational_transparency: 68.4
-  previous_composite: 49.1
+    discoverability: 86.7
+    operational_transparency: 65.8
+  previous_composite: 49.8
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
     mcp: first-party
     skills: derived
   regulatory:
@@ -329,9 +523,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

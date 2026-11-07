@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 22.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,7 +101,7 @@ apis:
   description: The Tours API from Recreation.gov — 2 operation(s) for tours.
   name: Recreation.gov Tours API
   slug: recreation-gov-tours-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Recreation Information Database (RIDB) Activities API
@@ -203,6 +207,9 @@ network: true
 overview: 'Recreation.gov publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Campsites API, Events API, and 7 more. Tagged areas include Recreation, Federal, Camping, Outdoors, and Public Lands.
 
 
+  The Recreation.gov catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Recreation.gov''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Recreation Gov Plans Pricing
@@ -213,25 +220,38 @@ rate_limits:
 - limit_count: 5
   name: Recreation Gov Rate Limits
   slug: recreation-gov-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: Recreation.gov API Rules
+  rule_count: 47
+  severity_counts:
+    error: 45
+    hint: 0
+    info: 1
+    warn: 1
+  slug: recreation-gov-rules
 score:
   band: thin
-  composite: 30.4
+  composite: 30.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
+    artifact_dirs: 16
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 44.1
-    developer_ergonomics: 23.8
+    developer_ergonomics: 14.3
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 30.4
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -245,13 +265,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/recreation-gov/recreation-gov-2026-06-20T192708.png
 security:
 - kind: authentication

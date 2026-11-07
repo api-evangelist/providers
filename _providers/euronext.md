@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: On-demand real-time, delayed, and reference market data over HTTP in JSON (REST) covering equities, fixed income, ETFs and funds, warrants and certificates, derivatives, commodities, and indices, with
@@ -157,7 +158,7 @@ overview: 'Euronext is listed with 5 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 2
 score:
   band: thin
-  composite: 28.6
+  composite: 29.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 35.0
@@ -171,9 +172,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 28.6
+    discoverability: 69.6
+    operational_transparency: 18.4
+  previous_composite: 29.0
   provenance:
     conformance: first-party
   regulatory:
@@ -182,8 +183,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

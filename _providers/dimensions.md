@@ -1,16 +1,20 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
+  - scopes
+  - rate-limits
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,7 +65,7 @@ apis:
   description: The Query API from Dimensions — 1 operation(s) for query.
   name: Dimensions Query API
   slug: dimensions-query-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Dimensions Analytics Authentication API
@@ -270,6 +275,9 @@ network: true
 overview: 'Dimensions publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Query API, and 1 more. Tagged areas include Analytics, Research, Publications, Grants, and Patents.
 
 
+  The Dimensions catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Dimensions'' developer surface includes authentication, documentation, support, engineering blog, API reference, getting-started guide, changelog, and 31 more developer resources.'
 plans:
 - name: Dimensions Plans Pricing
@@ -280,6 +288,19 @@ rate_limits:
 - limit_count: 1
   name: Dimensions Rate Limits
   slug: dimensions-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 80
+  extends:
+  - spectral:oas
+  name: Dimensions API Rules
+  rule_count: 39
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 1
+  slug: dimensions-rules
 scopes:
 - name: Dimensions Scopes
   scope_count: 1
@@ -287,23 +308,26 @@ scopes:
   summary_line: 1 scope · authorization_code/refresh_token
 score:
   band: developing
-  composite: 50.6
+  composite: 48.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 45.0
+    artifact_dirs: 31
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
+    access_clarity: 27.6
+    contract_governance: 31.8
     contract_quality: 42.9
     developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 65.8
-  previous_composite: 50.6
+    discoverability: 68.3
+    operational_transparency: 63.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,13 +344,12 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dimensions/dimensions-2026-06-20T180036.png
 security:
 - kind: authentication

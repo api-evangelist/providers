@@ -1,15 +1,22 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,7 +32,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-31'
+  score: 34.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -89,7 +97,7 @@ apis:
   description: County- and city-level outage rollups published as map and feature layers.
   name: CMS Energy Service Dashboard API
   slug: cms-energy-service-dashboard-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Cms Energy Webhooks
@@ -316,7 +324,7 @@ network: true
 overview: 'CMS Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Bills API, GreenButton API, and 6 more. Tagged areas include Electric, Energy, Green Button, Michigan, and Natural Gas.
 
 
-  The CMS Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The CMS Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   CMS Energy''s developer surface includes pricing, authentication, documentation, support, sandbox, API reference, getting-started guide, and 32 more developer resources.'
@@ -345,6 +353,19 @@ rate_limits:
 - limit_count: 4
   name: Cms Energy Rate Limits
   slug: cms-energy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: CMS Energy API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: cms-energy-rules
 scopes:
 - name: Cms Energy Scopes
   scope_count: 10
@@ -352,28 +373,28 @@ scopes:
   summary_line: 10 scopes
 score:
   band: strong
-  composite: 56.8
+  composite: 56.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 57.0
+    artifact_dirs: 32
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 73.7
-    contract_governance: 0.0
+    access_clarity: 67.1
+    contract_governance: 13.6
     contract_quality: 40.6
-    developer_ergonomics: 63.7
-    discoverability: 65.0
+    developer_ergonomics: 58.9
+    discoverability: 73.2
     operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -390,13 +411,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/cms-energy/cms-energy-2026-06-20T174637.png
 security:
 - kind: authentication

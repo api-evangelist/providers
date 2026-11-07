@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -12,9 +27,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 77.3
-  scored_at: '2026-10-31'
+  score: 67.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 2
@@ -303,7 +319,7 @@ modified: '2026-10-31'
 name: sendmux-ai
 nav: Providers
 network: true
-overview: 'sendmux-ai publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Connection API, Domain Filters API, and 8 more. Tagged areas include Company, Email, AI, Agents, and Integration.
+overview: 'sendmux-ai publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Connection API, Domain Filters API, and 8 more. Tagged areas include Company, Email, Artificial Intelligence, Agents, and Integration.
 
 
   The sendmux-ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -334,34 +350,48 @@ scopes:
   slug: sendmux-ai-scopes
   summary_line: 52 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 72.8
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 28
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.4
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 68.9
-    developer_ergonomics: 82.6
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 71.9
+    developer_ergonomics: 53.0
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 26.3
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/sendmux-ai/sendmux-ai-2026-11-03T143037.png
 security:
 - kind: authentication
   name: Sendmux Ai Authentication
@@ -387,7 +417,7 @@ slug: sendmux-ai
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Agents
 - Integration
 website: https://sendmux.ai/

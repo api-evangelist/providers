@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -126,7 +132,7 @@ apis:
   description: The Oauth API from Ocrolus — 1 operation(s) for oauth.
   name: Ocrolus OAUTH API
   slug: ocrolus-oauth-api
-artifact_total: 59
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Ocrolus Webhooks
@@ -460,7 +466,7 @@ network: true
 overview: 'Ocrolus publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Book Commands API, Book Queries API, Business history API, and 13 more. Tagged areas include Company, Fintech, Document Automation, Lending, and Underwriting.
 
 
-  The Ocrolus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ocrolus catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 41 more developer resources.'
@@ -469,25 +475,38 @@ rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
   slug: ocrolus-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Ocrolus API Rules
+  rule_count: 53
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 14
+  slug: ocrolus-rules
 score:
   band: strong
-  composite: 58.8
+  composite: 61.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 48.0
+    artifact_dirs: 30
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 55.4
+    contract_governance: 31.8
+    contract_quality: 56.0
     developer_ergonomics: 63.7
-    discoverability: 71.4
-    operational_transparency: 84.2
-  previous_composite: 58.8
+    discoverability: 78.6
+    operational_transparency: 81.6
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -512,13 +531,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/ocrolus/ocrolus-2026-08-07T185929.png
 security:
 - kind: authentication

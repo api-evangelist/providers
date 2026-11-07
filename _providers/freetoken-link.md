@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: FreeToken.link provides an API for discovering free-access LLM models and related metadata. Documentation is available at the guides page, but no machine‑readable contract (OpenAPI, GraphQL, AsyncAPI,
@@ -117,7 +129,7 @@ modified: '2026-10-30'
 name: freetoken-link
 nav: Providers
 network: true
-overview: 'freetoken-link is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Free, Platform, and Discovery.
+overview: 'freetoken-link is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Free, Platform, and Discovery.
 
 
   freetoken-link''s developer surface includes sandbox, changelog, documentation, getting-started guide, engineering blog, pricing, and 10 more developer resources.'
@@ -127,34 +139,40 @@ plans:
   slug: freetoken-link-plans-pricing
 random_paper: 22
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 20.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 42.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.2
+    artifact_dirs: 10
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.6
   facets:
-    access_clarity: 60.0
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 58.9
-    operational_transparency: 42.1
+    developer_ergonomics: 15.5
+    discoverability: 58.0
+    operational_transparency: 21.1
+  previous_composite: 29.8
+  provenance:
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 9.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/freetoken-link/freetoken-link-2026-11-03T132334.png
 security:
 - kind: domain-security
   name: Freetoken Link Domain Security
@@ -162,7 +180,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: freetoken-link
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Free
 - Platform

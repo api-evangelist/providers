@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Remote Model Context Protocol server (Streamable HTTP) at https://travel.augworlds.ai/mcp. Clients authenticate with OAuth 2.1 — the client registers itself and runs authorization_code + PKCE with a b
@@ -156,7 +174,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 29.0
+  composite: 29.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -170,9 +188,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 65.0
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -182,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +227,8 @@ tags:
 - MCP
 - A2A
 - AI Agents
-- Authentication
+- OAuth
 - Marketplace
+- Authentication
 website: https://augworlds.ai/
 ---

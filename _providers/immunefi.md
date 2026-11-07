@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: An unauthenticated, read-only JSON endpoint published on Immunefi's own domain that returns the complete catalog of bug bounty programs listed on the platform. Each record carries the project name and
@@ -165,9 +169,9 @@ rate_limits:
   slug: immunefi-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 34.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -180,8 +184,8 @@ score:
     contract_quality: 45.3
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 34.5
+    operational_transparency: 21.1
+  previous_composite: 34.2
   provenance:
     conformance: derived
     mcp: derived
@@ -191,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

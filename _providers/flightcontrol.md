@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -81,7 +85,7 @@ apis:
   description: The Services API from Flightcontrol — 2 operation(s) for services.
   name: Flightcontrol Services API
   slug: flightcontrol-services-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Flightcontrol Management CloudFront API
@@ -172,7 +176,10 @@ modified: '2026-06-20'
 name: Flightcontrol
 nav: Providers
 network: true
-overview: 'Flightcontrol publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including CloudFront API, Deploy Hooks API, Deployments API, and 4 more. Tagged areas include Deployment, Platform-as-a-Service, Infrastructure, and DevOps.
+overview: 'Flightcontrol publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including CloudFront API, Deploy Hooks API, Deployments API, and 4 more. Tagged areas include Deployment, Amazon Web Services, Platform-as-a-Service, Infrastructure, and DevOps.
+
+
+  The Flightcontrol catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   Flightcontrol''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -185,25 +192,38 @@ rate_limits:
 - limit_count: 3
   name: Flightcontrol Rate Limits
   slug: flightcontrol-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Flightcontrol API Rules
+  rule_count: 62
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 1
+  slug: flightcontrol-rules
 score:
   band: thin
-  composite: 27.6
+  composite: 29.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.4
+    artifact_dirs: 16
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.6
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 53.5
     developer_ergonomics: 32.1
-    discoverability: 57.1
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 27.6
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -217,13 +237,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/flightcontrol/flightcontrol-2026-06-20T181311.png
 security:
 - kind: authentication
@@ -237,6 +256,7 @@ security:
 slug: flightcontrol
 tags:
 - Deployment
+- Amazon Web Services
 - Platform-as-a-Service
 - Infrastructure
 - DevOps

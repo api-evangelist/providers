@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 30.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -172,9 +174,9 @@ overview: 'Silmaril is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 21
 score:
   band: thin
-  composite: 33.7
+  composite: 34.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,9 +188,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 33.7
+    discoverability: 75.0
+    operational_transparency: 44.7
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

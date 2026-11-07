@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -61,7 +62,7 @@ apis:
   description: Loan and payment ingestion and retrieval.
   name: Credgenics Lending API
   slug: credgenics-lending-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Credgenics Webhooks
@@ -211,29 +212,42 @@ network: true
 overview: 'Credgenics publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial Services, Debt Collection, and Loan Recovery.
 
 
-  The Credgenics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Credgenics catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Credgenics API Rules
+  rule_count: 62
+  severity_counts:
+    error: 60
+    hint: 0
+    info: 1
+    warn: 1
+  slug: credgenics-rules
 score:
   band: thin
-  composite: 39.0
+  composite: 31.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
+    access_clarity: 43.4
+    contract_governance: 31.8
     contract_quality: 22.1
-    developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 13.2
+    developer_ergonomics: 16.1
+    discoverability: 73.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -241,7 +255,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 39.0
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,13 +272,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/credgenics/credgenics-2026-07-25T210716.png
 security:
 - kind: authentication

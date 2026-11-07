@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format, with built-in assertions for API testing, response capturing, and request chaining. As a CLI u
@@ -134,9 +136,9 @@ rate_limits:
   slug: hurl-rate-limits
 score:
   band: emerging
-  composite: 11.0
+  composite: 14.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 28.0
     catalog_earned_first_party: 0.0
     catalog_gap: 87.0
@@ -149,16 +151,19 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 46.4
-    operational_transparency: 28.9
-  previous_composite: 11.0
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

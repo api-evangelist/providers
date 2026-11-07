@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -269,31 +286,31 @@ rules:
     warn: 0
   slug: noms-rules
 score:
-  band: strong
-  composite: 57.2
+  band: developing
+  composite: 49.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 77.0
     catalog_earned_first_party: 24.0
     catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 19.7
-    contract_quality: 62.9
-    developer_ergonomics: 50.0
-    discoverability: 66.1
+    contract_quality: 69.0
+    developer_ergonomics: 27.4
+    discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 57.2
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 6
     mcp: derived
   regulatory:
@@ -301,14 +318,13 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 24.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 21.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/noms/noms-2026-10-11T111622.png
 security:
 - kind: authentication

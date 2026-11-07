@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -28,17 +31,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-31'
+  score: 35.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Real-time streaming service for MAX Exchange. Public channels cover order book (book), trade, ticker, kline, market_status and m-wallet pool_quota; private channels stream order snapshots/updates, tra
@@ -82,7 +86,7 @@ apis:
   description: Requires authentication
   name: MaiCoin Wallet API
   slug: maicoin-wallet-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: 'Real-time streaming for MAX Exchange (MaiCoin). One WebSocket endpoint carries both public market-data channels and, after authentication, private account channels. Field names are abbreviated on the '
   name: MAX Exchange WebSocket API
@@ -263,7 +267,7 @@ network: true
 overview: 'MaiCoin publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Convert API, Order API, Public API, and 6 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Exchange, and Trading.
 
 
-  The MaiCoin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The MaiCoin catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   MaiCoin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -276,24 +280,37 @@ rate_limits:
 - limit_count: 6
   name: Maicoin Rate Limits
   slug: maicoin-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: MaiCoin API Rules
+  rule_count: 54
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 3
+    warn: 7
+  slug: maicoin-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 59.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 51.4
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 68.4
+    discoverability: 73.2
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -301,7 +318,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 58.6
+  previous_composite: 59.9
   provenance:
     conformance: derived
     contracts:
@@ -317,13 +334,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/maicoin/maicoin-2026-09-02T150513.png
 security:
 - kind: authentication

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
@@ -137,7 +138,7 @@ apis:
   description: The waittimes API from DexCare — 2 operation(s) for waittimes.
   name: DexCare Waittimes API
   slug: dexcare-waittimes-api
-artifact_total: 29
+artifact_total: 30
 common:
 - group: other
   href: https://artifacts.apis.io/dexcare/capabilities/dexcare-capability-edges.yml
@@ -322,6 +323,9 @@ network: true
 overview: 'DexCare publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assignmentqualifiers API, External API, Modalities API, and 17 more. Tagged areas include Company, Healthcare, Health IT, Patient Access, and Scheduling.
 
 
+  The DexCare catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   DexCare''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 28 more developer resources.'
 plans:
 - name: Dexcare Plans Pricing
@@ -332,31 +336,44 @@ rate_limits:
 - limit_count: 0
   name: Dexcare Rate Limits
   slug: dexcare-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: DexCare API Rules
+  rule_count: 63
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 9
+    warn: 10
+  slug: dexcare-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 49.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 28.9
-    contract_governance: 18.2
-    contract_quality: 49.7
+    contract_governance: 31.8
+    contract_quality: 52.3
     developer_ergonomics: 73.2
-    discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 47.6
+    discoverability: 78.6
+    operational_transparency: 26.3
+  previous_composite: 48.9
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 47.4
       total: 19
     mcp: derived
     skills: derived
@@ -370,13 +387,12 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dexcare/dexcare-2026-07-25T211834.png
 security:
 - kind: authentication

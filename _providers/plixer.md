@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
+  confidence: low
+  label: Freemium
   onboarding: unknown
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for Plixer Scrutinizer flow analytics — run flow reports, manage alarms, tune detections, trigger packet captures, and work with Collections. Scrutinizer is deployed as a self-hosted applianc
@@ -126,9 +128,9 @@ plans:
 random_paper: 12
 score:
   band: thin
-  composite: 26.8
+  composite: 27.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -140,9 +142,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 26.8
+  previous_composite: 27.5
   provenance:
     mcp: first-party
   regulatory:
@@ -151,8 +153,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

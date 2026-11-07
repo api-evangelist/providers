@@ -1,13 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -24,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -34,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -238,9 +245,9 @@ rules:
   slug: fooddata-central-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 32.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 42.3
     catalog_earned_first_party: 0.0
     catalog_gap: 72.8
@@ -254,7 +261,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 46.4
     operational_transparency: 23.7
-  previous_composite: 33.3
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -268,13 +275,12 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fooddata-central/fooddata-central-2026-06-20T181402.png
 security:
 - kind: authentication

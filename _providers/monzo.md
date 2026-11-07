@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-31'
+  score: 26.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Monzo API is a REST interface over a user's Monzo account. It exposes accounts, balance, savings pots (with deposit/withdraw), transactions (list, retrieve, annotate with metadata, expand merchant
@@ -197,9 +200,9 @@ overview: 'Monzo is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 11
 score:
   band: developing
-  composite: 40.0
+  composite: 40.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,14 +214,14 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 65.0
+    discoverability: 73.2
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.0
+  previous_composite: 40.8
   provenance:
     conformance: derived
     mcp: derived
@@ -229,8 +232,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -268,7 +271,8 @@ tags:
 - Open Banking
 - Account
 - Transaction
-- Authentication
+- OAuth
 - Consumer Banking
+- Authentication
 website: https://monzo.com
 ---

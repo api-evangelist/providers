@@ -1,6 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-31'
+  score: 28.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -338,26 +351,28 @@ rules:
   slug: aurinko-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 48.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.8
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 61.3
-    developer_ergonomics: 51.8
-    discoverability: 66.1
+    contract_quality: 60.5
+    developer_ergonomics: 36.3
+    discoverability: 73.2
     operational_transparency: 0.0
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -368,13 +383,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
+screenshot: https://apis.io/screenshots/aurinko/aurinko-2026-11-03T121329.png
 security:
 - kind: authentication
   name: Aurinko Authentication

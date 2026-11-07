@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.1
-  scored_at: '2026-10-31'
+  score: 19.3
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -174,9 +176,9 @@ rate_limits:
   slug: expo-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 31.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -188,9 +190,9 @@ score:
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 31.0
-    discoverability: 71.4
+    discoverability: 73.3
     operational_transparency: 55.3
-  previous_composite: 31.2
+  previous_composite: 31.4
   provenance:
     mcp: first-party
   regulatory:
@@ -199,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

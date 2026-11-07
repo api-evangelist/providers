@@ -5,7 +5,10 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The CBS Sports Fantasy Platform REST API, version 3.0. Opened to third-party developers in January 2012 so apps could read league, team, player, draft, transaction and scoring data out of CBS Sports f
@@ -220,9 +224,9 @@ rate_limits:
   slug: cbs-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 23.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -234,9 +238,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 67.9
-    operational_transparency: 5.3
-  previous_composite: 23.6
+    discoverability: 67.0
+    operational_transparency: 2.6
+  previous_composite: 23.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -246,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

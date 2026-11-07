@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-31'
+  score: 32.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 22
@@ -4715,9 +4716,9 @@ rules:
   slug: vtex-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 47.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -4727,11 +4728,11 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 55.0
+    contract_quality: 56.9
     developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 55.3
-  previous_composite: 41.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -4745,13 +4746,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/vtex/vtex-2026-06-20T201148.png
 security:
 - kind: authentication

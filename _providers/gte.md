@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,7 +78,7 @@ apis:
   description: The Users API from GTE — 6 operation(s) for users.
   name: GTE Users API
   slug: gte-users-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: GTE Exchange API
@@ -227,27 +230,43 @@ network: true
 overview: 'GTE publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exchange API, Health API, Info API, and 3 more. Tagged areas include Company, Crypto Defi, Decentralized Exchange, Trading, and Market Data.
 
 
+  The GTE catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   GTE''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: GTE API Rules
+  rule_count: 52
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 3
+    warn: 2
+  slug: gte-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 32.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
+    access_clarity: 13.2
+    contract_governance: 18.2
     contract_quality: 37.0
-    developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 36.6
+    developer_ergonomics: 58.9
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,14 +282,13 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/gte/gte-2026-07-25T220408.png
 security:
 - kind: authentication

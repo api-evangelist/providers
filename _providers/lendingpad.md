@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Unknown
   onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Modeled loan-file exchange surface - create, read, and update mortgage loan files, submit loan data to lenders/investors, and import/export loan data (LendingPad describes MISMO-style 3.2/3.4 loan-dat
@@ -138,8 +143,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

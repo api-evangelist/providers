@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.2
-  scored_at: '2026-10-31'
+  score: 64.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -102,7 +104,7 @@ arazzos:
 - description: Validate the token, create a knowledge-base collection, then create a document inside it.
   name: Create a collection and add a document
   slug: brainfish-create-collection-and-document
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Brainfish Public Agents API
@@ -286,6 +288,9 @@ network: true
 overview: 'Brainfish publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, Artificial Intelligence, Customer Service, Knowledge Base, and Help Desk.
 
 
+  The Brainfish catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Brainfish Plans Pricing
@@ -296,30 +301,43 @@ rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
   slug: brainfish-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: Brainfish API Rules
+  rule_count: 73
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 3
+    warn: 6
+  slug: brainfish-rules
 score:
   band: strong
-  composite: 62.4
+  composite: 60.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 31
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 50.7
+    access_clarity: 78.9
+    contract_governance: 31.8
+    contract_quality: 49.5
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 57.9
-  previous_composite: 63.0
+    discoverability: 75.0
+    operational_transparency: 47.4
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -331,13 +349,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/brainfish/brainfish-2026-07-25T203705.png
 security:
 - kind: authentication

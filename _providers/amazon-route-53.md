@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -731,7 +732,7 @@ modified: '2026-05-19'
 name: Amazon Route 53
 nav: Providers
 network: true
-overview: 'Amazon Route 53 publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health Checks API, Hosted Zones API, Resource Record Sets API, and 8 more. Tagged areas include DNS, Domain Registration, Health Checks, and Routing.
+overview: 'Amazon Route 53 publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health Checks API, Hosted Zones API, Resource Record Sets API, and 8 more. Tagged areas include Amazon Web Services, DNS, Domain Registration, Health Checks, and Routing.
 
 
   The Amazon Route 53 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -776,43 +777,42 @@ rules:
   slug: amazon-route-53-spectral-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 56.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 56.0
+    artifact_dirs: 21
+    catalog_earned: 61.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 59.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 2.4
   facets:
-    access_clarity: 89.5
+    access_clarity: 82.9
     contract_governance: 27.3
-    contract_quality: 64.1
+    contract_quality: 73.5
     developer_ergonomics: 39.3
-    discoverability: 33.9
+    discoverability: 42.9
     operational_transparency: 36.8
-  previous_composite: 51.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 70.0
-      total: 10
+      marker_coverage: 100.0
+      total: 11
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-route-53/amazon-route-53-2026-06-20T171815.png
 security:
 - kind: authentication
@@ -833,6 +833,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-route-53
 tags:
+- Amazon Web Services
 - DNS
 - Domain Registration
 - Health Checks

@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Markable's visual search platform API. Index catalogs of products or styles, then search for visually similar items inside images and video. Covers catalog and catalog-item management, product search,
@@ -158,9 +159,9 @@ rate_limits:
   slug: markable-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 33.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -171,10 +172,10 @@ score:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 35.0
+    operational_transparency: 23.7
+  previous_composite: 33.5
   provenance:
     conformance: first-party
   regulatory:
@@ -183,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

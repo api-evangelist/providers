@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-31'
+  score: 26.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 24
@@ -197,6 +209,10 @@ common:
   title: ''
   type: Website
   url: https://spoke.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.dispatch.spoke.com/api/v1
 coverage:
   checked: '2026-10-29'
   detail: OpenAPI spec found at https://developer.dispatch.spoke.com/openapi-v1.json belongs to Spoke, not Circuit.
@@ -218,13 +234,13 @@ modified: '2026-10-29'
 name: Circuit
 nav: Providers
 network: true
-overview: 'Circuit publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Couriers API, Depots API, Drivers API, and 11 more. Tagged areas include Company, Logistics, Delivery, API, and Platform.
+overview: 'Circuit publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Couriers API, Depots API, Drivers API, and 11 more. Tagged areas include Company, Logistics, Delivery, and Platform.
 
 
   The Circuit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Circuit''s developer surface includes getting-started guide, API reference, authentication, and 16 more developer resources.'
+  Circuit''s developer surface includes getting-started guide, API reference, authentication, and 17 more developer resources.'
 random_paper: 23
 rules:
 - authorship: generated
@@ -241,21 +257,29 @@ rules:
   slug: getcircuit-com-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 37.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 51.8
+    artifact_dirs: 17
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
-    contract_quality: 55.3
-    developer_ergonomics: 31.0
-    discoverability: 62.5
+    contract_quality: 58.7
+    developer_ergonomics: 25.0
+    discoverability: 60.7
     operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,12 +295,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/getcircuit-com/getcircuit-com-2026-11-03T132655.png
 security:
 - kind: authentication
   name: Getcircuit Com Authentication
@@ -291,7 +316,6 @@ tags:
 - Company
 - Logistics
 - Delivery
-- API
 - Platform
 website: https://spoke.com/
 ---

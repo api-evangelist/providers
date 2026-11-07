@@ -1,11 +1,25 @@
 ---
+access_model:
+  confidence: high
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,7 +245,7 @@ modified: '2026-10-30'
 name: LLCDrop
 nav: Providers
 network: true
-overview: 'LLCDrop publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Businesses API, Counties and stats API, and 4 more. Tagged areas include lead-generation, business-data, marketing, real-estate, and api.
+overview: 'LLCDrop publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Businesses API, Counties and stats API, and 4 more. Tagged areas include Lead Generation, Business Data, Marketing, and Real Estate.
 
 
   The LLCDrop catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -265,34 +280,48 @@ scopes:
   slug: llcdrop-scopes
   summary_line: 1 scope
 score:
-  band: strong
-  composite: 58.9
+  band: developing
+  composite: 46.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 79.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 35.7
+    artifact_dirs: 26
+    catalog_earned: 61.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.2
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 45.7
-    developer_ergonomics: 61.2
-    discoverability: 65.0
-    operational_transparency: 33.7
+    access_clarity: 47.4
+    contract_governance: 35.6
+    contract_quality: 48.8
+    developer_ergonomics: 39.8
+    discoverability: 56.7
+    operational_transparency: 34.2
+  previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/llcdrop/llcdrop-2026-11-03T134944.png
 security:
 - kind: authentication
   name: Llcdrop Authentication
@@ -308,10 +337,9 @@ skills:
   slug: llcdrop-businesses-search
 slug: llcdrop
 tags:
-- lead-generation
-- business-data
-- marketing
-- real-estate
-- api
+- Lead Generation
+- Business Data
+- Marketing
+- Real Estate
 website: https://llcdrop.com
 ---

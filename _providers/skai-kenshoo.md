@@ -26,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -36,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.6
-  scored_at: '2026-10-31'
+  score: 46.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: First-party hosted, remote Model Context Protocol servers exposing the Skai platform to AI assistants. The Reporting MCP is read-only and publishes five tools — fetch_report, relevant_columns, get_tod
@@ -288,7 +289,7 @@ apis:
   description: The Token API from Skai (Kenshoo) — 1 operation(s) for token.
   name: Skai (Kenshoo) Token API
   slug: skai-kenshoo-token-api
-artifact_total: 65
+artifact_total: 66
 collections:
 - collection_type: open
   name: Skai API
@@ -482,6 +483,9 @@ network: true
 overview: 'Skai (Kenshoo) publishes 50 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Add Ons API, and 47 more. Tagged areas include Company, Commerce, Advertising, Marketing, and Retail Media.
 
 
+  The Skai (Kenshoo) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Skai (Kenshoo)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 29 more developer resources.'
 plans:
 - name: Skai Kenshoo Plans Pricing
@@ -495,6 +499,19 @@ rate_limits:
 - limit_count: 2
   name: Skai Kenshoo Rate Limits
   slug: skai-kenshoo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Skai (Kenshoo) API Rules
+  rule_count: 51
+  severity_counts:
+    error: 39
+    hint: 0
+    info: 2
+    warn: 10
+  slug: skai-kenshoo-rules
 scopes:
 - name: Skai Kenshoo Scopes
   scope_count: 0
@@ -502,23 +519,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.2
+  composite: 63.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
+    artifact_dirs: 29
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 41.5
-    developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 52.6
-  previous_composite: 60.6
+    access_clarity: 93.4
+    contract_governance: 31.8
+    contract_quality: 42.0
+    developer_ergonomics: 53.0
+    discoverability: 68.3
+    operational_transparency: 50.0
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     contracts:
@@ -534,13 +551,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/skai-kenshoo/skai-kenshoo-2026-08-17T081910.png
 security:
 - kind: authentication

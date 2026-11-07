@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://mudwtr.com/api/ucp/mcp. Server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-18 and UCP '
@@ -205,9 +209,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -219,9 +223,9 @@ score:
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 16.1
-    discoverability: 61.7
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -232,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

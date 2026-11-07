@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 17.6
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,7 +155,7 @@ modified: '2026-10-27'
 name: Emma
 nav: Providers
 network: true
-overview: 'Emma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Automation, AI, SMS, and Higher Education.
+overview: 'Emma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Automation, Artificial Intelligence, SMS, and Higher Education.
 
 
   Emma''s developer surface includes changelog, pricing, engineering blog, documentation, and 18 more developer resources.'
@@ -153,22 +165,24 @@ plans:
   slug: myemma-plans-pricing
 random_paper: 22
 score:
-  band: thin
-  composite: 29.3
+  band: emerging
+  composite: 21.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 12.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.1
   facets:
-    access_clarity: 65.8
+    access_clarity: 48.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 25.5
-    discoverability: 46.4
-    operational_transparency: 47.4
+    developer_ergonomics: 19.5
+    discoverability: 45.5
+    operational_transparency: 23.7
+  previous_composite: 29.3
   provenance:
     mcp: unknown
     skills: unknown
@@ -177,13 +191,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/myemma/myemma-2026-11-03T135936.png
 security:
 - kind: domain-security
   name: Myemma Domain Security
@@ -197,10 +213,10 @@ slug: myemma
 tags:
 - Email Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - SMS
 - Higher Education
-- Nonprofit
+- Non-Profit
 - Government
 - Travel & Hospitality
 website: https://myemma.com/

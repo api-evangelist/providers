@@ -1,12 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +32,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.3
-  scored_at: '2026-10-31'
+  score: 21.2
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: ytt is a templating tool that understands YAML structure, letting you use familiar YAML constructs and Python-like language (Starlark) to template Kubernetes configuration. Supports overlays, data val
@@ -237,10 +245,10 @@ rate_limits:
   name: Carvel Rate Limits
   slug: carvel-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 41.0
     catalog_earned_first_party: 6.0
     catalog_gap: 74.0
@@ -250,11 +258,14 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 8.0
-    developer_ergonomics: 42.9
-    discoverability: 62.5
-    operational_transparency: 36.8
-  previous_composite: 24.9
+    contract_quality: 32.0
+    developer_ergonomics: 36.9
+    discoverability: 69.6
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -264,8 +275,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

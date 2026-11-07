@@ -1,6 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -14,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-31'
+  score: 27.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for Twitter and X data, providing search, tweet details, user profiles, timelines, follower graph, write actions, and more.
@@ -191,7 +204,7 @@ modified: '2026-10-29'
 name: TwitterAPIs
 nav: Providers
 network: true
-overview: 'TwitterAPIs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, X-Data, Pay-per-call, API, and Dubai.
+overview: 'TwitterAPIs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, X-Data, Pay-per-call, and Dubai.
 
 
   The TwitterAPIs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,21 +218,31 @@ plans:
 random_paper: 20
 score:
   band: developing
-  composite: 51.3
+  composite: 40.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 49.0
+    artifact_dirs: 16
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 47.6
-    discoverability: 67.9
-    operational_transparency: 55.3
+    developer_ergonomics: 33.3
+    discoverability: 65.2
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-arab-emirates
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - mena
+    - middle-east
+  previous_composite: 52.1
   provenance:
     conformance: derived
     mcp: unknown
@@ -228,13 +251,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/twitterapis-com/twitterapis-com-2026-11-03T145418.png
 security:
 - kind: authentication
   name: Twitterapis Com Authentication
@@ -253,7 +278,6 @@ tags:
 - Company
 - X-Data
 - Pay-per-call
-- API
 - Dubai
 website: https://twitterapis.com
 ---

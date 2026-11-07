@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +29,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 53.7
-  scored_at: '2026-10-31'
+  score: 55.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -122,16 +136,36 @@ asyncapis:
   name: Bit2Me Webhooks
   slug: bit2me-webhooks
 common:
-- group: other
-  href: https://artifacts.apis.io/bit2me/capabilities/bit2me-capability-edges.yml
+- group: design
+  href: https://artifacts.apis.io/bit2me/json-ld/bit2me-context.jsonld
   title: ''
-  type: CapabilityMap
-  url: capabilities/bit2me-capability-edges.yml
+  type: JSONLD
+  url: json-ld/bit2me-context.jsonld
 - group: agent
   href: https://artifacts.apis.io/bit2me/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/bit2me/asyncapi/bit2me-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/bit2me-webhooks.yml
+- group: design
+  href: https://artifacts.apis.io/bit2me/data-model/bit2me-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/bit2me-data-model.yml
+- group: auth
+  href: https://artifacts.apis.io/bit2me/well-known/bit2me-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/bit2me-status-security.txt
+- group: other
+  href: https://artifacts.apis.io/bit2me/capabilities/bit2me-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bit2me-capability-edges.yml
 - group: agent
   href: https://artifacts.apis.io/bit2me/agentic-access/bit2me-agentic-access.yml
   title: ''
@@ -206,11 +240,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/bit2me-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/bit2me/well-known/bit2me-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/bit2me-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/bit2me/well-known/bit2me-well-known.yml
   title: ''
@@ -344,7 +373,7 @@ overview: 'Bit2Me publishes 16 API contracts indexed on the [APIs.io](https://ap
   The Bit2Me catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bit2Me''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
+  Bit2Me''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Bit2Me Plans Pricing
   plan_count: 0
@@ -356,16 +385,16 @@ rate_limits:
   slug: bit2me-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 93
   extends:
   - spectral:oas
   name: Bit2Me API Rules
-  rule_count: 12
+  rule_count: 52
   severity_counts:
-    error: 8
+    error: 39
     hint: 0
-    info: 1
-    warn: 3
+    info: 3
+    warn: 10
   slug: bit2me-rules
 scopes:
 - name: Bit2Me Scopes
@@ -373,30 +402,37 @@ scopes:
   slug: bit2me-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 56.9
+  band: developing
+  composite: 48.0
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 38
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 28.9
     contract_governance: 22.0
-    contract_quality: 42.7
-    developer_ergonomics: 70.7
-    discoverability: 67.9
-    operational_transparency: 78.9
+    contract_quality: 54.1
+    developer_ergonomics: 48.1
+    discoverability: 74.1
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 57.1
-      derived: 12
-      marker_coverage: 57.1
-      total: 21
+      callable: 20.0
+      derived: 4
+      marker_coverage: 20.0
+      total: 20
     mcp: derived
     skills: unknown
   regulatory:
@@ -404,13 +440,14 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 29.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/bit2me/bit2me-2026-11-03T121746.png
 security:
 - kind: authentication
   name: Bit2Me Authentication
@@ -431,6 +468,5 @@ tags:
 - Fintech
 - Exchange
 - Payments
-- API
 website: https://bit2me.com/
 ---

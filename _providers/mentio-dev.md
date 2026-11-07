@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -26,7 +40,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 176
   human_in_the_loop: 8
@@ -207,11 +221,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/mentio-dev-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/mentio-dev/well-known/mentio-dev-modelcontextprotocol-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mentio-dev-modelcontextprotocol-security.txt
 - group: agent
   href: https://artifacts.apis.io/mentio-dev/well-known/mentio-dev-well-known.yml
   title: ''
@@ -312,13 +321,13 @@ modified: '2026-10-30'
 name: mentio-dev
 nav: Providers
 network: true
-overview: 'mentio-dev publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, API keys API, and 15 more. Tagged areas include Company, Social Listening, AI Integration, SDKs, and Real-time Monitoring.
+overview: 'mentio-dev publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, API keys API, and 15 more. Tagged areas include Company, Social Listening, AI Integration, SDK, and Real-Time Monitoring.
 
 
   The mentio-dev catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  mentio-dev''s developer surface includes CLI, authentication, changelog, documentation, API reference, getting-started guide, pricing, and 25 more developer resources.'
+  mentio-dev''s developer surface includes CLI, authentication, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
 plans:
 - name: Mentio Dev Plans Pricing
   plan_count: 3
@@ -330,34 +339,36 @@ rate_limits:
   slug: mentio-dev-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 98
   extends:
   - spectral:oas
   name: mentio-dev API Rules
-  rule_count: 15
+  rule_count: 57
   severity_counts:
-    error: 10
+    error: 42
     hint: 0
     info: 1
-    warn: 4
+    warn: 14
   slug: mentio-dev-rules
 score:
-  band: strong
-  composite: 61.6
+  band: developing
+  composite: 53.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 27
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.3
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 68.2
-    developer_ergonomics: 58.9
-    discoverability: 67.9
-    operational_transparency: 71.1
+    developer_ergonomics: 43.5
+    discoverability: 67.0
+    operational_transparency: 60.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,19 +377,22 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/mentio-dev/mentio-dev-2026-11-03T135503.png
 security:
 - kind: authentication
   name: Mentio Dev Authentication
@@ -403,7 +417,7 @@ tags:
 - Company
 - Social Listening
 - AI Integration
-- SDKs
-- Real-time Monitoring
+- SDK
+- Real-Time Monitoring
 website: https://mentio.dev/
 ---

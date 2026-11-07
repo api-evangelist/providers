@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: documented
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.6
-  scored_at: '2026-10-31'
+  score: 63.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 6
@@ -399,7 +415,7 @@ modified: '2026-10-29'
 name: audiopod-ai
 nav: Providers
 network: true
-overview: 'audiopod-ai publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Wallet API, Audio Agent API, Audiobook API, and 21 more. Tagged areas include AI, Audio, Podcast, Audiobook, and SaaS.
+overview: 'audiopod-ai publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Wallet API, Audio Agent API, Audiobook API, and 21 more. Tagged areas include Artificial Intelligence, Audio, Podcasts, Audiobook, and Software-as-a-Service.
 
 
   The audiopod-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -417,16 +433,16 @@ rate_limits:
   slug: audiopod-ai-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 104
   extends:
   - spectral:oas
   name: audiopod-ai API Rules
-  rule_count: 18
+  rule_count: 63
   severity_counts:
-    error: 13
+    error: 45
     hint: 0
-    info: 1
-    warn: 4
+    info: 2
+    warn: 16
   slug: audiopod-ai-rules
 scopes:
 - name: Audiopod Ai Scopes
@@ -434,22 +450,30 @@ scopes:
   slug: audiopod-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 69.1
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 36
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -14.3
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 22.0
-    contract_quality: 58.7
-    developer_ergonomics: 82.6
-    discoverability: 66.7
-    operational_transparency: 47.4
+    contract_quality: 59.2
+    developer_ergonomics: 57.6
+    discoverability: 75.8
+    operational_transparency: 23.7
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,13 +489,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 35.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/audiopod-ai/audiopod-ai-2026-11-03T121313.png
 security:
 - kind: authentication
   name: Audiopod Ai Authentication
@@ -495,11 +520,11 @@ skills:
   slug: audiopod-ai-list-api-keys
 slug: audiopod-ai
 tags:
-- AI
+- Artificial Intelligence
 - Audio
-- Podcast
+- Podcasts
 - Audiobook
-- SaaS
+- Software-as-a-Service
 - Company
 website: https://audiopod.ai/
 ---

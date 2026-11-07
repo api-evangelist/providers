@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - security
   - '{''url'': ''https://www.eigenda.xyz'', ''status'': 302, ''note'': ''declared website redirects to https://www.eigencloud.xyz/da — a different registrable domain (eigenda.xyz -> eigencloud.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: gRPC API exposed by the EigenDA Disperser. Rollups submit raw blobs to DisperseBlob, then poll GetBlobStatus until the blob is confirmed and dispersed across the operator set. v2 adds GetBlobCommitmen
@@ -204,7 +206,7 @@ overview: 'EigenDA is listed with 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 21
 score:
   band: emerging
-  composite: 19.2
+  composite: 18.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -217,18 +219,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 42.9
+    developer_ergonomics: 41.7
     discoverability: 62.5
-    operational_transparency: 31.6
-  previous_composite: 19.2
+    operational_transparency: 28.9
+  previous_composite: 18.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

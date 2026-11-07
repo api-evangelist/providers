@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -77,7 +81,7 @@ apis:
   description: Transcoded content items and their playable file URLs.
   name: Vimeo OTT Videos API
   slug: vimeo-ott-videos-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Vimeo OTT Analytics API
@@ -184,6 +188,9 @@ network: true
 overview: 'Vimeo OTT publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authorizations API, Collections API, and 3 more. Tagged areas include OTT, Video, SVOD, Streaming, and Media.
 
 
+  The Vimeo OTT catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Vimeo OTT''s developer surface includes engineering blog, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Vimeo Ott Plans Pricing
@@ -194,25 +201,38 @@ rate_limits:
 - limit_count: 5
   name: Vimeo Ott Rate Limits
   slug: vimeo-ott-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: Vimeo OTT API Rules
+  rule_count: 63
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 2
+    warn: 2
+  slug: vimeo-ott-rules
 score:
-  band: emerging
-  composite: 17.5
+  band: thin
+  composite: 31.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 42.0
+    artifact_dirs: 16
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 0.0
+    contract_governance: 13.6
+    contract_quality: 54.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 17.5
+    operational_transparency: 21.1
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -226,13 +246,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/vimeo-ott/vimeo-ott-2026-09-02T165929.png
 security:
 - kind: authentication

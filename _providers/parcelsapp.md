@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-31'
+  score: 32.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ apis:
   description: Callbacks sent to your `webhookUrl` when tracking progresses or completes. Pass `webhookUrl` in `POST /shipments/tracking`; Parcels sends JSON `POST` requests to that URL.
   name: Parcels App Webhooks API
   slug: parcelsapp-webhooks-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Parcels Account API
@@ -152,6 +154,9 @@ network: true
 overview: 'Parcels App publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API, Tracking API, and Webhooks API. Tagged areas include Parcel Tracking, Shipment Status, Package Tracking, Logistics, and Shipping.
 
 
+  The Parcels App catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Parcels App''s developer surface includes documentation, developer portal, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Parcelsapp Plans Pricing
@@ -162,25 +167,38 @@ rate_limits:
 - limit_count: 4
   name: Parcelsapp Rate Limits
   slug: parcelsapp-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Parcels App API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: parcelsapp-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 30.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 15
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 47.1
     developer_ergonomics: 28.6
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -195,13 +213,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/parcelsapp/parcelsapp-2026-08-07T191439.png
 security:
 - kind: domain-security

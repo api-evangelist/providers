@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid · Requires approval
   onboarding: approval
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -118,7 +120,7 @@ apis:
   description: The Webhooks API from SkySlope — 1 operation(s) for webhooks.
   name: SkySlope Webhooks API
   slug: skyslope-webhooks-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: SkySlope Partnership API Reference Agents, Listings API
@@ -232,6 +234,9 @@ network: true
 overview: 'SkySlope publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents, Listings API, Auth API, Buyer Agreements API, and 12 more. Tagged areas include Real Estate, Transaction Management, Digital Forms, E-Signature, and Compliance.
 
 
+  The SkySlope catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   SkySlope''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Skyslope Plans Pricing
@@ -242,25 +247,38 @@ rate_limits:
 - limit_count: 4
   name: Skyslope Rate Limits
   slug: skyslope-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: SkySlope API Rules
+  rule_count: 57
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 3
+    warn: 12
+  slug: skyslope-rules
 score:
   band: emerging
-  composite: 23.3
+  composite: 24.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 16
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 48.4
     developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 23.3
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -274,13 +292,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/skyslope/skyslope-2026-09-02T155819.png
 security:
 - kind: domain-security

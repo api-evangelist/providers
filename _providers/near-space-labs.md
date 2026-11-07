@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.nearspacelabs.net
@@ -50,7 +54,7 @@ apis:
   description: The Oauth API from Near Space Labs — 1 operation(s) for oauth.
   name: Near Space Labs OAUTH API
   slug: near-space-labs-oauth-api
-artifact_total: 16
+artifact_total: 17
 common:
 - group: other
   href: https://artifacts.apis.io/near-space-labs/overlays/near-space-labs-tile-service-overlay.yaml
@@ -211,6 +215,9 @@ network: true
 overview: 'Near Space Labs publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Tile API and OAUTH API. Tagged areas include Company, Earth Observation, Aerial Imagery, Geospatial, and Satellite and Remote Sensing.
 
 
+  The Near Space Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Near Space Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 21 more developer resources.'
 plans:
 - name: Near Space Labs Plans Pricing
@@ -221,25 +228,38 @@ rate_limits:
 - limit_count: 0
   name: Near Space Labs Rate Limits
   slug: near-space-labs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 77
+  extends:
+  - spectral:oas
+  name: Near Space Labs API Rules
+  rule_count: 36
+  severity_counts:
+    error: 31
+    hint: 0
+    info: 1
+    warn: 4
+  slug: near-space-labs-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 38.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 39.4
     developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 37.8
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -255,13 +275,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/near-space-labs/near-space-labs-2026-09-02T150728.png
 security:
 - kind: authentication

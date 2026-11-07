@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-31'
+  score: 47.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -77,7 +78,7 @@ apis:
   description: The Policy Status API from HealthSherpa — 2 operation(s) for policy status.
   name: HealthSherpa Policy Status API
   slug: healthsherpa-policy-status-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Healthsherpa Ichra Webhooks
@@ -225,37 +226,50 @@ network: true
 overview: 'HealthSherpa publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enrollment Sessions API, Enrollments API, Quotes API, and 3 more. Tagged areas include Company, Health Insurance, Healthcare, ACA, and Enrollment.
 
 
-  The HealthSherpa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The HealthSherpa catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   HealthSherpa''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: HealthSherpa API Rules
+  rule_count: 67
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 2
+    warn: 9
+  slug: healthsherpa-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 43.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 23
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 59.2
-    developer_ergonomics: 61.9
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 40.7
+    contract_governance: 18.2
+    contract_quality: 62.0
+    developer_ergonomics: 52.4
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 50.0
       total: 12
     mcp: derived
     skills: first-party
@@ -265,13 +279,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/healthsherpa/healthsherpa-2026-07-25T220840.png
 security:
 - kind: authentication

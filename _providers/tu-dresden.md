@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: An OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig for TU Dresden staff, students and ScaDS.AI affiliates, served from a LiteLLM proxy on the university's own network.
@@ -294,9 +295,9 @@ rate_limits:
   slug: tu-dresden-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 27.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -309,7 +310,7 @@ score:
     contract_quality: 4.4
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 23.7
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -318,7 +319,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 27.4
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -327,8 +328,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

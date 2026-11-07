@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: UON's institutional identity provider, publishing machine-readable SAML 2.0 metadata at a stable URL. entityID https://idp.newcastle.edu.au/idp/shibboleth, shibmd:Scope newcastle.edu.au, SingleSignOnS
@@ -150,9 +151,9 @@ rate_limits:
   slug: uon-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -165,7 +166,7 @@ score:
     contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -173,7 +174,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 12.6
+  previous_composite: 12.3
   provenance:
     conformance: first-party
   regulatory:
@@ -182,8 +183,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

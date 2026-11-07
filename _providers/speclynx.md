@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -171,9 +172,9 @@ rules:
   slug: speclynx-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.7
+  composite: 15.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -186,16 +187,16 @@ score:
     contract_quality: 14.7
     developer_ergonomics: 19.0
     discoverability: 69.6
-    operational_transparency: 5.3
-  previous_composite: 15.7
+    operational_transparency: 2.6
+  previous_composite: 15.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

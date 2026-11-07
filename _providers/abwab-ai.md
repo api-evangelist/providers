@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Versioned REST API for MSME credit assessment and decisioning. Submits applications for real-time scoring and returns a decision, risk flags, and pricing (e.g. POST /v1/assessments). Supports webhook '
@@ -120,9 +122,9 @@ overview: 'Abwab Ai is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 12
 score:
   band: thin
-  composite: 33.0
+  composite: 33.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -134,7 +136,7 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 33.3
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -144,7 +146,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 33.0
+  previous_composite: 33.7
   provenance:
     conformance: first-party
   regulatory:
@@ -153,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

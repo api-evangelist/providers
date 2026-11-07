@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.2
-  scored_at: '2026-10-31'
+  score: 37.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -132,7 +133,7 @@ apis:
   description: Transfers allow users to access deposit and withdrawal functionality both within the Bakkt network and across the blockchain.
   name: Bakkt Transfers API
   slug: bakkt-transfers-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Bakkt Webhooks
@@ -336,30 +337,43 @@ network: true
 overview: 'Bakkt publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization API, Block Trade & Allocate API, and 14 more. Tagged areas include Company, Web3, Cryptocurrency, Digital Assets, and Trading.
 
 
-  The Bakkt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Bakkt catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 22 more developer resources.'
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Bakkt API Rules
+  rule_count: 57
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 3
+    warn: 10
+  slug: bakkt-rules
 score:
-  band: developing
-  composite: 44.0
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 55.3
-    developer_ergonomics: 66.1
-    discoverability: 66.1
+    developer_ergonomics: 29.2
+    discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 44.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,13 +390,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bakkt/bakkt-2026-07-25T202255.png
 security:
 - kind: authentication

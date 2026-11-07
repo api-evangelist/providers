@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +29,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 61.0
-  scored_at: '2026-10-31'
+  score: 68.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 8
@@ -124,12 +138,27 @@ apis:
   description: Monitor async audience pipeline progress (similarity and propensity subtypes). Poll GET /v1/workflows/{workflow_run_id} or respond to HITL gates via POST /v1/workflows/{workflow_run_id}/resume.
   name: Infinite Audience Workflows API
   slug: infiniteaudience-ai-workflows-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Infiniteaudience Ai Webhooks
   slug: infiniteaudience-ai-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/infiniteaudience-ai/finops/infiniteaudience-ai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/infiniteaudience-ai-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/infiniteaudience-ai/scopes/infiniteaudience-ai-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/infiniteaudience-ai-scopes.yml
+- group: build
+  href: https://artifacts.apis.io/infiniteaudience-ai/integrations/infiniteaudience-ai-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/infiniteaudience-ai-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/infiniteaudience-ai/capabilities/infiniteaudience-ai-capability-edges.yml
   title: ''
@@ -175,16 +204,6 @@ common:
   title: ''
   type: DataModel
   url: data-model/infiniteaudience-ai-data-model.yml
-- group: design
-  href: https://artifacts.apis.io/infiniteaudience-ai/conventions/infiniteaudience-ai-conventions.yml
-  title: ''
-  type: Idempotency
-  url: conventions/infiniteaudience-ai-conventions.yml
-- group: design
-  href: https://artifacts.apis.io/infiniteaudience-ai/conventions/infiniteaudience-ai-conventions.yml
-  title: ''
-  type: Conventions
-  url: conventions/infiniteaudience-ai-conventions.yml
 - group: design
   href: https://artifacts.apis.io/infiniteaudience-ai/errors/infiniteaudience-ai-problem-types.yml
   title: ''
@@ -286,8 +305,16 @@ common:
   title: ''
   type: APIReference
   url: https://docs.infiniteaudience.ai/api/
+- group: operate
+  title: ''
+  type: Support
+  url: https://infiniteaudience.ai/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://docs.infiniteaudience.ai/api/
 created: '2026-10-09'
-description: Infinite Audience, built by NO FAIT, is a customer-intelligence platform for identity resolution, consumer data enrichment, audience building and activation. Its REST API (api.infiniteaudience.ai) covers discovery counts, segments, audiences, campaigns, deliveries, file and micro-batch matching, webhooks and billing, and it also exposes a remote OAuth-protected MCP server and an A2A agent.
+description: Infinite Audience provides an AI-native platform for identity resolution, data enrichment, audience building, and activation. Its REST APIs enable discovery counts, segment creation, audience management, campaign delivery, file and micro‑batch matching, webhook integration, and billing. The service also includes a remote Model Context Protocol (MCP) server for agents and an Agent‑to‑Agent (A2A) protocol for task automation.
 finops:
 - has_sources: true
   method: derived
@@ -336,7 +363,7 @@ overview: 'Infinite Audience publishes 18 API contracts indexed on the [APIs.io]
   The Infinite Audience catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Infinite Audience''s developer surface includes getting-started guide, authentication, documentation, API reference, and 29 more developer resources.'
+  Infinite Audience''s developer surface includes getting-started guide, authentication, documentation, API reference, support, engineering blog, and 30 more developer resources.'
 plans:
 - name: Infiniteaudience Ai Plans Pricing
   plan_count: 1
@@ -359,32 +386,37 @@ rules:
     info: 2
     warn: 5
   slug: infiniteaudience-ai-rules
+scopes:
+- name: Infiniteaudience Ai Scopes
+  scope_count: 4
+  slug: infiniteaudience-ai-scopes
+  summary_line: 4 scopes
 score:
   band: developing
-  composite: 47.1
+  composite: 45.9
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 33
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
-    contract_quality: 71.2
-    developer_ergonomics: 58.9
-    discoverability: 66.7
-    operational_transparency: 28.9
-  previous_composite: 47.1
+    contract_quality: 77.4
+    developer_ergonomics: 43.5
+    discoverability: 75.8
+    operational_transparency: 18.4
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 94.1
       total: 17
     mcp: first-party
     skills: derived
@@ -393,20 +425,19 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/infiniteaudience-ai/infiniteaudience-ai-2026-10-11T105924.png
 security:
 - kind: authentication
   name: Infiniteaudience Ai Authentication
   slug: infiniteaudience-ai-authentication
-  summary_line: http · 1 scheme
+  summary_line: 2 schemes
 - kind: domain-security
   name: Infiniteaudience Ai Domain Security
   slug: infiniteaudience-ai-domain-security

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for Mozilla's unified authentication and user profile service.
@@ -33,6 +46,21 @@ apis:
   slug: firefox-accounts-api
 artifact_total: 5
 common:
+- group: auth
+  href: https://artifacts.apis.io/mozilla-accounts/authentication/mozilla-accounts-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/mozilla-accounts-authentication.yml
+- group: auth
+  href: https://artifacts.apis.io/mozilla-accounts/scopes/mozilla-accounts-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/mozilla-accounts-scopes.yml
+- group: design
+  href: https://artifacts.apis.io/mozilla-accounts/conformance/mozilla-accounts-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/mozilla-accounts-conformance.yml
 - group: auth
   href: https://artifacts.apis.io/mozilla-accounts/well-known/mozilla-accounts-www-security.txt
   title: ''
@@ -101,10 +129,10 @@ modified: '2026-10-27'
 name: Mozilla accounts
 nav: Providers
 network: true
-overview: 'Mozilla accounts is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, Identity, Mozilla, and OpenSource.
+overview: 'Mozilla accounts is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, Identity, Mozilla, and Open Source.
 
 
-  Mozilla accounts'' developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
+  Mozilla accounts'' developer surface includes authentication, documentation, getting-started guide, support, and 11 more developer resources.'
 random_paper: 13
 scopes:
 - name: Mozilla Accounts Scopes
@@ -113,21 +141,23 @@ scopes:
   summary_line: 16 scopes
 score:
   band: emerging
-  composite: 18.8
+  composite: 17.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 29.8
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 5.3
+  previous_composite: 18.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -136,13 +166,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/mozilla-accounts/mozilla-accounts-2026-11-03T135859.png
 security:
 - kind: authentication
   name: Mozilla Accounts Authentication
@@ -162,6 +194,6 @@ tags:
 - Authentication
 - Identity
 - Mozilla
-- OpenSource
+- Open Source
 website: https://accounts.firefox.com/
 ---

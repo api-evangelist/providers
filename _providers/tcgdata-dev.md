@@ -1,32 +1,48 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: partial
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-31'
+  score: 24.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,58 +52,16 @@ agentic_access:
   summary_line: 17 operations · 1 acting
 api_count: 1
 apis:
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Account API from tcgdata-dev — 1 operation(s) for account.
-  name: tcgdata-dev Account API
-  slug: tcgdata-dev-account-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Cards API from tcgdata-dev — 2 operation(s) for cards.
-  name: tcgdata-dev Cards API
-  slug: tcgdata-dev-cards-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Catalogue API from tcgdata-dev — 2 operation(s) for catalogue.
-  name: tcgdata-dev Catalogue API
-  slug: tcgdata-dev-catalogue-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The History API from tcgdata-dev — 2 operation(s) for history.
-  name: tcgdata-dev History API
-  slug: tcgdata-dev-history-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Images API from tcgdata-dev — 1 operation(s) for images.
-  name: tcgdata-dev Images API
-  slug: tcgdata-dev-images-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Japanese catalogue API from tcgdata-dev — 3 operation(s) for japanese catalogue.
-  name: tcgdata-dev Japanese catalogue API
-  slug: tcgdata-dev-japanese-catalogue-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Prices API from tcgdata-dev — 2 operation(s) for prices.
-  name: tcgdata-dev Prices API
-  slug: tcgdata-dev-prices-api
-- baseURL: https://tcgdata-api.ottenniels1999.workers.dev
-  baseurl_source: declared
-  description: The Readable URLs API from tcgdata-dev — 4 operation(s) for readable urls.
-  name: tcgdata-dev Readable URLs API
-  slug: tcgdata-dev-readable-urls-api
-artifact_total: 25
+- description: 'tcgdata-dev API as documented publicly: 15 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider''s own document.'
+  name: tcgdata-dev API
+  slug: tcgdata-dev-api
+artifact_total: 24
 common:
-- group: agent
-  href: https://artifacts.apis.io/tcgdata-dev/agentic-access/tcgdata-dev-agentic-access.yml
+- group: commercial
+  href: https://artifacts.apis.io/tcgdata-dev/plans/tcgdata-dev-plans-pricing.yml
   title: ''
-  type: AgenticAccess
-  url: agentic-access/tcgdata-dev-agentic-access.yml
-- group: operate
-  href: https://artifacts.apis.io/tcgdata-dev/rate-limits/tcgdata-dev-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/tcgdata-dev-rate-limits.yml
+  type: Plans
+  url: plans/tcgdata-dev-plans-pricing.yml
 - group: design
   href: https://artifacts.apis.io/tcgdata-dev/rules/tcgdata-dev-rules.yml
   title: ''
@@ -103,26 +77,16 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/tcgdata-dev-vocabulary.yml
-- group: agent
-  href: https://artifacts.apis.io/tcgdata-dev/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
 - group: design
   href: https://artifacts.apis.io/tcgdata-dev/data-model/tcgdata-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tcgdata-dev-data-model.yml
-- group: auth
-  href: https://artifacts.apis.io/tcgdata-dev/authentication/tcgdata-dev-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/tcgdata-dev-authentication.yml
 - group: design
-  href: https://artifacts.apis.io/tcgdata-dev/errors/tcgdata-dev-problem-types.yml
+  href: https://artifacts.apis.io/tcgdata-dev/conventions/tcgdata-dev-conventions.yml
   title: ''
-  type: ErrorCatalog
-  url: errors/tcgdata-dev-problem-types.yml
+  type: Conventions
+  url: conventions/tcgdata-dev-conventions.yml
 - group: design
   href: https://artifacts.apis.io/tcgdata-dev/conformance/tcgdata-dev-conformance.yml
   title: ''
@@ -133,11 +97,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/tcgdata-dev-llms.txt
-- group: build
-  href: https://artifacts.apis.io/tcgdata-dev/mcp/tcgdata-dev-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/tcgdata-dev-tool-crosswalk.yml
 - group: agent
   href: https://artifacts.apis.io/tcgdata-dev/mcp/tcgdata-dev-mcp.yml
   title: ''
@@ -178,22 +137,14 @@ common:
   title: ''
   type: APIReference
   url: https://tcgdata.dev/api-reference
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://tcgdata.dev/docs
-- group: operate
-  title: ''
-  type: Support
-  url: https://tcgdata.dev/contact
-- group: company
-  title: ''
-  type: Blog
-  url: https://tcgdata.dev/blog
 - group: commercial
   title: ''
   type: Pricing
   url: https://tcgdata.dev/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://tcgdata.dev/blog
 - group: commercial
   title: ''
   type: TermsOfService
@@ -205,13 +156,13 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://tcgdata.dev/login
+  url: https://tcgdata.dev/signup
 - group: start
   title: ''
-  type: DeveloperPortal
-  url: https://tcgdata.dev/docs
+  type: Login
+  url: https://tcgdata.dev/login
 created: '2026-10-31'
-description: TCGdata.dev provides a REST API delivering EUR price data and daily history for major trading card games such as Pokémon, Magic, Lorcana, One Piece, and Yu‑Gi‑Oh!. The service offers endpoints for price lookup, variant search, and historical trends, supporting developers building gaming and market analytics applications. Comprehensive documentation, pricing plans, and support resources are available on the site.
+description: TCGData.dev provides a unified API for pricing and historical data of trading card games (TCGs) in Europe. It covers popular games such as Pokémon, Magic, Lorcana, One Piece, and Yu‑Gi‑Oh!, offering real‑time price lookups, trend analysis, and batch data retrieval. The service includes free tier access with 500 calls for 30 days and detailed documentation for developers to integrate pricing data into apps, marketplaces, and analytics platforms.
 image: https://tcgdata.dev/icon-512.png
 json_schemas:
 - name: BatchResponse
@@ -226,6 +177,24 @@ json_schemas:
 - name: CatalogueVariantRecordList
   property_count: 2
   slug: tcgdata-dev-catalogue-variant-record-list
+- name: GetV1CardsIdHistoryResponse
+  property_count: 26
+  slug: tcgdata-dev-get-v1-cards-id-history-response
+- name: GetV1CardsIdPricesResponse
+  property_count: 24
+  slug: tcgdata-dev-get-v1-cards-id-prices-response
+- name: GetV1CardsIdResponse
+  property_count: 12
+  slug: tcgdata-dev-get-v1-cards-id-response
+- name: GetV1CatalogSetsResponse
+  property_count: 6
+  slug: tcgdata-dev-get-v1-catalog-sets-response
+- name: GetV1UsageResponse
+  property_count: 30
+  slug: tcgdata-dev-get-v1-usage-response
+- name: PostV1PricesBatchRequest
+  property_count: 3
+  slug: tcgdata-dev-post-v1-prices-batch-request
 - name: ReadableCardList
   property_count: 2
   slug: tcgdata-dev-readable-card-list
@@ -233,9 +202,9 @@ json_schemas:
   property_count: 2
   slug: tcgdata-dev-usage-response
 jsonld:
-- class_count: 47
+- class_count: 16
   name: Tcgdata Dev Context
-  property_count: 169
+  property_count: 81
   slug: tcgdata-dev-context
 layout: provider
 mcp_servers:
@@ -246,16 +215,16 @@ modified: '2026-10-31'
 name: tcgdata-dev
 nav: Providers
 network: true
-overview: 'tcgdata-dev publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Cards API, Catalogue API, and 5 more. Tagged areas include Company, Trading Cards, Pricing API, REST, and Gaming.
+overview: 'tcgdata-dev publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading Cards, Pricing, and Europe.
 
 
   The tcgdata-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  tcgdata-dev''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
+  tcgdata-dev''s developer surface includes changelog, documentation, API reference, pricing, engineering blog, signup flow, and 17 more developer resources.'
 plans:
 - name: Tcgdata Dev Plans Pricing
-  plan_count: 0
+  plan_count: 4
   slug: tcgdata-dev-plans-pricing
 random_paper: 12
 rate_limits:
@@ -264,13 +233,13 @@ rate_limits:
   slug: tcgdata-dev-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: tcgdata-dev API Rules
-  rule_count: 16
+  rule_count: 11
   severity_counts:
-    error: 14
+    error: 9
     hint: 0
     info: 1
     warn: 1
@@ -281,34 +250,48 @@ scopes:
   slug: tcgdata-dev-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.9
+  band: thin
+  composite: 37.0
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 84.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 30.1
+    artifact_dirs: 34
+    catalog_earned: 72.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.8
   facets:
-    access_clarity: 44.7
-    contract_governance: 79.1
-    contract_quality: 63.6
-    developer_ergonomics: 63.6
-    discoverability: 65.0
-    operational_transparency: 50.5
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 46.5
+    developer_ergonomics: 9.5
+    discoverability: 48.3
+    operational_transparency: 36.8
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 88.9
+      derived: 1
+      marker_coverage: 11.1
+      total: 9
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/tcgdata-dev/tcgdata-dev-2026-11-03T144342.png
 security:
 - kind: authentication
   name: Tcgdata Dev Authentication
@@ -328,9 +311,7 @@ slug: tcgdata-dev
 tags:
 - Company
 - Trading Cards
-- Pricing API
-- REST
-- Gaming
-- Data
+- Pricing
+- Europe
 website: https://tcgdata.dev/
 ---

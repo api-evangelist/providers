@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.1
-  scored_at: '2026-10-31'
+  score: 53.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -266,9 +267,9 @@ rules:
   slug: folk-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.2
+  composite: 37.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 66.2
     catalog_earned_first_party: 0.0
     catalog_gap: 48.9
@@ -278,15 +279,15 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 23.5
-    contract_quality: 66.5
+    contract_quality: 66.9
     developer_ergonomics: 23.8
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 26.3
-  previous_composite: 38.2
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -297,13 +298,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/folk/folk-2026-07-25T214908.png
 security:
 - kind: authentication

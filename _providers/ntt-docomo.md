@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: d ACCOUNT Connect (dアカウント・コネクト) is DOCOMO's carrier identity service for businesses, offering OpenID Connect based social login backed by network line authentication and device biometrics against roug
@@ -167,9 +168,9 @@ overview: 'NTT Docomo is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 20
 score:
   band: thin
-  composite: 31.0
+  composite: 28.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -180,9 +181,9 @@ score:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 67.9
-    operational_transparency: 21.1
+    developer_ergonomics: 41.7
+    discoverability: 67.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -190,7 +191,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 31.0
+  previous_composite: 28.3
   provenance:
     conformance: first-party
   regulatory:
@@ -199,8 +200,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

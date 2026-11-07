@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.5
-  scored_at: '2026-10-31'
+  score: 42.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -289,7 +304,7 @@ modified: '2026-10-28'
 name: autobrr
 nav: Providers
 network: true
-overview: 'autobrr publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, ARR Integrations API, Authentication API, and 22 more. Tagged areas include Torrent, Automation, Open-Source, Self-Hosted, and Media.
+overview: 'autobrr publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, ARR Integrations API, Authentication API, and 22 more. Tagged areas include Torrent, Automation, Open Source, Self-Hosted, and Media.
 
 
   The autobrr catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -312,21 +327,29 @@ rules:
   slug: autobrr-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 34.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 41.8
     catalog_earned_first_party: 0.0
     catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.7
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 57.0
-    developer_ergonomics: 52.4
-    discoverability: 44.6
-    operational_transparency: 28.9
+    contract_quality: 58.7
+    developer_ergonomics: 35.7
+    discoverability: 51.8
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,12 +365,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
+screenshot: https://apis.io/screenshots/autobrr/autobrr-2026-11-03T121359.png
 security:
 - kind: authentication
   name: Autobrr Authentication
@@ -361,7 +385,7 @@ slug: autobrr
 tags:
 - Torrent
 - Automation
-- Open-Source
+- Open Source
 - Self-Hosted
 - Media
 website: https://autobrr.com/

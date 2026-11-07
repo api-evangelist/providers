@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Freemium
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 26.9
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 8
 asyncapis:
@@ -216,23 +219,23 @@ plans:
 random_paper: 13
 score:
   band: developing
-  composite: 52.9
+  composite: 50.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 0.0
   facets:
-    access_clarity: 89.5
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 48.3
-    operational_transparency: 55.3
-  previous_composite: 45.0
+    discoverability: 58.3
+    operational_transparency: 52.6
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -250,9 +253,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

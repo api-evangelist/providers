@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
@@ -144,7 +145,8 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
-description: String (string.xyz) is a fiat interoperability platform for Web3 gaming, operated by String Technology Inc and backed by 500 Global. String lets game developers accept credit-card and bank payments natively inside their games, acting as the merchant of record and counterparty for fiat on/off ramps, NFT purchases, and cross-chain payments. A player pays fiat on traditional rails and String delivers the digital asset on-chain — either by interacting with the game's smart contract to mint/send an NFT or by sending a token from its treasury to the player's wallet. String ships three integration surfaces — String Checkout (drop-in payment app), a Unity SDK, and String Direct (custom web SDK) — all wrapping a REST API at string-api.xyz that covers API keys, contracts, platforms (games), members, organizations, users (players), saved cards, wallet-signature login, quotes, and transactions.
+description: String (string.xyz) is a fiat interoperability platform for Web3 gaming, operated by String Technology Inc and backed by 500 Global. String lets game developers accept credit-card and bank payments natively inside their games, acting as the merchant of record and counterparty for fiat on/off ramps, NFT purchases, and cross-chain payments. A player pays fiat on traditional rails and String delivers the digital asset on-chain — either by interacting with the game's smart contract to mint/send an NFT or by sending a token from its treasury to the player's wallet. String ships three integration surfaces — String Checkout (drop-in payment app), a Unity SDK, and String Direct (custom web SDK) — all wrapping a REST API at string-api.xyz that covers API keys, contracts, platforms (games), members, organizations, users (players), saved cards, wallet-signature login, quotes, and transactions. Not to be confused with String (usestring.ai), a separate company that offers a web access API
+  for AI agents.
 image: https://avatars.githubusercontent.com/u/104804397?v=4
 layout: provider
 modified: '2026-07-21'
@@ -158,23 +160,23 @@ overview: 'String Technology is listed with 1 API on the [APIs.io](https://apis.
 random_paper: 15
 score:
   band: emerging
-  composite: 23.1
+  composite: 19.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
-    access_clarity: 13.2
+    access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 23.1
+    developer_ergonomics: 50.6
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 18.3
   provenance:
     conformance: derived
     mcp: derived
@@ -185,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

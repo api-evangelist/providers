@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -9,23 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-31'
+  score: 33.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -47,21 +60,6 @@ apis:
   slug: filen-items-api
 - baseURL: https://gateway.filen.io/v3
   baseurl_source: declared
-  description: 'The Items: Directories API from Filen — 15 operation(s) for items: directories.'
-  name: 'Filen Items: Directories API'
-  slug: filen-items-directories-api
-- baseURL: https://gateway.filen.io/v3
-  baseurl_source: declared
-  description: 'The Items: Files API from Filen — 9 operation(s) for items: files.'
-  name: 'Filen Items: Files API'
-  slug: filen-items-files-api
-- baseURL: https://gateway.filen.io/v3
-  baseurl_source: declared
-  description: The Public Links API from Filen — 15 operation(s) for public links.
-  name: Filen Public Links API
-  slug: filen-public-links-api
-- baseURL: https://gateway.filen.io/v3
-  baseurl_source: declared
   description: The Shared API from Filen — 8 operation(s) for shared.
   name: Filen Shared API
   slug: filen-shared-api
@@ -70,7 +68,67 @@ apis:
   description: The User API from Filen — 7 operation(s) for user.
   name: Filen User API
   slug: filen-user-api
-artifact_total: 18
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The auth API from Filen — 2 operation(s) for auth.
+  name: Filen Auth API
+  slug: filen-auth-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The chat API from Filen — 20 operation(s) for chat.
+  name: Filen Chat API
+  slug: filen-chat-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The contacts API from Filen — 12 operation(s) for contacts.
+  name: Filen Contacts API
+  slug: filen-contacts-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The dir API from Filen — 24 operation(s) for dir.
+  name: Filen Dir API
+  slug: filen-dir-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The Directories API from Filen — 1 operation(s) for directories.
+  name: Filen Directories API
+  slug: filen-directories-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The file API from Filen — 14 operation(s) for file.
+  name: Filen File API
+  slug: filen-file-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The File Transfers API from Filen — 1 operation(s) for file transfers.
+  name: Filen File Transfers API
+  slug: filen-file-transfers-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The (internal) API from Filen — 3 operation(s) for (internal).
+  name: Filen (internal) API
+  slug: filen-internal-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The item API from Filen — 8 operation(s) for item.
+  name: Filen Item API
+  slug: filen-item-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The misc API from Filen — 1 operation(s) for misc.
+  name: Filen Misc API
+  slug: filen-misc-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The mobile API from Filen — 1 operation(s) for mobile.
+  name: Filen Mobile API
+  slug: filen-mobile-api
+- baseURL: https://gateway.filen.io/v3
+  baseurl_source: declared
+  description: The notes API from Filen — 24 operation(s) for notes.
+  name: Filen Notes API
+  slug: filen-notes-api
+artifact_total: 27
 common:
 - group: agent
   href: https://artifacts.apis.io/filen/agentic-access/filen-agentic-access.yml
@@ -209,7 +267,7 @@ modified: '2026-10-28'
 name: Filen
 nav: Providers
 network: true
-overview: 'Filen publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Items API, Items: Directories API, and 4 more. Tagged areas include Company, Cloud Storage, Encryption, Zero Knowledge, and File Sync.
+overview: 'Filen publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Items API, Shared API, and 13 more. Tagged areas include Company, Cloud Storage, Encryption, Zero Knowledge, and File Sync.
 
 
   The Filen catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -244,22 +302,24 @@ scopes:
   slug: filen-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 46.0
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 65.2
     catalog_earned_first_party: 12.0
     catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 22.0
-    contract_quality: 52.0
-    developer_ergonomics: 52.4
+    contract_quality: 52.6
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 15.8
+    operational_transparency: 7.9
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,13 +334,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 38.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/filen/filen-2026-11-03T132000.png
 security:
 - kind: authentication
   name: Filen Authentication

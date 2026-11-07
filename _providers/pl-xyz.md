@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-31'
+  score: 17.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Protocol Labs API as documented publicly: 198 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider''s own document.'
@@ -33,6 +45,11 @@ apis:
   slug: pl-xyz-api
 artifact_total: 11
 common:
+- group: auth
+  href: https://artifacts.apis.io/pl-xyz/well-known/pl-xyz-docs-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/pl-xyz-docs-security.txt
 - group: design
   href: https://artifacts.apis.io/pl-xyz/rules/pl-xyz-rules.yml
   title: ''
@@ -63,11 +80,6 @@ common:
   title: ''
   type: Conformance
   url: conformance/pl-xyz-conformance.yml
-- group: auth
-  href: https://artifacts.apis.io/pl-xyz/well-known/pl-xyz-docs-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/pl-xyz-docs-security.txt
 - group: auth
   href: https://artifacts.apis.io/pl-xyz/well-known/pl-xyz-about-security.txt
   title: ''
@@ -157,7 +169,7 @@ modified: '2026-10-29'
 name: Protocol Labs
 nav: Providers
 network: true
-overview: 'Protocol Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Decentralized, OpenSource, Web3, and Infrastructure.
+overview: 'Protocol Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Decentralized, Open Source, Web3, and Infrastructure.
 
 
   The Protocol Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -167,41 +179,43 @@ overview: 'Protocol Labs is listed with 1 API on the [APIs.io](https://apis.io/)
 random_paper: 4
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: Protocol Labs API Rules
-  rule_count: 10
+  rule_count: 40
   severity_counts:
-    error: 9
+    error: 38
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: pl-xyz-rules
 score:
   band: emerging
-  composite: 25.2
+  composite: 21.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 57.0
+    artifact_dirs: 20
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.1
   facets:
     access_clarity: 0.0
-    contract_governance: 19.7
+    contract_governance: 22.0
     contract_quality: 25.2
-    developer_ergonomics: 45.2
-    discoverability: 58.9
+    developer_ergonomics: 28.6
+    discoverability: 58.0
     operational_transparency: 10.5
+  previous_composite: 24.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 36
+      derived: 1
       marker_coverage: 100.0
-      total: 36
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -209,12 +223,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/pl-xyz/pl-xyz-2026-11-03T141248.png
 security:
 - kind: authentication
   name: Pl Xyz Authentication
@@ -228,7 +243,7 @@ slug: pl-xyz
 tags:
 - Company
 - Decentralized
-- OpenSource
+- Open Source
 - Web3
 - Infrastructure
 website: https://pl.xyz/

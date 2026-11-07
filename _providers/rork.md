@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -26,7 +42,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 477
   human_in_the_loop: 0
@@ -1059,7 +1075,7 @@ apis:
   description: The Webhook Deliveries API from Rork — 1 operation(s) for webhook deliveries.
   name: Rork Webhook Deliveries API
   slug: rork-webhook-deliveries-api
-artifact_total: 213
+artifact_total: 273
 common:
 - group: agent
   href: https://artifacts.apis.io/rork/agentic-access/rork-agentic-access.yml
@@ -1203,6 +1219,187 @@ common:
 created: '2026-10-29'
 description: Rork is a cross‑platform AI‑powered app builder that enables creators to design, develop, and launch mobile (iOS, Android) and web applications without writing code. Leveraging generative AI, Rork automates UI design, backend integration, and publishing, allowing businesses to bring tools, social apps, and games to the App Store and Google Play within hours. The platform offers a visual editor, pre‑built components, and one‑click deployment, positioning Rork as a fast, no‑code solution for modern app development.
 image: https://rork.com/og-image.png?v=2
+json_schemas:
+- name: AccessibilityDeclarationCreateRequest
+  property_count: 1
+  slug: rork-accessibility-declaration-create-request
+- name: AccessibilityDeclarationResponse
+  property_count: 2
+  slug: rork-accessibility-declaration-response
+- name: AccessibilityDeclarationUpdateRequest
+  property_count: 1
+  slug: rork-accessibility-declaration-update-request
+- name: ActorResponse
+  property_count: 2
+  slug: rork-actor-response
+- name: ActorsResponse
+  property_count: 3
+  slug: rork-actors-response
+- name: AgeRatingDeclarationResponse
+  property_count: 2
+  slug: rork-age-rating-declaration-response
+- name: AgeRatingDeclarationUpdateRequest
+  property_count: 1
+  slug: rork-age-rating-declaration-update-request
+- name: AlternativeDistributionDomainCreateRequest
+  property_count: 1
+  slug: rork-alternative-distribution-domain-create-request
+- name: AlternativeDistributionDomainResponse
+  property_count: 2
+  slug: rork-alternative-distribution-domain-response
+- name: AlternativeDistributionDomainsResponse
+  property_count: 3
+  slug: rork-alternative-distribution-domains-response
+- name: AlternativeDistributionKeyCreateRequest
+  property_count: 1
+  slug: rork-alternative-distribution-key-create-request
+- name: AlternativeDistributionKeyResponse
+  property_count: 2
+  slug: rork-alternative-distribution-key-response
+- name: AlternativeDistributionKeysResponse
+  property_count: 3
+  slug: rork-alternative-distribution-keys-response
+- name: AlternativeDistributionPackageCreateRequest
+  property_count: 1
+  slug: rork-alternative-distribution-package-create-request
+- name: AlternativeDistributionPackageDeltaResponse
+  property_count: 2
+  slug: rork-alternative-distribution-package-delta-response
+- name: AlternativeDistributionPackageDeltasResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-deltas-response
+- name: AlternativeDistributionPackageResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-response
+- name: AlternativeDistributionPackageVariantResponse
+  property_count: 2
+  slug: rork-alternative-distribution-package-variant-response
+- name: AlternativeDistributionPackageVariantsResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-variants-response
+- name: AlternativeDistributionPackageVersionDeltasLinkagesResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-version-deltas-linkages-response
+- name: AlternativeDistributionPackageVersionResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-version-response
+- name: AlternativeDistributionPackageVersionVariantsLinkagesResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-version-variants-linkages-response
+- name: AlternativeDistributionPackageVersionsLinkagesResponse
+  property_count: 3
+  slug: rork-alternative-distribution-package-versions-linkages-response
+- name: AlternativeDistributionPackageVersionsResponse
+  property_count: 4
+  slug: rork-alternative-distribution-package-versions-response
+- name: AnalyticsReportInstanceResponse
+  property_count: 2
+  slug: rork-analytics-report-instance-response
+- name: AnalyticsReportInstanceSegmentsLinkagesResponse
+  property_count: 3
+  slug: rork-analytics-report-instance-segments-linkages-response
+- name: AnalyticsReportRequestCreateRequest
+  property_count: 1
+  slug: rork-analytics-report-request-create-request
+- name: AnalyticsReportRequestReportsLinkagesResponse
+  property_count: 3
+  slug: rork-analytics-report-request-reports-linkages-response
+- name: AnalyticsReportRequestResponse
+  property_count: 3
+  slug: rork-analytics-report-request-response
+- name: AnalyticsReportSegmentResponse
+  property_count: 2
+  slug: rork-analytics-report-segment-response
+- name: AnalyticsReportSegmentsResponse
+  property_count: 3
+  slug: rork-analytics-report-segments-response
+- name: AnalyticsReportsResponse
+  property_count: 3
+  slug: rork-analytics-reports-response
+- name: AndroidToIosAppMappingDetailCreateRequest
+  property_count: 1
+  slug: rork-android-to-ios-app-mapping-detail-create-request
+- name: AndroidToIosAppMappingDetailResponse
+  property_count: 2
+  slug: rork-android-to-ios-app-mapping-detail-response
+- name: AndroidToIosAppMappingDetailUpdateRequest
+  property_count: 1
+  slug: rork-android-to-ios-app-mapping-detail-update-request
+- name: AppAssetLibraryImageCreateRequest
+  property_count: 1
+  slug: rork-app-asset-library-image-create-request
+- name: AppAssetLibraryImagePlacementsLinkagesResponse
+  property_count: 3
+  slug: rork-app-asset-library-image-placements-linkages-response
+- name: AppAssetLibraryImageResponse
+  property_count: 3
+  slug: rork-app-asset-library-image-response
+- name: AppAssetLibraryImageUpdateRequest
+  property_count: 1
+  slug: rork-app-asset-library-image-update-request
+- name: AppAssetLibraryImagesLinkagesResponse
+  property_count: 3
+  slug: rork-app-asset-library-images-linkages-response
+- name: AppAssetLibraryImagesResponse
+  property_count: 4
+  slug: rork-app-asset-library-images-response
+- name: AppAssetLibraryPlacementCreateRequest
+  property_count: 1
+  slug: rork-app-asset-library-placement-create-request
+- name: AppAssetLibraryPlacementOrderingRequestCreateRequest
+  property_count: 1
+  slug: rork-app-asset-library-placement-ordering-request-create-request
+- name: AppAssetLibraryPlacementOrderingRequestResponse
+  property_count: 3
+  slug: rork-app-asset-library-placement-ordering-request-response
+- name: AppAssetLibraryPlacementResponse
+  property_count: 3
+  slug: rork-app-asset-library-placement-response
+- name: AppAssetLibraryPlacementsResponse
+  property_count: 4
+  slug: rork-app-asset-library-placements-response
+- name: AppAssetLibraryRefDataResponse
+  property_count: 3
+  slug: rork-app-asset-library-ref-data-response
+- name: AppAssetLibraryRefDatumResponse
+  property_count: 2
+  slug: rork-app-asset-library-ref-datum-response
+- name: AppAssetLibraryResponse
+  property_count: 2
+  slug: rork-app-asset-library-response
+- name: AppAssetLibraryVideoCreateRequest
+  property_count: 1
+  slug: rork-app-asset-library-video-create-request
+- name: AppAssetLibraryVideoPlacementsLinkagesResponse
+  property_count: 3
+  slug: rork-app-asset-library-video-placements-linkages-response
+- name: AppAssetLibraryVideoResponse
+  property_count: 3
+  slug: rork-app-asset-library-video-response
+- name: AppAssetLibraryVideoUpdateRequest
+  property_count: 1
+  slug: rork-app-asset-library-video-update-request
+- name: AppAssetLibraryVideosLinkagesResponse
+  property_count: 3
+  slug: rork-app-asset-library-videos-linkages-response
+- name: AppAssetLibraryVideosResponse
+  property_count: 4
+  slug: rork-app-asset-library-videos-response
+- name: AppAvailabilityV2CreateRequest
+  property_count: 2
+  slug: rork-app-availability-v2-create-request
+- name: AppAvailabilityV2Response
+  property_count: 3
+  slug: rork-app-availability-v2-response
+- name: AppAvailabilityV2TerritoryAvailabilitiesLinkagesResponse
+  property_count: 3
+  slug: rork-app-availability-v2-territory-availabilities-linkages-response
+- name: AppClipAdvancedExperienceImageUpdateRequest
+  property_count: 1
+  slug: rork-app-clip-advanced-experience-image-update-request
+- name: TerritoryAvailabilitiesResponse
+  property_count: 4
+  slug: rork-territory-availabilities-response
 jsonld:
 - class_count: 120
   name: Rork Context
@@ -1217,7 +1414,7 @@ modified: '2026-10-29'
 name: Rork
 nav: Providers
 network: true
-overview: 'Rork publishes 205 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessibility Declarations API, Actors API, Age Rating Declarations API, and 202 more. Tagged areas include Company, AI, AppBuilder, NoCode, and Mobile.
+overview: 'Rork publishes 205 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessibility Declarations API, Actors API, Age Rating Declarations API, and 202 more. Tagged areas include Company, Artificial Intelligence, App Builder, No-Code, and Mobile.
 
 
   The Rork catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1231,34 +1428,42 @@ plans:
 random_paper: 14
 rules:
 - authorship: generated
-  effective_rule_count: 55
+  effective_rule_count: 94
   extends:
   - spectral:oas
   name: Rork API Rules
-  rule_count: 14
+  rule_count: 53
   severity_counts:
-    error: 12
+    error: 45
     hint: 0
     info: 1
-    warn: 1
+    warn: 7
   slug: rork-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 43.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 65.8
+    artifact_dirs: 27
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 49.3
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.1
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
-    contract_quality: 53.4
-    developer_ergonomics: 46.9
-    discoverability: 65.0
-    operational_transparency: 10.5
+    contract_quality: 62.9
+    developer_ergonomics: 32.6
+    discoverability: 75.0
+    operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1274,13 +1479,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/rork/rork-2026-11-03T142410.png
 security:
 - kind: authentication
   name: Rork Authentication
@@ -1297,9 +1503,9 @@ skills:
 slug: rork
 tags:
 - Company
-- AI
-- AppBuilder
-- NoCode
+- Artificial Intelligence
+- App Builder
+- No-Code
 - Mobile
 - Web
 website: https://rork.com

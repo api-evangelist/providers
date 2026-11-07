@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.7
-  scored_at: '2026-10-31'
+  score: 50.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -235,7 +236,7 @@ apis:
   description: The OAuth API from EGYM — 2 operation(s) for oauth.
   name: EGYM O Auth API
   slug: egym-oauth-api
-artifact_total: 61
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Egym Events Webhooks
@@ -534,7 +535,7 @@ network: true
 overview: 'EGYM publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including 1. Cardio Measurements API, 2. Workouts API, Alive API, and 35 more. Tagged areas include Company, Fitness, Health, Wellness, and Corporate Wellness.
 
 
-  The EGYM catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The EGYM catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   EGYM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
@@ -547,6 +548,19 @@ rate_limits:
 - limit_count: 1
   name: Egym Rate Limits
   slug: egym-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: EGYM API Rules
+  rule_count: 70
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 6
+    warn: 26
+  slug: egym-rules
 scopes:
 - name: Egym Scopes
   scope_count: 0
@@ -554,22 +568,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
+  composite: 60.4
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 43.0
+    artifact_dirs: 32
+    catalog_earned: 47.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 60.1
+    contract_governance: 18.2
+    contract_quality: 60.9
     developer_ergonomics: 73.2
-    discoverability: 61.7
-    operational_transparency: 73.7
+    discoverability: 71.7
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -578,7 +592,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 58.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -595,13 +609,12 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/egym/egym-2026-08-17T080915.png
 security:
 - kind: authentication

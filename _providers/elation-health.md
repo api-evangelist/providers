@@ -1,20 +1,27 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid · Partner / sandbox onboarding
-  onboarding: unknown
-  pricing: paid
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
-  - documentation
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -27,6 +34,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: full
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: paginated
@@ -36,8 +44,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.8
-  scored_at: '2026-10-31'
+  score: 45.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -3532,7 +3540,7 @@ json_schemas:
   property_count: 7
   slug: elation-health-allergy-create
 - name: Allergy
-  property_count: 0
+  property_count: 10
   slug: elation-health-allergy
 - name: AncillaryCompany
   property_count: 2
@@ -3553,7 +3561,7 @@ json_schemas:
   property_count: 4
   slug: elation-health-billing-code-create
 - name: BillingCode
-  property_count: 0
+  property_count: 6
   slug: elation-health-billing-code
 - name: Body_definitions_get_page_caregaps_api__quality_program__definition__get
   property_count: 2
@@ -3637,7 +3645,7 @@ json_schemas:
   property_count: 5
   slug: elation-health-eligibility-usage
 - name: ExistingDataImportRequest
-  property_count: 1
+  property_count: 6
   slug: elation-health-existing-data-import-request
 - name: FacilityIdentifier
   property_count: 14
@@ -3667,7 +3675,7 @@ json_schemas:
   property_count: 5
   slug: elation-health-insurance-company-create
 - name: InsuranceCompany
-  property_count: 0
+  property_count: 8
   slug: elation-health-insurance-company
 - name: InsuranceCompanySingleInstance
   property_count: 21
@@ -3691,7 +3699,7 @@ json_schemas:
   property_count: 0
   slug: elation-health-job-status
 - name: LabOrder_2
-  property_count: 0
+  property_count: 11
   slug: elation-health-lab-order-2
 - name: LabOrderCreate
   property_count: 8
@@ -3739,7 +3747,7 @@ json_schemas:
   property_count: 4
   slug: elation-health-message-thread-create
 - name: MessageThread
-  property_count: 0
+  property_count: 8
   slug: elation-health-message-thread
 - name: NonVisitNote
   property_count: 13
@@ -3772,7 +3780,7 @@ json_schemas:
   property_count: 4
   slug: elation-health-paginated-appointment-type-list
 - name: PaginatedBillingCodeList
-  property_count: 0
+  property_count: 4
   slug: elation-health-paginated-billing-code-list
 - name: PaginatedCardiacCenterList
   property_count: 4
@@ -3826,7 +3834,7 @@ json_schemas:
   property_count: 4
   slug: elation-health-paginated-injection-list
 - name: PaginatedInsuranceCompanyList
-  property_count: 0
+  property_count: 4
   slug: elation-health-paginated-insurance-company-list
 - name: PaginatedInsurancePlanList
   property_count: 4
@@ -3874,7 +3882,7 @@ json_schemas:
   property_count: 4
   slug: elation-health-paginated-medication-list
 - name: PaginatedMessageThreadList
-  property_count: 0
+  property_count: 4
   slug: elation-health-paginated-message-thread-list
 - name: PaginatedNonVisitNoteList
   property_count: 4
@@ -4159,7 +4167,7 @@ json_schemas:
   property_count: 24
   slug: elation-health-patched-vitals-collection
 - name: Patient_2
-  property_count: 0
+  property_count: 35
   slug: elation-health-patient-2
 - name: PatientAllergyDocumentation
   property_count: 4
@@ -4168,7 +4176,7 @@ json_schemas:
   property_count: 11
   slug: elation-health-patient-allergy
 - name: PatientChartInputGetId
-  property_count: 1
+  property_count: 9
   slug: elation-health-patient-chart-input-get-id
 - name: PatientChartInputGetList
   property_count: 8
@@ -4249,7 +4257,7 @@ json_schemas:
   property_count: 7
   slug: elation-health-problem-create
 - name: Problem
-  property_count: 0
+  property_count: 10
   slug: elation-health-problem
 - name: ProviderAvailabilityBlock
   property_count: 8
@@ -4330,7 +4338,7 @@ json_schemas:
   property_count: 12
   slug: elation-health-vaccine
 - name: VisitNote_2
-  property_count: 0
+  property_count: 22
   slug: elation-health-visit-note-2
 - name: VisitNoteCreate
   property_count: 10
@@ -4411,22 +4419,22 @@ scopes:
   summary_line: 154 scopes · clientCredentials/password
 score:
   band: exemplar
-  composite: 74.7
+  composite: 79.3
   coverage:
-    artifact_dirs: 38
+    artifact_dirs: 40
     catalog_earned: 81.8
     catalog_earned_first_party: 16.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 73.7
     contract_governance: 35.6
-    contract_quality: 70.2
+    contract_quality: 73.6
     developer_ergonomics: 72.6
-    discoverability: 71.7
-    operational_transparency: 73.7
+    discoverability: 80.8
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -4434,7 +4442,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 74.7
+  previous_composite: 79.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -4455,13 +4463,12 @@ score:
     regime: Health
     regime_id: health
     score: 57.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/elation-health/elation-health-2026-07-25T213054.png
 security:
 - kind: authentication

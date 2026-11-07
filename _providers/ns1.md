@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.4
-  scored_at: '2026-10-31'
+  score: 18.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -139,9 +140,9 @@ overview: 'NS1 is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 10
 score:
   band: emerging
-  composite: 17.3
+  composite: 23.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,19 +152,19 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 17.3
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 23.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

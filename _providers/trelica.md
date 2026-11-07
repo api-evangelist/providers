@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://www.trelica.com'', ''status'': 301, ''note'': ''declared website redirects to https://1password.com/product/saas-manager — a different registrable domain (trelica.com -> 1password.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
@@ -27,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -325,9 +330,9 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 38.2
+  composite: 32.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -338,10 +343,13 @@ score:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 58.9
-    developer_ergonomics: 42.9
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 38.2
+    operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -355,13 +363,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/trelica/trelica-2026-06-20T195649.png
 security:
 - kind: authentication

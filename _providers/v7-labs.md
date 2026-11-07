@@ -1,16 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-31'
+  score: 20.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -77,7 +78,7 @@ apis:
   description: Manage multi-stage annotation workflows and stages.
   name: V7 Workflows API
   slug: v7-labs-workflows-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: V7 Darwin Annotations API
@@ -184,6 +185,9 @@ network: true
 overview: 'V7 publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Annotations API, Classes API, Datasets API, and 3 more. Tagged areas include Artificial Intelligence, Training Data, Data Labeling, Annotation, and Document AI.
 
 
+  The V7 catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   V7''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: V7 Labs Plans Pricing
@@ -194,24 +198,37 @@ rate_limits:
 - limit_count: 4
   name: V7 Labs Rate Limits
   slug: v7-labs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: V7 API Rules
+  rule_count: 62
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 2
+  slug: v7-labs-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 37.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 48.0
+    artifact_dirs: 16
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 39.5
-    contract_governance: 0.0
+    access_clarity: 34.2
+    contract_governance: 13.6
     contract_quality: 45.9
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 21.1
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -226,13 +243,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/v7-labs/v7-labs-2026-09-02T165453.png
 security:
 - kind: authentication

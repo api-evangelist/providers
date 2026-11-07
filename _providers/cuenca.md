@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for Cuenca''s banking-as-a-service platform in Mexico: SPEI / internal transfers, deposits, CLABE accounts, debit card issuing and card transactions, bill payments, balances, statements, webho'
@@ -196,10 +197,10 @@ overview: 'Cuenca is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Cuenca''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 21 more developer resources.'
 random_paper: 23
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 39.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,8 +212,8 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 61.3
-    discoverability: 66.1
-    operational_transparency: 28.9
+    discoverability: 73.2
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -220,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 39.1
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: derived
@@ -231,8 +232,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

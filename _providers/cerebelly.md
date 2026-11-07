@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Cerebelly's Universal Commerce Protocol (UCP) MCP endpoint, served anonymously from the storefront host. A tools/list call returns 13 tools with full JSON Schema draft 2020-12 input schemas covering c
@@ -184,9 +185,9 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 27.6
+  composite: 27.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
@@ -198,9 +199,9 @@ score:
     contract_governance: 4.5
     contract_quality: 16.1
     developer_ergonomics: 30.4
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 27.6
+    discoverability: 71.7
+    operational_transparency: 2.6
+  previous_composite: 27.9
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -211,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

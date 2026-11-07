@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 22.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,7 +125,7 @@ apis:
   description: The Works API from ORCID — 2 operation(s) for works.
   name: ORCID Works API
   slug: orcid-works-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: ORCID Public Address API
@@ -268,6 +270,9 @@ network: true
 overview: 'ORCID is listed with 16 APIs on the [APIs.io](https://apis.io/) network, including Address API, Educations API, Email API, and 13 more. Tagged areas include Academic, Identity, Researchers, ORCID, and Research Data.
 
 
+  The ORCID catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   ORCID''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, support, and 12 more developer resources.'
 plans:
 - name: Orcid Plans Pricing
@@ -278,25 +283,38 @@ rate_limits:
 - limit_count: 5
   name: Orcid Rate Limits
   slug: orcid-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: ORCID API Rules
+  rule_count: 27
+  severity_counts:
+    error: 25
+    hint: 0
+    info: 1
+    warn: 1
+  slug: orcid-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 33.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
+    artifact_dirs: 16
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
+    access_clarity: 25.0
+    contract_governance: 13.6
     contract_quality: 38.6
     developer_ergonomics: 47.6
     discoverability: 71.4
-    operational_transparency: 13.2
-  previous_composite: 36.6
+    operational_transparency: 10.5
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -309,14 +327,14 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/orcid/orcid-2026-06-20T191203.png
 security:
 - kind: domain-security

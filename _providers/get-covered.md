@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Open access
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Open access
   onboarding: open
-  pricing: unknown
+  pricing: enterprise
   public: true
   source:
   - authentication
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Get Covered platform API — the integration surface that syncs resident, lease, policy, vendor certificate and invoice data two-way with property management systems (Yardi, Entrata, RealPage OneSit
@@ -173,7 +177,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -203,8 +207,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

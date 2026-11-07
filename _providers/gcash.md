@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -166,7 +169,7 @@ overview: 'GCash is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 14
 score:
   band: thin
-  composite: 37.1
+  composite: 35.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -179,7 +182,7 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 52.4
     discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
@@ -189,7 +192,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 37.1
+  previous_composite: 35.2
   provenance:
     conformance: derived
     mcp: derived
@@ -199,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

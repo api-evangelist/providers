@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -398,7 +399,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -408,7 +409,7 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 52.6
+    contract_quality: 55.7
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
@@ -426,13 +427,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/canto/canto-2026-06-20T173928.png
 security:
 - kind: authentication

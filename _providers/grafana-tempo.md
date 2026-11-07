@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,23 +21,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-31'
+  score: 50.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,9 +215,9 @@ rules:
   slug: grafana-tempo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 30.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 46.7
     catalog_earned_first_party: 0.0
     catalog_gap: 68.4
@@ -227,9 +229,9 @@ score:
     contract_governance: 9.8
     contract_quality: 44.5
     developer_ergonomics: 23.8
-    discoverability: 64.3
+    discoverability: 66.7
     operational_transparency: 13.2
-  previous_composite: 30.7
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -244,13 +246,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/grafana-tempo/grafana-tempo-2026-06-20T182315.png
 security:
 - kind: domain-security

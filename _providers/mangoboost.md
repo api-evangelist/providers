@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'LLMBoost is MangoBoost''s enterprise LLM inference server. It serves the OpenAI REST API on /v1 so an existing OpenAI client migrates with a base-URL change: POST /v1/chat/completions, POST /v1/complet'
@@ -187,9 +191,9 @@ overview: 'MangoBoost is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 1
 score:
   band: thin
-  composite: 31.0
+  composite: 30.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -201,8 +205,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 64.3
-    operational_transparency: 21.1
+    discoverability: 70.5
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -210,7 +214,10 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.8
   provenance:
     conformance: first-party
   regulatory:
@@ -219,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

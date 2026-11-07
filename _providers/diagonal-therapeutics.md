@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,10 +116,10 @@ overview: 'Diagonal Therapeutics is profiled on the [APIs.io](https://apis.io/) 
   Diagonal Therapeutics'' developer surface includes engineering blog, support, and 12 more developer resources.'
 random_paper: 13
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 11.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -129,8 +130,8 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 48.2
+    developer_ergonomics: 6.0
+    discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -139,7 +140,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.9
+  previous_composite: 11.4
   provenance:
     conformance: first-party
   regulatory:
@@ -148,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

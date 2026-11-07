@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-31'
+  score: 24.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Digital Product Passport REST API for the TracePass platform.
@@ -142,7 +154,7 @@ modified: '2026-10-30'
 name: tracepass-eu
 nav: Providers
 network: true
-overview: 'tracepass-eu is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Digital-Product-Passport, EU-Regulation, and Sustainability.
+overview: 'tracepass-eu is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Digital Product Passport, EU-Regulation, and Sustainability.
 
 
   tracepass-eu''s developer surface includes getting-started guide, changelog, documentation, pricing, and 18 more developer resources.'
@@ -153,21 +165,29 @@ plans:
 random_paper: 5
 score:
   band: thin
-  composite: 37.2
+  composite: 28.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.3
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 27.9
-    discoverability: 66.1
-    operational_transparency: 26.3
+    developer_ergonomics: 17.1
+    discoverability: 73.2
+    operational_transparency: 18.4
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 37.9
   provenance:
     conformance: derived
     mcp: unknown
@@ -177,13 +197,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/tracepass-eu/tracepass-eu-2026-11-03T144941.png
 security:
 - kind: domain-security
   name: Tracepass Eu Domain Security
@@ -204,8 +226,8 @@ skills:
 slug: tracepass-eu
 tags:
 - Company
-- AI
-- Digital-Product-Passport
+- Artificial Intelligence
+- Digital Product Passport
 - EU-Regulation
 - Sustainability
 website: https://tracepass.eu/

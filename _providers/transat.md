@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The direct-connect flight shopping, booking, payment and servicing API that Air Transat publishes to OTA and technology partners under its NDC programme. The only technical contract Transat publishes '
@@ -170,7 +171,7 @@ overview: 'Transat is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 21
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -184,8 +185,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 21.1
+    discoverability: 64.3
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -193,7 +194,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.4
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -202,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

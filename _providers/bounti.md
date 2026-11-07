@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Freemium
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -18,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-31'
+  score: 25.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://bounti.ai
@@ -47,7 +52,7 @@ apis:
   description: The Llms.txt API from Bounti — 1 operation(s) for llms.txt.
   name: Bounti Llms.txt API
   slug: bounti-llms-txt-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Bounti.ai Content Llms Full.txt API
@@ -210,6 +215,9 @@ network: true
 overview: 'Bounti publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Llms Full.txt API and Llms.txt API. Tagged areas include Company, Real Estate, Artificial Intelligence, Marketing, and Sales Enablement.
 
 
+  The Bounti catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Bounti''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 24 more developer resources.'
 plans:
 - name: Bounti Plans Pricing
@@ -223,31 +231,44 @@ rate_limits:
 - limit_count: 0
   name: Bounti Rate Limits
   slug: bounti-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 68
+  extends:
+  - spectral:oas
+  name: Bounti API Rules
+  rule_count: 27
+  severity_counts:
+    error: 25
+    hint: 0
+    info: 1
+    warn: 1
+  slug: bounti-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 45.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.0
+    artifact_dirs: 24
+    catalog_earned: 51.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 1.1
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 42.2
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 46.9
     developer_ergonomics: 33.3
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 42.6
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: first-party
@@ -257,13 +278,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/bounti/bounti-2026-07-25T203646.png
 security:
 - kind: authentication

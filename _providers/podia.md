@@ -10,6 +10,8 @@ access_model:
   public: false
   source:
   - plans
+  - rate-limits
+  - security
   trial: true
   try_now: false
 agent_readiness:
@@ -28,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Logical surface for Podia products - online courses, digital downloads, coaching, and webinars. Podia does not expose a public REST API for products; enrollment can only be automated through the Zapie
@@ -200,9 +203,9 @@ rate_limits:
   slug: podia-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 36.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -214,9 +217,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 62.5
-    operational_transparency: 47.4
-  previous_composite: 36.0
+    discoverability: 69.6
+    operational_transparency: 44.7
+  previous_composite: 36.4
   provenance:
     conformance: first-party
   regulatory:
@@ -229,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -98,7 +105,7 @@ apis:
   description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
   name: Agile CRM Tracks API
   slug: agile-crm-tracks-api
-artifact_total: 34
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Agile Crm Webhooks
@@ -307,7 +314,7 @@ network: true
 overview: 'Agile CRM publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 8 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Help Desk, and Small Business.
 
 
-  The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 26 more developer resources.'
@@ -323,25 +330,38 @@ rate_limits:
 - limit_count: 0
   name: Agile Crm Rate Limits
   slug: agile-crm-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Agile CRM API Rules
+  rule_count: 48
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 1
+    warn: 3
+  slug: agile-crm-rules
 score:
   band: developing
-  composite: 53.5
+  composite: 53.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 52.8
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 53.7
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 52.0
+    operational_transparency: 10.5
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,13 +378,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/agile-crm/agile-crm-2026-06-20T170154.png
 security:
 - kind: authentication

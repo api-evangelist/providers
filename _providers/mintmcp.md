@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -9,23 +23,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-31'
+  score: 38.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.mintmcp.com
@@ -35,6 +50,15 @@ apis:
   slug: mintmcp-api
 artifact_total: 9
 common:
+- group: auth
+  href: https://artifacts.apis.io/mintmcp/well-known/mintmcp-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/mintmcp-status-security.txt
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.mintive.com/media
 - group: start
   title: ''
   type: GettingStarted
@@ -83,11 +107,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/mintmcp-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/mintmcp/well-known/mintmcp-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mintmcp-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/mintmcp/well-known/mintmcp-well-known.yml
   title: ''
@@ -198,61 +217,62 @@ overview: 'MintMCP is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The MintMCP catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MintMCP''s developer surface includes getting-started guide, CLI, authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
+  MintMCP''s developer surface includes getting-started guide, CLI, authentication, documentation, API reference, support, engineering blog, and 22 more developer resources.'
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: MintMCP API Rules
-  rule_count: 12
+  rule_count: 43
   severity_counts:
-    error: 10
+    error: 40
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: mintmcp-rules
 score:
-  band: developing
-  composite: 45.5
+  band: thin
+  composite: 34.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 21
     catalog_earned: 56.8
     catalog_earned_first_party: 0.0
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -11.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 21.6
-    developer_ergonomics: 64.3
-    discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 45.5
+    developer_ergonomics: 41.7
+    discoverability: 75.0
+    operational_transparency: 21.1
+  previous_composite: 46.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 1
       marker_coverage: 100.0
-      total: 8
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 21.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/mintmcp/mintmcp-2026-11-03T135654.png
 security:
 - kind: authentication
   name: Mintmcp Authentication

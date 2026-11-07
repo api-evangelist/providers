@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-31'
+  score: 35.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 4
@@ -195,8 +210,13 @@ apis:
   description: The Health Check API from Canopy — 1 operation(s) for health check.
   name: Canopy Health Check API
   slug: canopyservicing-com-health-check-api
-artifact_total: 40
+artifact_total: 100
 common:
+- group: auth
+  href: https://artifacts.apis.io/canopyservicing-com/well-known/canopyservicing-com-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/canopyservicing-com-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/canopyservicing-com/agentic-access/canopyservicing-com-agentic-access.yml
   title: ''
@@ -251,11 +271,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/canopyservicing-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/canopyservicing-com/well-known/canopyservicing-com-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/canopyservicing-com-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/canopyservicing-com/well-known/canopyservicing-com-well-known.yml
   title: ''
@@ -324,6 +339,187 @@ common:
 created: '2026-10-22'
 description: Canopy provides a leading loan management system for B2B lenders, offering a flexible API platform that enables scaling of multiple loan products, servicing, and servicing automation. The platform supports comprehensive loan servicing, underwriting, and portfolio management, delivering robust tools for lenders to improve efficiency and compliance across the loan lifecycle.
 image: https://www.canopyservicing.com/wp-content/uploads/2024/02/OpenGraph-1-1024x538.jpg
+json_schemas:
+- name: AddTagToAccountRequest
+  property_count: 1
+  slug: canopyservicing-com-add-tag-to-account-request
+- name: PostScraAdjustmentRequestSchema
+  property_count: 2
+  slug: canopyservicing-com-application-schemas-installments-installment-loans-military-adjustment-post-scra-adjustment-request-post-scra-adjustment-request-schema
+- name: AuthTokenRequest
+  property_count: 2
+  slug: canopyservicing-com-auth-token-request
+- name: AuthTokenResponse
+  property_count: 3
+  slug: canopyservicing-com-auth-token-response
+- name: CalculateAprInput
+  property_count: 5
+  slug: canopyservicing-com-calculate-apr-input
+- name: CalculateAprResponse
+  property_count: 1
+  slug: canopyservicing-com-calculate-apr-response
+- name: CalculateNominalInterestRateInput
+  property_count: 5
+  slug: canopyservicing-com-calculate-nominal-interest-rate-input
+- name: CalculateNominalInterestRateResponse
+  property_count: 1
+  slug: canopyservicing-com-calculate-nominal-interest-rate-response
+- name: CaptureDrawResponse
+  property_count: 11
+  slug: canopyservicing-com-capture-draw-response
+- name: CollateralSubstitutionRequest
+  property_count: 2
+  slug: canopyservicing-com-collateral-substitution-request
+- name: CreateAccountRequest
+  property_count: 6
+  slug: canopyservicing-com-create-account-request
+- name: CreateAccountResponse
+  property_count: 6
+  slug: canopyservicing-com-create-account-response
+- name: CreateBackdatedDrawSchema
+  property_count: 10
+  slug: canopyservicing-com-create-backdated-draw-schema
+- name: CreateBalanceTransferResponse
+  property_count: 14
+  slug: canopyservicing-com-create-balance-transfer-response
+- name: CreateBalanceTransferSchema
+  property_count: 7
+  slug: canopyservicing-com-create-balance-transfer-schema
+- name: CreateBusinessInput
+  property_count: 19
+  slug: canopyservicing-com-create-business-input
+- name: CreateCollateralAssociationRequest
+  property_count: 2
+  slug: canopyservicing-com-create-collateral-association-request
+- name: CreateCollateralAssociationResponse
+  property_count: 3
+  slug: canopyservicing-com-create-collateral-association-response
+- name: CreateCollateralRequest
+  property_count: 6
+  slug: canopyservicing-com-create-collateral-request
+- name: CreateCollateralValuationRequest
+  property_count: 5
+  slug: canopyservicing-com-create-collateral-valuation-request
+- name: CreateCustomerInput
+  property_count: 26
+  slug: canopyservicing-com-create-customer-input
+- name: CreateDrawResponse
+  property_count: 13
+  slug: canopyservicing-com-create-draw-response
+- name: CreateDrawSchema
+  property_count: 9
+  slug: canopyservicing-com-create-draw-schema
+- name: CreateFeeResponse
+  property_count: 11
+  slug: canopyservicing-com-create-fee-response
+- name: CreateFeeSchema
+  property_count: 5
+  slug: canopyservicing-com-create-fee-schema
+- name: CreateInstallmentLoanRequest
+  property_count: 7
+  slug: canopyservicing-com-create-installment-loan-request
+- name: CreateLienRequest
+  property_count: 6
+  slug: canopyservicing-com-create-lien-request
+- name: CreateLineOfCreditCardSchema
+  property_count: 6
+  slug: canopyservicing-com-create-line-of-credit-card-schema
+- name: CreateLineOfCreditResponse
+  property_count: 17
+  slug: canopyservicing-com-create-line-of-credit-response
+- name: CreateLineOfCreditSchema
+  property_count: 10
+  slug: canopyservicing-com-create-line-of-credit-schema
+- name: Customer
+  property_count: 31
+  slug: canopyservicing-com-customer
+- name: ExternalFieldsRequestSchema
+  property_count: 0
+  slug: canopyservicing-com-external-fields-request-schema
+- name: ExternalFieldsResponseSchema
+  property_count: 1
+  slug: canopyservicing-com-external-fields-response-schema
+- name: GetAccountPayoffAmountsResponse
+  property_count: 4
+  slug: canopyservicing-com-get-account-payoff-amounts-response
+- name: GetAccountPoliciesResponse
+  property_count: 5
+  slug: canopyservicing-com-get-account-policies-response
+- name: GetAccountResponse
+  property_count: 8
+  slug: canopyservicing-com-get-account-response
+- name: GetAdvanceMinPayResponse
+  property_count: 4
+  slug: canopyservicing-com-get-advance-min-pay-response
+- name: GetAdvanceResponse
+  property_count: 10
+  slug: canopyservicing-com-get-advance-response
+- name: GetAdvanceStatementResponse
+  property_count: 6
+  slug: canopyservicing-com-get-advance-statement-response
+- name: GetCollateralResponse
+  property_count: 11
+  slug: canopyservicing-com-get-collateral-response
+- name: GetLienResponse
+  property_count: 7
+  slug: canopyservicing-com-get-lien-response
+- name: GetLineOfCreditResponse
+  property_count: 19
+  slug: canopyservicing-com-get-line-of-credit-response
+- name: GetSystemTagResponse
+  property_count: 6
+  slug: canopyservicing-com-get-system-tag-response
+- name: GetTransactionResponse
+  property_count: 7
+  slug: canopyservicing-com-get-transaction-response
+- name: GraduateLineOfCreditRequest
+  property_count: 1
+  slug: canopyservicing-com-graduate-line-of-credit-request
+- name: GraduateLineOfCreditResponse
+  property_count: 8
+  slug: canopyservicing-com-graduate-line-of-credit-response
+- name: InstallmentLoanPaymentScheduleDatesResponse
+  property_count: 5
+  slug: canopyservicing-com-installment-loan-payment-schedule-dates-response
+- name: InstallmentLoanPeriodicPaymentDueResponse
+  property_count: 10
+  slug: canopyservicing-com-installment-loan-periodic-payment-due-response
+- name: InstallmentLoanResponse
+  property_count: 15
+  slug: canopyservicing-com-installment-loan-response
+- name: LineOfCreditCardResponse
+  property_count: 17
+  slug: canopyservicing-com-line-of-credit-card-response
+- name: LineOfCreditCardsResponse
+  property_count: 1
+  slug: canopyservicing-com-line-of-credit-cards-response
+- name: LiquidateCollateralResponse
+  property_count: 5
+  slug: canopyservicing-com-liquidate-collateral-response
+- name: PaginatedResults[Customer]
+  property_count: 3
+  slug: canopyservicing-com-paginated-results-customer
+- name: PostAccountOwnershipTransferResponse
+  property_count: 5
+  slug: canopyservicing-com-post-account-ownership-transfer-response
+- name: PostAdvanceBody
+  property_count: 9
+  slug: canopyservicing-com-post-advance-body
+- name: PostAdvancePaymentResponse
+  property_count: 8
+  slug: canopyservicing-com-post-advance-payment-response
+- name: PostMilitaryAdjustmentResponse
+  property_count: 7
+  slug: canopyservicing-com-post-military-adjustment-response
+- name: RemoveTagResponse
+  property_count: 1
+  slug: canopyservicing-com-remove-tag-response
+- name: TagSchema
+  property_count: 5
+  slug: canopyservicing-com-tag-schema
+- name: UpdateLineOfCreditCardSchema
+  property_count: 2
+  slug: canopyservicing-com-update-line-of-credit-card-schema
 jsonld:
 - class_count: 120
   name: Canopyservicing Com Context
@@ -334,7 +530,7 @@ modified: '2026-10-22'
 name: Canopy
 nav: Providers
 network: true
-overview: 'Canopy publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account External Fields API, Account System Tags API, Account User Tags API, and 29 more. Tagged areas include Company, B2B, LoanManagement, FinTech, and APIPlatform.
+overview: 'Canopy publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account External Fields API, Account System Tags API, Account User Tags API, and 29 more. Tagged areas include Company, B2B, Loan Management, Fintech, and API Platform.
 
 
   The Canopy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -344,56 +540,65 @@ overview: 'Canopy publishes 32 API contracts indexed on the [APIs.io](https://ap
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 103
   extends:
   - spectral:oas
   name: Canopy API Rules
-  rule_count: 15
+  rule_count: 62
   severity_counts:
-    error: 9
+    error: 43
     hint: 0
-    info: 2
-    warn: 4
+    info: 3
+    warn: 16
   slug: canopyservicing-com-rules
 score:
-  band: developing
-  composite: 47.1
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 43.8
+    artifact_dirs: 24
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 58.9
-    developer_ergonomics: 44.6
-    discoverability: 48.2
-    operational_transparency: 50.0
+    contract_quality: 62.0
+    developer_ergonomics: 29.2
+    discoverability: 55.4
+    operational_transparency: 30.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 32
-    mcp: unknown
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/canopyservicing-com/canopyservicing-com-2026-11-03T123136.png
 security:
 - kind: authentication
   name: Canopyservicing Com Authentication
@@ -417,8 +622,8 @@ slug: canopyservicing-com
 tags:
 - Company
 - B2B
-- LoanManagement
-- FinTech
-- APIPlatform
+- Loan Management
+- Fintech
+- API Platform
 website: https://canopyservicing.com
 ---

@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -162,7 +163,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials/refreshToken
 score:
   band: emerging
-  composite: 23.3
+  composite: 20.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -175,10 +176,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 65.0
+    developer_ergonomics: 19.0
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 20.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -188,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

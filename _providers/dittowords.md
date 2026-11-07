@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -15,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -23,10 +36,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 53.3
-  scored_at: '2026-10-31'
+  score: 42.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -158,11 +171,6 @@ common:
   type: AgentCard
   url: a2a/dittowords-a2a.yml
 - group: auth
-  href: https://artifacts.apis.io/dittowords/well-known/dittowords-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/dittowords-www-security.txt
-- group: auth
   href: https://artifacts.apis.io/dittowords/well-known/dittowords-help-security.txt
   title: ''
   type: SecurityTxt
@@ -249,13 +257,13 @@ modified: '2026-10-27'
 name: Ditto (dittowords.com)
 nav: Providers
 network: true
-overview: 'Ditto (dittowords.com) publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Component Folders API, Components API, and 8 more. Tagged areas include Company, AI, Content, Localization, and SaaS.
+overview: 'Ditto (dittowords.com) publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Component Folders API, Components API, and 8 more. Tagged areas include Company, Artificial Intelligence, Content, Localization, and Software-as-a-Service.
 
 
   The Ditto (dittowords.com) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Ditto (dittowords.com)''s developer surface includes CLI, changelog, authentication, support, pricing, engineering blog, getting-started guide, and 24 more developer resources.'
+  Ditto (dittowords.com)''s developer surface includes CLI, changelog, authentication, support, pricing, engineering blog, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Dittowords Plans Pricing
   plan_count: 3
@@ -263,34 +271,42 @@ plans:
 random_paper: 3
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 91
   extends:
   - spectral:oas
   name: Ditto (dittowords.com) API Rules
-  rule_count: 12
+  rule_count: 50
   severity_counts:
-    error: 10
+    error: 46
     hint: 0
     info: 1
-    warn: 1
+    warn: 3
   slug: dittowords-rules
 score:
   band: developing
-  composite: 51.9
+  composite: 46.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 25
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.3
   facets:
-    access_clarity: 42.1
+    access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 56.5
-    developer_ergonomics: 71.4
-    discoverability: 66.1
-    operational_transparency: 44.7
+    contract_quality: 59.8
+    developer_ergonomics: 48.8
+    discoverability: 73.2
+    operational_transparency: 31.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,12 +322,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
+screenshot: https://apis.io/screenshots/dittowords/dittowords-2026-11-03T130812.png
 security:
 - kind: authentication
   name: Dittowords Authentication
@@ -324,9 +341,9 @@ security:
 slug: dittowords
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content
 - Localization
-- SaaS
+- Software-as-a-Service
 website: https://www.dittowords.com/
 ---

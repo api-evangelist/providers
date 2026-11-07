@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -62,7 +63,7 @@ apis:
   description: The user API from Songtradr — 15 operation(s) for user.
   name: Songtradr User API
   slug: songtradr-user-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Songtradr Allowed Values API
@@ -212,38 +213,54 @@ network: true
 overview: 'Songtradr publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Allowed Values API, Similarity Vector Controller API, and User API. Tagged areas include Music, Music Licensing, Sync Licensing, Music Metadata, and audio-tagging.
 
 
+  The Songtradr catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Songtradr Rate Limits
   slug: songtradr-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Songtradr API Rules
+  rule_count: 70
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 3
+    warn: 12
+  slug: songtradr-rules
 score:
-  band: developing
-  composite: 44.2
+  band: thin
+  composite: 36.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
+    artifact_dirs: 24
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 1.3
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 49.0
-    developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 45.3
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 49.4
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
     mcp: derived
     skills: derived
@@ -252,14 +269,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/songtradr/songtradr-2026-08-17T082014.png
 security:
 - kind: authentication

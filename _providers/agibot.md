@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Open access
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
   onboarding: open
-  pricing: unknown
+  pricing: paid
   public: true
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -14,7 +18,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,17 +33,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-31'
+  score: 35.8
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -255,23 +260,23 @@ scopes:
   slug: agibot-scopes
   summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
-  band: developing
-  composite: 49.7
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 50.0
     catalog_earned_first_party: 12.0
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 84.2
+    access_clarity: 77.6
     contract_governance: 4.5
-    contract_quality: 6.5
+    contract_quality: 30.5
     developer_ergonomics: 80.4
-    discoverability: 61.7
-    operational_transparency: 39.5
+    discoverability: 71.7
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -279,7 +284,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 48.1
+  previous_composite: 55.0
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -290,8 +295,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

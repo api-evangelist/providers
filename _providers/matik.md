@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.matik.io/api/1.0/
@@ -245,9 +246,9 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.1
+  composite: 48.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -259,9 +260,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 48.1
+    discoverability: 71.7
+    operational_transparency: 26.3
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -276,8 +277,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

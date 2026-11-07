@@ -1,31 +1,44 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 67.5
-  scored_at: '2026-10-31'
+  score: 40.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +58,7 @@ apis:
   description: The Retail Ramp API from Meld.io — 5 operation(s) for retail ramp.
   name: Meld.io Retail Ramp API
   slug: meld-retail-ramp-api
-artifact_total: 8
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Meld Webhooks
@@ -150,10 +163,6 @@ common:
   title: ''
   type: Website
   url: https://www.meld.io/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://www.meld.io/
 - group: docs
   title: ''
   type: Documentation
@@ -189,6 +198,43 @@ common:
 created: '2026-10-21'
 description: Meld.io provides a modern data integration platform that enables businesses to connect, transform, and orchestrate data flows across a wide variety of sources and destinations. The platform offers real-time streaming, batch processing, and powerful transformation capabilities, all accessible via a robust RESTful API. Meld.io focuses on security, scalability, and ease of use, allowing developers to build data pipelines quickly while maintaining compliance with industry standards. With extensive documentation, SDKs, and support, Meld.io aims to simplify complex data integration challenges for enterprises of all sizes.
 image: https://meld.io/images/meld-icon-wordmark.png
+json_schemas:
+- name: CryptoQuoteRequest
+  property_count: 10
+  slug: meld-crypto-quote-request
+- name: CryptoQuoteResponse20260203
+  property_count: 1
+  slug: meld-crypto-quote-response20260203
+- name: HeadlessOrderOfframpRequest
+  property_count: 9
+  slug: meld-headless-order-offramp-request
+- name: HeadlessOrderOfframpResponse
+  property_count: 3
+  slug: meld-headless-order-offramp-response
+- name: HeadlessOrderOnrampRequest
+  property_count: 14
+  slug: meld-headless-order-onramp-request
+- name: HeadlessOrderOnrampResponse
+  property_count: 8
+  slug: meld-headless-order-onramp-response
+- name: PaymentTransactionListResponse20250304
+  property_count: 4
+  slug: meld-payment-transaction-list-response20250304
+- name: PaymentTransactionResponse20250304
+  property_count: 1
+  slug: meld-payment-transaction-response20250304
+- name: SessionTokenForWidgetRequestV20231219
+  property_count: 8
+  slug: meld-session-token-for-widget-request-v20231219
+- name: SessionTokenResponse
+  property_count: 7
+  slug: meld-session-token-response
+- name: VirtualAccountDepositInstructionsRequest
+  property_count: 7
+  slug: meld-virtual-account-deposit-instructions-request
+- name: VirtualAccountDepositInstructionsResponse
+  property_count: 9
+  slug: meld-virtual-account-deposit-instructions-response
 jsonld:
 - class_count: 118
   name: Meld Context
@@ -199,44 +245,52 @@ modified: '2026-10-21'
 name: Meld.io
 nav: Providers
 network: true
-overview: 'Meld.io publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Headless API and Retail Ramp API. Tagged areas include Data Integration, FinTech, API Platform, Stablecoin, and Digital Assets.
+overview: 'Meld.io publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Headless API and Retail Ramp API. Tagged areas include Data Integration, Fintech, API Platform, Stablecoins, and Digital Assets.
 
 
   The Meld.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Meld.io''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
+  Meld.io''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
 random_paper: 10
 rules:
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 99
   extends:
   - spectral:oas
   name: Meld.io API Rules
-  rule_count: 16
+  rule_count: 58
   severity_counts:
-    error: 14
+    error: 54
     hint: 0
     info: 1
-    warn: 1
+    warn: 3
   slug: meld-rules
 score:
-  band: developing
-  composite: 46.0
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 43.8
+    artifact_dirs: 26
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.7
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 22.0
-    contract_quality: 67.7
-    developer_ergonomics: 64.3
-    discoverability: 48.2
+    contract_quality: 73.7
+    developer_ergonomics: 36.9
+    discoverability: 55.4
     operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,19 +299,20 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-    mcp: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/meld/meld-2026-11-03T135443.png
 security:
 - kind: authentication
   name: Meld Authentication
@@ -270,9 +325,9 @@ security:
 slug: meld
 tags:
 - Data Integration
-- FinTech
+- Fintech
 - API Platform
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Enterprise
 website: https://www.meld.io/

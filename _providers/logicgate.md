@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: paginated
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -101,7 +102,7 @@ apis:
   description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Risk Cloud Access Audit API
@@ -299,38 +300,54 @@ network: true
 overview: 'LogicGate publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Audit API, Application API, Authentication API, and 8 more. Tagged areas include Company, GRC, Governance Risk and Compliance, Risk Management, and Compliance.
 
 
+  The LogicGate catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 24 more developer resources.'
 plans:
 - name: Logicgate Plans Pricing
   plan_count: 0
   slug: logicgate-plans-pricing
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 113
+  extends:
+  - spectral:oas
+  name: LogicGate API Rules
+  rule_count: 72
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 2
+    warn: 8
+  slug: logicgate-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 46.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 32.0
+    artifact_dirs: 24
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 36.8
-    contract_governance: 4.5
-    contract_quality: 54.4
-    developer_ergonomics: 61.3
-    discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 46.0
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 63.9
+    developer_ergonomics: 58.9
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 11
     mcp: derived
     skills: derived
@@ -345,14 +362,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/logicgate/logicgate-2026-07-25T225458.png
 security:
 - kind: authentication

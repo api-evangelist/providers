@@ -1,6 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 5.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Agent-facing API of APEX on the X1 blockchain, served from apexfaucet.xyz: a remote MCP server at /api/mcp (Streamable HTTP, MCP 2024-11-05; 87 tools per the provider on 2026-09-17, free read tools pl'
@@ -94,24 +105,24 @@ overview: 'APEX is listed with 1 API on the [APIs.io](https://apis.io/) network.
   APEX''s developer surface includes documentation, pricing, and 8 more developer resources.'
 random_paper: 6
 score:
-  band: emerging
-  composite: 11.8
+  band: minimal
+  composite: 9.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 61.7
+    developer_ergonomics: 7.1
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 12.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -121,8 +132,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

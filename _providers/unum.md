@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Enterprise · Self-serve signup
   onboarding: self-serve
   pricing: enterprise
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -275,9 +280,9 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.2
+  composite: 31.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -287,11 +292,11 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
-    contract_quality: 58.3
-    developer_ergonomics: 33.3
+    contract_quality: 60.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 33.2
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -305,13 +310,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/unum/unum-2026-06-20T200424.png
 security:
 - kind: authentication

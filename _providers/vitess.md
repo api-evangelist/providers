@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium · Requires approval
   onboarding: approval
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: VTGate is the stateless proxy that routes queries to the appropriate VTTablet instances. It exposes a MySQL-compatible interface and a gRPC API that clients use to interact with the Vitess cluster, ha
@@ -244,9 +246,9 @@ rules:
   slug: vitess-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 36.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 53.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
@@ -257,10 +259,13 @@ score:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 30.7
-    developer_ergonomics: 35.7
+    developer_ergonomics: 33.3
     discoverability: 69.6
-    operational_transparency: 36.8
-  previous_composite: 30.3
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 36.4
   provenance:
     contracts:
       callable: 0.0
@@ -273,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

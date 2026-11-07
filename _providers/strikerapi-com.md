@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.3
-  scored_at: '2026-10-31'
+  score: 15.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: StrikerAPI provides soccer data via REST and MCP, including goals, lineups, odds, and statistics.
@@ -159,7 +175,7 @@ modified: '2026-10-31'
 name: strikerapi-com
 nav: Providers
 network: true
-overview: 'strikerapi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Soccer, Sports Data, Odds, Statistics, and API.
+overview: 'strikerapi-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Soccer, Sports Data, Odds, and Statistics.
 
 
   The strikerapi-com catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -190,34 +206,42 @@ scopes:
   slug: strikerapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.4
+  band: thin
+  composite: 30.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 63.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    artifact_dirs: 24
+    catalog_earned: 44.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
+    access_clarity: 53.9
+    contract_governance: 22.0
     contract_quality: 0.0
-    developer_ergonomics: 68.3
-    discoverability: 56.7
-    operational_transparency: 15.8
+    developer_ergonomics: 43.3
+    discoverability: 48.3
+    operational_transparency: 7.9
+  previous_composite: 42.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/strikerapi-com/strikerapi-com-2026-11-03T143929.png
 security:
 - kind: authentication
   name: Strikerapi Com Authentication
@@ -237,6 +261,5 @@ tags:
 - Sports Data
 - Odds
 - Statistics
-- API
 website: https://strikerapi.com/
 ---

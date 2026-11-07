@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-31'
+  score: 50.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for programmatic access to an organization's accounting data across setup (accounts, items, classifications), master data (companies, customers, vendors), transactions (invoices, bills, journ
@@ -217,10 +222,10 @@ rate_limits:
   name: Dualentry Rate Limits
   slug: dualentry-rate-limits
 score:
-  band: strong
-  composite: 56.7
+  band: developing
+  composite: 49.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -231,10 +236,10 @@ score:
     access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 66.7
-    discoverability: 65.0
-    operational_transparency: 60.5
-  previous_composite: 56.7
+    developer_ergonomics: 28.6
+    discoverability: 75.0
+    operational_transparency: 57.9
+  previous_composite: 49.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -244,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

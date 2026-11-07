@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Gated REST API that lets financial institutions with their own KYC/onboarding process programmatically submit W-series forms, CRS self-certifications, and supporting documents for validation; receive '
@@ -114,7 +116,7 @@ overview: 'Taina is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: thin
-  composite: 28.7
+  composite: 29.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -128,9 +130,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 7.1
-    discoverability: 57.1
+    discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 28.7
+  previous_composite: 29.4
   provenance:
     conformance: first-party
   regulatory:
@@ -143,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

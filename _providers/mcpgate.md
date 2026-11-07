@@ -1,32 +1,44 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: paginated
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.5
-  scored_at: '2026-10-31'
+  score: 29.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 203
   human_in_the_loop: 9
@@ -317,11 +329,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/mcpgate-security.txt
-- group: auth
-  href: https://artifacts.apis.io/mcpgate/well-known/mcpgate-gitlab-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mcpgate-gitlab-security.txt
 - group: agent
   href: https://artifacts.apis.io/mcpgate/well-known/mcpgate-well-known.yml
   title: ''
@@ -428,7 +435,7 @@ overview: 'mcpgate publishes 43 API contracts indexed on the [APIs.io](https://a
   The mcpgate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  mcpgate''s developer surface includes changelog, authentication, documentation, engineering blog, pricing, getting-started guide, API reference, and 22 more developer resources.'
+  mcpgate''s developer surface includes changelog, authentication, documentation, engineering blog, pricing, getting-started guide, API reference, and 21 more developer resources.'
 plans:
 - name: Mcpgate Plans Pricing
   plan_count: 3
@@ -436,36 +443,36 @@ plans:
 random_paper: 17
 rules:
 - authorship: generated
-  effective_rule_count: 50
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: mcpgate API Rules
-  rule_count: 9
+  rule_count: 43
   severity_counts:
-    error: 6
+    error: 30
     hint: 0
-    info: 2
-    warn: 1
+    info: 5
+    warn: 8
   slug: mcpgate-rules
 score:
   band: developing
-  composite: 54.2
+  composite: 46.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 26
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 59.2
     contract_governance: 35.6
     contract_quality: 51.5
-    developer_ergonomics: 42.9
-    discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 54.2
+    developer_ergonomics: 27.4
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -474,6 +481,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 43
+    mcp: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -483,14 +491,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/mcpgate/mcpgate-2026-11-03T135404.png
 security:
 - kind: authentication
   name: Mcpgate Authentication

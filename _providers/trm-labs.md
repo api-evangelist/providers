@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,7 +63,7 @@ apis:
   description: The Sanctions Screening API from TRM Labs — 1 operation(s) for sanctions screening.
   name: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Chainabuse Public Reports API
@@ -221,31 +222,47 @@ network: true
 overview: 'TRM Labs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Reports API, Sanctions API, and Sanctions Screening API. Tagged areas include Company, Cryptocurrency, Blockchain, Compliance, and Sanctions.
 
 
+  The TRM Labs catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   TRM Labs'' developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 23 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Trm Labs Rate Limits
   slug: trm-labs-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: TRM Labs API Rules
+  rule_count: 61
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 1
+  slug: trm-labs-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 49.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 39.5
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 51.4
     developer_ergonomics: 49.4
-    discoverability: 66.1
-    operational_transparency: 63.2
-  previous_composite: 48.4
+    discoverability: 73.2
+    operational_transparency: 60.5
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,13 +283,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/trm-labs/trm-labs-2026-08-17T082443.png
 security:
 - kind: authentication

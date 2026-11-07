@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Runner API and Dashboard API for programmatically running procedures, managing runs, submitting human-review decisions, managing API keys, and subscribing to run events via webhooks.
@@ -182,9 +183,9 @@ overview: 'Rapidfolio is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 9
 score:
   band: developing
-  composite: 45.6
+  composite: 40.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -195,9 +196,9 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 69.0
-    discoverability: 57.1
-    operational_transparency: 23.7
+    developer_ergonomics: 40.5
+    discoverability: 64.3
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -205,7 +206,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.6
+  previous_composite: 40.3
   provenance:
     conformance: first-party
   regulatory:
@@ -214,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

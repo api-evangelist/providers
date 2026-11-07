@@ -5,11 +5,12 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 10.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s
@@ -75,9 +77,9 @@ overview: paralelo.bo is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 22
 score:
   band: minimal
-  composite: 5.2
+  composite: 5.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -89,9 +91,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 46.4
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 5.2
+  previous_composite: 5.5
   provenance:
     mcp: first-party
   regulatory:
@@ -100,8 +102,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

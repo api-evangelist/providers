@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
@@ -83,7 +86,7 @@ apis:
   description: The Common API from Newcastle Permanent Building Society — 2 operation(s) for common.
   name: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: CDR Banking Accounts API
@@ -269,8 +272,24 @@ network: true
 overview: 'Newcastle Permanent Building Society publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
+  The Newcastle Permanent Building Society catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 23 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 117
+  extends:
+  - spectral:oas
+  name: Newcastle Permanent Building Society API Rules
+  rule_count: 76
+  severity_counts:
+    error: 69
+    hint: 0
+    info: 2
+    warn: 5
+  slug: newcastle-permanent-rules
 scopes:
 - name: Newcastle Permanent Scopes
   scope_count: 12
@@ -278,22 +297,22 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.9
+  composite: 40.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
+    artifact_dirs: 21
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 46.3
-    developer_ergonomics: 63.7
-    discoverability: 71.4
-    operational_transparency: 23.7
+    developer_ergonomics: 35.1
+    discoverability: 78.6
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -303,7 +322,7 @@ score:
     - anz
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.9
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -323,13 +342,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/newcastle-permanent/newcastle-permanent-2026-07-21T115738.png
 security:
 - kind: authentication

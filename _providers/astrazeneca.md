@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Requires approval
   onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 10
 common:
@@ -114,9 +116,9 @@ overview: AstraZeneca is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 17
 score:
   band: minimal
-  composite: 10.8
+  composite: 10.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -129,16 +131,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 39.3
-    operational_transparency: 5.3
-  previous_composite: 10.8
+    operational_transparency: 2.6
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

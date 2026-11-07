@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Gigya / SAP Customer Data Cloud REST API for accounts, identity, social login, consent, and profile data. Endpoints are data-center scoped under {service}.{dc}.gigya.com (e.g. accounts.us1.gigya.com) '
@@ -122,7 +124,7 @@ overview: 'Gigya is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 1
 score:
   band: emerging
-  composite: 21.9
+  composite: 18.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -135,10 +137,10 @@ score:
     access_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 21.9
+    developer_ergonomics: 19.0
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 18.5
   provenance:
     conformance: first-party
   regulatory:
@@ -147,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -175,6 +177,7 @@ tags:
 - Authentication
 - CIAM
 - Customer Identity
+- OAuth
 - SSO
 - Consent Management
 - SAP

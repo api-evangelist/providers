@@ -1,11 +1,26 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 67.1
-  scored_at: '2026-10-31'
+  score: 60.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -229,7 +245,7 @@ modified: '2026-10-31'
 name: poof-bg
 nav: Providers
 network: true
-overview: 'poof-bg publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API and Background Removal API. Tagged areas include Company, API, BackgroundRemoval, ImageProcessing, and VideoProcessing.
+overview: 'poof-bg publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API and Background Removal API. Tagged areas include Company, Background Removal, Image Processing, and Video Processing.
 
 
   The poof-bg catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -247,16 +263,16 @@ rate_limits:
   slug: poof-bg-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 108
   extends:
   - spectral:oas
   name: poof-bg API Rules
-  rule_count: 17
+  rule_count: 67
   severity_counts:
-    error: 15
+    error: 64
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: poof-bg-rules
 scopes:
 - name: Poof Bg Scopes
@@ -264,34 +280,48 @@ scopes:
   slug: poof-bg-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.1
+  band: developing
+  composite: 48.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 85.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 29.5
+    artifact_dirs: 34
+    catalog_earned: 66.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.4
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 62.4
-    developer_ergonomics: 66.0
-    discoverability: 65.0
-    operational_transparency: 36.8
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 65.4
+    developer_ergonomics: 41.1
+    discoverability: 56.7
+    operational_transparency: 18.4
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/poof-bg/poof-bg-2026-11-03T141402.png
 security:
 - kind: authentication
   name: Poof Bg Authentication
@@ -308,9 +338,8 @@ skills:
 slug: poof-bg
 tags:
 - Company
-- API
-- BackgroundRemoval
-- ImageProcessing
-- VideoProcessing
+- Background Removal
+- Image Processing
+- Video Processing
 website: https://poof.bg/
 ---

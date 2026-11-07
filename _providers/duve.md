@@ -1,31 +1,48 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-31'
+  score: 44.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://sandbox.duve.com
@@ -39,6 +56,16 @@ asyncapis:
   name: Duve Webhooks
   slug: duve-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/duve/well-known/duve-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/duve-status-security.txt
+- group: auth
+  href: https://artifacts.apis.io/duve/well-known/duve-developers-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/duve-developers-security.txt
 - group: commercial
   href: https://artifacts.apis.io/duve/plans/duve-plans-pricing.yml
   title: ''
@@ -93,11 +120,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/duve-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/duve/well-known/duve-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/duve-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/duve/well-known/duve-well-known.yml
   title: ''
@@ -199,13 +221,13 @@ modified: '2026-10-24'
 name: Duve
 nav: Providers
 network: true
-overview: 'Duve is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, GuestExperience, SaaS, AI, and RevenueOptimization.
+overview: 'Duve is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Guest Experience, Software-as-a-Service, Artificial Intelligence, and Revenue-Optimization.
 
 
   The Duve catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Duve''s developer surface includes changelog, authentication, sandbox, pricing, documentation, and 21 more developer resources.'
+  Duve''s developer surface includes changelog, authentication, sandbox, pricing, documentation, and 22 more developer resources.'
 plans:
 - name: Duve Plans Pricing
   plan_count: 4
@@ -213,13 +235,13 @@ plans:
 random_paper: 4
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 88
   extends:
   - spectral:oas
   name: Duve API Rules
-  rule_count: 13
+  rule_count: 47
   severity_counts:
-    error: 11
+    error: 45
     hint: 0
     info: 1
     warn: 1
@@ -231,41 +253,44 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.6
+  composite: 45.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.2
   facets:
-    access_clarity: 78.9
+    access_clarity: 64.5
     contract_governance: 22.0
-    contract_quality: 33.1
-    developer_ergonomics: 38.1
-    discoverability: 66.1
-    operational_transparency: 50.0
+    contract_quality: 35.2
+    developer_ergonomics: 25.0
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 53.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 1
       marker_coverage: 100.0
-      total: 3
-    mcp: unknown
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/duve/duve-2026-11-03T131133.png
 security:
 - kind: authentication
   name: Duve Authentication
@@ -282,10 +307,10 @@ security:
 slug: duve
 tags:
 - Hospitality
-- GuestExperience
-- SaaS
-- AI
-- RevenueOptimization
+- Guest Experience
+- Software-as-a-Service
+- Artificial Intelligence
+- Revenue-Optimization
 - Company
 website: https://duve.com
 ---

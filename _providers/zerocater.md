@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The internal-but-anonymously-discoverable JSON API behind the Zerocater ordering application at app.zerocater.com. Built on Django REST Framework, it serves an RFC 6570 URI-template hypermedia index a
@@ -174,9 +175,9 @@ overview: 'Zerocater is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 15
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -188,9 +189,12 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 24.8
+    discoverability: 73.2
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 25.2
   provenance:
     conformance: first-party
   regulatory:
@@ -199,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

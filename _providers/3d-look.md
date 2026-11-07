@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
@@ -161,9 +163,9 @@ plans:
 random_paper: 9
 score:
   band: thin
-  composite: 30.3
+  composite: 30.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -174,10 +176,10 @@ score:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 30.3
+    developer_ergonomics: 47.6
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 30.2
   provenance:
     mcp: derived
   regulatory:
@@ -186,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

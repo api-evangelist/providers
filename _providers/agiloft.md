@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +40,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Agiloft REST interface, served from every Agiloft knowledgebase under /ewws/. It exposes twenty documented operations — EWCreate, EWRead, EWUpdate, EWDelete, EWUpsert, EWSelect, EWSearch, EWLogin,
@@ -230,9 +245,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/authorizationCodePKCE/clientCredentials
 score:
   band: developing
-  composite: 51.1
+  composite: 51.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -244,9 +259,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 23.7
-  previous_composite: 51.1
+  previous_composite: 51.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -257,8 +272,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

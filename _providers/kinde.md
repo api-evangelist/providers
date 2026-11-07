@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,7 +11,10 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
   - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -27,7 +33,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: unknown
     idempotency: documented
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,8 +44,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.3
-  scored_at: '2026-10-31'
+  score: 50.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -1304,7 +1311,7 @@ modified: '2026-09-12'
 name: Kinde
 nav: Providers
 network: true
-overview: 'Kinde publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Applications API, Billing Agreements API, and 28 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity and Access Management, and OpenID Connect.
+overview: 'Kinde publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Applications API, Billing Agreements API, and 28 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity and Access Management, and OAuth.
 
 
   The Kinde catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1354,30 +1361,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 84.5
+  composite: 88.8
   coverage:
-    artifact_dirs: 39
+    artifact_dirs: 41
     catalog_earned: 90.0
     catalog_earned_first_party: 24.0
     catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.1
   facets:
-    access_clarity: 100.0
+    access_clarity: 93.4
     contract_governance: 45.5
-    contract_quality: 64.8
+    contract_quality: 68.8
     developer_ergonomics: 91.1
-    discoverability: 71.7
-    operational_transparency: 100.0
-  previous_composite: 83.5
+    discoverability: 68.3
+    operational_transparency: 92.1
+  previous_composite: 88.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 90.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 10.0
       total: 30
     mcp: first-party
     skills: derived
@@ -1387,13 +1394,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 66.7
 screenshot: https://apis.io/screenshots/kinde/kinde-2026-06-20T184038.png
 security:
 - kind: authentication
@@ -1438,6 +1444,7 @@ tags:
 - Authorization
 - Customer Identity
 - Identity and Access Management
+- OAuth
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication

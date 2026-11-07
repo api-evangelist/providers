@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,9 +125,9 @@ overview: 'INFINIT is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 9
 score:
   band: emerging
-  composite: 19.7
+  composite: 20.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -137,17 +139,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 19.7
+    discoverability: 55.4
+    operational_transparency: 7.9
+  previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

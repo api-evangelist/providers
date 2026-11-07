@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-31'
+  score: 27.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -139,7 +141,7 @@ apis:
   description: The Version API from Coolify — 1 operation(s) for version.
   name: Coolify Version API
   slug: coolify-version-api
-artifact_total: 60
+artifact_total: 61
 collections:
 - collection_type: open
   name: Coolify Applications API
@@ -360,6 +362,9 @@ network: true
 overview: 'Coolify publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Cloud Tokens API, Databases API, and 16 more. Tagged areas include Platform-as-a-Service, Self-Hosting, Deployment, Open Source, and Containers.
 
 
+  The Coolify catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
 plans:
 - name: Coolify Plans Pricing
@@ -369,25 +374,38 @@ plans:
   plan_count: 0
   slug: coolify-price-estimates
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Coolify API Rules
+  rule_count: 62
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 3
+    warn: 10
+  slug: coolify-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 51.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 43.0
+    artifact_dirs: 15
+    catalog_earned: 47.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 0.0
   facets:
     access_clarity: 73.7
-    contract_governance: 0.0
-    contract_quality: 53.0
+    contract_governance: 13.6
+    contract_quality: 55.8
     developer_ergonomics: 64.3
     discoverability: 57.1
     operational_transparency: 21.1
-  previous_composite: 44.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -401,13 +419,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/coolify/coolify-2026-06-20T175004.png
 security:
 - kind: authentication

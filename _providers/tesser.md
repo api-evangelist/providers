@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -35,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-31'
+  score: 55.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.tesser.xyz
@@ -109,7 +112,7 @@ apis:
   description: The webhooks API from Tesser — 6 operation(s) for webhooks.
   name: Tesser Webhooks API
   slug: tesser-webhooks-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Tesser Webhooks
@@ -311,29 +314,42 @@ network: true
 overview: 'Tesser publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Admin API, API Keys API, and 11 more. Tagged areas include Company, Payments, Stablecoins, Cross-Border Payments, and Fintech.
 
 
-  The Tesser catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tesser catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 23 more developer resources.'
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Tesser API Rules
+  rule_count: 54
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 3
+    warn: 11
+  slug: tesser-rules
 score:
   band: developing
-  composite: 44.1
+  composite: 47.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 53.4
-    developer_ergonomics: 76.2
-    discoverability: 65.0
-    operational_transparency: 13.2
+    developer_ergonomics: 73.8
+    discoverability: 75.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -341,7 +357,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.1
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -357,13 +373,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/tesser/tesser-2026-08-17T082322.png
 security:
 - kind: authentication

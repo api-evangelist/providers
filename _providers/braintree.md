@@ -29,18 +29,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-31'
+  score: 52.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -112,7 +113,7 @@ apis:
   description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
   name: braintree Transactions API
   slug: braintree-transactions-api
-artifact_total: 64
+artifact_total: 72
 asyncapis:
 - description: Braintree Webhooks deliver automated HTTP POST notifications to a merchant-configured destination URL when specific events occur within the payment gateway. Webhook notifications are triggered by tran
   name: Braintree Webhooks
@@ -152,6 +153,74 @@ collections:
   name: Braintree Payments Add-Ons Transactions API
   slug: open-braintree-transactions-api
 common:
+- group: design
+  href: https://artifacts.apis.io/braintree/rules/braintree-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/braintree-rules.yml
+- group: design
+  href: https://artifacts.apis.io/braintree/rules/braintree-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/braintree-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/braintree/rules/braintree-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/braintree-asyncapi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/braintree/vocabulary/braintree-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/braintree-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/braintree/asyncapi/braintree-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/braintree-webhooks-asyncapi.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://developer.paypal.com/braintree/articles/risk-and-security/compliance/overview
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/paypal?view_policy=true
+- group: design
+  href: https://artifacts.apis.io/braintree/errors/braintree-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/braintree-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/braintree/conformance/braintree-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/braintree-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/braintree/mcp/braintree-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/braintree-mcp.yml
+- group: agent
+  href: https://artifacts.apis.io/braintree/well-known/braintree-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/braintree-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/braintree/hosts/braintree-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/braintree-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/braintree/integrations/braintree-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/braintree-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/braintree/vendors/braintree-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/braintree-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/braintree/plans/braintree-plans-pricing.yml
   title: ''
@@ -284,6 +353,9 @@ json_schemas:
 - name: CreditCardDetails
   property_count: 7
   slug: braintree-creditcarddetails
+- name: CustomerRequest
+  property_count: 10
+  slug: braintree-customer-request
 - name: Braintree Customer
   property_count: 13
   slug: braintree-customer
@@ -314,6 +386,15 @@ json_schemas:
 - name: ModificationUpdate
   property_count: 5
   slug: braintree-modificationupdate
+- name: PaymentMethodRequest
+  property_count: 5
+  slug: braintree-payment-method-request
+- name: PaymentMethod
+  property_count: 6
+  slug: braintree-payment-method
+- name: PaymentMethodUpdateRequest
+  property_count: 3
+  slug: braintree-payment-method-update-request
 - name: PaymentMethod
   property_count: 6
   slug: braintree-paymentmethod
@@ -326,15 +407,24 @@ json_schemas:
 - name: Plan
   property_count: 14
   slug: braintree-plan
+- name: SubscriptionRequest
+  property_count: 17
+  slug: braintree-subscription-request
 - name: Braintree Subscription
   property_count: 24
   slug: braintree-subscription
+- name: SubscriptionUpdateRequest
+  property_count: 10
+  slug: braintree-subscription-update-request
 - name: SubscriptionRequest
   property_count: 17
   slug: braintree-subscriptionrequest
 - name: SubscriptionUpdateRequest
   property_count: 10
   slug: braintree-subscriptionupdaterequest
+- name: TransactionRequest
+  property_count: 16
+  slug: braintree-transaction-request
 - name: Braintree Transaction
   property_count: 28
   slug: braintree-transaction
@@ -365,10 +455,10 @@ network: true
 overview: 'Braintree publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 11 more. Tagged areas include Payments, Transaction, Mobile, Subscription, and Payment Processing.
 
 
-  The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Braintree''s developer surface includes sandbox, changelog, authentication, and 19 more developer resources.'
+  Braintree''s developer surface includes sandbox, changelog, authentication, and 33 more developer resources.'
 plans:
 - name: Braintree Plans Pricing
   plan_count: 6
@@ -402,6 +492,18 @@ rules:
     info: 1
     warn: 5
   slug: braintree-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: Braintree API Rules
+  rule_count: 67
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 3
+  slug: braintree-rules
 scopes:
 - name: Braintree Scopes
   scope_count: 40
@@ -409,25 +511,26 @@ scopes:
   summary_line: 40 scopes
 score:
   band: developing
-  composite: 40.3
+  composite: 46.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 47.5
+    artifact_dirs: 34
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.5
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 6.1
   facets:
-    access_clarity: 23.7
-    contract_governance: 13.6
-    contract_quality: 63.1
+    access_clarity: 31.6
+    contract_governance: 31.8
+    contract_quality: 70.3
     developer_ergonomics: 28.6
-    discoverability: 51.8
-    operational_transparency: 39.5
-  previous_composite: 38.8
+    discoverability: 55.0
+    operational_transparency: 44.7
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -440,13 +543,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/braintree/braintree-2026-06-20T173632.png
 security:
 - kind: authentication

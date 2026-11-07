@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.3
-  scored_at: '2026-10-31'
+  score: 17.0
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: This specification describes the Unikraft Cloud Platform API, which provides mechanisms to interact with Unikraft Cloud metros.
@@ -172,7 +188,7 @@ modified: '2026-10-29'
 name: Unikraft
 nav: Providers
 network: true
-overview: 'Unikraft publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unikernel, OpenSource, CloudNative, and Performance.
+overview: 'Unikraft publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unikernel, Open Source, Cloud-Native, and Performance.
 
 
   The Unikraft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,29 +214,26 @@ rules:
     warn: 3
   slug: unikraft-rules
 score:
-  band: developing
-  composite: 43.0
+  band: thin
+  composite: 35.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 63.8
     catalog_earned_first_party: 12.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 48.7
     contract_governance: 22.0
-    contract_quality: 20.7
-    developer_ergonomics: 54.2
-    discoverability: 62.5
-    operational_transparency: 31.6
+    contract_quality: 21.3
+    developer_ergonomics: 37.5
+    discoverability: 69.6
+    operational_transparency: 15.8
+  previous_composite: 45.7
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 16
     mcp: derived
     skills: derived
   regulatory:
@@ -228,13 +241,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
+screenshot: https://apis.io/screenshots/unikraft/unikraft-2026-11-03T145425.png
 security:
 - kind: authentication
   name: Unikraft Authentication
@@ -258,8 +272,8 @@ slug: unikraft
 tags:
 - Company
 - Unikernel
-- OpenSource
-- CloudNative
+- Open Source
+- Cloud-Native
 - Performance
 website: https://unikraft.com
 ---

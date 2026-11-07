@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -15,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.7
-  scored_at: '2026-10-31'
+  score: 42.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,6 +66,11 @@ apis:
   slug: markifact-com-logs-api
 artifact_total: 19
 common:
+- group: auth
+  href: https://artifacts.apis.io/markifact-com/well-known/markifact-com-platform-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/markifact-com-platform-security.txt
 - group: agent
   href: https://artifacts.apis.io/markifact-com/agentic-access/markifact-com-agentic-access.yml
   title: ''
@@ -118,11 +136,6 @@ common:
   title: ''
   type: AgentCard
   url: a2a/markifact-com-a2a.yml
-- group: auth
-  href: https://artifacts.apis.io/markifact-com/well-known/markifact-com-platform-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/markifact-com-platform-security.txt
 - group: agent
   href: https://artifacts.apis.io/markifact-com/well-known/markifact-com-well-known.yml
   title: ''
@@ -258,16 +271,16 @@ rate_limits:
   slug: markifact-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 94
   extends:
   - spectral:oas
   name: markifact-com API Rules
-  rule_count: 15
+  rule_count: 53
   severity_counts:
-    error: 13
+    error: 50
     hint: 0
     info: 1
-    warn: 1
+    warn: 2
   slug: markifact-com-rules
 scopes:
 - name: Markifact Com Scopes
@@ -275,22 +288,24 @@ scopes:
   slug: markifact-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.7
+  band: developing
+  composite: 50.3
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 35
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.2
   facets:
-    access_clarity: 73.7
+    access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 64.4
-    developer_ergonomics: 49.4
-    discoverability: 66.1
-    operational_transparency: 31.6
+    developer_ergonomics: 31.5
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,13 +321,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/markifact-com/markifact-com-2026-11-03T135335.png
 security:
 - kind: authentication
   name: Markifact Com Authentication

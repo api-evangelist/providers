@@ -1,16 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -766,9 +770,9 @@ rules:
   slug: adobe-creative-cloud-spectral-rules
 score:
   band: strong
-  composite: 56.6
+  composite: 55.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 75.9
     catalog_earned_first_party: 12.0
     catalog_gap: 39.1
@@ -782,7 +786,7 @@ score:
     developer_ergonomics: 58.3
     discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 56.6
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -796,13 +800,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/adobe-creative-cloud/adobe-creative-cloud-2026-07-25T181653.png
 security:
 - kind: authentication

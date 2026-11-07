@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +32,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.1
-  scored_at: '2026-10-31'
+  score: 58.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 4
@@ -369,7 +387,7 @@ modified: '2026-10-29'
 name: betteroff-finance
 nav: Providers
 network: true
-overview: 'betteroff-finance publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting API, Accounts API, Action Requests API, and 29 more. Tagged areas include Company, Finance, FinTech, PersonalFinance, and API.
+overview: 'betteroff-finance publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting API, Accounts API, Action Requests API, and 29 more. Tagged areas include Company, Finance, Fintech, and Personal Finance.
 
 
   The betteroff-finance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -387,16 +405,16 @@ rate_limits:
   slug: betteroff-finance-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 94
   extends:
   - spectral:oas
   name: betteroff-finance API Rules
-  rule_count: 10
+  rule_count: 53
   severity_counts:
-    error: 8
+    error: 42
     hint: 0
-    info: 1
-    warn: 1
+    info: 3
+    warn: 8
   slug: betteroff-finance-rules
 scopes:
 - name: Betteroff Finance Scopes
@@ -405,21 +423,29 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 53.3
+  composite: 43.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 66.8
+    artifact_dirs: 31
+    catalog_earned: 61.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 48.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 35.6
-    contract_quality: 48.5
-    developer_ergonomics: 58.8
-    discoverability: 67.9
-    operational_transparency: 31.6
+    contract_quality: 48.7
+    developer_ergonomics: 38.6
+    discoverability: 65.2
+    operational_transparency: 26.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -435,13 +461,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 36.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/betteroff-finance/betteroff-finance-2026-11-03T121707.png
 security:
 - kind: authentication
   name: Betteroff Finance Authentication
@@ -463,8 +490,7 @@ slug: betteroff-finance
 tags:
 - Company
 - Finance
-- FinTech
-- PersonalFinance
-- API
+- Fintech
+- Personal Finance
 website: https://betteroff.finance/
 ---

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,6 +65,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/optivolt-labs-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://optivolt.com/
 created: '2026-07-17'
 description: Optivolt Labs (operating as Optivolt) is a Burlingame, California solar technology company building intelligent home solar systems with power electronics embedded directly inside each panel. Its patented Balancer device shuffles power from stronger to weaker zones within a panel to keep energy flowing in shaded and non-ideal conditions, delivering up to 50% more annual energy and improved shaded performance versus conventional panels. The product line includes 450W N-type mono half-cut panels, universal battery and inverter compatibility, and a real-time monitoring app for tracking energy and savings. Optivolt is a Techstars-backed hardware company; it does not currently publish a public developer API, SDK, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optivolt-labs.png
@@ -74,11 +80,11 @@ network: true
 overview: 'Optivolt Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Clean Energy, and Hardware.
 
 
-  Optivolt Labs'' developer surface includes signup flow and 5 more developer resources.'
+  Optivolt Labs'' developer surface includes signup flow and 6 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 12.1
+  composite: 11.7
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -93,16 +99,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 12.1
+    operational_transparency: 2.6
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -124,5 +130,8 @@ tags:
 - Power Electronics
 - Solar Monitoring
 - IoT
+- Battery Management
+- Renewable Energy
+- Software-as-a-Service
 website: https://www.optivolt.com/
 ---

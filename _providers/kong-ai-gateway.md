@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: low
+  label: Paid
   onboarding: unknown
-  pricing: free
+  pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 21
 apis:
 - description: Kong AI Gateway is the connectivity and governance layer for AI-native applications. Built on Kong Gateway, it provides a universal LLM API across 16+ providers, semantic caching, prompt firewalls and
@@ -274,7 +276,7 @@ rate_limits:
   slug: kong-ai-gateway-rate-limits
 score:
   band: thin
-  composite: 30.5
+  composite: 37.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 49.0
@@ -289,16 +291,19 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 59.5
     discoverability: 68.3
-    operational_transparency: 36.8
-  previous_composite: 30.5
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

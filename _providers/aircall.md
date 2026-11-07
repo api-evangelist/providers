@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -266,9 +268,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.5
+  composite: 30.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 39.8
     catalog_earned_first_party: 0.0
     catalog_gap: 75.3
@@ -278,11 +280,11 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 11.4
-    contract_quality: 52.8
-    developer_ergonomics: 23.8
+    contract_quality: 56.1
+    developer_ergonomics: 19.0
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 31.5
+    operational_transparency: 7.9
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +298,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/aircall/aircall-2026-06-20T171433.png
 security:
 - kind: authentication

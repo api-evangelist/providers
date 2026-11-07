@@ -1,16 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -27,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-31'
+  score: 43.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -80,7 +80,7 @@ apis:
   description: The Scenarios API from Make — 6 operation(s) for scenarios.
   name: Make Scenarios API
   slug: make-scenarios-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: Make AI Agents API
@@ -248,6 +248,9 @@ network: true
 overview: 'Make publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Agents API, Scenario Execution API, Scenario Variables API, and 5 more. Tagged areas include Automation, Integration, iPaaS, No-Code, and Scenarios.
 
 
+  The Make catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Make''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, academy / training, and 19 more developer resources.'
 plans:
 - name: Make Plans Pricing
@@ -258,25 +261,38 @@ rate_limits:
 - limit_count: 2
   name: Make Rate Limits
   slug: make-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Make API Rules
+  rule_count: 49
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 2
+  slug: make-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 43.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 29.0
+    artifact_dirs: 18
+    catalog_earned: 33.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 86.0
+    catalog_gap: 81.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: 0.5
   facets:
-    access_clarity: 44.7
-    contract_governance: 0.0
-    contract_quality: 45.3
+    access_clarity: 38.2
+    contract_governance: 13.6
+    contract_quality: 48.7
     developer_ergonomics: 57.1
-    discoverability: 55.4
+    discoverability: 58.3
     operational_transparency: 36.8
-  previous_composite: 49.0
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -291,13 +307,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: falling
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/make/make-2026-06-20T184908.png
 security:
 - kind: authentication

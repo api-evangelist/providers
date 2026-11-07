@@ -1,13 +1,20 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup · API keys gated to Scale plan
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: true
 agent_readiness:
@@ -26,7 +33,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -36,8 +44,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.8
-  scored_at: '2026-10-31'
+  score: 60.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -395,7 +403,7 @@ apis:
     question: How do I get full details for companies returned by a prospecting search?
   phrasing_ops: 4
   slug: lusha-prospecting-search-enrich-api
-artifact_total: 48
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Lusha Webhooks
@@ -673,7 +681,7 @@ network: true
 overview: 'Lusha publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Search API, Enrich API, Search & Enrich API, and 16 more. Tagged areas include Sales Intelligence, B2B, Data Enrichment, Contact Data, and Prospecting.
 
 
-  The Lusha catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lusha catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Lusha''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
@@ -686,6 +694,19 @@ rate_limits:
 - limit_count: 13
   name: Lusha Rate Limits
   slug: lusha-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Lusha API Rules
+  rule_count: 71
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 11
+  slug: lusha-rules
 scopes:
 - name: Lusha Scopes
   scope_count: 1
@@ -693,30 +714,30 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 71.3
+  composite: 72.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 57.0
+    artifact_dirs: 32
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: 1.3
   facets:
-    access_clarity: 81.6
-    contract_governance: 18.2
-    contract_quality: 58.8
-    developer_ergonomics: 70.8
-    discoverability: 71.7
-    operational_transparency: 94.7
-  previous_composite: 73.9
+    access_clarity: 75.0
+    contract_governance: 31.8
+    contract_quality: 67.1
+    developer_ergonomics: 63.7
+    discoverability: 75.0
+    operational_transparency: 86.8
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 88.9
       total: 18
     mcp: first-party
     skills: derived
@@ -730,13 +751,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/lusha/lusha-2026-06-20T184813.png
 security:
 - kind: authentication

@@ -1,11 +1,24 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.7
-  scored_at: '2026-10-31'
+  score: 43.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -228,7 +242,7 @@ modified: '2026-10-30'
 name: kokofinance-net
 nav: Providers
 network: true
-overview: 'kokofinance-net publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Cards API, Developers API, and 5 more. Tagged areas include Company, Fintech, Credit-Card, API, and MCP.
+overview: 'kokofinance-net publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Cards API, Developers API, and 5 more. Tagged areas include Company, Fintech, Credit Cards, and MCP.
 
 
   The kokofinance-net catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -263,34 +277,48 @@ scopes:
   slug: kokofinance-net-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 63.1
+  band: developing
+  composite: 45.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 90.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 24.3
+    artifact_dirs: 30
+    catalog_earned: 72.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.5
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
+    access_clarity: 53.9
+    contract_governance: 22.0
     contract_quality: 58.6
-    developer_ergonomics: 68.3
-    discoverability: 57.1
-    operational_transparency: 24.2
+    developer_ergonomics: 42.3
+    discoverability: 48.2
+    operational_transparency: 23.7
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 27.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/kokofinance-net/kokofinance-net-2026-11-03T134504.png
 security:
 - kind: authentication
   name: Kokofinance Net Authentication
@@ -308,8 +336,7 @@ slug: kokofinance-net
 tags:
 - Company
 - Fintech
-- Credit-Card
-- API
+- Credit Cards
 - MCP
 website: https://kokofinance.net/
 ---

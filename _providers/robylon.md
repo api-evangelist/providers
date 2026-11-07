@@ -1,6 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +23,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 8.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Lets external systems interact with Robylon and trigger workflows, including voice and outbound automation. Operations are not enumerated here: no OpenAPI or other machine-readable contract is served,'
@@ -82,10 +92,10 @@ overview: 'Robylon AI is listed with 1 API on the [APIs.io](https://apis.io/) ne
   Robylon AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, and 4 more developer resources.'
 random_paper: 5
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 11.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -97,9 +107,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 55.0
+    discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 11.2
   provenance:
     mcp: first-party
   regulatory:
@@ -108,8 +118,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

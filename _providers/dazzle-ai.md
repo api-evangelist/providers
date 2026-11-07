@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Requires approval
   onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -23,7 +24,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.1
-  scored_at: '2026-10-31'
+  score: 12.2
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,9 +84,9 @@ overview: 'Dazzle AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 9
 score:
   band: minimal
-  composite: 8.7
+  composite: 9.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -96,9 +98,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 39.3
+    discoverability: 43.3
     operational_transparency: 0.0
-  previous_composite: 8.7
+  previous_composite: 9.2
   provenance:
     mcp: first-party
   regulatory:
@@ -107,8 +109,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

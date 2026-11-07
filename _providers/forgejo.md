@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 21.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -1041,9 +1045,9 @@ rules:
   slug: forgejo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.7
+  composite: 31.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 42.3
     catalog_earned_first_party: 0.0
     catalog_gap: 72.8
@@ -1053,11 +1057,11 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 38.1
+    contract_quality: 43.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 29.7
+    operational_transparency: 23.7
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1071,13 +1075,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/forgejo/forgejo-2026-06-20T181426.png
 security:
 - kind: authentication

@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -118,7 +119,7 @@ apis:
   description: The Users API from Kanmon — 3 operation(s) for users.
   name: Kanmon Users API
   slug: kanmon-users-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Kanmon Webhooks
@@ -304,30 +305,43 @@ network: true
 overview: 'Kanmon publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Businesses API, Connect Tokens API, and 11 more. Tagged areas include Company, Fintech, Embedded Finance, Embedded Lending, and Lending.
 
 
-  The Kanmon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Kanmon catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Kanmon''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 21 more developer resources.'
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Kanmon API Rules
+  rule_count: 70
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 2
+    warn: 6
+  slug: kanmon-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 43.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 21.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 54.0
     developer_ergonomics: 61.3
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 40.3
+    operational_transparency: 10.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,13 +358,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/kanmon/kanmon-2026-07-25T223455.png
 security:
 - kind: authentication

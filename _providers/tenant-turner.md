@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Tenant Turner lead scheduling software and rental automation API (documentation gated behind login).
@@ -33,6 +49,11 @@ apis:
   slug: tenant-turner-api
 artifact_total: 6
 common:
+- group: auth
+  href: https://artifacts.apis.io/tenant-turner/well-known/tenant-turner-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/tenant-turner-status-security.txt
 - group: commercial
   href: https://artifacts.apis.io/tenant-turner/plans/tenant-turner-plans-pricing.yml
   title: ''
@@ -43,11 +64,6 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/tenant-turner-changelog.yml
-- group: auth
-  href: https://artifacts.apis.io/tenant-turner/well-known/tenant-turner-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/tenant-turner-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/tenant-turner/well-known/tenant-turner-well-known.yml
   title: ''
@@ -132,7 +148,7 @@ modified: '2026-10-28'
 name: Tenant Turner
 nav: Providers
 network: true
-overview: 'Tenant Turner is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Leasing, Property-Management, Automation, AI, and SaaS.
+overview: 'Tenant Turner is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Leasing, Property Management, Automation, Artificial Intelligence, and Software-as-a-Service.
 
 
   Tenant Turner''s developer surface includes changelog, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
@@ -151,22 +167,30 @@ scopes:
   slug: tenant-turner-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.6
+  band: emerging
+  composite: 22.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.3
   facets:
-    access_clarity: 65.8
+    access_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 14.3
     discoverability: 57.1
-    operational_transparency: 47.4
+    operational_transparency: 28.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 32.6
   provenance:
     conformance: unknown
     mcp: derived
@@ -175,13 +199,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/tenant-turner/tenant-turner-2026-11-03T144426.png
 security:
 - kind: authentication
   name: Tenant Turner Authentication
@@ -194,9 +220,9 @@ security:
 slug: tenant-turner
 tags:
 - Leasing
-- Property-Management
+- Property Management
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 website: https://tenantturner.com/
 ---

@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Requires approval
-  onboarding: approval
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
@@ -29,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -39,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-31'
+  score: 49.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
@@ -235,9 +236,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.2
+  composite: 48.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -249,8 +250,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 38.1
-    discoverability: 65.0
-    operational_transparency: 13.2
+    discoverability: 75.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -259,7 +260,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 48.2
+  previous_composite: 48.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -273,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

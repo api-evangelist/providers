@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Partner-only integration surface advertised through the Carahsoft Developer Center covering accounts, quotes, orders, invoices, price lists, purchase orders, and resource distribution. Access requires
@@ -94,9 +96,9 @@ overview: 'Carahsoft is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 19
 score:
   band: minimal
-  composite: 9.6
+  composite: 9.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -109,16 +111,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 5.3
-  previous_composite: 9.6
+    operational_transparency: 2.6
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

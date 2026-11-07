@@ -26,18 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-31'
+  score: 30.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,7 +68,7 @@ apis:
   description: The User Data API from Rho Protocol — 12 operation(s) for user data.
   name: Rho Protocol User Data API
   slug: rho-protocol-user-data-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: Real-time streaming of market data, order updates, and account state for Rho X (Rho Exchange). Private channels require a WS session token (POST /auth-api/v1/ws-session).
   name: Rho X WebSocket API
@@ -228,7 +229,7 @@ network: true
 overview: 'Rho Protocol publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Market Data API, Stats API, Trading API, and 1 more. Tagged areas include Company, Trading, DeFi, Derivatives, and Capital Markets.
 
 
-  The Rho Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Rho Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Rho Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 21 more developer resources.'
@@ -237,25 +238,38 @@ rate_limits:
 - limit_count: 1
   name: Rho Protocol Rate Limits
   slug: rho-protocol-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Rho Protocol API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: rho-protocol-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 39.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 45.0
+    artifact_dirs: 23
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 50.8
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 42.1
-  previous_composite: 37.7
+    discoverability: 73.2
+    operational_transparency: 39.5
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,13 +286,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rho-protocol/rho-protocol-2026-09-02T153758.png
 security:
 - kind: authentication

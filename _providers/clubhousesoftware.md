@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -261,9 +273,9 @@ rules:
   slug: clubhousesoftware-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 18.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 41.8
     catalog_earned_first_party: 0.0
     catalog_gap: 73.3
@@ -273,18 +285,24 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 55.7
+    contract_quality: 24.3
     developer_ergonomics: 13.7
     discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 24.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: venue_as_website
+  previous_composite: 18.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 25
+      marker_coverage: 100.0
       total: 25
     mcp: derived
     skills: derived
@@ -294,13 +312,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/clubhousesoftware/clubhousesoftware-2026-11-03T124614.png
 security:
 - kind: authentication
   name: Clubhousesoftware Authentication

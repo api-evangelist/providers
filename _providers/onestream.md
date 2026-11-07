@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'RESTful JSON web service exposing OneStream Data Automation functions: Authentication, Data Management (ExecuteSequence, ExecuteStep), and Data Provider (ADO datasets from adapters, Cube Views, SQL, a'
@@ -164,7 +166,7 @@ overview: 'OneStream is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 14
 score:
   band: thin
-  composite: 35.1
+  composite: 35.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -178,9 +180,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 35.1
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -190,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

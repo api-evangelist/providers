@@ -7,10 +7,11 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 17.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Public gRPC-Web / REST gateway (sgn.gateway.v1.Web) for the cBridge cross-chain bridge: chain and token discovery, transfer fee estimation, transfer status, transfer history, and signed liquidity with'
@@ -159,10 +161,10 @@ overview: 'Celer Network is listed with 1 API on the [APIs.io](https://apis.io/)
   Celer Network''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
 random_paper: 2
 score:
-  band: emerging
-  composite: 20.7
+  band: thin
+  composite: 27.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -172,11 +174,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 51.8
-    discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 20.7
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: derived
@@ -187,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

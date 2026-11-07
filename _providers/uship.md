@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -199,10 +200,10 @@ overview: 'uShip is listed with 8 APIs on the [APIs.io](https://apis.io/) networ
   uShip''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 18 more developer resources.'
 random_paper: 1
 score:
-  band: developing
-  composite: 44.4
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -213,9 +214,9 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 71.4
-    operational_transparency: 28.9
+    developer_ergonomics: 26.2
+    discoverability: 78.6
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -223,7 +224,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.4
+  previous_composite: 37.2
   provenance:
     conformance: derived
   regulatory:
@@ -232,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +257,7 @@ tags:
 - Freight
 - Marketplace
 - Transportation
-- auto-transport
+- AutoTransport
 - ltl-freight
 - Last Mile Delivery
 - Shipment Tracking

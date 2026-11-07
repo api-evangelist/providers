@@ -1,14 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Free — public repository reads are keyless; deposit and identity are affiliation-gated
-  onboarding: unknown
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
   pricing: free
-  public: true
+  public: false
   source:
   - plans
+  - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Queen's runs its own Shibboleth Identity Provider and publishes SAML 2.0 IdP metadata as application/xml at a stable, unauthenticated URL on its own registrable domain. The EntityDescriptor carries en
@@ -206,7 +212,7 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -236,8 +242,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

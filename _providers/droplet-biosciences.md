@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The WordPress core REST API served from the company''s marketing site. It is live, anonymous for published content, and self-describing: the discovery document at /wp-json/ lists 472 routes across 19 n'
@@ -169,7 +170,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -183,9 +184,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.7
+    discoverability: 69.2
     operational_transparency: 0.0
-  previous_composite: 20.7
+  previous_composite: 21.0
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -195,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

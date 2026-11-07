@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
   - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -26,18 +29,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: templated
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-31'
+  score: 51.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -166,7 +170,7 @@ apis:
     question: Which data sources are connected to my lakehouse?
   phrasing_ops: 1
   slug: dremio-intelligent-lakehouse-platform-sources-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Dremio Intelligent Lakehouse REST Authentication API
@@ -421,6 +425,9 @@ network: true
 overview: 'Dremio | Intelligent Lakehouse Platform publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Catalog API, Jobs API, and 6 more. Tagged areas include Data, Analytics, Lakehouse, Apache Iceberg, and SQL.
 
 
+  The Dremio | Intelligent Lakehouse Platform catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Dremio | Intelligent Lakehouse Platform''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Dremio Intelligent Lakehouse Platform Plans Pricing
@@ -431,6 +438,19 @@ rate_limits:
 - limit_count: 9
   name: Dremio Intelligent Lakehouse Platform Rate Limits
   slug: dremio-intelligent-lakehouse-platform-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Dremio | Intelligent Lakehouse Platform API Rules
+  rule_count: 49
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 1
+  slug: dremio-intelligent-lakehouse-platform-rules
 scopes:
 - name: Dremio Intelligent Lakehouse Platform Scopes
   scope_count: 2
@@ -438,28 +458,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode/tokenExchange
 score:
   band: exemplar
-  composite: 68.1
+  composite: 69.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 89.5
-    contract_governance: 18.2
-    contract_quality: 42.2
+    contract_governance: 31.8
+    contract_quality: 44.8
     developer_ergonomics: 80.4
-    discoverability: 71.7
-    operational_transparency: 78.9
+    discoverability: 68.3
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 68.7
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -476,13 +496,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/dremio-intelligent-lakehouse-platform/dremio-intelligent-lakehouse-platform-2026-06-20T180225.png
 security:
 - kind: authentication

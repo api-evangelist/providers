@@ -1,31 +1,43 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-10-31'
+  score: 22.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -75,8 +87,42 @@ apis:
   description: The Version API from ZincSearch — 1 operation(s) for version.
   name: ZincSearch Version API
   slug: zincsearch-version-api
-artifact_total: 12
+artifact_total: 36
 common:
+- group: design
+  href: https://artifacts.apis.io/zincsearch/json-ld/zincsearch-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/zincsearch-context.jsonld
+- group: build
+  href: https://artifacts.apis.io/zincsearch/integrations/zincsearch-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/zincsearch-integration-edges.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://openobserve.ai/legal/privacy-policy/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://openobserve.ai/pricing/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://openobserve.ai/docs/getting-started/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://openobserve.ai/whats-new/
+- group: company
+  title: ''
+  type: Blog
+  url: https://openobserve.ai/blog/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://openobserve.ai/docs/reference/api/
 - group: agent
   href: https://artifacts.apis.io/zincsearch/agentic-access/zincsearch-agentic-access.yml
   title: ''
@@ -166,6 +212,81 @@ common:
 created: '2026-10-13'
 description: ZincSearch is an open source, self-hosted, lightweight full-text search engine written in Go (Apache 2.0) with an Elasticsearch-compatible ingestion and search API, built by Zinc Labs. The company now develops OpenObserve as its successor, and zincsearch.com redirects to openobserve.ai.
 image: https://openobserve.ai/o2-seo-image.png
+json_schemas:
+- name: auth.LoginRequest
+  property_count: 2
+  slug: zincsearch-auth-login-request
+- name: auth.LoginResponse
+  property_count: 2
+  slug: zincsearch-auth-login-response
+- name: auth.LoginUser
+  property_count: 3
+  slug: zincsearch-auth-login-user
+- name: auth.UpdateAccountRequest
+  property_count: 4
+  slug: zincsearch-auth-update-account-request
+- name: index.AnalyzeResponse
+  property_count: 1
+  slug: zincsearch-index-analyze-response
+- name: index.IndexListResponse
+  property_count: 2
+  slug: zincsearch-index-index-list-response
+- name: meta.HealthzResponse
+  property_count: 1
+  slug: zincsearch-meta-healthz-response
+- name: meta.Hit
+  property_count: 8
+  slug: zincsearch-meta-hit
+- name: meta.HTTPResponseDeleteByQuery
+  property_count: 12
+  slug: zincsearch-meta-httpresponse-delete-by-query
+- name: meta.HTTPResponseDocument
+  property_count: 3
+  slug: zincsearch-meta-httpresponse-document
+- name: meta.HTTPResponseID
+  property_count: 2
+  slug: zincsearch-meta-httpresponse-id
+- name: meta.HTTPResponseRecordCount
+  property_count: 2
+  slug: zincsearch-meta-httpresponse-record-count
+- name: meta.IndexSettings
+  property_count: 3
+  slug: zincsearch-meta-index-settings
+- name: meta.IndexSimple
+  property_count: 5
+  slug: zincsearch-meta-index-simple
+- name: meta.IndexTemplate
+  property_count: 5
+  slug: zincsearch-meta-index-template
+- name: meta.JSONIngest
+  property_count: 2
+  slug: zincsearch-meta-jsoningest
+- name: meta.Mappings
+  property_count: 1
+  slug: zincsearch-meta-mappings
+- name: meta.Role
+  property_count: 6
+  slug: zincsearch-meta-role
+- name: meta.SearchResponse
+  property_count: 6
+  slug: zincsearch-meta-search-response
+- name: meta.User
+  property_count: 7
+  slug: zincsearch-meta-user
+- name: meta.VersionResponse
+  property_count: 5
+  slug: zincsearch-meta-version-response
+- name: meta.ZincQueryForSDK
+  property_count: 11
+  slug: zincsearch-meta-zinc-query-for-sdk
+- name: v1.ZincQueryForSDK
+  property_count: 9
+  slug: zincsearch-v1-zinc-query-for-sdk
+jsonld:
+- class_count: 74
+  name: Zincsearch Context
+  property_count: 174
+  slug: zincsearch-context
 layout: provider
 modified: '2026-10-14'
 name: ZincSearch
@@ -174,43 +295,43 @@ network: true
 overview: 'ZincSearch publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Document API, Healthz API, Index API, and 5 more. Tagged areas include Company, Search, Full-Text Search, Open Source, and Self-Hosted.
 
 
-  The ZincSearch catalog on APIs.io includes 1 Spectral governance ruleset.
+  The ZincSearch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ZincSearch''s developer surface includes authentication, documentation, and 16 more developer resources.'
+  ZincSearch''s developer surface includes pricing, getting-started guide, changelog, engineering blog, API reference, authentication, documentation, and 19 more developer resources.'
 random_paper: 10
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 100
   extends:
   - spectral:oas
   name: ZincSearch API Rules
-  rule_count: 10
+  rule_count: 59
   severity_counts:
-    error: 8
+    error: 52
     hint: 0
     info: 1
-    warn: 1
+    warn: 6
   slug: zincsearch-rules
 score:
-  band: thin
-  composite: 26.2
+  band: developing
+  composite: 40.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.8
+    artifact_dirs: 21
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 11.1
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 22.0
-    contract_quality: 39.0
-    developer_ergonomics: 35.7
-    discoverability: 57.1
-    operational_transparency: 5.3
-  previous_composite: 26.7
+    contract_quality: 54.5
+    developer_ergonomics: 41.7
+    discoverability: 64.3
+    operational_transparency: 18.4
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,14 +346,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/zincsearch/zincsearch-2026-11-03T150559.png
 security:
 - kind: authentication
   name: Zincsearch Authentication

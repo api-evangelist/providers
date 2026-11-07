@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Paid · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -91,7 +96,7 @@ apis:
   description: Customer vehicles serviced by the shop.
   name: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Tekmetric Appointments API
@@ -212,6 +217,9 @@ network: true
 overview: 'Tekmetric publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Canned Jobs API, Customers API, and 6 more. Tagged areas include Automotive, Auto Repair, Shop Management, Fleet Management, and Vertical SaaS.
 
 
+  The Tekmetric catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Tekmetric''s developer surface includes engineering blog, pricing, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Tekmetric Plans Pricing
@@ -225,6 +233,19 @@ rate_limits:
 - limit_count: 2
   name: Tekmetric Rate Limits
   slug: tekmetric-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Tekmetric API Rules
+  rule_count: 64
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 1
+    warn: 1
+  slug: tekmetric-rules
 scopes:
 - name: Tekmetric Scopes
   scope_count: 0
@@ -232,23 +253,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.7
+  composite: 34.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 51.0
+    artifact_dirs: 18
+    catalog_earned: 55.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 64.0
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 50.0
-    contract_governance: 0.0
+    access_clarity: 44.7
+    contract_governance: 13.6
     contract_quality: 48.0
-    developer_ergonomics: 25.0
+    developer_ergonomics: 15.5
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 36.7
+    operational_transparency: 7.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +283,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tekmetric/tekmetric-2026-09-02T162726.png
 security:
 - kind: authentication

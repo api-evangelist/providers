@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: mostly
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-31'
+  score: 37.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -147,11 +152,6 @@ apis:
   slug: amazon-q-importjobs-api
 - baseURL: https://qbusiness.{region}.amazonaws.com
   baseurl_source: declared
-  description: The Q Knowledgebases API from Amazon Q — 2 operation(s) for q knowledgebases.
-  name: Amazon Q Q Knowledgebases API
-  slug: amazon-q-knowledgebases-api
-- baseURL: https://qbusiness.{region}.amazonaws.com
-  baseurl_source: declared
   description: The Q Messagetemplates API from Amazon Q — 2 operation(s) for q messagetemplates.
   name: Amazon Q Q Messagetemplates API
   slug: amazon-q-messagetemplates-api
@@ -210,6 +210,11 @@ apis:
   description: The Q Versions API from Amazon Q — 7 operation(s) for q versions.
   name: Amazon Q Q Versions API
   slug: amazon-q-versions-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Knowledge Bases API from Amazon Q — 2 operation(s) for knowledge bases.
+  name: Amazon Q Knowledge Bases API
+  slug: amazon-q-knowledge-bases-api
 artifact_total: 80
 collections:
 - collection_type: postman
@@ -591,7 +596,7 @@ modified: '2026-09-16'
 name: Amazon Q
 nav: Providers
 network: true
-overview: 'Amazon Q publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 31 more. Tagged areas include Artificial Intelligence, Assistant, Enterprise, and Generative AI.
+overview: 'Amazon Q publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 31 more. Tagged areas include Artificial Intelligence, Assistant, Amazon Web Services, Enterprise, and Generative AI.
 
 
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -635,29 +640,32 @@ rules:
     warn: 15
   slug: amazon-q-spectral-rules
 score:
-  band: strong
-  composite: 66.0
+  band: exemplar
+  composite: 68.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 69.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 1.9
   facets:
     access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 58.6
-    developer_ergonomics: 72.6
-    discoverability: 57.1
-    operational_transparency: 55.3
+    contract_quality: 66.8
+    developer_ergonomics: 70.2
+    discoverability: 66.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 63.7
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -671,13 +679,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/amazon-q/amazon-q-2026-06-20T171808.png
 security:
 - kind: authentication
@@ -700,6 +707,7 @@ slug: amazon-q
 tags:
 - Artificial Intelligence
 - Assistant
+- Amazon Web Services
 - Enterprise
 - Generative AI
 website: https://aws.amazon.com/q/

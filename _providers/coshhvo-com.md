@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Free worksheets that size and price a firm's risk assessment and COSHH programme from its own activities and substances, plus a paid plan for record keeping.
@@ -153,7 +169,7 @@ modified: '2026-10-29'
 name: coshhvo-com
 nav: Providers
 network: true
-overview: 'coshhvo-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Safety, RiskAssessment, and COSHH.
+overview: 'coshhvo-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Safety, Risk Assessment, and COSHH.
 
 
   coshhvo-com''s developer surface includes authentication, API reference, support, pricing, and 19 more developer resources.'
@@ -172,22 +188,30 @@ scopes:
   slug: coshhvo-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 29.4
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 46.3
     catalog_earned_first_party: 8.0
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 8.3
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 65.0
-    operational_transparency: 10.5
+    developer_ergonomics: 25.0
+    discoverability: 75.0
+    operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 30.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -196,13 +220,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 34.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/coshhvo-com/coshhvo-com-2026-11-03T125411.png
 security:
 - kind: authentication
   name: Coshhvo Com Authentication
@@ -221,7 +247,7 @@ tags:
 - Company
 - Health
 - Safety
-- RiskAssessment
+- Risk Assessment
 - COSHH
 - Software
 website: https://coshhvo.com/

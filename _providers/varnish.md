@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://varnish-cache.org/'', ''status'': 302, ''note'': ''declared website redirects to https://www.varnish.org/ — a different registrable domain (varnish-cache.org -> varnish.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: The Varnish Cache CLI management interface provides programmatic control over a running Varnish instance. It is accessible via varnishadm or TCP socket and supports configuration management (VCL load/
@@ -183,9 +185,9 @@ rate_limits:
   slug: varnish-rate-limits
 score:
   band: emerging
-  composite: 17.3
+  composite: 17.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -198,16 +200,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 17.3
+    operational_transparency: 26.3
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

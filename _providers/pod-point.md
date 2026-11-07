@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Pod''s Open Charge Point Interface (OCPI) 2.2.1 service in the Charge Point Operator role, used for e-mobility roaming and as the technical vehicle named by the UK Public Charge Point Regulations 2023 '
@@ -184,9 +185,9 @@ overview: 'Pod Point is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 10
 score:
   band: thin
-  composite: 27.1
+  composite: 26.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,9 +198,9 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 42.9
-    discoverability: 66.1
-    operational_transparency: 15.8
+    developer_ergonomics: 39.3
+    discoverability: 73.2
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -208,7 +209,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 27.1
+  previous_composite: 26.8
   provenance:
     conformance: first-party
   regulatory:
@@ -217,8 +218,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

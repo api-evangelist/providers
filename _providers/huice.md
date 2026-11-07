@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Wangdiantong (旺店通) ERP Open Platform HTTP API (openapi2). Endpoints are named PHP methods (e.g. trade_push.php, trade_query.php, goods_push.php, stock_query.php) grouped into basics (shops/warehou
@@ -122,7 +125,7 @@ overview: 'Huice is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 22
 score:
   band: emerging
-  composite: 16.6
+  composite: 17.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -136,7 +139,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,15 +148,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 16.6
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

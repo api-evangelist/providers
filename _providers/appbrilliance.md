@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -9,23 +19,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: documented
+    idempotency: na
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.1
-  scored_at: '2026-10-31'
+  score: 15.0
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Real-Time Funding API providing transaction operations.
@@ -41,7 +52,7 @@ apis:
   description: The Transaction API from AppBrilliance — 1 operation(s) for transaction.
   name: AppBrilliance Transaction API
   slug: appbrilliance-transaction-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   href: https://artifacts.apis.io/appbrilliance/security/appbrilliance-domain-security.yml
@@ -90,27 +101,43 @@ network: true
 overview: 'AppBrilliance is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Ping API, Transaction API, and 1 more. Tagged areas include Payments, Fintech, Agentic Payments, Open Banking, and Enterprise.
 
 
+  The AppBrilliance catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   AppBrilliance''s developer surface includes documentation, API reference, getting-started guide, support, and 3 more developer resources.'
 random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: AppBrilliance API Rules
+  rule_count: 38
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 1
+  slug: appbrilliance-rules
 score:
   band: emerging
-  composite: 15.7
+  composite: 14.5
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 33.0
+    artifact_dirs: 8
+    catalog_earned: 37.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
-    catalog_max: 115.0
+    catalog_gap: 62.5
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 10.5
-    contract_governance: 0.0
+    access_clarity: 14.3
+    contract_governance: 13.6
     contract_quality: 11.7
-    developer_ergonomics: 33.3
+    developer_ergonomics: 16.7
     discoverability: 58.9
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 21.0
   provenance:
     contracts:
       callable: 100.0
@@ -123,14 +150,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 6.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/appbrilliance/appbrilliance-2026-10-11T095953.png
 security:
 - kind: domain-security

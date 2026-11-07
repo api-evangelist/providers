@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,21 +36,26 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
-- group: agent
-  href: https://artifacts.apis.io/alpian/llms/alpian-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/alpian-llms.txt
 - group: auth
   href: https://artifacts.apis.io/alpian/well-known/alpian-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alpian-clarity-security.txt
+- group: build
+  href: https://artifacts.apis.io/alpian/integrations/alpian-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/alpian-integration-edges.yml
+- group: agent
+  href: https://artifacts.apis.io/alpian/llms/alpian-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/alpian-llms.txt
 - group: agent
   href: https://artifacts.apis.io/alpian/well-known/alpian-well-known.yml
   title: ''
@@ -104,7 +121,7 @@ network: true
 overview: 'Alpian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Savings, Investing, Pillar 3a, and Multi-Currency.
 
 
-  Alpian''s developer surface includes pricing and 13 more developer resources.'
+  Alpian''s developer surface includes pricing and 14 more developer resources.'
 plans:
 - name: Alpian Plans Pricing
   plan_count: 9
@@ -112,23 +129,23 @@ plans:
 random_paper: 5
 score:
   band: emerging
-  composite: 17.4
+  composite: 13.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 34.0
     catalog_earned_first_party: 12.0
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 41.1
-    operational_transparency: 10.5
-  previous_composite: 17.4
+    discoverability: 47.3
+    operational_transparency: 5.3
+  previous_composite: 18.1
   provenance:
     mcp: unknown
   regulatory:
@@ -136,9 +153,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

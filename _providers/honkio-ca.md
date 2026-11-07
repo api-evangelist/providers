@@ -1,10 +1,24 @@
 ---
+access_model:
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 61.4
-  scored_at: '2026-10-31'
+  score: 57.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 8
@@ -332,34 +347,54 @@ rules:
     warn: 5
   slug: honkio-ca-rules
 score:
-  band: strong
-  composite: 58.8
+  band: developing
+  composite: 43.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 92.1
-    catalog_earned_first_party: 0.0
-    catalog_gap: 22.9
+    artifact_dirs: 28
+    catalog_earned: 78.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 36.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.5
   facets:
-    access_clarity: 63.7
-    contract_governance: 79.1
-    contract_quality: 59.2
-    developer_ergonomics: 50.0
+    access_clarity: 43.4
+    contract_governance: 22.0
+    contract_quality: 62.2
+    developer_ergonomics: 34.5
     discoverability: 65.0
-    operational_transparency: 40.0
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/honkio-ca/honkio-ca-2026-11-03T133439.png
 security:
 - kind: authentication
   name: Honkio Ca Authentication

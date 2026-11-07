@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -124,7 +127,7 @@ apis:
   description: The P2P communication between chainweb-nodes is sharded into several independent P2P network. The `cut` network is exchanging consensus state. There is also one mempool P2P network for each chain.
   name: Kadena Peer API
   slug: kadena-peer-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: Kadena Chainweb Node block API
@@ -299,16 +302,32 @@ network: true
 overview: 'Kadena publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Block API, Blockhash API, Config API, and 13 more. Tagged areas include Company, Web3, Blockchain, Smart Contracts, and Proof of Work.
 
 
+  The Kadena catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
 random_paper: 12
+rules:
+- authorship: generated
+  effective_rule_count: 87
+  extends:
+  - spectral:oas
+  name: Kadena API Rules
+  rule_count: 46
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 3
+    warn: 10
+  slug: kadena-rules
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -327,7 +346,7 @@ score:
     contracts:
       callable: 62.5
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 62.5
       total: 16
     mcp: derived
   regulatory:
@@ -336,13 +355,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/kadena/kadena-2026-07-25T223401.png
 security:
 - kind: domain-security

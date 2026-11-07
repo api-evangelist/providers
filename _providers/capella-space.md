@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Self-serve signup
   onboarding: self-serve
   pricing: free
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-31'
+  score: 20.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -86,7 +90,7 @@ apis:
   description: The Tiles API from Capella Space — 1 operation(s) for tiles.
   name: Capella Space Tiles API
   slug: capella-space-tiles-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: open
   name: Capella Space Collects API
@@ -269,6 +273,9 @@ network: true
 overview: 'Capella Space publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collects API, Keys API, Orders API, and 6 more. Tagged areas include Synthetic Aperture Radar, SAR, Earth Observation, Satellite Imagery, and Geospatial.
 
 
+  The Capella Space catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Capella Space''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Capella Space Plans Pricing
@@ -279,25 +286,38 @@ rate_limits:
 - limit_count: 2
   name: Capella Space Rate Limits
   slug: capella-space-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Capella Space API Rules
+  rule_count: 50
+  severity_counts:
+    error: 48
+    hint: 0
+    info: 1
+    warn: 1
+  slug: capella-space-rules
 score:
   band: thin
-  composite: 37.5
+  composite: 33.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 13.2
+    contract_governance: 13.6
     contract_quality: 45.9
-    developer_ergonomics: 61.9
-    discoverability: 67.9
-    operational_transparency: 10.5
-  previous_composite: 37.5
+    developer_ergonomics: 52.4
+    discoverability: 67.0
+    operational_transparency: 7.9
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -311,13 +331,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/capella-space/capella-space-2026-06-20T173938.png
 security:
 - kind: authentication

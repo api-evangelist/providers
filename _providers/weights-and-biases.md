@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -98,7 +102,7 @@ apis:
   description: The Tables API from Weights & Biases — 4 operation(s) for tables.
   name: Weights & Biases Tables API
   slug: weights-and-biases-tables-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: Fast Calls API
@@ -234,6 +238,9 @@ network: true
 overview: 'Weights & Biases publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 8 more. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Model Registry, and Generative AI.
 
 
+  The Weights & Biases catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 15 more developer resources.'
 plans:
 - name: Weights And Biases Plans Pricing
@@ -247,25 +254,41 @@ rate_limits:
 - limit_count: 1
   name: Weights And Biases Rate Limits
   slug: weights-and-biases-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Weights & Biases API Rules
+  rule_count: 51
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 4
+  slug: weights-and-biases-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 47.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.0
+    artifact_dirs: 15
+    catalog_earned: 58.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 46.7
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 38.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -279,13 +302,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/weights-and-biases/weights-and-biases-2026-06-20T201349.png
 security:
 - kind: authentication

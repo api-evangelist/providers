@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Programmatic API for Squaredup observability platform.
@@ -36,6 +52,11 @@ apis:
   slug: squaredup-com-api
 artifact_total: 13
 common:
+- group: auth
+  href: https://artifacts.apis.io/squaredup-com/well-known/squaredup-com-vercel-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/squaredup-com-vercel-security.txt
 - group: auth
   href: https://artifacts.apis.io/squaredup-com/well-known/squaredup-com-squaredup-security.txt
   title: ''
@@ -196,11 +217,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/squaredup-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/squaredup-com/well-known/squaredup-com-vercel-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/squaredup-com-vercel-security.txt
 - group: agent
   href: https://artifacts.apis.io/squaredup-com/well-known/squaredup-com-well-known.yml
   title: ''
@@ -313,7 +329,7 @@ modified: '2026-10-30'
 name: squaredup-com
 nav: Providers
 network: true
-overview: 'squaredup-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Observability, Dashboards, Monitoring, IT Operations, and SaaS.
+overview: 'squaredup-com is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Observability, Dashboards, Monitoring, IT Operations, and Software-as-a-Service.
 
 
   The squaredup-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -331,16 +347,16 @@ rate_limits:
   slug: squaredup-com-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: squaredup-com API Rules
-  rule_count: 11
+  rule_count: 41
   severity_counts:
-    error: 10
+    error: 39
     hint: 0
     info: 1
-    warn: 0
+    warn: 1
   slug: squaredup-com-rules
 scopes:
 - name: Squaredup Com Scopes
@@ -349,41 +365,50 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
+  composite: 39.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 63.0
+    artifact_dirs: 31
+    catalog_earned: 63.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.0
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.1
   facets:
-    access_clarity: 76.3
-    contract_governance: 19.7
+    access_clarity: 53.9
+    contract_governance: 22.0
     contract_quality: 20.1
-    developer_ergonomics: 64.3
-    discoverability: 57.1
-    operational_transparency: 52.6
+    developer_ergonomics: 41.7
+    discoverability: 64.3
+    operational_transparency: 39.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 13
+      derived: 1
       marker_coverage: 100.0
-      total: 13
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/squaredup-com/squaredup-com-2026-11-03T143701.png
 security:
 - kind: authentication
   name: Squaredup Com Authentication
@@ -399,7 +424,7 @@ tags:
 - Dashboards
 - Monitoring
 - IT Operations
-- SaaS
+- Software-as-a-Service
 - B2B
 website: https://squaredup.com/
 ---

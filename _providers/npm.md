@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,10 +15,10 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -27,17 +30,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    mcp_tool_quality: na
+    openapi_examples: partial
     operation_distinctiveness: distinct
-    pagination_ratio: partial
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.1
-  scored_at: '2026-10-31'
+  score: 28.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -45,7 +49,7 @@ agentic_access:
   operation_count: 17
   slug: npm-agentic-access
   summary_line: 17 operations · 8 acting
-api_count: 1
+api_count: 3
 apis:
 - baseURL: https://registry.npmjs.org
   baseurl_source: declared
@@ -93,7 +97,42 @@ apis:
   description: Configure trusted publisher settings for packages to enable OIDC token exchange from CI/CD providers without long-lived npm tokens.
   name: npm Trusted Publishers API
   slug: npm-trusted-publishers-api
-artifact_total: 58
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Access API from npm — 5 operation(s) for access.
+  name: npm Access API
+  slug: npm-access-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Audit API from npm — 1 operation(s) for audit.
+  name: npm Audit API
+  slug: npm-audit-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Org API from npm — 2 operation(s) for org.
+  name: npm Org API
+  slug: npm-org-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Publish API from npm — 1 operation(s) for publish.
+  name: npm Publish API
+  slug: npm-publish-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Stage API from npm — 5 operation(s) for stage.
+  name: npm Stage API
+  slug: npm-stage-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: The Team API from npm — 3 operation(s) for team.
+  name: npm Team API
+  slug: npm-team-api
+- baseURL: https://registry.npmjs.org
+  baseurl_source: declared
+  description: Trust-related endpoints for managing package trust and security settings.
+  name: npm Trust API
+  slug: npm-trust-api
+artifact_total: 82
 asyncapis:
 - description: The npm Hooks event system delivers HTTP POST payloads to subscriber endpoints whenever changes occur in the npm registry. Hooks can be configured to watch for changes to individual packages, all pack
   name: npm Hooks Events
@@ -151,6 +190,114 @@ collections:
   name: npm Hooks Downloads Trusted Publishers API
   slug: open-npm-trusted-publishers-api
 common:
+- group: agent
+  href: https://artifacts.apis.io/npm/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://artifacts.apis.io/npm/overlays/npm-registry-reference-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/npm-registry-reference-overlay.yaml
+- group: design
+  href: https://artifacts.apis.io/npm/rules/npm-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/npm-rules.yml
+- group: design
+  href: https://artifacts.apis.io/npm/rules/npm-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/npm-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/npm/rules/npm-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/npm-asyncapi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/npm/json-ld/npm-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/npm-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/npm/vocabulary/npm-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/npm-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/npm/data-model/npm-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/npm-data-model.yml
+- group: build
+  href: https://artifacts.apis.io/npm/cli/npm-cli.yml
+  title: ''
+  type: CLI
+  url: cli/npm-cli.yml
+- group: operate
+  href: https://artifacts.apis.io/npm/changelog/npm-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/npm-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/npm/conventions/npm-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/npm-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.npmjs.org/deprecating-and-undeprecating-packages-or-package-versions
+- group: design
+  href: https://artifacts.apis.io/npm/lifecycle/npm-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/npm-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/npm/errors/npm-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/npm-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/npm/conformance/npm-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/npm-conformance.yml
+- group: auth
+  href: https://artifacts.apis.io/npm/well-known/npm-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/npm-status-security.txt
+- group: agent
+  href: https://artifacts.apis.io/npm/well-known/npm-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/npm-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/npm/hosts/npm-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/npm-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/npm/vendors/npm-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/npm-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/npm/packages/npm-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/npm-packages.yml
+- group: build
+  href: https://artifacts.apis.io/npm/packages/npm-packages.yml
+  title: ''
+  type: Packages
+  url: packages/npm-packages.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.npmjs.org/getting-started
 - group: commercial
   href: https://artifacts.apis.io/npm/plans/npm-plans-pricing.yml
   title: ''
@@ -281,9 +428,24 @@ json_schemas:
 - name: HookUpdateRequest
   property_count: 2
   slug: npm-hookupdaterequest
+- name: OidcConfigsCreate
+  property_count: 0
+  slug: npm-oidc-configs-create
+- name: OidcConfigs
+  property_count: 0
+  slug: npm-oidc-configs
+- name: PackageDocument
+  property_count: 16
+  slug: npm-package-document
 - name: npm Package Document
   property_count: 17
   slug: npm-package
+- name: PackageVersion
+  property_count: 19
+  slug: npm-package-version
+- name: PackageVersionStatus
+  property_count: 3
+  slug: npm-package-version-status
 - name: PackageDocument
   property_count: 16
   slug: npm-packagedocument
@@ -299,21 +461,45 @@ json_schemas:
 - name: Repository
   property_count: 2
   slug: npm-repository
+- name: SearchResults
+  property_count: 3
+  slug: npm-search-results
 - name: SearchResultItem
   property_count: 3
   slug: npm-searchresultitem
 - name: SearchResults
   property_count: 3
   slug: npm-searchresults
+- name: StagePackageList
+  property_count: 4
+  slug: npm-stage-package-list
+- name: StagePackageVersion
+  property_count: 10
+  slug: npm-stage-package-version
+- name: StagedPackumentRequest
+  property_count: 18
+  slug: npm-staged-packument-request
+- name: TokenCreateRequest
+  property_count: 4
+  slug: npm-token-create-request
 - name: Token
   property_count: 7
   slug: npm-token
+- name: TokenWithValue
+  property_count: 7
+  slug: npm-token-with-value
 - name: TokenCreateRequest
   property_count: 4
   slug: npm-tokencreaterequest
 - name: TokenWithValue
-  property_count: 0
+  property_count: 1
   slug: npm-tokenwithvalue
+- name: TrustedPublisherRequest
+  property_count: 5
+  slug: npm-trusted-publisher-request
+- name: TrustedPublisher
+  property_count: 7
+  slug: npm-trusted-publisher
 - name: TrustedPublisher
   property_count: 7
   slug: npm-trustedpublisher
@@ -334,13 +520,13 @@ modified: '2026-05-19'
 name: npm
 nav: Providers
 network: true
-overview: 'npm publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Registry API, Hooks API, Downloads API, and 7 more. Tagged areas include Packages, JavaScript, Node.js, Package Management, and Registry.
+overview: 'npm publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Registry API, Hooks API, Downloads API, and 14 more. Tagged areas include Packages, JavaScript, Node.js, Package Management, and Registry.
 
 
-  The npm catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The npm catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  npm''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 18 more developer resources.'
+  npm''s developer surface includes CLI, changelog, getting-started guide, authentication, developer portal, documentation, engineering blog, and 38 more developer resources.'
 plans:
 - name: Npm Plans Pricing
   plan_count: 4
@@ -374,45 +560,59 @@ rules:
     info: 2
     warn: 4
   slug: npm-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 114
+  extends:
+  - spectral:oas
+  name: npm API Rules
+  rule_count: 73
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 8
+    warn: 11
+  slug: npm-rules
 score:
-  band: developing
-  composite: 49.7
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.9
+    artifact_dirs: 39
+    catalog_earned: 63.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 11.0
   facets:
     access_clarity: 50.0
-    contract_governance: 13.6
-    contract_quality: 65.4
-    developer_ergonomics: 39.3
-    discoverability: 64.3
-    operational_transparency: 39.5
-  previous_composite: 48.1
+    contract_governance: 22.0
+    contract_quality: 71.8
+    developer_ergonomics: 67.3
+    discoverability: 69.6
+    operational_transparency: 63.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 15
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/npm/npm-2026-06-20T190449.png
 security:
 - kind: authentication
@@ -422,11 +622,19 @@ security:
 - kind: domain-security
   name: Npm Domain Security
   slug: npm-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 - kind: vulnerability-disclosure
   name: Npm Vulnerability Disclosure
   slug: npm-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: npm-configure-trusted-publishing
+  slug: npm-configure-trusted-publishing
+- name: npm-manage-access-tokens
+  slug: npm-manage-access-tokens
+- name: npm-staged-publish
+  slug: npm-staged-publish
 slug: npm
 tags:
 - Packages

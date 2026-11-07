@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -94,7 +95,7 @@ arazzos:
 - description: Authenticate, check eligibility, run data processing, capture customer KYC, and send it for review.
   name: CrediLinq — Onboard a customer and complete KYC
   slug: credilinqai-onboard-and-kyc
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI representation of CrediLinq's documented webhook events. CrediLinq delivers server-to-server notifications via HTTP POST to a partner-configured redirect_url. Payloads are signed with HMAC SH
   name: CrediLinq Webhooks
@@ -291,30 +292,43 @@ network: true
 overview: 'Credilinq.ai publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, KYC API, and 5 more. Tagged areas include Company, Fintech, Embedded Finance, Lending, and Buy Now Pay Later.
 
 
-  The Credilinq.ai catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Credilinq.ai catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Credilinq.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 26 more developer resources.'
 random_paper: 5
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Credilinq.ai API Rules
+  rule_count: 64
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 3
+    warn: 6
+  slug: credilinqai-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 44.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 55.9
-    developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 45.2
+    developer_ergonomics: 60.1
+    discoverability: 73.2
+    operational_transparency: 15.8
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,13 +345,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/credilinqai/credilinqai-2026-07-25T210714.png
 security:
 - kind: authentication

@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -86,7 +91,7 @@ apis:
   description: Stream voice responses and synthesize speech as real-time PCM audio.
   name: Delphi Voice API
   slug: delphi-voice-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Delphi Webhooks
@@ -268,7 +273,7 @@ network: true
 overview: 'Delphi publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audience API, Clone API, Conversations API, and 5 more. Tagged areas include Company, Artificial Intelligence, AI Clones, Digital Minds, and Conversational AI.
 
 
-  The Delphi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Delphi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Delphi''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
@@ -280,25 +285,38 @@ plans:
   plan_count: 0
   slug: delphi-price-estimates
 random_paper: 6
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Delphi API Rules
+  rule_count: 70
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 1
+    warn: 6
+  slug: delphi-rules
 score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
+    access_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 22.5
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 46.3
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,13 +333,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/delphi/delphi-2026-07-25T211653.png
 security:
 - kind: authentication

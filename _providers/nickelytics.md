@@ -5,7 +5,9 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The authentication, session, organization and admin API behind the Nickelytics / R-Ads Ad Manager. It is a Better Auth instance whose auto-generated OpenAPI 3.1.1 document is served publicly at /api/a
@@ -42,6 +45,21 @@ apis:
   slug: nickelytics-r-ads-platform-authentication-api
 artifact_total: 7
 common:
+- group: operate
+  href: https://artifacts.apis.io/nickelytics/lifecycle/nickelytics-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/nickelytics-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/nickelytics/hosts/nickelytics-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/nickelytics-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/nickelytics/vendors/nickelytics-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/nickelytics-vendors.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -84,11 +102,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/nickelytics-well-known.yml
-- group: agent
-  href: https://artifacts.apis.io/nickelytics/llms/nickelytics-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/nickelytics-llms.txt
 - group: design
   href: https://artifacts.apis.io/nickelytics/conformance/nickelytics-conformance.yml
   title: ''
@@ -131,7 +144,7 @@ network: true
 overview: 'Nickelytics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and Programmatic Advertising.
 
 
-  Nickelytics'' developer surface includes support, signup flow, engineering blog, and 14 more developer resources.'
+  Nickelytics'' developer surface includes support, signup flow, engineering blog, and 16 more developer resources.'
 plans:
 - name: Nickelytics Plans Pricing
   plan_count: 0
@@ -143,23 +156,23 @@ rate_limits:
   slug: nickelytics-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 21.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 20.2
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 20.6
   provenance:
     conformance: derived
     mcp: derived
@@ -170,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

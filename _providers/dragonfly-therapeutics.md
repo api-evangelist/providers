@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Model Context Protocol endpoint served from the Dragonfly Therapeutics website host. This is a platform-provided surface automatically provisioned by Wix for every site it builds — not a first-party D
@@ -153,9 +154,9 @@ rate_limits:
   slug: dragonfly-therapeutics-rate-limits
 score:
   band: emerging
-  composite: 14.1
+  composite: 15.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -167,7 +168,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 63.3
+    discoverability: 72.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -176,7 +177,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.1
+  previous_composite: 15.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -186,8 +187,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

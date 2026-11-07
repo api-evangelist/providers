@@ -1,6 +1,7 @@
 ---
 access_model:
   confidence: low
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -28,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The agent-facing commerce API for Debut's direct-to-consumer skincare brand DEINDE. It is a Shopify-hosted Universal Commerce Protocol (UCP) service exposed over MCP at https://www.deinde.com/api/ucp/
@@ -197,9 +199,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 21.7
+  composite: 22.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,9 +213,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
+    discoverability: 73.3
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -224,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

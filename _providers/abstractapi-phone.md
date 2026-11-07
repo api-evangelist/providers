@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Open access
   onboarding: open
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -20,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-31'
+  score: 33.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +56,7 @@ apis:
   description: Validate and verify a phone number and return carrier, line type, and location.
   name: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Abstract API Phone Validation API
@@ -125,6 +130,9 @@ network: true
 overview: 'Abstract API Phone Validation publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Phone Validation API. Tagged areas include Number Verification, Phone Validation, Phone Numbers, Phone Number Lookup, and Verification.
 
 
+  The Abstract API Phone Validation catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Abstract API Phone Validation''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Abstractapi Phone Plans Pricing
@@ -135,25 +143,38 @@ rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
   slug: abstractapi-phone-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Abstract API Phone Validation API Rules
+  rule_count: 57
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 1
+  slug: abstractapi-phone-rules
 score:
   band: thin
-  composite: 26.4
+  composite: 27.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 42.0
+    artifact_dirs: 14
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 50.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 26.4
+    operational_transparency: 7.9
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -167,13 +188,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/abstractapi-phone/abstractapi-phone-2026-07-25T181408.png
 security:
 - kind: authentication

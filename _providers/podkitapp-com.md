@@ -1,10 +1,22 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-31'
+  score: 30.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,7 +220,7 @@ modified: '2026-10-30'
 name: podkitapp-com
 nav: Providers
 network: true
-overview: 'podkitapp-com publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Episodes API, Podcasts API, and 2 more. Tagged areas include Podcast, API, Data, Developer, and Audio.
+overview: 'podkitapp-com publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Episodes API, Podcasts API, and 2 more. Tagged areas include Podcasts, Data, Developers, and Audio.
 
 
   The podkitapp-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -242,34 +255,48 @@ scopes:
   slug: podkitapp-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.3
+  band: thin
+  composite: 37.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 79.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 35.1
+    artifact_dirs: 30
+    catalog_earned: 60.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.9
   facets:
-    access_clarity: 50.5
-    contract_governance: 79.1
+    access_clarity: 36.8
+    contract_governance: 22.0
     contract_quality: 51.4
-    developer_ergonomics: 51.7
-    discoverability: 56.7
+    developer_ergonomics: 35.0
+    discoverability: 48.3
     operational_transparency: 0.0
+  previous_composite: 44.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/podkitapp-com/podkitapp-com-2026-11-03T141333.png
 security:
 - kind: authentication
   name: Podkitapp Com Authentication
@@ -285,10 +312,9 @@ skills:
   slug: podkitapp-com-search-skill
 slug: podkitapp-com
 tags:
-- Podcast
-- API
+- Podcasts
 - Data
-- Developer
+- Developers
 - Audio
 website: https://podkitapp.com/
 ---

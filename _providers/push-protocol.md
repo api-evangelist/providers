@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: three_quarters
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-10-31'
+  score: 13.8
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: JavaScript/TypeScript SDK (@pushchain/core) for the Push Chain Universal Layer 1 blockchain. Exposes PushChain.initialize(signer, {network}) for client setup, pushChainClient.universal.sendTransaction
@@ -159,9 +161,9 @@ rate_limits:
   slug: push-protocol-rate-limits
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -173,9 +175,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 62.5
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 22.8
+  previous_composite: 23.0
   provenance:
     mcp: first-party
   regulatory:
@@ -184,8 +186,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

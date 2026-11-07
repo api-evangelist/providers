@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -28,17 +29,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-31'
+  score: 24.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://ci.woodpecker-ci.org/api
@@ -151,7 +153,7 @@ apis:
   description: The Users API from Woodpecker CI — 2 operation(s) for users.
   name: Woodpecker CI Users API
   slug: woodpecker-ci-users-api
-artifact_total: 33
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Woodpecker Ci Events
@@ -335,7 +337,7 @@ network: true
 overview: 'Woodpecker CI publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Badges API, Events API, and 19 more. Tagged areas include Company, Continuous Integration, Continuous Delivery, DevOps, and Developer Tools.
 
 
-  The Woodpecker CI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Woodpecker CI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Woodpecker CI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
@@ -348,25 +350,38 @@ rate_limits:
 - limit_count: 0
   name: Woodpecker Ci Rate Limits
   slug: woodpecker-ci-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 89
+  extends:
+  - spectral:oas
+  name: Woodpecker CI API Rules
+  rule_count: 48
+  severity_counts:
+    error: 40
+    hint: 0
+    info: 1
+    warn: 7
+  slug: woodpecker-ci-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 43.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 37.0
+    artifact_dirs: 31
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 46.4
+    contract_governance: 18.2
+    contract_quality: 49.8
     developer_ergonomics: 80.4
     discoverability: 66.1
-    operational_transparency: 47.4
-  previous_composite: 42.1
+    operational_transparency: 44.7
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -382,13 +397,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/woodpecker-ci/woodpecker-ci-2026-09-02T170920.png
 security:
 - kind: authentication

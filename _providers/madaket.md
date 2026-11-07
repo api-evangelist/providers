@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://provider.madakethealth.com/provider-services
@@ -326,7 +327,7 @@ apis:
   description: The WorkEntry API from Madaket — 4 operation(s) for workentry.
   name: Madaket Work Entry API
   slug: madaket-workentry-api
-artifact_total: 66
+artifact_total: 67
 common:
 - group: other
   href: https://artifacts.apis.io/madaket/capabilities/madaket-capability-edges.yml
@@ -447,6 +448,9 @@ network: true
 overview: 'Madaket publishes 57 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adverse Action API, Area Of Study API, Board API, and 54 more. Tagged areas include Company, Healthcare, Provider Data Management, Payer Enrollment, and Credentialing.
 
 
+  The Madaket catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Madaket''s developer surface includes documentation, support, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Madaket Plans Pricing
@@ -460,29 +464,42 @@ rate_limits:
 - limit_count: 0
   name: Madaket Rate Limits
   slug: madaket-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Madaket API Rules
+  rule_count: 59
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 1
+    warn: 1
+  slug: madaket-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 44.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 56.5
+    artifact_dirs: 27
+    catalog_earned: 61.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.5
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 13.6
-    contract_quality: 45.2
+    access_clarity: 77.6
+    contract_governance: 27.3
+    contract_quality: 42.1
     developer_ergonomics: 37.5
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 44.1
+    operational_transparency: 2.6
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 57
@@ -494,13 +511,12 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/madaket/madaket-2026-09-02T150433.png
 security:
 - kind: authentication

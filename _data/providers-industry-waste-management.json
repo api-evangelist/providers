@@ -1,8 +1,78 @@
 {
- "total": 37,
- "shown": 37,
+ "total": 39,
+ "shown": 39,
  "limit": 1000,
  "bands": [
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Dumpster Controls",
+     "slug": "dumpstercontrols-io",
+     "description": "Dumpster Controls provides free dumpster rental and junk removal software for haulage companies across the United States and Canada. Founded in 2020 in Florida, the platform offers dispatch, online booking, driver apps for iOS and Android, invoicing, AI‑driven order creation, and a public REST API. It serves over 500 hauling firms, tracks more than 3,800 dumpsters, and includes a marketplace of 1,750 landfills. The service is free with optional card‑processing fees, and the company publishes extensive documentation, blog articles, and pricing guides.",
+     "score": 59.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 60.1,
+      "contract_governance": 35.6,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 54.2,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "partial",
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
   {
    "band": "developing",
    "label": "Developing",
@@ -16,19 +86,19 @@
      "slug": "amcs-group",
      "description": "AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.",
      "screenshot": "https://artifacts.apis.io/amcs-group/screenshots/amcs-group-2026-07-25T200033.png",
-     "score": 43.1,
+     "score": 47.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 42.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
+      "discoverability": 78.6,
+      "contract_quality": 43.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 78.0,
-      "access_clarity": 31.6
+      "access_clarity": 26.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -36,12 +106,12 @@
       "score": 20.8,
       "matched_via": "tags"
      },
-     "agent_score": 22.0,
+     "agent_score": 26.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "verified",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -59,9 +129,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "mostly"
+      "operation_distinctiveness": "mostly",
+      "mcp_tool_quality": "na"
      },
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -71,27 +142,27 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Clean Harbors",
      "slug": "clean-harbors",
      "description": "Clean Harbors is the largest provider of environmental and industrial services in North America — hazardous and non-hazardous waste management, emergency response, industrial cleaning, remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. It runs no developer programme: no developer portal, no API documentation, no SDK in any registry, no GitHub organisation, and no /.well-known/ document on any host. Customers use the authenticated Clean Harbors Online Services portal at clhsaas.cleanharbors.com and the EPA's RCRA e-Manifest programme, whose machine-readable surface belongs to the EPA. Two callable contracts nonetheless run on Clean Harbors hosts, both found by direct probing: an anonymous, fully introspectable GraphQL endpoint at store.safety-kleen.com fronting six brand storefronts on one Adobe Commerce instance, and an unauthenticated Job Query API at careers.cleanharbors.com that the company documents in a published llms.txt.",
      "screenshot": "https://artifacts.apis.io/clean-harbors/screenshots/clean-harbors-2026-06-20T174450.png",
-     "score": 35.5,
+     "score": 36.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 79.5,
       "contract_quality": 53.1,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -122,16 +193,17 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Waste Management",
      "slug": "waste-management",
      "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication.",
      "screenshot": "https://artifacts.apis.io/waste-management/screenshots/waste-management-2026-06-20T201242.png",
-     "score": 32.7,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -142,8 +214,8 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -174,39 +246,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
-     "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 11,
-   "shown": 11,
-   "providers": [
+     "rank": 4
+    },
     {
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
      "screenshot": "https://artifacts.apis.io/wm/screenshots/wm-2026-09-02T170901.png",
-     "score": 26.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 27.1,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 66.1,
       "contract_quality": 50.2,
-      "contract_governance": 0.0,
+      "contract_governance": 13.6,
       "operational_transparency": 5.3,
       "developer_ergonomics": 28.6,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -237,50 +299,60 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct"
+      "operation_distinctiveness": "distinct",
+      "mcp_tool_quality": "na"
      },
-     "rank": 4
-    },
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
-     "name": "Resourcify",
-     "slug": "resourcify",
-     "description": "Resourcify (Resourcify GmbH) is a Hamburg, Germany based digital platform for waste management and circular-economy operations, describing itself as \"the operating system for a circular future.\" Its cloud software helps enterprises digitize and optimize their waste streams end to end - automating waste and recycling operations, optimizing cost, CO2 and recycling rates, tracking compliance, and running take-back systems - across manufacturing, construction, retail, healthcare, and airports. The platform connects waste producers with a network of recyclers and haulers, captures waste data and documentation, and reports on sustainability and material recovery. Resourcify is backed by Speedinvest. As of this profile the company exposes no public developer API, API documentation, or developer portal; integrations are delivered as managed connections rather than a self-serve API.",
-     "screenshot": "https://artifacts.apis.io/resourcify/screenshots/resourcify-2026-09-02T153549.png",
-     "score": 15.0,
+     "name": "Asbestos Disposal Cost",
+     "slug": "asbestosdisposalcost-co-uk",
+     "description": "Asbestos Disposal Cost provides free quotes and information on the cost of disposing asbestos in the UK. The service explains how material type, quantity, licensing requirements, site access, tip gate fees and other drivers affect pricing. It offers guidance on regulatory compliance, paperwork, and how to obtain quotes from licensed contractors. The site includes FAQs, detailed cost driver tables, and datasets on regional disposal charges, helping homeowners and businesses understand and manage asbestos waste responsibly.",
+     "score": 16.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 65.0,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
+      "contract_governance": 22.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.8,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 13.7,
+      "score": 30.4,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 14.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": false,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "derived",
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
+      "agent_skills": "unknown",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -289,9 +361,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Goodr",
@@ -309,8 +382,8 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -341,9 +414,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Waste Connections",
@@ -361,8 +435,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -393,9 +467,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Stericycle",
@@ -413,8 +488,8 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -445,16 +520,17 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 8
+     "rank": 9
     },
     {
-     "name": "Dimension",
-     "slug": "dimension",
-     "description": "Dimension is a nationwide, on-demand waste management and junk removal platform (formerly Trash Warrior) backed by 500 Global. It offers digital booking with instant AI-generated pricing (their \"Mirror Mirror AI\" quoter), same-day and next-day pickup for cardboard, appliances, mattresses, hazardous and medical waste, plus dumpster rentals, for both businesses and individuals. Every job includes tracking with detailed diversion data, receipts, and photos, and can be booked as a one-off or recurring service. Dimension has been awarded a State of California RFP contract for PPE waste removal. The company operates a customer-facing booking application and help center but does not currently publish a public developer API, SDKs, or developer documentation.",
-     "screenshot": "https://artifacts.apis.io/dimension/screenshots/dimension-2026-07-25T212038.png",
-     "score": 12.9,
+     "name": "Resourcify",
+     "slug": "resourcify",
+     "description": "Resourcify (Resourcify GmbH) is a Hamburg, Germany based digital platform for waste management and circular-economy operations, describing itself as \"the operating system for a circular future.\" Its cloud software helps enterprises digitize and optimize their waste streams end to end - automating waste and recycling operations, optimizing cost, CO2 and recycling rates, tracking compliance, and running take-back systems - across manufacturing, construction, retail, healthcare, and airports. The platform connects waste producers with a network of recyclers and haulers, captures waste data and documentation, and reports on sustainability and material recovery. Resourcify is backed by Speedinvest. As of this profile the company exposes no public developer API, API documentation, or developer portal; integrations are delivered as managed connections rather than a self-serve API.",
+     "screenshot": "https://artifacts.apis.io/resourcify/screenshots/resourcify-2026-09-02T153549.png",
+     "score": 13.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -463,10 +539,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -497,132 +573,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 9
-    },
-    {
-     "name": "AMP Robotics",
-     "slug": "amp-robotics",
-     "description": "AMP Robotics (operating as AMP Sortation) is an artificial-intelligence company for the waste and recycling industry that designs, builds, and operates advanced, cost-competitive facilities to process single-stream recycling and municipal solid waste. Its Smart Sortation technology suite combines computer vision (real-time material characterization), high-speed air-jet sortation (Jet and MicroJet), and robotic-arm sortation (Delta) to raise material-recovery rates, cut contamination, and extend landfill life. The flagship AMP ONE platform delivers fully automated, facility-scale sortation processing from 10K to 1M+ tons annually for waste haulers, material-recovery facilities, and municipalities. AMP Robotics is a Google Ventures (GV) portfolio company. No public developer API, API documentation, or developer portal is published; this profile is maintained for network discovery and identity.",
-     "screenshot": "https://artifacts.apis.io/amp-robotics/screenshots/amp-robotics-2026-07-25T200114.png",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 12.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 10
-    },
-    {
-     "name": "Greyparrot",
-     "slug": "greyparrot",
-     "description": "Greyparrot is a London-based AI waste analytics company that turns materials recovery facilities (MRFs) into data-driven operations. Its Greyparrot Analyzer uses computer-vision cameras mounted over waste conveyor belts to identify, count, and measure the composition of waste streams in real time, giving recyclers continuous visibility into what flows through their plant. The Greyparrot Sync product routes that analytics stream into existing operational control systems, ERP platforms, Power BI dashboards, and OEM sortation hardware (robotic arms, air-jet systems, balers, belt control), while Deepnest turns real-world recovery data into design feedback for packaging brands. Backed by Speedinvest, Greyparrot serves recyclers, equipment manufacturers, and consumer-goods companies working to raise recycling rates and automate compliance reporting. The company does not currently publish a public developer API, SDKs, or OpenAPI definition; this profile captures its public web, product, and content surface.",
-     "screenshot": "https://artifacts.apis.io/greyparrot/screenshots/greyparrot-2026-07-25T220324.png",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 12.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 11
     },
     {
      "name": "Junk King",
      "slug": "junk-king",
      "description": "Junk King is a professional junk removal and hauling franchise operating across the United States and Canada as part of the Neighborly family of home service brands. Through locally owned and operated locations, Junk King provides full-service junk removal, self-service dumpster rental, and dumpster bag pickup for residential and commercial customers, handling appliance and furniture removal, estate and property cleanouts, construction debris, yard waste, and e-waste. The company emphasizes eco-friendly disposal, recycling, donating, and reusing as much collected material as possible. Junk King offers free estimates, same-day service in many markets, and online, phone, and text-based booking. It is a portfolio company associated with Norwest Venture Partners and is tracked in the API Evangelist network as a company profile; Junk King publishes no public API or developer platform.",
      "screenshot": "https://artifacts.apis.io/junk-king/screenshots/junk-king-2026-07-25T223329.png",
-     "score": 12.4,
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -653,33 +626,34 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 12
+     "rank": 11
     },
     {
-     "name": "Republic Services",
-     "slug": "republic-services",
-     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
-     "screenshot": "https://artifacts.apis.io/republic-services/screenshots/republic-services-2026-06-20T192914.png",
-     "score": 12.2,
+     "name": "Greyparrot",
+     "slug": "greyparrot",
+     "description": "Greyparrot is a London-based AI waste analytics company that turns materials recovery facilities (MRFs) into data-driven operations. Its Greyparrot Analyzer uses computer-vision cameras mounted over waste conveyor belts to identify, count, and measure the composition of waste streams in real time, giving recyclers continuous visibility into what flows through their plant. The Greyparrot Sync product routes that analytics stream into existing operational control systems, ERP platforms, Power BI dashboards, and OEM sortation hardware (robotic arms, air-jet systems, balers, belt control), while Deepnest turns real-world recovery data into design feedback for packaging brands. Backed by Speedinvest, Greyparrot serves recyclers, equipment manufacturers, and consumer-goods companies working to raise recycling rates and automate compliance reporting. The company does not currently publish a public developer API, SDKs, or OpenAPI definition; this profile captures its public web, product, and content surface.",
+     "screenshot": "https://artifacts.apis.io/greyparrot/screenshots/greyparrot-2026-07-25T220324.png",
+     "score": 12.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 41.1,
-      "contract_quality": 10.7,
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 18.6,
+      "score": 12.7,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -705,41 +679,43 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 13
+     "rank": 12
     },
     {
-     "name": "Nordsense",
-     "slug": "nordsense",
-     "description": "Nordsense provides smart sensor solutions for waste management, delivering real‑time data insights to municipalities and businesses. Their IoT‑enabled smart bin sensors track fill levels, location, and routing, helping reduce carbon emissions, increase recycling rates, and improve operational transparency. By digitizing waste collection, Nordsense enables data‑driven decisions that optimize routes, lower fuel use, and enhance sustainability outcomes across urban environments.",
-     "score": 11.5,
+     "name": "AMP Robotics",
+     "slug": "amp-robotics",
+     "description": "AMP Robotics (operating as AMP Sortation) is an artificial-intelligence company for the waste and recycling industry that designs, builds, and operates advanced, cost-competitive facilities to process single-stream recycling and municipal solid waste. Its Smart Sortation technology suite combines computer vision (real-time material characterization), high-speed air-jet sortation (Jet and MicroJet), and robotic-arm sortation (Delta) to raise material-recovery rates, cut contamination, and extend landfill life. The flagship AMP ONE platform delivers fully automated, facility-scale sortation processing from 10K to 1M+ tons annually for waste haulers, material-recovery facilities, and municipalities. AMP Robotics is a Google Ventures (GV) portfolio company. No public developer API, API documentation, or developer portal is published; this profile is maintained for network discovery and identity.",
+     "screenshot": "https://artifacts.apis.io/amp-robotics/screenshots/amp-robotics-2026-07-25T200114.png",
+     "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 23.7
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 9.8,
+      "score": 12.7,
       "matched_via": "fallback"
      },
-     "agent_score": 6.0,
-     "agent_band": "agent-aware",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -747,7 +723,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -756,9 +732,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 14
+     "rank": 13
     }
    ]
   },
@@ -767,113 +744,9 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 23,
-   "shown": 23,
+   "count": 26,
+   "shown": 26,
    "providers": [
-    {
-     "name": "Fazla Gida",
-     "slug": "fazla-gida",
-     "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
-     "screenshot": "https://artifacts.apis.io/fazla-gida/screenshots/fazla-gida-2026-07-25T214323.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 15
-    },
-    {
-     "name": "Blau",
-     "slug": "blau-corp",
-     "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
-     "screenshot": "https://artifacts.apis.io/blau-corp/screenshots/blau-corp-2026-07-25T203303.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 16
-    },
     {
      "name": "Recycleye",
      "slug": "recycleye",
@@ -890,8 +763,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -922,131 +795,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 17
-    },
-    {
-     "name": "Sourgum",
-     "slug": "sourgum",
-     "description": "Sourgum provides technology-driven waste and recycling solutions, unifying thousands of local haulers to deliver scalable, transparent, and reliable services across the United States. The platform offers modern waste management with real‑time tracking, transparent pricing, and robust customer support, aiming to improve sustainability and operational efficiency for businesses and municipalities.",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 6.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 18
-    },
-    {
-     "name": "SolarCycle",
-     "slug": "solarcycle",
-     "description": "SolarCycle is a technology-driven solar recycling company founded in 2022 that provides certified end-of-life management for solar energy systems. It recovers up to 97% of panel materials (silver, copper, gold, aluminum, glass), recycles power electronics such as inverters and transformers, and handles logistics and field operations for large-scale solar projects, achieving 100% landfill diversion. SolarCycle operates seven facilities across Georgia, Illinois, Texas, Nevada, and Arizona and is building a domestic recycled-solar-glass manufacturing plant, serving major solar companies including Q Cells, AES, Orsted, and Sunrun. It is a portfolio company of Fifth Wall. This is a physical circular-economy operations business with no public developer or API surface.",
-     "screenshot": "https://artifacts.apis.io/solarcycle/screenshots/solarcycle-2026-09-02T160109.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 6.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 19
+     "rank": 14
     },
     {
      "name": "Resynergi",
      "slug": "resynergi",
      "description": "Resynergi is an advanced plastic recycling technology company that builds modular Continuous Microwave Assisted Pyrolysis (CMAP) systems, marketed as AMP Modules, which convert hard-to-recycle waste plastics (HDPE, LDPE, polypropylene and polystyrene) into circular pyrolysis oil (PyOil) and other petrochemical feedstocks. Each 440 sq ft module is designed to process roughly 5 tons of plastic waste per day and produce about 1,000 gallons of PyOil per day, and the company claims a conversion roughly twenty times faster than conventional pyrolysis with a large reduction in CO2-equivalent emissions. Founded in 2015 by Jason Tanne and Brian Bauer around microwave pyrolysis research from the University of Minnesota, Resynergi commercializes its modules in partnership with Lummus Technology, which sells the AMP Modules, and also operates plants near the source of waste under a partner model. This is an industrial process-equipment business; it is not a software vendor and publishes no developer program, API, SDK or machine-readable API contract.",
      "screenshot": "https://artifacts.apis.io/resynergi/screenshots/resynergi-2026-09-02T153612.png",
-     "score": 8.5,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 58.3,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1077,42 +848,43 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 20
+     "rank": 15
     },
     {
-     "name": "EverestLabs",
-     "slug": "everestlabs",
-     "description": "EverestLabs builds AI, computer vision, and robotics for the recycling industry. Its RecycleOS platform identifies, tracks, and sorts recoverable materials on the conveyor lines of Materials Recovery Facilities (MRFs), giving recyclers, reclaimers, and packaging manufacturers analytics, bale tracing, plant optimization, and compliance reporting to increase recovery rates, cut labor costs, and verify recycled content. Headquartered in Fremont, California and backed by Sierra Ventures. EverestLabs does not currently publish a public developer API, SDK, or developer portal; this profile captures its public web, GitHub, and discovery surface.",
-     "screenshot": "https://artifacts.apis.io/everestlabs/screenshots/everestlabs-2026-07-25T213728.png",
-     "score": 8.1,
+     "name": "SolarCycle",
+     "slug": "solarcycle",
+     "description": "SolarCycle is a technology-driven solar recycling company founded in 2022 that provides certified end-of-life management for solar energy systems. It recovers up to 97% of panel materials (silver, copper, gold, aluminum, glass), recycles power electronics such as inverters and transformers, and handles logistics and field operations for large-scale solar projects, achieving 100% landfill diversion. SolarCycle operates seven facilities across Georgia, Illinois, Texas, Nevada, and Arizona and is building a domestic recycled-solar-glass manufacturing plant, serving major solar companies including Q Cells, AES, Orsted, and Sunrun. It is a portfolio company of Fifth Wall. This is a physical circular-economy operations business with no public developer or API surface.",
+     "screenshot": "https://artifacts.apis.io/solarcycle/screenshots/solarcycle-2026-09-02T160109.png",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.1,
-      "matched_via": "fallback"
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 6.6,
+      "matched_via": "tags"
      },
-     "agent_score": 7.1,
-     "agent_band": "agent-aware",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -1125,13 +897,120 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 21
+     "rank": 16
+    },
+    {
+     "name": "Blau",
+     "slug": "blau-corp",
+     "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
+     "screenshot": "https://artifacts.apis.io/blau-corp/screenshots/blau-corp-2026-07-25T203303.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 17
+    },
+    {
+     "name": "Fazla Gida",
+     "slug": "fazla-gida",
+     "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
+     "screenshot": "https://artifacts.apis.io/fazla-gida/screenshots/fazla-gida-2026-07-25T214323.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 18
     },
     {
      "name": "Evreka",
@@ -1149,8 +1028,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1181,137 +1060,35 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 22
+     "rank": 19
     },
     {
-     "name": "Cleanaway",
-     "slug": "cleanaway",
-     "description": "Cleanaway (Cleanaway Waste Management Limited, ASX-listed) is Australia's leading waste management and resource recovery company. It provides sustainable waste management, recycling, liquid and hazardous waste, and industrial services to businesses, councils and communities across Australia, helping them turn waste into valuable resources. Surfaced via the API Evangelist harvest backlog (australia-apidays-2026); no public developer API was found on its website.",
-     "score": 7.3,
+     "name": "Nordsense",
+     "slug": "nordsense",
+     "description": "Nordsense provides smart sensor solutions for waste management, delivering real‑time data insights to municipalities and businesses. Their IoT‑enabled smart bin sensors track fill levels, location, and routing, helping reduce carbon emissions, increase recycling rates, and improve operational transparency. By digitizing waste collection, Nordsense enables data‑driven decisions that optimize routes, lower fuel use, and enhance sustainability outcomes across urban environments.",
+     "screenshot": "https://artifacts.apis.io/nordsense/screenshots/nordsense-2026-11-03T140302.png",
+     "score": 7.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 4.8,
-      "access_clarity": 10.5
+      "access_clarity": 11.8
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 9.8,
+      "score": 7.8,
       "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 23
-    },
-    {
-     "name": "Schuettflix",
-     "slug": "schuettflix",
-     "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment.",
-     "screenshot": "https://artifacts.apis.io/schuettflix/screenshots/schuettflix-2026-09-02T154528.png",
-     "score": 7.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 24
-    },
-    {
-     "name": "Veolia",
-     "slug": "veolia",
-     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
-     "screenshot": "https://artifacts.apis.io/veolia/screenshots/veolia-2026-06-20T200919.png",
-     "score": 7.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.2,
-      "matched_via": "tags"
      },
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1336,33 +1113,140 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 25
+     "rank": 20
     },
     {
-     "name": "Whole Surplus",
-     "slug": "whole-surplus",
-     "description": "Whole Surplus (now operating as Fazla) is a Turkish technology-based waste management and circular-economy company backed by Techstars. It prevents waste at its source and recovers surplus products back into the circular economy with maximum environmental, social, and economic benefit across the entire supply chain from producers to consumers. Its platform combines an AI-powered analysis tool that identifies the optimal recovery path for each product with services including Fazla Market (discounted resale), donations to food banks, animal-feed conversion, recycling, a smart-scale detection system, and sustainability consultancy. Fazla is the first B Corp certified waste-management company in Turkey and is supported by the UN Development Programme (UNDP). The company operates a customer web application (app.fazla.com) but publishes no public API, developer portal, SDKs, or machine-readable specification at this time.",
-     "screenshot": "https://artifacts.apis.io/whole-surplus/screenshots/whole-surplus-2026-09-02T170735.png",
-     "score": 6.6,
+     "name": "EverestLabs",
+     "slug": "everestlabs",
+     "description": "EverestLabs builds AI, computer vision, and robotics for the recycling industry. Its RecycleOS platform identifies, tracks, and sorts recoverable materials on the conveyor lines of Materials Recovery Facilities (MRFs), giving recyclers, reclaimers, and packaging manufacturers analytics, bale tracing, plant optimization, and compliance reporting to increase recovery rates, cut labor costs, and verify recycled content. Headquartered in Fremont, California and backed by Sierra Ventures. EverestLabs does not currently publish a public developer API, SDK, or developer portal; this profile captures its public web, GitHub, and discovery surface.",
+     "screenshot": "https://artifacts.apis.io/everestlabs/screenshots/everestlabs-2026-07-25T213728.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 58.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 13.2
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 0.0,
+      "score": 9.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 21
+    },
+    {
+     "name": "Sourgum",
+     "slug": "sourgum",
+     "description": "Sourgum provides technology-driven waste and recycling solutions, unifying thousands of local haulers to deliver scalable, transparent, and reliable services across the United States. The platform offers modern waste management with real‑time tracking, transparent pricing, and robust customer support, aiming to improve sustainability and operational efficiency for businesses and municipalities.",
+     "screenshot": "https://artifacts.apis.io/sourgum/screenshots/sourgum-2026-11-03T143551.png",
+     "score": 7.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 56.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 22
+    },
+    {
+     "name": "Vaulted Deep",
+     "slug": "vaulted-deep",
+     "description": "Vaulted Deep is a permanent carbon removal and organic waste disposal company that injects carbon-filled organic waste — biosolids, agricultural byproducts and manure, and pulp and paper sludge — thousands of feet underground as a slurry, using patented geologic slurry sequestration technology adapted from oil and gas practice so the carbon is trapped permanently beneath impermeable rock. Spun out of Advantek Waste Management Services in 2023 and co-founded by Julia Reichelstein and Omar Abou-Sayed, it operates the Great Plains site in Hutchinson, Kansas and the Terminal Island site in Los Angeles, California, serving municipal wastewater utilities and agricultural operators while selling durable carbon removal credits to corporate buyers. It publishes no public API, SDK, or developer program.",
+     "screenshot": "https://artifacts.apis.io/vaulted-deep/screenshots/vaulted-deep-2026-10-11T131649.png",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -1388,28 +1272,82 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 26
+     "rank": 23
+    },
+    {
+     "name": "Republic Services",
+     "slug": "republic-services",
+     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
+     "screenshot": "https://artifacts.apis.io/republic-services/screenshots/republic-services-2026-06-20T192914.png",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.2,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 10.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 24
     },
     {
      "name": "Entocycle",
      "slug": "entocycle",
      "description": "Entocycle is a London-based insect farming technology company building industrial-scale, controlled-environment facilities that use black soldier fly bioconversion to turn organic waste streams into insect protein for animal feed and organic fertilizer (frass). Its platform combines modular climate-controlled farm infrastructure, real-time AI-driven insect monitoring that counts and tracks insects across their lifecycle, and fully automated production systems to standardize output across deployments worldwide. Entocycle partners with waste management companies, agricultural producers, insect companies, and offtake buyers to develop and operate circular-economy insect farms. It was surfaced as a portfolio company of DCVC and added to the API Evangelist network; the company publishes no public API, developer portal, or SDKs at this time.",
      "screenshot": "https://artifacts.apis.io/entocycle/screenshots/entocycle-2026-07-25T213432.png",
-     "score": 6.4,
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1440,61 +1378,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 27
-    },
-    {
-     "name": "Vaulted Deep",
-     "slug": "vaulted-deep",
-     "description": "Vaulted Deep is a permanent carbon removal and organic waste disposal company that injects carbon-filled organic waste — biosolids, agricultural byproducts and manure, and pulp and paper sludge — thousands of feet underground as a slurry, using patented geologic slurry sequestration technology adapted from oil and gas practice so the carbon is trapped permanently beneath impermeable rock. Spun out of Advantek Waste Management Services in 2023 and co-founded by Julia Reichelstein and Omar Abou-Sayed, it operates the Great Plains site in Hutchinson, Kansas and the Terminal Island site in Los Angeles, California, serving municipal wastewater utilities and agricultural operators while selling durable carbon removal credits to corporate buyers. It publishes no public API, SDK, or developer program.",
-     "screenshot": "https://artifacts.apis.io/vaulted-deep/screenshots/vaulted-deep-2026-10-11T131649.png",
-     "score": 6.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 28
+     "rank": 25
     },
     {
      "name": "Dayjob",
@@ -1512,8 +1399,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1544,14 +1431,175 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 26
+    },
+    {
+     "name": "Veolia",
+     "slug": "veolia",
+     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
+     "screenshot": "https://artifacts.apis.io/veolia/screenshots/veolia-2026-06-20T200919.png",
+     "score": 5.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 6.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 27
+    },
+    {
+     "name": "Cleanaway",
+     "slug": "cleanaway",
+     "description": "Cleanaway (Cleanaway Waste Management Limited, ASX-listed) is Australia's leading waste management and resource recovery company. It provides sustainable waste management, recycling, liquid and hazardous waste, and industrial services to businesses, councils and communities across Australia, helping them turn waste into valuable resources. Surfaced via the API Evangelist harvest backlog (australia-apidays-2026); no public developer API was found on its website.",
+     "screenshot": "https://artifacts.apis.io/cleanaway/screenshots/cleanaway-2026-11-03T124330.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 49.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 7.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 28
+    },
+    {
+     "name": "Dimension",
+     "slug": "dimension",
+     "description": "Dimension is a nationwide, on-demand waste management and junk removal platform (formerly Trash Warrior) backed by 500 Global. It offers digital booking with instant AI-generated pricing (their \"Mirror Mirror AI\" quoter), same-day and next-day pickup for cardboard, appliances, mattresses, hazardous and medical waste, plus dumpster rentals, for both businesses and individuals. Every job includes tracking with detailed diversion data, receipts, and photos, and can be booked as a one-off or recurring service. Dimension has been awarded a State of California RFP contract for PPE waste removal. The company operates a customer-facing booking application and help center but does not currently publish a public developer API, SDKs, or developer documentation.",
+     "screenshot": "https://artifacts.apis.io/dimension/screenshots/dimension-2026-07-25T212038.png",
+     "score": 4.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 29
     },
     {
-     "name": "GreenQ",
-     "slug": "greenq",
-     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem) promoting the \"Internet of Garbage\" — turning ordinary garbage trucks into smart trucks. Its GreenTrack device installs on any collection vehicle to weigh incoming waste and track route, mileage, capacity, time and per-bin (single-can-level) pickup data without requiring sensors on the bins, using a patent-pending visual-recognition algorithm. A recommendations engine then suggests route-optimization and scheduling improvements, surfaced through the GreenQ dashboard of reports and analytics. Collected data can be integrated with a municipality's local-authority systems through a private integration API; the company publishes no public developer portal, API reference, SDKs, or specification. GreenQ was surfaced as a portfolio company of 500 Global (also backed by URBAN-X) and added to the API Evangelist network.",
+     "name": "Whole Surplus",
+     "slug": "whole-surplus",
+     "description": "Whole Surplus (now operating as Fazla) is a Turkish technology-based waste management and circular-economy company backed by Techstars. It prevents waste at its source and recovers surplus products back into the circular economy with maximum environmental, social, and economic benefit across the entire supply chain from producers to consumers. Its platform combines an AI-powered analysis tool that identifies the optimal recovery path for each product with services including Fazla Market (discounted resale), donations to food banks, animal-feed conversion, recycling, a smart-scale detection system, and sustainability consultancy. Fazla is the first B Corp certified waste-management company in Turkey and is supported by the UN Development Programme (UNDP). The company operates a customer web application (app.fazla.com) but publishes no public API, developer portal, SDKs, or machine-readable specification at this time.",
+     "screenshot": "https://artifacts.apis.io/whole-surplus/screenshots/whole-surplus-2026-09-02T170735.png",
      "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1563,8 +1611,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1595,7 +1643,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 30
     },
@@ -1615,8 +1664,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1647,7 +1696,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 31
     },
@@ -1667,8 +1717,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1699,28 +1749,82 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 32
+    },
+    {
+     "name": "Schuettflix",
+     "slug": "schuettflix",
+     "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment.",
+     "screenshot": "https://artifacts.apis.io/schuettflix/screenshots/schuettflix-2026-09-02T154528.png",
+     "score": 3.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 33
     },
     {
      "name": "Azureflying",
      "slug": "azureflying",
      "description": "Azureflying (蔚复来) is a Zhejiang‑based technology company that leverages AI and digital solutions for green waste recycling, smart city infrastructure, and sustainable resource management. It offers AI‑enabled waste classification hardware, end‑to‑end waste processing services, and digital platforms that enable traceability, data analytics, and carbon‑neutral operations for municipalities and enterprises. The firm reports over 200 patents, operates across 200 cities, and focuses on turning waste into valuable resources through AI‑driven processes.",
      "screenshot": "https://artifacts.apis.io/azureflying/screenshots/azureflying-2026-10-11T181959.png",
-     "score": 3.7,
+     "score": 3.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.4,
+      "discoverability": 45.5,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1728,57 +1832,6 @@
       "score": 5.5,
       "matched_via": "fallback"
      },
-     "agent_score": 3.1,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 33
-    },
-    {
-     "name": "China Sciences Runyu",
-     "slug": "china-sciences-runyu",
-     "description": "Beijing China Sciences Runyu Environmental Technology Co., Ltd. (CSET) is an environmental protection industrial platform driven by technological innovation. It provides best available technology and best environmental practices for sustainable development, operates waste treatment and incineration projects, and is listed on the Shenzhen Stock Exchange ChiNext board (stock code 301175). The company focuses on circular economy, hazardous waste management, and environmental equipment services.",
-     "score": 3.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.6,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1802,78 +1855,28 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 34
     },
     {
-     "name": "Fazla Gida",
-     "slug": "fazlagida-com",
-     "description": "Fazla Gida is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by 500-global) and added to the network as a stub for full-pipeline profiling.",
-     "score": 3.0,
+     "name": "GreenQ",
+     "slug": "greenq",
+     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem) promoting the \"Internet of Garbage\" — turning ordinary garbage trucks into smart trucks. Its GreenTrack device installs on any collection vehicle to weigh incoming waste and track route, mileage, capacity, time and per-bin (single-can-level) pickup data without requiring sensors on the bins, using a patent-pending visual-recognition algorithm. A recommendations engine then suggests route-optimization and scheduling improvements, surfaced through the GreenQ dashboard of reports and analytics. Collected data can be integrated with a municipality's local-authority systems through a private integration API; the company publishes no public developer portal, API reference, SDKs, or specification. GreenQ was surfaced as a portfolio company of 500 Global (also backed by URBAN-X) and added to the API Evangelist network.",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 39.3,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 3.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
-     },
-     "rank": 35
-    },
-    {
-     "name": "Agriprotein",
-     "slug": "agriprotein",
-     "description": "AgriProtein was a South African industrial insect-farming company, founded in Cape Town in 2008, that pioneered commercial black soldier fly (Hermetia illucens) bioconversion: it fed organic waste from food factories, supermarkets, farms and restaurants to fly larvae and processed the result into MagMeal insect protein for aquaculture, poultry and pet food, MagOil, and MagSoil soil conditioner. It opened the world's first full-scale BSF facility in Philippi, Cape Town in 2014 and raised USD 105 million in 2018 to build out a global factory network. Its UK parent, Insect Technology Group, entered administration in February 2021 and the group's assets, intellectual property and plant were sold in June 2021. The company is defunct; it published no developer program, API, or machine-readable specification, and the agriprotein.com domain has since lapsed to an unrelated operator.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1904,9 +1907,168 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 35
+    },
+    {
+     "name": "China Sciences Runyu",
+     "slug": "china-sciences-runyu",
+     "description": "Beijing China Sciences Runyu Environmental Technology Co., Ltd. (CSET) is an environmental protection industrial platform driven by technological innovation. It provides best available technology and best environmental practices for sustainable development, operates waste treatment and incineration projects, and is listed on the Shenzhen Stock Exchange ChiNext board (stock code 301175). The company focuses on circular economy, hazardous waste management, and environmental equipment services.",
+     "screenshot": "https://artifacts.apis.io/china-sciences-runyu/screenshots/china-sciences-runyu-2026-11-03T124049.png",
+     "score": 3.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
      "rank": 36
+    },
+    {
+     "name": "Fazla Gida",
+     "slug": "fazlagida-com",
+     "description": "Fazla Gida is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by 500-global) and added to the network as a stub for full-pipeline profiling.",
+     "screenshot": "https://artifacts.apis.io/fazlagida-com/screenshots/fazlagida-com-2026-11-03T131941.png",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 39.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 1.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 37
+    },
+    {
+     "name": "Agriprotein",
+     "slug": "agriprotein",
+     "description": "AgriProtein was a South African industrial insect-farming company, founded in Cape Town in 2008, that pioneered commercial black soldier fly (Hermetia illucens) bioconversion: it fed organic waste from food factories, supermarkets, farms and restaurants to fly larvae and processed the result into MagMeal insect protein for aquaculture, poultry and pet food, MagOil, and MagSoil soil conditioner. It opened the world's first full-scale BSF facility in Philippi, Cape Town in 2014 and raised USD 105 million in 2018 to build out a global factory network. Its UK parent, Insect Technology Group, entered administration in February 2021 and the group's assets, intellectual property and plant were sold in June 2021. The company is defunct; it published no developer program, API, or machine-readable specification, and the agriprotein.com domain has since lapsed to an unrelated operator.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "rank": 38
     },
     {
      "name": "Fulcrum BioEnergy",
@@ -1924,8 +2086,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-31",
-     "schema_version": "0.25.0",
+     "scored_at": "2026-11-06",
+     "schema_version": "0.27.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1956,9 +2118,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false,
       "pagination_ratio": "na",
-      "operation_distinctiveness": "na"
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
      },
-     "rank": 37
+     "rank": 39
     }
    ]
   }

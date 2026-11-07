@@ -1,12 +1,18 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
   source:
-  - plans
+  - finops
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Core JavaScript APIs for building Lightning Web Components including decorators, wire service, and component lifecycle methods.
@@ -235,7 +242,7 @@ rate_limits:
   slug: lightning-web-components-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 37.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -249,9 +256,9 @@ score:
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 66.7
-    discoverability: 56.7
-    operational_transparency: 39.5
-  previous_composite: 37.0
+    discoverability: 63.3
+    operational_transparency: 36.8
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -261,8 +268,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

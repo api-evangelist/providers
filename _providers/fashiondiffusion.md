@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for asynchronous AI fashion generation tasks. Authenticates with a single long-lived bearer API key (Authorization: Bearer fd_live_xxx); the secret is shown only once at creation and a key ma'
@@ -135,9 +136,9 @@ rate_limits:
   slug: fashiondiffusion-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 36.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -150,8 +151,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 36.8
+    operational_transparency: 2.6
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -161,8 +162,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

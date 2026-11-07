@@ -1,6 +1,7 @@
 ---
 access_model:
   confidence: low
+  gated_conflict: 'x-api-posture: private but 1 published API entry'
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Sourcemap describes a secure real-time RESTful API used to integrate the traceability platform with ERP and enterprise data stacks (SAP, Salesforce Net Zero Cloud, Databricks) and with customs portals
@@ -150,9 +152,9 @@ rate_limits:
   slug: sourcemap-rate-limits
 score:
   band: emerging
-  composite: 19.3
+  composite: 19.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,14 +166,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 66.1
-    operational_transparency: 15.8
+    discoverability: 73.2
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 19.3
+  previous_composite: 19.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -181,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

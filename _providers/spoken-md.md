@@ -1,11 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,18 +31,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
-    operation_distinctiveness: distinct
-    pagination_ratio: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-10-31'
+  score: 51.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -36,57 +53,16 @@ agentic_access:
   summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
+- description: Podcast transcripts as clean markdown. Built for AI agents.
+  name: Podcast Transcripts API
+  slug: podcast-transcripts-api
 - baseURL: https://spoken.md
   baseurl_source: declared
-  description: The Balance API from spoken-md — 1 operation(s) for balance.
-  name: spoken-md Balance API
-  slug: spoken-md-balance-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Buy API from spoken-md — 1 operation(s) for buy.
-  name: spoken-md Buy API
-  slug: spoken-md-buy-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Following API from spoken-md — 2 operation(s) for following.
-  name: spoken-md Following API
-  slug: spoken-md-following-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The New API from spoken-md — 1 operation(s) for new.
-  name: spoken-md New API
-  slug: spoken-md-new-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Podcasts API from spoken-md — 1 operation(s) for podcasts.
-  name: spoken-md Podcasts API
-  slug: spoken-md-podcasts-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Search API from spoken-md — 1 operation(s) for search.
-  name: spoken-md Search API
-  slug: spoken-md-search-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Top Up API from spoken-md — 1 operation(s) for top up.
-  name: spoken-md Top Up API
-  slug: spoken-md-top-up-api
-- baseURL: https://spoken.md
-  baseurl_source: declared
-  description: The Transcripts API from spoken-md — 1 operation(s) for transcripts.
-  name: spoken-md Transcripts API
-  slug: spoken-md-transcripts-api
-artifact_total: 22
+  description: Podcast transcripts as clean markdown. Built for AI agents. Use the demo key `pt_demo` to try it free (demo episode only).
+  name: Podcast Transcripts API .well-known API
+  slug: podcast-transcripts-api-well-known-api
+artifact_total: 15
 common:
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://spoken.md/episode/pricing-the-iran-wars-future-are-markets-right-1000754623333
-- group: agent
-  href: https://artifacts.apis.io/spoken-md/agentic-access/spoken-md-agentic-access.yml
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/spoken-md-agentic-access.yml
 - group: commercial
   href: https://artifacts.apis.io/spoken-md/plans/spoken-md-plans-pricing.yml
   title: ''
@@ -107,31 +83,16 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/spoken-md-vocabulary.yml
-- group: agent
-  href: https://artifacts.apis.io/spoken-md/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
 - group: design
   href: https://artifacts.apis.io/spoken-md/data-model/spoken-md-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spoken-md-data-model.yml
-- group: build
-  href: https://artifacts.apis.io/spoken-md/cli/spoken-md-cli.yml
-  title: ''
-  type: CLI
-  url: cli/spoken-md-cli.yml
 - group: auth
   href: https://artifacts.apis.io/spoken-md/authentication/spoken-md-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spoken-md-authentication.yml
-- group: auth
-  href: https://artifacts.apis.io/spoken-md/scopes/spoken-md-scopes.yml
-  title: ''
-  type: OAuthScopes
-  url: scopes/spoken-md-scopes.yml
 - group: design
   href: https://artifacts.apis.io/spoken-md/errors/spoken-md-problem-types.yml
   title: ''
@@ -147,16 +108,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/spoken-md-llms.txt
-- group: build
-  href: https://artifacts.apis.io/spoken-md/mcp/spoken-md-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/spoken-md-tool-crosswalk.yml
-- group: agent
-  href: https://artifacts.apis.io/spoken-md/mcp/spoken-md-mcp.yml
-  title: ''
-  type: MCPServer
-  url: mcp/spoken-md-mcp.yml
 - group: agent
   href: https://artifacts.apis.io/spoken-md/well-known/spoken-md-well-known.yml
   title: ''
@@ -182,6 +133,18 @@ common:
   title: ''
   type: Packages
   url: packages/spoken-md-packages.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://spoken.md/terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://spoken.md/privacy.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://spoken.md/podcast-transcript-api
 - group: auth
   href: https://artifacts.apis.io/spoken-md/security/spoken-md-domain-security.yml
   title: ''
@@ -191,29 +154,21 @@ common:
   title: ''
   type: Website
   url: https://spoken.md/
-- group: docs
+- group: commercial
   title: ''
-  type: Documentation
-  url: https://spoken.md/.well-known/openapi.json
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://spoken.md/.well-known/openapi.json
+  type: Pricing
+  url: https://spoken.md/#pricing
 - group: start
   title: ''
   type: GettingStarted
-  url: https://spoken.md/why-spoken
-- group: commercial
+  url: https://spoken.md/#how-it-works
+- group: operate
   title: ''
-  type: TermsOfService
-  url: https://spoken.md/terms.html
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://spoken.md/privacy.html
+  type: Support
+  url: https://spoken.md/#contact
 created: '2026-10-31'
-description: Spoken.md provides a Podcast Transcript API that returns clean, speaker‑labeled Markdown transcripts for any podcast episode. The service indexes over 26,000 transcripts and offers a free demo key for a single episode. Users can search episodes by text or URL, retrieve full transcripts, and integrate the data into knowledge bases, LLM prompts, or searchable archives. Credits are charged per transcript, with packs and top‑up options, and credits never expire. The API is designed for AI agents and developers building searchable podcast archives.
-image: https://spoken.md/favicon.ico
+description: Spoken.md provides a Podcast Transcript API that returns clean Markdown with real speaker names. Users can fetch a single episode or an entire show’s back catalog without a subscription, enabling AI agents to process podcast content easily.
+image: https://spoken.md/og-image.png
 json_schemas:
 - name: EpisodeRef
   property_count: 3
@@ -233,21 +188,17 @@ jsonld:
   property_count: 12
   slug: spoken-md-context
 layout: provider
-mcp_servers:
-- description: Remote MCP server at spoken.md requiring OAuth.
-  name: spoken-md MCP Server
-  slug: spoken-md-mcp-yml
 modified: '2026-10-31'
 name: spoken-md
 nav: Providers
 network: true
-overview: 'spoken-md publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balance API, Buy API, Following API, and 5 more. Tagged areas include Company, API, Podcast, Transcripts, and AI.
+overview: 'spoken-md publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Podcast Transcripts API and Podcast Transcripts API .well-known API. Tagged areas include Podcasts, Transcripts, Markdown, and Artificial Intelligence.
 
 
   The spoken-md catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  spoken-md''s developer surface includes pricing, CLI, authentication, documentation, API reference, getting-started guide, and 22 more developer resources.'
+  spoken-md''s developer surface includes authentication, API reference, pricing, getting-started guide, support, and 17 more developer resources.'
 plans:
 - name: Spoken Md Plans Pricing
   plan_count: 6
@@ -276,39 +227,53 @@ scopes:
   slug: spoken-md-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 58.3
+  band: developing
+  composite: 42.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 88.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 26.5
+    artifact_dirs: 30
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 62.4
-    developer_ergonomics: 61.2
-    discoverability: 65.0
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 67.5
+    developer_ergonomics: 31.0
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 49.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/spoken-md/spoken-md-2026-11-03T143643.png
 security:
 - kind: authentication
   name: Spoken Md Authentication
   slug: spoken-md-authentication
-  summary_line: 3 schemes
+  summary_line: 1 scheme
 - kind: domain-security
   name: Spoken Md Domain Security
   slug: spoken-md-domain-security
@@ -319,11 +284,9 @@ skills:
   slug: spoken-md-agents
 slug: spoken-md
 tags:
-- Company
-- API
-- Podcast
+- Podcasts
 - Transcripts
-- AI
-- Audio
+- Markdown
+- Artificial Intelligence
 website: https://spoken.md/
 ---

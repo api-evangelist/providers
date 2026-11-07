@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-31'
+  score: 36.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -211,16 +223,16 @@ asyncapis:
   name: Gridx Ai Webhooks
   slug: gridx-ai-webhooks
 common:
-- group: other
-  href: https://artifacts.apis.io/gridx-ai/capabilities/gridx-ai-capability-edges.yml
-  title: ''
-  type: CapabilityMap
-  url: capabilities/gridx-ai-capability-edges.yml
 - group: auth
   href: https://artifacts.apis.io/gridx-ai/well-known/gridx-ai-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gridx-ai-status-security.txt
+- group: other
+  href: https://artifacts.apis.io/gridx-ai/capabilities/gridx-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gridx-ai-capability-edges.yml
 - group: agent
   href: https://artifacts.apis.io/gridx-ai/agentic-access/gridx-ai-agentic-access.yml
   title: ''
@@ -455,41 +467,41 @@ rules:
     warn: 5
   slug: gridx-ai-api-spectral-rules
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 119
   extends:
   - spectral:oas
   name: gridX API Rules
-  rule_count: 17
+  rule_count: 78
   severity_counts:
-    error: 8
+    error: 60
     hint: 0
-    info: 4
-    warn: 5
+    info: 6
+    warn: 12
   slug: gridx-ai-rules
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 44.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 67.3
-    catalog_earned_first_party: 18.0
-    catalog_gap: 47.8
+    artifact_dirs: 31
+    catalog_earned: 53.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -15.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 62.9
-    contract_quality: 66.5
-    developer_ergonomics: 51.8
-    discoverability: 67.9
-    operational_transparency: 63.2
+    access_clarity: 10.5
+    contract_governance: 22.0
+    contract_quality: 69.8
+    developer_ergonomics: 32.7
+    discoverability: 74.1
+    operational_transparency: 35.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 55.6
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -505,14 +517,13 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 25.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 22.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/gridx-ai/gridx-ai-2026-10-11T105027.png
 security:
 - kind: authentication

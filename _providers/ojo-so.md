@@ -1,9 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -15,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-31'
+  score: 29.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Render images and PDFs from HTML or stored templates via the oJo platform.
@@ -107,11 +120,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/ojo-so-security.txt
-- group: auth
-  href: https://artifacts.apis.io/ojo-so/well-known/ojo-so-modelcontextprotocol-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/ojo-so-modelcontextprotocol-security.txt
 - group: agent
   href: https://artifacts.apis.io/ojo-so/well-known/ojo-so-well-known.yml
   title: ''
@@ -194,13 +202,13 @@ modified: '2026-10-30'
 name: ojo-so
 nav: Providers
 network: true
-overview: 'ojo-so publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Templates, API, Document-Generation, and MCP.
+overview: 'ojo-so publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Templates, Document Generation, and MCP.
 
 
   The ojo-so catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ojo-so''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, and 26 more developer resources.'
+  ojo-so''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, and 25 more developer resources.'
 plans:
 - name: Ojo So Plans Pricing
   plan_count: 3
@@ -208,46 +216,54 @@ plans:
 random_paper: 23
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 102
   extends:
   - spectral:oas
   name: ojo-so API Rules
-  rule_count: 18
+  rule_count: 61
   severity_counts:
-    error: 16
+    error: 53
     hint: 0
-    info: 1
-    warn: 1
+    info: 3
+    warn: 5
   slug: ojo-so-rules
 score:
-  band: developing
-  composite: 50.1
+  band: thin
+  composite: 33.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 79.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
+    artifact_dirs: 23
+    catalog_earned: 60.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.8
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
+    access_clarity: 53.9
+    contract_governance: 35.6
     contract_quality: 14.7
-    developer_ergonomics: 46.9
-    discoverability: 65.0
-    operational_transparency: 31.6
+    developer_ergonomics: 28.0
+    discoverability: 56.7
+    operational_transparency: 15.8
+  previous_composite: 44.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/ojo-so/ojo-so-2026-11-03T140503.png
 security:
 - kind: authentication
   name: Ojo So Authentication
@@ -271,8 +287,7 @@ slug: ojo-so
 tags:
 - Company
 - Templates
-- API
-- Document-Generation
+- Document Generation
 - MCP
 website: https://ojo.so/
 ---

@@ -1,15 +1,19 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -119,7 +124,7 @@ apis:
     question: How do I download the weights of a model I fine-tuned?
   phrasing_ops: 6
   slug: segmind-fine-tuning-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Segmind Webhooks
@@ -330,7 +335,7 @@ network: true
 overview: 'Segmind publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Inference API, Account API, Storage API, and 4 more. Tagged areas include Artificial Intelligence, Machine Learning, Generative AI, Inference, and Image Generation.
 
 
-  The Segmind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Segmind catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Segmind''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, changelog, and 30 more developer resources.'
@@ -346,6 +351,19 @@ rate_limits:
 - limit_count: 7
   name: Segmind Rate Limits
   slug: segmind-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 92
+  extends:
+  - spectral:oas
+  name: Segmind API Rules
+  rule_count: 51
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 1
+  slug: segmind-rules
 scopes:
 - name: Segmind Scopes
   scope_count: 0
@@ -353,23 +371,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.6
+  composite: 70.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 32
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 52.8
     developer_ergonomics: 78.6
     discoverability: 73.2
-    operational_transparency: 84.2
-  previous_composite: 69.0
+    operational_transparency: 73.7
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -386,13 +404,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/segmind/segmind-2026-06-20T193634.png
 security:
 - kind: authentication

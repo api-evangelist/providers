@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.5
-  scored_at: '2026-10-31'
+  score: 20.4
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: HailoRT is Hailo's production runtime library for the Hailo-8, Hailo-10 and Hailo-15 device families. It is a host-side, user-space C/C++ library with a Python binding (pyHailoRT), a hailortcli comman
@@ -183,9 +184,9 @@ rate_limits:
   slug: hailo-rate-limits
 score:
   band: thin
-  composite: 27.3
+  composite: 32.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -195,10 +196,10 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 66.7
     discoverability: 57.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -207,7 +208,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 27.3
+  previous_composite: 32.9
   provenance:
     conformance: derived
     mcp: derived
@@ -218,8 +219,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

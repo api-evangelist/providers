@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.3
-  scored_at: '2026-10-31'
+  score: 60.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -87,7 +88,7 @@ apis:
   description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
   name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Clozd Data /programs /programs API
@@ -314,6 +315,9 @@ network: true
 overview: 'Clozd publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 5 more. Tagged areas include Win-Loss Analysis, Customer Feedback, Decision Intelligence, Sales Intelligence, and Market Research.
 
 
+  The Clozd catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 32 more developer resources.'
 plans:
 - name: Clozd Plans Pricing
@@ -324,6 +328,19 @@ rate_limits:
 - limit_count: 0
   name: Clozd Rate Limits
   slug: clozd-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 111
+  extends:
+  - spectral:oas
+  name: Clozd API Rules
+  rule_count: 70
+  severity_counts:
+    error: 67
+    hint: 0
+    info: 1
+    warn: 2
+  slug: clozd-rules
 scopes:
 - name: Clozd Scopes
   scope_count: 5
@@ -331,23 +348,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 51.1
+  composite: 54.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 54.2
     developer_ergonomics: 58.9
-    discoverability: 70.0
-    operational_transparency: 15.8
-  previous_composite: 51.1
+    discoverability: 73.3
+    operational_transparency: 13.2
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,13 +385,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/clozd/clozd-2026-08-07T163518.png
 security:
 - kind: authentication

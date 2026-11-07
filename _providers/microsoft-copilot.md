@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,24 +11,26 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-31'
+  score: 32.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,32 +57,32 @@ apis:
 - description: APIs for building, publishing, and integrating custom agents and copilots using Microsoft Copilot Studio, including Direct Line API for connecting web and custom applications.
   name: Microsoft Copilot Studio API
   slug: microsoft-copilot-studio-api
-- baseURL: https://api.copilot.microsoft.com
+- baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Subscribe to change notifications for Copilot interactions across Microsoft 365.
   name: Microsoft Copilot Change Notifications API
   slug: microsoft-copilot-change-notifications-api
-- baseURL: https://api.copilot.microsoft.com
+- baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Programmatically start and continue conversations with Microsoft 365 Copilot using enterprise search and web search grounding. Preview API.
   name: Microsoft Copilot Chat API
   slug: microsoft-copilot-chat-api
-- baseURL: https://api.copilot.microsoft.com
+- baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Export and archive user interactions with Copilot across Microsoft 365 applications for compliance and auditing.
   name: Microsoft Copilot Interaction Export API
   slug: microsoft-copilot-interaction-export-api
-- baseURL: https://api.copilot.microsoft.com
+- baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Retrieve relevant text chunks from SharePoint, OneDrive, and Copilot connectors content for Retrieval Augmented Generation (RAG) scenarios.
   name: Microsoft Copilot Retrieval API
   slug: microsoft-copilot-retrieval-api
-- baseURL: https://api.copilot.microsoft.com
+- baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Perform hybrid search (semantic and lexical) across OneDrive for work or school content using natural language queries. Preview API.
   name: Microsoft Copilot Search API
   slug: microsoft-copilot-search-api
-artifact_total: 156
+artifact_total: 159
 collections:
 - collection_type: postman
   name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications API
@@ -113,6 +118,111 @@ collections:
   name: Microsoft Copilot Microsoft 365 Copilot APIs
   slug: open-microsoft-copilot
 common:
+- group: agent
+  href: https://artifacts.apis.io/microsoft-copilot/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/conventions/microsoft-copilot-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/microsoft-copilot-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/lifecycle/microsoft-copilot-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/microsoft-copilot-lifecycle.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/rules/microsoft-copilot-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-copilot-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/rules/microsoft-copilot-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-copilot-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/rules/microsoft-copilot-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-copilot-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/vocabulary/microsoft-copilot-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-copilot-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/data-model/microsoft-copilot-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-copilot-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/errors/microsoft-copilot-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-copilot-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-copilot/conformance/microsoft-copilot-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-copilot-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-copilot/llms/microsoft-copilot-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-copilot-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/microsoft-copilot/well-known/microsoft-copilot-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-copilot-security.txt
+- group: agent
+  href: https://artifacts.apis.io/microsoft-copilot/well-known/microsoft-copilot-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-copilot-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-copilot/hosts/microsoft-copilot-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-copilot-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-copilot/vendors/microsoft-copilot-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-copilot-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-copilot/packages/microsoft-copilot-packages.yml
+  title: ''
+  type: Packages
+  url: packages/microsoft-copilot-packages.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.microsoft.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
+- group: auth
+  href: https://artifacts.apis.io/microsoft-copilot/security/microsoft-copilot-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-copilot-trust-center.yml
 - group: other
   href: https://artifacts.apis.io/microsoft-copilot/capabilities/microsoft-copilot-capability-edges.yml
   title: ''
@@ -170,10 +280,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/showcase/microsoftcopilot
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://learn.microsoft.com/en-us/copilot/get-started
 - group: auth
   title: ''
   type: Authentication
@@ -186,10 +292,6 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://privacy.microsoft.com/en-us/privacystatement
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.microsoft.com/en-us/microsoft-copilot/pricing
 - group: operate
   title: ''
   type: Support
@@ -616,10 +718,10 @@ network: true
 overview: 'Microsoft Copilot publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 4 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbots, and Copilot.
 
 
-  The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Microsoft Copilot''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, developer portal, code examples, and 20 more developer resources.'
+  Microsoft Copilot''s developer surface includes getting-started guide, documentation, authentication, support, engineering blog, developer portal, code examples, and 40 more developer resources.'
 plans:
 - name: Microsoft Copilot Plans Pricing
   plan_count: 7
@@ -642,6 +744,18 @@ rules:
     warn: 4
   slug: microsoft-copilot-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 118
+  extends:
+  - spectral:oas
+  name: Microsoft Copilot API Rules
+  rule_count: 77
+  severity_counts:
+    error: 73
+    hint: 0
+    info: 3
+    warn: 1
+  slug: microsoft-copilot-rules
+- authorship: generated
   effective_rule_count: 58
   extends:
   - spectral:oas
@@ -660,43 +774,45 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.6
+  composite: 59.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.9
+    artifact_dirs: 36
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 6.6
   facets:
-    access_clarity: 47.4
-    contract_governance: 13.6
-    contract_quality: 65.1
-    developer_ergonomics: 58.3
-    discoverability: 64.3
-    operational_transparency: 55.3
-  previous_composite: 54.0
+    access_clarity: 52.6
+    contract_governance: 31.8
+    contract_quality: 67.9
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 41.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-copilot/microsoft-copilot-2026-06-20T185448.png
 security:
 - kind: authentication
@@ -711,6 +827,14 @@ security:
   name: Microsoft Copilot Vulnerability Disclosure
   slug: microsoft-copilot-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Copilot Trust Center
+  slug: microsoft-copilot-trust-center
+  summary_line: GDPR
+skill_count: 1
+skills:
+- name: microsoft-copilot-grounded-retrieval
+  slug: microsoft-copilot-grounded-retrieval
 slug: microsoft-copilot
 tags:
 - Agents

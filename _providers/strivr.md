@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,7 +28,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.5
-  scored_at: '2026-10-31'
+  score: 5.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Strivr Software Development Kit for Unity makes Unity projects compatible with the Strivr Player in-headset software and with the Strivr Portal. It is used to create and score experiences, track c
@@ -189,7 +190,7 @@ rate_limits:
   slug: strivr-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 34.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -202,10 +203,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 66.1
+    developer_ergonomics: 54.8
+    discoverability: 73.2
     operational_transparency: 15.8
-  previous_composite: 35.5
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -215,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

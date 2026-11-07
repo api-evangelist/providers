@@ -7,6 +7,9 @@ access_model:
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -208,9 +212,9 @@ rate_limits:
   slug: madvertise-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 35.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -222,9 +226,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 61.7
-    operational_transparency: 28.9
-  previous_composite: 34.6
+    discoverability: 68.3
+    operational_transparency: 26.3
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -240,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,11 +1,26 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,7 +87,7 @@ apis:
   description: 'Steam Community Market data from **`itemordershistogram`**: best ask/bid, spread, order-book depth, and internal liquidity. Requires `item_nameid`. **Plan: Basic** (included in Pro and Enterprise). Le'
   name: cspriceapi-com Steam API
   slug: cspriceapi-com-steam-api
-artifact_total: 18
+artifact_total: 30
 common:
 - group: agent
   href: https://artifacts.apis.io/cspriceapi-com/agentic-access/cspriceapi-com-agentic-access.yml
@@ -201,6 +217,43 @@ common:
 created: '2026-10-30'
 description: CSPriceAPI provides a real-time price data API for CS2 and CS:GO skin marketplaces, aggregating data from 13 Chinese and global marketplaces. It offers a unified JSON schema for price listings, buy orders, and item details, supporting developers building trading bots, dashboards, and price comparison tools. The service includes a Chrome extension, market hub, and extensive documentation for easy integration.
 image: https://cspriceapi.com/opengraph-image
+json_schemas:
+- name: BuffBuyorderResponse
+  property_count: 5
+  slug: cspriceapi-com-buff-buyorder-response
+- name: BuffFloatBuyorderResponse
+  property_count: 6
+  slug: cspriceapi-com-buff-float-buyorder-response
+- name: BuffFloatRangedResponse
+  property_count: 5
+  slug: cspriceapi-com-buff-float-ranged-response
+- name: FloatRangedV2PricesResponse
+  property_count: 5
+  slug: cspriceapi-com-float-ranged-v2-prices-response
+- name: LatestPricesResponse
+  property_count: 6
+  slug: cspriceapi-com-latest-prices-response
+- name: MarketCapResponse
+  property_count: 18
+  slug: cspriceapi-com-market-cap-response
+- name: MarketSalesSearchResponse
+  property_count: 7
+  slug: cspriceapi-com-market-sales-search-response
+- name: PriceHistoryResponse
+  property_count: 12
+  slug: cspriceapi-com-price-history-response
+- name: SearchResponse
+  property_count: 0
+  slug: cspriceapi-com-search-response
+- name: SteamMarketResponse
+  property_count: 6
+  slug: cspriceapi-com-steam-market-response
+- name: YoupinBuyorderResponse
+  property_count: 5
+  slug: cspriceapi-com-youpin-buyorder-response
+- name: YoupinFloatBuyorderResponse
+  property_count: 6
+  slug: cspriceapi-com-youpin-float-buyorder-response
 jsonld:
 - class_count: 44
   name: Cspriceapi Com Context
@@ -215,7 +268,7 @@ modified: '2026-10-30'
 name: cspriceapi-com
 nav: Providers
 network: true
-overview: 'cspriceapi-com publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buyorder Prices API, Float Ranged API, Indexes API, and 4 more. Tagged areas include Company, Gaming, API, PriceData, and Marketplace.
+overview: 'cspriceapi-com publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buyorder Prices API, Float Ranged API, Indexes API, and 4 more. Tagged areas include Company, Gaming, Price Data, and Marketplace.
 
 
   The cspriceapi-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -241,34 +294,48 @@ rules:
     warn: 1
   slug: cspriceapi-com-rules
 score:
-  band: strong
-  composite: 61.4
+  band: developing
+  composite: 47.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 82.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 32.5
+    artifact_dirs: 24
+    catalog_earned: 72.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.2
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 58.3
-    developer_ergonomics: 61.2
-    discoverability: 70.0
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 67.1
+    developer_ergonomics: 39.8
+    discoverability: 61.7
     operational_transparency: 15.8
+  previous_composite: 57.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 87.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/cspriceapi-com/cspriceapi-com-2026-11-03T125725.png
 security:
 - kind: authentication
   name: Cspriceapi Com Authentication
@@ -292,8 +359,7 @@ slug: cspriceapi-com
 tags:
 - Company
 - Gaming
-- API
-- PriceData
+- Price Data
 - Marketplace
 website: https://cspriceapi.com/
 ---

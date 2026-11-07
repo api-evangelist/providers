@@ -24,6 +24,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -340,9 +341,9 @@ rules:
   slug: docling-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 38.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -355,8 +356,11 @@ score:
     contract_quality: 54.3
     developer_ergonomics: 61.9
     discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 36.2
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -370,13 +374,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/docling/docling-2026-06-20T180109.png
 slug: docling
 tags:

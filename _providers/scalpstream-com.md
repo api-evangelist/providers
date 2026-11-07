@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +43,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: Machine-payable US recall lookups over x402. Given a product, brand, ingredient or vehicle (make/model/year), returns active recalls across FDA food/drug/device enforcement, NHTSA vehicle safety campa
@@ -201,10 +219,10 @@ rate_limits:
   name: Scalpstream Com Rate Limits
   slug: scalpstream-com-rate-limits
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -215,10 +233,10 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 12.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 36.9
     discoverability: 76.7
-    operational_transparency: 21.1
-  previous_composite: 26.8
+    operational_transparency: 18.4
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,8 +246,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -263,7 +281,7 @@ tags:
 - Cryptocurrency
 - USDC
 - XRP Ledger
-- llms-txt
+- Llms.txt
 - JSON Schema
 website: https://scalpstream.com/
 ---

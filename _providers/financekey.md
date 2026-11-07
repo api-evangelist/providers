@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: false
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1344
   human_in_the_loop: 15
@@ -372,7 +383,7 @@ modified: '2026-10-20'
 name: FinanceKey
 nav: Providers
 network: true
-overview: 'FinanceKey publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including A I API, Accounts API, Approvals API, and 40 more. Tagged areas include Finance, Treasury, AI, Payments, and Cash Management.
+overview: 'FinanceKey publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including A I API, Accounts API, Approvals API, and 40 more. Tagged areas include Finance, Treasury, Artificial Intelligence, Payments, and Cash Management.
 
 
   The FinanceKey catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -395,29 +406,37 @@ rules:
   slug: financekey-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 29.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 19.7
-    contract_quality: 56.0
-    developer_ergonomics: 23.1
-    discoverability: 67.9
+    contract_quality: 60.5
+    developer_ergonomics: 14.8
+    discoverability: 74.1
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 43
+      marker_coverage: 97.7
+      total: 44
     mcp: derived
     skills: unknown
   regulatory:
@@ -425,13 +444,14 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 19.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/financekey/financekey-2026-11-03T132019.png
 security:
 - kind: domain-security
   name: Financekey Domain Security
@@ -441,7 +461,7 @@ slug: financekey
 tags:
 - Finance
 - Treasury
-- AI
+- Artificial Intelligence
 - Payments
 - Cash Management
 website: https://financekey.com/

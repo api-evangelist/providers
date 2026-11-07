@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.5
-  scored_at: '2026-10-31'
+  score: 10.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The API powering the Unison Share web application, including the APIs for syncing code with UCM and browsing projects, branches, and definitions. Unison Share also acts as the OAuth2 (with PKCE) and O
@@ -183,9 +186,9 @@ overview: 'Unison Computing is listed with 1 API on the [APIs.io](https://apis.i
 random_paper: 15
 score:
   band: thin
-  composite: 37.5
+  composite: 31.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,10 +199,13 @@ score:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 37.5
+    developer_ergonomics: 69.0
+    discoverability: 66.1
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -210,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

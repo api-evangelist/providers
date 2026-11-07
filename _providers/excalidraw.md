@@ -1,16 +1,17 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: half
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 10.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The official React component package for embedding the Excalidraw canvas. Provides programmatic control over scene state, libraries, and serialized JSON. There is no Excalidraw REST API; integrations '
@@ -142,9 +144,9 @@ rate_limits:
   slug: excalidraw-rate-limits
 score:
   band: emerging
-  composite: 12.1
+  composite: 15.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -156,9 +158,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 26.3
-  previous_composite: 12.1
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 15.9
   provenance:
     mcp: first-party
   regulatory:
@@ -167,8 +172,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

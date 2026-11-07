@@ -1,0 +1,168 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.5
+  scored_at: '2026-11-06'
+api_count: 1
+apis:
+- description: Read-only catalog of AI agents, MCP servers, and agentic developer tools.
+  name: Agent Switchboard Directory API
+  slug: agent-switchboard-directory-api
+artifact_total: 3
+common:
+- group: operate
+  href: https://artifacts.apis.io/agentswitchboard-dev/changelog/agentswitchboard-dev-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/agentswitchboard-dev-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/agentswitchboard-dev/conformance/agentswitchboard-dev-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/agentswitchboard-dev-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/agentswitchboard-dev/llms/agentswitchboard-dev-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/agentswitchboard-dev-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/agentswitchboard-dev/mcp/agentswitchboard-dev-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/agentswitchboard-dev-mcp.yml
+- group: other
+  href: https://artifacts.apis.io/agentswitchboard-dev/hosts/agentswitchboard-dev-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/agentswitchboard-dev-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/agentswitchboard-dev/vendors/agentswitchboard-dev-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/agentswitchboard-dev-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://agentswitchboard.dev/terms
+- group: auth
+  title: ''
+  type: Security
+  url: https://agentswitchboard.dev/categories/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://agentswitchboard.dev/privacy
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://agentswitchboard.dev/changelog
+- group: auth
+  href: https://artifacts.apis.io/agentswitchboard-dev/security/agentswitchboard-dev-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/agentswitchboard-dev-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://agentswitchboard.dev/
+created: '2026-11-01'
+description: Agent Switchboard is a curated directory of AI agents, MCP servers, and agentic developer tools. It lists 900 agents from 757 providers, offering API, MCP, CLI, or browser extension access, and provides a JSON index, MCP server, OpenAPI description, and plain-language guide for machine consumption. The site is maintained by Assaf Barnir and open source, with contact and submission forms for listings.
+image: https://agentswitchboard.dev/opengraph-image?baab799a23582291
+layout: provider
+mcp_servers:
+- description: Remote MCP server at agentswitchboard.dev.
+  name: Agent Switchboard MCP Server
+  slug: agentswitchboard-dev-mcp-yml
+modified: '2026-11-01'
+name: Agent Switchboard
+nav: Providers
+network: true
+overview: 'Agent Switchboard is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Directory, Agents, MCP, and OpenAPI.
+
+
+  Agent Switchboard''s developer surface includes changelog, API reference, and 10 more developer resources.'
+random_paper: 5
+score:
+  band: emerging
+  composite: 12.4
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 3.6
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 16.4
+  provenance:
+    conformance: derived
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Agentswitchboard Dev Domain Security
+  slug: agentswitchboard-dev-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: agentswitchboard-dev
+tags:
+- Artificial Intelligence
+- Directory
+- Agents
+- MCP
+- OpenAPI
+- Company
+website: https://agentswitchboard.dev/
+---

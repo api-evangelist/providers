@@ -29,17 +29,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.qualified.com
@@ -195,7 +196,7 @@ apis:
     question: Can I get the latest data for a single website session by id?
   phrasing_ops: 2
   slug: qualified-com-sessions-api
-artifact_total: 22
+artifact_total: 23
 common:
 - group: other
   href: https://artifacts.apis.io/qualified-com/capabilities/qualified-com-capability-edges.yml
@@ -372,6 +373,9 @@ network: true
 overview: 'Qualified publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bot Conversations API, Bulk API, Cancel Meeting API, and 9 more. Tagged areas include Company, Conversational Marketing, Sales, Marketing, and Artificial Intelligence.
 
 
+  The Qualified catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Qualified''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Qualified Com Plans Pricing
@@ -382,30 +386,43 @@ rate_limits:
 - limit_count: 4
   name: Qualified Com Rate Limits
   slug: qualified-com-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Qualified API Rules
+  rule_count: 62
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 3
+  slug: qualified-com-rules
 scopes:
 - name: Qualified Com Scopes
   scope_count: 11
   slug: qualified-com-scopes
   summary_line: 11 scopes
 score:
-  band: strong
-  composite: 63.6
+  band: exemplar
+  composite: 68.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 29
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 49.3
     developer_ergonomics: 47.0
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 81.6
-  previous_composite: 63.6
+  previous_composite: 68.5
   provenance:
     conformance: first-party
     contracts:
@@ -427,13 +444,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://apis.io/screenshots/qualified-com/qualified-com-2026-09-02T152601.png
 security:
 - kind: authentication

@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Approval required (portal signup, then Anywhere approval for sandbox and again for production)
-  onboarding: approval
-  pricing: enterprise
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - https://developers.anywhere.re/docs/how-it-works
-  - https://developers.anywhere.re/terms-use-api-license-agreement
+  - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -304,9 +307,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.5
+  composite: 38.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -318,8 +321,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 62.5
-    operational_transparency: 36.8
+    discoverability: 69.6
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,7 +330,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.5
+  previous_composite: 38.9
   provenance:
     conformance: first-party
   regulatory:
@@ -336,8 +339,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

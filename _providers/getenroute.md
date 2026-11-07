@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: APIs to configure multiple envoy proxies
@@ -157,41 +168,44 @@ rules:
   slug: getenroute-rules
 score:
   band: emerging
-  composite: 19.9
+  composite: 16.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.6
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 19.7
     contract_quality: 19.0
-    developer_ergonomics: 19.0
-    discoverability: 62.5
-    operational_transparency: 5.3
+    developer_ergonomics: 9.5
+    discoverability: 69.6
+    operational_transparency: 2.6
+  previous_composite: 19.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 16
+      derived: 4
       marker_coverage: 100.0
-      total: 16
+      total: 4
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 12.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/getenroute/getenroute-2026-11-03T132705.png
 security:
 - kind: domain-security
   name: Getenroute Domain Security

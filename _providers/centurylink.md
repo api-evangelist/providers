@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location, Quoting, Ordering, Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All APIs use OAu
@@ -223,9 +227,9 @@ rate_limits:
   slug: centurylink-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 27.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 51.0
     catalog_earned_first_party: 16.0
     catalog_gap: 64.0
@@ -236,10 +240,10 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 33.9
+    developer_ergonomics: 31.0
+    discoverability: 69.6
+    operational_transparency: 23.7
+  previous_composite: 27.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -249,8 +253,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -274,10 +278,11 @@ tags:
 - Fiber
 - Lumen
 - Networks
-- Authentication
+- OAuth
 - Quantum Fiber
 - SD-WAN
 - Telecommunications
 - Fortune 500
+- Authentication
 website: https://www.centurylink.com
 ---

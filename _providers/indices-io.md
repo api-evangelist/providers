@@ -1,10 +1,24 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-31'
+  score: 33.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -118,7 +133,7 @@ modified: '2026-10-30'
 name: indices-io
 nav: Providers
 network: true
-overview: 'indices-io is listed with 1 API on the [APIs.io](https://apis.io/) network: Indices API. Tagged areas include Company, AI, Infrastructure, Real-time, and Security.
+overview: 'indices-io is listed with 1 API on the [APIs.io](https://apis.io/) network: Indices API. Tagged areas include Company, Artificial Intelligence, Infrastructure, Real-Time, and Security.
 
 
   The indices-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -150,37 +165,43 @@ scopes:
   slug: indices-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 30.5
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 62.2
+    artifact_dirs: 32
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.8
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.3
   facets:
     access_clarity: 0.0
-    contract_governance: 53.6
+    contract_governance: 18.2
     contract_quality: 52.2
     developer_ergonomics: 7.1
     discoverability: 62.5
-    operational_transparency: 21.1
+    operational_transparency: 10.5
+  previous_composite: 26.2
   provenance:
+    agentic_access: derived
     conformance: derived
     mcp: unknown
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/indices-io/indices-io-2026-11-03T133735.png
 security:
 - kind: authentication
   name: Indices Io Authentication
@@ -199,9 +220,9 @@ skills:
 slug: indices-io
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Infrastructure
-- Real-time
+- Real-Time
 - Security
 website: https://indices.io/
 ---

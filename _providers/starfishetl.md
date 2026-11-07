@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Technology Advisors API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-21); not the provider''s own document.'
@@ -159,42 +171,45 @@ rules:
     warn: 1
   slug: starfishetl-rules
 score:
-  band: thin
-  composite: 28.8
+  band: emerging
+  composite: 23.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 61.8
     catalog_earned_first_party: 12.0
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.2
   facets:
-    access_clarity: 68.4
+    access_clarity: 53.9
     contract_governance: 22.0
     contract_quality: 19.9
-    developer_ergonomics: 7.1
+    developer_ergonomics: 3.6
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 28.0
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 1
       marker_coverage: 100.0
-      total: 2
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/starfishetl/starfishetl-2026-11-03T143735.png
 security:
 - kind: domain-security
   name: Starfishetl Domain Security

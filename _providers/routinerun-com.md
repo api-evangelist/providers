@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -15,7 +30,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.6
-  scored_at: '2026-10-31'
+  score: 38.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,7 +62,27 @@ apis:
   description: The Runs API from routinerun-com — 1 operation(s) for runs.
   name: routinerun-com Runs API
   slug: routinerun-com-runs-api
-artifact_total: 12
+- baseURL: https://api.routinerun.com
+  baseurl_source: declared
+  description: The Commands API from routinerun-com — 1 operation(s) for commands.
+  name: routinerun-com Commands API
+  slug: routinerun-com-commands-api
+- baseURL: https://api.routinerun.com
+  baseurl_source: declared
+  description: The History API from routinerun-com — 1 operation(s) for history.
+  name: routinerun-com History API
+  slug: routinerun-com-history-api
+- baseURL: https://api.routinerun.com
+  baseurl_source: declared
+  description: The Pagerduty API from routinerun-com — 1 operation(s) for pagerduty.
+  name: routinerun-com Pagerduty API
+  slug: routinerun-com-pagerduty-api
+- baseURL: https://api.routinerun.com
+  baseurl_source: declared
+  description: The Routines API from routinerun-com — 3 operation(s) for routines.
+  name: routinerun-com Routines API
+  slug: routinerun-com-routines-api
+artifact_total: 16
 common:
 - group: agent
   href: https://artifacts.apis.io/routinerun-com/agentic-access/routinerun-com-agentic-access.yml
@@ -194,7 +230,7 @@ modified: '2026-10-30'
 name: routinerun-com
 nav: Providers
 network: true
-overview: 'routinerun-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Events API and Runs API. Tagged areas include Company, Automation, Productivity, Task Management, and No-code.
+overview: 'routinerun-com publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events API, Runs API, Commands API, and 3 more. Tagged areas include Company, Automation, Productivity, Task Management, and No-Code.
 
 
   The routinerun-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -226,21 +262,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.0
+  composite: 42.9
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 61.2
     catalog_earned_first_party: 8.0
     catalog_gap: 53.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 50.5
-    developer_ergonomics: 39.8
-    discoverability: 66.7
-    operational_transparency: 21.1
+    contract_quality: 51.6
+    developer_ergonomics: 29.0
+    discoverability: 74.1
+    operational_transparency: 18.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,19 +287,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-    mcp: derived
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/routinerun-com/routinerun-com-2026-11-03T142432.png
 security:
 - kind: authentication
   name: Routinerun Com Authentication
@@ -281,6 +321,6 @@ tags:
 - Automation
 - Productivity
 - Task Management
-- No-code
+- No-Code
 website: https://routinerun.com/
 ---

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
   public: true
   source:
   - plans
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -25,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Open-source REST and WebSocket API for querying the Dash Core (layer 1) blockchain. Provides endpoints for blocks (by hash or height), raw blocks, transactions (by txid), raw transactions, addresses (
@@ -133,9 +138,9 @@ rate_limits:
   slug: dash-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 14.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -148,16 +153,16 @@ score:
     contract_quality: 6.7
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 14.6
+    operational_transparency: 10.5
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

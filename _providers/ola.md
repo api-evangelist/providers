@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium · Requires approval
   onboarding: approval
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The Ola Ride Booking API enables affiliates and partners to let users find, book, and manage Ola rides directly within their applications. It covers ride availability checks, fare estimates, booking c
@@ -178,7 +180,7 @@ rate_limits:
   slug: ola-rate-limits
 score:
   band: thin
-  composite: 29.3
+  composite: 27.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 57.0
@@ -191,9 +193,9 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 14.3
-    developer_ergonomics: 50.0
+    developer_ergonomics: 42.9
     discoverability: 71.4
-    operational_transparency: 15.8
+    operational_transparency: 11.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,15 +203,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 29.3
+  previous_composite: 27.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

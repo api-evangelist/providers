@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.6
-  scored_at: '2026-10-31'
+  score: 14.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Otter.ai REST API enables Enterprise customers to programmatically upload audio and video files for transcription, retrieve speaker-identified transcripts, receive webhook notifications when speec
@@ -151,9 +153,9 @@ rate_limits:
   slug: otter-ai-rate-limits
 score:
   band: emerging
-  composite: 20.6
+  composite: 18.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -164,10 +166,10 @@ score:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 11.9
-    discoverability: 66.1
+    developer_ergonomics: 2.4
+    discoverability: 68.3
     operational_transparency: 28.9
-  previous_composite: 20.6
+  previous_composite: 18.9
   provenance:
     mcp: first-party
   regulatory:
@@ -176,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

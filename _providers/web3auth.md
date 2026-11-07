@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
+  confidence: low
+  label: Freemium
   onboarding: unknown
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: full
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.1
-  scored_at: '2026-10-31'
+  score: 13.0
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Threshold-key Auth Network nodes that issue and recover key shares anchored to OAuth/social/passkey identity providers. Accessed primarily through the Web3Auth client SDK rather than as a developer-fa
@@ -126,9 +128,9 @@ rate_limits:
   slug: web3auth-rate-limits
 score:
   band: emerging
-  composite: 12.8
+  composite: 12.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -140,9 +142,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 12.8
+    discoverability: 75.0
+    operational_transparency: 7.9
+  previous_composite: 12.6
   provenance:
     mcp: first-party
   regulatory:
@@ -151,8 +153,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

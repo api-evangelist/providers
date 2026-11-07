@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -15,7 +26,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-31'
+  score: 48.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: ''
@@ -221,7 +233,7 @@ modified: '2026-10-30'
 name: crispy-sh
 nav: Providers
 network: true
-overview: 'crispy-sh is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LinkedIn, Founders, Outreach, Automation, and SaaS.
+overview: 'crispy-sh is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LinkedIn, Founders, Outreach, Automation, and Software-as-a-Service.
 
 
   The crispy-sh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -251,34 +263,47 @@ rules:
     warn: 1
   slug: crispy-sh-rules
 score:
-  band: strong
-  composite: 59.7
+  band: thin
+  composite: 36.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 73.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 41.1
+    artifact_dirs: 26
+    catalog_earned: 59.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.9
   facets:
-    access_clarity: 63.7
-    contract_governance: 79.1
-    contract_quality: 46.8
-    developer_ergonomics: 56.4
+    access_clarity: 43.4
+    contract_governance: 35.6
+    contract_quality: 19.8
+    developer_ergonomics: 38.6
     discoverability: 57.1
-    operational_transparency: 50.0
+    operational_transparency: 25.0
+  previous_composite: 48.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/crispy-sh/crispy-sh-2026-11-03T125622.png
 security:
 - kind: domain-security
   name: Crispy Sh Domain Security
@@ -298,6 +323,6 @@ tags:
 - Founders
 - Outreach
 - Automation
-- SaaS
+- Software-as-a-Service
 website: https://crispy.sh/
 ---

@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -15,7 +15,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,7 +29,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -39,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-10-31'
+  score: 42.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
@@ -151,7 +152,7 @@ apis:
   description: Tags are folder-based entities that you can use to organize your resources. Each tag folder contains its own isolated set of tags.
   name: Blueshift Tags API
   slug: blueshift-tags-api
-artifact_total: 37
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Blueshift Webhooks
@@ -328,7 +329,7 @@ network: true
 overview: 'Blueshift publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adapters API, Campaigns API, Catalog API, and 19 more. Tagged areas include Customer Data Platform, Customer Engagement, Marketing Automation, Cross-Channel Messaging, and Email.
 
 
-  The Blueshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Blueshift catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Blueshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -344,6 +345,19 @@ rate_limits:
 - limit_count: 6
   name: Blueshift Rate Limits
   slug: blueshift-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Blueshift API Rules
+  rule_count: 56
+  severity_counts:
+    error: 43
+    hint: 0
+    info: 1
+    warn: 12
+  slug: blueshift-rules
 scopes:
 - name: Blueshift Scopes
   scope_count: 8
@@ -351,23 +365,23 @@ scopes:
   summary_line: 8 scopes
 score:
   band: exemplar
-  composite: 69.1
+  composite: 72.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 64.0
+    artifact_dirs: 33
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 3.8
   facets:
     access_clarity: 100.0
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 60.0
     developer_ergonomics: 74.4
-    discoverability: 65.0
-    operational_transparency: 76.3
-  previous_composite: 67.5
+    discoverability: 75.0
+    operational_transparency: 73.7
+  previous_composite: 69.1
   provenance:
     conformance: first-party
     contracts:
@@ -383,13 +397,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/blueshift/blueshift-2026-08-17T080647.png
 security:
 - kind: authentication

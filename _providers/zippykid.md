@@ -1,12 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -20,23 +26,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-31'
+  score: 50.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 7
@@ -86,7 +93,7 @@ apis:
   description: The zones API from ZippyKid — 5 operation(s) for zones.
   name: ZippyKid Zones API
   slug: zippykid-zones-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Zippykid Webhooks
@@ -287,7 +294,7 @@ network: true
 overview: 'ZippyKid publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Auth API, and 5 more. Tagged areas include Company, WordPress, Managed Hosting, WordPress Hosting, and Web Hosting.
 
 
-  The ZippyKid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The ZippyKid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   ZippyKid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -299,6 +306,19 @@ plans:
   plan_count: 0
   slug: zippykid-price-estimates
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: ZippyKid API Rules
+  rule_count: 47
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 2
+    warn: 7
+  slug: zippykid-rules
 scopes:
 - name: Zippykid Scopes
   scope_count: 13
@@ -306,30 +326,30 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 59.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.2
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 53.2
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 60.3
     developer_ergonomics: 58.9
-    discoverability: 65.0
-    operational_transparency: 39.5
-  previous_composite: 49.1
+    discoverability: 75.0
+    operational_transparency: 31.6
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: derived
@@ -338,14 +358,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+    score: 32.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/zippykid/zippykid-2026-08-17T083111.png
 security:
 - kind: authentication

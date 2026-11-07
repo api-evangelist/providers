@@ -1,16 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -27,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-31'
+  score: 27.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ modified: '2026-09-16'
 name: Amazon Keyspaces
 nav: Providers
 network: true
-overview: 'Amazon Keyspaces publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tables API, Keyspaces Operations API, and 2 more. Tagged areas include Cassandra, Database, Managed Database, NoSQL, and Wide Column.
+overview: 'Amazon Keyspaces publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tables API, Keyspaces Operations API, and 2 more. Tagged areas include Amazon Web Services, Cassandra, Database, Managed Database, and NoSQL.
 
 
   The Amazon Keyspaces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -355,7 +355,7 @@ rules:
   slug: amazon-keyspaces-spectral-rules
 score:
   band: strong
-  composite: 62.5
+  composite: 61.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 63.0
@@ -363,20 +363,20 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.4
   facets:
     access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 62.8
-    developer_ergonomics: 79.8
+    contract_quality: 64.5
+    developer_ergonomics: 77.4
     discoverability: 73.2
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 68.2
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -390,13 +390,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: falling
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-keyspaces/amazon-keyspaces-2026-06-20T171716.png
 security:
 - kind: authentication
@@ -417,6 +416,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-keyspaces
 tags:
+- Amazon Web Services
 - Cassandra
 - Database
 - Managed Database

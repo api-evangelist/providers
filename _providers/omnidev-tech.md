@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.2
-  scored_at: '2026-10-31'
+  score: 15.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Pay-per-call LLM chat completions and packages API.
@@ -160,7 +176,7 @@ modified: '2026-10-30'
 name: omnidev-tech
 nav: Providers
 network: true
-overview: 'omnidev-tech is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Pay-per-call, Developer-friendly, and Company.
+overview: 'omnidev-tech is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Pay-per-call, and Company.
 
 
   omnidev-tech''s developer surface includes changelog, authentication, documentation, getting-started guide, support, and 20 more developer resources.'
@@ -170,34 +186,41 @@ plans:
   slug: omnidev-tech-plans-pricing
 random_paper: 19
 score:
-  band: thin
-  composite: 34.2
+  band: emerging
+  composite: 24.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 45.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.2
+    artifact_dirs: 16
+    catalog_earned: 42.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.8
   facets:
-    access_clarity: 49.5
-    contract_governance: 16.4
+    access_clarity: 42.1
+    contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 61.7
-    operational_transparency: 42.1
+    developer_ergonomics: 29.8
+    discoverability: 53.3
+    operational_transparency: 28.9
+  previous_composite: 33.4
+  provenance:
+    conformance: derived
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/omnidev-tech/omnidev-tech-2026-11-03T140538.png
 security:
 - kind: authentication
   name: Omnidev Tech Authentication
@@ -209,10 +232,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: omnidev-tech
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Pay-per-call
-- Developer-friendly
 - Company
 website: https://omnidev.tech/
 ---

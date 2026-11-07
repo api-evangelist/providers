@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-31'
+  score: 17.2
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Shipyard provides managed, ephemeral development environments via its API. Documentation is hosted at the developer portal.
@@ -221,29 +234,31 @@ rules:
     warn: 1
   slug: shipyard-rules
 score:
-  band: developing
-  composite: 50.2
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.1
   facets:
-    access_clarity: 92.1
+    access_clarity: 65.8
     contract_governance: 35.6
     contract_quality: 26.3
-    developer_ergonomics: 50.0
-    discoverability: 58.9
-    operational_transparency: 15.8
+    developer_ergonomics: 31.0
+    discoverability: 58.0
+    operational_transparency: 7.9
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 12
+      derived: 1
       marker_coverage: 100.0
-      total: 12
+      total: 1
   regulatory:
     applies: true
     jurisdictions:
@@ -255,13 +270,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/shipyard/shipyard-2026-11-03T143131.png
 security:
 - kind: authentication
   name: Shipyard Authentication

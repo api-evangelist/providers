@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.6
-  scored_at: '2026-10-31'
+  score: 42.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -72,7 +73,7 @@ apis:
   description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
   name: AltoIRA OAUTH API
   slug: altoira-oauth-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: Alto pushes investment-lifecycle events to a Platform Partner's registered webhook endpoint so the partner can track an investor's progress through the Direction of Investment (DOI), funding and any p
   name: Alto Investment Status Webhooks
@@ -263,11 +264,24 @@ network: true
 overview: 'AltoIRA publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, Offering API, and 2 more. Tagged areas include Company, Financial Services, Retirement, Self-Directed IRA, and Alternative Investments.
 
 
-  The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   AltoIRA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 4
+rules:
+- authorship: generated
+  effective_rule_count: 110
+  extends:
+  - spectral:oas
+  name: AltoIRA API Rules
+  rule_count: 69
+  severity_counts:
+    error: 63
+    hint: 0
+    info: 5
+    warn: 1
+  slug: altoira-rules
 scopes:
 - name: Altoira Scopes
   scope_count: 0
@@ -275,22 +289,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.7
+  composite: 52.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
-    access_clarity: 52.6
-    contract_governance: 4.5
+    access_clarity: 38.2
+    contract_governance: 18.2
     contract_quality: 53.8
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 28.9
+    discoverability: 73.2
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -298,7 +312,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,14 +328,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 34.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/altoira/altoira-2026-08-07T161253.png
 security:
 - kind: authentication

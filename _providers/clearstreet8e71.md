@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.8
-  scored_at: '2026-10-31'
+  score: 38.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -226,13 +238,13 @@ json_schemas:
   property_count: 21
   slug: clearstreet8e71-account-balances
 - name: AccountWithPersonalDetails
-  property_count: 0
+  property_count: 4
   slug: clearstreet8e71-account-with-personal-details
 - name: InstrumentFundamentals
   property_count: 15
   slug: clearstreet8e71-instrument-fundamentals
 - name: Instrument
-  property_count: 0
+  property_count: 24
   slug: clearstreet8e71-instrument
 - name: Order
   property_count: 34
@@ -273,23 +285,23 @@ rules:
   slug: clearstreet8e71-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 42.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 22.4
     contract_governance: 22.0
-    contract_quality: 66.7
-    developer_ergonomics: 61.3
-    discoverability: 58.9
-    operational_transparency: 31.6
-  previous_composite: 48.8
+    contract_quality: 70.1
+    developer_ergonomics: 43.5
+    discoverability: 58.0
+    operational_transparency: 21.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,14 +317,14 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 21.3
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
+screenshot: https://apis.io/screenshots/clearstreet8e71/clearstreet8e71-2026-11-03T124354.png
 security:
 - kind: authentication
   name: Clearstreet8E71 Authentication

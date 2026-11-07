@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,6 +15,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +29,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -81,7 +86,7 @@ apis:
   description: Webhook subscription management.
   name: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Sesame HR Public Absences and Leave API
@@ -177,6 +182,9 @@ network: true
 overview: 'Sesame HR publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences and Leave API, Departments and Org API, Employees API, and 4 more. Tagged areas include Human Resources, HRIS, Time Tracking, Workforce Management, and Employee Management.
 
 
+  The Sesame HR catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Sesame HR''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Sesame Hr Plans Pricing
@@ -187,25 +195,38 @@ rate_limits:
 - limit_count: 1
   name: Sesame Hr Rate Limits
   slug: sesame-hr-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Sesame HR API Rules
+  rule_count: 61
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 1
+  slug: sesame-hr-rules
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 27.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 16
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
-    contract_quality: 51.0
+    contract_governance: 13.6
+    contract_quality: 53.3
     developer_ergonomics: 32.1
-    discoverability: 66.1
+    discoverability: 68.3
     operational_transparency: 5.3
-  previous_composite: 26.1
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -220,13 +241,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/sesame-hr/sesame-hr-2026-09-02T155017.png
 security:
 - kind: authentication

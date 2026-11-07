@@ -1,18 +1,23 @@
 ---
 access_model:
   confidence: high
-  label: Paid vendor package · Sales-led · Public docs with a live mock
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   - sandbox
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,23 +26,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-31'
+  score: 28.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -331,7 +337,7 @@ json_schemas:
   property_count: 4
   slug: trustradius-AccountActivity
 - name: AccountDetail
-  property_count: 0
+  property_count: 1
   slug: trustradius-AccountDetail
 - name: Activity
   property_count: 6
@@ -361,13 +367,13 @@ json_schemas:
   property_count: 2
   slug: trustradius-Visit
 - name: VisitDetail
-  property_count: 0
+  property_count: 2
   slug: trustradius-VisitDetail
 - name: Visitor
   property_count: 3
   slug: trustradius-Visitor
 - name: VisitorDetail
-  property_count: 0
+  property_count: 1
   slug: trustradius-VisitorDetail
 - name: Visitor Insights Company
   property_count: 18
@@ -439,7 +445,7 @@ score:
   band: strong
   composite: 56.5
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 73.0
     catalog_earned_first_party: 16.0
     catalog_gap: 42.0
@@ -477,13 +483,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/trustradius/trustradius-2026-06-20T195813.png
 security:
 - kind: authentication

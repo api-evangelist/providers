@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  gated: private
+  gated_source:
+  - x-api-posture
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 api_count: 0
 artifact_total: 0
 common:

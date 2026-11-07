@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -26,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -261,7 +277,72 @@ apis:
   description: The WordPress API from digitalpublic-com — 2 operation(s) for wordpress.
   name: digitalpublic-com Word Press API
   slug: digitalpublic-com-wordpress-api
-artifact_total: 54
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Capabilities API from digitalpublic-com — 1 operation(s) for capabilities.
+  name: digitalpublic-com Capabilities API
+  slug: digitalpublic-com-capabilities-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Catalog API from digitalpublic-com — 1 operation(s) for catalog.
+  name: digitalpublic-com Catalog API
+  slug: digitalpublic-com-catalog-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Catalog Validation API from digitalpublic-com — 1 operation(s) for catalog validation.
+  name: digitalpublic-com Catalog Validation API
+  slug: digitalpublic-com-catalog-validation-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Checkout Intents API from digitalpublic-com — 3 operation(s) for checkout intents.
+  name: digitalpublic-com Checkout Intents API
+  slug: digitalpublic-com-checkout-intents-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Company API from digitalpublic-com — 1 operation(s) for company.
+  name: digitalpublic-com Company API
+  slug: digitalpublic-com-company-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Fit Assessments API from digitalpublic-com — 1 operation(s) for fit assessments.
+  name: digitalpublic-com Fit Assessments API
+  slug: digitalpublic-com-fit-assessments-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Projects API from digitalpublic-com — 2 operation(s) for projects.
+  name: digitalpublic-com Projects API
+  slug: digitalpublic-com-projects-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Readiness API from digitalpublic-com — 1 operation(s) for readiness.
+  name: digitalpublic-com Readiness API
+  slug: digitalpublic-com-readiness-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Roi API from digitalpublic-com — 1 operation(s) for roi.
+  name: digitalpublic-com Roi API
+  slug: digitalpublic-com-roi-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Status API from digitalpublic-com — 1 operation(s) for status.
+  name: digitalpublic-com Status API
+  slug: digitalpublic-com-status-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Trials API from digitalpublic-com — 3 operation(s) for trials.
+  name: digitalpublic-com Trials API
+  slug: digitalpublic-com-trials-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Trust API from digitalpublic-com — 1 operation(s) for trust.
+  name: digitalpublic-com Trust API
+  slug: digitalpublic-com-trust-api
+- baseURL: https://platform.digitalpublic.com/api/commercial
+  baseurl_source: declared
+  description: The Use Cases API from digitalpublic-com — 1 operation(s) for use cases.
+  name: digitalpublic-com Use Cases API
+  slug: digitalpublic-com-use-cases-api
+artifact_total: 67
 common:
 - group: agent
   href: https://artifacts.apis.io/digitalpublic-com/agentic-access/digitalpublic-com-agentic-access.yml
@@ -444,7 +525,7 @@ modified: '2026-10-30'
 name: digitalpublic-com
 nav: Providers
 network: true
-overview: 'digitalpublic-com publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including AEO API, Agent API, Analytics API, and 42 more. Tagged areas include Company, Data, APIs, Public, and Civic.
+overview: 'digitalpublic-com publishes 58 API contracts indexed on the [APIs.io](https://apis.io/) network, including AEO API, Agent API, Analytics API, and 55 more. Tagged areas include Company, Data, Public, and Civic.
 
 
   The digitalpublic-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -470,22 +551,30 @@ rules:
     warn: 1
   slug: digitalpublic-com-rules
 score:
-  band: strong
-  composite: 60.8
+  band: developing
+  composite: 49.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.8
+    artifact_dirs: 21
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -14.2
   facets:
-    access_clarity: 84.2
+    access_clarity: 57.9
     contract_governance: 22.0
-    contract_quality: 62.5
-    developer_ergonomics: 61.9
-    discoverability: 66.1
-    operational_transparency: 26.3
+    contract_quality: 60.8
+    developer_ergonomics: 36.9
+    discoverability: 64.3
+    operational_transparency: 13.2
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -500,13 +589,14 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/digitalpublic-com/digitalpublic-com-2026-11-03T130725.png
 security:
 - kind: authentication
   name: Digitalpublic Com Authentication
@@ -524,7 +614,6 @@ slug: digitalpublic-com
 tags:
 - Company
 - Data
-- APIs
 - Public
 - Civic
 website: https://digitalpublic.com/

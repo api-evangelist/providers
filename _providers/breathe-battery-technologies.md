@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API-delivered battery simulation service for predicting performance and degradation with validated physics-based cell models, and for retrieving and designing battery cell formats. Accessed through th
@@ -138,8 +139,8 @@ overview: 'Breathe Battery Technologies is listed with 1 API on the [APIs.io](ht
   Breathe Battery Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 27.9
+  band: emerging
+  composite: 18.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -149,21 +150,21 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 57.1
+    developer_ergonomics: 45.2
+    discoverability: 64.3
     operational_transparency: 15.8
-  previous_composite: 27.9
+  previous_composite: 18.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 11.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

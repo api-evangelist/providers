@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.3
-  scored_at: '2026-10-31'
+  score: 52.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.tryverifyemail.com
@@ -201,7 +218,7 @@ modified: '2026-10-31'
 name: tryverifyemail-com
 nav: Providers
 network: true
-overview: 'tryverifyemail-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Verification, API, Data Validation, and Deliverability.
+overview: 'tryverifyemail-com is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Verification, Data Validation, Deliverability, and Bulk.
 
 
   The tryverifyemail-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -236,34 +253,47 @@ scopes:
   slug: tryverifyemail-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 63.7
+  band: developing
+  composite: 40.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 99.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 15.7
+    artifact_dirs: 31
+    catalog_earned: 86.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
-    contract_quality: 56.9
-    developer_ergonomics: 54.0
+    access_clarity: 47.4
+    contract_governance: 22.0
+    contract_quality: 26.5
+    developer_ergonomics: 36.2
     discoverability: 65.0
-    operational_transparency: 60.0
+    operational_transparency: 47.4
+  previous_composite: 50.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/tryverifyemail-com/tryverifyemail-com-2026-11-03T145211.png
 security:
 - kind: authentication
   name: Tryverifyemail Com Authentication
@@ -281,7 +311,6 @@ slug: tryverifyemail-com
 tags:
 - Company
 - Email Verification
-- API
 - Data Validation
 - Deliverability
 - Bulk

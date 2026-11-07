@@ -1,7 +1,10 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium (free trial) · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -9,7 +12,7 @@ access_model:
   - plans
   - authentication
   - security
-  trial: true
+  trial: false
   try_now: true
 agent_readiness:
   band: agent-aware
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 0
@@ -224,9 +228,9 @@ rules:
   slug: convertapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 44.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 60.3
     catalog_earned_first_party: 12.0
     catalog_gap: 54.8
@@ -237,10 +241,10 @@ score:
     access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 52.4
-    developer_ergonomics: 45.2
+    developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 46.7
+    operational_transparency: 36.8
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -254,13 +258,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/convertapi/convertapi-2026-06-20T174957.png
 security:
 - kind: authentication

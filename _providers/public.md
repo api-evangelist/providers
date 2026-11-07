@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +37,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-31'
+  score: 23.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for programmatic trading on Public — manage brokerage accounts, pull portfolio and transaction history, retrieve market data (quotes, bars, option chains, greeks), and place, replace, and can
@@ -180,9 +183,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 35.9
+  composite: 36.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,9 +197,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 35.9
+    discoverability: 75.0
+    operational_transparency: 18.4
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,8 +209,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

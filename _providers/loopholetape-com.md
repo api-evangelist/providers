@@ -1,7 +1,21 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: unknown
@@ -10,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.3
-  scored_at: '2026-10-31'
+  score: 53.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,7 +245,7 @@ modified: '2026-10-30'
 name: loopholetape-com
 nav: Providers
 network: true
-overview: 'loopholetape-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Discovery API, Free API, and Paid API. Tagged areas include Company, Crypto, Solana, Risk, and API.
+overview: 'loopholetape-com publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Discovery API, Free API, and Paid API. Tagged areas include Company, Cryptocurrency, Solana, and Risk Management.
 
 
   The loopholetape-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -261,21 +276,29 @@ rules:
   slug: loopholetape-com-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 41.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 74.8
+    artifact_dirs: 26
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 31.6
+    access_clarity: 15.8
     contract_governance: 22.0
     contract_quality: 60.5
-    developer_ergonomics: 56.4
-    discoverability: 65.0
-    operational_transparency: 47.4
+    developer_ergonomics: 37.4
+    discoverability: 66.7
+    operational_transparency: 39.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,13 +314,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
+screenshot: https://apis.io/screenshots/loopholetape-com/loopholetape-com-2026-11-03T135044.png
 security:
 - kind: authentication
   name: Loopholetape Com Authentication
@@ -318,9 +343,8 @@ skills:
 slug: loopholetape-com
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Solana
-- Risk
-- API
+- Risk Management
 website: https://loopholetape.com/
 ---

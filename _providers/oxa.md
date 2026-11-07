@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,9 +122,9 @@ overview: 'Oxa is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 random_paper: 16
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -135,7 +136,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 48.2
+    discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,15 +146,15 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 9.2
+  previous_composite: 9.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
+  - security
+  - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -25,18 +31,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-31'
+  score: 58.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -196,7 +203,7 @@ apis:
   description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
   name: Curlec X Transactions API
   slug: curlec-x-transactions-api
-artifact_total: 101
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Curlec Webhooks
@@ -383,6 +390,41 @@ collections:
   name: Razorpay Bills X Transactions API
   slug: open-curlec-x-transactions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/curlec/finops/curlec-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/curlec-finops.yml
+- group: design
+  href: https://artifacts.apis.io/curlec/rules/curlec-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/curlec-rules.yml
+- group: design
+  href: https://artifacts.apis.io/curlec/json-ld/curlec-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/curlec-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/curlec/vocabulary/curlec-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/curlec-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/curlec/hosts/curlec-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/curlec-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/curlec/integrations/curlec-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/curlec-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/curlec/vendors/curlec-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/curlec-vendors.yml
 - group: commercial
   href: https://artifacts.apis.io/curlec/plans/curlec-plans-pricing.yml
   title: ''
@@ -589,6 +631,123 @@ finops:
   slug: curlec-finops
   template: false
 image: https://curlec.com/favicon.ico
+json_schemas:
+- name: AccountDocument
+  property_count: 2
+  slug: curlec-account-document
+- name: BankTransfer
+  property_count: 9
+  slug: curlec-bank-transfer
+- name: BankingBalance
+  property_count: 9
+  slug: curlec-banking-balance
+- name: Bill
+  property_count: 27
+  slug: curlec-bill
+- name: Collection
+  property_count: 3
+  slug: curlec-collection
+- name: Customer
+  property_count: 8
+  slug: curlec-customer
+- name: Dispute
+  property_count: 13
+  slug: curlec-dispute
+- name: Document
+  property_count: 7
+  slug: curlec-document
+- name: FundAccount
+  property_count: 11
+  slug: curlec-fund-account
+- name: FundAccountValidation
+  property_count: 14
+  slug: curlec-fund-account-validation
+- name: InstantSettlement
+  property_count: 15
+  slug: curlec-instant-settlement
+- name: Invoice
+  property_count: 31
+  slug: curlec-invoice
+- name: Item
+  property_count: 9
+  slug: curlec-item
+- name: LinkedAccount
+  property_count: 14
+  slug: curlec-linked-account
+- name: Notes
+  property_count: 0
+  slug: curlec-notes
+- name: Order
+  property_count: 13
+  slug: curlec-order
+- name: PartnerStakeholder
+  property_count: 10
+  slug: curlec-partner-stakeholder
+- name: PartnerWebhook
+  property_count: 15
+  slug: curlec-partner-webhook
+- name: PaymentDowntime
+  property_count: 11
+  slug: curlec-payment-downtime
+- name: PaymentLink
+  property_count: 26
+  slug: curlec-payment-link
+- name: Payment
+  property_count: 33
+  slug: curlec-payment
+- name: PayoutLink
+  property_count: 21
+  slug: curlec-payout-link
+- name: Payout
+  property_count: 21
+  slug: curlec-payout
+- name: Plan
+  property_count: 7
+  slug: curlec-plan
+- name: ProductConfiguration
+  property_count: 9
+  slug: curlec-product-configuration
+- name: QrCode
+  property_count: 16
+  slug: curlec-qr-code
+- name: Refund
+  property_count: 13
+  slug: curlec-refund
+- name: Reversal
+  property_count: 8
+  slug: curlec-reversal
+- name: SettlementReconRecord
+  property_count: 26
+  slug: curlec-settlement-recon-record
+- name: Settlement
+  property_count: 8
+  slug: curlec-settlement
+- name: StakeholderDocument
+  property_count: 2
+  slug: curlec-stakeholder-document
+- name: Stakeholder
+  property_count: 11
+  slug: curlec-stakeholder
+- name: Subscription
+  property_count: 24
+  slug: curlec-subscription
+- name: Transfer
+  property_count: 18
+  slug: curlec-transfer
+- name: VirtualAccount
+  property_count: 13
+  slug: curlec-virtual-account
+- name: XContact
+  property_count: 11
+  slug: curlec-xcontact
+- name: XTransaction
+  property_count: 10
+  slug: curlec-xtransaction
+jsonld:
+- class_count: 44
+  name: Curlec Context
+  property_count: 265
+  slug: curlec-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.razorpay.com over HTTP.
@@ -601,15 +760,28 @@ network: true
 overview: 'Curlec publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Disputes API, and 27 more. Tagged areas include Company, Payments, Payment Gateway, Recurring Payments, and Subscription.
 
 
-  The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 36 more developer resources.'
+  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 43 more developer resources.'
 plans:
 - name: Curlec Plans Pricing
   plan_count: 3
   slug: curlec-plans-pricing
 random_paper: 14
+rules:
+- authorship: generated
+  effective_rule_count: 118
+  extends:
+  - spectral:oas
+  name: Curlec API Rules
+  rule_count: 77
+  severity_counts:
+    error: 65
+    hint: 0
+    info: 2
+    warn: 10
+  slug: curlec-rules
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -617,22 +789,22 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 67.6
+  composite: 73.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 52.0
+    artifact_dirs: 39
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 5.2
   facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 58.2
-    developer_ergonomics: 78.0
-    discoverability: 65.0
-    operational_transparency: 52.6
+    access_clarity: 85.5
+    contract_governance: 35.6
+    contract_quality: 79.3
+    developer_ergonomics: 75.6
+    discoverability: 75.0
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -640,14 +812,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 59.7
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 30
     mcp: first-party
     skills: derived
@@ -657,13 +829,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/curlec/curlec-2026-07-25T210942.png
 security:
 - kind: authentication

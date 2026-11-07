@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://www.kareo.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.tebra.com/ — a different registrable domain (kareo.com -> tebra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -239,10 +241,10 @@ rules:
     warn: 4
   slug: kareo-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 37.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -252,11 +254,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
-    contract_quality: 7.5
+    contract_quality: 55.2
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 23.3
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -270,13 +272,12 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/kareo/kareo-2026-06-20T183920.png
 security:
 - kind: domain-security

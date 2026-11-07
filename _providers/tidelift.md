@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -125,7 +126,7 @@ arazzos:
 - description: Validate the API key, look up a package and a release, and pull the release's vulnerabilities.
   name: Tidelift — package vulnerability check
   slug: tidelift-package-vulnerability-check.arazzo
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Tidelift Webhooks
@@ -341,37 +342,50 @@ network: true
 overview: 'Tidelift publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alignments API, Attestations API, Authentication API, and 12 more. Tagged areas include Company, Open Source, Software Supply Chain, Dependency Management, and Application Security.
 
 
-  The Tidelift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Tidelift catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 26 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Tidelift API Rules
+  rule_count: 52
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 5
+    warn: 10
+  slug: tidelift-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 41.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
-    access_clarity: 10.5
-    contract_governance: 4.5
-    contract_quality: 53.0
-    developer_ergonomics: 75.6
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 43.9
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 58.0
+    developer_ergonomics: 58.9
+    discoverability: 73.2
+    operational_transparency: 36.8
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 15
     mcp: derived
     skills: derived
@@ -381,13 +395,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/tidelift/tidelift-2026-08-17T082353.png
 security:
 - kind: authentication

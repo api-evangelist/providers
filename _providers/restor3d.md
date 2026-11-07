@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The machine-readable surface served by restor3d's corporate website. It is a stock WordPress REST API (namespaces wp/v2, wp-abilities/v1, mcp, plus SEO/caching plugin namespaces) covering site content
@@ -154,7 +155,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -166,8 +167,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 65.0
-    operational_transparency: 5.3
+    discoverability: 68.3
+    operational_transparency: 2.6
   previous_composite: 20.2
   provenance:
     conformance: first-party
@@ -178,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

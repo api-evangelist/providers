@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -224,10 +225,10 @@ overview: 'Finite State is listed with 3 APIs on the [APIs.io](https://apis.io/)
   Finite State''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
 random_paper: 5
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 37.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -238,10 +239,13 @@ score:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.2
-    discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 40.1
+    developer_ergonomics: 57.7
+    discoverability: 78.6
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -252,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

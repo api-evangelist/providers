@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,7 +80,7 @@ apis:
   description: The Requests API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for requests.
   name: Stella Connect (Medallia Agent Connect) Requests API
   slug: stellaconnect-requests-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Agent Connect Coaching API
@@ -255,31 +256,47 @@ network: true
 overview: 'Stella Connect (Medallia Agent Connect) publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coaching API, Data API, Employees API, and 3 more. Tagged areas include Customer Service, Customer Feedback, Quality Assurance, Coaching, and Contact Center.
 
 
+  The Stella Connect (Medallia Agent Connect) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 24 more developer resources.'
 random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Stellaconnect Rate Limits
   slug: stellaconnect-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Stella Connect (Medallia Agent Connect) API Rules
+  rule_count: 66
+  severity_counts:
+    error: 64
+    hint: 0
+    info: 1
+    warn: 1
+  slug: stellaconnect-rules
 score:
   band: developing
-  composite: 51.3
+  composite: 41.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 18.2
+    access_clarity: 27.6
+    contract_governance: 31.8
     contract_quality: 46.8
-    developer_ergonomics: 54.2
+    developer_ergonomics: 20.8
     discoverability: 71.4
-    operational_transparency: 68.4
-  previous_composite: 51.3
+    operational_transparency: 65.8
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,14 +318,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/stellaconnect/stellaconnect-2026-08-17T082119.png
 security:
 - kind: authentication

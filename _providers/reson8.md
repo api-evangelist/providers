@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - baseURL: https://api.reson8.dev/v1
@@ -54,7 +59,7 @@ apis:
   description: Realtime, turn-level, and prerecorded transcription.
   name: Reson8 Speech to Text API
   slug: reson8-speech-to-text-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Reson8 Speech-to-Text Auth API
@@ -209,31 +214,47 @@ network: true
 overview: 'Reson8 is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Custom Models API, and Speech to Text API. Tagged areas include Speech Recognition, Speech-to-Text, Voice AI, Transcription, and Diarization.
 
 
+  The Reson8 catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Reson8''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 22 more developer resources.'
 plans:
 - name: Reson8 Plans Pricing
   plan_count: 4
   slug: reson8-plans-pricing
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 103
+  extends:
+  - spectral:oas
+  name: Reson8 API Rules
+  rule_count: 62
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 3
+    warn: 1
+  slug: reson8-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 40.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.0
+    artifact_dirs: 23
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
+    access_clarity: 65.8
+    contract_governance: 18.2
     contract_quality: 14.6
-    developer_ergonomics: 61.3
-    discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 44.6
+    developer_ergonomics: 51.8
+    discoverability: 78.6
+    operational_transparency: 18.4
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -249,13 +270,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/reson8/reson8-2026-08-17T081533.png
 security:
 - kind: authentication

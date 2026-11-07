@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
@@ -137,9 +139,9 @@ rate_limits:
   slug: axxess-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 13.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -151,17 +153,17 @@ score:
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
-    discoverability: 73.2
+    discoverability: 72.3
     operational_transparency: 0.0
-  previous_composite: 13.4
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

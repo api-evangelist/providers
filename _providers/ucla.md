@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -446,9 +447,9 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 42.8
+  composite: 41.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 62.3
     catalog_earned_first_party: 0.0
     catalog_gap: 52.8
@@ -461,7 +462,7 @@ score:
     contract_quality: 58.2
     developer_ergonomics: 45.2
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -469,7 +470,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.8
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -484,13 +485,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ucla/ucla-2026-06-20T195941.png
 security:
 - kind: authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-31'
+  score: 31.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -259,7 +271,7 @@ modified: '2026-10-28'
 name: evcc (self-hosted)
 nav: Providers
 network: true
-overview: 'evcc (self-hosted) publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Battery API, Db API, and 8 more. Tagged areas include Company, EV, SmartCharging, OpenSource, and EnergyManagement.
+overview: 'evcc (self-hosted) publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Battery API, Db API, and 8 more. Tagged areas include Company, Electric Vehicles, Smart Charging, Open Source, and Energy Management.
 
 
   The evcc (self-hosted) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -294,22 +306,24 @@ scopes:
   slug: evcc-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.3
+  band: thin
+  composite: 38.8
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 33
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.5
   facets:
-    access_clarity: 10.5
+    access_clarity: 5.3
     contract_governance: 22.0
     contract_quality: 61.3
-    developer_ergonomics: 70.7
-    discoverability: 66.1
-    operational_transparency: 21.1
+    developer_ergonomics: 48.1
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,16 +336,17 @@ score:
     skills: unknown
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 27.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/evcc/evcc-2026-11-03T131649.png
 security:
 - kind: authentication
   name: Evcc Authentication
@@ -350,10 +365,10 @@ skills:
 slug: evcc
 tags:
 - Company
-- EV
-- SmartCharging
-- OpenSource
-- EnergyManagement
-- HomeAutomation
+- Electric Vehicles
+- Smart Charging
+- Open Source
+- Energy Management
+- Home Automation
 website: https://evcc.io/
 ---

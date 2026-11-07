@@ -1,6 +1,7 @@
 ---
 access_model:
   confidence: low
+  gated_conflict: 'x-api-posture: private but 4 published API entries'
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -11,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: derived
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-31'
+  score: 29.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -68,7 +70,7 @@ arazzos:
 - description: Originate a one-to-one voice/video session on a Mavenir BYON call handling deployment, read it back, drive it to Connected, then terminate it. Every operationId is verified against openapi/mavenir-byo
   name: Place and manage a 1-1 VVoIP call (Mavenir BYON)
   slug: mavenir-byon-place-and-manage-call
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Mavenir Byon Events
@@ -251,29 +253,42 @@ network: true
 overview: 'Mavenir publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including One To One Call API, Push Token API, RACM API, and 1 more. Tagged areas include Telecommunications, United States, Network Vendor, Network APIs, and CAMARA.
 
 
-  The Mavenir catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Mavenir catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 31 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Mavenir API Rules
+  rule_count: 57
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 6
+    warn: 1
+  slug: mavenir-rules
 score:
   band: thin
-  composite: 37.9
+  composite: 38.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 32.0
+    artifact_dirs: 24
+    catalog_earned: 36.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 53.4
-    developer_ergonomics: 37.5
-    discoverability: 58.9
-    operational_transparency: 13.2
+    developer_ergonomics: 32.7
+    discoverability: 65.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -281,7 +296,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,13 +313,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mavenir/mavenir-2026-08-07T172126.png
 security:
 - kind: authentication

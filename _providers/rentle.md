@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -111,7 +116,7 @@ apis:
   description: The Product API from Rentle — 0 operation(s) for product.
   name: Rentle Product API
   slug: rentle-product-api
-artifact_total: 33
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Rentle Webhooks
@@ -277,7 +282,7 @@ network: true
 overview: 'Rentle publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 10 more. Tagged areas include Company, Rentals, Commerce, E-Commerce, and Circular Economy.
 
 
-  The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 17 more developer resources.'
@@ -289,32 +294,45 @@ plans:
   plan_count: 0
   slug: rentle-price-estimates
 random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 98
+  extends:
+  - spectral:oas
+  name: Rentle API Rules
+  rule_count: 57
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 4
+    warn: 9
+  slug: rentle-rules
 score:
   band: developing
-  composite: 53.6
+  composite: 50.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 1.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 52.0
-    developer_ergonomics: 47.0
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 45.7
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 56.1
+    developer_ergonomics: 28.0
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 84.6
       total: 13
     mcp: derived
     skills: derived
@@ -324,13 +342,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rentle/rentle-2026-08-17T081515.png
 security:
 - kind: authentication

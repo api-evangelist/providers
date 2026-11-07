@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -13,6 +16,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-31'
+  score: 42.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,7 +65,7 @@ apis:
   description: The Webhook API from Fillout — 2 operation(s) for webhook.
   name: Fillout Webhook API
   slug: fillout-webhook-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Fillout REST Forms API
@@ -153,6 +158,9 @@ network: true
 overview: 'Fillout publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Forms API, Webhook API, and 1 more. Tagged areas include Forms, Surveys, No-Code, Airtable, and Notion.
 
 
+  The Fillout catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Fillout''s developer surface includes authentication, documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Fillout Plans Pricing
@@ -163,31 +171,44 @@ rate_limits:
 - limit_count: 5
   name: Fillout Rate Limits
   slug: fillout-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Fillout API Rules
+  rule_count: 53
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 1
+    warn: 1
+  slug: fillout-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 34.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 46.0
+    artifact_dirs: 18
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 1.3
   facets:
     access_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 47.4
+    contract_governance: 13.6
+    contract_quality: 52.7
     developer_ergonomics: 35.7
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 30.5
+    discoverability: 68.3
+    operational_transparency: 10.5
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
   regulatory:
@@ -196,13 +217,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/fillout/fillout-2026-06-20T181207.png
 security:
 - kind: authentication

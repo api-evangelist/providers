@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: false
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-31'
+  score: 36.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -136,7 +141,7 @@ apis:
   description: vcs
   name: Nuon VCS API
   slug: nuon-vcs-api
-artifact_total: 48
+artifact_total: 49
 asyncapis:
 - description: 'Org-scoped webhooks deliver workflow and workflow-step lifecycle events for a Nuon Org as CloudEvents v1.0 JSON envelopes over HTTP POST. Best-effort delivery (no retries or replay); handlers must be '
   name: Nuon Org Webhooks
@@ -397,7 +402,7 @@ network: true
 overview: 'Nuon publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Actions/runner API, and 15 more. Tagged areas include Company, BYOC, Deployment, Continuous Delivery, and DevOps.
 
 
-  The Nuon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Nuon catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 33 more developer resources.'
@@ -406,25 +411,38 @@ plans:
   plan_count: 2
   slug: nuon-plans-pricing
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 109
+  extends:
+  - spectral:oas
+  name: Nuon API Rules
+  rule_count: 68
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 5
+    warn: 17
+  slug: nuon-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 64.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 30
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 2.6
   facets:
     access_clarity: 81.6
-    contract_governance: 4.5
-    contract_quality: 59.9
+    contract_governance: 18.2
+    contract_quality: 61.1
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 56.8
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -441,13 +459,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/nuon/nuon-2026-08-07T185744.png
 security:
 - kind: authentication

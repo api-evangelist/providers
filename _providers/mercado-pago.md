@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-31'
+  score: 25.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -516,7 +521,7 @@ score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -526,10 +531,10 @@ score:
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 56.4
-    developer_ergonomics: 64.3
+    contract_quality: 58.0
+    developer_ergonomics: 54.8
     discoverability: 60.7
-    operational_transparency: 28.9
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -539,9 +544,13 @@ score:
     - colombia
     - mexico
     - peru
+    - uruguay
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -556,13 +565,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mercado-pago/mercado-pago-2026-06-20T185325.png
 security:
 - kind: authentication

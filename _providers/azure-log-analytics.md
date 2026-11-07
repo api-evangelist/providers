@@ -1,15 +1,16 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -25,7 +26,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-31'
+  score: 35.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -114,7 +116,7 @@ arazzos:
 - description: Resolve a workspace, then list its tables and its saved searches together.
   name: Azure Log Analytics Workspace Inventory Report
   slug: azure-log-analytics-workspace-inventory-report-workflow
-artifact_total: 80
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Azure Log Analytics Ingestion API
@@ -141,6 +143,113 @@ collections:
   name: Azure Log Analytics Ingestion Workspaces API
   slug: open-azure-log-analytics-workspaces-api
 common:
+- group: operate
+  href: https://artifacts.apis.io/azure-log-analytics/rate-limits/azure-log-analytics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/azure-log-analytics-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/rules/azure-log-analytics-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/azure-log-analytics-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/rules/azure-log-analytics-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/azure-log-analytics-rules.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/rules/azure-log-analytics-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/azure-log-analytics-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/json-ld/azure-log-analytics-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/azure-log-analytics-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/vocabulary/azure-log-analytics-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/azure-log-analytics-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/data-model/azure-log-analytics-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/azure-log-analytics-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/errors/azure-log-analytics-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/azure-log-analytics-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/azure-log-analytics/conformance/azure-log-analytics-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/azure-log-analytics-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/azure-log-analytics/llms/azure-log-analytics-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/azure-log-analytics-llms.txt
+- group: build
+  href: https://artifacts.apis.io/azure-log-analytics/mcp/azure-log-analytics-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/azure-log-analytics-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/azure-log-analytics/mcp/azure-log-analytics-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/azure-log-analytics-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/azure-log-analytics/well-known/azure-log-analytics-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/azure-log-analytics-security.txt
+- group: agent
+  href: https://artifacts.apis.io/azure-log-analytics/well-known/azure-log-analytics-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/azure-log-analytics-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/azure-log-analytics/hosts/azure-log-analytics-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/azure-log-analytics-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/azure-log-analytics/vendors/azure-log-analytics-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/azure-log-analytics-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/azure-log-analytics/packages/azure-log-analytics-packages.yml
+  title: ''
+  type: Packages
+  url: packages/azure-log-analytics-packages.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: company
+  title: ''
+  type: Blog
+  url: https://techcommunity.microsoft.com/category/azure/blog/analyticsonazure
+- group: auth
+  href: https://artifacts.apis.io/azure-log-analytics/security/azure-log-analytics-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/azure-log-analytics-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/azure-log-analytics/security/azure-log-analytics-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/azure-log-analytics-vulnerability-disclosure.yml
 - group: commercial
   href: https://artifacts.apis.io/azure-log-analytics/plans/azure-log-analytics-plans-pricing.yml
   title: ''
@@ -297,10 +406,6 @@ common:
   title: ''
   type: Support
   url: https://azure.microsoft.com/en-us/support/
-- group: company
-  title: ''
-  type: Blog
-  url: https://azure.microsoft.com/en-us/blog/tag/azure-log-analytics/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -457,6 +562,10 @@ json_structures:
   property_count: 2
   slug: query-api-query-results-structure
 jsonld:
+- class_count: 24
+  name: Azure Log Analytics Context
+  property_count: 62
+  slug: azure-log-analytics-context
 - class_count: 3
   name: Azure Log Analytics Ingestion Api Context
   property_count: 10
@@ -470,6 +579,10 @@ jsonld:
   property_count: 11
   slug: azure-log-analytics-query-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Azure MCP Server (Azure Monitor tools)
+  slug: azure-mcp-server-azure-monitor-tools
 modified: '2026-05-19'
 name: Azure Log Analytics
 nav: Providers
@@ -477,10 +590,10 @@ network: true
 overview: 'Azure Log Analytics is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Ingestion API, Query API, Saved Searches API, and 2 more. Tagged areas include Analytics, Microsoft Azure, Cloud, Logging, and Monitoring.
 
 
-  The Azure Log Analytics catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Azure Log Analytics catalog on APIs.io includes 4 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Azure Log Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 41 more developer resources.'
+  Azure Log Analytics'' developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, pricing, support, and 62 more developer resources.'
 plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 2
@@ -503,6 +616,18 @@ rules:
     warn: 3
   slug: azure-log-analytics-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 117
+  extends:
+  - spectral:oas
+  name: Azure Log Analytics API Rules
+  rule_count: 76
+  severity_counts:
+    error: 69
+    hint: 0
+    info: 4
+    warn: 3
+  slug: azure-log-analytics-rules
+- authorship: generated
   effective_rule_count: 86
   extends:
   - spectral:oas
@@ -520,44 +645,48 @@ scopes:
   slug: azure-log-analytics-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 57.4
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 32
     catalog_earned: 83.0
     catalog_earned_first_party: 8.0
     catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 4.9
   facets:
-    access_clarity: 60.5
-    contract_governance: 27.3
+    access_clarity: 76.3
+    contract_governance: 31.8
     contract_quality: 30.5
-    developer_ergonomics: 82.1
-    discoverability: 78.6
-    operational_transparency: 55.3
-  previous_composite: 57.9
+    developer_ergonomics: 79.8
+    discoverability: 78.3
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 8
       marker_coverage: 100.0
       total: 8
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 45.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/azure-log-analytics/azure-log-analytics-2026-07-25T202128.png
 security:
 - kind: authentication
@@ -568,6 +697,14 @@ security:
   name: Azure Log Analytics Domain Security
   slug: azure-log-analytics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Azure Log Analytics Vulnerability Disclosure
+  slug: azure-log-analytics-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Azure Log Analytics Trust Center
+  slug: azure-log-analytics-trust-center
+  summary_line: GDPR
 slug: azure-log-analytics
 tags:
 - Analytics

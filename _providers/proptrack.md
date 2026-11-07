@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST APIs providing Australian property intelligence — address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations (A
@@ -127,7 +131,7 @@ overview: 'PropTrack is listed with 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 22
 score:
   band: emerging
-  composite: 16.6
+  composite: 17.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -141,7 +145,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -150,15 +154,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 16.6
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

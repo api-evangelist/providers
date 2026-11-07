@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-31'
+  score: 32.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -289,23 +306,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.1
+  composite: 42.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 26
     catalog_earned: 65.8
     catalog_earned_first_party: 8.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: -5.7
   facets:
-    access_clarity: 42.1
+    access_clarity: 31.6
     contract_governance: 22.0
     contract_quality: 66.1
-    developer_ergonomics: 54.2
-    discoverability: 57.1
+    developer_ergonomics: 37.5
+    discoverability: 64.3
     operational_transparency: 15.8
-  previous_composite: 43.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,14 +338,14 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 33.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 31.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/openpayments-io/openpayments-io-2026-11-03T140649.png
 security:
 - kind: authentication
   name: Openpayments Io Authentication

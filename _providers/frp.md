@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -92,7 +96,7 @@ apis:
   description: Persistent configuration store for proxies and visitors
   name: frp Store API
   slug: frp-store-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: frp Client Admin API
@@ -205,6 +209,9 @@ network: true
 overview: 'frp publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Configuration API, Health API, and 6 more. Tagged areas include NAT Traversal, Reverse Proxy, Tunneling, and Open Source.
 
 
+  The frp catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   frp''s developer surface includes authentication, documentation, getting-started guide, release notes, and 9 more developer resources.'
 plans:
 - name: Frp Plans Pricing
@@ -215,25 +222,38 @@ rate_limits:
 - limit_count: 5
   name: Frp Rate Limits
   slug: frp-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: frp API Rules
+  rule_count: 63
+  severity_counts:
+    error: 55
+    hint: 0
+    info: 1
+    warn: 7
+  slug: frp-rules
 score:
   band: thin
-  composite: 28.0
+  composite: 29.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 33.0
+    artifact_dirs: 13
+    catalog_earned: 37.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 77.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
-    contract_quality: 46.8
+    contract_governance: 13.6
+    contract_quality: 50.2
     developer_ergonomics: 33.3
     discoverability: 48.2
     operational_transparency: 28.9
-  previous_composite: 28.0
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -247,13 +267,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/frp/frp-2026-06-20T181558.png
 security:
 - kind: authentication

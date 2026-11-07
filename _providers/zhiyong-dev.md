@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -26,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -233,7 +248,7 @@ modified: '2026-10-29'
 name: zhiyong-dev
 nav: Providers
 network: true
-overview: 'zhiyong-dev publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Agent Discovery.json API, Agent Feedback API, and 7 more. Tagged areas include Company, Software, DeveloperTools, APIs, and Integration.
+overview: 'zhiyong-dev publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Agent Discovery.json API, Agent Feedback API, and 7 more. Tagged areas include Company, Software, Developer Tools, and Integration.
 
 
   The zhiyong-dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -258,21 +273,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.0
+  composite: 28.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 62.0
+    artifact_dirs: 29
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 19.7
     contract_quality: 57.3
     developer_ergonomics: 1.8
-    discoverability: 65.0
+    discoverability: 66.7
     operational_transparency: 10.5
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,13 +305,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 30.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/zhiyong-dev/zhiyong-dev-2026-11-03T150520.png
 security:
 - kind: authentication
   name: Zhiyong Dev Authentication
@@ -318,8 +336,7 @@ slug: zhiyong-dev
 tags:
 - Company
 - Software
-- DeveloperTools
-- APIs
+- Developer Tools
 - Integration
 website: https://kg.zhiyong.dev/
 ---

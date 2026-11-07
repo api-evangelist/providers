@@ -1,6 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -22,13 +35,18 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 8.5
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 3
 common:
+- group: auth
+  href: https://artifacts.apis.io/put-io/well-known/put-io-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/put-io-status-security.txt
 - group: commercial
   href: https://artifacts.apis.io/put-io/plans/put-io-plans-pricing.yml
   title: ''
@@ -44,11 +62,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/put-io-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/put-io/well-known/put-io-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/put-io-status-security.txt
 - group: auth
   href: https://artifacts.apis.io/put-io/well-known/put-io-help-security.txt
   title: ''
@@ -136,7 +149,7 @@ modified: '2026-10-28'
 name: put.io
 nav: Providers
 network: true
-overview: 'put.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage, Media Streaming, File Management, API, and Automation.
+overview: 'put.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage, Media Streaming, File Management, and Automation.
 
 
   put.io''s developer surface includes authentication, getting-started guide, support, pricing, and 16 more developer resources.'
@@ -146,22 +159,30 @@ plans:
   slug: put-io-plans-pricing
 random_paper: 6
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 21.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 35.0
+    artifact_dirs: 13
+    catalog_earned: 30.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 80.0
+    catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 48.2
-    operational_transparency: 31.6
+    developer_ergonomics: 32.1
+    discoverability: 46.4
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 29.9
   provenance:
     mcp: unknown
   regulatory:
@@ -169,13 +190,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 15.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/put-io/put-io-2026-11-03T141732.png
 security:
 - kind: authentication
   name: Put Io Authentication
@@ -190,7 +213,6 @@ tags:
 - Cloud Storage
 - Media Streaming
 - File Management
-- API
 - Automation
 website: https://put.io/
 ---

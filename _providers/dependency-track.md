@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
@@ -26,7 +42,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 1
@@ -276,6 +292,21 @@ apis:
   slug: dependency-track-workload-identity-providers-api
 artifact_total: 74
 common:
+- group: commercial
+  href: https://artifacts.apis.io/dependency-track/finops/dependency-track-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dependency-track-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/dependency-track/well-known/dependency-track-owasp-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/dependency-track-owasp-security.txt
+- group: build
+  href: https://artifacts.apis.io/dependency-track/integrations/dependency-track-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/dependency-track-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/dependency-track/agentic-access/dependency-track-agentic-access.yml
   title: ''
@@ -346,11 +377,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/dependency-track-v1-overlay.yaml
-- group: auth
-  href: https://artifacts.apis.io/dependency-track/well-known/dependency-track-owasp-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/dependency-track-owasp-security.txt
 - group: agent
   href: https://artifacts.apis.io/dependency-track/well-known/dependency-track-well-known.yml
   title: ''
@@ -510,7 +536,7 @@ overview: 'Dependency-Track publishes 48 API contracts indexed on the [APIs.io](
   The Dependency-Track catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dependency-Track''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 30 more developer resources.'
+  Dependency-Track''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 32 more developer resources.'
 plans:
 - name: Dependency Track Plans Pricing
   plan_count: 1
@@ -535,36 +561,36 @@ rules:
     warn: 0
   slug: dependency-track-dependency-track-spectral-rules
 - authorship: generated
-  effective_rule_count: 57
+  effective_rule_count: 107
   extends:
   - spectral:oas
   name: Dependency-Track API Rules
-  rule_count: 16
+  rule_count: 66
   severity_counts:
-    error: 7
+    error: 48
     hint: 0
     info: 2
-    warn: 7
+    warn: 16
   slug: dependency-track-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 42.5
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 32
     catalog_earned: 65.8
     catalog_earned_first_party: 8.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: -5.0
   facets:
     access_clarity: 21.1
     contract_governance: 35.6
-    contract_quality: 61.4
-    developer_ergonomics: 56.5
+    contract_quality: 64.8
+    developer_ergonomics: 38.7
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 46.8
+    operational_transparency: 28.9
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -581,13 +607,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/dependency-track/dependency-track-2026-10-11T103651.png
 security:
 - kind: authentication

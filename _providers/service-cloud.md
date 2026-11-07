@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -124,7 +125,7 @@ apis:
 - description: REST API for building and deploying AI-powered service agents using Agentforce, enabling headless agent interactions, session management, and seamless escalation from AI agents to human service repres
   name: Agentforce Service Agent API
   slug: agentforce-service-agent-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Service Cloud Event Surface
@@ -383,7 +384,7 @@ network: true
 overview: 'Salesforce Service Cloud APIs publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bot API, Health API, Versions API, and 16 more. Tagged areas include Cloud, CRM, Customer Service, Enterprise, and Salesforce.
 
 
-  The Salesforce Service Cloud APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Salesforce Service Cloud APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Salesforce Service Cloud APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 43 more developer resources.'
@@ -399,6 +400,19 @@ rate_limits:
 - limit_count: 6
   name: Service Cloud Rate Limits
   slug: service-cloud-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Salesforce Service Cloud APIs API Rules
+  rule_count: 50
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 2
+  slug: service-cloud-rules
 scopes:
 - name: Service Cloud Scopes
   scope_count: 36
@@ -406,28 +420,28 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 73.5
+  composite: 73.6
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 54.0
+    artifact_dirs: 32
+    catalog_earned: 58.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 61.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 50.8
-    developer_ergonomics: 85.1
-    discoverability: 48.3
-    operational_transparency: 94.7
+    developer_ergonomics: 82.7
+    discoverability: 58.3
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 72.0
+  previous_composite: 73.6
   provenance:
     conformance: first-party
     contracts:
@@ -443,13 +457,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/service-cloud/service-cloud-2026-06-20T193724.png
 security:
 - kind: authentication

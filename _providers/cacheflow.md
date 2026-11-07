@@ -1,15 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Public contract, retired runtime
+  confidence: low
+  label: Unknown
   onboarding: unknown
   pricing: unknown
-  public: true
+  public: false
   source:
   - authentication
-  - lifecycle
-  - plans
-  - '{''url'': ''http://www.getcacheflow.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.hubspot.com/products/revenue/cpq — a different registrable domain (getcacheflow.com -> hubspot.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-31'
+  score: 25.3
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.getcacheflow.com
@@ -326,7 +327,7 @@ apis:
   description: The Webhooks API from Cacheflow — 6 operation(s) for webhooks.
   name: Cacheflow Webhooks API
   slug: cacheflow-webhooks-api
-artifact_total: 66
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Cacheflow Webhooks
@@ -462,7 +463,7 @@ network: true
 overview: 'Cacheflow publishes 57 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Approval Groups API, and 54 more. Tagged areas include Company, Fintech, Billing, Subscription, and CPQ.
 
 
-  The Cacheflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Cacheflow catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Cacheflow''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
@@ -475,31 +476,44 @@ rate_limits:
 - limit_count: 0
   name: Cacheflow Rate Limits
   slug: cacheflow-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Cacheflow API Rules
+  rule_count: 40
+  severity_counts:
+    error: 28
+    hint: 0
+    info: 1
+    warn: 11
+  slug: cacheflow-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 36.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 4.7
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 42.0
+    contract_governance: 18.2
+    contract_quality: 48.6
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 31.0
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 57
     mcp: derived
     skills: derived
@@ -509,13 +523,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/cacheflow/cacheflow-2026-07-25T204205.png
 security:
 - kind: authentication

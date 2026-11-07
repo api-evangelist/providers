@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,23 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-31'
+  score: 40.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 3
@@ -1505,10 +1507,10 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: strong
-  composite: 64.6
+  band: exemplar
+  composite: 67.8
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 35
     catalog_earned: 89.0
     catalog_earned_first_party: 20.0
     catalog_gap: 26.0
@@ -1518,11 +1520,11 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 45.5
-    contract_quality: 63.5
-    developer_ergonomics: 70.8
-    discoverability: 71.4
-    operational_transparency: 94.7
-  previous_composite: 64.6
+    contract_quality: 64.0
+    developer_ergonomics: 68.5
+    discoverability: 78.6
+    operational_transparency: 92.1
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1539,13 +1541,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/punchh/punchh-2026-06-20T192311.png
 security:
 - kind: authentication

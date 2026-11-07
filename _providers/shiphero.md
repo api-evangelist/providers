@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-31'
+  score: 29.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: ShipHero's primary public API built on GraphQL, providing programmatic access to warehouse management data and operations including inventory, orders, shipments, purchase orders, returns, wholesale or
@@ -147,9 +149,9 @@ rate_limits:
   slug: shiphero-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 30.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -161,9 +163,9 @@ score:
     contract_governance: 0.0
     contract_quality: 45.8
     developer_ergonomics: 23.8
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 30.9
+    discoverability: 68.3
+    operational_transparency: 34.2
+  previous_composite: 30.7
   provenance:
     mcp: first-party
   regulatory:
@@ -172,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

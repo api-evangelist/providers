@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -76,7 +78,7 @@ apis:
   description: Upload, list, retrieve and delete insurance loss triangles.
   name: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Ledger Analytics Cashflow Models API
@@ -296,30 +298,46 @@ network: true
 overview: 'Ledger Investing publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cashflow Models API, Development Models API, Forecast Models API, and 3 more. Tagged areas include Company, Insurance Tech, Insurance, Reinsurance, and Insurance-Linked Securities.
 
 
+  The Ledger Investing catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 33 more developer resources.'
 plans:
 - name: Ledger Investing Plans Pricing
   plan_count: 1
   slug: ledger-investing-plans-pricing
 random_paper: 23
+rules:
+- authorship: generated
+  effective_rule_count: 101
+  extends:
+  - spectral:oas
+  name: Ledger Investing API Rules
+  rule_count: 60
+  severity_counts:
+    error: 57
+    hint: 0
+    info: 2
+    warn: 1
+  slug: ledger-investing-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 55.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 49.1
     developer_ergonomics: 67.3
     discoverability: 66.1
-    operational_transparency: 31.6
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,7 +345,10 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,13 +365,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/ledger-investing/ledger-investing-2026-07-25T224810.png
 security:
 - kind: authentication

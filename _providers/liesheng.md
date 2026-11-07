@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: The Suunto Cloud API (also called the Integration API) gives approved partners OAuth2-authorized access to a Suunto App user's workout and daily-activity data. Workouts are delivered as FIT files carr
@@ -50,6 +54,21 @@ asyncapis:
   name: Liesheng Suunto Webhooks
   slug: liesheng-suunto-webhooks
 common:
+- group: operate
+  href: https://artifacts.apis.io/liesheng/lifecycle/liesheng-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/liesheng-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/liesheng/hosts/liesheng-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/liesheng-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/liesheng/vendors/liesheng-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/liesheng-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -138,21 +157,11 @@ common:
   title: ''
   type: WellKnown
   url: well-known/liesheng-well-known.yml
-- group: auth
-  href: https://artifacts.apis.io/liesheng/well-known/liesheng-suunto-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/liesheng-suunto-security.txt
 - group: build
   href: https://artifacts.apis.io/liesheng/packages/liesheng-packages.yml
   title: ''
   type: Packages
   url: packages/liesheng-packages.yml
-- group: agent
-  href: https://artifacts.apis.io/liesheng/llms/liesheng-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/liesheng-llms.txt
 - group: agent
   href: https://artifacts.apis.io/liesheng/llms/liesheng-haylou-llms.txt
   title: ''
@@ -186,7 +195,7 @@ overview: 'Liesheng Group is listed with 2 APIs on the [APIs.io](https://apis.io
   The Liesheng Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Liesheng Group''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 19 more developer resources.'
+  Liesheng Group''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 20 more developer resources.'
 random_paper: 7
 scopes:
 - name: Liesheng Scopes
@@ -195,22 +204,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.2
+  composite: 45.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 65.0
-    operational_transparency: 18.4
+    discoverability: 75.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -218,7 +227,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 43.2
+  previous_composite: 44.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -228,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

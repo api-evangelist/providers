@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -228,9 +229,9 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 50.5
+  composite: 49.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -241,10 +242,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 71.1
-  previous_composite: 50.5
+    developer_ergonomics: 63.7
+    discoverability: 73.2
+    operational_transparency: 68.4
+  previous_composite: 49.4
   provenance:
     conformance: derived
     mcp: derived
@@ -255,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -11,7 +11,6 @@ access_model:
   - rate-limits
   - security
   - sandbox
-  - '{''url'': ''https://crowdtwist.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.oracle.com/corporate/acquisitions/crowdtwist/ — a different registrable domain (crowdtwist.com -> oracle.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -30,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api{client_id}.crowdtwist.com/v2
@@ -220,8 +220,8 @@ rate_limits:
   name: Crowdtwist Rate Limits
   slug: crowdtwist-rate-limits
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 53.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.0
@@ -229,9 +229,9 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 71.1
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.2
@@ -247,8 +247,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

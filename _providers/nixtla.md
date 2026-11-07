@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -86,7 +87,7 @@ apis:
   description: The Validate Api Key API from Nixtla — 1 operation(s) for validate api key.
   name: Nixtla Validate Api Key API
   slug: nixtla-validate-api-key-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: Nixtla Forecast Anomaly Detection API
@@ -282,31 +283,47 @@ network: true
 overview: 'Nixtla publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Cross Validation API, Excluded API, and 5 more. Tagged areas include Company, Time Series, Forecasting, Anomaly Detection, and Machine Learning.
 
 
+  The Nixtla catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Nixtla''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 25 more developer resources.'
 plans:
 - name: Nixtla Plans Pricing
   plan_count: 0
   slug: nixtla-plans-pricing
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Nixtla API Rules
+  rule_count: 56
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 5
+    warn: 2
+  slug: nixtla-rules
 score:
   band: developing
-  composite: 51.2
+  composite: 50.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
+    access_clarity: 52.6
+    contract_governance: 18.2
     contract_quality: 50.4
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 36.8
-  previous_composite: 51.2
+    discoverability: 71.7
+    operational_transparency: 34.2
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,14 +339,13 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/nixtla/nixtla-2026-08-07T185350.png
 security:
 - kind: authentication

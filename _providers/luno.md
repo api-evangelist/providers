@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.luno.com
@@ -209,9 +210,9 @@ rate_limits:
   slug: luno-rate-limits
 score:
   band: developing
-  composite: 49.5
+  composite: 49.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -223,9 +224,9 @@ score:
     contract_governance: 18.2
     contract_quality: 35.4
     developer_ergonomics: 61.3
-    discoverability: 65.0
-    operational_transparency: 60.5
-  previous_composite: 49.5
+    discoverability: 71.7
+    operational_transparency: 57.9
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -236,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

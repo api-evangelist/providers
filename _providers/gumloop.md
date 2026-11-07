@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -27,18 +28,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.5
-  scored_at: '2026-10-31'
+  score: 49.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 5
@@ -118,7 +120,7 @@ apis:
   description: The Teams API from Gumloop — 1 operation(s) for teams.
   name: Gumloop Teams API
   slug: gumloop-teams-api
-artifact_total: 41
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Gumloop Webhooks
@@ -347,7 +349,7 @@ network: true
 overview: 'Gumloop publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
 
 
-  The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 27 more developer resources.'
@@ -359,6 +361,19 @@ plans:
   plan_count: 0
   slug: gumloop-price-estimates
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 94
+  extends:
+  - spectral:oas
+  name: Gumloop API Rules
+  rule_count: 53
+  severity_counts:
+    error: 44
+    hint: 0
+    info: 2
+    warn: 7
+  slug: gumloop-rules
 scopes:
 - name: Gumloop Scopes
   scope_count: 5
@@ -366,23 +381,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.4
+  composite: 65.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 48.0
+    artifact_dirs: 32
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 81.6
-    contract_governance: 4.5
-    contract_quality: 56.4
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 57.2
     developer_ergonomics: 73.2
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 39.5
-  previous_composite: 58.9
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,14 +413,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/gumloop/gumloop-2026-07-25T220434.png
 security:
 - kind: authentication

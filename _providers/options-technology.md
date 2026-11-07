@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: WebSocket-based (WebAssembly) JavaScript/TypeScript market data API for browser and Node.js, installed as npm package '@activfinancial/one-api' (latest 1.1.4). Supports snapshots, real-time subscripti
@@ -165,9 +168,9 @@ overview: 'Options Technology is listed with 1 API on the [APIs.io](https://apis
 random_paper: 13
 score:
   band: thin
-  composite: 30.8
+  composite: 30.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -179,17 +182,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 30.8
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 30.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 19.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

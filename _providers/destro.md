@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,7 +113,7 @@ modified: '2026-10-21'
 name: Destro
 nav: Providers
 network: true
-overview: 'Destro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Robotics, Automation, and Warehouse.
+overview: 'Destro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Automation, and Warehouse.
 
 
   Destro''s developer surface includes documentation, API reference, and 10 more developer resources.'
@@ -112,21 +124,29 @@ plans:
 random_paper: 9
 score:
   band: emerging
-  composite: 23.9
+  composite: 18.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 13.1
     discoverability: 48.2
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 23.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -139,13 +159,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/destro/destro-2026-11-03T130550.png
 security:
 - kind: domain-security
   name: Destro Domain Security
@@ -154,7 +176,7 @@ security:
 slug: destro
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Robotics
 - Automation
 - Warehouse

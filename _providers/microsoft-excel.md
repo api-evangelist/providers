@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +11,16 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -26,8 +32,9 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
-    operation_distinctiveness: distinct
+    operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
@@ -35,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-31'
+  score: 29.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,7 +51,7 @@ agentic_access:
   operation_count: 23
   slug: microsoft-excel-agentic-access
   summary_line: 23 operations · 15 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Office Add-ins API for building custom functionality within Excel using JavaScript and TypeScript.
   name: Excel JavaScript API
@@ -97,6 +104,21 @@ apis:
   description: Operations for managing worksheets within a workbook.
   name: Microsoft Excel Worksheets API
   slug: microsoft-excel-worksheets-api
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.drive.Actions API from Microsoft Excel — 135 operation(s) for drives.drive.actions.
+  name: Microsoft Excel Drives.drive.Actions API
+  slug: microsoft-excel-drives-drive-actions-api
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.drive.Functions API from Microsoft Excel — 596 operation(s) for drives.drive.functions.
+  name: Microsoft Excel Drives.drive.Functions API
+  slug: microsoft-excel-drives-drive-functions-api
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.driveItem API from Microsoft Excel — 711 operation(s) for drives.driveitem.
+  name: Microsoft Excel Drives.drive Item API
+  slug: microsoft-excel-drives-driveitem-api
 arazzos:
 - description: Resolve a table on a worksheet, confirm its column shape, append a row, and read it back.
   name: Microsoft Excel Append a Row to a Table
@@ -134,7 +156,7 @@ arazzos:
 - description: Create a temporary worksheet, read it, rename and reposition it, then delete it.
   name: Microsoft Excel Scratch Worksheet Lifecycle
   slug: microsoft-excel-worksheet-lifecycle-workflow
-artifact_total: 84
+artifact_total: 98
 collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts API
@@ -191,6 +213,75 @@ collections:
   name: Microsoft Graph Excel Charts Worksheets API
   slug: open-microsoft-excel-worksheets-api
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
+- group: design
+  href: https://artifacts.apis.io/microsoft-excel/rules/microsoft-excel-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-excel-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-excel/rules/microsoft-excel-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-excel-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-excel/rules/microsoft-excel-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/microsoft-excel-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/microsoft-excel/json-ld/microsoft-excel-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/microsoft-excel-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/microsoft-excel/vocabulary/microsoft-excel-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-excel-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/microsoft-excel/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.microsoft.com/en-us/trust-center
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/graph/versioning-and-support
+- group: other
+  href: https://artifacts.apis.io/microsoft-excel/hosts/microsoft-excel-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/microsoft-excel-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/microsoft-excel/integrations/microsoft-excel-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/microsoft-excel-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/microsoft-excel/vendors/microsoft-excel-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/microsoft-excel-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.microsoft.com/security
+- group: other
+  title: ''
+  type: Leadership
+  url: https://news.microsoft.com/leadership
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.microsoft.com/
 - group: commercial
   href: https://artifacts.apis.io/microsoft-excel/plans/microsoft-excel-plans-pricing.yml
   title: ''
@@ -484,6 +575,24 @@ json_schemas:
 - name: Worksheet
   property_count: 4
   slug: excel-graph-api-worksheet
+- name: microsoft.graph.workbookChartAxis
+  property_count: 10
+  slug: microsoft-excel-microsoft-graph-workbook-chart-axis
+- name: microsoft.graph.workbookChart
+  property_count: 14
+  slug: microsoft-excel-microsoft-graph-workbook-chart
+- name: microsoft.graph.workbookRangeFormat
+  property_count: 11
+  slug: microsoft-excel-microsoft-graph-workbook-range-format
+- name: microsoft.graph.workbookRange
+  property_count: 22
+  slug: microsoft-excel-microsoft-graph-workbook-range
+- name: microsoft.graph.workbookRangeView
+  property_count: 14
+  slug: microsoft-excel-microsoft-graph-workbook-range-view
+- name: microsoft.graph.workbookTable
+  property_count: 16
+  slug: microsoft-excel-microsoft-graph-workbook-table
 json_structures:
 - name: Excel Graph Api Chart Structure
   property_count: 6
@@ -507,6 +616,10 @@ json_structures:
   property_count: 4
   slug: excel-graph-api-worksheet-structure
 jsonld:
+- class_count: 30
+  name: Microsoft Excel Context
+  property_count: 61
+  slug: microsoft-excel-context
 - class_count: 9
   name: Microsoft Excel Graph Api Context
   property_count: 20
@@ -516,13 +629,13 @@ modified: '2026-06-20'
 name: Microsoft Excel
 nav: Providers
 network: true
-overview: 'Microsoft Excel is listed with 11 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 8 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft 365, and Office.
+overview: 'Microsoft Excel publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 11 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft 365, and Office.
 
 
-  The Microsoft Excel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Excel catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Excel''s developer surface includes authentication, changelog, CLI, sandbox, support, pricing, engineering blog, and 40 more developer resources.'
+  Microsoft Excel''s developer surface includes getting-started guide, documentation, authentication, changelog, CLI, sandbox, support, and 55 more developer resources.'
 plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
@@ -545,6 +658,18 @@ rules:
     warn: 3
   slug: microsoft-excel-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Microsoft Excel API Rules
+  rule_count: 64
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 3
+    warn: 9
+  slug: microsoft-excel-rules
+- authorship: generated
   effective_rule_count: 70
   extends:
   - spectral:oas
@@ -562,46 +687,46 @@ scopes:
   slug: microsoft-excel-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 54.2
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 70.0
+    artifact_dirs: 39
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 50.0
     contract_governance: 31.8
-    contract_quality: 31.2
-    developer_ergonomics: 79.8
-    discoverability: 62.5
-    operational_transparency: 55.3
-  previous_composite: 55.0
+    contract_quality: 30.1
+    developer_ergonomics: 81.5
+    discoverability: 58.9
+    operational_transparency: 52.6
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 10
-      marker_coverage: 100.0
-      total: 10
+      marker_coverage: 76.9
+      total: 13
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/microsoft-excel/microsoft-excel-2026-06-20T185500.png
 security:
 - kind: authentication
@@ -620,6 +745,14 @@ security:
   name: Microsoft Excel Trust Center
   slug: microsoft-excel-trust-center
   summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, PCI DSS, HIPAA / HITRUST, FedRAMP, GDPR, CSA STAR
+skill_count: 3
+skills:
+- name: microsoft-excel-append-table-rows
+  slug: microsoft-excel-append-table-rows
+- name: microsoft-excel-build-chart
+  slug: microsoft-excel-build-chart
+- name: microsoft-excel-read-worksheet-range
+  slug: microsoft-excel-read-worksheet-range
 slug: microsoft-excel
 tags:
 - Automation

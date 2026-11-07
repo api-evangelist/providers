@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Public external REST API for FirstLook, Pragma's playtest and community platform. Uses scoped API tokens to query players, look up or find-or-create a player, record analytics events (sessions, counte
@@ -177,9 +180,9 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 34.5
+  composite: 34.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,9 +194,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 21.1
-  previous_composite: 34.5
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 34.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -203,8 +206,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

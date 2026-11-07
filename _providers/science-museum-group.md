@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-31'
+  score: 25.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,9 +213,9 @@ rules:
   slug: science-museum-group-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 26.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 68.4
     catalog_earned_first_party: 0.0
     catalog_gap: 46.6
@@ -226,7 +228,7 @@ score:
     contract_quality: 60.6
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +237,10 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 29.9
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -249,13 +254,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/science-museum-group/science-museum-group-2026-06-20T193534.png
 security:
 - kind: domain-security

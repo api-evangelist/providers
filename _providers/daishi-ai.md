@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +42,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'How Daishi tests AI agents: the benchmark rubric, evaluation governance, alignment tracks, connecting an agent over MCP, and the Studio and developer APIs.'
@@ -139,7 +156,7 @@ modified: '2026-10-29'
 name: daishi-ai
 nav: Providers
 network: true
-overview: 'daishi-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Agents, Platform, Evaluation, and Simulation.
+overview: 'daishi-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Agents, Platform, Evaluation, and Simulation.
 
 
   daishi-ai''s developer surface includes changelog, authentication, pricing, documentation, API reference, and 16 more developer resources.'
@@ -154,21 +171,29 @@ rate_limits:
   slug: daishi-ai-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 29.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 62.3
     catalog_earned_first_party: 24.0
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.4
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 8.3
     contract_quality: 0.0
-    developer_ergonomics: 37.5
-    discoverability: 66.1
-    operational_transparency: 47.4
+    developer_ergonomics: 29.2
+    discoverability: 73.2
+    operational_transparency: 39.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 35.8
   provenance:
     conformance: derived
     skills: derived
@@ -177,13 +202,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/daishi-ai/daishi-ai-2026-11-03T130019.png
 security:
 - kind: authentication
   name: Daishi Ai Authentication
@@ -199,12 +226,12 @@ skills:
   slug: daishi-ai-create-experiment
 slug: daishi-ai
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Platform
 - Evaluation
 - Simulation
 - Marketplace
-- Benchmark
+- Benchmarks
 website: https://daishi.ai/
 ---

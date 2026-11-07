@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -15,7 +30,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.4
-  scored_at: '2026-10-31'
+  score: 40.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.chinacarapi.com
@@ -36,6 +52,11 @@ apis:
   slug: china-car-api
 artifact_total: 6
 common:
+- group: auth
+  href: https://artifacts.apis.io/chinacarapi-com/well-known/chinacarapi-com-apify-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/chinacarapi-com-apify-security.txt
 - group: commercial
   href: https://artifacts.apis.io/chinacarapi-com/plans/chinacarapi-com-plans-pricing.yml
   title: ''
@@ -66,11 +87,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/chinacarapi-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/chinacarapi-com/well-known/chinacarapi-com-apify-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/chinacarapi-com-apify-security.txt
 - group: agent
   href: https://artifacts.apis.io/chinacarapi-com/well-known/chinacarapi-com-well-known.yml
   title: ''
@@ -150,7 +166,7 @@ modified: '2026-10-30'
 name: chinacarapi-com
 nav: Providers
 network: true
-overview: 'chinacarapi-com is listed with 1 API on the [APIs.io](https://apis.io/) network: ChinaCarAPI. Tagged areas include Automotive, Data, API, China, and UsedCars.
+overview: 'chinacarapi-com is listed with 1 API on the [APIs.io](https://apis.io/) network: ChinaCarAPI. Tagged areas include Automotive, Data, China, and Used Cars.
 
 
   chinacarapi-com''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, and 15 more developer resources.'
@@ -169,34 +185,49 @@ scopes:
   slug: chinacarapi-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 33.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 47.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.7
+    artifact_dirs: 25
+    catalog_earned: 40.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 74.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.6
   facets:
-    access_clarity: 38.9
-    contract_governance: 30.0
+    access_clarity: 36.8
+    contract_governance: 8.3
     contract_quality: 30.5
-    developer_ergonomics: 68.3
-    discoverability: 57.1
-    operational_transparency: 15.8
+    developer_ergonomics: 46.9
+    discoverability: 48.2
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 40.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/chinacarapi-com/chinacarapi-com-2026-11-03T124024.png
 security:
 - kind: authentication
   name: Chinacarapi Com Authentication
@@ -210,8 +241,7 @@ slug: chinacarapi-com
 tags:
 - Automotive
 - Data
-- API
 - China
-- UsedCars
+- Used Cars
 website: https://chinacarapi.com/
 ---

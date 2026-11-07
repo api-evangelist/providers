@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -24,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-10-31'
+  score: 41.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -220,34 +236,47 @@ rules:
     warn: 0
   slug: n0t1fy-dev-rules
 score:
-  band: developing
-  composite: 51.8
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 83.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 31.2
+    artifact_dirs: 22
+    catalog_earned: 72.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 70.9
+    access_clarity: 53.9
+    contract_governance: 19.7
     contract_quality: 56.2
-    developer_ergonomics: 38.1
+    developer_ergonomics: 25.0
     discoverability: 62.5
-    operational_transparency: 5.3
+    operational_transparency: 2.6
+  previous_composite: 46.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 20.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 17.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/n0t1fy-dev/n0t1fy-dev-2026-11-03T135949.png
 security:
 - kind: authentication
   name: N0T1Fy Dev Authentication

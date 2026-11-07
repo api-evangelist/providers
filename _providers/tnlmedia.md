@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The header-bidding demand endpoint operated by Ad2iction, TNL Mediagene's ad-technology subsidiary (acquired by TNL Media Group in 2020). Publishers reach it through the `ad2iction` bidder adapter shi
@@ -139,9 +142,9 @@ rate_limits:
   slug: tnlmedia-rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 14.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -154,8 +157,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 14.5
+    operational_transparency: 2.6
+  previous_composite: 14.1
   provenance:
     conformance: derived
   regulatory:
@@ -164,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

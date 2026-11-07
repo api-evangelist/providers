@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,10 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 2
 common:
+- group: auth
+  href: https://artifacts.apis.io/switchbot/well-known/switchbot-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/switchbot-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/switchbot/llms/switchbot-llms.txt
   title: ''
@@ -39,11 +55,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/switchbot-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/switchbot/well-known/switchbot-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/switchbot-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/switchbot/well-known/switchbot-well-known.yml
   title: ''
@@ -98,28 +109,30 @@ modified: '2026-10-28'
 name: SwitchBot
 nav: Providers
 network: true
-overview: 'SwitchBot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SmartHome, IoT, Automation, Robotics, and ConsumerElectronics.
+overview: 'SwitchBot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Smart Home, IoT, Automation, Robotics, and Consumer Electronics.
 
 
   SwitchBot''s developer surface includes support and 11 more developer resources.'
 random_paper: 23
 score:
   band: minimal
-  composite: 9.2
+  composite: 8.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 48.3
-    operational_transparency: 26.3
+    developer_ergonomics: 9.5
+    discoverability: 58.3
+    operational_transparency: 18.4
+  previous_composite: 10.2
   provenance:
     mcp: first-party
   regulatory:
@@ -128,12 +141,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/switchbot/switchbot-2026-11-03T144209.png
 security:
 - kind: domain-security
   name: Switchbot Domain Security
@@ -141,10 +156,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: switchbot
 tags:
-- SmartHome
+- Smart Home
 - IoT
 - Automation
 - Robotics
-- ConsumerElectronics
+- Consumer Electronics
 website: https://switch-bot.com/
 ---

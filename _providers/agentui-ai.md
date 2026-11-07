@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -16,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.4
-  scored_at: '2026-10-31'
+  score: 43.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://cdn.agentui.ai
@@ -190,7 +201,7 @@ modified: '2026-10-30'
 name: agentui-ai
 nav: Providers
 network: true
-overview: 'agentui-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Internal-Tools, Automation, No-code, and LLM.
+overview: 'agentui-ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Internal Tools, Automation, No-Code, and LLM.
 
 
   The agentui-ai catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -220,22 +231,33 @@ rules:
     warn: 1
   slug: agentui-ai-rules
 score:
-  band: developing
-  composite: 54.2
+  band: thin
+  composite: 31.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.7
+    artifact_dirs: 23
+    catalog_earned: 42.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.4
   facets:
-    access_clarity: 60.5
-    contract_governance: 79.1
-    contract_quality: 35.5
-    developer_ergonomics: 66.0
+    access_clarity: 34.2
+    contract_governance: 35.6
+    contract_quality: 10.7
+    developer_ergonomics: 43.3
     discoverability: 65.0
-    operational_transparency: 10.5
+    operational_transparency: 5.3
+  previous_composite: 42.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: unknown
   regulatory:
     applies: true
     jurisdictions:
@@ -245,13 +267,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/agentui-ai/agentui-ai-2026-11-03T120417.png
 security:
 - kind: domain-security
   name: Agentui Ai Domain Security
@@ -267,10 +291,10 @@ security:
   summary_line: SOC 2, PCI DSS, GDPR
 slug: agentui-ai
 tags:
-- AI
-- Internal-Tools
+- Artificial Intelligence
+- Internal Tools
 - Automation
-- No-code
+- No-Code
 - LLM
 - Company
 website: https://agentui.ai/

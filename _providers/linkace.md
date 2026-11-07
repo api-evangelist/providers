@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-31'
+  score: 35.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -197,7 +209,7 @@ modified: '2026-10-28'
 name: LinkAce
 nav: Providers
 network: true
-overview: 'LinkAce publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk API, General API, Links API, and 6 more. Tagged areas include Company, OpenSource, Bookmarking, SelfHosted, and API.
+overview: 'LinkAce publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk API, General API, Links API, and 6 more. Tagged areas include Company, Open Source, Bookmarking, and Self-Hosted.
 
 
   The LinkAce catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -220,28 +232,30 @@ rules:
   slug: linkace-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 29.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 53.8
+    artifact_dirs: 24
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.3
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.9
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 47.3
-    developer_ergonomics: 49.4
-    discoverability: 66.1
-    operational_transparency: 21.1
+    contract_quality: 54.0
+    developer_ergonomics: 31.5
+    discoverability: 57.1
+    operational_transparency: 10.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 81.8
-      derived: 3
-      marker_coverage: 27.3
+      derived: 2
+      marker_coverage: 18.2
       total: 11
     mcp: derived
     skills: derived
@@ -251,12 +265,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/linkace/linkace-2026-11-03T134907.png
 security:
 - kind: authentication
   name: Linkace Authentication
@@ -277,9 +292,8 @@ skills:
 slug: linkace
 tags:
 - Company
-- OpenSource
+- Open Source
 - Bookmarking
-- SelfHosted
-- API
+- Self-Hosted
 website: https://www.linkace.org/
 ---

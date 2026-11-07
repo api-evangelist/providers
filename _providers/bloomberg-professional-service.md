@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or n
@@ -216,7 +218,7 @@ rate_limits:
   slug: bloomberg-professional-service-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 29.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 46.0
@@ -231,16 +233,19 @@ score:
     contract_quality: 6.5
     developer_ergonomics: 40.5
     discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 28.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 29.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

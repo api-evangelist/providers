@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   - '{''url'': ''https://www.smartwallet.dev'', ''status'': 308, ''note'': ''declared website redirects to https://www.base.org/ — a different registrable domain (smartwallet.dev -> base.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Core @coinbase/onchainkit npm package providing React components and TypeScript utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap, Checkout, Fund, NFT, Token, and Earn component
@@ -148,7 +150,7 @@ rate_limits:
   slug: coinbase-onchain-kit-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 44.0
@@ -163,16 +165,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 13.1
+    operational_transparency: 23.7
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

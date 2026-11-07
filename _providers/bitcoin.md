@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,9 +84,9 @@ overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 0
 score:
   band: minimal
-  composite: 10.7
+  composite: 10.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -97,16 +99,16 @@ score:
     contract_quality: 6.5
     developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 10.7
+    operational_transparency: 2.6
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

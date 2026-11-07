@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-31'
+  score: 22.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -277,9 +278,9 @@ rules:
   slug: wellnessliving-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 32.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -292,8 +293,8 @@ score:
     contract_quality: 57.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 31.6
+    operational_transparency: 10.5
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -307,13 +308,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/wellnessliving/wellnessliving-2026-08-17T082912.png
 security:
 - kind: authentication

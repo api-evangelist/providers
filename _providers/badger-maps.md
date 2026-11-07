@@ -29,6 +29,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -39,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,7 +75,7 @@ apis:
   description: Authentication, the authenticated user profile, and user search.
   name: Badger Maps Users API
   slug: badger-maps-users-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Badger Maps Webhooks
@@ -273,7 +274,7 @@ network: true
 overview: 'Badger Maps publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Check-Ins API, Locations API, and 2 more. Tagged areas include Field Sales, Route Planning, Mapping, CRM, and Sales Enablement.
 
 
-  The Badger Maps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Badger Maps catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Badger Maps'' developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 27 more developer resources.'
@@ -289,25 +290,38 @@ rate_limits:
 - limit_count: 3
   name: Badger Maps Rate Limits
   slug: badger-maps-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 107
+  extends:
+  - spectral:oas
+  name: Badger Maps API Rules
+  rule_count: 66
+  severity_counts:
+    error: 62
+    hint: 0
+    info: 1
+    warn: 3
+  slug: badger-maps-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 58.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 30
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 57.9
-    developer_ergonomics: 67.3
+    contract_governance: 18.2
+    contract_quality: 61.3
+    developer_ergonomics: 48.2
     discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 59.6
+    operational_transparency: 57.9
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,13 +338,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/badger-maps/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication

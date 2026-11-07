@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-31'
+  score: 35.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -384,30 +385,30 @@ rules:
     warn: 5
   slug: fly-io-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 35.0
+  band: developing
+  composite: 41.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 47.5
     catalog_earned_first_party: 0.0
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 61.3
+    contract_quality: 66.0
     developer_ergonomics: 23.8
     discoverability: 51.8
-    operational_transparency: 23.7
-  previous_composite: 35.6
+    operational_transparency: 21.1
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 69.2
       total: 13
   regulatory:
     applies: true
@@ -415,13 +416,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/fly-io/fly-io-2026-06-20T181357.png
 security:
 - kind: authentication

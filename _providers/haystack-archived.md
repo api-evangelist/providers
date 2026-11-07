@@ -1,7 +1,10 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-09-02'
+  gated: none
+  gated_source:
+  - onboarding
+  generated: '2026-11-06'
   label: Freemium · Open access
   method: derived
   onboarding: open
@@ -35,7 +38,7 @@ tags:
 - RAG
 - Retrieval
 - Orchestration
-- Open-Source
+- Open Source
 - MCP
 - Search
 ---

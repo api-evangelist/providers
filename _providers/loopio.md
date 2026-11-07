@@ -31,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.7
-  scored_at: '2026-10-31'
+  score: 47.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.loopio.com/data/v2
@@ -119,7 +120,7 @@ apis:
   description: Create & Manage webhook subscriptions
   name: Loopio Webhooks API
   slug: loopio-webhooks-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Loopio Events Webhooks
@@ -269,7 +270,7 @@ network: true
 overview: 'Loopio publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asynchronous API, CRM API, Custom Project Fields API, and 12 more. Tagged areas include Company, RFP, Proposals, Response Management, and Content Library.
 
 
-  The Loopio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Loopio catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Loopio''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
@@ -282,27 +283,40 @@ rate_limits:
 - limit_count: 0
   name: Loopio Rate Limits
   slug: loopio-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: Loopio API Rules
+  rule_count: 67
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 2
+    warn: 11
+  slug: loopio-rules
 scopes:
 - name: Loopio Scopes
   scope_count: 52
   slug: loopio-scopes
   summary_line: 52 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 48.0
+  band: thin
+  composite: 31.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
-    contract_governance: 18.2
-    contract_quality: 53.2
-    developer_ergonomics: 58.9
+    access_clarity: 0.0
+    contract_governance: 31.8
+    contract_quality: 56.6
+    developer_ergonomics: 18.5
     discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
@@ -312,7 +326,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.0
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     contracts:
@@ -327,14 +341,13 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/loopio/loopio-2026-09-02T150315.png
 security:
 - kind: authentication

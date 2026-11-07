@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -198,7 +200,7 @@ rules:
   slug: entity-framework-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 32.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 45.5
@@ -211,18 +213,21 @@ score:
     access_clarity: 28.9
     contract_governance: 7.6
     contract_quality: 0.0
-    developer_ergonomics: 52.4
+    developer_ergonomics: 47.6
     discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 30.3
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 32.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

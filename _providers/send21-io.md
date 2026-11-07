@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: false
@@ -23,10 +36,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: '0.2'
-  score: 54.9
-  scored_at: '2026-10-31'
+  score: 45.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -279,7 +292,7 @@ modified: '2026-10-31'
 name: send21-io
 nav: Providers
 network: true
-overview: 'send21-io publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Checkout API, and 10 more. Tagged areas include Company, Payments, Crypto, API, and Non-custodial.
+overview: 'send21-io publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Checkout API, and 10 more. Tagged areas include Company, Payments, Cryptocurrency, Non-Custodial, and Artificial Intelligence.
 
 
   The send21-io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -293,34 +306,45 @@ plans:
 random_paper: 18
 rules:
 - authorship: generated
-  effective_rule_count: 51
+  effective_rule_count: 91
   extends:
   - spectral:oas
   name: send21-io API Rules
-  rule_count: 10
+  rule_count: 50
   severity_counts:
-    error: 9
+    error: 47
     hint: 0
     info: 1
-    warn: 0
+    warn: 2
   slug: send21-io-rules
 score:
-  band: strong
-  composite: 56.9
+  band: developing
+  composite: 45.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 82.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 32.8
+    artifact_dirs: 25
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.4
   facets:
-    access_clarity: 63.7
-    contract_governance: 70.9
-    contract_quality: 63.9
-    developer_ergonomics: 45.2
+    access_clarity: 43.4
+    contract_governance: 35.6
+    contract_quality: 67.0
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 21.1
+  previous_composite: 53.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -330,13 +354,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 25.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/send21-io/send21-io-2026-11-03T143012.png
 security:
 - kind: authentication
   name: Send21 Io Authentication
@@ -354,9 +380,8 @@ slug: send21-io
 tags:
 - Company
 - Payments
-- Crypto
-- API
-- Non-custodial
-- AI
+- Cryptocurrency
+- Non-Custodial
+- Artificial Intelligence
 website: https://send21.io/
 ---

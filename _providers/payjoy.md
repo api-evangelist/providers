@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-31'
+  score: 31.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -83,7 +84,7 @@ apis:
   description: Endpoints related to vouchers management
   name: PayJoy Vouchers API
   slug: payjoy-vouchers-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Payjoy Webhooks
@@ -235,30 +236,43 @@ network: true
 overview: 'PayJoy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carts API, Down Payments API, Merchants API, and 6 more. Tagged areas include Company, Fintech, Payments, Lending, and Buy Now Pay Later.
 
 
-  The PayJoy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The PayJoy catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 17 more developer resources.'
 random_paper: 20
+rules:
+- authorship: generated
+  effective_rule_count: 104
+  extends:
+  - spectral:oas
+  name: PayJoy API Rules
+  rule_count: 63
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 4
+  slug: payjoy-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 44.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 57.1
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 43.6
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -274,13 +288,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/payjoy/payjoy-2026-08-07T191639.png
 security:
 - kind: authentication

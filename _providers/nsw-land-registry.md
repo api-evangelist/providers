@@ -1,13 +1,13 @@
 ---
 access_model:
-  confidence: high
-  label: Broker licence agreement required · wholesale data solutions by commercial contact only · no developer portal
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: paid
+  pricing: unknown
   public: false
   source:
-  - documentation
-  - terms-of-use
+  - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -252,9 +253,9 @@ overview: 'NSW Land Registry Services is listed with 3 APIs on the [APIs.io](htt
 random_paper: 10
 score:
   band: developing
-  composite: 47.3
+  composite: 46.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 5.0
     catalog_gap: 70.0
@@ -275,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.3
+  previous_composite: 46.9
   provenance:
     conformance: first-party
   regulatory:
@@ -283,9 +284,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

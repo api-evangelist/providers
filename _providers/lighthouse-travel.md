@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-31'
+  score: 24.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +87,7 @@ apis:
   description: Aggregated review scores across OTAs.
   name: Lighthouse Reviews API
   slug: lighthouse-travel-reviews-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Lighthouse Integration Demand API
@@ -270,22 +271,38 @@ network: true
 overview: 'Lighthouse publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Demand API, Hotels API, Market Insight API, and 5 more. Tagged areas include Hospitality, Hotels, Travel, Revenue Management, and Market Intelligence.
 
 
+  The Lighthouse catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 31 more developer resources.'
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Lighthouse API Rules
+  rule_count: 55
+  severity_counts:
+    error: 51
+    hint: 0
+    info: 3
+    warn: 1
+  slug: lighthouse-travel-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 31.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
+    artifact_dirs: 13
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 21.1
-    contract_governance: 0.0
+    access_clarity: 14.5
+    contract_governance: 13.6
     contract_quality: 49.6
     developer_ergonomics: 23.8
     discoverability: 66.1
@@ -298,7 +315,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 30.9
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -312,13 +329,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/lighthouse-travel/lighthouse-travel-2026-06-20T184520.png
 security:
 - kind: authentication

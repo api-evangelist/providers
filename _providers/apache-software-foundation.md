@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -19,23 +20,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-31'
+  score: 25.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,6 +178,14 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.apache.org/licenses/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.apache.org/dev/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.apache.org
 created: '2025-01-01'
 description: APIs for the Apache Software Foundation (ASF), a nonprofit organization that supports the development of open-source software projects under the Apache License, providing governance, legal protection, and infrastructure for over 350 projects. The ASF exposes public APIs for project discovery, committee governance data, member information, and organizational structure through its Projects API and Whimsy Public Data API.
 examples:
@@ -251,7 +261,7 @@ overview: 'Apache Software Foundation publishes 6 API contracts indexed on the [
   The Apache Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Software Foundation''s developer surface includes developer portal, engineering blog, documentation, and 12 more developer resources.'
+  Apache Software Foundation''s developer surface includes developer portal, engineering blog, documentation, and 14 more developer resources.'
 plans:
 - name: Apache Software Foundation Plans Pricing
   plan_count: 3
@@ -287,9 +297,9 @@ rules:
   slug: apache-software-foundation-spectral-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 34.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -302,8 +312,8 @@ score:
     contract_quality: 54.6
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 23.7
-  previous_composite: 34.5
+    operational_transparency: 21.1
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -317,13 +327,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/apache-software-foundation/apache-software-foundation-2026-06-20T172144.png
 security:
 - kind: domain-security
@@ -341,6 +351,8 @@ tags:
 - Governance
 - Project
 - Apache
+- Foundations
+- Software
 use_cases:
 - description: Discover and explore all Apache Software Foundation projects programmatically.
   name: Apache Project Discovery

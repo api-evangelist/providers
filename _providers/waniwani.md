@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-31'
+  score: 30.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
@@ -217,9 +221,9 @@ scopes:
   summary_line: 25 scopes
 score:
   band: developing
-  composite: 47.1
+  composite: 43.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -227,13 +231,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 65.0
-    operational_transparency: 39.5
-  previous_composite: 47.1
+    discoverability: 75.0
+    operational_transparency: 36.8
+  previous_composite: 43.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,8 +248,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 43.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

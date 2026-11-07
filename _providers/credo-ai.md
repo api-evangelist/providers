@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Provider-published Model Context Protocol server ("governance-hub") distributed as the npm package @credoai/governance-hub-mcp and run over stdio via npx. Grounds the Credo AI Claude Code Agent Skills
@@ -244,7 +245,17 @@ apis:
   description: The relationship_types API from Credo AI — 2 operation(s) for relationship_types.
   name: Credo AI Relationship Types API
   slug: credo-ai-relationship-types-api
-artifact_total: 62
+- baseURL: https://api.credo.ai
+  baseurl_source: declared
+  description: The Audit Logs API from Credoai — 4 operation(s) for audit logs.
+  name: Credoai Audit Logs API
+  slug: credoai-audit-logs-api
+- baseURL: https://api.credo.ai
+  baseurl_source: declared
+  description: The Shadow AI API from Credoai — 6 operation(s) for shadow ai.
+  name: Credoai Shadow AI API
+  slug: credoai-shadow-ai-api
+artifact_total: 71
 collections:
 - collection_type: open
   name: Credo AI API
@@ -385,6 +396,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/credo-ai-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.credo.ai/blog/write-extend-export
 created: '2026-08-11'
 description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pairs an AI Registry (use cases, models, vendors, agents, shadow-AI discovery) with a policy engine that turns regulatory frameworks — the EU AI Act, NIST AI RMF, ISO/IEC 42001, NYC Local Law 144, Colorado SB21-169, OMB M-25 — into machine-enforced policy packs, controls, questionnaires, risk scenarios, and audit-ready evidence artifacts. Programmatic access is delivered through a multi-tenant JSON:API REST surface at api.credo.ai (300 operations across use cases, models, vendors, questionnaires, policy packs, policy controls, risks, tasks, teams, users, triggers, and Shadow AI), a first-party Python SDK (pycredoai) and TypeScript SDK (@credo-ai/sdk), and a published Claude Code plugin marketplace of eleven AI-governance Agent Skills backed by
   a gated Governance Intelligence Pro MCP server.
@@ -397,6 +412,25 @@ finops:
   slug: credo-ai-finops
   template: true
 image: https://cdn.prod.website-files.com/649d808ba8385965c74d94df/6a27d15ec3da571348386f01_OPENGRAPGH-light.png
+json_schemas:
+- name: AIEventBulkCreateRequest
+  property_count: 2
+  slug: credoai-aievent-bulk-create-request
+- name: AIEventCreateRequest
+  property_count: 1
+  slug: credoai-aievent-create-request
+- name: AIEventResponse
+  property_count: 2
+  slug: credoai-aievent-response
+- name: AIEventsResponse
+  property_count: 2
+  slug: credoai-aievents-response
+- name: Audit Log Response
+  property_count: 1
+  slug: credoai-audit-log-response
+- name: Audit Logs Response
+  property_count: 2
+  slug: credoai-audit-logs-response
 layout: provider
 mcp_servers:
 - description: Local (stdio) MCP server; 5 tools listed.
@@ -406,10 +440,13 @@ modified: '2026-08-11'
 name: Credo AI
 nav: Providers
 network: true
-overview: 'Credo AI publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 38 more. Tagged areas include Company, AI Governance, ai-risk-management, Responsible AI, and Compliance.
+overview: 'Credo AI publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 40 more. Tagged areas include Company, AI Governance, ai-risk-management, Responsible AI, and Compliance.
 
 
-  Credo AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
+  The Credo AI catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Credo AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 23 more developer resources.'
 plans:
 - name: Credo Ai Plans Pricing
   plan_count: 0
@@ -419,37 +456,50 @@ rate_limits:
 - limit_count: 0
   name: Credo Ai Rate Limits
   slug: credo-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Credo AI API Rules
+  rule_count: 65
+  severity_counts:
+    error: 50
+    hint: 0
+    info: 1
+    warn: 14
+  slug: credo-ai-rules
 score:
-  band: developing
-  composite: 52.1
+  band: strong
+  composite: 56.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.3
   facets:
     access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 47.7
+    contract_governance: 31.8
+    contract_quality: 53.7
     developer_ergonomics: 71.4
-    discoverability: 65.0
-    operational_transparency: 15.8
+    discoverability: 71.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 52.6
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
-      callable: 2.6
+      callable: 5.1
       derived: 0
-      marker_coverage: 0.0
-      total: 77
+      marker_coverage: 48.1
+      total: 79
     mcp: first-party
     skills: first-party
   regulatory:
@@ -457,14 +507,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 32.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/credo-ai/credo-ai-2026-08-17T080838.png
 security:
 - kind: authentication
@@ -525,5 +574,9 @@ tags:
 - Audit
 - JSON:API
 - Agent Skills
+- Artificial Intelligence
+- Governance
+- Software-as-a-Service
+- Palo Alto
 website: https://www.credo.ai/
 ---

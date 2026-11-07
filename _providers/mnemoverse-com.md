@@ -1,10 +1,25 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -12,21 +27,22 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
-    pagination_ratio: na
+    pagination_ratio: false
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.1
-  scored_at: '2026-10-31'
+  score: 48.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,15 +50,50 @@ agentic_access:
   operation_count: 4
   slug: mnemoverse-com-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
+- baseURL: https://core.mnemoverse.com
+  baseurl_source: declared
+  description: The health API from Mnemoverse — 2 operation(s) for health.
+  name: Mnemoverse Health API
+  slug: mnemoverse-com-health-api
 - baseURL: https://core.mnemoverse.com/api/v1
   baseurl_source: declared
-  description: The Memory API from mnemoverse-com — 4 operation(s) for memory.
-  name: mnemoverse-com Memory API
+  description: The Memory API from Mnemoverse — 19 operation(s) for memory.
+  name: Mnemoverse Memory API
   slug: mnemoverse-com-memory-api
-artifact_total: 14
+- baseURL: https://core.mnemoverse.com
+  baseurl_source: declared
+  description: The memory-v1 API from Mnemoverse — 8 operation(s) for memory-v1.
+  name: Mnemoverse Memory V1 API
+  slug: mnemoverse-com-memory-v1-api
+- baseURL: https://core.mnemoverse.com
+  baseurl_source: declared
+  description: The vault API from Mnemoverse — 2 operation(s) for vault.
+  name: Mnemoverse Vault API
+  slug: mnemoverse-com-vault-api
+artifact_total: 20
 common:
+- group: auth
+  href: https://artifacts.apis.io/mnemoverse-com/well-known/mnemoverse-com-sigma-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/mnemoverse-com-sigma-security.txt
+- group: auth
+  href: https://artifacts.apis.io/mnemoverse-com/well-known/mnemoverse-com-open-vsx-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/mnemoverse-com-open-vsx-security.txt
+- group: agent
+  href: https://artifacts.apis.io/mnemoverse-com/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/mnemoverse-com/errors/mnemoverse-com-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/mnemoverse-com-problem-types.yml
 - group: agent
   href: https://artifacts.apis.io/mnemoverse-com/agentic-access/mnemoverse-com-agentic-access.yml
   title: ''
@@ -107,11 +158,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/mnemoverse-com-security.txt
-- group: auth
-  href: https://artifacts.apis.io/mnemoverse-com/well-known/mnemoverse-com-cursor-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/mnemoverse-com-cursor-security.txt
 - group: agent
   href: https://artifacts.apis.io/mnemoverse-com/well-known/mnemoverse-com-well-known.yml
   title: ''
@@ -192,7 +238,7 @@ common:
   type: Website
   url: https://mnemoverse.com/
 created: '2026-10-30'
-description: Mnemoverse provides a persistent memory API for AI agents, enabling them to write preferences or lessons once and recall them across various tools such as Claude, Cursor, ChatGPT, or any HTTP client. The service offers a free tier with 1,000 queries per day, supports OAuth and API key authentication, and includes features like Hebbian associations, feedback-driven recall tuning, and cross-platform SDKs.
+description: Mnemoverse provides a persistent memory API for AI agents, enabling them to write preferences or lessons once and recall them across a wide range of tools such as Claude, Cursor, ChatGPT, VS Code, Python SDKs, and any HTTP client. The service offers a generous free tier with 1,000 queries per day, supports both OAuth and API key authentication, and includes advanced features like Hebbian associations, feedback‑driven recall tuning, cross‑platform SDKs, and detailed usage analytics. It aims to simplify stateful interactions for LLM‑driven applications, providing reliable, low‑latency storage that scales with developer needs.
 image: https://mnemoverse.com/assets/images/mnemoverse-com-og-image.jpg
 json_schemas:
 - name: FeedbackRequest
@@ -220,16 +266,16 @@ jsonld:
   slug: mnemoverse-com-context
 layout: provider
 modified: '2026-10-30'
-name: mnemoverse-com
+name: Mnemoverse
 nav: Providers
 network: true
-overview: 'mnemoverse-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Memory API. Tagged areas include Company, AI, Memory, API, and Persistent.
+overview: 'Mnemoverse publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Memory API, Memory V1 API, and 1 more. Tagged areas include Company, Artificial Intelligence, Memory, and Persistent.
 
 
-  The mnemoverse-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Mnemoverse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  mnemoverse-com''s developer surface includes changelog, authentication, support, pricing, documentation, getting-started guide, API reference, and 25 more developer resources.'
+  Mnemoverse''s developer surface includes changelog, authentication, support, pricing, documentation, getting-started guide, API reference, and 28 more developer resources.'
 plans:
 - name: Mnemoverse Com Plans Pricing
   plan_count: 4
@@ -237,34 +283,36 @@ plans:
 random_paper: 13
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 103
   extends:
   - spectral:oas
-  name: mnemoverse-com API Rules
-  rule_count: 13
+  name: Mnemoverse API Rules
+  rule_count: 62
   severity_counts:
-    error: 11
+    error: 51
     hint: 0
-    info: 1
-    warn: 1
+    info: 6
+    warn: 5
   slug: mnemoverse-com-rules
 score:
-  band: strong
-  composite: 56.6
+  band: developing
+  composite: 46.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 74.8
+    artifact_dirs: 25
+    catalog_earned: 69.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.1
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 22.0
-    contract_quality: 62.0
-    developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 31.6
+    contract_quality: 65.8
+    developer_ergonomics: 37.5
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,20 +320,23 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 24.5
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/mnemoverse-com/mnemoverse-com-2026-11-03T135822.png
 security:
 - kind: authentication
   name: Mnemoverse Com Authentication
@@ -299,12 +350,19 @@ security:
   name: Mnemoverse Com Vulnerability Disclosure
   slug: mnemoverse-com-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: mnemoverse-com-retrieve-memory
+  slug: mnemoverse-com-retrieve-memory
+- name: mnemoverse-com-vault-secret-lifecycle
+  slug: mnemoverse-com-vault-secret-lifecycle
+- name: mnemoverse-com-write-and-read-memory
+  slug: mnemoverse-com-write-and-read-memory
 slug: mnemoverse-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - Persistent
 website: https://mnemoverse.com/
 ---

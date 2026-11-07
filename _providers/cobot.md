@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - security
@@ -27,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.1
-  scored_at: '2026-10-31'
+  score: 58.6
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
@@ -257,7 +259,7 @@ apis:
   description: Confirms if a given email address is free to take.
   name: Cobot User Email Preview API
   slug: cobot-user-email-preview-api
-artifact_total: 95
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Cobot Webhooks
@@ -575,7 +577,7 @@ network: true
 overview: 'Cobot publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allocation API, Approval API, Article API, and 41 more. Tagged areas include Company, Co-Working, Workspace Management, Space Management, and Real Estate.
 
 
-  The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -587,6 +589,19 @@ plans:
   plan_count: 0
   slug: cobot-price-estimates
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 112
+  extends:
+  - spectral:oas
+  name: Cobot API Rules
+  rule_count: 71
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 2
+    warn: 13
+  slug: cobot-rules
 scopes:
 - name: Cobot Scopes
   scope_count: 60
@@ -594,22 +609,22 @@ scopes:
   summary_line: 60 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
+  composite: 62.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.3
+  delta: 1.4
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 58.4
+    access_clarity: 77.6
+    contract_governance: 31.8
+    contract_quality: 66.2
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 44.7
+    discoverability: 75.0
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -618,13 +633,13 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 54.2
+  previous_composite: 61.2
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 42
     mcp: first-party
     skills: derived
@@ -634,13 +649,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: rising
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/cobot/cobot-2026-08-17T080822.png
 security:
 - kind: authentication
@@ -676,6 +690,7 @@ tags:
 - Software-as-a-Service
 - Germany
 - JSON:API
+- OAuth
 - Authentication
 website: https://www.cobot.me/
 ---

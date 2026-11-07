@@ -1,13 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -25,17 +32,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.3
-  scored_at: '2026-10-31'
+  score: 47.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -393,7 +401,7 @@ apis:
   description: The workflows API from Sweep — 2 operation(s) for workflows.
   name: Sweep Workflows API
   slug: sweep-workflows-api
-artifact_total: 84
+artifact_total: 85
 asyncapis:
 - description: ''
   name: Sweep Event Surface
@@ -566,7 +574,7 @@ network: true
 overview: 'Sweep publishes 70 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Selection API, Agentic Features API, Ai Agents API, and 67 more. Tagged areas include Company, Cloud, Salesforce, Revenue Operations, and Metadata.
 
 
-  The Sweep catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Sweep catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Sweep''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, API reference, authentication, and 24 more developer resources.'
@@ -582,30 +590,43 @@ rate_limits:
 - limit_count: 0
   name: Sweep Rate Limits
   slug: sweep-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 90
+  extends:
+  - spectral:oas
+  name: Sweep API Rules
+  rule_count: 49
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 6
+  slug: sweep-rules
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 49.4
+    access_clarity: 93.4
+    contract_governance: 31.8
+    contract_quality: 48.1
     developer_ergonomics: 49.4
-    discoverability: 65.0
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 51.5
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 69
@@ -617,13 +638,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/sweep/sweep-2026-08-17T082224.png
 security:
 - kind: authentication

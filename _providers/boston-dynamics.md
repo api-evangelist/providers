@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides Python and C++ libraries to control Spot, read
@@ -175,9 +177,9 @@ rate_limits:
   slug: boston-dynamics-rate-limits
 score:
   band: emerging
-  composite: 21.2
+  composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -189,17 +191,17 @@ score:
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 38.1
-    discoverability: 58.9
-    operational_transparency: 21.1
-  previous_composite: 21.2
+    discoverability: 58.0
+    operational_transparency: 18.4
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

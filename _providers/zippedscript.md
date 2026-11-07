@@ -1,6 +1,18 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -15,17 +27,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-31'
+  score: 38.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -70,8 +83,23 @@ apis:
   description: The verification API from ZippedScript — 5 operation(s) for verification.
   name: ZippedScript Verification API
   slug: zippedscript-verification-api
-artifact_total: 15
+artifact_total: 40
 common:
+- group: design
+  href: https://artifacts.apis.io/zippedscript/json-ld/zippedscript-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/zippedscript-context.jsonld
+- group: auth
+  href: https://artifacts.apis.io/zippedscript/well-known/zippedscript-calendly-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/zippedscript-calendly-security.txt
+- group: auth
+  href: https://artifacts.apis.io/zippedscript/well-known/zippedscript-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/zippedscript-api-security.txt
 - group: agent
   href: https://artifacts.apis.io/zippedscript/agentic-access/zippedscript-agentic-access.yml
   title: ''
@@ -117,16 +145,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/zippedscript-mcp.yml
-- group: auth
-  href: https://artifacts.apis.io/zippedscript/well-known/zippedscript-calendly-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/zippedscript-calendly-security.txt
-- group: auth
-  href: https://artifacts.apis.io/zippedscript/well-known/zippedscript-api-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/zippedscript-api-security.txt
 - group: agent
   href: https://artifacts.apis.io/zippedscript/well-known/zippedscript-well-known.yml
   title: ''
@@ -163,10 +181,6 @@ common:
   title: ''
   type: GettingStarted
   url: https://docs.zippedscript.com/
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.zippedscript.com/privacy
 - group: start
   title: ''
   type: SignUp
@@ -174,6 +188,84 @@ common:
 created: '2026-10-29'
 description: ZippedScript provides fast, accurate education and employment verification services worldwide through a secure, automated API platform. Leveraging AI and a global database of over 20 million degrees and 70k institutions, the SaaS solution streamlines background checks for companies, delivering rapid turnaround times and comprehensive verification results. The company aims to modernize credential validation and improve hiring efficiency across industries.
 image: https://verify.zippedscript.com/zp-opengraph.jpg
+json_schemas:
+- name: CreateEmployment
+  property_count: 21
+  slug: zippedscript-create-employment
+- name: CreateEmploymentVerification
+  property_count: 12
+  slug: zippedscript-create-employment-verification
+- name: CreateRedSeal
+  property_count: 4
+  slug: zippedscript-create-red-seal
+- name: CreateReferenceCheck
+  property_count: 7
+  slug: zippedscript-create-reference-check
+- name: CreateReferenceCheckVerification
+  property_count: 6
+  slug: zippedscript-create-reference-check-verification
+- name: CreateVerification
+  property_count: 9
+  slug: zippedscript-create-verification
+- name: DegreeDirectInstitution
+  property_count: 6
+  slug: zippedscript-degree-direct-institution
+- name: EmploymentStatus
+  property_count: 2
+  slug: zippedscript-employment-status
+- name: Login
+  property_count: 3
+  slug: zippedscript-login
+- name: PaginatedContactSerializer
+  property_count: 4
+  slug: zippedscript-paginated-contact-serializer
+- name: PaginatedReadEmploymentSerializer
+  property_count: 4
+  slug: zippedscript-paginated-read-employment-serializer
+- name: PaginatedReadInstitutionSerializer
+  property_count: 4
+  slug: zippedscript-paginated-read-institution-serializer
+- name: PaginatedReadReferenceCheckSerializer
+  property_count: 4
+  slug: zippedscript-paginated-read-reference-check-serializer
+- name: PaginatedReadSearchSerializer
+  property_count: 4
+  slug: zippedscript-paginated-read-search-serializer
+- name: PaginatedReadVerificationSerializer
+  property_count: 4
+  slug: zippedscript-paginated-read-verification-serializer
+- name: ReadEmployment
+  property_count: 29
+  slug: zippedscript-read-employment
+- name: ReadInstitution
+  property_count: 9
+  slug: zippedscript-read-institution
+- name: ReadReferenceCheck
+  property_count: 18
+  slug: zippedscript-read-reference-check
+- name: ReadSearch
+  property_count: 13
+  slug: zippedscript-read-search
+- name: ReadVerification
+  property_count: 15
+  slug: zippedscript-read-verification
+- name: ReferenceStatus
+  property_count: 2
+  slug: zippedscript-reference-status
+- name: Status
+  property_count: 2
+  slug: zippedscript-status
+- name: UpdateReferenceCheck
+  property_count: 13
+  slug: zippedscript-update-reference-check
+- name: UpdateVerification
+  property_count: 5
+  slug: zippedscript-update-verification
+jsonld:
+- class_count: 33
+  name: Zippedscript Context
+  property_count: 127
+  slug: zippedscript-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at app.zippedscript.com.
@@ -183,10 +275,10 @@ modified: '2026-10-29'
 name: ZippedScript
 nav: Providers
 network: true
-overview: 'ZippedScript publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Direct API, Employment API, and 4 more. Tagged areas include Company, Education, Verification, SaaS, and Background-Check.
+overview: 'ZippedScript publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Direct API, Employment API, and 4 more. Tagged areas include Company, Education, Verification, Software-as-a-Service, and Background Checks.
 
 
-  The ZippedScript catalog on APIs.io includes 1 Spectral governance ruleset.
+  The ZippedScript catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   ZippedScript''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 16 more developer resources.'
@@ -197,34 +289,42 @@ rate_limits:
   slug: zippedscript-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 52
+  effective_rule_count: 97
   extends:
   - spectral:oas
   name: ZippedScript API Rules
-  rule_count: 11
+  rule_count: 56
   severity_counts:
-    error: 7
+    error: 45
     hint: 0
-    info: 2
-    warn: 2
+    info: 5
+    warn: 6
   slug: zippedscript-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 33.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 42.8
+    artifact_dirs: 21
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 6.6
     contract_governance: 22.0
-    contract_quality: 47.4
-    developer_ergonomics: 46.9
-    discoverability: 65.0
+    contract_quality: 62.1
+    developer_ergonomics: 32.6
+    discoverability: 68.3
     operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,13 +340,13 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 16.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Zippedscript Authentication
@@ -267,7 +367,7 @@ tags:
 - Company
 - Education
 - Verification
-- SaaS
-- Background-Check
+- Software-as-a-Service
+- Background Checks
 website: https://www.zippedscript.com/
 ---

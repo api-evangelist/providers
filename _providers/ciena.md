@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -286,24 +291,24 @@ scopes:
   slug: ciena-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 53.5
-    developer_ergonomics: 39.3
+    developer_ergonomics: 29.8
     discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 40.8
+    operational_transparency: 21.1
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -317,13 +322,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ciena/ciena-2026-08-17T123118.png
 security:
 - kind: authentication

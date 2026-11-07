@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: G2 Track, the SaaS spend management product BetterCloud acquired from G2 on 2024-03-12 and now sells as BetterCloud Spend Optimization — spend monitoring, contract tracking, license reclamation and us
@@ -213,7 +214,7 @@ rate_limits:
   slug: g2-track-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 45.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 48.0
@@ -221,15 +222,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 43.2
+    discoverability: 75.0
+    operational_transparency: 44.7
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -239,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

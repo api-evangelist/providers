@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: partial
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -212,7 +213,7 @@ apis:
   description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
-artifact_total: 77
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Vicai Webhooks
@@ -479,7 +480,7 @@ network: true
 overview: 'Vic.ai publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Allowed Senders API, Attachments API, and 30 more. Tagged areas include Company, Fintech, Accounts Payable, Invoicing, and Payments.
 
 
-  The Vic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Vic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -492,25 +493,38 @@ rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits
   slug: vicai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Vic.ai API Rules
+  rule_count: 52
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 3
+    warn: 12
+  slug: vicai-rules
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 60.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 57.6
+    contract_governance: 18.2
+    contract_quality: 60.3
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 52.8
+    discoverability: 73.2
+    operational_transparency: 47.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -527,13 +541,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/vicai/vicai-2026-08-17T082809.png
 security:
 - kind: authentication

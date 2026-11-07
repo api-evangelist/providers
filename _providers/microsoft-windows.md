@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Modern API for building Windows applications with support for multiple programming languages.
@@ -180,7 +182,7 @@ rate_limits:
   slug: microsoft-windows-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 36.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 31.0
@@ -195,16 +197,19 @@ score:
     contract_quality: 30.5
     developer_ergonomics: 45.2
     discoverability: 51.8
-    operational_transparency: 39.5
-  previous_composite: 33.4
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 36.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

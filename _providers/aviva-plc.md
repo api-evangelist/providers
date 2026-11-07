@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -28,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Listed in the Aviva API Developer Portal service catalogue as an API that calculates premiums for Aviva consumer Private Medical Insurance policies — the quote/rating verb of the Aviva Health API fami
@@ -174,8 +178,8 @@ rate_limits:
   name: Aviva Plc Rate Limits
   slug: aviva-plc-rate-limits
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -188,8 +192,8 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 57.1
+    developer_ergonomics: 39.3
+    discoverability: 64.3
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -199,7 +203,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 27.1
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -208,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

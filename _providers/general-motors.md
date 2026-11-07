@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver th
@@ -181,9 +182,9 @@ rate_limits:
   slug: general-motors-rate-limits
 score:
   band: emerging
-  composite: 16.6
+  composite: 16.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -196,16 +197,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 16.6
+    operational_transparency: 13.2
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

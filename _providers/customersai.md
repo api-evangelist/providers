@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-31'
+  score: 0.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for CustomersAI platform providing visitor identity and data enrichment.
@@ -90,6 +102,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://customers.ai/inboxer-lifetime-deal-terms-conditions
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://customers.ai/guides
 coverage:
   checked: '2026-10-12'
   detail: Developer portal pages are rendered via JavaScript, preventing machine‑readable spec discovery.
@@ -109,7 +125,7 @@ network: true
 overview: 'Customersai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Marketing, E-Commerce, and Data.
 
 
-  Customersai''s developer surface includes support, documentation, pricing, engineering blog, and 9 more developer resources.'
+  Customersai''s developer surface includes support, documentation, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Customersai Plans Pricing
   plan_count: 1
@@ -117,20 +133,20 @@ plans:
 random_paper: 23
 score:
   band: emerging
-  composite: 24.3
+  composite: 17.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 40.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 8.3
     discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 24.3
@@ -146,14 +162,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 15.9
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/customersai/customersai-2026-11-03T125933.png
 security:
 - kind: domain-security
   name: Customersai Domain Security
@@ -166,5 +183,9 @@ tags:
 - Marketing
 - E-Commerce
 - Data
+- Identity Resolution
+- Data Enrichment
+- Software-as-a-Service
+- B2B
 website: https://customers.ai
 ---

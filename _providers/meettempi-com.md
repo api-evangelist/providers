@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Scheduling API. Public operations let anyone, including AI assistants, look up open times and book a meeting.
@@ -165,7 +176,7 @@ modified: '2026-10-30'
 name: meettempi-com
 nav: Providers
 network: true
-overview: 'meettempi-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tempi API API, and 1 more. Tagged areas include Company, Scheduling, AI, Calendar, and Collaboration.
+overview: 'meettempi-com publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tempi API API, and 1 more. Tagged areas include Company, Scheduling, Artificial Intelligence, Calendar, and Collaboration.
 
 
   The meettempi-com catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -188,21 +199,29 @@ rules:
   slug: meettempi-com-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 29.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
     contract_quality: 45.5
-    developer_ergonomics: 14.3
-    discoverability: 66.1
-    operational_transparency: 39.5
+    developer_ergonomics: 7.1
+    discoverability: 73.2
+    operational_transparency: 27.6
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 36.6
   provenance:
     conformance: derived
     mcp: derived
@@ -211,13 +230,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/meettempi-com/meettempi-com-2026-11-03T135436.png
 security:
 - kind: domain-security
   name: Meettempi Com Domain Security
@@ -227,7 +247,7 @@ slug: meettempi-com
 tags:
 - Company
 - Scheduling
-- AI
+- Artificial Intelligence
 - Calendar
 - Collaboration
 website: https://meettempi.com/

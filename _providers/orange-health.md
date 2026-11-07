@@ -27,17 +27,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-31'
+  score: 35.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://partner-api.orangehealth.in
@@ -60,7 +61,7 @@ apis:
   description: The Orange Health Partner API API from Orange Health — 0 operation(s) for orange health partner api.
   name: Orange Health Orange Health Partner API
   slug: orange-health-orange-health-partner-api-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Orange Health Webhooks
@@ -160,28 +161,41 @@ network: true
 overview: 'Orange Health publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, Results API, Serviceability API, and 1 more. Tagged areas include Company, Mobile, Healthcare, Diagnostics, and Lab Testing.
 
 
-  The Orange Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Orange Health catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 15
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: Orange Health API Rules
+  rule_count: 61
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 1
+  slug: orange-health-rules
 score:
-  band: thin
-  composite: 30.0
+  band: emerging
+  composite: 23.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 24
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
+    access_clarity: 0.0
+    contract_governance: 18.2
     contract_quality: 22.2
-    developer_ergonomics: 44.6
-    discoverability: 66.1
+    developer_ergonomics: 29.2
+    discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -190,14 +204,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 30.1
+  previous_composite: 23.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -205,14 +219,13 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 24.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 18.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/orange-health/orange-health-2026-08-07T190830.png
 security:
 - kind: authentication

@@ -1,11 +1,27 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +32,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -25,8 +42,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.0
-  scored_at: '2026-10-31'
+  score: 51.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 3
@@ -269,7 +286,7 @@ modified: '2026-10-31'
 name: riveterhq-com
 nav: Providers
 network: true
-overview: 'riveterhq-com publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Configured list builds API, Datasets API, and 5 more. Tagged areas include AI, WebData, Extraction, Enrichment, and API.
+overview: 'riveterhq-com publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Configured list builds API, Datasets API, and 5 more. Tagged areas include Artificial Intelligence, Web Data, Extraction, Data Enrichment, and Automation.
 
 
   The riveterhq-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -304,34 +321,48 @@ scopes:
   slug: riveterhq-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 62.3
+  band: developing
+  composite: 49.9
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 95.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 19.3
+    artifact_dirs: 34
+    catalog_earned: 82.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -7.2
   facets:
-    access_clarity: 62.6
-    contract_governance: 79.1
-    contract_quality: 65.0
-    developer_ergonomics: 49.3
-    discoverability: 66.7
-    operational_transparency: 42.6
+    access_clarity: 48.7
+    contract_governance: 22.0
+    contract_quality: 68.0
+    developer_ergonomics: 37.4
+    discoverability: 65.8
+    operational_transparency: 36.8
+  previous_composite: 57.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 26.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/riveterhq-com/riveterhq-com-2026-11-03T142334.png
 security:
 - kind: authentication
   name: Riveterhq Com Authentication
@@ -347,11 +378,10 @@ skills:
   slug: riveterhq-com-enrich
 slug: riveterhq-com
 tags:
-- AI
-- WebData
+- Artificial Intelligence
+- Web Data
 - Extraction
-- Enrichment
-- API
+- Data Enrichment
 - Automation
 website: https://riveterhq.com/
 ---

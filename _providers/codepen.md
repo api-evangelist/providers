@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Freemium
   onboarding: unknown
   pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: Standard oEmbed endpoint that returns a rich embed payload (iframe HTML, thumbnail URL, author metadata) for any public CodePen Pen URL. Supports JSON and JSONP response formats and an optional height
@@ -139,9 +141,9 @@ rate_limits:
   slug: codepen-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 16.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -154,16 +156,16 @@ score:
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 13.2
-  previous_composite: 16.5
+    operational_transparency: 10.5
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

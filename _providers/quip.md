@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: REST API for programmatically managing Quip threads, documents, spreadsheets, messages, folders, and users. Supports OAuth 2.0 access tokens passed as a Bearer token in the Authorization header.
@@ -100,9 +102,9 @@ overview: 'Quip is listed with 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 15
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -115,16 +117,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 16.9
+    operational_transparency: 2.6
+  previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

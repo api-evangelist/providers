@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Cibo Labs provides agricultural data APIs for pasture biomass, feed monitoring, land condition reports, and assessments.
@@ -131,7 +147,7 @@ modified: '2026-10-28'
 name: Cibo Labs
 nav: Providers
 network: true
-overview: 'Cibo Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, DataAnalytics, Geospatial, SatelliteImagery, and FarmManagement.
+overview: 'Cibo Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Data Analytics, Geospatial, Satellite Imagery, and Farm Management.
 
 
   Cibo Labs'' developer surface includes getting-started guide, documentation, pricing, signup flow, engineering blog, and 14 more developer resources.'
@@ -146,22 +162,35 @@ scopes:
   slug: cibo-labs-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 30.8
+  band: emerging
+  composite: 22.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 55.4
-    operational_transparency: 15.8
+    developer_ergonomics: 16.7
+    discoverability: 54.5
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 30.8
   provenance:
     conformance: unknown
     mcp: derived
@@ -170,13 +199,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/cibo-labs/cibo-labs-2026-11-03T124142.png
 security:
 - kind: authentication
   name: Cibo Labs Authentication
@@ -189,9 +220,9 @@ security:
 slug: cibo-labs
 tags:
 - Agriculture
-- DataAnalytics
+- Data Analytics
 - Geospatial
-- SatelliteImagery
-- FarmManagement
+- Satellite Imagery
+- Farm Management
 website: https://www.cibolabs.com.au/
 ---

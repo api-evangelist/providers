@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,7 +62,7 @@ apis:
   description: Read device property (quota) values and send device function commands
   name: EcoFlow Quota API
   slug: ecoflow-quota-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: 'Real-time streaming and command channel for the EcoFlow IoT Open Platform. After obtaining a certificate from the HTTP `getMqttCertification` endpoint, a developer connects to the EcoFlow MQTT broker '
   name: EcoFlow IoT Open Platform MQTT API
@@ -177,30 +178,43 @@ network: true
 overview: 'EcoFlow publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Devices API, MQTT API, and Quota API. Tagged areas include Company, Technology, Energy, Energy Storage, and Portable Power.
 
 
-  The EcoFlow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The EcoFlow catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   EcoFlow''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
 random_paper: 7
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: EcoFlow API Rules
+  rule_count: 61
+  severity_counts:
+    error: 59
+    hint: 0
+    info: 1
+    warn: 1
+  slug: ecoflow-rules
 score:
   band: thin
-  composite: 32.7
+  composite: 27.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 21
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 60.3
-    developer_ergonomics: 51.8
-    discoverability: 66.1
+    developer_ergonomics: 16.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 32.7
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,13 +231,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ecoflow/ecoflow-2026-07-25T212755.png
 security:
 - kind: authentication

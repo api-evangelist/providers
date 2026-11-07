@@ -1,11 +1,26 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
-    agentic_access: unknown
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -15,7 +30,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -25,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.0
-  scored_at: '2026-10-31'
+  score: 45.4
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -195,7 +211,7 @@ json_schemas:
   property_count: 1
   slug: sendar-app-batch-send-response
 - name: EmailDetail
-  property_count: 0
+  property_count: 18
   slug: sendar-app-email-detail
 - name: EmailEvent
   property_count: 4
@@ -216,7 +232,7 @@ modified: '2026-10-31'
 name: sendar-app
 nav: Providers
 network: true
-overview: 'sendar-app publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Emails API, Headless API, Inboxes API, and 1 more. Tagged areas include Company, Logistics, Delivery, API, and Automation.
+overview: 'sendar-app publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Emails API, Headless API, Inboxes API, and 1 more. Tagged areas include Company, Logistics, Delivery, and Automation.
 
 
   The sendar-app catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -242,34 +258,48 @@ rules:
     warn: 1
   slug: sendar-app-rules
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 86.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 28.5
+    artifact_dirs: 23
+    catalog_earned: 67.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.0
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 59.2
-    developer_ergonomics: 49.3
-    discoverability: 62.5
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 62.2
+    developer_ergonomics: 29.2
+    discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 50.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/sendar-app/sendar-app-2026-11-03T143022.png
 security:
 - kind: authentication
   name: Sendar App Authentication
@@ -288,7 +318,6 @@ tags:
 - Company
 - Logistics
 - Delivery
-- API
 - Automation
 website: https://sendar.app/
 ---

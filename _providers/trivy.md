@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-31'
+  score: 30.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -318,9 +322,9 @@ rules:
   slug: trivy-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 32.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 51.8
     catalog_earned_first_party: 0.0
     catalog_gap: 63.3
@@ -331,10 +335,13 @@ score:
     access_clarity: 7.9
     contract_governance: 17.4
     contract_quality: 47.7
-    developer_ergonomics: 33.3
+    developer_ergonomics: 21.4
     discoverability: 56.7
-    operational_transparency: 28.9
-  previous_composite: 31.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -348,13 +355,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/trivy/trivy-2026-06-20T195737.png
 security:
 - kind: authentication

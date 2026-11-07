@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +28,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: false
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-31'
+  score: 34.6
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -244,13 +258,13 @@ json_schemas:
   property_count: 24
   slug: btse-amend-order-resp
 - name: AssetExchangeRateResponse
-  property_count: 1
+  property_count: 5
   slug: btse-asset-exchange-rate-response
 - name: ClosePositionResp
   property_count: 20
   slug: btse-close-position-resp
 - name: Conditional
-  property_count: 0
+  property_count: 12
   slug: btse-conditional
 - name: ConvertRequest
   property_count: 3
@@ -262,16 +276,16 @@ json_schemas:
   property_count: 15
   slug: btse-create-order-request
 - name: DefaultResponse
-  property_count: 1
+  property_count: 5
   slug: btse-default-response
 - name: DepositInvestmentRequest
   property_count: 4
   slug: btse-deposit-investment-request
 - name: ExchangeInfoResponse
-  property_count: 0
+  property_count: 5
   slug: btse-exchange-info-response
 - name: FundingRateHistoryResponse
-  property_count: 0
+  property_count: 5
   slug: btse-funding-rate-history-response
 - name: FuturesOrderResponse
   property_count: 24
@@ -289,13 +303,13 @@ json_schemas:
   property_count: 12
   slug: btse-investment-product
 - name: MarketRiskLimitArrayResponse
-  property_count: 0
+  property_count: 5
   slug: btse-market-risk-limit-array-response
 - name: MarketsResponse
-  property_count: 0
+  property_count: 5
   slug: btse-markets-response
 - name: OHLCVResponse
-  property_count: 0
+  property_count: 5
   slug: btse-ohlcvresponse
 - name: OpenOrderResponse
   property_count: 26
@@ -310,10 +324,10 @@ json_schemas:
   property_count: 3
   slug: btse-otcaccept-quote-request
 - name: OTCMarketResponse
-  property_count: 0
+  property_count: 5
   slug: btse-otcmarket-response
 - name: OTCQuoteResponse
-  property_count: 0
+  property_count: 5
   slug: btse-otcquote-response
 - name: OTCRequestQuoteRequest
   property_count: 6
@@ -340,7 +354,7 @@ json_schemas:
   property_count: 2
   slug: btse-renew-investment-request
 - name: Ticker24HrFullArrayResponse
-  property_count: 0
+  property_count: 5
   slug: btse-ticker24-hr-full-array-response
 - name: TradeHistoryResp
   property_count: 17
@@ -349,7 +363,7 @@ json_schemas:
   property_count: 4
   slug: btse-transfer-request
 - name: Twap
-  property_count: 0
+  property_count: 14
   slug: btse-twap
 - name: UserTrade
   property_count: 10
@@ -393,31 +407,31 @@ rules:
     warn: 2
   slug: btse-rules
 score:
-  band: strong
-  composite: 55.2
+  band: developing
+  composite: 46.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 17.1
     contract_governance: 22.0
-    contract_quality: 76.1
-    developer_ergonomics: 61.9
-    discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 55.2
+    contract_quality: 78.1
+    developer_ergonomics: 40.5
+    discoverability: 78.6
+    operational_transparency: 42.1
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 12.5
       total: 8
     mcp: derived
   regulatory:
@@ -425,14 +439,14 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 19.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/btse/btse-2026-11-03T122724.png
 security:
 - kind: authentication
   name: Btse Authentication

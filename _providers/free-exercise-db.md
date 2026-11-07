@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Open access
   onboarding: open
   pricing: unknown
@@ -26,6 +29,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -156,9 +160,9 @@ rate_limits:
   slug: free-exercise-db-rate-limits
 score:
   band: emerging
-  composite: 22.8
+  composite: 22.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 43.7
     catalog_earned_first_party: 0.0
     catalog_gap: 71.4
@@ -171,8 +175,8 @@ score:
     contract_quality: 13.7
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 22.8
+    operational_transparency: 2.6
+  previous_composite: 22.4
   provenance:
     conformance: derived
     mcp: derived
@@ -182,8 +186,8 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

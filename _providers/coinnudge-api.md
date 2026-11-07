@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +30,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +41,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-31'
+  score: 7.9
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST HTTP API returning JSON/CSV for crypto market datasets. Includes a free Research scope (no paid key required) and a paid Market Events v1 scope with versioned releases, schema, manifest, and chec
@@ -99,7 +116,7 @@ rate_limits:
   slug: coinnudge-api-rate-limits
 score:
   band: thin
-  composite: 30.6
+  composite: 30.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 59.0
@@ -113,9 +130,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 68.3
+    discoverability: 69.6
     operational_transparency: 31.6
-  previous_composite: 30.6
+  previous_composite: 30.7
   provenance:
     conformance: derived
     mcp: derived
@@ -125,8 +142,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

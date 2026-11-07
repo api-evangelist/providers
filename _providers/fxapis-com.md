@@ -1,11 +1,23 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.0
-  scored_at: '2026-10-31'
+  score: 52.0
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 7
@@ -191,11 +204,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/fxapis-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/fxapis-com/well-known/fxapis-com-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/fxapis-com-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/fxapis-com/well-known/fxapis-com-well-known.yml
   title: ''
@@ -293,13 +301,13 @@ modified: '2026-10-30'
 name: fxapis-com
 nav: Providers
 network: true
-overview: 'fxapis-com publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, API keys API, and 13 more. Tagged areas include Company, Fintech, Trading, API, and MT5.
+overview: 'fxapis-com publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, API keys API, and 13 more. Tagged areas include Company, Fintech, Trading, MT5, and Cloud.
 
 
   The fxapis-com catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  fxapis-com''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 26 more developer resources.'
+  fxapis-com''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 25 more developer resources.'
 plans:
 - name: Fxapis Com Plans Pricing
   plan_count: 4
@@ -307,46 +315,59 @@ plans:
 random_paper: 7
 rules:
 - authorship: generated
-  effective_rule_count: 54
+  effective_rule_count: 96
   extends:
   - spectral:oas
   name: fxapis-com API Rules
-  rule_count: 13
+  rule_count: 55
   severity_counts:
-    error: 9
+    error: 45
     hint: 0
     info: 1
-    warn: 3
+    warn: 9
   slug: fxapis-com-rules
 score:
-  band: strong
-  composite: 64.7
+  band: developing
+  composite: 47.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 68.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    artifact_dirs: 25
+    catalog_earned: 54.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.5
   facets:
-    access_clarity: 73.2
-    contract_governance: 79.1
-    contract_quality: 54.5
-    developer_ergonomics: 59.5
+    access_clarity: 53.9
+    contract_governance: 22.0
+    contract_quality: 57.5
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 55.3
+    operational_transparency: 36.8
+  previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 25.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/fxapis-com/fxapis-com-2026-11-03T132411.png
 security:
 - kind: authentication
   name: Fxapis Com Authentication
@@ -361,7 +382,6 @@ tags:
 - Company
 - Fintech
 - Trading
-- API
 - MT5
 - Cloud
 website: https://fxapis.com/

@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -1075,16 +1080,16 @@ json_schemas:
   property_count: 5
   slug: open-api-v3-user
 - name: OrderCanceledPayload
-  property_count: 0
+  property_count: 1
   slug: webhooks-order-canceled-payload
 - name: OrderDeliveredPayload
-  property_count: 0
+  property_count: 1
   slug: webhooks-order-delivered-payload
 - name: OrderPaidPayload
-  property_count: 0
+  property_count: 2
   slug: webhooks-order-paid-payload
 - name: OrderShippedPayload
-  property_count: 0
+  property_count: 1
   slug: webhooks-order-shipped-payload
 - name: WebhookEnvelope
   property_count: 3
@@ -1421,9 +1426,9 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.3
+  composite: 50.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -1436,8 +1441,8 @@ score:
     contract_quality: 67.6
     developer_ergonomics: 44.0
     discoverability: 57.1
-    operational_transparency: 55.3
-  previous_composite: 52.3
+    operational_transparency: 36.8
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1451,13 +1456,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 11.1
 screenshot: https://apis.io/screenshots/etsy/etsy-2026-06-20T180847.png
 security:
 - kind: authentication
@@ -1483,7 +1487,8 @@ tags:
 - Reviews
 - Shipping
 - Taxonomy
-- Authentication
+- OAuth
 - Agentic Commerce
+- Authentication
 website: https://www.etsy.com
 ---

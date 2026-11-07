@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
@@ -170,9 +171,9 @@ overview: 'Curri is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: developing
-  composite: 43.8
+  composite: 43.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,9 +185,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 43.8
+    discoverability: 73.2
+    operational_transparency: 15.8
+  previous_composite: 43.4
   provenance:
     conformance: derived
     mcp: derived
@@ -197,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

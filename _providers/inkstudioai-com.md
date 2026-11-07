@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -15,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Generate AI tattoo designs and search a public tattoo gallery.
@@ -63,11 +79,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/inkstudioai-com-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/inkstudioai-com/well-known/inkstudioai-com-www-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/inkstudioai-com-www-security.txt
 - group: agent
   href: https://artifacts.apis.io/inkstudioai-com/well-known/inkstudioai-com-well-known.yml
   title: ''
@@ -128,10 +139,10 @@ modified: '2026-10-28'
 name: Ink Studio AI
 nav: Providers
 network: true
-overview: 'Ink Studio AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Tattoo, Design, and Generator.
+overview: 'Ink Studio AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Tattoo, Design, and Generator.
 
 
-  Ink Studio AI''s developer surface includes CLI, authentication, pricing, engineering blog, API reference, and 14 more developer resources.'
+  Ink Studio AI''s developer surface includes CLI, authentication, pricing, engineering blog, API reference, and 13 more developer resources.'
 plans:
 - name: Inkstudioai Com Plans Pricing
   plan_count: 3
@@ -139,21 +150,23 @@ plans:
 random_paper: 16
 score:
   band: thin
-  composite: 33.0
+  composite: 26.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 50.3
     catalog_earned_first_party: 12.0
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.9
   facets:
-    access_clarity: 76.3
+    access_clarity: 53.9
     contract_governance: 8.3
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 66.1
+    developer_ergonomics: 28.6
+    discoverability: 73.2
     operational_transparency: 10.5
+  previous_composite: 33.7
   provenance:
     conformance: derived
   regulatory:
@@ -161,9 +174,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -180,7 +194,7 @@ security:
 slug: inkstudioai-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tattoo
 - Design
 - Generator

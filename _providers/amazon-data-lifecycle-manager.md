@@ -1,16 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -27,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -401,7 +401,7 @@ modified: '2026-09-16'
 name: Amazon Data Lifecycle Manager
 nav: Providers
 network: true
-overview: 'Amazon Data Lifecycle Manager publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Lifecycle Policies API and Tags API. Tagged areas include Backup, EBS Snapshots, Lifecycle Management, Storage, and Automation.
+overview: 'Amazon Data Lifecycle Manager publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Lifecycle Policies API and Tags API. Tagged areas include Amazon Web Services, Backup, EBS Snapshots, Lifecycle Management, and Storage.
 
 
   The Amazon Data Lifecycle Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -442,8 +442,8 @@ rules:
     warn: 11
   slug: amazon-data-lifecycle-manager-spectral-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 53.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 66.0
@@ -451,15 +451,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 35.5
     contract_governance: 27.3
-    contract_quality: 62.1
+    contract_quality: 65.5
     developer_ergonomics: 63.1
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 60.9
+    operational_transparency: 36.8
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -473,13 +473,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: falling
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/amazon-data-lifecycle-manager/amazon-data-lifecycle-manager-2026-06-20T171613.png
 security:
 - kind: authentication
@@ -500,6 +499,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-data-lifecycle-manager
 tags:
+- Amazon Web Services
 - Backup
 - EBS Snapshots
 - Lifecycle Management

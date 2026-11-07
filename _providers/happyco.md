@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
   source:
   - authentication
@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: HappyCo's gRPC API for property inspections, reports, templates, accounts, users, partner account provisioning, assets, folders, and streaming events.
@@ -213,9 +214,9 @@ plans:
 random_paper: 12
 score:
   band: developing
-  composite: 47.8
+  composite: 46.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -227,9 +228,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 47.8
+    discoverability: 73.2
+    operational_transparency: 26.3
+  previous_composite: 46.1
   provenance:
     conformance: derived
     mcp: derived
@@ -240,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -27,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -37,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://market-data.grvt.io
@@ -191,9 +192,9 @@ overview: 'Blue Square Group Limited is listed with 2 APIs on the [APIs.io](http
 random_paper: 21
 score:
   band: thin
-  composite: 30.6
+  composite: 30.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,14 +206,14 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 66.1
-    operational_transparency: 23.7
+    discoverability: 73.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 30.6
+  previous_composite: 30.2
   provenance:
     conformance: derived
     mcp: derived
@@ -223,8 +224,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

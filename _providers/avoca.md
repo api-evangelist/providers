@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,23 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-31'
+  score: 29.5
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +87,7 @@ apis:
   description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Avoca Webhooks
@@ -240,35 +241,48 @@ network: true
 overview: 'Avoca publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics (v1) API, Calls API, Coach API, and 5 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Customer Service.
 
 
-  The Avoca catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Avoca catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 18 more developer resources.'
 random_paper: 18
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Avoca API Rules
+  rule_count: 55
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 2
+    warn: 6
+  slug: avoca-rules
 score:
   band: developing
-  composite: 47.2
+  composite: 41.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 4.5
-    contract_quality: 57.1
-    developer_ergonomics: 54.2
-    discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 47.2
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 54.0
+    developer_ergonomics: 35.1
+    discoverability: 73.2
+    operational_transparency: 31.6
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
@@ -279,14 +293,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 27.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 22.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/avoca/avoca-2026-07-25T202002.png
 security:
 - kind: authentication

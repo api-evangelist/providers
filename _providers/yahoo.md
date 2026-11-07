@@ -25,7 +25,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 16.2
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -257,9 +258,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 41.6
+  composite: 41.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -270,10 +271,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 71.4
-    operational_transparency: 71.1
-  previous_composite: 41.6
+    developer_ergonomics: 59.5
+    discoverability: 78.6
+    operational_transparency: 68.4
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -283,8 +284,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -313,10 +314,11 @@ tags:
 - Sports Data
 - Identity
 - OpenID Connect
-- Authentication
+- OAuth
 - Audience Data
 - Media
 - Reporting
 - Conversion Tracking
+- Authentication
 website: https://www.yahoo.com/
 ---

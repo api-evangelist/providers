@@ -1,12 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Paid
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Partner-only API access for shipping, payment, and integration partners. Not self-serve; access granted under partnership agreements.
@@ -114,9 +116,9 @@ rate_limits:
   slug: mercari-rate-limits
 score:
   band: minimal
-  composite: 7.2
+  composite: 6.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -129,16 +131,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 7.2
+    operational_transparency: 7.9
+  previous_composite: 6.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

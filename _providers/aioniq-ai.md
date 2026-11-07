@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    mcp_tool_quality: na
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.1
+  scored_at: '2026-11-06'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/aioniq-ai/security/aioniq-ai-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/aioniq-ai-vulnerability-disclosure.yml
+- group: other
+  href: https://artifacts.apis.io/aioniq-ai/hosts/aioniq-ai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aioniq-ai-hosts.yml
+- group: auth
+  href: https://artifacts.apis.io/aioniq-ai/security/aioniq-ai-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/aioniq-ai-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/aioniq-ai/security/aioniq-ai-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/aioniq-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aioniq.labs/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: null
+    url: https://aioniq.labs/
+  reason: no-developer-program
+  state: none
+created: '2026-11-01'
+description: AIonIQ Labs builds privacy‑first, security‑focused AI tools that give individuals and organisations control over their data. Their products span private search, healthcare intelligence, local AI memory, and AI threat monitoring, all designed to work without compromising information. The company pioneers AI security with cutting‑edge LLM code analysis to protect against vulnerabilities and ensure safer AI development.
+layout: provider
+modified: '2026-11-01'
+name: AIonIQ Labs
+nav: Providers
+network: true
+overview: AIonIQ Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Security, LLM Safety, Privacy, Healthcare, and Search.
+random_paper: 0
+score:
+  band: minimal
+  composite: 5.4
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 25.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 44.6
+    operational_transparency: 10.5
+  previous_composite: 5.4
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 9.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Aioniq Ai Domain Security
+  slug: aioniq-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Aioniq Ai Vulnerability Disclosure
+  slug: aioniq-ai-vulnerability-disclosure
+  summary_line: no policy recorded
+slug: aioniq-ai
+tags:
+- AI Security
+- LLM Safety
+- Privacy
+- Healthcare
+- Search
+website: https://aioniq.labs/
+---

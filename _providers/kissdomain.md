@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.6
-  scored_at: '2026-10-31'
+  score: 6.5
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: API for managing domain registrations, DNS, and SSL provisioning.
@@ -128,7 +143,7 @@ modified: '2026-10-30'
 name: kissdomain
 nav: Providers
 network: true
-overview: 'kissdomain publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Domain, Hosting, Business, Germany, and Provider.
+overview: 'kissdomain publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Domain, Hosting, Business, Germany, and Providers.
 
 
   The kissdomain catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -164,33 +179,49 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.1
+  composite: 15.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 63.7
+    artifact_dirs: 30
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.3
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.6
   facets:
     access_clarity: 0.0
-    contract_governance: 79.1
+    contract_governance: 22.0
     contract_quality: 14.7
-    developer_ergonomics: 13.6
-    discoverability: 60.7
-    operational_transparency: 10.5
+    developer_ergonomics: 10.0
+    discoverability: 58.9
+    operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 17.3
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/kissdomain/kissdomain-2026-11-03T134429.png
 security:
 - kind: authentication
   name: Kissdomain Authentication
@@ -218,6 +249,6 @@ tags:
 - Hosting
 - Business
 - Germany
-- Provider
+- Providers
 website: https://kissdomain.de/
 ---

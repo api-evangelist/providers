@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +28,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +39,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.6
-  scored_at: '2026-10-31'
+  score: 59.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,7 +74,7 @@ arazzos:
 - description: List unresolved issues, fetch the top one, and mark it resolved.
   name: Lucent — triage and resolve an issue
   slug: lucent-triage-and-resolve
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: Lucent pushes signed HTTP callbacks to a receiver URL you register (Organization → Webhooks) when events happen in your organization. Deliveries are signed with HMAC-SHA256 (Lucent-Signature) and carr
   name: Lucent Webhooks
@@ -289,7 +293,7 @@ network: true
 overview: 'Lucent publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Insights API, Issues API, Sdk API, and 1 more. Tagged areas include Company, Session Replay, Product Analytics, Bug Detection, and Observability.
 
 
-  The Lucent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lucent catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Lucent''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, pricing, and 31 more developer resources.'
@@ -301,6 +305,19 @@ plans:
   plan_count: 0
   slug: lucent-price-estimates
 random_paper: 3
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Lucent API Rules
+  rule_count: 58
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 3
+    warn: 1
+  slug: lucent-rules
 scopes:
 - name: Lucent Scopes
   scope_count: 2
@@ -308,23 +325,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 58.7
+  composite: 60.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 30
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 57.4
     developer_ergonomics: 73.2
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 57.2
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,13 +358,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lucent/lucent-2026-07-25T225640.png
 security:
 - kind: authentication

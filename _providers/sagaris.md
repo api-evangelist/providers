@@ -1,6 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +23,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-31'
+  score: 8.6
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: REST API for the SAGARIS Agentic Revenue OS, including the Company Brain context endpoints. Bearer/workspace-key authentication. Formal reference, SDKs, and webhooks are marked 'Soon' (pre-launch).
@@ -82,9 +92,9 @@ overview: 'SAGARIS is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 2
 score:
   band: minimal
-  composite: 6.3
+  composite: 7.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -96,9 +106,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 61.7
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 7.3
   provenance:
     mcp: first-party
   regulatory:
@@ -107,8 +117,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

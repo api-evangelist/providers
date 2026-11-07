@@ -1,6 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,11 +36,15 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-31'
+  score: 2.5
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tri-apex.com/
 - group: other
   href: https://artifacts.apis.io/tripod-glp-com/hosts/tripod-glp-com-hosts.yml
   title: ''
@@ -48,13 +64,13 @@ coverage:
   reason: no-machine-readable-spec
   state: unreadable
 created: '2026-10-29'
-description: Tripod GLP is a venture‑backed technology company focused on providing innovative global logistics platforms. The firm aims to streamline supply‑chain operations through cloud‑based services, data analytics, and integration with partner ecosystems. While currently a stub in the API Evangelist network, the company’s public presence suggests ongoing development of API offerings for partners and developers.
+description: Tripod GLP's domain now redirects to TriApex, a non-clinical and clinical contract research organization established in 2008 that specializes in drug research and development. No developer portal or API was found.
 layout: provider
 modified: '2026-10-29'
 name: tripod-glp
 nav: Providers
 network: true
-overview: tripod-glp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Cloud, API, and Supply-Chain.
+overview: tripod-glp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Cloud.
 plans:
 - name: Tripod Glp Com Plans Pricing
   plan_count: 0
@@ -71,21 +87,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 4.6
+  composite: 3.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 25.0
+    catalog_earned: 20.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 90.0
+    catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.9
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.6
+    discoverability: 35.7
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 4.6
   provenance:
     conformance: unknown
     mcp: unknown
@@ -95,8 +119,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -113,8 +138,6 @@ security:
 slug: tripod-glp-com
 tags:
 - Company
-- Logistics
 - Cloud
-- API
-- Supply-Chain
+website: https://www.tri-apex.com/
 ---

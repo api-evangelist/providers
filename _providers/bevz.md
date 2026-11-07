@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - baseURL: https://api.bevz.com/integrator-service
@@ -84,7 +85,7 @@ apis:
   description: The Webhooks API from Bevz — 0 operation(s) for webhooks.
   name: Bevz Webhooks API
   slug: bevz-webhooks-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Bevz Webhooks
@@ -212,7 +213,7 @@ network: true
 overview: 'Bevz publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Integrator Users API, Integrators API, Lotto Scratcher Games API, and 6 more. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Stores, and Point-of-Sale.
 
 
-  The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Bevz''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, signup flow, engineering blog, and 15 more developer resources.'
@@ -228,25 +229,38 @@ rate_limits:
 - limit_count: 0
   name: Bevz Rate Limits
   slug: bevz-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 97
+  extends:
+  - spectral:oas
+  name: Bevz API Rules
+  rule_count: 56
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 3
+  slug: bevz-rules
 score:
   band: strong
-  composite: 55.5
+  composite: 56.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 55.6
-    developer_ergonomics: 66.1
-    discoverability: 65.0
+    developer_ergonomics: 60.1
+    discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 53.9
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -262,13 +276,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bevz/bevz-2026-07-25T202827.png
 security:
 - kind: authentication

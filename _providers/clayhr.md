@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -147,7 +159,7 @@ modified: '2026-10-26'
 name: ClayHR
 nav: Providers
 network: true
-overview: 'ClayHR publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include HR, HRMS, SaaS, AI, and Employee-Management.
+overview: 'ClayHR publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, HRMS, Software-as-a-Service, Artificial Intelligence, and Employee Management.
 
 
   The ClayHR catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -161,55 +173,58 @@ plans:
 random_paper: 19
 rules:
 - authorship: generated
-  effective_rule_count: 50
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: ClayHR API Rules
-  rule_count: 9
+  rule_count: 20
   severity_counts:
-    error: 7
+    error: 18
     hint: 0
     info: 1
     warn: 1
   slug: clayhr-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 29.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 22
     catalog_earned: 60.8
     catalog_earned_first_party: 12.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -12.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 35.8
-    developer_ergonomics: 14.3
-    discoverability: 58.9
-    operational_transparency: 42.1
+    contract_quality: 19.4
+    developer_ergonomics: 7.1
+    discoverability: 65.2
+    operational_transparency: 26.3
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 2
-      marker_coverage: 22.2
-      total: 9
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 17.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    matched_via: weak_tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 13.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
+screenshot: https://apis.io/screenshots/clayhr/clayhr-2026-11-03T124323.png
 security:
 - kind: domain-security
   name: Clayhr Domain Security
@@ -217,11 +232,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: clayhr
 tags:
-- HR
+- Human Resources
 - HRMS
-- SaaS
-- AI
-- Employee-Management
-- Performance-Management
+- Software-as-a-Service
+- Artificial Intelligence
+- Employee Management
+- Performance Management
 website: https://www.clayhr.com/
 ---

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   - '{''url'': ''https://outpostnow.com'', ''status'': 301, ''note'': ''declared website redirects to https://outpost.ai/ — a different registrable domain (outpostnow.com -> outpost.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -164,9 +167,9 @@ overview: 'Outpost is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 6
 score:
   band: thin
-  composite: 35.2
+  composite: 35.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -178,9 +181,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 71.4
+    discoverability: 78.6
     operational_transparency: 7.9
-  previous_composite: 35.2
+  previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -190,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

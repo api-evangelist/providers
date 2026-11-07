@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: API for Dynamo AI platform
@@ -162,7 +174,7 @@ modified: '2026-10-24'
 name: Dynamo AI
 nav: Providers
 network: true
-overview: 'Dynamo AI is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Security, Enterprise, and Compliance.
+overview: 'Dynamo AI is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Security, Enterprise, and Compliance.
 
 
   The Dynamo AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,42 +196,45 @@ rules:
     warn: 1
   slug: dynamo-ai-rules
 score:
-  band: thin
-  composite: 32.6
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 24.4
-    developer_ergonomics: 50.0
+    contract_quality: 24.7
+    developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 21.1
+    operational_transparency: 18.4
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 10
+      derived: 1
       marker_coverage: 100.0
-      total: 10
+      total: 1
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/dynamo-ai/dynamo-ai-2026-11-03T131145.png
 security:
 - kind: authentication
   name: Dynamo Ai Authentication
@@ -232,7 +247,7 @@ security:
 slug: dynamo-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Enterprise
 - Compliance

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid (free trial)
+  confidence: low
+  label: Freemium (free trial)
   onboarding: unknown
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
+  - security
   trial: true
   try_now: false
 agent_readiness:
@@ -24,7 +25,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-31'
+  score: 27.1
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: A REST API for programmatically sending letters, postcards, checks, and self-mailers. Handles printing, postage, and delivery with support for templates, contacts, tracking, webhooks, and both test an
@@ -155,24 +157,24 @@ rate_limits:
   name: Postgrid Rate Limits
   slug: postgrid-rate-limits
 score:
-  band: thin
-  composite: 29.6
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
-    access_clarity: 18.4
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 41.2
-    developer_ergonomics: 16.7
-    discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 29.6
+    developer_ergonomics: 13.1
+    discoverability: 73.3
+    operational_transparency: 26.3
+  previous_composite: 22.9
   provenance:
     mcp: first-party
   regulatory:
@@ -181,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

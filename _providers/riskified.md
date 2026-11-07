@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
+  label: Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-10-31'
+  score: 47.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -117,6 +119,16 @@ asyncapis:
   name: Riskified Webhooks
   slug: riskified-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/riskified/finops/riskified-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/riskified-finops.yml
+- group: auth
+  href: https://artifacts.apis.io/riskified/well-known/riskified-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/riskified-status-security.txt
 - group: other
   href: https://artifacts.apis.io/riskified/capabilities/riskified-capability-edges.yml
   title: ''
@@ -176,11 +188,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/riskified-llms.txt
-- group: auth
-  href: https://artifacts.apis.io/riskified/well-known/riskified-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/riskified-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/riskified/well-known/riskified-well-known.yml
   title: ''
@@ -538,7 +545,7 @@ overview: 'Riskified publishes 16 API contracts indexed on the [APIs.io](https:/
   The Riskified catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Riskified''s developer surface includes support, developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, and 61 more developer resources.'
+  Riskified''s developer surface includes support, developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, and 62 more developer resources.'
 plans:
 - name: Riskified Plans Pricing
   plan_count: 0
@@ -546,34 +553,34 @@ plans:
 random_paper: 18
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 95
   extends:
   - spectral:oas
   name: Riskified API Rules
-  rule_count: 15
+  rule_count: 54
   severity_counts:
-    error: 13
+    error: 43
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 9
   slug: riskified-rules
 score:
   band: strong
-  composite: 61.6
+  composite: 60.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 50.0
     contract_governance: 22.0
-    contract_quality: 73.0
-    developer_ergonomics: 73.8
-    discoverability: 64.3
+    contract_quality: 78.4
+    developer_ergonomics: 71.4
+    discoverability: 71.4
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -595,14 +602,13 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 22.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.4
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/riskified/riskified-2026-06-20T193133.png
 security:
 - kind: domain-security

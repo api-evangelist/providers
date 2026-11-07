@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -83,7 +88,7 @@ apis:
   description: Real User Measurements (RUM) keys
   name: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Azure Traffic Manager REST Endpoints API
@@ -298,6 +303,9 @@ network: true
 overview: 'Azure Traffic Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 6 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
 
 
+  The Azure Traffic Manager catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 30 more developer resources.'
 plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
@@ -308,6 +316,19 @@ rate_limits:
 - limit_count: 5
   name: Microsoft Azure Traffic Manager Rate Limits
   slug: microsoft-azure-traffic-manager-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 99
+  extends:
+  - spectral:oas
+  name: Azure Traffic Manager API Rules
+  rule_count: 58
+  severity_counts:
+    error: 56
+    hint: 0
+    info: 1
+    warn: 1
+  slug: microsoft-azure-traffic-manager-rules
 scopes:
 - name: Microsoft Azure Traffic Manager Scopes
   scope_count: 1
@@ -315,23 +336,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 54.9
+  composite: 56.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 52.0
+    artifact_dirs: 17
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 76.3
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 43.2
-    developer_ergonomics: 68.6
+    developer_ergonomics: 63.1
     discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 54.9
+    operational_transparency: 42.1
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -345,13 +366,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/microsoft-azure-traffic-manager/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:
 - kind: authentication

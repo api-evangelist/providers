@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ arazzos:
 - description: Create an AI media-generation job on Glio and poll until it completes, then read the result. Uses Glio's asynchronous job workflow.
   name: Glio - generate media and retrieve result
   slug: glio-generate-media
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Glio Jobs API
@@ -198,38 +200,54 @@ network: true
 overview: 'Glio publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Jobs API and LLM API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Media Generation, and Video Generation.
 
 
+  The Glio catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Glio Plans Pricing
   plan_count: 1
   slug: glio-plans-pricing
 random_paper: 19
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Glio API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: glio-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 49.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 48.0
+    artifact_dirs: 24
+    catalog_earned: 52.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 1.4
   facets:
     access_clarity: 73.7
-    contract_governance: 4.5
-    contract_quality: 49.3
+    contract_governance: 18.2
+    contract_quality: 54.8
     developer_ergonomics: 56.5
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
@@ -239,13 +257,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/glio/glio-2026-07-25T215909.png
 security:
 - kind: authentication

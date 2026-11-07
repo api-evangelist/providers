@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-31'
+  score: 42.3
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Agent-native LinkedIn infrastructure API.
@@ -144,7 +157,7 @@ modified: '2026-10-30'
 name: curviate-com
 nav: Providers
 network: true
-overview: 'curviate-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Curviate API. Tagged areas include AI, LinkedIn, API, Automation, and Agent.
+overview: 'curviate-com publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Curviate API. Tagged areas include Artificial Intelligence, LinkedIn, Automation, and Agents.
 
 
   The curviate-com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -162,22 +175,32 @@ scopes:
   slug: curviate-com-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.9
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 44.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.8
+    artifact_dirs: 23
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.2
   facets:
-    access_clarity: 50.5
-    contract_governance: 16.4
-    contract_quality: 39.0
-    developer_ergonomics: 59.5
-    discoverability: 66.1
-    operational_transparency: 23.7
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 44.8
+    developer_ergonomics: 39.3
+    discoverability: 57.1
+    operational_transparency: 11.8
+  previous_composite: 48.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
   regulatory:
     applies: true
     jurisdictions:
@@ -187,13 +210,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/curviate-com/curviate-com-2026-11-03T125918.png
 security:
 - kind: authentication
   name: Curviate Com Authentication
@@ -205,10 +230,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: curviate-com
 tags:
-- AI
+- Artificial Intelligence
 - LinkedIn
-- API
 - Automation
-- Agent
+- Agents
 website: https://curviate.com/
 ---

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-10-31'
+  score: 48.9
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 1
@@ -1001,7 +1006,7 @@ apis:
     question: Which automation workflows exist in my account?
   phrasing_ops: 3
   slug: getresponse-workflows-api
-artifact_total: 111
+artifact_total: 112
 asyncapis:
 - description: ''
   name: Getresponse Webhooks
@@ -1362,7 +1367,7 @@ network: true
 overview: 'GetResponse publishes 49 API contracts indexed on the [APIs.io](https://apis.io/) network, including A/B tests API, A/B tests - subject API, Accounts API, and 46 more. Tagged areas include Email Marketing, Marketing Automation, Landing Pages, Webinars, and Conversion Funnels.
 
 
-  The GetResponse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The GetResponse catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   GetResponse''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
@@ -1378,6 +1383,19 @@ rate_limits:
 - limit_count: 3
   name: Getresponse Rate Limits
   slug: getresponse-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: GetResponse API Rules
+  rule_count: 65
+  severity_counts:
+    error: 47
+    hint: 0
+    info: 1
+    warn: 17
+  slug: getresponse-rules
 scopes:
 - name: Getresponse Scopes
   scope_count: 1
@@ -1385,35 +1403,35 @@ scopes:
   summary_line: 1 scope · implicit/authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.4
+  composite: 76.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 67.0
+    artifact_dirs: 30
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 1.3
   facets:
-    access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 56.6
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 65.4
     developer_ergonomics: 76.2
-    discoverability: 82.1
-    operational_transparency: 60.5
+    discoverability: 89.3
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - poland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 67.9
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 49
     mcp: derived
     skills: first-party
@@ -1427,13 +1445,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 50.0
 screenshot: https://apis.io/screenshots/getresponse/getresponse-2026-06-20T181811.png
 security:
 - kind: authentication

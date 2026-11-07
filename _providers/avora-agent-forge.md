@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Open access
   onboarding: open
   pricing: freemium
@@ -12,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: derived
@@ -26,7 +29,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: derived
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,8 +40,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-31'
+  score: 31.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +64,7 @@ apis:
   description: Public-data token evidence with mandatory human-review controls.
   name: AVORA Agent Forge Public Evidence API
   slug: avora-agent-forge-public-evidence-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: AVORA Forge Commerce Agent API
@@ -204,7 +208,7 @@ network: true
 overview: 'AVORA Agent Forge publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Public Evidence API, and 1 more. Tagged areas include Blockchain, Cryptocurrency, Solana, Token Risk, and Due Diligence.
 
 
-  The AVORA Agent Forge catalog on APIs.io includes 1 JSON-LD context.
+  The AVORA Agent Forge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   AVORA Agent Forge''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 19 more developer resources.'
@@ -213,25 +217,38 @@ plans:
   plan_count: 4
   slug: avora-agent-forge-plans
 random_paper: 5
+rules:
+- authorship: generated
+  effective_rule_count: 79
+  extends:
+  - spectral:oas
+  name: AVORA Agent Forge API Rules
+  rule_count: 38
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 1
+    warn: 1
+  slug: avora-agent-forge-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 38.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 51.0
+    artifact_dirs: 25
+    catalog_earned: 55.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 64.0
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 42.1
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 46.0
     developer_ergonomics: 51.8
-    discoverability: 60.0
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 36.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,13 +265,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/avora-agent-forge/avora-agent-forge-2026-09-02T144924.png
 security:
 - kind: authentication

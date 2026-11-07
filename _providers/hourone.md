@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -75,7 +76,7 @@ apis:
   description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone Webhook API
   slug: hourone-webhook-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: Outbound webhook notifications for video processing lifecycle. Hour One POSTs a signed JSON payload to your registered endpoint when a video finishes rendering or fails. Each request carries an x-hour
   name: Hour One (MakeReals) Webhooks
@@ -218,30 +219,43 @@ network: true
 overview: 'Hourone publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including General API, Keys API, Playground API, and 3 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Generative AI.
 
 
-  The Hourone catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Hourone catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
 random_paper: 0
+rules:
+- authorship: generated
+  effective_rule_count: 91
+  extends:
+  - spectral:oas
+  name: Hourone API Rules
+  rule_count: 50
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 3
+    warn: 6
+  slug: hourone-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 35.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    contract_governance: 4.5
-    contract_quality: 55.5
-    developer_ergonomics: 56.5
-    discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 35.5
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 57.2
+    developer_ergonomics: 54.2
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,13 +272,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/hourone/hourone-2026-07-25T221530.png
 security:
 - kind: authentication

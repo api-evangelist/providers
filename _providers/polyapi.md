@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: unknown
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -449,9 +453,9 @@ rules:
   slug: polyapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 45.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
@@ -461,11 +465,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 9.8
-    contract_quality: 62.5
+    contract_quality: 65.9
     developer_ergonomics: 44.0
     discoverability: 64.3
-    operational_transparency: 57.9
-  previous_composite: 46.1
+    operational_transparency: 55.3
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -479,13 +483,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/polyapi/polyapi-2026-06-20T191900.png
 security:
 - kind: authentication

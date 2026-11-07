@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -234,9 +238,9 @@ rules:
   slug: nakama-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.1
+  composite: 32.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
@@ -249,8 +253,8 @@ score:
     contract_quality: 52.5
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 30.1
+    operational_transparency: 10.5
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -264,13 +268,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 38.9
 screenshot: https://apis.io/screenshots/nakama/nakama-2026-08-07T184611.png
 security:
 - kind: authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -15,17 +26,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: false
     pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-31'
+  score: 37.7
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://namegender.com
@@ -236,13 +248,13 @@ json_schemas:
   property_count: 7
   slug: namegender-bulk-request
 - name: BulkResponse
-  property_count: 0
+  property_count: 8
   slug: namegender-bulk-response
 - name: CountriesResponse
   property_count: 9
   slug: namegender-countries-response
 - name: SingleResponse
-  property_count: 0
+  property_count: 19
   slug: namegender-single-response
 jsonld:
 - class_count: 11
@@ -280,24 +292,24 @@ rules:
     warn: 1
   slug: namegender-rules
 score:
-  band: strong
-  composite: 62.2
+  band: developing
+  composite: 50.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 28
     catalog_earned: 70.8
     catalog_earned_first_party: 12.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -11.4
   facets:
-    access_clarity: 84.2
+    access_clarity: 61.8
     contract_governance: 22.0
     contract_quality: 73.5
-    developer_ergonomics: 50.0
-    discoverability: 53.6
-    operational_transparency: 57.9
-  previous_composite: 60.6
+    developer_ergonomics: 32.1
+    discoverability: 60.7
+    operational_transparency: 36.8
+  previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
@@ -311,14 +323,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
-  trend: flat
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/namegender/namegender-2026-11-03T135949.png
 security:
 - kind: domain-security
   name: Namegender Domain Security

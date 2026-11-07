@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Regional bill-payment and payments infrastructure API — biller directory, service/bill payments, phone recharges, subscriptions, scheduled-payment agendas and digital gift cards, with a token-based Lo
@@ -138,8 +140,8 @@ overview: 'Tapi is listed with 1 API on the [APIs.io](https://apis.io/) network.
   Tapi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, YouTube channel, and 11 more developer resources.'
 random_paper: 22
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -152,15 +154,15 @@ score:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 57.1
+    developer_ergonomics: 21.4
+    discoverability: 64.3
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 29.7
+  previous_composite: 24.2
   provenance:
     mcp: derived
   regulatory:
@@ -169,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

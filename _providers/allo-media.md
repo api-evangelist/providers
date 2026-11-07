@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -253,9 +254,9 @@ scopes:
   summary_line: 19 scopes · clientCredentials/authorizationCode/deviceCode/password/refreshToken/tokenExchange/jwtBearer/uma/ciba
 score:
   band: developing
-  composite: 52.8
+  composite: 50.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -266,9 +267,9 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 73.8
-    discoverability: 82.1
-    operational_transparency: 100.0
+    developer_ergonomics: 64.3
+    discoverability: 89.3
+    operational_transparency: 92.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,7 +278,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 52.8
+  previous_composite: 50.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -287,8 +288,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

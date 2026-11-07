@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.4
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -198,9 +199,9 @@ rules:
   slug: emitwise-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 33.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -211,7 +212,7 @@ score:
     access_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 59.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 17.9
     discoverability: 57.1
     operational_transparency: 5.3
   jurisdiction:
@@ -222,7 +223,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 34.9
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -236,13 +237,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/emitwise/emitwise-2026-06-20T180633.png
 security:
 - kind: authentication

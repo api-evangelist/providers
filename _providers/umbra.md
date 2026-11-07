@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -30,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.6
-  scored_at: '2026-10-31'
+  score: 47.2
+  scored_at: '2026-11-06'
 api_count: 6
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -116,7 +118,7 @@ apis:
   description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
   name: Umbra Thumbnail API
   slug: umbra-thumbnail-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: open
   name: Admin Client Credentials API
@@ -342,6 +344,9 @@ network: true
 overview: 'Umbra publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client Credentials API, Collections API, Collect Metadata API, and 12 more. Tagged areas include Satellite Imagery, Synthetic Aperture Radar, Earth Observation, Geospatial, and Space.
 
 
+  The Umbra catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Umbra Plans Pricing
@@ -352,6 +357,19 @@ rate_limits:
 - limit_count: 6
   name: Umbra Rate Limits
   slug: umbra-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 93
+  extends:
+  - spectral:oas
+  name: Umbra API Rules
+  rule_count: 52
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 4
+    warn: 12
+  slug: umbra-rules
 scopes:
 - name: Umbra Scopes
   scope_count: 0
@@ -359,28 +377,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.5
+  composite: 60.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 67.0
+    artifact_dirs: 29
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 5.4
   facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 48.7
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 52.7
     developer_ergonomics: 66.1
-    discoverability: 70.0
-    operational_transparency: 60.5
+    discoverability: 76.7
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 52.6
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -396,13 +414,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/umbra/umbra-2026-08-17T082544.png
 security:
 - kind: authentication

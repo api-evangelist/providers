@@ -1,11 +1,15 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - apis
   label: Unknown
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
@@ -140,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

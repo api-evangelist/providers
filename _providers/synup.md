@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.6
-  scored_at: '2026-10-31'
+  score: 61.4
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
@@ -137,7 +142,7 @@ apis:
   description: The Webhooks/Webhooks API from Synup — 0 operation(s) for webhooks/webhooks.
   name: Synup Webhooks/Webhooks API
   slug: synup-webhooks-webhooks-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Synup Webhooks
@@ -387,7 +392,7 @@ network: true
 overview: 'Synup publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Connected Accounts API, Grid Rank API, and 17 more. Tagged areas include Local Marketing, Listings Management, Reputation Management, Local SEO, and Reviews.
 
 
-  The Synup catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
+  The Synup catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Synup''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, code examples, and 39 more developer resources.'
@@ -403,6 +408,19 @@ rate_limits:
 - limit_count: 0
   name: Synup Rate Limits
   slug: synup-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 96
+  extends:
+  - spectral:oas
+  name: Synup API Rules
+  rule_count: 55
+  severity_counts:
+    error: 46
+    hint: 0
+    info: 1
+    warn: 8
+  slug: synup-rules
 scopes:
 - name: Synup Scopes
   scope_count: 2
@@ -410,23 +428,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 62.9
+  composite: 65.4
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 69.9
+    artifact_dirs: 34
+    catalog_earned: 74.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.1
+    catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
+    access_clarity: 77.6
+    contract_governance: 31.8
     contract_quality: 70.0
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 61.4
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 65.4
   provenance:
     conformance: derived
     contracts:
@@ -442,13 +460,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/synup/synup-2026-06-20T194835.png
 security:
 - kind: authentication

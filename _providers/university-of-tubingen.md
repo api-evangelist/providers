@@ -1,14 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
-  onboarding: unknown
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Free · Open access
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
   - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -25,6 +31,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +42,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -208,9 +215,9 @@ rate_limits:
   slug: university-of-tubingen-rate-limits
 score:
   band: thin
-  composite: 31.7
+  composite: 31.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 61.0
     catalog_earned_first_party: 8.0
     catalog_gap: 54.0
@@ -223,7 +230,7 @@ score:
     contract_quality: 18.0
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +239,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 31.7
+  previous_composite: 31.4
   provenance:
     conformance: first-party
   regulatory:
@@ -241,8 +248,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,7 +1,23 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -10,23 +26,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-31'
+  score: 58.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://api.savee.com/v1
@@ -54,7 +71,7 @@ apis:
   description: The User API from Savee — 1 operation(s) for user.
   name: Savee User API
   slug: savee-user-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -221,6 +238,9 @@ network: true
 overview: 'Savee publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Boards API, Saves API, Search API, and 2 more. Tagged areas include Design, visual inspiration, Image, Creative, and Moodboards.
 
 
+  The Savee catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Savee''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Savee Plans Pricing
@@ -231,6 +251,19 @@ rate_limits:
 - limit_count: 10
   name: Savee Rate Limits
   slug: savee-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 115
+  extends:
+  - spectral:oas
+  name: Savee API Rules
+  rule_count: 74
+  severity_counts:
+    error: 66
+    hint: 0
+    info: 7
+    warn: 1
+  slug: savee-rules
 scopes:
 - name: Savee Scopes
   scope_count: 6
@@ -238,29 +271,29 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.8
+  composite: 62.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.0
+    artifact_dirs: 26
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.4
   facets:
     access_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 50.2
+    contract_governance: 31.8
+    contract_quality: 55.8
     developer_ergonomics: 64.3
-    discoverability: 65.0
-    operational_transparency: 47.4
-  previous_composite: 59.3
+    discoverability: 75.0
+    operational_transparency: 44.7
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 5
     mcp: first-party
     skills: first-party
@@ -270,13 +303,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/savee/savee-2026-09-02T154444.png
 security:
 - kind: authentication

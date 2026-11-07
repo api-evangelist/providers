@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Free
   onboarding: unknown
   pricing: free
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Enterprise Reports API for Kahoot! 360 organizations. Exposes data on games, users, participants, organizations, and kahoots created by the organization. Uses OAuth 2.0 client_credentials at https://a
@@ -178,10 +180,10 @@ rate_limits:
   name: Kahoot Rate Limits
   slug: kahoot-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -192,18 +194,18 @@ score:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 22.6
     discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 26.5
+  previous_composite: 25.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -231,6 +233,7 @@ tags:
 - Engagement
 - Enterprise Learning
 - Reporting
+- OAuth
 - Authentication
 website: https://kahoot.com
 ---

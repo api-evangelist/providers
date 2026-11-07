@@ -1,11 +1,22 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -16,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -23,10 +35,17 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-10-31'
+  score: 46.3
+  scored_at: '2026-11-06'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Curbwaste Agentic Access
+  operation_count: 17
+  slug: curbwaste-agentic-access
+  summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
 - description: Partner API for CurbWaste providing endpoints for catalog and pricing lists.
@@ -52,12 +71,17 @@ apis:
   description: The Zones API from Curbwaste — 2 operation(s) for zones.
   name: Curbwaste Zones API
   slug: curbwaste-zones-api
-artifact_total: 13
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Curbwaste Webhooks
   slug: curbwaste-webhooks
 common:
+- group: agent
+  href: https://artifacts.apis.io/curbwaste/agentic-access/curbwaste-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/curbwaste-agentic-access.yml
 - group: other
   href: https://artifacts.apis.io/curbwaste/capabilities/curbwaste-capability-edges.yml
   title: ''
@@ -185,6 +209,58 @@ coverage:
 created: '2026-10-12'
 description: Curbwaste provides cloud‑based waste management software for haulers, offering order management, real‑time dispatch, inventory tracking, automated invoicing, and driver mobile apps. Built by industry veterans, the platform helps waste businesses increase revenue, improve cash flow, and streamline operations through integrated e‑commerce and data‑centric reporting.
 image: https://cdn.prod.website-files.com/64a711ad4800f51470aab34c/64ce40c89e1879e4a84b725d_OpenGraph.png
+json_schemas:
+- name: CreatePublicCustomerDto
+  property_count: 4
+  slug: curbwaste-create-public-customer-dto
+- name: CreatePublicCustomerPricelistDto
+  property_count: 6
+  slug: curbwaste-create-public-customer-pricelist-dto
+- name: CreatePublicLocationDto
+  property_count: 6
+  slug: curbwaste-create-public-location-dto
+- name: PublicCatalogItemResponseRecordstringunknown
+  property_count: 1
+  slug: curbwaste-public-catalog-item-response-recordstringunknown
+- name: PublicCatalogItemResponse__type
+  property_count: 1
+  slug: curbwaste-public-catalog-item-response-type
+- name: PublicCatalogListResponseRecordstringunknown.o1
+  property_count: 4
+  slug: curbwaste-public-catalog-list-response-recordstringunknown-o1
+- name: PublicCatalogListResponseRecordstringunknown.o2
+  property_count: 4
+  slug: curbwaste-public-catalog-list-response-recordstringunknown-o2
+- name: PublicCatalogListResponseRecordstringunknown
+  property_count: 4
+  slug: curbwaste-public-catalog-list-response-recordstringunknown
+- name: PublicCustomerResponse
+  property_count: 1
+  slug: curbwaste-public-customer-response
+- name: PublicCustomersListResponse
+  property_count: 4
+  slug: curbwaste-public-customers-list-response
+- name: PublicLocationResponse
+  property_count: 1
+  slug: curbwaste-public-location-response
+- name: PublicLocationsListResponse
+  property_count: 4
+  slug: curbwaste-public-locations-list-response
+- name: PublicValidatedAddressResponse
+  property_count: 1
+  slug: curbwaste-public-validated-address-response
+- name: PublicZonesListResponse
+  property_count: 1
+  slug: curbwaste-public-zones-list-response
+- name: UpdatePublicCustomerDto
+  property_count: 4
+  slug: curbwaste-update-public-customer-dto
+- name: UpdatePublicLocationDto
+  property_count: 5
+  slug: curbwaste-update-public-location-dto
+- name: ValidatePublicAddressDto
+  property_count: 1
+  slug: curbwaste-validate-public-address-dto
 jsonld:
 - class_count: 37
   name: Curbwaste Context
@@ -205,41 +281,42 @@ overview: 'Curbwaste publishes 5 API contracts indexed on the [APIs.io](https://
   The Curbwaste catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Curbwaste''s developer surface includes authentication, support, engineering blog, getting-started guide, documentation, API reference, and 19 more developer resources.'
+  Curbwaste''s developer surface includes authentication, support, engineering blog, getting-started guide, documentation, API reference, and 20 more developer resources.'
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 56
+  effective_rule_count: 98
   extends:
   - spectral:oas
   name: Curbwaste API Rules
-  rule_count: 15
+  rule_count: 57
   severity_counts:
-    error: 13
+    error: 55
     hint: 0
     info: 1
     warn: 1
   slug: curbwaste-rules
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 36.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 48.8
+    artifact_dirs: 23
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 62.4
-    developer_ergonomics: 49.4
-    discoverability: 56.7
+    contract_quality: 68.4
+    developer_ergonomics: 31.5
+    discoverability: 66.7
     operational_transparency: 7.9
-  previous_composite: 40.4
+  previous_composite: 40.7
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -253,14 +330,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 20.6
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/curbwaste/curbwaste-2026-11-03T125836.png
 security:
 - kind: authentication
   name: Curbwaste Authentication

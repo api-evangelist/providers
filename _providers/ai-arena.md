@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,18 +25,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 12.4
-  scored_at: '2026-10-31'
+  score: 30.6
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -159,9 +160,9 @@ overview: 'AI Arena is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 22
 score:
   band: thin
-  composite: 27.0
+  composite: 33.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -171,11 +172,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 24.0
     developer_ergonomics: 66.7
-    discoverability: 48.2
-    operational_transparency: 44.7
-  previous_composite: 27.0
+    discoverability: 58.3
+    operational_transparency: 42.1
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -185,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

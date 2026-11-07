@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -72,7 +76,7 @@ apis:
   description: The Retrievals API from Ragie — 2 operation(s) for retrievals.
   name: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Ragie Connections API
@@ -171,6 +175,9 @@ network: true
 overview: 'Ragie publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connections API, Documents API, Entities API, and 2 more. Tagged areas include Artificial Intelligence, RAG, Retrieval, Vector Search, and Document Ingestion.
 
 
+  The Ragie catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Ragie''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Ragie Ai Plans Pricing
@@ -181,25 +188,38 @@ rate_limits:
 - limit_count: 5
   name: Ragie Ai Rate Limits
   slug: ragie-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 100
+  extends:
+  - spectral:oas
+  name: Ragie API Rules
+  rule_count: 59
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 4
+  slug: ragie-ai-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 38.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 52.0
+    artifact_dirs: 16
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 42.1
-    contract_governance: 0.0
-    contract_quality: 47.3
-    developer_ergonomics: 32.1
+    access_clarity: 36.8
+    contract_governance: 13.6
+    contract_quality: 50.7
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 36.6
+    operational_transparency: 21.1
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -213,13 +233,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/ragie-ai/ragie-ai-2026-06-20T192529.png
 security:
 - kind: authentication

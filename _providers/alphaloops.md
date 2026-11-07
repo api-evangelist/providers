@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-31'
+  score: 40.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -83,7 +85,7 @@ apis:
   description: The Peer Groups API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for peer groups.
   name: AlphaLoops FMCSA Carrier Data API Peer Groups API
   slug: alphaloops-peer-groups-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: AlphaLoops FMCSA Carrier Data API
@@ -272,6 +274,9 @@ network: true
 overview: 'AlphaLoops FMCSA Carrier Data API publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 6 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
 
 
+  The AlphaLoops FMCSA Carrier Data API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   AlphaLoops FMCSA Carrier Data API''s developer surface includes engineering blog, authentication, CLI, changelog, pricing, support, and 28 more developer resources.'
 plans:
 - name: Alphaloops Plans Pricing
@@ -285,31 +290,44 @@ rate_limits:
 - limit_count: 5
   name: Alphaloops Rate Limits
   slug: alphaloops-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 108
+  extends:
+  - spectral:oas
+  name: AlphaLoops FMCSA Carrier Data API API Rules
+  rule_count: 67
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 2
+    warn: 7
+  slug: alphaloops-rules
 score:
   band: exemplar
-  composite: 68.7
+  composite: 67.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.7
   facets:
-    access_clarity: 100.0
-    contract_governance: 4.5
-    contract_quality: 53.0
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 55.7
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 86.8
-  previous_composite: 67.6
+    discoverability: 78.3
+    operational_transparency: 76.3
+  previous_composite: 67.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 47.1
       total: 17
     mcp: first-party
     skills: derived
@@ -319,13 +337,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/alphaloops/alphaloops-2026-07-25T195758.png
 security:
 - kind: authentication
@@ -358,7 +375,7 @@ tags:
 - carrier data
 - Freight
 - Trucking
-- motor carrier
+- Motor Carrier
 - fleet intelligence
 - Sales Intelligence
 - MCP Server

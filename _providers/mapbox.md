@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Paid
   onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +26,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -35,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-10-31'
+  score: 45.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -88,7 +90,7 @@ apis:
   description: The Tilesets API from Mapbox — 13 operation(s) for tilesets.
   name: Mapbox Tilesets API
   slug: mapbox-tilesets-api
-artifact_total: 39
+artifact_total: 40
 collections:
 - collection_type: open
   name: Mapbox Tiling Service Activity API
@@ -103,6 +105,11 @@ collections:
   name: Mapbox Tiling Service API
   slug: open-mapbox
 common:
+- group: other
+  href: https://artifacts.apis.io/mapbox/capabilities/mapbox-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mapbox-capability-edges.yml
 - group: commercial
   href: https://artifacts.apis.io/mapbox/plans/mapbox-plans-pricing.yml
   title: ''
@@ -259,7 +266,10 @@ network: true
 overview: 'Mapbox is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Tiling Service API, Tilesets API, and 9 more. Tagged areas include Mapping, Maps, Geospatial, Location, and Geocoding.
 
 
-  Mapbox''s developer surface includes support, authentication, signup flow, privacy policy, getting-started guide, engineering blog, and 22 more developer resources.'
+  The Mapbox catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Mapbox''s developer surface includes support, authentication, signup flow, privacy policy, getting-started guide, engineering blog, and 23 more developer resources.'
 plans:
 - name: Mapbox Plans Pricing
   plan_count: 16
@@ -272,25 +282,38 @@ rate_limits:
 - limit_count: 6
   name: Mapbox Rate Limits
   slug: mapbox-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 74
+  extends:
+  - spectral:oas
+  name: Mapbox API Rules
+  rule_count: 33
+  severity_counts:
+    error: 30
+    hint: 0
+    info: 1
+    warn: 2
+  slug: mapbox-rules
 score:
   band: developing
-  composite: 49.9
+  composite: 49.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 58.0
+    artifact_dirs: 20
+    catalog_earned: 62.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 57.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
-    access_clarity: 81.6
-    contract_governance: 0.0
+    access_clarity: 75.0
+    contract_governance: 13.6
     contract_quality: 38.6
     developer_ergonomics: 47.6
-    discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 48.3
+    discoverability: 80.0
+    operational_transparency: 36.8
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -305,13 +328,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/mapbox/mapbox-2026-06-20T184931.png
 security:
 - kind: domain-security

@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   - sandbox
@@ -26,7 +27,8 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -36,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-31'
+  score: 35.2
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://app.lendapi.com/api/v1/
@@ -105,7 +107,7 @@ apis:
   description: The Variable API from LendAPI — 1 operation(s) for variable.
   name: LendAPI Variable API
   slug: lendapi-variable-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Lendapi Webhooks
@@ -345,7 +347,7 @@ network: true
 overview: 'LendAPI publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Amortization API, Application API, Credit Risk API, and 10 more. Tagged areas include Company, Lending, Loan Origination, Financial Services, and Fintech.
 
 
-  The LendAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The LendAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   LendAPI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
@@ -354,25 +356,38 @@ plans:
   plan_count: 2
   slug: lendapi-plans-pricing
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: LendAPI API Rules
+  rule_count: 44
+  severity_counts:
+    error: 37
+    hint: 0
+    info: 1
+    warn: 6
+  slug: lendapi-rules
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 55.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 27
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 2.2
   facets:
     access_clarity: 73.7
-    contract_governance: 18.2
+    contract_governance: 31.8
     contract_quality: 57.3
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 49.9
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 53.5
   provenance:
     conformance: first-party
     contracts:
@@ -388,13 +403,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lendapi/lendapi-2026-07-25T224857.png
 security:
 - kind: authentication

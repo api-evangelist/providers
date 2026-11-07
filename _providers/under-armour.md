@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Enterprise · Self-serve signup
   onboarding: self-serve
   pricing: enterprise
@@ -8,6 +11,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -26,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -36,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -289,9 +294,9 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.9
+  composite: 37.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
@@ -301,7 +306,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
-    contract_quality: 54.6
+    contract_quality: 58.0
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 10.5
@@ -310,7 +315,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 36.9
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -324,13 +329,12 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/under-armour/under-armour-2026-06-20T200017.png
 security:
 - kind: authentication

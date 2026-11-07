@@ -1,16 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +27,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,8 +38,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-31'
+  score: 31.1
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -197,7 +201,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -209,8 +213,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 65.0
-    operational_transparency: 39.5
+    discoverability: 75.0
+    operational_transparency: 31.6
   previous_composite: 37.2
   provenance:
     conformance: first-party
@@ -226,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

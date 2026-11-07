@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - plans
@@ -30,7 +30,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -40,8 +41,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.0
-  scored_at: '2026-10-31'
+  score: 52.2
+  scored_at: '2026-11-06'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -77,6 +78,26 @@ asyncapis:
   name: Nextroll S2S Events
   slug: nextroll-s2s-events
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nextroll/finops/nextroll-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nextroll-finops.yml
+- group: other
+  href: https://artifacts.apis.io/nextroll/hosts/nextroll-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/nextroll-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/nextroll/integrations/nextroll-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/nextroll-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/nextroll/vendors/nextroll-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/nextroll-vendors.yml
 - group: auth
   href: https://artifacts.apis.io/nextroll/security/nextroll-trust-center.yml
   title: ''
@@ -303,7 +324,7 @@ overview: 'NextRoll is listed with 9 APIs on the [APIs.io](https://apis.io/) net
   The NextRoll catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NextRoll''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  NextRoll''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
 plans:
 - name: Nextroll Plans
   plan_count: 7
@@ -320,22 +341,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 64.5
+  composite: 61.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.3
-    developer_ergonomics: 66.1
-    discoverability: 70.0
-    operational_transparency: 60.5
+    developer_ergonomics: 49.4
+    discoverability: 80.0
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -343,7 +364,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 62.4
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -354,8 +375,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

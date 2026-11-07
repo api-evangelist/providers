@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,6 +69,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/orchardrobotics
+- group: company
+  title: ''
+  type: Website
+  url: https://orchard.ai/
 created: '2026-07-17'
 description: Orchard Robotics (Orchard AI, "The AI Farming Company") is an agricultural technology startup founded in 2022 that builds AI-powered camera systems and farm-management software for precision fruit and vine growing. Its FruitScope platform mounts AI-enabled cameras on any farm vehicle to collect precise per-tree and per-vine data — fruit count, size, color, and growth rate — which is stored in FruitScope Vault and surfaced through FruitScope OS for crop decision-making, with a Vineyard Robotics division serving grape growers. Backed by General Catalyst, the company has raised roughly $22M. As of this profile Orchard Robotics publishes a marketing and careers website but no public API, developer portal, SDK, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orchard-robotics.png
@@ -78,11 +84,11 @@ network: true
 overview: 'Orchard Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Robotics, and Artificial Intelligence.
 
 
-  Orchard Robotics'' developer surface includes engineering blog, support, and 5 more developer resources.'
+  Orchard Robotics'' developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 4.8
+  composite: 4.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -95,18 +101,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 6.0
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.8
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
@@ -128,5 +134,6 @@ tags:
 - Computer Vision
 - Precision Agriculture
 - Farm Management
+- Automation
 website: https://www.orchard.ai/
 ---

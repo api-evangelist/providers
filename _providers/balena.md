@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Free · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: free
+  pricing: freemium
   public: false
   source:
   - plans
@@ -27,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,7 +80,7 @@ apis:
   description: Manage container-based releases and their assets, pinning, and rollout across a fleet.
   name: Balena Releases API
   slug: balena-releases-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Balena Cloud Applications API
@@ -222,6 +226,9 @@ network: true
 overview: 'Balena publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Device Tags API, Devices API, and 4 more. Tagged areas include Containers, Device Management, Edge, Embedded Linux, and Fleet Management.
 
 
+  The Balena catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Balena''s developer surface includes authentication, documentation, CLI, GitHub presence, engineering blog, pricing, support, and 18 more developer resources.'
 plans:
 - name: Balena Plans Pricing
@@ -235,25 +242,38 @@ rate_limits:
 - limit_count: 2
   name: Balena Rate Limits
   slug: balena-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Balena API Rules
+  rule_count: 54
+  severity_counts:
+    error: 52
+    hint: 0
+    info: 1
+    warn: 1
+  slug: balena-rules
 score:
   band: developing
-  composite: 52.1
+  composite: 53.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 54.0
+    artifact_dirs: 18
+    catalog_earned: 58.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 78.9
-    contract_governance: 0.0
+    contract_governance: 13.6
     contract_quality: 45.3
     developer_ergonomics: 42.9
     discoverability: 73.2
     operational_transparency: 52.6
-  previous_composite: 48.5
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -267,13 +287,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/balena/balena-2026-06-20T172927.png
 security:
 - kind: authentication

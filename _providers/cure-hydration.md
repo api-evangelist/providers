@@ -28,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: derived
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: na
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -242,9 +243,9 @@ scopes:
   summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
-  composite: 35.3
+  composite: 35.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -256,9 +257,9 @@ score:
     contract_governance: 18.2
     contract_quality: 15.6
     developer_ergonomics: 54.8
-    discoverability: 61.7
+    discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -269,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

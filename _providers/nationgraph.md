@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,18 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: mostly
     pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.3
-  scored_at: '2026-10-31'
+  score: 44.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -326,7 +330,7 @@ apis:
   description: The RFPs API from NationGraph — 5 operation(s) for rfps.
   name: NationGraph RF Ps API
   slug: nationgraph-rfps-api
-artifact_total: 122
+artifact_total: 123
 collections:
 - collection_type: open
   name: Nationgraph Accounts API
@@ -643,6 +647,9 @@ network: true
 overview: 'NationGraph publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Automations API, Budgets API, and 53 more. Tagged areas include Company, Sales Intelligence, Public Sector, Government, and SLED.
 
 
+  The NationGraph catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   NationGraph''s developer surface includes authentication, documentation, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Nationgraph Plans Pricing
@@ -653,30 +660,43 @@ rate_limits:
 - limit_count: 0
   name: Nationgraph Rate Limits
   slug: nationgraph-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 88
+  extends:
+  - spectral:oas
+  name: NationGraph API Rules
+  rule_count: 47
+  severity_counts:
+    error: 33
+    hint: 0
+    info: 2
+    warn: 12
+  slug: nationgraph-rules
 scopes:
 - name: Nationgraph Scopes
   scope_count: 5
   slug: nationgraph-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 45.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
-    contract_governance: 18.2
-    contract_quality: 43.7
+    access_clarity: 35.5
+    contract_governance: 31.8
+    contract_quality: 44.3
     developer_ergonomics: 30.4
-    discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 38.8
+    discoverability: 73.2
+    operational_transparency: 2.6
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -693,13 +713,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 39.2
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://apis.io/screenshots/nationgraph/nationgraph-2026-08-07T184651.png
 security:
 - kind: authentication

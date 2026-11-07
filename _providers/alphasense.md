@@ -27,7 +27,8 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -37,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-31'
+  score: 45.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -466,9 +467,9 @@ rules:
   slug: alphasense-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 42.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 64.8
     catalog_earned_first_party: 0.0
     catalog_gap: 50.3
@@ -480,9 +481,9 @@ score:
     contract_governance: 23.5
     contract_quality: 64.3
     developer_ergonomics: 51.2
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 43.7
+    discoverability: 75.0
+    operational_transparency: 26.3
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -497,13 +498,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/alphasense/alphasense-2026-06-20T171557.png
 security:
 - kind: authentication

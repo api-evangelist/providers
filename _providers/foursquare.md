@@ -1,7 +1,10 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium (free trial) · Self-serve signup
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -9,7 +12,7 @@ access_model:
   - plans
   - authentication
   - security
-  trial: true
+  trial: false
   try_now: true
 agent_readiness:
   band: agent-aware
@@ -21,23 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: na
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.2
-  scored_at: '2026-10-31'
+  score: 23.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,6 +133,11 @@ collections:
   name: Foursquare Places Ask Tips API
   slug: open-foursquare-tips-api
 common:
+- group: other
+  href: https://artifacts.apis.io/foursquare/capabilities/foursquare-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/foursquare-capability-edges.yml
 - group: commercial
   href: https://artifacts.apis.io/foursquare/plans/foursquare-plans-pricing.yml
   title: ''
@@ -297,7 +306,7 @@ overview: 'Foursquare publishes 12 API contracts indexed on the [APIs.io](https:
   The Foursquare catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Foursquare''s developer surface includes authentication, tooling, signup flow, documentation, engineering blog, and 16 more developer resources.'
+  Foursquare''s developer surface includes authentication, tooling, signup flow, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Foursquare Plans Pricing
   plan_count: 18
@@ -335,23 +344,23 @@ rules:
   slug: foursquare-places-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 47.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 73.8
     catalog_earned_first_party: 12.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.9
   facets:
     access_clarity: 52.6
     contract_governance: 23.5
     contract_quality: 63.0
-    developer_ergonomics: 59.5
+    developer_ergonomics: 54.8
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 47.4
+    operational_transparency: 7.9
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -365,13 +374,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/foursquare/foursquare-2026-06-20T181457.png
 security:
 - kind: authentication

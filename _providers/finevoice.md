@@ -1,32 +1,44 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: na
     pagination_ratio: na
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-31'
+  score: 32.0
+  scored_at: '2026-11-06'
 api_count: 7
 apis:
 - description: FineVoice provides a public API for AI voice generation, voice conversion, speech-to-text, sound effects, music generation and audio processing as documented in their Mintlify docs.
@@ -268,7 +280,7 @@ modified: '2026-10-22'
 name: FineVoice (Fineshare)
 nav: Providers
 network: true
-overview: 'FineVoice (Fineshare) publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Openapi API, Changeaudiofile API, and 7 more. Tagged areas include Company, AI, Voice, Text-to-Speech, and Audio.
+overview: 'FineVoice (Fineshare) publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Openapi API, Changeaudiofile API, and 7 more. Tagged areas include Company, Artificial Intelligence, Voice, Text-to-Speech, and Audio.
 
 
   The FineVoice (Fineshare) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -282,54 +294,63 @@ plans:
 random_paper: 16
 rules:
 - authorship: generated
-  effective_rule_count: 59
+  effective_rule_count: 101
   extends:
   - spectral:oas
   name: FineVoice (Fineshare) API Rules
-  rule_count: 18
+  rule_count: 60
   severity_counts:
-    error: 16
+    error: 50
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 8
   slug: finevoice-rules
 score:
-  band: developing
-  composite: 49.2
+  band: thin
+  composite: 33.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 23
     catalog_earned: 75.8
     catalog_earned_first_party: 12.0
     catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -15.9
   facets:
-    access_clarity: 63.2
+    access_clarity: 47.4
     contract_governance: 22.0
-    contract_quality: 52.7
-    developer_ergonomics: 52.4
-    discoverability: 67.9
-    operational_transparency: 21.1
+    contract_quality: 25.2
+    developer_ergonomics: 32.1
+    discoverability: 75.0
+    operational_transparency: 10.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 1
-      marker_coverage: 9.1
-      total: 11
-    mcp: unknown
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 22.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 19.1
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/finevoice/finevoice-2026-11-03T132030.png
 security:
 - kind: authentication
   name: Finevoice Authentication
@@ -342,7 +363,7 @@ security:
 slug: finevoice
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice
 - Text-to-Speech
 - Audio

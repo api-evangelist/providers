@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: platform
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the official 52TOYS Shopify storefront via the Universal Commerce Protocol MCP endpoint — catalog search, cart, and buyer-approved checkout. Read-only catalog browsing is un
@@ -135,7 +138,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 21.1
+  composite: 22.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -149,9 +152,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 65.0
+    discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 22.1
   provenance:
     mcp: platform-generated
     skills: derived
@@ -161,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

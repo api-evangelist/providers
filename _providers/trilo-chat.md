@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -13,9 +25,10 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
-    event_surface_described: unknown
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -25,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-31'
+  score: 48.4
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Trilo provides an AI‑powered workspace with collaborative features; public documentation exists but no machine‑readable API contract was found.
@@ -197,7 +210,7 @@ modified: '2026-10-31'
 name: trilo-chat
 nav: Providers
 network: true
-overview: 'trilo-chat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Collaboration, Productivity, Workspace, and Chatbot.
+overview: 'trilo-chat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Collaboration, Productivity, Workspace, and Chatbots.
 
 
   The trilo-chat catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -232,34 +245,41 @@ scopes:
   slug: trilo-chat-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 40.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 68.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    artifact_dirs: 31
+    catalog_earned: 54.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -8.6
   facets:
-    access_clarity: 60.0
-    contract_governance: 79.1
+    access_clarity: 47.4
+    contract_governance: 22.0
     contract_quality: 45.5
-    developer_ergonomics: 54.8
+    developer_ergonomics: 36.9
     discoverability: 56.7
-    operational_transparency: 28.9
+    operational_transparency: 18.4
+  previous_composite: 49.1
+  provenance:
+    conformance: derived
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 31.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 28.2
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/trilo-chat/trilo-chat-2026-11-03T145259.png
 security:
 - kind: authentication
   name: Trilo Chat Authentication
@@ -271,10 +291,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: trilo-chat
 tags:
-- AI
+- Artificial Intelligence
 - Collaboration
 - Productivity
 - Workspace
-- Chatbot
+- Chatbots
 website: https://trilo.chat/
 ---

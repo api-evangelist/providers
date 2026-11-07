@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +24,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: paginated
@@ -25,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'The publishing half of the standard — the JSON manifest a domain serves at /.well-known/ai-catalog.json declaring who the host is and what agentic resources it offers, each entry typed by media type, '
@@ -40,7 +50,7 @@ apis:
 - description: The Search API from Agentic Resource Discovery (ARD) — 1 operation(s) for search.
   name: Agentic Resource Discovery (ARD) Search API
   slug: agentic-resource-discovery-search-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: operate
   title: ''
@@ -182,33 +192,49 @@ network: true
 overview: 'Agentic Resource Discovery (ARD) publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Explore API, Search API, and 1 more. Tagged areas include Agentic Resource Discovery, ARD, AI Catalog, Agent Discovery, and Discovery.
 
 
+  The Agentic Resource Discovery (ARD) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
 random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Agentic Resource Discovery (ARD) API Rules
+  rule_count: 44
+  severity_counts:
+    error: 41
+    hint: 0
+    info: 1
+    warn: 2
+  slug: agentic-resource-discovery-rules
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 26.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.4
+    artifact_dirs: 20
+    catalog_earned: 41.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.6
+    catalog_gap: 73.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 44.7
+    contract_governance: 13.6
+    contract_quality: 49.3
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 24.6
+    operational_transparency: 28.9
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 3
   regulatory:
     applies: true
@@ -216,13 +242,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/agentic-resource-discovery/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery
 tags:

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -28,17 +31,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-31'
+  score: 21.3
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -80,7 +84,7 @@ apis:
   description: The Partner API from Qiwi — 16 operation(s) for partner.
   name: Qiwi Partner API
   slug: qiwi-partner-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: QIWI Payments Partner API
@@ -171,6 +175,9 @@ network: true
 overview: 'Qiwi is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Partner API, and 9 more. Tagged areas include Payments, Wallets, Payouts, Fintech, and Banking.
 
 
+  The Qiwi catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Qiwi''s developer surface includes engineering blog, authentication, developer portal, support, and 10 more developer resources.'
 plans:
 - name: Qiwi Plans Pricing
@@ -181,25 +188,38 @@ rate_limits:
 - limit_count: 5
   name: Qiwi Rate Limits
   slug: qiwi-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 81
+  extends:
+  - spectral:oas
+  name: Qiwi API Rules
+  rule_count: 40
+  severity_counts:
+    error: 38
+    hint: 0
+    info: 1
+    warn: 1
+  slug: qiwi-rules
 score:
   band: thin
-  composite: 28.3
+  composite: 26.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 36.0
+    artifact_dirs: 17
+    catalog_earned: 40.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 74.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 18.4
-    contract_governance: 0.0
+    access_clarity: 7.9
+    contract_governance: 13.6
     contract_quality: 42.9
     developer_ergonomics: 38.1
     discoverability: 53.6
-    operational_transparency: 13.2
-  previous_composite: 28.3
+    operational_transparency: 10.5
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     contracts:
@@ -212,14 +232,13 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 14.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 10.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/qiwi/qiwi-2026-06-20T192337.png
 security:
 - kind: authentication

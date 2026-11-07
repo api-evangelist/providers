@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - rate-limits
   - security
   trial: false
   try_now: false
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -106,7 +108,7 @@ apis:
   description: The Users API from Julep — 5 operation(s) for users.
   name: Julep Users API
   slug: julep-users-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: Julep Agents API
@@ -256,31 +258,50 @@ network: true
 overview: 'Julep publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Docs API, Embed API, and 9 more. Tagged areas include Company, AI Agents, LLM, Agents, and Workflows.
 
 
+  The Julep catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 17 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Julep Rate Limits
   slug: julep-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 110
+  extends:
+  - spectral:oas
+  name: Julep API Rules
+  rule_count: 69
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 10
+  slug: julep-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 38.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 49.1
+    contract_governance: 18.2
+    contract_quality: 52.5
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 35.4
+    discoverability: 73.2
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,13 +318,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 22.2
 screenshot: https://apis.io/screenshots/julep/julep-2026-07-25T223304.png
 security:
 - kind: authentication

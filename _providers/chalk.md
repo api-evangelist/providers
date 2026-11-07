@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -198,9 +202,9 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.1
+  composite: 42.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -212,9 +216,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 66.1
-    operational_transparency: 47.4
-  previous_composite: 42.1
+    discoverability: 73.2
+    operational_transparency: 44.7
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

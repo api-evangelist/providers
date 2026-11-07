@@ -25,6 +25,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,9 +88,9 @@ overview: Nouscom is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 4
 score:
   band: minimal
-  composite: 4.0
+  composite: 4.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -101,8 +102,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.6
-    operational_transparency: 5.3
+    discoverability: 51.8
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -113,15 +114,15 @@ score:
     - dach
     - europe
     - italy-southern-europe
-  previous_composite: 4.0
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

@@ -1,15 +1,19 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
   onboarding: self-serve
-  pricing: enterprise
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,17 +30,18 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-31'
+  score: 27.7
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -81,7 +86,7 @@ apis:
   description: Token issuance for partner and user authorization.
   name: ParkWhiz O Auth API
   slug: parkwhiz-oauth-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: ParkWhiz / Arrive API v4 Accounts & Vehicles API
@@ -195,6 +200,9 @@ network: true
 overview: 'ParkWhiz publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts & Vehicles API, Bookings API, Monthly Parking API, and 4 more. Tagged areas include Parking, Mobility, Reservations, Booking, and Transportation.
 
 
+  The ParkWhiz catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
   ParkWhiz''s developer surface includes authentication, documentation, getting-started guide, changelog, SDKs, and 10 more developer resources.'
 plans:
 - name: Parkwhiz Plans Pricing
@@ -205,6 +213,19 @@ rate_limits:
 - limit_count: 3
   name: Parkwhiz Rate Limits
   slug: parkwhiz-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 102
+  extends:
+  - spectral:oas
+  name: ParkWhiz API Rules
+  rule_count: 61
+  severity_counts:
+    error: 58
+    hint: 0
+    info: 1
+    warn: 2
+  slug: parkwhiz-rules
 scopes:
 - name: Parkwhiz Scopes
   scope_count: 4
@@ -212,23 +233,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 33.4
+  composite: 34.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 15
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 0.0
-    contract_quality: 46.2
+    contract_governance: 13.6
+    contract_quality: 47.5
     developer_ergonomics: 58.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 33.4
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -242,13 +263,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/parkwhiz/parkwhiz-2026-08-07T191441.png
 security:
 - kind: authentication

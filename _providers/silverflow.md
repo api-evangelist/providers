@@ -28,17 +28,18 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.3
-  scored_at: '2026-10-31'
+  score: 43.0
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - baseURL: https://eu-west-1.api.silverflow.com/v1
@@ -291,7 +292,7 @@ apis:
   description: Transaction Risk Assessment
   name: Silverflow Transaction Risk Assessment API
   slug: silverflow-transaction-risk-assessment-api
-artifact_total: 61
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Silverflow Events Webhooks
@@ -482,7 +483,7 @@ network: true
 overview: 'Silverflow publishes 50 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Agents API, AMMF Submission Events API, and 47 more. Tagged areas include Payments, Card Processing, Acquiring, Financial Services, and Tokenization.
 
 
-  The Silverflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Silverflow catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Silverflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 28 more developer resources.'
@@ -495,23 +496,36 @@ rate_limits:
 - limit_count: 0
   name: Silverflow Rate Limits
   slug: silverflow-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 106
+  extends:
+  - spectral:oas
+  name: Silverflow API Rules
+  rule_count: 65
+  severity_counts:
+    error: 49
+    hint: 0
+    info: 1
+    warn: 15
+  slug: silverflow-rules
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 29
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 1.2
   facets:
-    access_clarity: 23.7
-    contract_governance: 4.5
-    contract_quality: 61.0
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 67.6
     developer_ergonomics: 66.1
-    discoverability: 66.1
+    discoverability: 73.2
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -521,13 +535,13 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 50.4
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 80.0
       total: 50
     mcp: derived
     skills: derived
@@ -537,13 +551,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.0
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/silverflow/silverflow-2026-09-02T155511.png
 security:
 - kind: authentication

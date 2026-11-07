@@ -26,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: documented
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -330,9 +331,9 @@ rules:
   slug: aci-dev-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 35.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -342,11 +343,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
-    contract_quality: 61.7
+    contract_quality: 65.1
     developer_ergonomics: 50.0
     discoverability: 57.1
-    operational_transparency: 5.3
-  previous_composite: 35.2
+    operational_transparency: 2.6
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -360,13 +361,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/aci-dev/aci-dev-2026-06-20T163831.png
 security:
 - kind: authentication
@@ -384,9 +384,10 @@ tags:
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Authentication
+- OAuth
 - Open Source
 - Tool Calling
 - VibeOps
+- Authentication
 website: https://www.aci.dev/
 ---

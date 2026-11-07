@@ -1,17 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,18 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-31'
+  score: 37.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -176,7 +179,7 @@ apis:
   description: The Webhooks API from Pax8 — 8 operation(s) for webhooks.
   name: Pax8 Webhooks API
   slug: pax8-webhooks-api
-artifact_total: 62
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Pax8 Webhooks
@@ -418,11 +421,24 @@ network: true
 overview: 'Pax8 publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Companies API, Contacts API, and 23 more. Tagged areas include Company, Enterprise, Cloud Marketplace, MSP, and Distribution.
 
 
-  The Pax8 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Pax8 catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Pax8''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 24 more developer resources.'
 random_paper: 1
+rules:
+- authorship: generated
+  effective_rule_count: 95
+  extends:
+  - spectral:oas
+  name: Pax8 API Rules
+  rule_count: 54
+  severity_counts:
+    error: 36
+    hint: 0
+    info: 3
+    warn: 15
+  slug: pax8-rules
 scopes:
 - name: Pax8 Scopes
   scope_count: 4
@@ -430,30 +446,30 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.5
+  composite: 50.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 28.9
-    contract_governance: 4.5
-    contract_quality: 57.5
-    developer_ergonomics: 66.1
-    discoverability: 70.0
+    contract_governance: 18.2
+    contract_quality: 63.1
+    developer_ergonomics: 47.0
+    discoverability: 78.6
     operational_transparency: 39.5
-  previous_composite: 48.5
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 69.2
       total: 26
     mcp: first-party
     skills: derived
@@ -463,13 +479,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
 screenshot: https://apis.io/screenshots/pax8/pax8-2026-08-07T191618.png
 security:
 - kind: authentication

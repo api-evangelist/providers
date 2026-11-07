@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Sales-led · Sandbox available
+  confidence: low
+  label: Unknown
   onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
-  - documentation
-  trial: true
+  - security
+  - sandbox
+  trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -26,6 +27,7 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: paginated
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -341,7 +343,7 @@ description: Bond Financial Technologies is an enterprise-grade banking-as-a-ser
 image: https://cdn.prod.website-files.com/5ede8b305ed324245dbaf418/60f9b479c42dd4be9f152c3e_Frame%2018.png
 json_schemas:
 - name: account
-  property_count: 0
+  property_count: 16
   slug: bond-account-docs
 - name: account-patch
   property_count: 1
@@ -425,13 +427,13 @@ json_schemas:
   property_count: 10
   slug: bond-simulate
 - name: statement
-  property_count: 0
+  property_count: 8
   slug: bond-statement
 - name: TransactionSchema
   property_count: 13
   slug: bond-transaction-schema
 - name: transfer
-  property_count: 0
+  property_count: 10
   slug: bond-transfer
 - name: transfer-write
   property_count: 5
@@ -478,22 +480,22 @@ rules:
   slug: bond-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 58.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 50.0
     contract_governance: 35.6
-    contract_quality: 68.5
-    developer_ergonomics: 69.0
+    contract_quality: 76.0
+    developer_ergonomics: 57.1
     discoverability: 78.6
-    operational_transparency: 44.7
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -501,7 +503,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 61.0
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -517,13 +519,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/bond/bond-2026-07-25T203549.png
 security:
 - kind: authentication

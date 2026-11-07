@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
   - authentication
+  - scopes
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +30,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
@@ -35,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -200,7 +206,7 @@ apis:
   description: The Wars API from CCP Games — 3 operation(s) for wars.
   name: CCP Games Wars API
   slug: ccp-games-wars-api
-artifact_total: 70
+artifact_total: 132
 collections:
 - collection_type: open
   name: EVE Swagger Incineration (ESI) - tranquility Alliance API
@@ -296,15 +302,35 @@ collections:
   name: EVE Swagger Incineration (ESI) - tranquility Alliance Wars API
   slug: open-ccp-games-wars-api
 common:
+- group: design
+  href: https://artifacts.apis.io/ccp-games/rules/ccp-games-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/ccp-games-rules.yml
+- group: design
+  href: https://artifacts.apis.io/ccp-games/json-ld/ccp-games-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/ccp-games-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/ccp-games/vocabulary/ccp-games-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/ccp-games-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/ccp-games/hosts/ccp-games-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ccp-games-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ccp-games/vendors/ccp-games-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ccp-games-vendors.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://developers.eveonline.com/feed.xml
-- group: other
-  href: https://artifacts.apis.io/ccp-games/capabilities/ccp-games-capability-edges.yml
-  title: ''
-  type: CapabilityMap
-  url: capabilities/ccp-games-capability-edges.yml
 - group: agent
   href: https://artifacts.apis.io/ccp-games/skills/_index.yml
   title: ''
@@ -315,11 +341,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/ccp-games-esi-overlay.yaml
-- group: agent
-  href: https://artifacts.apis.io/ccp-games/llms/ccp-games-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/ccp-games-llms.txt
 - group: agent
   href: https://artifacts.apis.io/ccp-games/mcp/ccp-games-mcp.yml
   title: ''
@@ -363,11 +384,6 @@ common:
   title: ''
   type: Security
   url: https://www.eveonline.com/article/responsible-disclosure-reporting-security-issues
-- group: auth
-  href: https://artifacts.apis.io/ccp-games/well-known/ccp-games-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/ccp-games-security.txt
 - group: agent
   href: https://artifacts.apis.io/ccp-games/well-known/ccp-games-well-known.yml
   title: ''
@@ -437,6 +453,192 @@ common:
 created: '2026-07-17'
 description: 'CCP Games is the Reykjavik-based studio behind EVE Online, the long-running single-shard massively multiplayer space sandbox. CCP operates one of the most mature third-party developer programs in gaming through the EVE Swagger Interface (ESI) - a public, versioned REST API that exposes character, corporation, alliance, market, industry, universe, and fleet data from the live Tranquility server. ESI is secured with EVE SSO (OAuth 2.0 / OpenID Connect on login.eveonline.com) using fine-grained per-scope consent, and is governed by a free third-party Developer License Agreement. This profile enriches the CCP Games entry with the real ESI API surface: its OpenAPI 3.1 description, authentication and OAuth scope model, error and error-limit conventions, lifecycle/deprecation posture, and agent-readiness artifacts.'
 image: https://developers.eveonline.com/favicon.ico
+json_schemas:
+- name: AllianceDetail
+  property_count: 7
+  slug: ccp-games-alliance-detail
+- name: AlliancesAllianceIdContactsGet
+  property_count: 0
+  slug: ccp-games-alliances-alliance-id-contacts-get
+- name: AlliancesAllianceIdContactsLabelsGet
+  property_count: 0
+  slug: ccp-games-alliances-alliance-id-contacts-labels-get
+- name: AlliancesAllianceIdCorporationsGet
+  property_count: 0
+  slug: ccp-games-alliances-alliance-id-corporations-get
+- name: AlliancesAllianceIdIconsGet
+  property_count: 2
+  slug: ccp-games-alliances-alliance-id-icons-get
+- name: AlliancesGet
+  property_count: 0
+  slug: ccp-games-alliances-get
+- name: CharactersCharacterIdAssetsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-assets-get
+- name: CharactersCharacterIdAssetsLocationsPost
+  property_count: 0
+  slug: ccp-games-characters-character-id-assets-locations-post
+- name: CharactersCharacterIdAssetsNamesPost
+  property_count: 0
+  slug: ccp-games-characters-character-id-assets-names-post
+- name: CharactersCharacterIdBlueprintsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-blueprints-get
+- name: CharactersCharacterIdCalendarEventIdAttendeesGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-calendar-event-id-attendees-get
+- name: CharactersCharacterIdCalendarEventIdGet
+  property_count: 10
+  slug: ccp-games-characters-character-id-calendar-event-id-get
+- name: CharactersCharacterIdCalendarGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-calendar-get
+- name: CharactersCharacterIdClonesGet
+  property_count: 4
+  slug: ccp-games-characters-character-id-clones-get
+- name: CharactersCharacterIdContactsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-contacts-get
+- name: CharactersCharacterIdContactsLabelsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-contacts-labels-get
+- name: CharactersCharacterIdContractsContractIdItemsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-contracts-contract-id-items-get
+- name: CharactersCharacterIdContractsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-contracts-get
+- name: CharactersCharacterIdFittingsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-fittings-get
+- name: CharactersCharacterIdFittingsPost
+  property_count: 1
+  slug: ccp-games-characters-character-id-fittings-post
+- name: CharactersCharacterIdFleetGet
+  property_count: 5
+  slug: ccp-games-characters-character-id-fleet-get
+- name: CharactersCharacterIdFwStatsGet
+  property_count: 6
+  slug: ccp-games-characters-character-id-fw-stats-get
+- name: CharactersCharacterIdImplantsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-implants-get
+- name: CharactersCharacterIdIndustryJobsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-industry-jobs-get
+- name: CharactersCharacterIdMedalsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-medals-get
+- name: CharactersCharacterIdNotificationsContactsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-notifications-contacts-get
+- name: CharactersCharacterIdNotificationsGet
+  property_count: 0
+  slug: ccp-games-characters-character-id-notifications-get
+- name: CharactersCharacterIdRolesGet
+  property_count: 4
+  slug: ccp-games-characters-character-id-roles-get
+- name: CharactersDetail
+  property_count: 11
+  slug: ccp-games-characters-detail
+- name: ContractsPublicItemsContractIdGet
+  property_count: 0
+  slug: ccp-games-contracts-public-items-contract-id-get
+- name: ContractsPublicRegionIdGet
+  property_count: 0
+  slug: ccp-games-contracts-public-region-id-get
+- name: CorporationsCorporationIdAssetsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-assets-get
+- name: CorporationsCorporationIdAssetsLocationsPost
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-assets-locations-post
+- name: CorporationsCorporationIdAssetsNamesPost
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-assets-names-post
+- name: CorporationsCorporationIdBlueprintsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-blueprints-get
+- name: CorporationsCorporationIdContactsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-contacts-get
+- name: CorporationsCorporationIdContactsLabelsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-contacts-labels-get
+- name: CorporationsCorporationIdContainersLogsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-containers-logs-get
+- name: CorporationsCorporationIdContractsContractIdItemsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-contracts-contract-id-items-get
+- name: CorporationsCorporationIdContractsGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-contracts-get
+- name: CorporationsCorporationIdFwStatsGet
+  property_count: 5
+  slug: ccp-games-corporations-corporation-id-fw-stats-get
+- name: CorporationsCorporationIdRolesGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-roles-get
+- name: CorporationsCorporationIdRolesHistoryGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-roles-history-get
+- name: CorporationsCorporationIdStarbasesStarbaseIdGet
+  property_count: 14
+  slug: ccp-games-corporations-corporation-id-starbases-starbase-id-get
+- name: CorporationsCorporationIdTitlesGet
+  property_count: 0
+  slug: ccp-games-corporations-corporation-id-titles-get
+- name: DogmaAttributesAttributeIdGet
+  property_count: 10
+  slug: ccp-games-dogma-attributes-attribute-id-get
+- name: DogmaAttributesGet
+  property_count: 0
+  slug: ccp-games-dogma-attributes-get
+- name: DogmaDynamicItemsTypeIdItemIdGet
+  property_count: 5
+  slug: ccp-games-dogma-dynamic-items-type-id-item-id-get
+- name: DogmaEffectsEffectIdGet
+  property_count: 21
+  slug: ccp-games-dogma-effects-effect-id-get
+- name: DogmaEffectsGet
+  property_count: 0
+  slug: ccp-games-dogma-effects-get
+- name: FleetsFleetIdGet
+  property_count: 4
+  slug: ccp-games-fleets-fleet-id-get
+- name: FleetsFleetIdMembersGet
+  property_count: 0
+  slug: ccp-games-fleets-fleet-id-members-get
+- name: FleetsFleetIdWingsGet
+  property_count: 0
+  slug: ccp-games-fleets-fleet-id-wings-get
+- name: FleetsFleetIdWingsPost
+  property_count: 1
+  slug: ccp-games-fleets-fleet-id-wings-post
+- name: FleetsFleetIdWingsWingIdSquadsPost
+  property_count: 1
+  slug: ccp-games-fleets-fleet-id-wings-wing-id-squads-post
+- name: FwLeaderboardsCharactersGet
+  property_count: 2
+  slug: ccp-games-fw-leaderboards-characters-get
+- name: FwLeaderboardsCorporationsGet
+  property_count: 2
+  slug: ccp-games-fw-leaderboards-corporations-get
+- name: FwLeaderboardsGet
+  property_count: 2
+  slug: ccp-games-fw-leaderboards-get
+- name: FwStatsGet
+  property_count: 0
+  slug: ccp-games-fw-stats-get
+- name: IncursionsGet
+  property_count: 0
+  slug: ccp-games-incursions-get
+jsonld:
+- class_count: 61
+  name: Ccp Games Context
+  property_count: 246
+  slug: ccp-games-context
 layout: provider
 modified: '2026-10-06'
 name: CCP Games
@@ -445,8 +647,24 @@ network: true
 overview: 'CCP Games publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 28 more. Tagged areas include Company, Gaming, Games, MMO, and EVE Online.
 
 
-  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  The CCP Games catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: CCP Games API Rules
+  rule_count: 64
+  severity_counts:
+    error: 54
+    hint: 0
+    info: 1
+    warn: 9
+  slug: ccp-games-rules
 scopes:
 - name: Ccp Games Scopes
   scope_count: 70
@@ -454,29 +672,29 @@ scopes:
   summary_line: 70 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.8
+  composite: 49.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 23.7
-    contract_governance: 4.5
-    contract_quality: 47.4
+    contract_governance: 22.0
+    contract_quality: 61.0
     developer_ergonomics: 58.9
-    discoverability: 66.1
-    operational_transparency: 39.5
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - nordics
-  previous_composite: 43.8
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -493,13 +711,12 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/ccp-games/ccp-games-2026-07-25T204826.png
 security:
 - kind: authentication

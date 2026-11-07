@@ -1,4 +1,21 @@
 ---
+access_model:
+  confidence: high
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +31,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +42,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-31'
+  score: 19.8
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: WebCapture API for converting URLs to PDF, images, or markdown.
@@ -33,6 +51,11 @@ apis:
   slug: webcapture-api
 artifact_total: 10
 common:
+- group: agent
+  href: https://artifacts.apis.io/webcapture/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: design
   href: https://artifacts.apis.io/webcapture/rules/webcapture-rules.yml
   title: ''
@@ -43,11 +66,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/webcapture-context.jsonld
-- group: agent
-  href: https://artifacts.apis.io/webcapture/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
 - group: design
   href: https://artifacts.apis.io/webcapture/data-model/webcapture-data-model.yml
   title: ''
@@ -186,7 +204,7 @@ modified: '2026-10-30'
 name: webcapture
 nav: Providers
 network: true
-overview: 'webcapture publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include WebCapture, PDF, API, SaaS, and Automation.
+overview: 'webcapture publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Web Capture, PDF, Software-as-a-Service, and Automation.
 
 
   The webcapture catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,16 +222,16 @@ rate_limits:
   slug: webcapture-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 58
+  effective_rule_count: 97
   extends:
   - spectral:oas
   name: webcapture API Rules
-  rule_count: 17
+  rule_count: 56
   severity_counts:
-    error: 15
+    error: 52
     hint: 0
-    info: 1
-    warn: 1
+    info: 2
+    warn: 2
   slug: webcapture-rules
 scopes:
 - name: Webcapture Scopes
@@ -221,34 +239,42 @@ scopes:
   slug: webcapture-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.3
+  band: developing
+  composite: 41.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 90.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 24.7
+    artifact_dirs: 28
+    catalog_earned: 72.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.3
   facets:
-    access_clarity: 75.8
-    contract_governance: 79.1
+    access_clarity: 59.2
+    contract_governance: 22.0
     contract_quality: 14.7
-    developer_ergonomics: 54.0
-    discoverability: 66.1
-    operational_transparency: 54.7
+    developer_ergonomics: 39.8
+    discoverability: 57.1
+    operational_transparency: 44.7
+  previous_composite: 51.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 45.1
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 38.7
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://apis.io/screenshots/webcapture/webcapture-2026-11-03T150046.png
 security:
 - kind: authentication
   name: Webcapture Authentication
@@ -268,10 +294,9 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: webcapture
 tags:
-- WebCapture
+- Web Capture
 - PDF
-- API
-- SaaS
+- Software-as-a-Service
 - Automation
 website: https://webcapture.io
 ---

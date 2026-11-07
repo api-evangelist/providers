@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -29,18 +32,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.9
-  scored_at: '2026-10-31'
+  score: 48.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,6 +68,16 @@ collections:
   name: rtcStats rtcStats API API
   slug: open-rtcstats-rtcstats-api-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rtcstats/finops/rtcstats-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rtcstats-finops.yml
+- group: build
+  href: https://artifacts.apis.io/rtcstats/integrations/rtcstats-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/rtcstats-integration-edges.yml
 - group: other
   href: https://artifacts.apis.io/rtcstats/capabilities/rtcstats-capability-edges.yml
   title: ''
@@ -439,7 +453,7 @@ overview: 'rtcStats publishes 2 API contracts indexed on the [APIs.io](https://a
   The rtcStats catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  rtcStats'' developer surface includes sandbox, authentication, changelog, documentation, API reference, getting-started guide, support, and 67 more developer resources.'
+  rtcStats'' developer surface includes sandbox, authentication, changelog, documentation, API reference, getting-started guide, support, and 69 more developer resources.'
 plans:
 - name: Rtcstats Plans Pricing
   plan_count: 3
@@ -470,23 +484,26 @@ rules:
   slug: rtcstats-rules
 score:
   band: exemplar
-  composite: 76.2
+  composite: 66.8
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 93.8
+    artifact_dirs: 37
+    catalog_earned: 93.1
     catalog_earned_first_party: 24.0
-    catalog_gap: 21.3
+    catalog_gap: 21.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: -3.9
   facets:
-    access_clarity: 100.0
-    contract_governance: 34.1
-    contract_quality: 63.5
-    developer_ergonomics: 78.0
-    discoverability: 81.7
-    operational_transparency: 71.1
-  previous_composite: 74.6
+    access_clarity: 96.1
+    contract_governance: 32.2
+    contract_quality: 63.7
+    developer_ergonomics: 71.1
+    discoverability: 85.0
+    operational_transparency: 59.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -502,14 +519,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 31.8
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/rtcstats/rtcstats-2026-08-17T081649.png
 security:
 - kind: authentication

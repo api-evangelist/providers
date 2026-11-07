@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -25,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for Quai Network in the `quai_` namespace. Query balances, code, storage and proofs; read blocks, headers and uncles; look up and send transactions (Protobuf-encoded);
@@ -162,9 +164,9 @@ overview: 'Quai Network is listed with 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 7
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,10 +177,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 76.2
-    discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 25.4
+    developer_ergonomics: 73.8
+    discoverability: 73.2
+    operational_transparency: 18.4
+  previous_composite: 25.3
   provenance:
     conformance: derived
     mcp: derived
@@ -188,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

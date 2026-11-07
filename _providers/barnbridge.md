@@ -1,6 +1,9 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
+  gated: none
+  gated_source:
+  - onboarding
   label: Free · Open access
   onboarding: open
   pricing: free
@@ -19,23 +22,24 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-31'
+  score: 24.8
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,9 +225,9 @@ rules:
   slug: barnbridge-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.6
+  composite: 21.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
@@ -236,8 +240,8 @@ score:
     contract_quality: 43.0
     developer_ergonomics: 14.3
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 21.6
+    operational_transparency: 2.6
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     contracts:
@@ -251,13 +255,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://apis.io/screenshots/barnbridge/barnbridge-2026-06-20T173007.png
 slug: barnbridge
 tags:

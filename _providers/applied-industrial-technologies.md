@@ -1,15 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
-  - plans
+  - finops
   - authentication
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -26,6 +28,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: partial
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -217,7 +220,7 @@ rules:
   slug: applied-industrial-technologies-spectral-rules
 score:
   band: emerging
-  composite: 17.9
+  composite: 17.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 54.4
@@ -233,7 +236,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 17.9
+  previous_composite: 17.2
   provenance:
     agentic_access: derived
     contracts:
@@ -247,13 +250,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Applied Industrial Technologies Authentication

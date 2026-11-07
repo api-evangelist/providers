@@ -1,9 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Paid
-  onboarding: unknown
-  pricing: paid
+  gated: none
+  gated_source:
+  - onboarding
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
@@ -11,7 +14,7 @@ access_model:
   - security
   - sandbox
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -28,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: distinct
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-31'
+  score: 28.2
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -81,7 +85,7 @@ apis:
   description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Wompi Webhooks
@@ -304,7 +308,7 @@ network: true
 overview: 'Wompi publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Merchants API, Payment Links API, Payment Sources API, and 4 more. Tagged areas include Payments, Fintech, Colombia, Latin America, and Payment Gateway.
 
 
-  The Wompi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Wompi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Wompi''s developer surface includes authentication, documentation, sandbox, API reference, getting-started guide, signup flow, and 28 more developer resources.'
@@ -317,22 +321,35 @@ rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
   slug: wompi-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 105
+  extends:
+  - spectral:oas
+  name: Wompi API Rules
+  rule_count: 64
+  severity_counts:
+    error: 61
+    hint: 0
+    info: 1
+    warn: 2
+  slug: wompi-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 46.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 41.0
+    artifact_dirs: 29
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
+    access_clarity: 31.6
+    contract_governance: 18.2
     contract_quality: 55.7
-    developer_ergonomics: 60.1
+    developer_ergonomics: 50.6
     discoverability: 66.1
     operational_transparency: 39.5
   jurisdiction:
@@ -342,7 +359,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 49.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,13 +376,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/wompi/wompi-2026-08-17T082934.png
 security:
 - kind: authentication

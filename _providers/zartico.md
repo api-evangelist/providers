@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -14,7 +28,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: false
     operation_distinctiveness: na
     pagination_ratio: na
@@ -24,8 +39,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-31'
+  score: 20.5
+  scored_at: '2026-11-06'
 api_count: 2
 apis:
 - description: Zartico operates a public, anonymously readable GeoServer instance at geoserver.zartico.com serving OGC Web Services over its destination geospatial estate. The WMS 1.3.0 capabilities document adverti
@@ -175,9 +190,9 @@ scopes:
   summary_line: 7 scopes
 score:
   band: emerging
-  composite: 20.2
+  composite: 20.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -189,9 +204,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 20.2
+    discoverability: 66.1
+    operational_transparency: 2.6
+  previous_composite: 20.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
     applies: false

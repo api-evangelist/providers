@@ -1,4 +1,20 @@
 ---
+access_model:
+  confidence: medium
+  gated: none
+  gated_source:
+  - onboarding
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -15,17 +31,18 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: mostly
     pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.0
-  scored_at: '2026-10-31'
+  score: 47.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -346,6 +363,16 @@ asyncapis:
   name: Btg Pactual Webhooks
   slug: btg-pactual-webhooks
 common:
+- group: auth
+  href: https://artifacts.apis.io/btg-pactual/well-known/btg-pactual-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/btg-pactual-status-security.txt
+- group: build
+  href: https://artifacts.apis.io/btg-pactual/integrations/btg-pactual-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/btg-pactual-integration-edges.yml
 - group: agent
   href: https://artifacts.apis.io/btg-pactual/agentic-access/btg-pactual-agentic-access.yml
   title: ''
@@ -416,11 +443,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/btg-pactual-acquirers-paymentlink-overlay.yaml
-- group: auth
-  href: https://artifacts.apis.io/btg-pactual/well-known/btg-pactual-status-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/btg-pactual-status-security.txt
 - group: agent
   href: https://artifacts.apis.io/btg-pactual/well-known/btg-pactual-well-known.yml
   title: ''
@@ -535,7 +557,7 @@ overview: 'BTG Pactual publishes 61 API contracts indexed on the [APIs.io](https
   The BTG Pactual catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  BTG Pactual''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, API reference, support, and 31 more developer resources.'
+  BTG Pactual''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, API reference, support, and 32 more developer resources.'
 plans:
 - name: Btg Pactual Plans Pricing
   plan_count: 0
@@ -547,16 +569,16 @@ rate_limits:
   slug: btg-pactual-rate-limits
 rules:
 - authorship: generated
-  effective_rule_count: 53
+  effective_rule_count: 101
   extends:
   - spectral:oas
   name: BTG Pactual API Rules
-  rule_count: 12
+  rule_count: 60
   severity_counts:
-    error: 7
+    error: 36
     hint: 0
-    info: 3
-    warn: 2
+    info: 5
+    warn: 19
   slug: btg-pactual-rules
 scopes:
 - name: Btg Pactual Scopes
@@ -564,22 +586,37 @@ scopes:
   slug: btg-pactual-scopes
   summary_line: 62 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 47.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 30
     catalog_earned: 53.8
     catalog_earned_first_party: 8.0
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 6.6
     contract_governance: 35.6
     contract_quality: 57.2
-    developer_ergonomics: 78.0
+    developer_ergonomics: 49.4
     discoverability: 71.4
-    operational_transparency: 76.3
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -596,12 +633,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.8
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 27.8
+screenshot: https://apis.io/screenshots/btg-pactual/btg-pactual-2026-11-03T122713.png
 security:
 - kind: authentication
   name: Btg Pactual Authentication

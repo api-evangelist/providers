@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -15,6 +26,7 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
+    mcp_tool_quality: na
     openapi_examples: verified
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -25,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-31'
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 16
@@ -180,7 +192,7 @@ modified: '2026-10-28'
 name: Ozonetel
 nav: Providers
 network: true
-overview: 'Ozonetel publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, AHT API, Campaign API, and 6 more. Tagged areas include Company, CX Platform, Cloud Communications, Contact Center, and API.
+overview: 'Ozonetel publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, AHT API, Campaign API, and 6 more. Tagged areas include Company, CX Platform, Cloud Communications, and Contact Center.
 
 
   The Ozonetel catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -203,21 +215,29 @@ rules:
   slug: ozonetel-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 28.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 35.8
+    artifact_dirs: 17
+    catalog_earned: 30.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.3
+    catalog_gap: 84.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.3
   facets:
-    access_clarity: 28.9
+    access_clarity: 14.5
     contract_governance: 22.0
-    contract_quality: 42.6
-    developer_ergonomics: 28.6
-    discoverability: 53.6
-    operational_transparency: 15.8
+    contract_quality: 47.3
+    developer_ergonomics: 20.2
+    discoverability: 51.8
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: not_a_repo
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,13 +252,14 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+    score: 23.0
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
+  trend: falling
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://apis.io/screenshots/ozonetel/ozonetel-2026-11-03T140858.png
 security:
 - kind: authentication
   name: Ozonetel Authentication
@@ -254,6 +275,5 @@ tags:
 - CX Platform
 - Cloud Communications
 - Contact Center
-- API
 website: https://ozonetel.com/
 ---

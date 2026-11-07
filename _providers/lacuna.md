@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: none
+  gated_source:
+  - onboarding
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -29,7 +32,8 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
+    mcp_tool_quality: na
     openapi_examples: partial
     operation_distinctiveness: distinct
     pagination_ratio: na
@@ -39,8 +43,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-31'
+  score: 58.1
+  scored_at: '2026-11-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,7 +79,7 @@ arazzos:
 - description: Submits a music generation task to the Lacuna Music API, polls it to a terminal state, and returns the hosted audio URL of the first rendered track. Both operationIds are verified against the provider
   name: Generate a Lacuna track and collect the audio
   slug: lacuna-generate-and-collect
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Lacuna Webhooks
@@ -317,7 +321,7 @@ network: true
 overview: 'Lacuna publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Music API Events, Music API, Account API, and 2 more. Tagged areas include AI Music, Music Generation, AI Song Generator, AI Lyrics Generator, and Audio.
 
 
-  The Lacuna catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lacuna catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Lacuna''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
@@ -333,6 +337,19 @@ rate_limits:
 - limit_count: 3
   name: Lacuna Rate Limits
   slug: lacuna-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 85
+  extends:
+  - spectral:oas
+  name: Lacuna API Rules
+  rule_count: 44
+  severity_counts:
+    error: 42
+    hint: 0
+    info: 1
+    warn: 1
+  slug: lacuna-rules
 scopes:
 - name: Lacuna Scopes
   scope_count: 5
@@ -340,31 +357,31 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.1
+  composite: 70.0
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 64.0
+    artifact_dirs: 34
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 1.0
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 59.0
+    contract_governance: 31.8
+    contract_quality: 62.8
     developer_ergonomics: 78.6
-    discoverability: 65.0
-    operational_transparency: 71.1
-  previous_composite: 67.1
+    discoverability: 75.0
+    operational_transparency: 63.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 66.7
+      total: 3
     mcp: first-party
     skills: first-party
   regulatory:
@@ -373,13 +390,12 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 37.3
-  schema_version: 0.25.0
-  scored_at: '2026-10-31'
+  schema_version: 0.27.0
+  scored_at: '2026-11-06'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://apis.io/screenshots/lacuna/lacuna-2026-08-17T081024.png
 security:
 - kind: authentication
@@ -419,6 +435,7 @@ tags:
 - A2A
 - Developer Tools
 - Account
+- OAuth
 - Authentication
 website: https://www.lacuna.fm/
 ---
