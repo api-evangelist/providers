@@ -1112,14 +1112,6 @@
    "url": "https://providers.apis.io/providers/2c2p/"
   },
   {
-   "description": "2captcha provides an API that solves a wide range of captchas, including reCAPTCHA v2, v3, Enterprise, Cloudflare Turnstile, Arkose Labs, and many image and audio captchas. The service is used by developers, QA engineers, and data‑extraction tools to automate captcha bypass in software, testing frameworks, and web‑scraping applications. It offers both AI‑based automatic solving and human fallback for difficult cases, with pricing per 1,000 solved captchas.",
-   "name": "2captcha",
-   "screenshot": "https://artifacts.apis.io/2captcha/screenshots/2captcha-2026-11-03T120106.png",
-   "slug": "2captcha",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/2captcha/"
-  },
-  {
    "description": "2Duche was a Chinese used-car marketing and trading service platform, backed by Qiming Venture Partners and recognized on the Red Herring Asia 100 in 2009. It was surfaced as a portfolio company of Qiming and added to the API Evangelist network as an enrichment lead. As of the July 2026 enrichment pass the company appears defunct — the apex domain 2duche.com does not resolve and www.2duche.com is unreachable, with no discoverable developer portal, API, documentation, SDKs, or public code repositories. No API artifacts could be produced without fabrication.",
    "name": "2duche",
    "slug": "2duche",
@@ -72932,14 +72924,6 @@
    "slug": "capmo",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/capmo/"
-  },
-  {
-   "description": "CapMonster Cloud provides a fast CAPTCHA solving service powered by AI, supporting reCAPTCHA, GeeTest, Cloudflare and other challenges. It enables developers to scale automatic solving of simple and complex CAPTCHAs via an API, offering high accuracy and speed for integration into bots, scrapers, and automation tools. The platform includes a dashboard, detailed analytics, and flexible pricing plans for various usage levels.",
-   "name": "Capmonster",
-   "screenshot": "https://artifacts.apis.io/capmonster/screenshots/capmonster-2026-11-03T123218.png",
-   "slug": "capmonster",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/capmonster/"
   },
   {
    "description": "Cappello's is a gluten‑free frozen foods company offering pizza, biscuits, pasta, breads, and cookie dough. Based in the United States, it sells its products through major retailers like Whole Foods and Sprouts, and provides an online store for direct consumer purchases. The brand emphasizes clean, allergen‑friendly ingredients and aims to bring magical, convenient meals to gluten‑free consumers worldwide.",

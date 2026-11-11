@@ -1,12 +1,12 @@
 {
- "total": 6055,
+ "total": 6053,
  "bands": [
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6055,
+   "count": 6053,
    "providers": [
     {
      "name": "AdReady (CPXi)",
@@ -250335,61 +250335,6 @@
      "rank": 4515
     },
     {
-     "name": "2captcha",
-     "slug": "2captcha",
-     "url": "https://providers.apis.io/providers/2captcha/",
-     "type": "API Provider",
-     "description": "2captcha provides an API that solves a wide range of captchas, including reCAPTCHA v2, v3, Enterprise, Cloudflare Turnstile, Arkose Labs, and many image and audio captchas. The service is used by developers, QA engineers, and data‑extraction tools to automate captcha bypass in software, testing frameworks, and web‑scraping applications. It offers both AI‑based automatic solving and human fallback for difficult cases, with pricing per 1,000 solved captchas.",
-     "screenshot": "https://artifacts.apis.io/2captcha/screenshots/2captcha-2026-11-03T120106.png",
-     "score": 29.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 27.5,
-      "contract_governance": 22.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 10.7,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 14.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 4516
-    },
-    {
      "name": "ActionIQ",
      "slug": "actioniq",
      "url": "https://providers.apis.io/providers/actioniq/",
@@ -302610,61 +302555,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 5459
-    },
-    {
-     "name": "Capmonster",
-     "slug": "capmonster",
-     "url": "https://providers.apis.io/providers/capmonster/",
-     "type": "API Provider",
-     "description": "CapMonster Cloud provides a fast CAPTCHA solving service powered by AI, supporting reCAPTCHA, GeeTest, Cloudflare and other challenges. It enables developers to scale automatic solving of simple and complex CAPTCHAs via an API, offering high accuracy and speed for integration into bots, scrapers, and automation tools. The platform includes a dashboard, detailed analytics, and flexible pricing plans for various usage levels.",
-     "screenshot": "https://artifacts.apis.io/capmonster/screenshots/capmonster-2026-11-03T123218.png",
-     "score": 27.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 64.1,
-      "contract_governance": 22.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.7,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 28.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 5460
     },
     {
      "name": "Ceki.me",
