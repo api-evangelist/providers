@@ -1,12 +1,12 @@
 {
- "total": 6053,
+ "total": 6052,
  "bands": [
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6053,
+   "count": 6052,
    "providers": [
     {
      "name": "AdReady (CPXi)",
@@ -222539,60 +222539,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 4013
-    },
-    {
-     "name": "Browser Forest",
-     "slug": "browserforest-com",
-     "url": "https://providers.apis.io/providers/browserforest-com/",
-     "type": "API Provider",
-     "description": "Browser Forest provides cloud‑based Chromium browsers designed for AI agents and automation. Users can create undetectable browser sessions via CDP (Playwright/Puppeteer) with built‑in captcha solving and anti‑detection patches. The service offers a free tier with no credit‑card required, 300 minutes of usage and up to three concurrent sessions, plus paid plans for higher concurrency. It targets developers needing scalable, stealthy browsing for scraping, testing, or AI‑driven web interactions.",
-     "score": 30.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 53.6,
-      "contract_quality": 24.7,
-      "contract_governance": 22.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 20.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": false,
-      "mcp_tool_quality": "na"
-     },
-     "rank": 4014
     },
     {
      "name": "Circle",

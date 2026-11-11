@@ -1,6 +1,6 @@
 {
- "total": 558,
- "shown": 558,
+ "total": 557,
+ "shown": 557,
  "limit": 1000,
  "bands": [
   {
@@ -8,7 +8,7 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 5,
+   "count": 4,
    "shown": 5,
    "providers": [
     {
@@ -116,59 +116,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 2
-    },
-    {
-     "name": "Virix Labs",
-     "slug": "humanbrowser-cloud",
-     "description": "Virix Labs is the trading name of Virix Ltd, a London software company (England & Wales no. 16325097, incorporated March 2025) that builds and operates Human Browser at humanbrowser.cloud: a hosted \"cloud Chromium for AI agents\" that runs a natural-language browser goal on a residential IP behind a live viewer a person can watch and take over, with CAPTCHA handling, persistent per-token cookie profiles and metered prepaid pricing ($0.10 per browser-minute, $4/GB bandwidth, $0.005 per solved CAPTCHA). The same runtime is exposed four ways: an A2A 0.3.0 agent card at /.well-known/agent-card.json with nine skills and a JSON-RPC endpoint at agent.humanbrowser.cloud/a2a; a Model Context Protocol server both hosted (agent.humanbrowser.cloud/mcp, with RFC 9728 protected-resource and RFC 8414 authorization-server metadata) and shipped as a stdio server in the npm package @virixlabs/humanbrowser; a six-operation OpenAPI 3.1.0 REST account API at humanbrowser.cloud/openapi.json; and an OpenAI plugin manifest plus llms.txt. Virix Labs also sells agent-run marketing and web-operations services at virixlabs.com.",
-     "screenshot": "https://artifacts.apis.io/humanbrowser-cloud/screenshots/humanbrowser-cloud-2026-10-11T105459.png",
-     "score": 69.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 60.6,
-      "contract_governance": 31.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 76.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 52.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 61.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "distinct",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 3
     },
     {
      "name": "Moneyhub",

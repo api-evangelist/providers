@@ -66396,13 +66396,6 @@
    "url": "https://providers.apis.io/providers/brown-forman/"
   },
   {
-   "description": "Browser Forest provides cloud‑based Chromium browsers designed for AI agents and automation. Users can create undetectable browser sessions via CDP (Playwright/Puppeteer) with built‑in captcha solving and anti‑detection patches. The service offers a free tier with no credit‑card required, 300 minutes of usage and up to three concurrent sessions, plus paid plans for higher concurrency. It targets developers needing scalable, stealthy browsing for scraping, testing, or AI‑driven web interactions.",
-   "name": "Browser Forest",
-   "slug": "browserforest-com",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/browserforest-com/"
-  },
-  {
    "description": "Browser Use makes websites accessible to AI agents. It ships two commercial products on one managed browser platform — Browser Use Agents, which take a natural-language goal and return completed web work, and Browser Infrastructure, which rents stealth cloud Chromium browsers over SDK, REST, or CDP to automation you already own. The public Cloud API is versioned (v4 for long-horizon agent runs, v3 for sessions and workspaces, v2 for low-cost step-based tasks), authenticates with an X-Browser-Use-API-Key header, and is complemented by an OAuth-protected remote MCP server, signed webhooks, an A2A agent card, a published agent skill, first-party Python and TypeScript SDKs, and a CLI. The open-source browser-use Python library is a separate developer tool with its own API.",
    "name": "Browser Use",
    "screenshot": "https://artifacts.apis.io/browser-use/screenshots/browser-use-2026-06-20T173722.png",
@@ -307272,14 +307265,6 @@
    "slug": "synthetic-genomics",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/synthetic-genomics/"
-  },
-  {
-   "description": "Virix Labs is the trading name of Virix Ltd, a London software company (England & Wales no. 16325097, incorporated March 2025) that builds and operates Human Browser at humanbrowser.cloud: a hosted \"cloud Chromium for AI agents\" that runs a natural-language browser goal on a residential IP behind a live viewer a person can watch and take over, with CAPTCHA handling, persistent per-token cookie profiles and metered prepaid pricing ($0.10 per browser-minute, $4/GB bandwidth, $0.005 per solved CAPTCHA). The same runtime is exposed four ways: an A2A 0.3.0 agent card at /.well-known/agent-card.json with nine skills and a JSON-RPC endpoint at agent.humanbrowser.cloud/a2a; a Model Context Protocol server both hosted (agent.humanbrowser.cloud/mcp, with RFC 9728 protected-resource and RFC 8414 authorization-server metadata) and shipped as a stdio server in the npm package @virixlabs/humanbrowser; a six-operation OpenAPI 3.1.0 REST account API at humanbrowser.cloud/openapi.json; and an OpenAI plugin manifest plus llms.txt. Virix Labs also sells agent-run marketing and web-operations services at virixlabs.com.",
-   "name": "Virix Labs",
-   "screenshot": "https://artifacts.apis.io/humanbrowser-cloud/screenshots/humanbrowser-cloud-2026-10-11T105459.png",
-   "slug": "humanbrowser-cloud",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/humanbrowser-cloud/"
   },
   {
    "description": "Virohanalife OÜ builds sovereign, humanity‑first AI systems that work for your life, not for platforms watching it. Their bi‑temporal memory APIs let AI agents discover, pay for, and verify work, settled in USDC over x402, with Ed25519‑signed receipts. They offer paid skills, memory storage, and a stack for AI agents to own their data and interactions, emphasizing privacy, ownership, and decentralized finance.",
