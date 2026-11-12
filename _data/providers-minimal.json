@@ -1,5 +1,5 @@
 {
- "total": 16882,
+ "total": 16881,
  "bands": [
   {
    "band": "minimal",
@@ -913719,60 +913719,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 16661
-    },
-    {
-     "name": "Slime Sandwich",
-     "slug": "slime-sandwich",
-     "url": "https://providers.apis.io/providers/slime-sandwich/",
-     "type": "API Provider",
-     "description": "Slime Sandwich was an online gaming company that developed in-browser 3D games. It was founded in 2009 in Englewood, Colorado by Douglas Glover, Vadim Ugov, and former Photobucket CEO Alex Welch, and raised a $2.75M Series A round backed by Battery Ventures. The company has since permanently ceased operations and its slimesandwich.com domain is no longer active (now a parked/for-sale listing). It was originally surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub for enrichment; enrichment confirms there is no live company website, developer portal, documentation, or public API surface to profile.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 16662
     },
     {
      "name": "Slingshot",
