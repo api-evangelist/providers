@@ -267221,13 +267221,6 @@
    "url": "https://providers.apis.io/providers/slik/"
   },
   {
-   "description": "Slime Sandwich was an online gaming company that developed in-browser 3D games. It was founded in 2009 in Englewood, Colorado by Douglas Glover, Vadim Ugov, and former Photobucket CEO Alex Welch, and raised a $2.75M Series A round backed by Battery Ventures. The company has since permanently ceased operations and its slimesandwich.com domain is no longer active (now a parked/for-sale listing). It was originally surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub for enrichment; enrichment confirms there is no live company website, developer portal, documentation, or public API surface to profile.",
-   "name": "Slime Sandwich",
-   "slug": "slime-sandwich",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/slime-sandwich/"
-  },
-  {
    "description": "Sling Money — rebranded to Morse in 2026 — is a consumer stablecoin money transfer app built by Avian Labs that lets people receive, hold, spend, invest, send, and convert US dollars across 150+ countries. It settles near-instant, low-fee cross-border payments over the Solana blockchain using reserve-backed stablecoins (USDC, EURC, USDP), and pairs the app with a prepaid Visa card and US stock/ETF investing. The company is regulated as a MiCAR-authorised crypto-asset service provider (AFM, Netherlands), a FinCEN-registered US Money Services Business, and is ISO/IEC 27001:2022 certified. It is a consumer product with no public developer API surface; this profile captures its published identity, security, and compliance posture.",
    "name": "Sling (Morse)",
    "screenshot": "https://artifacts.apis.io/sling/screenshots/sling-2026-09-02T155844.png",
