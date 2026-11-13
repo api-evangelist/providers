@@ -1,12 +1,12 @@
 {
- "total": 6052,
+ "total": 6051,
  "bands": [
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6052,
+   "count": 6051,
    "providers": [
     {
      "name": "AdReady (CPXi)",
@@ -22321,61 +22321,6 @@
       "mcp_tool_quality": "full"
      },
      "rank": 402
-    },
-    {
-     "name": "sketchxflow-com",
-     "slug": "sketchxflow-com",
-     "url": "https://providers.apis.io/providers/sketchxflow-com/",
-     "type": "API Provider",
-     "description": "SketchXFlow is an AI design platform that turns one prompt into a brand‑coherent website, mobile app or brand kit with a real design system, edits it with AI, and exports production code. It builds multi‑page websites with AI that keeps your colours, fonts and spacing consistent on every edit, offering clean Next.js or Tailwind exports and a free trial.",
-     "screenshot": "https://artifacts.apis.io/sketchxflow-com/screenshots/sketchxflow-com-2026-11-03T143304.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 52.2,
-      "contract_governance": 22.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.0,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 31.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "unknown",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": false,
-      "operation_distinctiveness": "distinct",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 403
     },
     {
      "name": "The New York Times Company",
