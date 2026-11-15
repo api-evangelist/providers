@@ -25,6 +25,10 @@
       symbol: workspace_premium
       href: https://apievangelist.com/rating/
 
+    - name: Transit Maps
+      symbol: subway
+      href: https://transit.apievangelist.com/
+
 
 - name: Learnings
   nav:
