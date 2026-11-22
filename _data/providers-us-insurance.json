@@ -1,6 +1,6 @@
 {
- "total": 76,
- "shown": 76,
+ "total": 77,
+ "shown": 77,
  "limit": 1000,
  "bands": [
   {
@@ -127,8 +127,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 13,
-   "shown": 13,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Origami Risk",
@@ -470,6 +470,60 @@
      "rank": 8
     },
     {
+     "name": "insureMO",
+     "slug": "insuremo-com",
+     "description": "InsureMo provides an AI‑ready insurance middle‑office platform offering API, data, and AI services for insurers, channels, tech companies, and partners. The platform includes pre‑built agent capabilities, rule checking, and integration tools to accelerate product development and digital distribution. It aims to modernize core insurance processes, enable ecosystem connectivity, and support AI‑driven workflows across the insurance value chain.",
+     "screenshot": "https://artifacts.apis.io/insuremo-com/screenshots/insuremo-com-2026-11-03T133913.png",
+     "score": 43.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 76.7,
+      "contract_quality": 45.6,
+      "contract_governance": 79.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 37.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-11-19",
+     "schema_version": "0.26.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 34.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na",
+      "mcp_tool_quality": "na"
+     },
+     "tier": "Core Systems & Policy Administration",
+     "rank": 9
+    },
+    {
      "name": "Solera",
      "slug": "solera",
      "description": "Solera is a Westlake, Texas headquartered vehicle lifecycle management software, data, and services company operating in more than 100 countries, and one of the claims-technology intermediaries that sits between property and casualty insurers and the repair, salvage, and fleet economy rather than underwriting risk itself. Its insurance-facing business is automobile physical damage claims — first notice of loss intake, photo and AI damage assessment, repair cost estimating, total loss valuation, parts sourcing, and claims workflow — delivered through the Audatex and Qapter brands alongside Vehicle Repair (Identifix, Autodata, Hollander), Dealer Solutions (DealerSocket, cap hpi), and Fleet Solutions (Omnitracs, SmartDrive, eDriving) divisions. Its API posture is characteristic of the United States insurance market seam — there is no self-serve developer portal on solera.com, no signup, and no public API key. The Solera Integrations portal at na.api.solera.com returns HTTP 200 to an Audatex user ID and password login wall, and onboarding is a provisioned B2B integration run through a Solera account representative with a kickoff meeting and UAT. What is genuinely public is a set of anonymously readable Swagger UI reference pages and machine readable OpenAPI 3.0.1 documents on the Audatex demo API host, plus PDF integration guides on na.api.solera.com/files, covering assignment dispatch and first notice of loss, claim image retrieval, and GIC integration. Authentication is OAuth 2.0 against an IdentityServer discovery document at dispatch-login-demo.audatex.com with resource scopes including b2b.fnol.api, gofnol.api, estimatics.api, and hqclaims.api. Solera does not reference ACORD anywhere in its public integration documentation. Its published standards alignment is CIECA instead — Audatex is documented as a Corporate Technology member of the Collision Industry Electronic Commerce Association and licensed to use CIECA standards, with the BMS 5.7 schema as the data mapping baseline for estimate return, which is the auto physical damage sector's analogue to ACORD rather than ACORD itself.",
@@ -521,7 +575,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Claims Technology",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Majesco",
@@ -575,7 +629,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Noyo",
@@ -629,7 +683,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Employee Benefits Administration",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "CoreLogic (Cotality)",
@@ -683,7 +737,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Risk Data & Analytics",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Gusto",
@@ -737,7 +791,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Employee Benefits Administration",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Ease",
@@ -791,7 +845,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Employee Benefits Administration",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "State Farm",
@@ -845,7 +899,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 15
+     "rank": 16
     }
    ],
    "open": true
@@ -910,7 +964,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Risk Data & Analytics",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Agentsync",
@@ -964,7 +1018,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Verisk",
@@ -1018,7 +1072,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Risk Data & Analytics",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Travelers",
@@ -1072,7 +1126,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Aflac",
@@ -1126,7 +1180,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "At-Bay",
@@ -1180,7 +1234,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "LexisNexis Risk Solutions",
@@ -1234,7 +1288,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Risk Data & Analytics",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "NAIC",
@@ -1288,7 +1342,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Coalition",
@@ -1342,7 +1396,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Cigna",
@@ -1396,7 +1450,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Humana",
@@ -1450,7 +1504,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "CCC Intelligent Solutions",
@@ -1504,7 +1558,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Claims Technology",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Unum",
@@ -1558,7 +1612,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "UnitedHealth Group",
@@ -1612,7 +1666,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Archipelago",
@@ -1666,7 +1720,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Risk Data & Analytics",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "AIG",
@@ -1720,7 +1774,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Pie Insurance",
@@ -1774,7 +1828,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 32
+     "rank": 33
     }
    ]
   },
@@ -1838,7 +1892,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Progressive",
@@ -1892,7 +1946,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Branch",
@@ -1946,7 +2000,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Arthur J. Gallagher",
@@ -2000,7 +2054,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Prudential Financial",
@@ -2054,7 +2108,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Liberty Mutual Insurance",
@@ -2108,7 +2162,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Lemonade",
@@ -2162,7 +2216,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Resilience",
@@ -2216,7 +2270,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Sure",
@@ -2270,7 +2324,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Guardian Life",
@@ -2324,7 +2378,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Sana Benefits",
@@ -2378,7 +2432,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Employee Benefits Administration",
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Kalepa",
@@ -2432,7 +2486,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "USAA",
@@ -2486,7 +2540,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "EIS Group",
@@ -2540,7 +2594,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Ebix",
@@ -2594,7 +2648,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Openly",
@@ -2648,7 +2702,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Reinsurance Group of America",
@@ -2702,7 +2756,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Reinsurance",
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Federato",
@@ -2756,7 +2810,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Cincinnati Financial",
@@ -2810,7 +2864,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Newfront",
@@ -2864,7 +2918,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Allstate",
@@ -2918,7 +2972,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Chubb",
@@ -2972,7 +3026,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Lockton",
@@ -3026,7 +3080,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Applied Systems",
@@ -3080,7 +3134,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Hippo",
@@ -3134,7 +3188,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Farmers Insurance Exchange",
@@ -3188,7 +3242,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -3242,7 +3296,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Brown & Brown",
@@ -3296,7 +3350,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Erie Insurance",
@@ -3350,7 +3404,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 61
+     "rank": 62
     }
    ]
   },
@@ -3414,7 +3468,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "GEICO",
@@ -3468,7 +3522,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Vertafore",
@@ -3522,7 +3576,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Policygenius",
@@ -3576,7 +3630,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Hi Marley",
@@ -3630,7 +3684,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Claims Technology",
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Kin Insurance",
@@ -3684,7 +3738,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Nava Benefits",
@@ -3738,7 +3792,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Employee Benefits Administration",
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "American Family Insurance",
@@ -3792,7 +3846,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Snapsheet",
@@ -3846,7 +3900,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Claims Technology",
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "ERGO NEXT Insurance",
@@ -3900,7 +3954,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Hartford Financial Services Group",
@@ -3954,7 +4008,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Nationwide",
@@ -4008,7 +4062,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "P&C / General Insurers",
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Marsh & McLennan",
@@ -4061,7 +4115,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "MetLife",
@@ -4115,7 +4169,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Principal Financial Group",
@@ -4169,7 +4223,7 @@
       "mcp_tool_quality": "na"
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 76
+     "rank": 77
     }
    ]
   }
