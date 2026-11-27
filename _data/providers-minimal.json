@@ -1,5 +1,5 @@
 {
- "total": 16881,
+ "total": 16878,
  "bands": [
   {
    "band": "minimal",
@@ -98776,61 +98776,6 @@
      "rank": 1796
     },
     {
-     "name": "BioCytics",
-     "slug": "biocytics",
-     "url": "https://providers.apis.io/providers/biocytics/",
-     "type": "API Provider",
-     "description": "BioCytics, Inc. is a privately held biotechnology company in Huntersville, North Carolina, founded in 2005 by John Powderly, MD, CPI, and clinically incubated by the co-located Carolina BioOncology Institute cancer research clinic. Its name means \"applications of living cells\": the company runs a Human Applications Laboratory (HAL), a patient-driven and industry-driven BioBank, and a BioInformatics group, and sells cGMP cell-therapy manufacturing (CDMO), early-phase CRO services, clinical lab diagnostics and translational analytical services alongside its own autologous adaptive immune cell therapy (AAICT) pipeline for solid tumors. Its BioDICE platform — BioCytics Digitally Integrated Clinical Enterprise — is an internal EMR / EDC-CDM / lab-documentation / CTMS suite whose product page names openEHR, HL7, FHIR, OMOP and SMART-on-FHIR as the data standards it works with, and openEHR International lists BioCytics as a Bronze industry partner. None of that is exposed: BioCytics publishes no developer program, no public API, and no machine-readable API contract of any kind, and biocytics.com is a 26-page WordPress site whose only machine-readable surface is the CMS's own unadvertised /wp-json/ index.",
-     "screenshot": "https://artifacts.apis.io/biocytics/screenshots/biocytics-2026-10-11T102256.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 16.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 1797
-    },
-    {
      "name": "Bloom & Wild",
      "slug": "bloom--wild",
      "url": "https://providers.apis.io/providers/bloom--wild/",
@@ -196536,61 +196481,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 3574
-    },
-    {
-     "name": "Carolina BioOncology Institute",
-     "slug": "carolina-biooncology-institute",
-     "url": "https://providers.apis.io/providers/carolina-biooncology-institute/",
-     "type": "API Provider",
-     "description": "Carolina BioOncology Institute (CBOI) is a physician-owned Phase I oncology clinical research clinic and translational laboratory in Huntersville, North Carolina, founded by Dr. John Powderly II. It runs first-in-human and early-phase immunotherapy trials for patients with advanced solid tumors, having opened more than 100 oncology trials over fifteen years, and operates the Human Applications Lab — a cGMP-capable cell-processing and biorepository facility developing autologous cellular therapies — alongside research-use-only analytical and clinical lab analysis services for trial sponsors. CBOI is the parent company of BioCytics and an openEHR Industry Partner. It publishes no public API, developer portal, SDK or machine-readable contract; the only machine-readable surface on its domain is the stock WordPress REST API its CMS emits, which is not a product API and is deliberately not registered here.",
-     "screenshot": "https://artifacts.apis.io/carolina-biooncology-institute/screenshots/carolina-biooncology-institute-2026-10-11T102723.png",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 3575
     },
     {
      "name": "ChainFX Payments",
@@ -372391,61 +372281,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 6777
-    },
-    {
-     "name": "Soma",
-     "slug": "soma",
-     "url": "https://providers.apis.io/providers/soma/",
-     "type": "API Provider",
-     "description": "Soma (Soma Insurance Services) is a commercial insurance brokerage that positions itself as the fastest brokerage for complex businesses, placing customized commercial-lines coverage across industries including retail, trucking, hospitality, healthcare, finance, technology, manufacturing, and construction. Coverage lines include general liability, commercial auto, cyber liability, professional liability, and builder's risk. Backed by Accel and Cowboy Ventures in the insurance-tech sector. As of this enrichment pass Soma publishes no public API, developer portal, or documentation surface; this profile captures its public web presence and domain-security posture.",
-     "screenshot": "https://artifacts.apis.io/soma/screenshots/soma-2026-09-02T160153.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 8.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 6778
     },
     {
      "name": "Sonic Automotive",

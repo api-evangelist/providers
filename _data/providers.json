@@ -54587,14 +54587,6 @@
    "url": "https://providers.apis.io/providers/bioconsortia/"
   },
   {
-   "description": "BioCytics, Inc. is a privately held biotechnology company in Huntersville, North Carolina, founded in 2005 by John Powderly, MD, CPI, and clinically incubated by the co-located Carolina BioOncology Institute cancer research clinic. Its name means \"applications of living cells\": the company runs a Human Applications Laboratory (HAL), a patient-driven and industry-driven BioBank, and a BioInformatics group, and sells cGMP cell-therapy manufacturing (CDMO), early-phase CRO services, clinical lab diagnostics and translational analytical services alongside its own autologous adaptive immune cell therapy (AAICT) pipeline for solid tumors. Its BioDICE platform — BioCytics Digitally Integrated Clinical Enterprise — is an internal EMR / EDC-CDM / lab-documentation / CTMS suite whose product page names openEHR, HL7, FHIR, OMOP and SMART-on-FHIR as the data standards it works with, and openEHR International lists BioCytics as a Bronze industry partner. None of that is exposed: BioCytics publishes no developer program, no public API, and no machine-readable API contract of any kind, and biocytics.com is a 26-page WordPress site whose only machine-readable surface is the CMS's own unadvertised /wp-json/ index.",
-   "name": "BioCytics",
-   "screenshot": "https://artifacts.apis.io/biocytics/screenshots/biocytics-2026-10-11T102256.png",
-   "slug": "biocytics",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/biocytics/"
-  },
-  {
    "description": "Bio Design Lab is a biotechnology and bioengineering company based in Seoul, South Korea. It creates and develops highly potent biopharmaceuticals using synthetic biology and systems-level genetic and genomic designs. The firm focuses on advancing retroviral and lentiviral vector platforms for cell and gene therapies, offering vector packaging services and innovative platform solutions. Its mission is to design and construct gene and cell therapy drugs and immunotherapies, delivering novel therapeutic technologies.",
    "name": "Biodesignlab",
    "screenshot": "https://artifacts.apis.io/biodesignlab/screenshots/biodesignlab-2026-10-11T102300.png",
@@ -74829,14 +74821,6 @@
    "url": "https://providers.apis.io/providers/carnow/"
   },
   {
-   "description": "Carolina BioOncology Institute (CBOI) is a physician-owned Phase I oncology clinical research clinic and translational laboratory in Huntersville, North Carolina, founded by Dr. John Powderly II. It runs first-in-human and early-phase immunotherapy trials for patients with advanced solid tumors, having opened more than 100 oncology trials over fifteen years, and operates the Human Applications Lab — a cGMP-capable cell-processing and biorepository facility developing autologous cellular therapies — alongside research-use-only analytical and clinical lab analysis services for trial sponsors. CBOI is the parent company of BioCytics and an openEHR Industry Partner. It publishes no public API, developer portal, SDK or machine-readable contract; the only machine-readable surface on its domain is the stock WordPress REST API its CMS emits, which is not a product API and is deliberately not registered here.",
-   "name": "Carolina BioOncology Institute",
-   "screenshot": "https://artifacts.apis.io/carolina-biooncology-institute/screenshots/carolina-biooncology-institute-2026-10-11T102723.png",
-   "slug": "carolina-biooncology-institute",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/carolina-biooncology-institute/"
-  },
-  {
    "description": "CarOnSale is an AI-supported B2B marketplace for used-car trading across Europe, operated by Castle Tech GmbH. Licensed dealers, OEMs, fleet operators, and leasing companies buy and sell used vehicles through digital auctions built on standardized 110-point condition assessments, AI-based pricing and valuation, and integrated transport and financing services. The platform connects sellers (dealer groups, OEMs, leasing and rental companies) with a European network of professional buyers, handling procurement, price discovery, settlement, and logistics end to end. Added to the API Evangelist network as a venture-portfolio company; no public developer API surface was found during enrichment.",
    "name": "CarOnSale",
    "screenshot": "https://artifacts.apis.io/caronsale/screenshots/caronsale-2026-07-25T204631.png",
@@ -83198,14 +83182,6 @@
    "slug": "cilium",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/cilium/"
-  },
-  {
-   "description": "Ciloo is a Rotterdam-headquartered global platform for branded products and promotional merchandise. Enterprises run a branded Ciloo store — business cards, apparel, stationery, signage, corporate gifts and sales collateral — and every order placed in it is produced on demand by a vetted production partner near the recipient, which Ciloo positions as cutting cost, waste and shipping distance while keeping brand control central. The platform is used by manufacturing, medical-device, professional- services and franchise organisations, and integrates with digital asset management (Frontify, Bynder, Canto, Aprimo, Papirfly, Brandfolder, Marvia), procurement and ERP (SAP Ariba, S/4HANA, Proactis, Proqura, Exact), SSO, and WooCommerce. Ciloo documents two APIs on its own knowledge centre at api.cilooprint.com: a per-brand-store Cart API secured with OAuth 1.0a, and a bidirectional Printer API integration that pushes orders to production partners and receives production and shipping status callbacks in return.",
-   "name": "Ciloo",
-   "screenshot": "https://artifacts.apis.io/ciloo/screenshots/ciloo-2026-08-17T080820.png",
-   "slug": "ciloo",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/ciloo/"
   },
   {
    "description": "Cimarex Energy was an independent oil and gas exploration and production company headquartered in Denver, Colorado, with operations focused in the Permian Basin and the Mid-Continent. In October 2021 Cimarex Energy combined with Cabot Oil & Gas Corporation to form Coterra Energy (NYSE: CTRA). No public Cimarex-branded developer APIs exist; all current digital channels and any future API offerings are part of Coterra Energy.",
@@ -251000,14 +250976,6 @@
    "url": "https://providers.apis.io/providers/riskiq/"
   },
   {
-   "description": "Risklytics is an AI-native property and catastrophe risk company (Y Combinator Summer 2026, based in San Francisco, founded 2026 by Samuel Gold and Alexander Risio). It builds hyper-localized disaster risk models that simulate specific natural hazards - wildfire, flood, wind, earthquake, and debris runout - against individual home structures rather than ZIP-code averages, creating a per-structure digital twin from building footprints, lidar, and public records. Its Ember API returns property risk scores, modeled annual loss estimates, and retrofit-impact modeling used for insurance risk selection and portfolio triage (currently California-only, production model ember-1.3.0-firewall). The company also operates the FireCast platform and an AI-native brokerage for hard-to-place commercial insurance. API access is via a personal API key issued through the platform dashboard; there is no public OpenAPI, developer portal, or blog published to date, so this profile captures the company identity, the documented Ember API plans and authentication model, and the security posture of its web surface.",
-   "name": "Risklytics",
-   "screenshot": "https://artifacts.apis.io/risklytics/screenshots/risklytics-2026-09-02T153903.png",
-   "slug": "risklytics",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/risklytics/"
-  },
-  {
    "description": "riskmethods was a supply-chain risk management SaaS company (Munich, Germany) that helped enterprises monitor, assess, and mitigate risk across their supplier networks using AI-driven risk intelligence, supplier monitoring, and disruption alerting. Backed by Point Nine Capital, riskmethods was acquired by Sphera in 2022 and its product now lives inside Sphera's Supply Chain Risk Management suite; the former riskmethods.net domain 301-redirects to sphera.com. riskmethods did not publish a public developer portal, OpenAPI definition, SDKs, or discovery endpoints, so this profile carries the identity and a probed domain-security posture rather than an API surface.",
    "name": "riskmethods",
    "screenshot": "https://artifacts.apis.io/riskmethods/screenshots/riskmethods-2026-09-02T153914.png",
@@ -269865,14 +269833,6 @@
    "slug": "solvvy",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/solvvy/"
-  },
-  {
-   "description": "Soma (Soma Insurance Services) is a commercial insurance brokerage that positions itself as the fastest brokerage for complex businesses, placing customized commercial-lines coverage across industries including retail, trucking, hospitality, healthcare, finance, technology, manufacturing, and construction. Coverage lines include general liability, commercial auto, cyber liability, professional liability, and builder's risk. Backed by Accel and Cowboy Ventures in the insurance-tech sector. As of this enrichment pass Soma publishes no public API, developer portal, or documentation surface; this profile captures its public web presence and domain-security posture.",
-   "name": "Soma",
-   "screenshot": "https://artifacts.apis.io/soma/screenshots/soma-2026-09-02T160153.png",
-   "slug": "soma",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/soma/"
   },
   {
    "description": "Soma Energy is an AI-powered energy intelligence platform that optimizes how power is produced, stored, and consumed. Founded by former Amazon and technology leaders, it coordinates power generation, battery storage, and large energy consumers such as data centers. Its Intelligence Platform combines three products: AI Trader, which automates energy procurement, hedging, and dispatch for independent power producers (IPPs); BESS Dispatcher, which manages battery energy storage systems; and Load Optimizer, which coordinates data-center workloads with grid conditions to cut energy costs and turn facilities into flexible grid assets. Soma Energy is an early-stage company backed by Uncork Capital. As of this profile the company exposes no public API, developer platform, or documentation.",

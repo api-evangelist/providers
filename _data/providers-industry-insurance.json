@@ -1,6 +1,6 @@
 {
- "total": 773,
- "shown": 773,
+ "total": 771,
+ "shown": 771,
  "limit": 1000,
  "bands": [
   {
@@ -13551,59 +13551,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 250
-    },
-    {
-     "name": "Risklytics",
-     "slug": "risklytics",
-     "description": "Risklytics is an AI-native property and catastrophe risk company (Y Combinator Summer 2026, based in San Francisco, founded 2026 by Samuel Gold and Alexander Risio). It builds hyper-localized disaster risk models that simulate specific natural hazards - wildfire, flood, wind, earthquake, and debris runout - against individual home structures rather than ZIP-code averages, creating a per-structure digital twin from building footprints, lidar, and public records. Its Ember API returns property risk scores, modeled annual loss estimates, and retrofit-impact modeling used for insurance risk selection and portfolio triage (currently California-only, production model ember-1.3.0-firewall). The company also operates the FireCast platform and an AI-native brokerage for hard-to-place commercial insurance. API access is via a personal API key issued through the platform dashboard; there is no public OpenAPI, developer portal, or blog published to date, so this profile captures the company identity, the documented Ember API plans and authentication model, and the security posture of its web surface.",
-     "screenshot": "https://artifacts.apis.io/risklytics/screenshots/risklytics-2026-09-02T153903.png",
-     "score": 20.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 13.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 251
     },
     {
      "name": "Symetra Financial",
@@ -34082,59 +34029,6 @@
       "mcp_tool_quality": "na"
      },
      "rank": 635
-    },
-    {
-     "name": "Soma",
-     "slug": "soma",
-     "description": "Soma (Soma Insurance Services) is a commercial insurance brokerage that positions itself as the fastest brokerage for complex businesses, placing customized commercial-lines coverage across industries including retail, trucking, hospitality, healthcare, finance, technology, manufacturing, and construction. Coverage lines include general liability, commercial auto, cyber liability, professional liability, and builder's risk. Backed by Accel and Cowboy Ventures in the insurance-tech sector. As of this enrichment pass Soma publishes no public API, developer portal, or documentation surface; this profile captures its public web presence and domain-security posture.",
-     "screenshot": "https://artifacts.apis.io/soma/screenshots/soma-2026-09-02T160153.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-11-06",
-     "schema_version": "0.27.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 8.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false,
-      "pagination_ratio": "na",
-      "operation_distinctiveness": "na",
-      "mcp_tool_quality": "na"
-     },
-     "rank": 636
     },
     {
      "name": "Avantifinancialgroup",
